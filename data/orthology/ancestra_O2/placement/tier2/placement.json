@@ -1,0 +1,29 @@
+{
+ "set": "tier2",
+ "snapshot": "20261030T085136Z",
+ "n_atlas": 436886,
+ "n_members": 9479,
+ "n_queries": 427407,
+ "source": "/tmp/pe_big/ancestra/o2/raw/sprot/uniprot_sprot.fasta.gz",
+ "release": "UniProtKB/Swiss-Prot Release 2026_03 of 02-Sep-2026",
+ "uniparc_fallback": "rest.uniprot.org/uniparc/stream?query=dbid:<acc>",
+ "n_with_sequence": 427407,
+ "n_no_sequence": 0,
+ "diamond_s": 98.9,
+ "wall_s": 188.5,
+ "config": {
+  "evalue": 1e-10,
+  "min_query_cov": 50.0,
+  "min_subject_cov": 0.0,
+  "diamond_mode": "--fast",
+  "chunk_size": 500000,
+  "threads": 40
+ },
+ "methods": {
+  "diamond": 386639,
+  "no_hit": 40768,
+  "member": 9479
+ },
+ "frac_compatible_of_diamond": 0.9803511802999697,
+ "frac_placed_in_hog": 0.8966023173093209
+}

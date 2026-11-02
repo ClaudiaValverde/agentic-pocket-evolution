@@ -1,0 +1,22 @@
+{
+ "source": "https://www.ebi.ac.uk/thornton-srv/m-csa/api/",
+ "downloaded_utc": "2026-10-30T10:43:13Z",
+ "n_entries": 1003,
+ "n_residue_rows": 788965,
+ "n_residue_rows_in_atlas": 778258,
+ "n_atlas_accessions_with_residues": 120855,
+ "n_atlas_accessions_reference": 900,
+ "riziotis_cases": 34,
+ "riziotis_members": 72,
+ "riziotis_cases_by_category": {
+  "structural+mechanistic": 14,
+  "mechanistic-only": 11,
+  "reaction-only": 9
+ },
+ "sha256": {
+  "entries_all.json": "c99c0f05081934ba192263cb25a2b1afc8096c7a9399465c36f0c549d824589d",
+  "residues.json": "92dc99acf0d1967d6a446be3916fab602c904de7d44855925f5fc1c8781aca06",
+  "homologues_residues.json": "bdf77a8c741b4cb04b0f2f6fa2ad4b335aa0aca27eef728c710b90efa15f48b9",
+  "PMC11796326_fullText.xml": "eff77d51358dde36cdca3f6be543c0277099e11393d07de526ecf3bd1d7187b2"
+ }
+}

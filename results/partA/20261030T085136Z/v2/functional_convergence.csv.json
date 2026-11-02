@@ -1,0 +1,45 @@
+{
+ "snapshot_id": "20261030T085136Z",
+ "prereg_sha256": "52f9461890984c210b730af86c40de221307a668e7d4b38098b3316059690d83",
+ "git_commit": "3f11d4c7fd0ceb248d8cd72bc59ce8209f1f272d",
+ "seed": [
+  20,
+  0
+ ],
+ "code_sha256_16": {
+  "directional.py": "2a9d4b316c90e8c0",
+  "estimands.py": "9602b81d549a9847",
+  "homology.py": "36d581570f088da9",
+  "nulls.py": "6f193b3d663c550d",
+  "pairs.py": "642c9b09a648492f"
+ },
+ "written_utc": "2026-10-30T13:01:53Z",
+ "stage": "functional_convergence",
+ "site_labels_attached": {
+  "biolip2": 307616,
+  "uniprot_exp": 7184,
+  "mcsa_ref": 839
+ },
+ "annotated_sites": 23540,
+ "sig_pairs_by_class": {
+  "H12s": 3952823,
+  "N": 3605586,
+  "H3j": 1393868,
+  "H2s": 459352,
+  "H1s": 145884,
+  "H12x": 80739,
+  "H4": 63551,
+  "H3s": 44138,
+  "H2x": 24496,
+  "H1x": 5854
+ },
+ "control_resolved_classes": {
+  "N": 59855,
+  "H4": 76,
+  "H3s": 29
+ },
+ "control_drawn": 200000,
+ "wall_s": 114.1798882484436,
+ "n_boot": 200,
+ "train_accessions": 1943
+}

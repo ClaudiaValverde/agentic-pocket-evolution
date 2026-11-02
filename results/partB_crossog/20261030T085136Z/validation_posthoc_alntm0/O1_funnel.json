@@ -1,0 +1,23 @@
+{
+ "og_pairs": 5,
+ "sog_pairs_considered": 150,
+ "sog_pairs_aligned": 122,
+ "sog_pairs_supported_alntm": 122,
+ "sog_pairs_linked_J": 13,
+ "links_tested_best_partner": 13,
+ "links_with_fingerprints": 13,
+ "call_a": 0,
+ "projections": 56,
+ "projections_testable": 31,
+ "b_pre_rescue": 0,
+ "call_b": 0,
+ "og_pairs_with_call_a": 0,
+ "og_pairs_with_call_b": 0,
+ "p_cut_a": 0.0,
+ "foldseek_s": 3.811737298965454,
+ "links_s": 3.7964134216308594,
+ "b_states_s": 44.05490684509277,
+ "rescue_s": 0.015203475952148438,
+ "total_s": 51.678261518478394,
+ "n_rep_pairs": 132
+}

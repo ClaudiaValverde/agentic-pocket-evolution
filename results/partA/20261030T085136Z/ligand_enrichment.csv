@@ -1,0 +1,17 @@
+exclude_pocketcompare_train,set,n_test,n_control,shared_test,shared_test_wilson_lo,shared_test_wilson_hi,shared_control_matched,shared_control_unmatched,enrichment,enrichment_ci_lo,enrichment_ci_hi
+True,sig_N_vs_matched_random_N,139,26399.0,0.1366906474820144,0.08928508059299003,0.20363798943702918,0.057339716515951475,0.07833630061744763,2.3838737926789033,1.4138154609442366,3.4733938988584807
+True,sig_H1s,184,,0.8043478260869565,,,,,,,
+True,sig_H2s,262,,0.7251908396946565,,,,,,,
+True,sig_H3j,456,,0.7653508771929824,,,,,,,
+True,sig_H3s,4,,1.0,,,,,,,
+True,sig_H4,3,,1.0,,,,,,,
+True,sig_H1x,8,,0.625,,,,,,,
+True,sig_H2x,9,,0.7777777777777778,,,,,,,
+False,sig_N_vs_matched_random_N,155,29956.0,0.14193548387096774,0.09563631485814623,0.20555430523130136,0.05587819019581569,0.07544398451061557,2.5400873466656453,1.6312834377474248,3.5819855432413505
+False,sig_H1s,184,,0.8043478260869565,,,,,,,
+False,sig_H2s,263,,0.7224334600760456,,,,,,,
+False,sig_H3j,476,,0.7689075630252101,,,,,,,
+False,sig_H3s,4,,1.0,,,,,,,
+False,sig_H4,3,,1.0,,,,,,,
+False,sig_H1x,8,,0.625,,,,,,,
+False,sig_H2x,9,,0.7777777777777778,,,,,,,

@@ -1,0 +1,22 @@
+{
+ "acc": "Q7CPE1",
+ "seq_sha256": "cf0f126805ea5d074f2cb66e6894e22c5a60a7c29c9779ed4957196808d8bc26",
+ "length": 513,
+ "server": "https://api.colabfold.com",
+ "endpoint": "/ticket/msa",
+ "mode": "env",
+ "ticket": "FMjcjzyRMGqiC4xymOcg0bEaqYvxPHt3y-BI1A",
+ "fetched_utc": "2026-10-30T15:01:56Z",
+ "elapsed_s": 120.4,
+ "db_files": {
+  "bfd.mgnify30.metaeuk30.smag30.a3m": 14183,
+  "uniref.a3m": 5487
+ },
+ "other_members": {
+  "pdb70.m8": 28468,
+  "msa.sh": 6616
+ },
+ "n_seqs": 19671,
+ "neff_proxy": 868.5,
+ "a3m_gz_bytes": 2920221
+}

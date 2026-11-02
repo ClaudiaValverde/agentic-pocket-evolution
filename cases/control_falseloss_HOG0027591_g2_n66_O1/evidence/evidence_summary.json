@@ -1,0 +1,222 @@
+{
+ "f1": {
+  "status": "fail",
+  "n_species_change": 0,
+  "clade_purity": 0.0,
+  "lca_purity": 0.0,
+  "single_event": false,
+  "n_out_support": 15,
+  "shape": "scattered",
+  "detail": "A in 0 derived species (purity 0.00 of informative derived members; 0.00 over all members under the species-tree LCA: scattered); single tree-consistent event: False; outgroup support: P in 15 outgroup species"
+ },
+ "f2": {
+  "status": "fail",
+  "strength": "none",
+  "about_change": false,
+  "detail": "no experimental evidence at the footprint",
+  "present": {
+   "n_members_with_evidence": 0,
+   "n_biolip": 0,
+   "n_uniprot_exp": 0,
+   "n_mcsa_ref": 0,
+   "pdb_ids": [],
+   "ligands": [],
+   "ligand_tokens": []
+  },
+  "absent": {
+   "n_members_with_evidence": 0,
+   "n_biolip": 0,
+   "n_uniprot_exp": 0,
+   "n_mcsa_ref": 0,
+   "pdb_ids": [],
+   "ligands": [],
+   "ligand_tokens": []
+  },
+  "chembl_present_proteins": 0,
+  "chembl_absent_proteins": 0,
+  "n_members_numbering_unverified": 0,
+  "n_hits_excluded_tau_tuning": 0,
+  "sensitivity_og_wide_exclusion": {
+   "status": "fail",
+   "n_hits_excluded": 0
+  }
+ },
+ "f3": {
+  "status": "pending",
+  "passing": [],
+  "detail": "conservation: na (too few aligned members (derived 0, outgroup 22)); rescue_consistency: na (no rescue run for present-side members); source_consistency: na (no present-side member in the v6/v4 re-detection sample); cofolding: pending (placeholder; filled by the co-folding agent)"
+ },
+ "lines": {
+  "conservation": {
+   "status": "na",
+   "detail": "too few aligned members (derived 0, outgroup 22)"
+  },
+  "rescue_consistency": {
+   "status": "na",
+   "detail": "no rescue run for present-side members"
+  },
+  "source_consistency": {
+   "status": "na",
+   "detail": "no present-side member in the v6/v4 re-detection sample"
+  },
+  "cofolding": {
+   "status": "pending",
+   "detail": "placeholder; filled by the co-folding agent"
+  }
+ },
+ "identifier_checks": {
+  "pdb": {},
+  "uniprot": {
+   "A0A077Z272": {
+    "resolved": true,
+    "title": "",
+    "organism": "Trichuris trichiura",
+    "retrieved_utc": "2026-10-30T16:18:14Z"
+   },
+   "A0A077ZCP7": {
+    "resolved": true,
+    "title": "",
+    "organism": "Trichuris trichiura",
+    "retrieved_utc": "2026-10-30T16:06:24Z"
+   },
+   "A0A0H5SE91": {
+    "resolved": true,
+    "title": "Serine/threonine-protein phosphatase 2A regulatory subunit B'' subunit gamma",
+    "organism": "Brugia malayi",
+    "retrieved_utc": "2026-10-30T16:18:14Z"
+   },
+   "A0A0K0EM08": {
+    "resolved": true,
+    "title": "",
+    "organism": "Strongyloides stercoralis",
+    "retrieved_utc": "2026-10-30T16:18:14Z"
+   },
+   "A0A0K0EM09": {
+    "resolved": true,
+    "title": "",
+    "organism": "Strongyloides stercoralis",
+    "retrieved_utc": "2026-10-30T16:18:14Z"
+   },
+   "A0A0N4U6H1": {
+    "resolved": true,
+    "title": "",
+    "organism": "Dracunculus medinensis",
+    "retrieved_utc": "2026-10-30T16:18:14Z"
+   },
+   "A0A0N4UCA6": {
+    "resolved": true,
+    "title": "EF-hand domain-containing protein",
+    "organism": "Dracunculus medinensis",
+    "retrieved_utc": "2026-10-30T16:06:25Z"
+   },
+   "A0A0N4UEC1": {
+    "resolved": true,
+    "title": "EF-hand domain-containing protein",
+    "organism": "Dracunculus medinensis",
+    "retrieved_utc": "2026-10-30T16:18:15Z"
+   },
+   "A0A0R0HUD3": {
+    "resolved": true,
+    "title": "EF-hand domain-containing protein",
+    "organism": "Glycine max",
+    "retrieved_utc": "2026-10-30T16:18:15Z"
+   },
+   "A0A158Q3J2": {
+    "resolved": true,
+    "title": "EF-hand domain-containing protein",
+    "organism": "Dracunculus medinensis",
+    "retrieved_utc": "2026-10-30T16:06:25Z"
+   },
+   "A0A1D6GPL1": {
+    "resolved": true,
+    "title": "EF-hand domain-containing protein",
+    "organism": "Zea mays",
+    "retrieved_utc": "2026-10-30T16:18:15Z"
+   },
+   "A0A1D6H350": {
+    "resolved": true,
+    "title": "PP2A regulatory subunit B'' EF-hand domain-containing protein",
+    "organism": "Zea mays",
+    "retrieved_utc": "2026-10-30T16:18:15Z"
+   },
+   "A0A1D6KTF9": {
+    "resolved": true,
+    "title": "EF-hand domain-containing protein",
+    "organism": "Zea mays",
+    "retrieved_utc": "2026-10-30T16:18:16Z"
+   },
+   "A0A1N7SYW5": {
+    "resolved": true,
+    "title": "",
+    "organism": "Caenorhabditis elegans",
+    "retrieved_utc": "2026-10-30T16:18:16Z"
+   },
+   "A0A368UGB1": {
+    "resolved": true,
+    "title": "EF-hand domain-containing protein",
+    "organism": "Glycine max",
+    "retrieved_utc": "2026-10-30T16:06:25Z"
+   },
+   "A0A368UGI4": {
+    "resolved": true,
+    "title": "EF-hand domain-containing protein",
+    "organism": "Glycine max",
+    "retrieved_utc": "2026-10-30T16:06:25Z"
+   },
+   "A0A3P7DBT0": {
+    "resolved": true,
+    "title": "EF-hand domain-containing protein",
+    "organism": "Wuchereria bancrofti",
+    "retrieved_utc": "2026-10-30T16:18:16Z"
+   },
+   "A0A3P7DEC5": {
+    "resolved": true,
+    "title": "EF-hand domain-containing protein",
+    "organism": "Wuchereria bancrofti",
+    "retrieved_utc": "2026-10-30T16:06:25Z"
+   },
+   "A0A3P7DLZ1": {
+    "resolved": true,
+    "title": "EF-hand domain-containing protein",
+    "organism": "Wuchereria bancrofti",
+    "retrieved_utc": "2026-10-30T16:18:16Z"
+   },
+   "A0A3P7DRK7": {
+    "resolved": true,
+    "title": "PP2A regulatory subunit B'' EF-hand domain-containing protein",
+    "organism": "Wuchereria bancrofti",
+    "retrieved_utc": "2026-10-30T16:18:16Z"
+   },
+   "A0A3P7DU35": {
+    "resolved": true,
+    "title": "",
+    "organism": "Wuchereria bancrofti",
+    "retrieved_utc": "2026-10-30T16:18:17Z"
+   },
+   "A0A3Q0KI09": {
+    "resolved": true,
+    "title": "",
+    "organism": "Schistosoma mansoni",
+    "retrieved_utc": "2026-10-30T16:18:17Z"
+   },
+   "A0A3Q0KJ13": {
+    "resolved": true,
+    "title": "",
+    "organism": "Schistosoma mansoni",
+    "retrieved_utc": "2026-10-30T16:18:17Z"
+   },
+   "A0A4E9EVI8": {
+    "resolved": true,
+    "title": "",
+    "organism": "Brugia malayi",
+    "retrieved_utc": "2026-10-30T16:18:18Z"
+   },
+   "A0A4E9EZ99": {
+    "resolved": true,
+    "title": "",
+    "organism": "Brugia malayi",
+    "retrieved_utc": "2026-10-30T16:06:25Z"
+   }
+  }
+ }
+}

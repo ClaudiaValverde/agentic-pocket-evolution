@@ -1,0 +1,364 @@
+# PREREGISTRATION — pocket evolution (DESIGN v1, §0 gate G1)
+# DRAFT for PI approval. On approval: freeze, record sha256 in RESEARCH_TREE.md, and no edit without a dated
+# deviation entry in DESIGN §12 (reason, timestamp, before/after results both kept).
+# Conventions:
+#   status: frozen   = value stated in DESIGN v1, not tunable.
+#   status: tunable  = tuned on the TUNE half only (see tune_test), grid given, test half reported + full grid.
+#   status: frozen = required by DESIGN/round-1 but NO value is given in DESIGN v1; PI must confirm or change
+#                      BEFORE freezing. Every `proposed` key is listed in reviews/round2/ai_structural.md.
+meta:
+  design_version: v1
+  prereg_version: draft-1
+  snapshot_id: "20261030T085136Z"
+  seeds: [0, 1, 2]
+  bootstrap_seed_rule: "seed * 1000 + replicate"
+  cofold_seeds: [1, 2, 3]            # docs/COFOLD.md default
+  multiple_testing: {method: BH, alpha: 0.05, status: frozen}   # DESIGN says "BH", no alpha
+
+tune_test:
+  status: frozen
+  # DESIGN §0 writes sha1(hog_id) % 2 == 0. hog_id is NOT stable between O1 and O2, so the split key is the
+  # stable seed accession instead (see round-2 change 5); PI must accept this or keep hog_id and re-tune on O2.
+  key: "lexicographically smallest UniProt accession among root-HOG members"
+  rule: "int(sha1(key.encode()).hexdigest(), 16) % 2 == 0 -> tune, else test"
+  split_fraction: 0.5
+  forced_test_half:
+    status: frozen
+    reason: "control-list families must never be tuned on (circularity with evidence filter 2)"
+    root_hogs_containing: [P03372, P10275, P04150, P08235, P06401, P43354, Q76NM3, C6KT25, P00338,
+                           P40925, P08200, P50213, Q6L545, Q9MAA7, Q05469, Q9SQR3, Q9SZU7, Q10QA5,
+                           P61626, P00709, P25688, P58710]
+  annotation_disjointness:
+    status: frozen
+    rule: "UniProt ECO/BioLiP2 sites used to tune tau (§8.1) are excluded from evidence filter 2 for the same SOG;
+           overlap count reported in the funnel."
+
+# ---------------------------------------------------------------- §3.1 sites
+sites:
+  merge_residue_jaccard: {value: 0.3, status: frozen}
+  merge_overlap_coefficient: {value: 0.5, status: frozen,
+    note: "round-1 structural change 1 (anti-percolation, AND-ed with Jaccard); NOT in DESIGN v1"}
+  percolation_flag_residues: {value: 60, status: frozen}
+  max_site_residues_split:
+    value: "3 x median pocket residue count"
+    status: frozen
+    action: "Leiden split of the component; component size and max_site/length reported as QC"
+  sensitivity_analysis: {raw_pockets_no_merge: true, status: frozen}
+
+# ---------------------------------------------------------------- §3.2 SOGs
+sogs:
+  min_species_per_root_og: {value: 3, status: frozen}
+  msa: {primary: FAMSA, fallback: MAFFT, structural_alternative: FoldMason, status: frozen}
+  msa_choice_rule: {status: frozen,
+    value: "FoldMason replaces FAMSA only if it wins on the tune half by SOG F1; decided per identity bin"}
+  low_identity_bin: {value: "mean pairwise identity < 0.25", status: frozen}
+  identity_bins_reported: {value: [[0, 0.30], [0.30, 0.50], [0.50, 1.0]], status: frozen}
+  model_sequence_identity_check: {value: "model seq == source seq by length+md5; mismatch -> state U, counted",
+                                  status: frozen}
+  tau_column_jaccard:
+    value: 0.3
+    status: tunable
+    grid: [0.2, 0.3, 0.4, 0.5]
+    objective: "max F1 of SOG recall/precision on §8.1 ortholog site pairs, TUNE half"
+    reported: "test half + full grid for every headline metric"
+  leiden_resolution: {value: 1.0, status: frozen, grid: [0.5, 1.0, 1.5]}
+  footprint_member_fraction: {value: 0.5, status: frozen}
+  footprint_allows_insertion_columns: {value: true, status: frozen}
+  pair_prefilter: {value: "inverted index column -> sites; keep pairs sharing >= 1 footprint column",
+                   status: frozen}
+  msa_method_flip_demotion:
+    status: frozen
+    rule: "for all case candidates, recompute states under FAMSA / MAFFT / FoldMason; any member whose state
+           flips between methods is demoted to U"
+    note: "round-1 structural change 2; NOT in DESIGN v1"
+
+# ---------------------------------------------------------------- §3.3 observation states
+states:
+  P: {rule: "site overlapping footprint, column Jaccard >= tau", status: frozen}
+  W: {rule: "no kept site, but atlas-filtered pocket (--min-score none) or rescue-setting site overlaps footprint",
+      never_absence: true, status: frozen}
+  A_primary:
+    footprint_aligned_non_gap_frac: {value: 0.80, status: frozen}
+    footprint_mean_plddt: {value: 90, status: frozen, grid: [70, 80, 90], note: "Akdel 2022"}
+    footprint_frac_residues_below_70: {value: 0.2, status: frozen}
+    protein_length_vs_og_median: {value: [0.7, 1.3], status: frozen}
+    terminal_truncation: {value: "footprint must not lie in a terminal truncation", status: frozen}
+    signal_peptide_propeptide_tm_overlap_max: {value: 0.0, status: frozen,
+      note: "DESIGN says no overlap; round-1 asked >0.30. Sources: UniProt SIGNAL/PROPEP/TRANSMEM, DeepTMHMM
+             where unannotated. Sensitivity reported at 0.30."}
+    model_status: {value: ok, status: frozen}
+  A_sensitivity_stratum: {footprint_mean_plddt: 70, status: frozen}
+  U_includes: {value: [likely_oligomeric_interface, metal_only_site, failed_A_criteria,
+                       model_sequence_mismatch, msa_method_flip], status: frozen}
+  interface_rule:
+    status: frozen
+    rule: "A -> U if footprint overlaps a PDBe/SIFTS biological-assembly interface or a UniProt SUBUNIT
+           homo/hetero-oligomer note. Applied to every A call that enters an event candidate (gain/loss) and
+           to all case members. NOT applied to M1 bulk rates (no proteome-wide interface data); M1 is reported
+           with this caveat. (PI decision D6: proteome-wide PDBe assembly mining is not feasible in budget.)"
+  ted_domain_rule:
+    status: frozen
+    rule: "footprint spanning >= 2 TED domains may not be called A unless a fetched PAE shows inter-domain
+           PAE <= 10 A; if PAE unavailable the member is U (counted, reported)"
+  G: {rule: "no HOG member in a complete proteome", status: frozen}
+  rescue:
+    symmetric: {value: true, status: frozen, note: "applied to every A used by a gain OR a loss candidate"}
+    settings: {value: ["--min-score none", "no AF mode", "seed s1", "seed s2", "preset fast", "preset accurate"],
+               n_settings: 6, status: frozen}
+    k_settings_to_rescue:
+      value: 2
+      status: tunable
+      grid: [1, 2, 3, 4]
+      objective: "smallest k meeting false_A_target on the known-present set (TUNE half)"
+    false_A_target: {value: 0.05, status: frozen}
+    rescue_P_calls: {value: true, status: frozen,
+      note: "P found in only 1/6 settings -> W; round-1 structural change 8; NOT in DESIGN v1"}
+  measured_error_rates:
+    redetection_sample_n_proteins: {value: 2000, status: frozen}
+    redetection_sources: {value: ["AFDB v6 tar", "Foldcomp v4"], seeds: [s1, s2], status: frozen}
+    false_A_set: {value: ["BioLiP2", "LIGYSIS"], scope: "tier-1/2 proteins", status: frozen}
+    reported_strata: {value: [plddt_band, organism, model_source], status: frozen}
+    blind: {value: true, status: frozen, note: "state caller run without known-present labels"}
+
+# ---------------------------------------------------------------- §4.1 Part A global
+part_a:
+  M1:
+    definition: "P(site has positional match in the other protein | footprint informative there)"
+    strata: [ortholog, paralog]
+    covariates: [divergence_time, sequence_identity]
+    normalisation: {value: "divide by same-protein re-detection ceiling", status: frozen,
+      ceiling_stratified_by: {value: [plddt_band, model_source], status: frozen}}
+    status: frozen
+  M2:
+    definition: "fingerprint cosine of positionally matched sites vs divergence time"
+    reference_lines: [technical_noise_floor, covariate_matched_background]
+    status: frozen
+  M3:
+    definition: "fraction of SOGs explained by <= 1 gain/loss under Dollo parsimony"
+    nulls: {curveball: {preserves: [per_species_total, per_sog_total],
+                        n_swaps: {value: "100 x number of 1s", status: frozen},
+                        n_replicates: {value: 1000, status: frozen}},
+            simulated_vertical_noisy: true}
+    status: frozen
+  deferred: [fritz_purvis_D, mk_ml_layer, qfo_rebenchmark]
+
+# ---------------------------------------------------------------- §4.2 similarity decomposition
+pairs:
+  universe: {value: "tier-1 + tier-2 site representative fingerprints", status: frozen}
+  knn_k: {value: 1000, status: frozen, also_reported: [10, 50, 200]}
+  knn_index: {value: "FAISS exact inner product, GPU", status: frozen}
+  null:
+    n_background_pockets_per_query: {value: 10000, status: frozen}
+    background_source: {value: "non-homologous proteins (no shared root HOG, no Pfam clan, no TED superfamily)",
+                        status: frozen}
+    strata: {value: [site_volume_A3, burrow_score, lining_polarity, lining_aromatic_fraction, mean_plddt],
+             joint: true, both_pockets: true, status: frozen}
+    n_strata_bins: {value: 4, status: frozen, note: "quartiles per covariate"}
+    tail_fit: {value: generalised_pareto, threshold_quantile: {value: 0.95, status: frozen}}
+    significance: {statistic: "E = N_db * p", threshold: 0.01, status: frozen}
+    expected_false_positive_count_reported: {value: true, status: frozen,
+      note: "report N_queries * 0.01 alongside every r_c"}
+    baselines_reported: [size_only, covariates_only]
+  homology_classes:
+    order: [H0, H1, H2, H3, H4, N]
+    H0: "same protein"
+    H1: "ortholog (same root HOG, speciation-separated)"
+    H2: "paralog (same root HOG)"
+    H3: {rule: "shared Pfam clan at the pocket region OR same PANTHER family OR same TED CATH superfamily
+                OR MMseqs2 E < 1e-3",
+         region_overlap_min: {value: 0.5, status: frozen}}
+    H4: {rule: "Foldseek E < 1e-3 OR TM >= 0.5 on the region domain", reported_as: ancestry_uncertain,
+         excluded_from_F_anc: true}
+    N: {rule: "Foldseek AND MMseqs2 searched and negative; Pfam/PANTHER absence NOT required"}
+    unknown: {status: frozen,
+      rule: "TED label missing on either side AND no Foldseek/MMseqs2 result -> class 'unknown', excluded from
+             all F estimands, count reported (data/algorithms change 2)"}
+    undetected_homology_correction:
+      n_pairs_sampled: {value: 200, status: frozen}
+      method: {value: "HHsearch-level check or Foldseek TM-align mode", status: frozen}
+      hhsearch_probability_cut: {value: 50.0, status: frozen}
+  estimands:
+    r_c: "P(pair significant | class c)"
+    F_anc: "sum over H1..H3 of n_c r_c / sum over all c of n_c r_c"
+    F_H4: "H4 share, reported separately"
+    F_analog: "N share; UPPER BOUND on convergence, not convergence"
+    F_conv_dir: "share of significant non-orthologous pairs (N, H3, H4) with significant directional signal"
+    weightings: [per_pair, per_site, per_family_pair]
+    status: frozen
+  functional_validation:
+    ecfp4_tanimoto: {value: 0.5, status: frozen}
+    shared_class_alternatives: [BioLiP2_chemotype, M_CSA_id, EC_number]
+    comparison: "covariate-matched random N pairs"
+    reporting: {uncorrected_enrichment: required, PPV: "reported separately, annotated subset only"}
+  directional_convergence:
+    design: cross_fitted
+    split: "G's derived-lineage members split into selection and test halves (seeded)"
+    statistic: "delta = s(b_test, a) - s(b_sister, a)"
+    sister_definition: "orthologous sites in G's sister lineages / reconstructed ancestral-proxy outgroup members"
+    calibration: [ortholog_H1_pairs, no_convergence_toy_world]
+    decision: "delta > calibration null 95th percentile, BH across pairs"
+    classes_tested: {value: [N, H3, H4], status: frozen,
+      note: "round-1 prior-work change 2 also asked for H2; add or record as deviation"}
+    prediction_stated_in_advance: "F_analog > 0 with no convergence (Gao & Skolnick degeneracy)"
+  uncertainty:
+    bootstrap: {type: two_way_crossed, unit: root_OG, n_replicates: 1000, status: frozen}
+    stratification: [model_source_v4_v6, pocket_size, plddt_ge_90]
+    reweighting: inverse_clade_size
+
+# ---------------------------------------------------------------- §5 Part B events
+part_b:
+  reconstruction: {algorithm: sankoff, gain_cost: 2, loss_cost: 1, status: frozen,
+                   cost_sensitivity_grid: [[2, 1], [1, 1], [3, 1]],
+                   U_handling: missing, W_handling: present_ambiguous}
+  event_fdr: {value: 0.10, status: frozen, calibrated_on: "simulated no-event null with measured per-species
+              error rates", recall_reported_on: "simulated planted events"}
+  gain:
+    min_species_present_in_clade: {value: 3, status: frozen}
+    min_informative_fraction_present: {value: 0.80, status: frozen}
+    min_absent_members_outgroup: {value: 2, status: frozen}
+    min_outgroup_lineages: {value: 2, status: frozen}
+    parsimony: "one gain on the clade stem"
+  loss:
+    min_outgroup_lineages_present: {value: 2, status: frozen}
+    min_species_absent_in_derived_clade: {value: 2, status: frozen}
+    min_informative_fraction_absent: {value: 0.80, status: frozen}
+    parsimony: "one loss on the derived-clade stem"
+  specificity_change:
+    primary: residue_first
+    min_clade_consistent_substitutions: {value: 2, status: frozen}
+    substitution_score: {value: "BLOSUM62 < 0", status: frozen}
+    support: "fingerprint mean shift on the branch exceeding the technical noise floor"
+    noise_floor_quantile: {value: 0.95, status: frozen}
+    regress_out: [site_volume_A3, footprint_plddt, model_source]
+    permutation: {level: clade, n: {value: 10000, status: frozen}}
+    correction: "BH across all SOG x branch pairs tested; number tested reported"
+    sensitivity_floor_control: "kinase gatekeeper-type single substitution"
+  candidate_score:
+    formula: "S = n_species_persistence * min(state_confidence) * evidence_count"
+    state_confidence: {definition: "per member: P=1.0, W=0.5, A=1.0 if footprint pLDDT>=90 and rescue negative in 6/6 settings else 0.5 (pLDDT 70-90 stratum); min taken over the derived-clade members plus the >=2 outgroup members used for the call",
+                       status: frozen}
+    status: frozen
+  case_selection:
+    top_k_per_category: {value: 5, status: frozen}
+    random_audit_cases_per_category: {value: 1, status: frozen, seeded: true}
+    manual_override: "logged with reason in DESIGN §12"
+  evidence_filters:
+    f1_persistence: "change in >= 3 species of the derived lineage, single tree-consistent event"
+    f2_experimental:
+      biolip2_residue_overlap_min: {value: 0.5, status: frozen}
+      uniprot_eco: [ECO:0000269, ECO:0007744]
+      pchembl_min: {value: 6, status: frozen}
+      about_the_change_required: {value: true, status: frozen,
+        note: "else recorded as 'protein-level only'; a loss needs experimental binding in the
+               ancestral/outgroup state"}
+      unresolvable_identifier: {action: fail_filter, status: frozen, note: "not 'pending'"}
+    f3_computational: [footprint_conservation, rescue_consistency, single_source_redescription,
+                       cofolding, ancestral_reconstruction_fold]
+    labels: {convincing: "all three filters", supported: "f1 + one of f2/f3"}
+    headline: convincing_only
+  negative_controls:
+    null_inputs: [curveball_permuted_PA, random_pseudo_clades, same_protein_fragments]
+    simulated_losses_must_give_U: true
+    must_report_G_not_A: [P25688, P58710, P10867]
+    truncation_stress: "M. leprae vs M. tuberculosis A-call rate before and after filters"
+    null_funnel_reported_beside_real: true
+  artifact_cascade_order: [footprint_plddt, disorder, PAE_or_TED, fragment_truncation_gene_model,
+                           signal_peptide_TM, oligomeric_interface, orthology_misassignment,
+                           pocket_finder_instability_rescue, model_source, apo_holo_AHoJ_DB]
+  cryptic_pocket_screen: {value: none, status: deferred, pi_note: "D6: not installed; listed as limitation", note: "named in round-1 F table, absent from DESIGN"}
+
+# ---------------------------------------------------------------- §6 co-folding
+cofold:
+  msa: {pipeline: "ColabFold MMseqs2 server for ALL members compared within a case", neff_recorded: true,
+        reuse_msa_for_variant_across_ancestral_boundary: false, status: frozen}
+  templates: {primary: "--no-templates", secondary: "with templates", status: frozen}
+  per_case_design: {min_derived_proteins: 2, min_ancestral_or_sister_proteins: 2,
+                    ligands: [cognate, property_matched_decoy], seeds: 3, samples_per_seed: 5, status: frozen}
+  decoy_matching: {properties: [MW, logP, HBD, HBA, rotatable_bonds],
+                   n_decoys_for_threshold_setting: {value: 10, status: frozen},
+                   n_decoys_per_case: {value: 2, status: frozen}}
+  readouts:
+    primary: {value: ligand_plddt, status: frozen, note: "DESIGN lists 4 readouts, names no primary"}
+    secondary: [min_protein_ligand_PAE, ligand_centroid_distance_to_footprint, posebusters_valid]
+    descriptive_only: [ipTM]
+  thresholds_from_benchmark:
+    ligand_plddt_true_min: {value: 90, status: frozen, note: "bench true 92.1-97.4, decoy 58.2-74.6"}
+    min_pl_pae_true_max: {value: 1.0, status: frozen, note: "bench true 0.78-0.89, decoy 1.54-4.02"}
+    centroid_distance_true_max_A: {value: 2.0, status: frozen, note: "bench true 0.10-0.49, decoy 4.1-7.7"}
+  decision_rule:
+    value: "derived-vs-ancestral difference in ligand pLDDT AND in min P-L PAE must exceed the
+            decoy-vs-cognate difference within the same protein"
+    statistic: {value: "per-seed means; difference must hold in all 3 seeds", status: frozen}
+    status: frozen
+  blinding: {value: true, status: frozen,
+    note: "derived/ancestral labels hashed in file names; the agent scoring models sees no state label"}
+  positive_control_gate:
+    required_before_case_interpretation: true
+    control: "known holo PDB complex of the family"
+    ligand_rmsd_max_A: {value: 2.0, status: frozen, note: "bench positives 0.28-1.22"}
+    site_ablation_control: {mutation: "footprint -> Gly", benchmarked_on: "the 4 bench positive controls first"}
+    failed_gate_label: {value: uninterpretable, status: frozen, note: "never silently dropped"}
+  ligand_free_refold: {value: "fold protein-only, 3 seeds x 5 samples, re-run BURROW", status: frozen}
+  homodimer_control: {value: "--copies 2 for case SOGs flagged oligomeric", token_cap: 1700, status: frozen}
+  cofactor_sites: {value: "co-fold with the cofactor present in BOTH states", status: frozen}
+  asr:
+    n_deep_dives: {value: [2, 4], status: frozen}
+    tool: "IQ-TREE --ancestral on the per-family FAMSA MSA/tree"
+    fold: [marginal_ML_ancestor, AltAll, ">= 2 posterior samples"]
+    min_mean_posterior_over_footprint: {value: 0.8, status: frozen, note: "Eick 2017; absent from DESIGN v1"}
+    accept_rule: "pocket call consistent across ML / AltAll / posterior samples"
+    consensus_bias_controls: {value: [shuffled_ancestor, extant_descendant_under_identical_MSA],
+                              status: frozen}
+  budget: {per_3seed_job_s: 80, reference_length_aa: 300, programme_jobs: 300, gpu_h: 7}
+
+# ---------------------------------------------------------------- §8 benchmarks
+benchmarks:
+  site_matching: {positives: "UniProt ECO binding features + BioLiP2 same-ligand ortholog pairs",
+                  metric: [recall, precision, F1], split: hog_hash, status: frozen}
+  atlas_site_recall: {set: LIGYSIS, status: frozen}
+  detectability_preflight:
+    value: "for every benchmark/control site, record whether known residues lie in a BURROW pocket
+            at residue overlap >= 0.5; convergence recall reported CONDITIONAL on detection"
+    overlap_min: 0.5
+    status: frozen
+  convergence_positives: [M_CSA_convergent_pairs_detected_only, cofactor_sites_adenine_NAD_FAD,
+                          ProSPECCTs_Barelier_pairs, TOUGH_M1]
+  toy_worlds: [planted_gains_losses, no_event_world, no_convergence_world, planted_fragments_low_plddt,
+               synthetic_pair_sets_known_H_N_mix]
+  orthology: {panther_agreement_sample_pairs: 2000, qfo: reported_only, status: frozen}
+  runtime_reported_per_stage: true
+
+# ---------------------------------------------------------------- §0 process enforcement
+process:
+  sidecar_fields: [snapshot_id, prereg_sha256, git_commit, seed]
+  stage_manifest_fields: [snapshot_id, prereg_sha256, git_commit, seeds, runtime_s, n_in, n_out,
+                          n_dropped_by_reason]
+  named_fallback_counters: {status: frozen,
+    value: [timetree_to_rank_proxy, famsa_to_mafft, pae_fetch_failed, diamond_no_hit, id_gap_unmapped,
+            msa_cache_miss, model_seq_mismatch, ted_label_missing]}
+  checks: [scripts/check_prereg.py, scripts/check_report_numbers.py, tests/test_no_silent_fallback.py]
+  numbers_json: results/numbers.json
+  figure_sidecars: {value: "each PNG has a sidecar with generating script + input hashes", status: frozen}
+  case_provenance: {status: frozen,
+    value: "cases/<id>/case.yaml emitted by the pipeline; manual inputs in cases/<id>/manual.yaml with
+            author_agent, source (DOI/PMID/PDB/ChEMBL), retrieved_at; lint forbids accession/ligand literals
+            in src/ outside tests"}
+  verifier: {checklist: docs/VERIFY_CHECKLIST.md,
+             producer_may_not_mark_own_tree_node: {value: true, status: frozen}}
+  results_storage_budget_gb: {value: 3, status: frozen}
+  report_must_list_planned_not_completed: {value: true, status: frozen}
+
+# ---------------------------------------------------------------- PI decisions at freeze (G1, D6)
+pi_freeze:
+  date: "2026-10-30T13:30+01:00"
+  accepted_proposed_values: 42
+  yield_preflight:
+    rule: "At the G2 slice and at G3 on tier 1+L, if fewer than 5 gain+loss candidates pass the primary
+           A criterion (footprint pLDDT>=90), report this count as a result and run the pLDDT>=70 stratum as the
+           pre-declared secondary analysis, labelled 'secondary stratum' in every table. The primary stratum is
+           never dropped from reporting."
+  headline_weighting: "per family pair (round-2 PI/statistics review), per-pair and per-site reported alongside"
+  specificity_null: "empirical: same statistic on other sister-clade pairs of matched depth in the same SOG set
+                     (replaces clade-level permutation as the primary null; permutation kept as secondary)"
+  gain_loss_cost_sensitivity: ["1:1", "2:1", "3:1"]
+  convincing_bar: "all three filters; 'supported' = persistence + one of experimental/computational"

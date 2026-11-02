@@ -1,0 +1,21 @@
+{
+ "n_annot_sites": 68660,
+ "n_annot_dropped_model_seq_mismatch": 591,
+ "by_source": {
+  "biolip": 62498,
+  "uniprot": 6162
+ },
+ "n_detected": 42602,
+ "detected_frac_by_source": {
+  "biolip": 0.6179,
+  "uniprot": 0.6464
+ },
+ "n_ogs_with_pairs": 1529,
+ "pairs": {
+  "('test', 'neg')": 8518,
+  "('test', 'pos')": 29973,
+  "('tune', 'neg')": 5298,
+  "('tune', 'pos')": 13475
+ },
+ "wall_s": 553.5649156570435
+}

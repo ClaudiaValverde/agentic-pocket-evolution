@@ -1,0 +1,60 @@
+{
+ "snapshot_id": "tierL_20261030T112000Z",
+ "created_utc": "2026-10-30T11:33:54.553944+00:00",
+ "atlas_root": "/tmp/pe_big/tierL",
+ "tier_code": 4,
+ "tier_label": "L",
+ "manifest": "manifest.parquet",
+ "manifest_sha256": "45fc59811e721f0b37dad903cc887845b0aa950807859ed0c702dbf87d62b0ee",
+ "worklist_sha256": "852acedfe879a88a3bccb46dc9c01b486dc5a5ac57e41a6631b4603c6a54c50d",
+ "fc_entries_sha256": "3936442ec29c5dbe310c7de33305e40f55ef5fc3c99660c06e7df2ee99ed3647",
+ "n_units": 179,
+ "n_excluded": 0,
+ "excluded_reasons": {},
+ "method_config_sha256": [
+  "b3ea8fe963ccc180d912ddde40a01547626d082fde8ea481232d5eda66a36a0c"
+ ],
+ "method_record_sha256": [
+  "b110dddd15a76194c91571cd3985bc6bea79a68fe852922a375cea192c6519b1"
+ ],
+ "n_bad_method_hash": 0,
+ "per_tier": {
+  "L": {
+   "units": 179,
+   "structures": 637503,
+   "pockets": 1837831,
+   "structures_ok": 637503,
+   "structures_error": 0,
+   "pockets_all": 2504395,
+   "pockets_bytes": 1497868125,
+   "rows_mismatch": 0,
+   "worklist_units": 179,
+   "proteomes": 39
+  }
+ },
+ "run_wall_s": 5246.6,
+ "run_structures_per_s": 121.5,
+ "tier3_overlap_accessions": 57222,
+ "tier3_overlap_identity": {
+  "tier3_unit": 2054,
+  "n_accessions": 4000,
+  "n_t3": 10264,
+  "n_tierL": 10264,
+  "n_common": 10264,
+  "max_abs_diff": 0.0,
+  "residues_equal": 10264
+ },
+ "verify_fingerprints": {
+  "ok": true,
+  "n_structures": 20,
+  "n_common": 79,
+  "min_cos": 0.9999998807907104
+ },
+ "script": "<repo>/scripts/observation/tierl_manifest.py",
+ "argv": [
+  "scripts/observation/tierl_manifest.py",
+  "--id",
+  "tierL_20261030T112000Z"
+ ],
+ "runtime_s": 814.2
+}

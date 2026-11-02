@@ -1,0 +1,4 @@
+seed	derived_lig_plddt	ancestral_lig_plddt	derived_pae_min	ancestral_pae_min	D_plddt	X_plddt_decoy_gap	D_pae	X_pae_decoy_gap	gain_rule_met	loss_rule_met
+1	90.8	46.8	0.858	3.548	44.1	11.5	2.69	1.787	True	False
+2	90.6	47.6	0.854	2.994	43.0	11.7	2.14	1.752	True	False
+3	90.8	47.4	0.852	3.206	43.4	10.4	2.354	1.738	True	False

@@ -1,0 +1,32 @@
+{
+ "output": "events.parquet",
+ "snapshot_id": "20261030T085136Z",
+ "prereg_sha256": "52f9461890984c210b730af86c40de221307a668e7d4b38098b3316059690d83",
+ "git_commit": "44aa553e32c1ab430569828b74db121bf9e6930f+dirty",
+ "seed": 0,
+ "created_utc": "2026-10-30T14:01:00Z",
+ "sha256": "7066b3ef9b1fab9e80b8de47d2ea86d72eb6805bdd420f1b09ab9c5a38b2a188",
+ "script": "scripts/partB/run_events.py",
+ "argv": [
+  "--sogs",
+  "results/partB/events/20261030T085136Z/O1_r3/tau0.2/primary/rescue",
+  "--orthology",
+  "O1",
+  "--snapshot",
+  "20261030T085136Z",
+  "--guide",
+  "data/orthology/ancestra_tier1_v0/tier1_guide_tree.nwk",
+  "--sog-meta",
+  "results/sogs/20261030T085136Z/O1_r3/sogs_all_tau.parquet",
+  "--tau",
+  "0.2",
+  "--thresholds",
+  "results/partB/sim/measured/d11_primary_known_gt10/thresholds.json",
+  "--stratum",
+  "primary",
+  "--workers",
+  "16",
+  "--out",
+  "results/partB/events/20261030T085136Z/O1_r3/tau0.2/primary/rescue/events"
+ ]
+}

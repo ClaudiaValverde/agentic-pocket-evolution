@@ -1,0 +1,1076 @@
+schema: case-v1
+case_id: loss_HOG0027153_g11_n17_O1
+title: 'Pocket loss (audit-level, not FDR-calibrated): HOG0027153:g11 (Onchocercidae)'
+category: loss
+track: discovery
+label: supported
+toy: false
+summary: 'SOG HOG0027153:g11: pocket present in outgroup lineages and absent-observed in the Onchocercidae
+  clade. Losses are NOT FDR-calibrated (D21): audit-level candidate only.'
+og_id: HOG0027153
+sog_id: HOG0027153:g11
+score: 3.0
+proteins:
+- accession: A0A077ZFJ4
+  taxid: 36087
+  species: '36087'
+  role: outgroup
+  side: present
+  state: P
+  footprint_plddt: 92.85713958740234
+  reason: ''
+  gene: null
+  protein_name: DNA-directed RNA polymerase
+  rescue_settings_hit: 5
+  residues: A:192 A:193 A:355 A:478 A:528 A:529 A:532 A:533 A:534 A:656 A:977 A:981 A:982 A:983
+  n_site_evidence: 0
+- accession: A0A0D2HBC4
+  taxid: 1442368
+  species: '1442368'
+  role: outgroup
+  side: other
+  state: U
+  footprint_plddt: 90.58333587646484
+  reason: length_ratio
+  gene: null
+  protein_name: DNA-directed RNA polymerase
+  rescue_settings_hit: null
+  residues: null
+  n_site_evidence: 0
+- accession: A0A0K0ECF8
+  taxid: 6248
+  species: '6248'
+  role: outgroup
+  side: present
+  state: P
+  footprint_plddt: 91.39286041259766
+  reason: ''
+  gene: null
+  protein_name: DNA-directed RNA polymerase
+  rescue_settings_hit: 5
+  residues: A:222 A:223 A:366 A:509 A:563 A:564 A:567 A:568 A:569 A:705 A:1010 A:1014 A:1015 A:1016
+  n_site_evidence: 0
+- accession: A0A0R0FNB7
+  taxid: 3847
+  species: '3847'
+  role: outgroup
+  side: other
+  state: U
+  footprint_plddt: 88.75
+  reason: aligned<0.8
+  gene: null
+  protein_name: DNA-directed RNA polymerase
+  rescue_settings_hit: null
+  residues: null
+  n_site_evidence: 0
+- accession: A0A0R0ISI6
+  taxid: 3847
+  species: '3847'
+  role: outgroup
+  side: other
+  state: U
+  footprint_plddt: 80.28571319580078
+  reason: plddt<90
+  gene: LOC100781410
+  protein_name: DNA-directed RNA polymerase
+  rescue_settings_hit: null
+  residues: null
+  n_site_evidence: 0
+- accession: A0A0R0KED1
+  taxid: 3847
+  species: '3847'
+  role: outgroup
+  side: other
+  state: U
+  footprint_plddt: null
+  reason: aligned<0.8
+  gene: null
+  protein_name: DNA-directed RNA polymerase
+  rescue_settings_hit: null
+  residues: null
+  n_site_evidence: 0
+- accession: A0A175VP72
+  taxid: 100816
+  species: '100816'
+  role: outgroup
+  side: other
+  state: U
+  footprint_plddt: 92.08333587646484
+  reason: length_ratio
+  gene: null
+  protein_name: DNA-directed RNA polymerase
+  rescue_settings_hit: null
+  residues: null
+  n_site_evidence: 0
+- accession: A0A1C1C7E7
+  taxid: 86049
+  species: '86049'
+  role: outgroup
+  side: other
+  state: U
+  footprint_plddt: 89.16666412353516
+  reason: length_ratio
+  gene: null
+  protein_name: DNA-directed RNA polymerase
+  rescue_settings_hit: null
+  residues: null
+  n_site_evidence: 0
+- accession: A0A1D6IJV3
+  taxid: 4577
+  species: '4577'
+  role: outgroup
+  side: present
+  state: P
+  footprint_plddt: 89.44230651855469
+  reason: ''
+  gene: LOC541775
+  protein_name: DNA-directed RNA polymerase
+  rescue_settings_hit: 2
+  residues: A:127 A:282 A:409 A:457 A:458 A:461 A:462 A:463 A:582 A:897 A:901 A:902 A:903
+  n_site_evidence: 0
+- accession: A0A1D8PCA4
+  taxid: 237561
+  species: '237561'
+  role: outgroup
+  side: other
+  state: A
+  footprint_plddt: 94.71154022216797
+  reason: ''
+  gene: RPO41
+  protein_name: DNA-directed RNA polymerase
+  rescue_settings_hit: 0
+  residues: null
+  n_site_evidence: 0
+- accession: A0A1D8PR19
+  taxid: 237561
+  species: '237561'
+  role: outgroup
+  side: other
+  state: W
+  footprint_plddt: 93.33333587646484
+  reason: rescue:4/6
+  gene: null
+  protein_name: DNA-directed RNA polymerase
+  rescue_settings_hit: 4
+  residues: null
+  n_site_evidence: 0
+- accession: A0A3P7FE93
+  taxid: 6293
+  species: '6293'
+  role: derived
+  side: absent
+  state: A
+  footprint_plddt: 93.28571319580078
+  reason: ''
+  gene: null
+  protein_name: DNA-directed RNA polymerase
+  rescue_settings_hit: 0
+  residues: A:280 A:281 A:423 A:549 A:603 A:604 A:607 A:608 A:609 A:744 A:1048 A:1052 A:1053 A:1054
+  n_site_evidence: 0
+- accession: A0A3P7Q9B2
+  taxid: 318479
+  species: '318479'
+  role: outgroup
+  side: present
+  state: P
+  footprint_plddt: 86.28571319580078
+  reason: ''
+  gene: null
+  protein_name: DNA-directed RNA polymerase
+  rescue_settings_hit: 6
+  residues: A:12 A:13 A:143 A:272 A:326 A:327 A:330 A:331 A:332 A:467 A:779 A:783 A:784 A:785
+  n_site_evidence: 0
+- accession: A0A3Q0KPI7
+  taxid: 6183
+  species: '6183'
+  role: outgroup
+  side: other
+  state: A
+  footprint_plddt: 95.53571319580078
+  reason: ''
+  gene: null
+  protein_name: DNA-directed RNA polymerase
+  rescue_settings_hit: 0
+  residues: null
+  n_site_evidence: 0
+- accession: A0A4E9F0G0
+  taxid: 6279
+  species: '6279'
+  role: derived
+  side: absent
+  state: A
+  footprint_plddt: 93.03571319580078
+  reason: ''
+  gene: Bm1_24475
+  protein_name: DNA-directed RNA polymerase
+  rescue_settings_hit: 0
+  residues: A:280 A:281 A:423 A:549 A:603 A:604 A:607 A:608 A:609 A:744 A:1048 A:1052 A:1053 A:1054
+  n_site_evidence: 0
+- accession: A0A804LDE6
+  taxid: 4577
+  species: '4577'
+  role: outgroup
+  side: other
+  state: U
+  footprint_plddt: 86.02777862548828
+  reason: aligned<0.8
+  gene: null
+  protein_name: DNA-directed RNA polymerase
+  rescue_settings_hit: null
+  residues: null
+  n_site_evidence: 0
+- accession: A0A804LR19
+  taxid: 4577
+  species: '4577'
+  role: outgroup
+  side: other
+  state: U
+  footprint_plddt: 98.25
+  reason: partial_site_overlap
+  gene: null
+  protein_name: DNA-directed RNA polymerase
+  rescue_settings_hit: null
+  residues: null
+  n_site_evidence: 0
+- accession: A0A804NBT5
+  taxid: 4577
+  species: '4577'
+  role: outgroup
+  side: other
+  state: U
+  footprint_plddt: 92.75
+  reason: aligned<0.8
+  gene: null
+  protein_name: DNA-directed RNA polymerase
+  rescue_settings_hit: null
+  residues: null
+  n_site_evidence: 0
+- accession: A0A804PB00
+  taxid: 4577
+  species: '4577'
+  role: outgroup
+  side: other
+  state: U
+  footprint_plddt: 96.75
+  reason: aligned<0.8
+  gene: null
+  protein_name: DNA-directed RNA polymerase
+  rescue_settings_hit: null
+  residues: null
+  n_site_evidence: 0
+- accession: A0A804QAV3
+  taxid: 4577
+  species: '4577'
+  role: outgroup
+  side: other
+  state: U
+  footprint_plddt: 90.08333587646484
+  reason: partial_site_overlap
+  gene: null
+  protein_name: DNA-directed RNA polymerase N-terminal domain-containing protein
+  rescue_settings_hit: null
+  residues: null
+  n_site_evidence: 0
+- accession: A0A804RDZ7
+  taxid: 4577
+  species: '4577'
+  role: outgroup
+  side: other
+  state: U
+  footprint_plddt: 83.5227279663086
+  reason: partial_site_overlap
+  gene: null
+  protein_name: DNA-directed RNA polymerase
+  rescue_settings_hit: null
+  residues: null
+  n_site_evidence: 0
+- accession: A0A804U9V6
+  taxid: 4577
+  species: '4577'
+  role: outgroup
+  side: other
+  state: U
+  footprint_plddt: 60.46428680419922
+  reason: aligned<0.8
+  gene: null
+  protein_name: DNA-directed RNA polymerase
+  rescue_settings_hit: null
+  residues: null
+  n_site_evidence: 0
+- accession: A0A8R1U2W8
+  taxid: 6282
+  species: '6282'
+  role: derived
+  side: absent
+  state: A
+  footprint_plddt: 94.60713958740234
+  reason: ''
+  gene: null
+  protein_name: DNA-directed RNA polymerase
+  rescue_settings_hit: 0
+  residues: A:276 A:277 A:419 A:543 A:597 A:598 A:601 A:602 A:603 A:738 A:1042 A:1046 A:1047 A:1048
+  n_site_evidence: 0
+- accession: A0AAF5DGA5
+  taxid: 6248
+  species: '6248'
+  role: outgroup
+  side: present
+  state: P
+  footprint_plddt: 90.71428680419922
+  reason: ''
+  gene: null
+  protein_name: DNA-directed RNA polymerase
+  rescue_settings_hit: 4
+  residues: A:327 A:328 A:471 A:614 A:668 A:669 A:672 A:673 A:674 A:810 A:1115 A:1119 A:1120 A:1121
+  n_site_evidence: 0
+- accession: A4I0V3
+  taxid: 5671
+  species: '5671'
+  role: outgroup
+  side: other
+  state: U
+  footprint_plddt: 79.75
+  reason: length_ratio
+  gene: null
+  protein_name: DNA-directed RNA polymerase
+  rescue_settings_hit: null
+  residues: null
+  n_site_evidence: 0
+- accession: A5PEY3
+  taxid: 6239
+  species: '6239'
+  role: outgroup
+  side: other
+  state: U
+  footprint_plddt: 95.32142639160156
+  reason: partial_site_overlap
+  gene: rpom-1
+  protein_name: DNA-directed RNA polymerase
+  rescue_settings_hit: null
+  residues: null
+  n_site_evidence: 0
+- accession: C0NPG4
+  taxid: 447093
+  species: '447093'
+  role: outgroup
+  side: other
+  state: U
+  footprint_plddt: 91.95833587646484
+  reason: length_ratio
+  gene: null
+  protein_name: DNA-directed RNA polymerase
+  rescue_settings_hit: null
+  residues: null
+  n_site_evidence: 0
+- accession: C1GZG1
+  taxid: 502779
+  species: '502779'
+  role: outgroup
+  side: other
+  state: U
+  footprint_plddt: 91.0
+  reason: length_ratio
+  gene: null
+  protein_name: DNA-directed RNA polymerase
+  rescue_settings_hit: null
+  residues: null
+  n_site_evidence: 0
+- accession: I1JWD0
+  taxid: 3847
+  species: '3847'
+  role: outgroup
+  side: other
+  state: U
+  footprint_plddt: 97.6500015258789
+  reason: aligned<0.8
+  gene: null
+  protein_name: DNA-directed RNA polymerase
+  rescue_settings_hit: null
+  residues: null
+  n_site_evidence: 0
+- accession: I1MT00
+  taxid: 3847
+  species: '3847'
+  role: outgroup
+  side: other
+  state: W
+  footprint_plddt: 91.125
+  reason: rescue:1/6
+  gene: LOC100779299
+  protein_name: DNA-directed RNA polymerase
+  rescue_settings_hit: 1
+  residues: null
+  n_site_evidence: 0
+- accession: K7K9S6
+  taxid: 3847
+  species: '3847'
+  role: outgroup
+  side: other
+  state: U
+  footprint_plddt: 84.25
+  reason: aligned<0.8
+  gene: null
+  protein_name: DNA-directed RNA polymerase
+  rescue_settings_hit: null
+  residues: null
+  n_site_evidence: 0
+- accession: K7KWI1
+  taxid: 3847
+  species: '3847'
+  role: outgroup
+  side: other
+  state: W
+  footprint_plddt: 91.875
+  reason: rescue:3/6
+  gene: LOC100783185
+  protein_name: DNA-directed RNA polymerase
+  rescue_settings_hit: 3
+  residues: null
+  n_site_evidence: 0
+- accession: K7L8Z9
+  taxid: 3847
+  species: '3847'
+  role: outgroup
+  side: other
+  state: U
+  footprint_plddt: 89.125
+  reason: partial_site_overlap
+  gene: null
+  protein_name: DNA-directed RNA polymerase
+  rescue_settings_hit: null
+  residues: null
+  n_site_evidence: 0
+- accession: K7L904
+  taxid: 3847
+  species: '3847'
+  role: outgroup
+  side: other
+  state: U
+  footprint_plddt: 97.625
+  reason: aligned<0.8
+  gene: null
+  protein_name: DNA-directed RNA polymerase
+  rescue_settings_hit: null
+  residues: null
+  n_site_evidence: 0
+- accession: K7MG43
+  taxid: 3847
+  species: '3847'
+  role: outgroup
+  side: other
+  state: U
+  footprint_plddt: 97.125
+  reason: aligned<0.8
+  gene: null
+  protein_name: DNA-directed RNA polymerase
+  rescue_settings_hit: null
+  residues: null
+  n_site_evidence: 0
+- accession: K7MV39
+  taxid: 3847
+  species: '3847'
+  role: outgroup
+  side: other
+  state: U
+  footprint_plddt: 83.39286041259766
+  reason: plddt<90
+  gene: LOC100777921
+  protein_name: DNA-directed RNA polymerase
+  rescue_settings_hit: null
+  residues: null
+  n_site_evidence: 0
+- accession: O00411
+  taxid: 9606
+  species: '9606'
+  role: outgroup
+  side: present
+  state: P
+  footprint_plddt: 98.5
+  reason: ''
+  gene: POLRMT
+  protein_name: DNA-directed RNA polymerase, mitochondrial
+  rescue_settings_hit: 6
+  residues: A:387 A:388 A:537 A:651 A:700 A:701 A:704 A:705 A:706 A:829 A:1140 A:1144 A:1145 A:1146
+  n_site_evidence: 0
+- accession: O13993
+  taxid: 284812
+  species: '284812'
+  role: outgroup
+  side: other
+  state: U
+  footprint_plddt: 86.55769348144531
+  reason: plddt<90
+  gene: rpo41
+  protein_name: DNA-directed RNA polymerase, mitochondrial
+  rescue_settings_hit: null
+  residues: null
+  n_site_evidence: 0
+- accession: O24600
+  taxid: 3702
+  species: '3702'
+  role: outgroup
+  side: other
+  state: W
+  footprint_plddt: 91.75
+  reason: rescue:1/6
+  gene: RPOT3
+  protein_name: DNA-directed RNA polymerase 3, chloroplastic
+  rescue_settings_hit: 1
+  residues: null
+  n_site_evidence: 0
+- accession: O82725
+  taxid: 4577
+  species: '4577'
+  role: outgroup
+  side: other
+  state: U
+  footprint_plddt: 92.125
+  reason: partial_site_overlap
+  gene: LOC541776
+  protein_name: DNA-directed RNA polymerase
+  rescue_settings_hit: null
+  residues: null
+  n_site_evidence: 0
+- accession: P13433
+  taxid: 559292
+  species: '559292'
+  role: outgroup
+  side: other
+  state: U
+  footprint_plddt: 96.32691955566406
+  reason: length_ratio
+  gene: RPO41
+  protein_name: DNA-directed RNA polymerase, mitochondrial
+  rescue_settings_hit: null
+  residues: null
+  n_site_evidence: 0
+- accession: P92969
+  taxid: 3702
+  species: '3702'
+  role: outgroup
+  side: other
+  state: U
+  footprint_plddt: 87.14286041259766
+  reason: plddt<90
+  gene: RPOT1
+  protein_name: DNA-directed RNA polymerase 1, mitochondrial
+  rescue_settings_hit: null
+  residues: null
+  n_site_evidence: 0
+- accession: Q2V4S9
+  taxid: 6239
+  species: '6239'
+  role: outgroup
+  side: other
+  state: U
+  footprint_plddt: null
+  reason: aligned<0.8
+  gene: null
+  protein_name: Uncharacterized protein
+  rescue_settings_hit: null
+  residues: null
+  n_site_evidence: 0
+- accession: Q385J0
+  taxid: 185431
+  species: '185431'
+  role: outgroup
+  side: other
+  state: U
+  footprint_plddt: 79.0
+  reason: plddt<90
+  gene: null
+  protein_name: DNA-directed RNA polymerase
+  rescue_settings_hit: null
+  residues: null
+  n_site_evidence: 0
+- accession: Q4CYM3
+  taxid: 353153
+  species: '353153'
+  role: outgroup
+  side: other
+  state: U
+  footprint_plddt: 97.125
+  reason: aligned<0.8
+  gene: null
+  protein_name: DNA-directed RNA polymerase
+  rescue_settings_hit: null
+  residues: null
+  n_site_evidence: 0
+- accession: Q4DN02
+  taxid: 353153
+  species: '353153'
+  role: outgroup
+  side: other
+  state: U
+  footprint_plddt: 80.4000015258789
+  reason: partial_site_overlap
+  gene: null
+  protein_name: DNA-directed RNA polymerase
+  rescue_settings_hit: null
+  residues: null
+  n_site_evidence: 0
+- accession: Q4DZG9
+  taxid: 353153
+  species: '353153'
+  role: outgroup
+  side: other
+  state: U
+  footprint_plddt: 79.71428680419922
+  reason: plddt<90
+  gene: null
+  protein_name: DNA-directed RNA polymerase
+  rescue_settings_hit: null
+  residues: null
+  n_site_evidence: 0
+- accession: Q67UP6
+  taxid: 39947
+  species: '39947'
+  role: outgroup
+  side: other
+  state: U
+  footprint_plddt: 94.0
+  reason: terminal_truncation
+  gene: null
+  protein_name: DNA-directed RNA polymerase
+  rescue_settings_hit: null
+  residues: null
+  n_site_evidence: 0
+- accession: Q6K326
+  taxid: 39947
+  species: '39947'
+  role: outgroup
+  side: other
+  state: U
+  footprint_plddt: 84.13461303710938
+  reason: partial_site_overlap
+  gene: null
+  protein_name: DNA-directed RNA polymerase
+  rescue_settings_hit: null
+  residues: null
+  n_site_evidence: 0
+- accession: Q8BKF1
+  taxid: 10090
+  species: '10090'
+  role: outgroup
+  side: present
+  state: P
+  footprint_plddt: 95.75
+  reason: ''
+  gene: Polrmt
+  protein_name: DNA-directed RNA polymerase, mitochondrial
+  rescue_settings_hit: 6
+  residues: A:359 A:360 A:509 A:622 A:671 A:672 A:675 A:676 A:677 A:800 A:1110 A:1114 A:1115 A:1116
+  n_site_evidence: 0
+- accession: Q8IIB0
+  taxid: 36329
+  species: '36329'
+  role: outgroup
+  side: other
+  state: U
+  footprint_plddt: 81.28571319580078
+  reason: length_ratio
+  gene: null
+  protein_name: DNA-directed RNA polymerase
+  rescue_settings_hit: null
+  residues: null
+  n_site_evidence: 0
+- accession: Q9LFV6
+  taxid: 3702
+  species: '3702'
+  role: outgroup
+  side: other
+  state: U
+  footprint_plddt: 84.07142639160156
+  reason: plddt<90
+  gene: RPOT2
+  protein_name: DNA-directed RNA polymerase 2, chloroplastic/mitochondrial
+  rescue_settings_hit: null
+  residues: null
+  n_site_evidence: 0
+- accession: Q9VPW4
+  taxid: 7227
+  species: '7227'
+  role: outgroup
+  side: other
+  state: U
+  footprint_plddt: 96.14286041259766
+  reason: length_ratio
+  gene: PolrMT
+  protein_name: DNA-directed RNA polymerase
+  rescue_settings_hit: null
+  residues: null
+  n_site_evidence: 0
+- accession: U7Q8Z6
+  taxid: 1391915
+  species: '1391915'
+  role: outgroup
+  side: other
+  state: U
+  footprint_plddt: 93.125
+  reason: length_ratio
+  gene: null
+  protein_name: DNA-directed RNA polymerase
+  rescue_settings_hit: null
+  residues: null
+  n_site_evidence: 0
+- accession: A0A8I5Y8F7
+  taxid: 10116
+  species: '10116'
+  role: outgroup
+  side: other
+  state: U
+  footprint_plddt: null
+  reason: no_model
+  gene: ''
+  protein_name: ''
+  rescue_settings_hit: null
+  residues: null
+  n_site_evidence: 0
+- accession: A0ACD6B7G4
+  taxid: 7955
+  species: '7955'
+  role: outgroup
+  side: other
+  state: U
+  footprint_plddt: null
+  reason: no_model
+  gene: ''
+  protein_name: ''
+  rescue_settings_hit: null
+  residues: null
+  n_site_evidence: 0
+- accession: A0ACM8Q108
+  taxid: 44689
+  species: '44689'
+  role: outgroup
+  side: other
+  state: U
+  footprint_plddt: null
+  reason: no_model
+  gene: ''
+  protein_name: ''
+  rescue_settings_hit: null
+  residues: null
+  n_site_evidence: 0
+filters:
+- name: persistence
+  status: pass
+  detail: 'A in 3 derived species (purity 1.00 of informative derived members; 1.00 over all members under
+    the species-tree LCA: clean clade); single tree-consistent event: True; outgroup support: P in 6 outgroup
+    species'
+- name: experimental
+  status: fail
+  detail: 'ChEMBL pChEMBL>=6 activity on 1 outgroup/ancestral (pocket present) protein(s): protein-level
+    only, not mapped to the footprint'
+- name: computational
+  status: pass
+  detail: 'conservation: fail (8/14 footprint columns clade-specific (rate 0.57 vs background 0.62); derived
+    conservation 0.98, outgroup identity to derived majority 0.37); rescue_consistency: pass (present
+    side re-detected in >= 3/6 BURROW settings for 0.86 of 7 members (median 5); absent side max 0/6 over
+    3 members); source_consistency: na (no present-side member in the v6/v4 re-detection sample); cofolding:
+    pending (placeholder; filled by the co-folding agent)'
+- name: f3:conservation
+  status: fail
+  detail: 8/14 footprint columns clade-specific (rate 0.57 vs background 0.62); derived conservation 0.98,
+    outgroup identity to derived majority 0.37
+- name: f3:rescue_consistency
+  status: pass
+  detail: present side re-detected in >= 3/6 BURROW settings for 0.86 of 7 members (median 5); absent
+    side max 0/6 over 3 members
+- name: f3:source_consistency
+  status: na
+  detail: no present-side member in the v6/v4 re-detection sample
+- name: f3:cofolding
+  status: pending
+  detail: placeholder; filled by the co-folding agent
+artifact_checks:
+- name: a_footprint_plddt
+  status: pass
+  detail: ''
+- name: a_disorder
+  status: pass
+  detail: ''
+- name: a_pae_ted
+  status: pass
+  detail: ''
+- name: a_fragment
+  status: pass
+  detail: ''
+- name: a_orthology_o2
+  status: pass
+  detail: ''
+- name: a_orthology_panther
+  status: pass
+  detail: ''
+- name: a_instability
+  status: pass
+  detail: ''
+- name: a_fragment_present
+  status: pass
+  detail: ''
+- name: flag_present_plddt_lt90
+  status: na
+  detail: 'flag (reported, not a fail; D24): True'
+- name: a_species_tree_lineages
+  status: pass
+  detail: ''
+- name: flag_paralog_branch
+  status: na
+  detail: 'flag (reported, not a fail; D24): False'
+- name: artifact_na
+  status: na
+  detail: ''
+- name: artifact_fails
+  status: na
+  detail: ''
+- name: orthology_side_family_reported_only
+  status: pass
+  detail: 'PANTHER: present side [''PTHR10102''], absent side [''PTHR10102'']; shared [''PTHR10102'']
+    [reported only; does not gate selection (PI D30)]'
+evidence:
+- type: chembl
+  id: CHEMBL3120041
+  about_change: false
+  detail: 'O00411: 1 compounds pChEMBL>=6 (max 6.0), protein-level only'
+  filter: experimental
+  verified: null
+cofold:
+- model_id: loss_HOG0027153_g11_n17_O1
+  status: uninterpretable
+  role: case
+  family: DNA-directed RNA polymerase (EC 2.7.7.6)
+  ligands:
+  - CCD:APC
+  - CCD:MG
+  decoys:
+  - - CCD:TTP
+    - CCD:MG
+  msa: ColabFold MMseqs2 for all members (prereg cofold.msa)
+  templates: none (prereg cofold.templates.primary)
+  seeds: 3
+  samples_per_seed: 5
+  threshold_file: results/cofold/calibration/threshold.json
+  threshold_sha256: 04b6e644bdf42cb4a8b4f11d5b3a764e72e60c72ad9e5f1792625246ead5eb7e
+  positive_control_gate:
+    status: run
+    pass: false
+    lig_rmsd: 7.52
+    centroid_dist: 6.51
+    site_recall: 0.47
+    lig_plddt: 58.1
+    threshold_A: 2.0
+    ref: 8u8v:APC
+  verdict_basis: frozen D23 composite (d23_composite) gating the per-seed rule
+  legacy_prereg_rule:
+    status: 'SUPERSEDED: computed for the record only. It ranks on ligand pLDDT and min PAE with no geometry
+      term, so it can call a direction from placements far from the footprint. The verdict uses d23_composite.'
+    rule: all seeds must meet D > X for BOTH ligand pLDDT and min P-L PAE
+    seeds_gain:
+    - true
+    - true
+    - true
+    seeds_loss:
+    - true
+    - true
+    - true
+  readouts_table: results/cofold/cases/loss_HOG0027153_g11_n17_O1/case_table.tsv
+  interpretation:
+  - 'A composite ''binds'' call is informative: specificity 0.96 on the frozen panel.'
+  - 'A composite ''does not bind'' call is WEAK: sensitivity 0.42, so co-folding misses most true complexes.
+    A gain or loss is ''co-fold-consistent'' only when the present side binds AND the absent side does
+    not, and the absent-side half stays weak.'
+  - Metal-ion ligands are uninterpretable by co-folding (panel AUC 0.58 for ligand pLDDT, 0.56 for min
+    PAE, i.e. at chance).
+  blinding:
+    status: UNBLINDED
+    prereg_requirement: 'cofold.blinding: derived/ancestral labels hashed in file names; the agent scoring
+      models sees no state label'
+    what_actually_happened: 'The folds themselves were run blind: inputs carried HMAC-hashed names and
+      the state labels existed only in blind_key.json. But build() minted a fresh salt on every call,
+      which destroyed the original key, and recovering it required matching each AF3 output back to its
+      member by sequence identity. That reconstruction, and the debugging around it, happened BEFORE the
+      final scoring pass, so the state labels were visible to me while the readouts were being produced.'
+    honest_claim: These four cases are reported as UNBLINDED. The readout code is deterministic and never
+      receives a state label, so the measurements themselves are label-independent, but the preregistered
+      blinding claim cannot be made for them.
+    remedy: The salt is now persisted, so cases folded from here on can be scored without ever reconstructing
+      the mapping, and will be labelled blinded.
+  d23_composite:
+    thresholds:
+      t_plddt: 92.0
+      t_centroid: 2.0
+      t_recall: 0.9
+    per_job:
+      104eeeddcc92:
+        state: ancestral
+        kind: decoy1
+        acc: A0A8R1U2W8
+        binds: false
+        n_seeds_binding: 0
+        median_centroid_A: 27.5
+        median_site_recall: 0.0
+      3207a28c1c4d:
+        state: ancestral
+        kind: decoy1
+        acc: A0A3Q0KPI7
+        binds: false
+        n_seeds_binding: 0
+        median_centroid_A: 26.04
+        median_site_recall: 0.0
+      42d86696a30f:
+        state: ancestral
+        kind: decoy1
+        acc: A0A1D8PCA4
+        binds: false
+        n_seeds_binding: 0
+        median_centroid_A: 27.46
+        median_site_recall: 0.0
+      4df343e62057:
+        state: ancestral
+        kind: cognate
+        acc: A0A8R1U2W8
+        binds: false
+        n_seeds_binding: 0
+        median_centroid_A: 27.22
+        median_site_recall: 0.0
+      4f78de7c1194:
+        state: derived
+        kind: cognate
+        acc: Q8BKF1
+        binds: false
+        n_seeds_binding: 0
+        median_centroid_A: 26.49
+        median_site_recall: 0.0
+      59ce7d80e90f:
+        state: derived
+        kind: decoy1
+        acc: O00411
+        binds: false
+        n_seeds_binding: 0
+        median_centroid_A: 26.96
+        median_site_recall: 0.0
+      747a4906797c:
+        state: derived
+        kind: cognate
+        acc: A0A077ZFJ4
+        binds: false
+        n_seeds_binding: 0
+        median_centroid_A: 26.18
+        median_site_recall: 0.0
+      757b53cf298f:
+        state: ancestral
+        kind: cognate
+        acc: A0A1D8PCA4
+        binds: false
+        n_seeds_binding: 0
+        median_centroid_A: 27.2
+        median_site_recall: 0.0
+      9331dad4f167:
+        state: derived
+        kind: cognate
+        acc: O00411
+        binds: false
+        n_seeds_binding: 0
+        median_centroid_A: 26.64
+        median_site_recall: 0.0
+      afb3452ccfb5:
+        state: ancestral
+        kind: cognate
+        acc: A0A3Q0KPI7
+        binds: false
+        n_seeds_binding: 0
+        median_centroid_A: 26.11
+        median_site_recall: 0.0
+      b3157b8abffd:
+        state: derived
+        kind: decoy1
+        acc: A0A077ZFJ4
+        binds: false
+        n_seeds_binding: 0
+        median_centroid_A: 27.02
+        median_site_recall: 0.0
+      ff996c64034b:
+        state: derived
+        kind: decoy1
+        acc: Q8BKF1
+        binds: false
+        n_seeds_binding: 0
+        median_centroid_A: 26.32
+        median_site_recall: 0.0
+    derived_members_binding: []
+    ancestral_members_binding: []
+    any_cognate_binds: false
+    ligand_off_footprint: true
+  note: scored against the frozen threshold, which was fixed before any case was folded; see `blinding`
+    for why these four cases are labelled UNBLINDED
+- model_id: ancestral_O00411
+  accession: O00411
+  ligand: APC+MG
+  seed: 3
+  role: ancestral
+  file: cases/loss_HOG0027153_g11_n17_O1/cofold/models/ancestral_O00411_APC-MG_top.cif.gz
+  ranking_score: 0.914
+  metrics:
+    ligand_plddt: 58.1
+    min_pae: 3.22
+    centroid_dist_A: 25.29
+    site_recall: 0.0
+    posebusters_pass: false
+  note: top-ranked sample of the best-ranked cognate job on this side; centroid/recall are measured against
+    the case footprint
+- model_id: derived_A0A8R1U2W8
+  accession: A0A8R1U2W8
+  ligand: APC+MG
+  seed: 1
+  role: derived
+  file: cases/loss_HOG0027153_g11_n17_O1/cofold/models/derived_A0A8R1U2W8_APC-MG_top.cif.gz
+  ranking_score: 0.884
+  metrics:
+    ligand_plddt: 58.0
+    min_pae: 3.97
+    centroid_dist_A: 26.37
+    site_recall: 0.0
+    posebusters_pass: false
+  note: top-ranked sample of the best-ranked cognate job on this side; centroid/recall are measured against
+    the case footprint
+- model_id: control_poscontrol
+  accession: 8u8v
+  ligand: APC+MG
+  seed: 3
+  role: control
+  file: cases/loss_HOG0027153_g11_n17_O1/cofold/models/control_poscontrol_APC-MG_top.cif.gz
+  ranking_score: 0.914
+  metrics:
+    ligand_plddt: 58.1
+    min_pae: 3.22
+    centroid_dist_A: null
+    site_recall: 0.0
+    posebusters_pass: false
+  note: family holo positive control (gate); centroid/recall fields refer to the case footprint and are
+    not meaningful for this protein
+figures: []
+literature: []
+headline: convincing_only
+filter_label_with_literature_post_hoc: supported
+notes: 'filter_label=supported (prereg: convincing = all three filters; supported = f1 + one of f2/f3);
+  final label also needs the artifact cascade (pass). candidate label: not FDR-calibrated (audit); fdr_supported=False.
+  selection: eligible. G (gene-absent) rows not listed: 0; every other member is listed with side (present/absent/other),
+  state and reason. Evidence counts are derived from BioLiP2/UniProt 2026_03/M-CSA/ChEMBL 37 (DATA.md);
+  BioLiP rows are not redistributed, only PDB IDs and counts. Final co-fold pool selection (D28, case_list_v2.parquet):
+  top_k.'
+provenance:
+  builder: scripts/cases/build_cases.py
+  orthology: O1
+  snapshot: 20261030T085136Z
+  case_list: results/cases/20261030T085136Z/case_list_v2.parquet
+  prereg_sha256: 52f9461890984c210b730af86c40de221307a668e7d4b38098b3316059690d83
+  git_commit: cdb00a44da5049d0e4a054f4e2ba4ee534e35363+dirty
+  seed: 0
+  built_utc: '2026-10-30T16:17:54Z'
+  n_excluded_tune_annotations:
+    rule: per SOG (prereg literal); OG-wide reported as sensitivity
+    n_tuning_list_rows: 450
+    n_used_in_tune_pairs: 245
+    pairs_file: results/sogs/20261030T085136Z/O1/tau_benchmark_pairs.parquet
+    n_keys_per_sog: 216
+    n_keys_og_wide: 221

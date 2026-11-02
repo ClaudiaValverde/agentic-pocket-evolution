@@ -1,0 +1,18 @@
+{
+ "output": "funnel.csv",
+ "snapshot_id": "TOY",
+ "prereg_sha256": "52f9461890984c210b730af86c40de221307a668e7d4b38098b3316059690d83",
+ "git_commit": "cbe924346b0adeee1359ea8d7fae54ac6bedf5e0+dirty",
+ "seed": 0,
+ "created_utc": "2026-10-30T10:41:08Z",
+ "sha256": "976423d8671c92ad4fcc7a6068bb4f311a2ffaf75c22a4b82a95247f77aa68a7",
+ "script": "scripts/partB/run_events.py",
+ "argv": [
+  "--sogs",
+  "results/partB/sim/toy_sogs/TOY/O1",
+  "--snapshot",
+  "TOY",
+  "--out",
+  "results/partB/sim/toy_run/real"
+ ]
+}

@@ -1,0 +1,222 @@
+{
+ "f1": {
+  "status": "fail",
+  "n_species_change": 0,
+  "clade_purity": 0.0,
+  "lca_purity": 0.0,
+  "single_event": false,
+  "n_out_support": 32,
+  "shape": "scattered",
+  "detail": "A in 0 derived species (purity 0.00 of informative derived members; 0.00 over all members under the species-tree LCA: scattered); single tree-consistent event: False; outgroup support: P in 32 outgroup species"
+ },
+ "f2": {
+  "status": "fail",
+  "strength": "protein-level only",
+  "about_change": false,
+  "detail": "ChEMBL pChEMBL>=6 activity on 4 outgroup/ancestral (pocket present) protein(s): protein-level only, not mapped to the footprint",
+  "present": {
+   "n_members_with_evidence": 0,
+   "n_biolip": 0,
+   "n_uniprot_exp": 0,
+   "n_mcsa_ref": 0,
+   "pdb_ids": [],
+   "ligands": [],
+   "ligand_tokens": []
+  },
+  "absent": {
+   "n_members_with_evidence": 0,
+   "n_biolip": 0,
+   "n_uniprot_exp": 0,
+   "n_mcsa_ref": 0,
+   "pdb_ids": [],
+   "ligands": [],
+   "ligand_tokens": []
+  },
+  "chembl_present_proteins": 4,
+  "chembl_absent_proteins": 1,
+  "n_members_numbering_unverified": 4,
+  "n_hits_excluded_tau_tuning": 0,
+  "sensitivity_og_wide_exclusion": {
+   "status": "fail",
+   "n_hits_excluded": 0
+  }
+ },
+ "f3": {
+  "status": "fail",
+  "passing": [],
+  "detail": "conservation: na (too few aligned members (derived 0, outgroup 306)); rescue_consistency: na (no rescue run for present-side members); source_consistency: fail (site re-detected in the v4 model for 1/2 sampled present-side members (Jaccard >= 0.3)); cofolding: pending (placeholder; filled by the co-folding agent)"
+ },
+ "lines": {
+  "conservation": {
+   "status": "na",
+   "detail": "too few aligned members (derived 0, outgroup 306)"
+  },
+  "rescue_consistency": {
+   "status": "na",
+   "detail": "no rescue run for present-side members"
+  },
+  "source_consistency": {
+   "status": "fail",
+   "n": 2,
+   "n_redetected": 1,
+   "detail": "site re-detected in the v4 model for 1/2 sampled present-side members (Jaccard >= 0.3)"
+  },
+  "cofolding": {
+   "status": "pending",
+   "detail": "placeholder; filled by the co-folding agent"
+  }
+ },
+ "identifier_checks": {
+  "pdb": {},
+  "uniprot": {
+   "A0A077YVY0": {
+    "resolved": true,
+    "title": "",
+    "organism": "Trichuris trichiura",
+    "retrieved_utc": "2026-10-30T16:06:35Z"
+   },
+   "A0A077YWF0": {
+    "resolved": true,
+    "title": "Nuclear cap-binding protein subunit 2",
+    "organism": "Trichuris trichiura",
+    "retrieved_utc": "2026-10-30T16:18:26Z"
+   },
+   "A0A077YWH9": {
+    "resolved": true,
+    "title": "",
+    "organism": "Trichuris trichiura",
+    "retrieved_utc": "2026-10-30T16:18:26Z"
+   },
+   "A0A077YXU5": {
+    "resolved": true,
+    "title": "",
+    "organism": "Trichuris trichiura",
+    "retrieved_utc": "2026-10-30T16:18:26Z"
+   },
+   "A0A077YY00": {
+    "resolved": true,
+    "title": "",
+    "organism": "Trichuris trichiura",
+    "retrieved_utc": "2026-10-30T16:18:26Z"
+   },
+   "A0A077YY23": {
+    "resolved": true,
+    "title": "",
+    "organism": "Trichuris trichiura",
+    "retrieved_utc": "2026-10-30T16:06:35Z"
+   },
+   "A0A077YYF8": {
+    "resolved": true,
+    "title": "Eukaryotic translation initiation factor 3 subunit G",
+    "organism": "Trichuris trichiura",
+    "retrieved_utc": "2026-10-30T16:18:26Z"
+   },
+   "A0A077YYF9": {
+    "resolved": true,
+    "title": "",
+    "organism": "Trichuris trichiura",
+    "retrieved_utc": "2026-10-30T16:06:35Z"
+   },
+   "A0A077YYL8": {
+    "resolved": true,
+    "title": "",
+    "organism": "Trichuris trichiura",
+    "retrieved_utc": "2026-10-30T16:18:26Z"
+   },
+   "A0A077YYR1": {
+    "resolved": true,
+    "title": "",
+    "organism": "Trichuris trichiura",
+    "retrieved_utc": "2026-10-30T16:18:27Z"
+   },
+   "A0A077YZC0": {
+    "resolved": true,
+    "title": "",
+    "organism": "Trichuris trichiura",
+    "retrieved_utc": "2026-10-30T16:18:27Z"
+   },
+   "A0A077Z075": {
+    "resolved": true,
+    "title": "",
+    "organism": "Trichuris trichiura",
+    "retrieved_utc": "2026-10-30T16:18:27Z"
+   },
+   "A0A077Z089": {
+    "resolved": true,
+    "title": "",
+    "organism": "Trichuris trichiura",
+    "retrieved_utc": "2026-10-30T16:18:27Z"
+   },
+   "A0A077Z0K3": {
+    "resolved": true,
+    "title": "",
+    "organism": "Trichuris trichiura",
+    "retrieved_utc": "2026-10-30T16:18:27Z"
+   },
+   "A0A077Z1B1": {
+    "resolved": true,
+    "title": "",
+    "organism": "Trichuris trichiura",
+    "retrieved_utc": "2026-10-30T16:18:27Z"
+   },
+   "A0A077Z293": {
+    "resolved": true,
+    "title": "",
+    "organism": "Trichuris trichiura",
+    "retrieved_utc": "2026-10-30T16:18:27Z"
+   },
+   "A0A077Z2L1": {
+    "resolved": null,
+    "error": "http error"
+   },
+   "A0A077Z349": {
+    "resolved": true,
+    "title": "Polyadenylate-binding protein",
+    "organism": "Trichuris trichiura",
+    "retrieved_utc": "2026-10-30T16:18:28Z"
+   },
+   "A0A077Z3Q9": {
+    "resolved": true,
+    "title": "",
+    "organism": "Trichuris trichiura",
+    "retrieved_utc": "2026-10-30T16:18:28Z"
+   },
+   "A0A077Z474": {
+    "resolved": true,
+    "title": "RNA-binding protein 42",
+    "organism": "Trichuris trichiura",
+    "retrieved_utc": "2026-10-30T16:18:28Z"
+   },
+   "A0A077Z4F6": {
+    "resolved": true,
+    "title": "",
+    "organism": "Trichuris trichiura",
+    "retrieved_utc": "2026-10-30T16:18:28Z"
+   },
+   "A0A077Z4J4": {
+    "resolved": true,
+    "title": "",
+    "organism": "Trichuris trichiura",
+    "retrieved_utc": "2026-10-30T16:18:28Z"
+   },
+   "A0A077Z4M5": {
+    "resolved": true,
+    "title": "Eukaryotic translation initiation factor 4H",
+    "organism": "Trichuris trichiura",
+    "retrieved_utc": "2026-10-30T16:18:28Z"
+   },
+   "A0A077Z582": {
+    "resolved": true,
+    "title": "",
+    "organism": "Trichuris trichiura",
+    "retrieved_utc": "2026-10-30T16:18:28Z"
+   },
+   "A0A077Z585": {
+    "resolved": true,
+    "title": "",
+    "organism": "Trichuris trichiura",
+    "retrieved_utc": "2026-10-30T16:18:29Z"
+   }
+  }
+ }
+}

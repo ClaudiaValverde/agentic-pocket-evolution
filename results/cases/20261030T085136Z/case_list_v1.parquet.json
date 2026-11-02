@@ -1,0 +1,145 @@
+{
+ "output": "case_list_v1.parquet",
+ "snapshot_id": "20261030T085136Z",
+ "prereg_sha256": "52f9461890984c210b730af86c40de221307a668e7d4b38098b3316059690d83",
+ "git_commit": "9fcf09a601f96d9c6245313dcd4d254e4609246b+dirty",
+ "seed": 0,
+ "created_utc": "2026-10-30T14:16:09Z",
+ "sha256": "db480b45588f9aba35097ab994e9d1757c01ba455876d2e7c8bc1554dcfddaca",
+ "script": "scripts/cases/build_cases.py",
+ "argv": [
+  "--orthology",
+  "O1",
+  "--version",
+  "v1",
+  "--verify-ids"
+ ],
+ "orthology": "O1",
+ "inputs": {
+  "candidates": [
+   "results/partB/20261030T085136Z/O1/candidates.parquet",
+   "6a9c58aec22c3271be6df41ac395ec98b9809d94522dda1e76a068e45b16df82"
+  ],
+  "false_loss": [
+   "results/partB/20261030T085136Z/O1/false_loss_controls.parquet",
+   "554b5bb5d4086fca2dad76e5c529454c4ac086b726e97cb8c748833d2505d634"
+  ],
+  "convergence": [
+   "results/partA/20261030T085136Z/v2/convergence_candidates.parquet",
+   "9eee5070cec1fbdcfb82fe35f9d78c3cee093e1eacd450d20cbe01a9021e1c00"
+  ],
+  "hog_trees": [
+   "results/partB/hog_trees/O1/hog_trees.parquet",
+   "5ea7d66b45168faa48efd44482d1b64820eaf9a627ee921285210685f9dcda35"
+  ],
+  "tau_tuning": [
+   "results/sogs/20261030T085136Z/O1/tau_tuning_annotations.parquet",
+   "cea2d0d6758df1421dda6e8fbe910bcde24adac199219c64c1c92177fc394d89"
+  ],
+  "redetection": [
+   "results/observation/20261030T085136Z/redetection_sites.parquet",
+   "a5c179799e0fd0bc4eedb9f173e2c243258d6c2fd39b1b58e18a49f0b8a54832"
+  ]
+ },
+ "sog_release": "O1_r3",
+ "sog_bulk": "/tmp/pe_big/sogs/20261030T085136Z/O1_r3",
+ "events_base": "results/partB/events/20261030T085136Z/O1/d11/tau0.2/primary",
+ "rules": {
+  "f1_min_species": 3,
+  "site_overlap_min": 0.5,
+  "eco_experimental": [
+   "ECO:0000269",
+   "ECO:0007744"
+  ],
+  "pchembl_min": 6.0,
+  "top_k": 5,
+  "n_audit": 1,
+  "extra": {},
+  "m4_constants": {
+   "CONS_CLADE_MIN": 0.8,
+   "CONS_MIN_COLUMNS": 2,
+   "CONS_OUT_MAX": 0.5,
+   "F1_CLADE_PURITY_MIN": 0.8,
+   "F1_MIN_OUT_LINEAGES": 2,
+   "INFORMATIVE": [
+    "P",
+    "A"
+   ],
+   "REDETECT_JACCARD_MIN": 0.3,
+   "RESCUE_FRAC_MIN": 0.8,
+   "RESCUE_MAJORITY": 3,
+   "SITE_OVERLAP_MIN_DEFAULT": 0.5,
+   "SPEC_LIGAND_CLASSES": [
+    "regular"
+   ]
+  }
+ },
+ "bar": "convincing (all three filters) and artifact cascade pass; pending artifacts -> label pending",
+ "counts": {
+  "control": {
+   "n": 50,
+   "f1": 1,
+   "f2": 1,
+   "f3": 46,
+   "filter_label": {
+    "rejected": 49,
+    "supported": 1
+   },
+   "label": {
+    "rejected": 49,
+    "pending": 1
+   },
+   "selected": 5
+  },
+  "convergence": {
+   "n": 3,
+   "f1": 3,
+   "f2": 0,
+   "f3": 0,
+   "filter_label": {
+    "rejected": 3
+   },
+   "label": {
+    "rejected": 3
+   },
+   "selected": 0
+  },
+  "gain": {
+   "n": 51,
+   "f1": 43,
+   "f2": 0,
+   "f3": 48,
+   "filter_label": {
+    "supported": 40,
+    "rejected": 11
+   },
+   "label": {
+    "pending": 40,
+    "rejected": 11
+   },
+   "selected": 0
+  },
+  "loss": {
+   "n": 18,
+   "f1": 9,
+   "f2": 1,
+   "f3": 17,
+   "filter_label": {
+    "supported": 9,
+    "rejected": 9
+   },
+   "label": {
+    "pending": 9,
+    "rejected": 9
+   },
+   "selected": 0
+  }
+ },
+ "n_excluded_tune_annotations": {
+  "rule": "per SOG (prereg literal); OG-wide reported as sensitivity",
+  "n_keys_per_sog": 608,
+  "n_keys_og_wide": 706
+ },
+ "code_sha256": "2ef119c105315be7488feee8780bf675fcc9fe8bcdc368c6009f71a585295c7d",
+ "runtime_s": 13.1
+}

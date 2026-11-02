@@ -1,0 +1,1478 @@
+schema: case-v1
+case_id: control_falseloss_HOG0030328_g4_n103_O1
+title: 'False-loss negative control: HOG0030328:g4 (Rhabditida)'
+category: control
+track: discovery
+label: rejected
+toy: false
+summary: 'SOG HOG0030328:g4: loss called on pre-quality-filter states whose derived-clade A members are
+  all poor models (bad_model, D24); it disappears once A_primary + D11 apply. Negative control for false
+  losses: filters are expected to fail.'
+og_id: HOG0030328
+sog_id: HOG0030328:g4
+score: 0.0
+proteins:
+- accession: A0A5K4F103
+  taxid: 6183
+  species: '6183'
+  role: outgroup
+  side: other
+  state: U
+  state_pre_filter: A (primary_pLDDT90, pre-D11)
+  footprint_plddt: 97.1500015258789
+  reason: footprint_residues<=10
+  gene: null
+  protein_name: Aminopeptidase
+  rescue_settings_hit: null
+  residues: null
+  n_site_evidence: 0
+- accession: A0A5K4FAH9
+  taxid: 6183
+  species: '6183'
+  role: outgroup
+  side: other
+  state: U
+  state_pre_filter: U (primary_pLDDT90, pre-D11)
+  footprint_plddt: 97.1500015258789
+  reason: partial_site_overlap
+  gene: null
+  protein_name: Aminopeptidase
+  rescue_settings_hit: null
+  residues: null
+  n_site_evidence: 0
+- accession: A5A631
+  taxid: 6239
+  species: '6239'
+  role: outgroup
+  side: other
+  state: U
+  state_pre_filter: U (primary_pLDDT90, pre-D11)
+  footprint_plddt: 96.6500015258789
+  reason: partial_site_overlap
+  gene: null
+  protein_name: Peptidase_M1 domain-containing protein
+  rescue_settings_hit: null
+  residues: null
+  n_site_evidence: 0
+- accession: G5EGH4
+  taxid: 6239
+  species: '6239'
+  role: outgroup
+  side: other
+  state: U
+  state_pre_filter: U (primary_pLDDT90, pre-D11)
+  footprint_plddt: 96.1500015258789
+  reason: partial_site_overlap
+  gene: null
+  protein_name: Aminopeptidase
+  rescue_settings_hit: null
+  residues: null
+  n_site_evidence: 0
+- accession: P46557
+  taxid: 6239
+  species: '6239'
+  role: derived
+  side: absent
+  state: U
+  state_pre_filter: A (primary_pLDDT90, pre-D11)
+  footprint_plddt: 95.1500015258789
+  reason: footprint_residues<=10
+  gene: mnp-1
+  protein_name: Matrix non-peptidase homolog 1
+  rescue_settings_hit: null
+  residues: A:491 A:495 A:504 A:549 A:552
+  n_site_evidence: 0
+- accession: Q17405
+  taxid: 6239
+  species: '6239'
+  role: outgroup
+  side: other
+  state: U
+  state_pre_filter: A (primary_pLDDT90, pre-D11)
+  footprint_plddt: 95.94999694824219
+  reason: footprint_residues<=10
+  gene: null
+  protein_name: Aminopeptidase-like protein AC3.5
+  rescue_settings_hit: null
+  residues: null
+  n_site_evidence: 0
+- accession: Q22317
+  taxid: 6239
+  species: '6239'
+  role: outgroup
+  side: other
+  state: U
+  state_pre_filter: A (primary_pLDDT90, pre-D11)
+  footprint_plddt: 97.1500015258789
+  reason: footprint_residues<=10
+  gene: anp-1
+  protein_name: Aminopeptidase
+  rescue_settings_hit: null
+  residues: null
+  n_site_evidence: 0
+- accession: Q22531
+  taxid: 6239
+  species: '6239'
+  role: outgroup
+  side: present
+  state: P
+  state_pre_filter: P (primary_pLDDT90, pre-D11)
+  footprint_plddt: 94.6500015258789
+  reason: ''
+  gene: null
+  protein_name: Putative aminopeptidase-2
+  rescue_settings_hit: null
+  residues: A:1344 A:1348 A:1363 A:1407 A:1410
+  n_site_evidence: 0
+- accession: Q9NAA0
+  taxid: 6239
+  species: '6239'
+  role: outgroup
+  side: other
+  state: U
+  state_pre_filter: A (primary_pLDDT90, pre-D11)
+  footprint_plddt: 94.75
+  reason: footprint_residues<=10
+  gene: null
+  protein_name: Aminopeptidase
+  rescue_settings_hit: null
+  residues: null
+  n_site_evidence: 0
+- accession: Q9U2H2
+  taxid: 6239
+  species: '6239'
+  role: outgroup
+  side: other
+  state: U
+  state_pre_filter: U (primary_pLDDT90, pre-D11)
+  footprint_plddt: 91.3499984741211
+  reason: partial_site_overlap
+  gene: null
+  protein_name: Aminopeptidase
+  rescue_settings_hit: null
+  residues: null
+  n_site_evidence: 0
+- accession: Q9XVV9
+  taxid: 6239
+  species: '6239'
+  role: outgroup
+  side: present
+  state: P
+  state_pre_filter: P (primary_pLDDT90, pre-D11)
+  footprint_plddt: 93.1500015258789
+  reason: ''
+  gene: null
+  protein_name: Aminopeptidase
+  rescue_settings_hit: null
+  residues: A:356 A:360 A:372 A:416 A:419
+  n_site_evidence: 0
+- accession: A0A0K0DSH2
+  taxid: 6248
+  species: '6248'
+  role: derived
+  side: absent
+  state: U
+  state_pre_filter: A (primary_pLDDT90, pre-D11)
+  footprint_plddt: 94.25
+  reason: footprint_residues<=10
+  gene: null
+  protein_name: Peptidase_M1 domain-containing protein
+  rescue_settings_hit: null
+  residues: A:582 A:586 A:599 A:645 A:648
+  n_site_evidence: 0
+- accession: A0A0K0DV16
+  taxid: 6248
+  species: '6248'
+  role: outgroup
+  side: other
+  state: U
+  state_pre_filter: A (primary_pLDDT90, pre-D11)
+  footprint_plddt: 97.75
+  reason: footprint_residues<=10
+  gene: null
+  protein_name: Aminopeptidase
+  rescue_settings_hit: null
+  residues: null
+  n_site_evidence: 0
+- accession: A0A0K0DX41
+  taxid: 6248
+  species: '6248'
+  role: outgroup
+  side: other
+  state: U
+  state_pre_filter: U (primary_pLDDT90, pre-D11)
+  footprint_plddt: 92.75
+  reason: length_ratio
+  gene: null
+  protein_name: Uncharacterized protein
+  rescue_settings_hit: null
+  residues: null
+  n_site_evidence: 0
+- accession: A0A0K0EFC7
+  taxid: 6248
+  species: '6248'
+  role: outgroup
+  side: other
+  state: U
+  state_pre_filter: U (primary_pLDDT90, pre-D11)
+  footprint_plddt: 94.3499984741211
+  reason: partial_site_overlap
+  gene: null
+  protein_name: Aminopeptidase
+  rescue_settings_hit: null
+  residues: null
+  n_site_evidence: 0
+- accession: A0A0K0EGF0
+  taxid: 6248
+  species: '6248'
+  role: outgroup
+  side: other
+  state: U
+  state_pre_filter: U (primary_pLDDT90, pre-D11)
+  footprint_plddt: 92.75
+  reason: partial_site_overlap
+  gene: null
+  protein_name: Peptidase_M1 domain-containing protein
+  rescue_settings_hit: null
+  residues: null
+  n_site_evidence: 0
+- accession: A0AAF5DI52
+  taxid: 6248
+  species: '6248'
+  role: outgroup
+  side: other
+  state: U
+  state_pre_filter: U (primary_pLDDT90, pre-D11)
+  footprint_plddt: 93.25
+  reason: length_ratio
+  gene: null
+  protein_name: Uncharacterized protein
+  rescue_settings_hit: null
+  residues: null
+  n_site_evidence: 0
+- accession: A0AAF5DK58
+  taxid: 6248
+  species: '6248'
+  role: outgroup
+  side: other
+  state: U
+  state_pre_filter: U (primary_pLDDT90, pre-D11)
+  footprint_plddt: 88.75
+  reason: partial_site_overlap
+  gene: null
+  protein_name: Peptidase_M1 domain-containing protein
+  rescue_settings_hit: null
+  residues: null
+  n_site_evidence: 0
+- accession: A0A0J9XVR9
+  taxid: 6279
+  species: '6279'
+  role: outgroup
+  side: other
+  state: U
+  state_pre_filter: U (primary_pLDDT90, pre-D11)
+  footprint_plddt: null
+  reason: no_model
+  gene: ''
+  protein_name: ''
+  rescue_settings_hit: null
+  residues: null
+  n_site_evidence: 0
+- accession: A0A0J9Y008
+  taxid: 6279
+  species: '6279'
+  role: outgroup
+  side: other
+  state: U
+  state_pre_filter: A (primary_pLDDT90, pre-D11)
+  footprint_plddt: 96.55000305175781
+  reason: footprint_residues<=10
+  gene: null
+  protein_name: Aminopeptidase
+  rescue_settings_hit: null
+  residues: null
+  n_site_evidence: 0
+- accession: A0A1P6C580
+  taxid: 6279
+  species: '6279'
+  role: outgroup
+  side: present
+  state: P
+  state_pre_filter: P (primary_pLDDT90, pre-D11)
+  footprint_plddt: 97.1500015258789
+  reason: ''
+  gene: Bm1_51650
+  protein_name: Bm5654, isoform c
+  rescue_settings_hit: null
+  residues: A:523 A:527 A:540 A:590 A:593
+  n_site_evidence: 0
+- accession: A0A4E9F5V6
+  taxid: 6279
+  species: '6279'
+  role: derived
+  side: absent
+  state: U
+  state_pre_filter: A (primary_pLDDT90, pre-D11)
+  footprint_plddt: 94.75
+  reason: footprint_residues<=10
+  gene: null
+  protein_name: Aminopeptidase
+  rescue_settings_hit: null
+  residues: A:488 A:492 A:504 A:547 A:550
+  n_site_evidence: 0
+- accession: A0A7I4KM39
+  taxid: 6279
+  species: '6279'
+  role: outgroup
+  side: other
+  state: U
+  state_pre_filter: U (primary_pLDDT90, pre-D11)
+  footprint_plddt: null
+  reason: no_model
+  gene: ''
+  protein_name: ''
+  rescue_settings_hit: null
+  residues: null
+  n_site_evidence: 0
+- accession: A0A2K6WAV6
+  taxid: 6282
+  species: '6282'
+  role: outgroup
+  side: other
+  state: U
+  state_pre_filter: U (primary_pLDDT90, pre-D11)
+  footprint_plddt: 97.8499984741211
+  reason: model_sequence_mismatch
+  gene: null
+  protein_name: Aminopeptidase
+  rescue_settings_hit: null
+  residues: null
+  n_site_evidence: 0
+- accession: A0A8R1U0G3
+  taxid: 6282
+  species: '6282'
+  role: derived
+  side: absent
+  state: U
+  state_pre_filter: A (primary_pLDDT90, pre-D11)
+  footprint_plddt: 92.94999694824219
+  reason: footprint_residues<=10
+  gene: null
+  protein_name: Peptidase_M1 domain-containing protein
+  rescue_settings_hit: null
+  residues: A:497 A:501 A:513 A:556 A:559
+  n_site_evidence: 0
+- accession: A0A8R1Y1E3
+  taxid: 6282
+  species: '6282'
+  role: outgroup
+  side: other
+  state: U
+  state_pre_filter: A (primary_pLDDT90, pre-D11)
+  footprint_plddt: 94.55000305175781
+  reason: footprint_residues<=10
+  gene: null
+  protein_name: Aminopeptidase
+  rescue_settings_hit: null
+  residues: null
+  n_site_evidence: 0
+- accession: A0A3P7F8H0
+  taxid: 6293
+  species: '6293'
+  role: outgroup
+  side: other
+  state: U
+  state_pre_filter: U (primary_pLDDT90, pre-D11)
+  footprint_plddt: 93.6500015258789
+  reason: partial_site_overlap
+  gene: null
+  protein_name: Aminopeptidase
+  rescue_settings_hit: null
+  residues: null
+  n_site_evidence: 0
+- accession: A0A3P7F8J2
+  taxid: 6293
+  species: '6293'
+  role: derived
+  side: absent
+  state: U
+  state_pre_filter: A (primary_pLDDT90, pre-D11)
+  footprint_plddt: 94.6500015258789
+  reason: footprint_residues<=10
+  gene: null
+  protein_name: Uncharacterized protein
+  rescue_settings_hit: null
+  residues: A:495 A:499 A:511 A:554 A:557
+  n_site_evidence: 0
+- accession: A0A3P7FAR3
+  taxid: 6293
+  species: '6293'
+  role: outgroup
+  side: present
+  state: P
+  state_pre_filter: P (primary_pLDDT90, pre-D11)
+  footprint_plddt: 97.1500015258789
+  reason: ''
+  gene: null
+  protein_name: Peptidase family M1 containing protein
+  rescue_settings_hit: null
+  residues: A:551 A:555 A:568 A:618 A:621
+  n_site_evidence: 0
+- accession: A0A0B4KH77
+  taxid: 7227
+  species: '7227'
+  role: outgroup
+  side: other
+  state: U
+  state_pre_filter: A (primary_pLDDT90, pre-D11)
+  footprint_plddt: 97.3499984741211
+  reason: footprint_residues<=10
+  gene: BcDNA:GH07466
+  protein_name: Uncharacterized protein
+  rescue_settings_hit: null
+  residues: null
+  n_site_evidence: 0
+- accession: A0A0B4KHC6
+  taxid: 7227
+  species: '7227'
+  role: outgroup
+  side: other
+  state: U
+  state_pre_filter: U (primary_pLDDT90, pre-D11)
+  footprint_plddt: null
+  reason: no_model
+  gene: ''
+  protein_name: ''
+  rescue_settings_hit: null
+  residues: null
+  n_site_evidence: 0
+- accession: A0A126GUZ8
+  taxid: 7227
+  species: '7227'
+  role: outgroup
+  side: other
+  state: U
+  state_pre_filter: U (primary_pLDDT90, pre-D11)
+  footprint_plddt: null
+  reason: no_model
+  gene: ''
+  protein_name: ''
+  rescue_settings_hit: null
+  residues: null
+  n_site_evidence: 0
+- accession: Q0KI00
+  taxid: 7227
+  species: '7227'
+  role: outgroup
+  side: other
+  state: U
+  state_pre_filter: A (primary_pLDDT90, pre-D11)
+  footprint_plddt: 97.05000305175781
+  reason: footprint_residues<=10
+  gene: SP1029
+  protein_name: Aminopeptidase
+  rescue_settings_hit: null
+  residues: null
+  n_site_evidence: 0
+- accession: Q0KI25
+  taxid: 7227
+  species: '7227'
+  role: outgroup
+  side: present
+  state: P
+  state_pre_filter: P (primary_pLDDT90, pre-D11)
+  footprint_plddt: 94.75
+  reason: ''
+  gene: Dmel\CG4467
+  protein_name: Endoplasmic reticulum aminopeptidase 2
+  rescue_settings_hit: null
+  residues: A:560 A:564 A:576 A:622 A:625
+  n_site_evidence: 0
+- accession: Q7KRW4
+  taxid: 7227
+  species: '7227'
+  role: outgroup
+  side: other
+  state: U
+  state_pre_filter: A (primary_pLDDT90, pre-D11)
+  footprint_plddt: 97.1500015258789
+  reason: footprint_residues<=10
+  gene: superdeath
+  protein_name: Aminopeptidase
+  rescue_settings_hit: null
+  residues: null
+  n_site_evidence: 0
+- accession: Q7KS70
+  taxid: 7227
+  species: '7227'
+  role: outgroup
+  side: other
+  state: U
+  state_pre_filter: U (primary_pLDDT90, pre-D11)
+  footprint_plddt: null
+  reason: no_model
+  gene: ''
+  protein_name: ''
+  rescue_settings_hit: null
+  residues: null
+  n_site_evidence: 0
+- accession: Q7PLV6
+  taxid: 7227
+  species: '7227'
+  role: outgroup
+  side: other
+  state: U
+  state_pre_filter: U (primary_pLDDT90, pre-D11)
+  footprint_plddt: 95.44999694824219
+  reason: partial_site_overlap
+  gene: Dmel\CG40470
+  protein_name: Aminopeptidase
+  rescue_settings_hit: null
+  residues: null
+  n_site_evidence: 0
+- accession: Q8IN25
+  taxid: 7227
+  species: '7227'
+  role: outgroup
+  side: present
+  state: P
+  state_pre_filter: P (primary_pLDDT90, pre-D11)
+  footprint_plddt: 97.8499984741211
+  reason: ''
+  gene: Dmel\CG31198
+  protein_name: Aminopeptidase
+  rescue_settings_hit: null
+  residues: A:380 A:384 A:396 A:447 A:450
+  n_site_evidence: 0
+- accession: Q8INH6
+  taxid: 7227
+  species: '7227'
+  role: outgroup
+  side: other
+  state: U
+  state_pre_filter: U (primary_pLDDT90, pre-D11)
+  footprint_plddt: 97.94999694824219
+  reason: partial_site_overlap
+  gene: CG8775
+  protein_name: glutamyl aminopeptidase
+  rescue_settings_hit: null
+  residues: null
+  n_site_evidence: 0
+- accession: Q9VAM2
+  taxid: 7227
+  species: '7227'
+  role: outgroup
+  side: other
+  state: U
+  state_pre_filter: A (primary_pLDDT90, pre-D11)
+  footprint_plddt: 97.8499984741211
+  reason: footprint_residues<=10
+  gene: Dmel\CG11951
+  protein_name: Aminopeptidase
+  rescue_settings_hit: null
+  residues: null
+  n_site_evidence: 0
+- accession: Q9VD85
+  taxid: 7227
+  species: '7227'
+  role: outgroup
+  side: other
+  state: U
+  state_pre_filter: A (primary_pLDDT90, pre-D11)
+  footprint_plddt: 98.55000305175781
+  reason: footprint_residues<=10
+  gene: CG31177
+  protein_name: Aminopeptidase
+  rescue_settings_hit: null
+  residues: null
+  n_site_evidence: 0
+- accession: Q9VD87
+  taxid: 7227
+  species: '7227'
+  role: outgroup
+  side: present
+  state: P
+  state_pre_filter: P (primary_pLDDT90, pre-D11)
+  footprint_plddt: 97.6500015258789
+  reason: ''
+  gene: Dmel\CG5849
+  protein_name: Aminopeptidase
+  rescue_settings_hit: null
+  residues: A:362 A:366 A:378 A:428 A:431
+  n_site_evidence: 0
+- accession: Q9VFW9
+  taxid: 7227
+  species: '7227'
+  role: outgroup
+  side: other
+  state: U
+  state_pre_filter: A (primary_pLDDT90, pre-D11)
+  footprint_plddt: 98.05000305175781
+  reason: footprint_residues<=10
+  gene: Dmel\CG8774
+  protein_name: Aminopeptidase
+  rescue_settings_hit: null
+  residues: null
+  n_site_evidence: 0
+- accession: Q9VFX0
+  taxid: 7227
+  species: '7227'
+  role: outgroup
+  side: other
+  state: U
+  state_pre_filter: A (primary_pLDDT90, pre-D11)
+  footprint_plddt: 97.55000305175781
+  reason: footprint_residues<=10
+  gene: Dmel\CG8773
+  protein_name: Aminopeptidase
+  rescue_settings_hit: null
+  residues: null
+  n_site_evidence: 0
+- accession: Q9VJN2
+  taxid: 7227
+  species: '7227'
+  role: outgroup
+  side: other
+  state: U
+  state_pre_filter: A (primary_pLDDT90, pre-D11)
+  footprint_plddt: 97.1500015258789
+  reason: footprint_residues<=10
+  gene: BG:DS00365.1
+  protein_name: Aminopeptidase
+  rescue_settings_hit: null
+  residues: null
+  n_site_evidence: 0
+- accession: Q9VTL4
+  taxid: 7227
+  species: '7227'
+  role: outgroup
+  side: present
+  state: P
+  state_pre_filter: P (primary_pLDDT90, pre-D11)
+  footprint_plddt: 93.75
+  reason: ''
+  gene: Dmel\CG6071
+  protein_name: Aminopeptidase N
+  rescue_settings_hit: null
+  residues: A:352 A:356 A:368 A:411 A:414
+  n_site_evidence: 0
+- accession: Q9W1S1
+  taxid: 7227
+  species: '7227'
+  role: outgroup
+  side: present
+  state: P
+  state_pre_filter: P (primary_pLDDT90, pre-D11)
+  footprint_plddt: 96.94999694824219
+  reason: ''
+  gene: BEST:LD34564
+  protein_name: Aminopeptidase
+  rescue_settings_hit: null
+  residues: A:364 A:368 A:380 A:430 A:433
+  n_site_evidence: 0
+- accession: Q9W2S7
+  taxid: 7227
+  species: '7227'
+  role: outgroup
+  side: present
+  state: P
+  state_pre_filter: P (primary_pLDDT90, pre-D11)
+  footprint_plddt: 96.3499984741211
+  reason: ''
+  gene: pepCG2111
+  protein_name: Aminopeptidase
+  rescue_settings_hit: null
+  residues: A:361 A:365 A:377 A:427 A:430
+  n_site_evidence: 0
+- accession: Q9W2S8
+  taxid: 7227
+  species: '7227'
+  role: outgroup
+  side: present
+  state: P
+  state_pre_filter: P (primary_pLDDT90, pre-D11)
+  footprint_plddt: 96.6500015258789
+  reason: ''
+  gene: Dmel\CG9806
+  protein_name: Aminopeptidase
+  rescue_settings_hit: null
+  residues: A:352 A:356 A:368 A:413 A:416
+  n_site_evidence: 0
+- accession: A0A286YAT8
+  taxid: 7955
+  species: '7955'
+  role: outgroup
+  side: other
+  state: U
+  state_pre_filter: A (primary_pLDDT90, pre-D11)
+  footprint_plddt: 98.25
+  reason: footprint_residues<=10
+  gene: LOC100004744
+  protein_name: Aminopeptidase
+  rescue_settings_hit: null
+  residues: null
+  n_site_evidence: 0
+- accession: A0A8M1NCN6
+  taxid: 7955
+  species: '7955'
+  role: outgroup
+  side: other
+  state: U
+  state_pre_filter: U (primary_pLDDT90, pre-D11)
+  footprint_plddt: null
+  reason: no_model
+  gene: ''
+  protein_name: ''
+  rescue_settings_hit: null
+  residues: null
+  n_site_evidence: 0
+- accession: A0A8M1NIE7
+  taxid: 7955
+  species: '7955'
+  role: outgroup
+  side: other
+  state: U
+  state_pre_filter: U (primary_pLDDT90, pre-D11)
+  footprint_plddt: null
+  reason: no_model
+  gene: ''
+  protein_name: ''
+  rescue_settings_hit: null
+  residues: null
+  n_site_evidence: 0
+- accession: A0A8M1PE71
+  taxid: 7955
+  species: '7955'
+  role: outgroup
+  side: other
+  state: U
+  state_pre_filter: A (primary_pLDDT90, pre-D11)
+  footprint_plddt: 96.75
+  reason: footprint_residues<=10
+  gene: erap1b
+  protein_name: Aminopeptidase
+  rescue_settings_hit: null
+  residues: null
+  n_site_evidence: 0
+- accession: A0A8M1Q7Z4
+  taxid: 7955
+  species: '7955'
+  role: outgroup
+  side: other
+  state: U
+  state_pre_filter: A (primary_pLDDT90, pre-D11)
+  footprint_plddt: 97.1500015258789
+  reason: footprint_residues<=10
+  gene: trhde.1
+  protein_name: Aminopeptidase
+  rescue_settings_hit: null
+  residues: null
+  n_site_evidence: 0
+- accession: A0A8M1QVB8
+  taxid: 7955
+  species: '7955'
+  role: outgroup
+  side: other
+  state: U
+  state_pre_filter: A (primary_pLDDT90, pre-D11)
+  footprint_plddt: 97.1500015258789
+  reason: footprint_residues<=10
+  gene: anpepla
+  protein_name: Aminopeptidase
+  rescue_settings_hit: null
+  residues: null
+  n_site_evidence: 0
+- accession: A0A8M3AWF2
+  taxid: 7955
+  species: '7955'
+  role: outgroup
+  side: other
+  state: U
+  state_pre_filter: A (primary_pLDDT90, pre-D11)
+  footprint_plddt: 96.75
+  reason: footprint_residues<=10
+  gene: erap1a
+  protein_name: Aminopeptidase
+  rescue_settings_hit: null
+  residues: null
+  n_site_evidence: 0
+- accession: A0A8M9QDJ5
+  taxid: 7955
+  species: '7955'
+  role: outgroup
+  side: other
+  state: U
+  state_pre_filter: U (primary_pLDDT90, pre-D11)
+  footprint_plddt: 96.44999694824219
+  reason: model_sequence_mismatch
+  gene: lnpep
+  protein_name: Leucyl-cystinyl aminopeptidase
+  rescue_settings_hit: null
+  residues: null
+  n_site_evidence: 0
+- accession: A0A8N7TCP8
+  taxid: 7955
+  species: '7955'
+  role: outgroup
+  side: other
+  state: U
+  state_pre_filter: U (primary_pLDDT90, pre-D11)
+  footprint_plddt: null
+  reason: no_model
+  gene: ''
+  protein_name: ''
+  rescue_settings_hit: null
+  residues: null
+  n_site_evidence: 0
+- accession: A0A8N7TF16
+  taxid: 7955
+  species: '7955'
+  role: outgroup
+  side: other
+  state: U
+  state_pre_filter: U (primary_pLDDT90, pre-D11)
+  footprint_plddt: 96.8499984741211
+  reason: model_sequence_mismatch
+  gene: trhde.2
+  protein_name: Aminopeptidase
+  rescue_settings_hit: null
+  residues: null
+  n_site_evidence: 0
+- accession: B8JIB4
+  taxid: 7955
+  species: '7955'
+  role: outgroup
+  side: other
+  state: U
+  state_pre_filter: A (primary_pLDDT90, pre-D11)
+  footprint_plddt: 98.3499984741211
+  reason: footprint_residues<=10
+  gene: enpep
+  protein_name: Aminopeptidase
+  rescue_settings_hit: null
+  residues: null
+  n_site_evidence: 0
+- accession: Q1LWJ7
+  taxid: 7955
+  species: '7955'
+  role: outgroup
+  side: other
+  state: U
+  state_pre_filter: A (primary_pLDDT90, pre-D11)
+  footprint_plddt: 96.94999694824219
+  reason: footprint_residues<=10
+  gene: anpeplb
+  protein_name: Aminopeptidase
+  rescue_settings_hit: null
+  residues: null
+  n_site_evidence: 0
+- accession: P15144
+  taxid: 9606
+  species: '9606'
+  role: outgroup
+  side: other
+  state: U
+  state_pre_filter: A (primary_pLDDT90, pre-D11)
+  footprint_plddt: 97.05000305175781
+  reason: footprint_residues<=10
+  gene: ANPEP
+  protein_name: Aminopeptidase N
+  rescue_settings_hit: null
+  residues: null
+  n_site_evidence: 0
+- accession: Q07075
+  taxid: 9606
+  species: '9606'
+  role: outgroup
+  side: other
+  state: U
+  state_pre_filter: A (primary_pLDDT90, pre-D11)
+  footprint_plddt: 98.6500015258789
+  reason: footprint_residues<=10
+  gene: ENPEP
+  protein_name: Glutamyl aminopeptidase
+  rescue_settings_hit: null
+  residues: null
+  n_site_evidence: 0
+- accession: Q6P179
+  taxid: 9606
+  species: '9606'
+  role: outgroup
+  side: other
+  state: U
+  state_pre_filter: A (primary_pLDDT90, pre-D11)
+  footprint_plddt: 98.05000305175781
+  reason: footprint_residues<=10
+  gene: ERAP2
+  protein_name: Endoplasmic reticulum aminopeptidase 2
+  rescue_settings_hit: null
+  residues: null
+  n_site_evidence: 0
+- accession: Q6Q4G3
+  taxid: 9606
+  species: '9606'
+  role: outgroup
+  side: present
+  state: P
+  state_pre_filter: P (primary_pLDDT90, pre-D11)
+  footprint_plddt: 97.1500015258789
+  reason: ''
+  gene: LVRN
+  protein_name: Aminopeptidase Q
+  rescue_settings_hit: null
+  residues: A:443 A:447 A:459 A:511 A:514
+  n_site_evidence: 0
+- accession: Q9NZ08
+  taxid: 9606
+  species: '9606'
+  role: outgroup
+  side: present
+  state: P
+  state_pre_filter: P (primary_pLDDT90, pre-D11)
+  footprint_plddt: 98.25
+  reason: ''
+  gene: ERAP1
+  protein_name: Endoplasmic reticulum aminopeptidase 1
+  rescue_settings_hit: null
+  residues: A:381 A:385 A:397 A:446 A:449
+  n_site_evidence: 0
+- accession: Q9UIQ6
+  taxid: 9606
+  species: '9606'
+  role: outgroup
+  side: other
+  state: U
+  state_pre_filter: A (primary_pLDDT90, pre-D11)
+  footprint_plddt: 98.6500015258789
+  reason: footprint_residues<=10
+  gene: LNPEP
+  protein_name: Leucyl-cystinyl aminopeptidase
+  rescue_settings_hit: null
+  residues: null
+  n_site_evidence: 0
+- accession: Q9UKU6
+  taxid: 9606
+  species: '9606'
+  role: outgroup
+  side: present
+  state: P
+  state_pre_filter: P (primary_pLDDT90, pre-D11)
+  footprint_plddt: 97.1500015258789
+  reason: ''
+  gene: TRHDE
+  protein_name: Thyrotropin-releasing hormone-degrading ectoenzyme
+  rescue_settings_hit: null
+  residues: A:513 A:517 A:529 A:580 A:583
+  n_site_evidence: 0
+- accession: P16406
+  taxid: 10090
+  species: '10090'
+  role: outgroup
+  side: other
+  state: U
+  state_pre_filter: A (primary_pLDDT90, pre-D11)
+  footprint_plddt: 98.55000305175781
+  reason: footprint_residues<=10
+  gene: Enpep
+  protein_name: Glutamyl aminopeptidase
+  rescue_settings_hit: null
+  residues: null
+  n_site_evidence: 0
+- accession: P97449
+  taxid: 10090
+  species: '10090'
+  role: outgroup
+  side: other
+  state: U
+  state_pre_filter: A (primary_pLDDT90, pre-D11)
+  footprint_plddt: 97.1500015258789
+  reason: footprint_residues<=10
+  gene: Anpep
+  protein_name: Aminopeptidase N
+  rescue_settings_hit: null
+  residues: null
+  n_site_evidence: 0
+- accession: Q2KHK3
+  taxid: 10090
+  species: '10090'
+  role: outgroup
+  side: other
+  state: U
+  state_pre_filter: U (primary_pLDDT90, pre-D11)
+  footprint_plddt: 93.25
+  reason: length_ratio
+  gene: Lvrn
+  protein_name: Aminopeptidase Q
+  rescue_settings_hit: null
+  residues: null
+  n_site_evidence: 0
+- accession: Q8C129
+  taxid: 10090
+  species: '10090'
+  role: outgroup
+  side: other
+  state: U
+  state_pre_filter: A (primary_pLDDT90, pre-D11)
+  footprint_plddt: 98.25
+  reason: footprint_residues<=10
+  gene: Lnpep
+  protein_name: Leucyl-cystinyl aminopeptidase
+  rescue_settings_hit: null
+  residues: null
+  n_site_evidence: 0
+- accession: Q8K093
+  taxid: 10090
+  species: '10090'
+  role: outgroup
+  side: other
+  state: U
+  state_pre_filter: U (primary_pLDDT90, pre-D11)
+  footprint_plddt: 96.75
+  reason: partial_site_overlap
+  gene: Trhde
+  protein_name: Thyrotropin-releasing hormone-degrading ectoenzyme
+  rescue_settings_hit: null
+  residues: null
+  n_site_evidence: 0
+- accession: Q9EQH2
+  taxid: 10090
+  species: '10090'
+  role: outgroup
+  side: other
+  state: U
+  state_pre_filter: A (primary_pLDDT90, pre-D11)
+  footprint_plddt: 97.3499984741211
+  reason: footprint_residues<=10
+  gene: Erap1
+  protein_name: Endoplasmic reticulum aminopeptidase 1
+  rescue_settings_hit: null
+  residues: null
+  n_site_evidence: 0
+- accession: D3ZZW8
+  taxid: 10116
+  species: '10116'
+  role: outgroup
+  side: other
+  state: U
+  state_pre_filter: U (primary_pLDDT90, pre-D11)
+  footprint_plddt: 97.1500015258789
+  reason: partial_site_overlap
+  gene: Lvrn
+  protein_name: Aminopeptidase
+  rescue_settings_hit: null
+  residues: null
+  n_site_evidence: 0
+- accession: P15684
+  taxid: 10116
+  species: '10116'
+  role: outgroup
+  side: other
+  state: U
+  state_pre_filter: A (primary_pLDDT90, pre-D11)
+  footprint_plddt: 97.25
+  reason: footprint_residues<=10
+  gene: Anpep
+  protein_name: Aminopeptidase N
+  rescue_settings_hit: null
+  residues: null
+  n_site_evidence: 0
+- accession: P50123
+  taxid: 10116
+  species: '10116'
+  role: outgroup
+  side: other
+  state: U
+  state_pre_filter: A (primary_pLDDT90, pre-D11)
+  footprint_plddt: 98.44999694824219
+  reason: footprint_residues<=10
+  gene: Enpep
+  protein_name: Glutamyl aminopeptidase
+  rescue_settings_hit: null
+  residues: null
+  n_site_evidence: 0
+- accession: P97629
+  taxid: 10116
+  species: '10116'
+  role: outgroup
+  side: other
+  state: U
+  state_pre_filter: A (primary_pLDDT90, pre-D11)
+  footprint_plddt: 98.25
+  reason: footprint_residues<=10
+  gene: Lnpep
+  protein_name: Leucyl-cystinyl aminopeptidase
+  rescue_settings_hit: null
+  residues: null
+  n_site_evidence: 0
+- accession: Q10836
+  taxid: 10116
+  species: '10116'
+  role: outgroup
+  side: other
+  state: U
+  state_pre_filter: U (primary_pLDDT90, pre-D11)
+  footprint_plddt: 97.3499984741211
+  reason: partial_site_overlap
+  gene: Trhde
+  protein_name: Thyrotropin-releasing hormone-degrading ectoenzyme
+  rescue_settings_hit: null
+  residues: null
+  n_site_evidence: 0
+- accession: Q9JJ22
+  taxid: 10116
+  species: '10116'
+  role: outgroup
+  side: other
+  state: U
+  state_pre_filter: A (primary_pLDDT90, pre-D11)
+  footprint_plddt: 97.05000305175781
+  reason: footprint_residues<=10
+  gene: Erap1
+  protein_name: Endoplasmic reticulum aminopeptidase 1
+  rescue_settings_hit: null
+  residues: null
+  n_site_evidence: 0
+- accession: A0A077Z7V0
+  taxid: 36087
+  species: '36087'
+  role: outgroup
+  side: other
+  state: U
+  state_pre_filter: U (primary_pLDDT90, pre-D11)
+  footprint_plddt: 82.75
+  reason: aligned<0.8
+  gene: null
+  protein_name: Peptidase M1 domain containing protein
+  rescue_settings_hit: null
+  residues: null
+  n_site_evidence: 0
+- accession: A0A077ZEW4
+  taxid: 36087
+  species: '36087'
+  role: outgroup
+  side: present
+  state: P
+  state_pre_filter: P (primary_pLDDT90, pre-D11)
+  footprint_plddt: 82.75
+  reason: ''
+  gene: null
+  protein_name: Peptidase family M1
+  rescue_settings_hit: null
+  residues: A:417 A:421 A:446 A:501 A:504
+  n_site_evidence: 0
+- accession: A0A077ZN99
+  taxid: 36087
+  species: '36087'
+  role: outgroup
+  side: other
+  state: U
+  state_pre_filter: U (primary_pLDDT90, pre-D11)
+  footprint_plddt: null
+  reason: aligned<0.8
+  gene: null
+  protein_name: Peptidase M1 domain containing protein
+  rescue_settings_hit: null
+  residues: null
+  n_site_evidence: 0
+- accession: Q557I4
+  taxid: 44689
+  species: '44689'
+  role: outgroup
+  side: other
+  state: U
+  state_pre_filter: A (primary_pLDDT90, pre-D11)
+  footprint_plddt: 97.55000305175781
+  reason: footprint_residues<=10
+  gene: null
+  protein_name: Aminopeptidase
+  rescue_settings_hit: null
+  residues: null
+  n_site_evidence: 0
+- accession: A0A0N4U375
+  taxid: 318479
+  species: '318479'
+  role: outgroup
+  side: other
+  state: U
+  state_pre_filter: U (primary_pLDDT90, pre-D11)
+  footprint_plddt: 95.75
+  reason: aligned<0.8
+  gene: null
+  protein_name: Peptidase M1 membrane alanine aminopeptidase domain-containing protein
+  rescue_settings_hit: null
+  residues: null
+  n_site_evidence: 0
+- accession: A0A0N4U4M3
+  taxid: 318479
+  species: '318479'
+  role: outgroup
+  side: present
+  state: P
+  state_pre_filter: P (primary_pLDDT90, pre-D11)
+  footprint_plddt: 95.94999694824219
+  reason: ''
+  gene: null
+  protein_name: Aminopeptidase
+  rescue_settings_hit: null
+  residues: A:392 A:396 A:409 A:459 A:462
+  n_site_evidence: 0
+- accession: A0A0N4U4R0
+  taxid: 318479
+  species: '318479'
+  role: outgroup
+  side: other
+  state: U
+  state_pre_filter: U (primary_pLDDT90, pre-D11)
+  footprint_plddt: null
+  reason: aligned<0.8
+  gene: null
+  protein_name: ERAP1-like C-terminal domain-containing protein
+  rescue_settings_hit: null
+  residues: null
+  n_site_evidence: 0
+- accession: A0A0N4U5R2
+  taxid: 318479
+  species: '318479'
+  role: outgroup
+  side: present
+  state: P
+  state_pre_filter: P (primary_pLDDT90, pre-D11)
+  footprint_plddt: 95.25
+  reason: ''
+  gene: null
+  protein_name: Aminopeptidase
+  rescue_settings_hit: null
+  residues: A:332 A:336 A:348 A:398 A:401
+  n_site_evidence: 0
+- accession: A0A0N4UGN5
+  taxid: 318479
+  species: '318479'
+  role: derived
+  side: absent
+  state: U
+  state_pre_filter: U (primary_pLDDT90, pre-D11)
+  footprint_plddt: 74.08333587646484
+  reason: partial_site_overlap
+  gene: null
+  protein_name: Uncharacterized protein
+  rescue_settings_hit: null
+  residues: A:599 A:603 A:617
+  n_site_evidence: 0
+- accession: A0A158Q368
+  taxid: 318479
+  species: '318479'
+  role: outgroup
+  side: present
+  state: P
+  state_pre_filter: P (primary_pLDDT90, pre-D11)
+  footprint_plddt: 92.25
+  reason: ''
+  gene: null
+  protein_name: Aminopeptidase
+  rescue_settings_hit: null
+  residues: A:394 A:398 A:411 A:449 A:452
+  n_site_evidence: 0
+- accession: A0A3P7QN87
+  taxid: 318479
+  species: '318479'
+  role: outgroup
+  side: present
+  state: P
+  state_pre_filter: P (primary_pLDDT90, pre-D11)
+  footprint_plddt: 96.6500015258789
+  reason: ''
+  gene: null
+  protein_name: Aminopeptidase
+  rescue_settings_hit: null
+  residues: A:623 A:627 A:640 A:690 A:693
+  n_site_evidence: 0
+filters:
+- name: persistence
+  status: fail
+  detail: 'A in 0 derived species (purity 0.00 of informative derived members; 0.00 over all members under
+    the species-tree LCA: scattered); single tree-consistent event: False; outgroup support: P in 7 outgroup
+    species'
+- name: experimental
+  status: fail
+  detail: 'ChEMBL pChEMBL>=6 activity on 1 outgroup/ancestral (pocket present) protein(s): protein-level
+    only, not mapped to the footprint'
+- name: computational
+  status: pending
+  detail: 'conservation: na (too few aligned members (derived 0, outgroup 19)); rescue_consistency: na
+    (no rescue run for present-side members); source_consistency: na (no present-side member in the v6/v4
+    re-detection sample); cofolding: pending (placeholder; filled by the co-folding agent)'
+- name: f3:conservation
+  status: na
+  detail: too few aligned members (derived 0, outgroup 19)
+- name: f3:rescue_consistency
+  status: na
+  detail: no rescue run for present-side members
+- name: f3:source_consistency
+  status: na
+  detail: no present-side member in the v6/v4 re-detection sample
+- name: f3:cofolding
+  status: pending
+  detail: placeholder; filled by the co-folding agent
+artifact_checks:
+- name: artifact_cascade
+  status: pending
+  detail: pass_artifacts not yet in the candidate table (Part B agent)
+- name: orthology_side_family_reported_only
+  status: pending
+  detail: no PANTHER/Pfam family on one side [reported only; does not gate selection (PI D30)]
+evidence:
+- type: chembl
+  id: CHEMBL1907
+  about_change: false
+  detail: 'P15144: 157 compounds pChEMBL>=6 (max 10.22), protein-level only'
+  filter: experimental
+  verified: null
+- type: chembl
+  id: CHEMBL3439
+  about_change: false
+  detail: 'Q07075: 3 compounds pChEMBL>=6 (max 9.06), protein-level only'
+  filter: experimental
+  verified: null
+- type: chembl
+  id: CHEMBL5043
+  about_change: false
+  detail: 'Q6P179: 74 compounds pChEMBL>=6 (max 8.4), protein-level only'
+  filter: experimental
+  verified: null
+- type: chembl
+  id: CHEMBL5939
+  about_change: false
+  detail: 'Q9NZ08: 60 compounds pChEMBL>=6 (max 8.6), protein-level only'
+  filter: experimental
+  verified: null
+- type: chembl
+  id: CHEMBL2693
+  about_change: false
+  detail: 'Q9UIQ6: 359 compounds pChEMBL>=6 (max 9.05), protein-level only'
+  filter: experimental
+  verified: null
+- type: chembl
+  id: CHEMBL6196072
+  about_change: false
+  detail: 'P16406: 29 compounds pChEMBL>=6 (max 9.0), protein-level only'
+  filter: experimental
+  verified: null
+- type: chembl
+  id: CHEMBL2189140
+  about_change: false
+  detail: 'P97449: 2 compounds pChEMBL>=6 (max 9.7), protein-level only'
+  filter: experimental
+  verified: null
+- type: chembl
+  id: CHEMBL3712
+  about_change: false
+  detail: 'P97629: 256 compounds pChEMBL>=6 (max 9.38), protein-level only'
+  filter: experimental
+  verified: null
+cofold:
+- model_id: pending
+  status: pending
+  role: derived
+  note: "placeholder; co-folding agent fills models per DESIGN \xA76 and the D23 concordance rule (ligand\
+    \ pLDDT AND centroid distance or site-residue recall in >= 2/3 seeds)"
+- model_id: control_falseloss_HOG0030328_g4_n103_O1_apo
+  role: apo_refold
+  status: pocket_reappeared
+  ligands: []
+  seeds: 3
+  samples_per_seed: 5
+  templates: none
+  msa: ColabFold MMseqs2
+  method: protein-only AF3 refold, then pocketcompare describe --af-mode; site recall of the best-covering
+    BURROW pocket against the case footprint, reported CONTINUOUS (never thresholded at 0.8)
+  present_recall_median: 0.6
+  absent_recall_median: 0.6
+  delta_recall: 0.0
+  n_present: 3
+  n_absent: 3
+  members:
+  - acc: Q9NZ08
+    side: present
+    recall: 0.6
+    precision: 0.273
+    burrow_rank: '4'
+    n_pockets: '8'
+    construct: full_length
+    atlas_footprint_plddt: 98.25
+    site_source: own_footprint
+  - acc: Q8IN25
+    side: present
+    recall: 0.8
+    precision: 0.444
+    burrow_rank: '11'
+    n_pockets: '8'
+    construct: full_length
+    atlas_footprint_plddt: 97.85
+    site_source: own_footprint
+  - acc: Q9VD87
+    side: present
+    recall: 0.4
+    precision: 0.154
+    burrow_rank: '3'
+    n_pockets: '9'
+    construct: full_length
+    atlas_footprint_plddt: 97.65
+    site_source: own_footprint
+  - acc: A0A8R1U0G3
+    side: absent_pre_d11
+    recall: 0.6
+    precision: 0.429
+    burrow_rank: '29'
+    n_pockets: '6'
+    construct: full_length
+    atlas_footprint_plddt: 92.95
+    site_source: own_footprint
+  - acc: A0A0K0DSH2
+    side: absent_pre_d11
+    recall: 0.8
+    precision: 0.4
+    burrow_rank: '4'
+    n_pockets: '6'
+    construct: full_length
+    atlas_footprint_plddt: 94.25
+    site_source: own_footprint
+  - acc: A0A8R1Y1E3
+    side: absent_pre_d11
+    recall: 0.0
+    precision: 0.0
+    burrow_rank: '2'
+    n_pockets: '6'
+    construct: full_length
+    atlas_footprint_plddt: 94.55
+    site_source: mapped_from:Q22531
+  table: results/cofold/apo_pool/apo_burrow_pool.tsv
+  outcome: 'CONFIRMED: absent-side median recall 0.6 >= 0.3; the pocket is recovered in fresh models of
+    the bad-model proteins, so the original loss call was a prediction artifact'
+  prediction: the pocket should reappear in a fresh ligand-free model of the absent-side (bad-model) proteins
+figures: []
+literature: []
+headline: convincing_only
+filter_label_with_literature_post_hoc: null
+notes: 'filter_label=rejected (prereg: convincing = all three filters; supported = f1 + one of f2/f3);
+  final label also needs the artifact cascade (pending). candidate label: false-loss control; fdr_supported=False.
+  selection: negative_control. G (gene-absent) rows not listed: 17; every other member is listed with
+  side (present/absent/other), state and reason; state_pre_filter = state in the pre-quality-filter run
+  that called the false loss. Evidence counts are derived from BioLiP2/UniProt 2026_03/M-CSA/ChEMBL 37
+  (DATA.md); BioLiP rows are not redistributed, only PDB IDs and counts. Final co-fold pool selection
+  (D28, case_list_v2.parquet): negative_control.'
+provenance:
+  builder: scripts/cases/build_cases.py
+  orthology: O1
+  snapshot: 20261030T085136Z
+  case_list: results/cases/20261030T085136Z/case_list_v2.parquet
+  prereg_sha256: 52f9461890984c210b730af86c40de221307a668e7d4b38098b3316059690d83
+  git_commit: cdb00a44da5049d0e4a054f4e2ba4ee534e35363+dirty
+  seed: 0
+  built_utc: '2026-10-30T16:17:54Z'
+  n_excluded_tune_annotations:
+    rule: per SOG (prereg literal); OG-wide reported as sensitivity
+    n_tuning_list_rows: 450
+    n_used_in_tune_pairs: 245
+    pairs_file: results/sogs/20261030T085136Z/O1/tau_benchmark_pairs.parquet
+    n_keys_per_sog: 216
+    n_keys_og_wide: 221

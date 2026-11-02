@@ -1,0 +1,68 @@
+{
+ "score": "cos",
+ "tau_placeholder": 0.3,
+ "n_pairs": 43322087,
+ "cls0_counts": {
+  "H1": 305095,
+  "H2": 1162316,
+  "H12": 8053372,
+  "H3j": 5200433,
+  "rest": 28600871
+ },
+ "seqdb_model_seq": 861985,
+ "seqdb_uniprot_fallback": 0,
+ "seqdb_entries": 861985,
+ "foldseek_entries": 989696,
+ "proteins_missing_seq": 0,
+ "proteins_missing_structure": 0,
+ "rest_sig_pairs_keptE1": 28600871,
+ "rest_pairs_primary_exhaustive": 3713275,
+ "rest_pairs_secondary": 24887596,
+ "rest_pairs_secondary_sampled": 299533,
+ "secondary_sampling_prob": 0.012054197601086098,
+ "rest_searched_protein_pairs": 4007900,
+ "rest_sample_drawn": 400000,
+ "rest_sample_accept": 0.25,
+ "rest_sample_classes": {
+  "N": 99840,
+  "H4": 121,
+  "H3s": 39
+ },
+ "split_mode": "placeholder_mmseqs_mapped_jaccard",
+ "split_fraction": {
+  "H1": 0.03735632183908046,
+  "H12": 0.08318955817268021,
+  "H2": 0.02968888888888889
+ },
+ "split_sample_n": {
+  "H12": 13331,
+  "H2": 5625,
+  "H1": 1044
+ },
+ "cls_counts_keptE1": {
+  "rest_unsearched": 24588063,
+  "H12s": 7406164,
+  "H3j": 5200433,
+  "N": 3901106,
+  "H2s": 1049994,
+  "H12x": 647208,
+  "H1s": 272405,
+  "H2x": 112322,
+  "H4": 65801,
+  "H3s": 45901,
+  "H1x": 32690
+ },
+ "cls_counts_E0.01_pooled": {
+  "H12s": 3823450,
+  "N": 3605586,
+  "H3j": 1393868,
+  "H2s": 456864,
+  "H12x": 210112,
+  "H1s": 141883,
+  "H4": 63551,
+  "H3s": 44138,
+  "H2x": 26984,
+  "H1x": 9855
+ },
+ "wall_s": 478.6484999656677
+}

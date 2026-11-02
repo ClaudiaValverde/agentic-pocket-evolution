@@ -1,0 +1,29 @@
+{
+ "set": "context",
+ "snapshot": "20261030T085136Z",
+ "n_atlas": 466282,
+ "n_members": 363763,
+ "n_queries": 102519,
+ "source": "rest.uniprot.org/uniprotkb/stream?query=organism_id:<taxid>&format=fasta",
+ "retrieved": "2026-10-30",
+ "uniparc_fallback": "rest.uniprot.org/uniparc/stream?query=dbid:<acc>",
+ "n_with_sequence": 102519,
+ "n_no_sequence": 0,
+ "diamond_s": 44.4,
+ "wall_s": 466.9,
+ "config": {
+  "evalue": 1e-10,
+  "min_query_cov": 50.0,
+  "min_subject_cov": 0.0,
+  "diamond_mode": "--fast",
+  "chunk_size": 500000,
+  "threads": 40
+ },
+ "methods": {
+  "member": 363763,
+  "diamond": 89821,
+  "no_hit": 12698
+ },
+ "frac_compatible_of_diamond": 0.7346834259248951,
+ "frac_placed_in_hog": 0.6641839058767012
+}

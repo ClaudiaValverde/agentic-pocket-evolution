@@ -1,0 +1,20 @@
+{
+ "output": "validation_table.parquet",
+ "snapshot_id": "20261030T085136Z",
+ "prereg_sha256": "52f9461890984c210b730af86c40de221307a668e7d4b38098b3316059690d83",
+ "git_commit": "9f9ba879c81bd222ebf214dbb5d5e6edbdc55763+dirty",
+ "seed": 0,
+ "created_utc": "2026-10-30T16:22:44Z",
+ "sha256": "83d0eb9956c9d0141bcb7b872448d5d5e0f8caa74b63a58c74ec2d996b75ad72",
+ "script": "scripts/cases/validation_track.py",
+ "argv": [],
+ "recall": {
+  "n_known": 7,
+  "recovered_any": 0,
+  "by_orthology": {
+   "O1": 0,
+   "O2": 0
+  }
+ },
+ "runtime_s": 26.9
+}

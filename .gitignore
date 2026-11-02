@@ -1,0 +1,71 @@
+# ---------------------------------------------------------------------------
+# Environments and caches
+# ---------------------------------------------------------------------------
+.venv/
+envs/
+__pycache__/
+*.pyc
+*.egg-info/
+.pytest_cache/
+.ipynb_checkpoints/
+.DS_Store
+
+# External tools are cloned at pinned commits by scripts/setup_external.sh
+external/
+
+# ---------------------------------------------------------------------------
+# Sizable data: never committed. Everything below is regenerable from the
+# pipeline (scripts/run_pipeline.py) or lives at its source path (DATA.md).
+# ---------------------------------------------------------------------------
+# Tabular bulk outputs (site tables, SOG tables, states, kNN pairs, annotations)
+*.parquet
+*.arrow
+*.feather
+*.npy
+*.npz
+*.h5
+*.hdf5
+*.faiss
+*.index
+# Compressed bulk files (orthology XML, MSAs, model archives)
+*.gz
+*.zst
+*.bz2
+*.xz
+*.tar
+*.zip
+# Structures and co-folding outputs (AFDB models, AF3 models, MSAs)
+*.cif
+*.pdb
+*.mmcif
+*.a3m
+*.sto
+results/cofold/**/seed-*/
+results/cofold/**/run_af3.log
+# Node-local scratch and raw downloads
+/tmp/
+data/raw/
+data/cache/
+data/af3_weights/
+logs/
+*.log
+
+# ---------------------------------------------------------------------------
+# Restricted or private: never committed
+# ---------------------------------------------------------------------------
+# AlphaFold 3 weights are under non-commercial terms of use
+*.bin
+af3.bin*
+# Credentials and local configuration
+.env
+.env.*
+*.pem
+*.key
+.netrc
+.git-credentials
+
+# ---------------------------------------------------------------------------
+# Exceptions: tiny synthetic fixtures for the web app demo mode and tests
+# ---------------------------------------------------------------------------
+!webapp/fixtures/**/*.parquet
+!webapp/fixtures/**/*.cif

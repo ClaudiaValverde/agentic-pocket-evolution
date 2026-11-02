@@ -1,0 +1,24 @@
+# D25b post-hoc literature search (O1, 2026-10-30 ~15:20-15:30 CET). Targets: top-10 'supported' gains and all 8
+# 'supported' losses by S in the dry v2 build. Searchers: two general-purpose agents (gains a14187d9, losses aaf571f2);
+# reviewer: M4 case-builder agent (every PMID resolved by NCBI efetch, quote verbatim in the abstract).
+# Only items with about_change and review_ok are written to cases/<id>/manual.yaml and enter f2_with_literature.
+gains:
+  gain_HOG0025451_g0_n48_O1: {about_change: [30242155, 31649623], not_about_change: [19737747]}
+  gain_HOG0035363_g0_n51_O1: {about_change: [23325245, 28424515, 32079674, 42020573, 42284891], note: "absent side unrelated family (KAS)"}
+  gain_HOG0035363_g6_n51_O1: {about_change: [35680945, 34507995, 28424515], note: "absent side unrelated family (KAS)"}
+  gain_HOG0026595_g6_n41_O1: {about_change: [], not_about_change: [26219431, 33431688], note: "Ctk3 CID-like domain reported NOT to bind CTD peptides"}
+  gain_HOG0029076_g3_n34_O1: {about_change: [], not_about_change: [11847227], note: "TBCC arginine finger conserved on the absent side"}
+  gain_HOG0029217_g0_n25_O1: {about_change: [], not_about_change: [20122916]}
+  gain_HOG0029098_g4_n13_O1: {about_change: [], searched: "TFIIIC triple barrel"}
+  gain_HOG0029246_g3_n80_O1: {about_change: [], searched: "Hor2/Gpp2 structures"}
+  gain_HOG0030922_g6_n85_O1: {about_change: [], searched: "dienelactone hydrolase structures"}
+  gain_HOG0036350_g6_n85_O1: {about_change: [], searched: "Nog1 / MFS"}
+losses:
+  loss_HOG0033853_g4_n5_O1: {about_change: [], not_about_change: [22603794, 22603793, 31907455, 9535091], note: "E. coli RecC (absent side) Chi site is functional and adjacent to, not in, the footprint (6SJB contacts) -> argues against a loss"}
+  loss_HOG0019751_g3_n30_O1: {about_change: [], note: "absent side keeps the footprint motif"}
+  loss_HOG0027153_g11_n17_O1: {about_change: []}
+  loss_HOG0028295_g7_n17_O1: {about_change: []}
+  loss_HOG0034683_g7_n132_O1: {about_change: [], note: "COX11 vs RFC3/5: different families"}
+  loss_HOG0034750_g4_n230_O1: {about_change: []}
+  loss_HOG0035662_g11_n3_O1: {about_change: [], note: "absent-side Lon-like paralogs differ at the footprint; no literature"}
+  loss_HOG0036644_g2_n49_O1: {about_change: [], note: "P-type ATPase vs alpha-galactosidase: different families"}

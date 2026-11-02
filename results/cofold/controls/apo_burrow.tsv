@@ -1,0 +1,5 @@
+system	model	n_pockets	n_site_res	recall	precision	jaccard	detected	burrow_score	n_res	pocket_id	plddt_mean	burrow_rank	volume_A3
+ca2	ca2_top	4	13	1.0	0.52	0.52	True	0.431	25	ca2_top:m0	98.6	1	173.0
+cdk2	cdk2_top	4	22	0.591	0.722	0.481	True	0.225	18	cdk2_top:m0	93.0	1	126.0
+pygl	pygl_top	6	14	0.857	0.286	0.273	True	0.691	42	pygl_top:m0	98.3	1	209.0
+yadh1	yadh1_top	5	36	0.444	0.615	0.348	False	0.642	26	yadh1_top:m1	95.5	2	268.0

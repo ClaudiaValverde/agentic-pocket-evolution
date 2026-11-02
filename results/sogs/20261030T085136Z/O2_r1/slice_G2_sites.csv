@@ -1,0 +1,6 @@
+accession,site,og_id,half,forced_test,best_site,site_n_res,known_coverage,sog_id,sog_n_sites,sog_n_species,footprint_size,n_P,n_P_species,n_A,n_U,n_G,n_A_s70,U_reasons
+P24941,CDK2 ATP site,HOG0042924,tune,False,P24941:s0,68,1.0,HOG0042924:g1,28,26,52,46,38,0,8,7,0,partial_site_overlap:6; aligned<0.8:2
+P00918,CA2 active site,HOG0053966,tune,False,P00918:s0,10,0.231,HOG0053966:g1,289,53,6,194,44,0,292,91,0,partial_site_overlap:207; aligned<0.8:31; plddt<90:18; footprint_residues<=10:11; model_sequence_mismatch:11; length_ratio:5; no_model:5; terminal_truncation:3; sp_tm_overlap:1
+P03372,ESR1 ligand pocket,HOG0035169,test,True,P03372:s0,36,0.952,HOG0035169:g0,25,11,23,25,11,0,4,0,0,no_model:2; partial_site_overlap:1; aligned<0.8:1
+P10275,AR ligand pocket,HOG0035184,test,True,P10275:s0,26,0.235,HOG0035184:g0,49,12,24,46,12,0,5,0,0,model_sequence_mismatch:2; no_model:2; aligned<0.8:1
+P00338,LDHA NADH/substrate,HOG0053841,test,True,P00338:s1,43,0.526,HOG0053841:g0,211,53,16,137,51,0,38,94,0,partial_site_overlap:29; no_model:5; aligned<0.8:3; model_sequence_mismatch:1

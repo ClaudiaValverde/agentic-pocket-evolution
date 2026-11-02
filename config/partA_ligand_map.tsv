@@ -1,0 +1,61 @@
+# Part A functional validation: UniProt ligand name -> canonical PDB CCD id (for cross-source matching with BioLiP2)
+# and ligand category. Hand-curated from the 40 most frequent experimental UniProt binding ligands (2026_03) and
+# standard PDB CCD ids (rcsb.org/ligand/<id>). Category: metal | cofactor | small_molecule. CCD rows without a
+# uniprot_name only assign a category to BioLiP2 CCD ids. Unlisted BioLiP regular ligands = small_molecule;
+# BioLiP2 ligand_class 'metal' = metal; unlisted UniProt ligands keep their ChEBI id, category by name rule
+# (ion charge pattern -> metal).
+uniprot_name	ccd	category
+Zn(2+)	ZN	metal
+Ca(2+)	CA	metal
+Mg(2+)	MG	metal
+Mn(2+)	MN	metal
+Fe cation	FE	metal
+Fe(3+)	FE	metal
+Fe(2+)	FE2	metal
+Cu cation	CU	metal
+Cu(2+)	CU	metal
+K(+)	K	metal
+Na(+)	NA	metal
+Ni(2+)	NI	metal
+Co(2+)	CO	metal
+a divalent metal cation	METAL2	metal
+ATP	ATP	small_molecule
+ADP	ADP	small_molecule
+AMP	AMP	small_molecule
+GTP	GTP	small_molecule
+GDP	GDP	small_molecule
+UDP	UDP	small_molecule
+FAD	FAD	cofactor
+FMN	FMN	cofactor
+NAD(+)	NAD	cofactor
+NADH	NAI	cofactor
+NADP(+)	NAP	cofactor
+NADPH	NDP	cofactor
+S-adenosyl-L-methionine	SAM	cofactor
+S-adenosyl-L-homocysteine	SAH	cofactor
+[4Fe-4S] cluster	SF4	cofactor
+[2Fe-2S] cluster	FES	cofactor
+[3Fe-4S] cluster	F3S	cofactor
+heme	HEM	cofactor
+heme b	HEM	cofactor
+heme c	HEC	cofactor
+heme a	HEA	cofactor
+pyridoxal 5'-phosphate	PLP	cofactor
+thiamine diphosphate	TPP	cofactor
+CoA	COA	cofactor
+acetyl-CoA	ACO	cofactor
+glutathione	GSH	cofactor
+biotin	BTN	cofactor
+	TDP	cofactor
+	B12	cofactor
+	CNC	cofactor
+	MGD	cofactor
+	H4B	cofactor
+	NDP	cofactor
+	FDA	cofactor
+	CLA	cofactor
+	BCL	cofactor
+	SRM	cofactor
+	LPA	cofactor
+	PQQ	cofactor
+	UQ1	cofactor

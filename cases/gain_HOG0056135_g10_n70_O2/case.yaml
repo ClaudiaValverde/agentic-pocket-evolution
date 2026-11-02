@@ -1,0 +1,1133 @@
+schema: case-v1
+case_id: gain_HOG0056135_g10_n70_O2
+title: 'Pocket gain: HOG0056135:g10 (Protostomia)'
+category: gain
+track: discovery
+label: supported
+toy: false
+summary: 'SOG HOG0056135:g10: pocket present in the Protostomia clade (node 70) and absent-observed in
+  outgroup lineages.'
+og_id: HOG0056135
+sog_id: HOG0056135:g10
+score: 4.0
+proteins:
+- accession: A0A077ZFA6
+  taxid: 36087
+  species: '36087'
+  role: derived
+  side: other
+  state: A
+  footprint_plddt: 98.16666412353516
+  reason: rescue:negative
+  gene: null
+  protein_name: membrane dipeptidase
+  rescue_settings_hit: 0
+  residues: null
+  n_site_evidence: 0
+- accession: A0A0G2K189
+  taxid: 10116
+  species: '10116'
+  role: outgroup
+  side: absent
+  state: A
+  footprint_plddt: 98.01923370361328
+  reason: rescue:negative
+  gene: Scrn3
+  protein_name: Secernin 3
+  rescue_settings_hit: 0
+  residues: A:295 A:306 A:307 A:308 A:309 A:372 A:375 A:376 A:379 A:404 A:407 A:408 A:411
+  n_site_evidence: 0
+- accession: A0A4R8MKW0
+  taxid: 29508
+  species: '29508'
+  role: outgroup
+  side: absent
+  state: U
+  footprint_plddt: 97.125
+  reason: partial_site_overlap
+  gene: ''
+  protein_name: ''
+  rescue_settings_hit: null
+  residues: A:311 A:322 A:323 A:324 A:325 A:375 A:378 A:379 A:402 A:405 A:406 A:409
+  n_site_evidence: 0
+- accession: A0A4W3GZY4
+  taxid: 7868
+  species: '7868'
+  role: outgroup
+  side: absent
+  state: U
+  footprint_plddt: 91.94230651855469
+  reason: partial_site_overlap
+  gene: ''
+  protein_name: ''
+  rescue_settings_hit: null
+  residues: A:273 A:285 A:286 A:287 A:288 A:349 A:352 A:353 A:356 A:382 A:385 A:386 A:389
+  n_site_evidence: 0
+- accession: A0A4W3IJS2
+  taxid: 7868
+  species: '7868'
+  role: outgroup
+  side: absent
+  state: A
+  footprint_plddt: 97.82691955566406
+  reason: rescue:negative
+  gene: ''
+  protein_name: ''
+  rescue_settings_hit: 0
+  residues: A:300 A:311 A:312 A:313 A:314 A:379 A:382 A:383 A:386 A:411 A:414 A:415 A:418
+  n_site_evidence: 0
+- accession: A0A4W3K1B0
+  taxid: 7868
+  species: '7868'
+  role: outgroup
+  side: absent
+  state: U
+  footprint_plddt: 96.44230651855469
+  reason: partial_site_overlap
+  gene: ''
+  protein_name: ''
+  rescue_settings_hit: null
+  residues: A:296 A:307 A:308 A:309 A:310 A:375 A:378 A:379 A:382 A:408 A:411 A:412 A:415
+  n_site_evidence: 0
+- accession: A0A5B9D720
+  taxid: 2594042
+  species: '2594042'
+  role: outgroup
+  side: absent
+  state: A
+  footprint_plddt: 96.29166412353516
+  reason: rescue:negative
+  gene: ''
+  protein_name: ''
+  rescue_settings_hit: 0
+  residues: A:304 A:315 A:316 A:317 A:318 A:368 A:371 A:372 A:390 A:393 A:394 A:397
+  n_site_evidence: 0
+- accession: A0A653CCP3
+  taxid: 64391
+  species: '64391'
+  role: derived
+  side: other
+  state: U
+  footprint_plddt: null
+  reason: aligned<0.8
+  gene: ''
+  protein_name: ''
+  rescue_settings_hit: null
+  residues: null
+  n_site_evidence: 0
+- accession: A0A670HKV4
+  taxid: 64176
+  species: '64176'
+  role: outgroup
+  side: absent
+  state: A
+  footprint_plddt: 98.01923370361328
+  reason: rescue:negative
+  gene: ''
+  protein_name: ''
+  rescue_settings_hit: 0
+  residues: A:301 A:312 A:313 A:314 A:315 A:380 A:383 A:384 A:387 A:412 A:415 A:416 A:419
+  n_site_evidence: 0
+- accession: A0A670J8F0
+  taxid: 64176
+  species: '64176'
+  role: outgroup
+  side: absent
+  state: U
+  footprint_plddt: 93.51923370361328
+  reason: partial_site_overlap
+  gene: ''
+  protein_name: ''
+  rescue_settings_hit: null
+  residues: A:304 A:315 A:316 A:317 A:318 A:383 A:386 A:387 A:390 A:416 A:419 A:420 A:423
+  n_site_evidence: 0
+- accession: A0A670K4A4
+  taxid: 64176
+  species: '64176'
+  role: outgroup
+  side: absent
+  state: U
+  footprint_plddt: 96.25
+  reason: partial_site_overlap
+  gene: ''
+  protein_name: ''
+  rescue_settings_hit: null
+  residues: A:340 A:351 A:352 A:353 A:354 A:419 A:422 A:423 A:426 A:452 A:455 A:456 A:459
+  n_site_evidence: 0
+- accession: A0A674GPP2
+  taxid: 59729
+  species: '59729'
+  role: outgroup
+  side: absent
+  state: U
+  footprint_plddt: 96.28845977783203
+  reason: partial_site_overlap
+  gene: ''
+  protein_name: ''
+  rescue_settings_hit: null
+  residues: A:323 A:334 A:335 A:336 A:337 A:402 A:405 A:406 A:409 A:435 A:438 A:439 A:442
+  n_site_evidence: 0
+- accession: A0A674GS46
+  taxid: 59729
+  species: '59729'
+  role: outgroup
+  side: absent
+  state: U
+  footprint_plddt: 65.09615325927734
+  reason: partial_site_overlap
+  gene: ''
+  protein_name: ''
+  rescue_settings_hit: null
+  residues: A:303 A:314 A:315 A:316 A:317 A:381 A:384 A:385 A:389 A:415 A:418 A:419 A:422
+  n_site_evidence: 0
+- accession: A0A6I8URX3
+  taxid: 46245
+  species: '46245'
+  role: derived
+  side: present
+  state: P
+  footprint_plddt: 96.71154022216797
+  reason: ''
+  gene: ''
+  protein_name: ''
+  rescue_settings_hit: null
+  residues: A:262 A:273 A:274 A:275 A:276 A:315 A:318 A:319 A:322 A:347 A:350 A:351 A:354
+  n_site_evidence: 0
+- accession: A0A6J3I1E0
+  taxid: 9515
+  species: '9515'
+  role: outgroup
+  side: absent
+  state: A
+  footprint_plddt: 96.59615325927734
+  reason: rescue:negative
+  gene: ''
+  protein_name: ''
+  rescue_settings_hit: 0
+  residues: A:304 A:315 A:316 A:317 A:318 A:383 A:386 A:387 A:390 A:416 A:419 A:420 A:423
+  n_site_evidence: 0
+- accession: A0A6J3IL85
+  taxid: 9515
+  species: '9515'
+  role: outgroup
+  side: absent
+  state: U
+  footprint_plddt: 96.44230651855469
+  reason: partial_site_overlap
+  gene: ''
+  protein_name: ''
+  rescue_settings_hit: null
+  residues: A:293 A:304 A:305 A:306 A:307 A:372 A:375 A:376 A:379 A:405 A:408 A:409 A:412
+  n_site_evidence: 0
+- accession: A0A6J3J2J5
+  taxid: 9515
+  species: '9515'
+  role: outgroup
+  side: absent
+  state: A
+  footprint_plddt: 96.94230651855469
+  reason: ''
+  gene: ''
+  protein_name: ''
+  rescue_settings_hit: null
+  residues: A:297 A:308 A:309 A:310 A:311 A:374 A:377 A:378 A:381 A:406 A:409 A:410 A:413
+  n_site_evidence: 0
+- accession: A0A6P5KM16
+  taxid: 38626
+  species: '38626'
+  role: outgroup
+  side: absent
+  state: U
+  footprint_plddt: 75.09615325927734
+  reason: partial_site_overlap
+  gene: ''
+  protein_name: ''
+  rescue_settings_hit: null
+  residues: A:295 A:306 A:307 A:308 A:309 A:374 A:377 A:378 A:392 A:417 A:418 A:419 A:422
+  n_site_evidence: 0
+- accession: A0A6P5KWI6
+  taxid: 38626
+  species: '38626'
+  role: outgroup
+  side: absent
+  state: U
+  footprint_plddt: 96.17308044433594
+  reason: partial_site_overlap
+  gene: ''
+  protein_name: ''
+  rescue_settings_hit: null
+  residues: A:293 A:304 A:305 A:306 A:307 A:372 A:375 A:376 A:379 A:405 A:408 A:409 A:412
+  n_site_evidence: 0
+- accession: A0A6P5L4J4
+  taxid: 38626
+  species: '38626'
+  role: outgroup
+  side: absent
+  state: A
+  footprint_plddt: 96.28845977783203
+  reason: rescue:negative
+  gene: ''
+  protein_name: ''
+  rescue_settings_hit: 0
+  residues: A:306 A:317 A:318 A:319 A:320 A:385 A:388 A:389 A:392 A:418 A:421 A:422 A:425
+  n_site_evidence: 0
+- accession: A0A6P8NZS7
+  taxid: 260995
+  species: '260995'
+  role: outgroup
+  side: absent
+  state: U
+  footprint_plddt: 95.86538696289062
+  reason: partial_site_overlap
+  gene: ''
+  protein_name: ''
+  rescue_settings_hit: null
+  residues: A:333 A:344 A:345 A:346 A:347 A:412 A:415 A:416 A:419 A:445 A:448 A:449 A:452
+  n_site_evidence: 0
+- accession: A0A6P8PC72
+  taxid: 260995
+  species: '260995'
+  role: outgroup
+  side: absent
+  state: U
+  footprint_plddt: 95.71154022216797
+  reason: partial_site_overlap
+  gene: ''
+  protein_name: ''
+  rescue_settings_hit: null
+  residues: A:293 A:304 A:305 A:306 A:307 A:372 A:375 A:376 A:379 A:405 A:408 A:409 A:412
+  n_site_evidence: 0
+- accession: A0A6P8QWZ2
+  taxid: 260995
+  species: '260995'
+  role: outgroup
+  side: absent
+  state: A
+  footprint_plddt: 97.59615325927734
+  reason: rescue:negative
+  gene: ''
+  protein_name: ''
+  rescue_settings_hit: 0
+  residues: A:295 A:306 A:307 A:308 A:309 A:374 A:377 A:378 A:381 A:406 A:409 A:410 A:413
+  n_site_evidence: 0
+- accession: A0A6P8YLD3
+  taxid: 161013
+  species: '161013'
+  role: derived
+  side: other
+  state: U
+  footprint_plddt: 96.71154022216797
+  reason: partial_site_overlap
+  gene: ''
+  protein_name: ''
+  rescue_settings_hit: null
+  residues: null
+  n_site_evidence: 0
+- accession: A0A7J6Q304
+  taxid: 32597
+  species: '32597'
+  role: outgroup
+  side: absent
+  state: U
+  footprint_plddt: 97.80000305175781
+  reason: aligned<0.8
+  gene: ''
+  protein_name: ''
+  rescue_settings_hit: null
+  residues: A:398 A:407 A:408 A:409 A:410 A:491 A:510 A:513 A:514 A:517
+  n_site_evidence: 0
+- accession: A0A7J6QR10
+  taxid: 32597
+  species: '32597'
+  role: outgroup
+  side: absent
+  state: U
+  footprint_plddt: 94.8499984741211
+  reason: aligned<0.8
+  gene: ''
+  protein_name: ''
+  rescue_settings_hit: null
+  residues: A:437 A:446 A:447 A:448 A:449
+  n_site_evidence: 0
+- accession: A0A7J6R4K7
+  taxid: 32597
+  species: '32597'
+  role: outgroup
+  side: absent
+  state: U
+  footprint_plddt: null
+  reason: aligned<0.8
+  gene: ''
+  protein_name: ''
+  rescue_settings_hit: null
+  residues: null
+  n_site_evidence: 0
+- accession: A0A7J6SEQ7
+  taxid: 32597
+  species: '32597'
+  role: outgroup
+  side: absent
+  state: U
+  footprint_plddt: 97.69999694824219
+  reason: aligned<0.8
+  gene: ''
+  protein_name: ''
+  rescue_settings_hit: null
+  residues: A:403 A:412 A:413 A:414 A:415 A:496 A:515 A:518 A:519 A:522
+  n_site_evidence: 0
+- accession: A0A7J6SPN1
+  taxid: 32597
+  species: '32597'
+  role: outgroup
+  side: absent
+  state: U
+  footprint_plddt: null
+  reason: aligned<0.8
+  gene: ''
+  protein_name: ''
+  rescue_settings_hit: null
+  residues: null
+  n_site_evidence: 0
+- accession: A0A7J6SZH1
+  taxid: 32597
+  species: '32597'
+  role: outgroup
+  side: absent
+  state: U
+  footprint_plddt: 97.55000305175781
+  reason: aligned<0.8
+  gene: ''
+  protein_name: ''
+  rescue_settings_hit: null
+  residues: A:398 A:407 A:408 A:409 A:410 A:491 A:510 A:513 A:514 A:517
+  n_site_evidence: 0
+- accession: A0A7J6U1A7
+  taxid: 32597
+  species: '32597'
+  role: outgroup
+  side: absent
+  state: U
+  footprint_plddt: 97.625
+  reason: partial_site_overlap
+  gene: ''
+  protein_name: ''
+  rescue_settings_hit: null
+  residues: A:68 A:77 A:78 A:79 A:80 A:137 A:141 A:142 A:167 A:170 A:171 A:174
+  n_site_evidence: 0
+- accession: A0A7J8D8I0
+  taxid: 9407
+  species: '9407'
+  role: outgroup
+  side: absent
+  state: U
+  footprint_plddt: 95.48076629638672
+  reason: partial_site_overlap
+  gene: ''
+  protein_name: ''
+  rescue_settings_hit: null
+  residues: A:293 A:304 A:305 A:306 A:307 A:372 A:375 A:376 A:379 A:405 A:408 A:409 A:412
+  n_site_evidence: 0
+- accession: A0A7J8GFH3
+  taxid: 9407
+  species: '9407'
+  role: outgroup
+  side: absent
+  state: U
+  footprint_plddt: 97.17308044433594
+  reason: partial_site_overlap
+  gene: ''
+  protein_name: ''
+  rescue_settings_hit: null
+  residues: A:304 A:315 A:316 A:317 A:318 A:383 A:386 A:387 A:390 A:416 A:419 A:420 A:423
+  n_site_evidence: 0
+- accession: A0A7J8JLL6
+  taxid: 9407
+  species: '9407'
+  role: outgroup
+  side: absent
+  state: A
+  footprint_plddt: 97.01923370361328
+  reason: rescue:negative
+  gene: ''
+  protein_name: ''
+  rescue_settings_hit: 0
+  residues: A:297 A:308 A:309 A:310 A:311 A:376 A:379 A:380 A:383 A:408 A:411 A:412 A:415
+  n_site_evidence: 0
+- accession: A0A7M7KSU1
+  taxid: 109461
+  species: '109461'
+  role: derived
+  side: present
+  state: P
+  footprint_plddt: 95.98076629638672
+  reason: ''
+  gene: ''
+  protein_name: ''
+  rescue_settings_hit: null
+  residues: A:295 A:306 A:307 A:308 A:309 A:348 A:351 A:352 A:355 A:379 A:382 A:383 A:386
+  n_site_evidence: 0
+- accession: B5IA28
+  taxid: 439481
+  species: '439481'
+  role: outgroup
+  side: absent
+  state: U
+  footprint_plddt: 98.5
+  reason: partial_site_overlap
+  gene: ''
+  protein_name: ''
+  rescue_settings_hit: null
+  residues: A:292 A:303 A:304 A:305 A:306 A:354 A:357 A:358 A:376 A:379 A:380 A:383
+  n_site_evidence: 0
+- accession: B5Y709
+  taxid: 309798
+  species: '309798'
+  role: outgroup
+  side: absent
+  state: U
+  footprint_plddt: 96.48076629638672
+  reason: partial_site_overlap
+  gene: ''
+  protein_name: ''
+  rescue_settings_hit: null
+  residues: A:278 A:289 A:290 A:291 A:292 A:364 A:367 A:368 A:372 A:393 A:396 A:397 A:400
+  n_site_evidence: 0
+- accession: B8J8K1
+  taxid: 455488
+  species: '455488'
+  role: outgroup
+  side: absent
+  state: A
+  footprint_plddt: 97.78845977783203
+  reason: rescue:negative
+  gene: ''
+  protein_name: ''
+  rescue_settings_hit: 0
+  residues: A:380 A:389 A:390 A:391 A:392 A:459 A:466 A:467 A:470 A:496 A:499 A:500 A:503
+  n_site_evidence: 0
+- accession: H0ZEN0
+  taxid: 59729
+  species: '59729'
+  role: outgroup
+  side: absent
+  state: A
+  footprint_plddt: 98.17308044433594
+  reason: rescue:negative
+  gene: ''
+  protein_name: ''
+  rescue_settings_hit: 0
+  residues: A:300 A:311 A:312 A:313 A:314 A:379 A:382 A:383 A:386 A:411 A:414 A:415 A:418
+  n_site_evidence: 0
+- accession: I0AKS3
+  taxid: 945713
+  species: '945713'
+  role: outgroup
+  side: absent
+  state: A
+  footprint_plddt: 98.125
+  reason: rescue:negative
+  gene: ''
+  protein_name: ''
+  rescue_settings_hit: 0
+  residues: A:407 A:416 A:417 A:418 A:419 A:485 A:494 A:495 A:522 A:525 A:526 A:529
+  n_site_evidence: 0
+- accession: I3J5E6
+  taxid: 8128
+  species: '8128'
+  role: outgroup
+  side: absent
+  state: U
+  footprint_plddt: 94.86538696289062
+  reason: partial_site_overlap
+  gene: ''
+  protein_name: ''
+  rescue_settings_hit: null
+  residues: A:300 A:311 A:312 A:313 A:314 A:379 A:382 A:383 A:386 A:410 A:413 A:414 A:417
+  n_site_evidence: 0
+- accession: I3JPS9
+  taxid: 8128
+  species: '8128'
+  role: outgroup
+  side: absent
+  state: A
+  footprint_plddt: 97.36538696289062
+  reason: rescue:negative
+  gene: ''
+  protein_name: ''
+  rescue_settings_hit: 0
+  residues: A:296 A:307 A:308 A:309 A:310 A:375 A:378 A:379 A:382 A:407 A:410 A:411 A:414
+  n_site_evidence: 0
+- accession: Q0VDG4
+  taxid: 9606
+  species: '9606'
+  role: outgroup
+  side: absent
+  state: A
+  footprint_plddt: 97.98076629638672
+  reason: ''
+  gene: SCRN3
+  protein_name: Secernin-3
+  rescue_settings_hit: null
+  residues: A:297 A:308 A:309 A:310 A:311 A:374 A:377 A:378 A:381 A:406 A:409 A:410 A:413
+  n_site_evidence: 0
+- accession: Q12765
+  taxid: 9606
+  species: '9606'
+  role: outgroup
+  side: absent
+  state: U
+  footprint_plddt: 93.78845977783203
+  reason: partial_site_overlap
+  gene: SCRN1
+  protein_name: Secernin-1
+  rescue_settings_hit: null
+  residues: A:293 A:304 A:305 A:306 A:307 A:372 A:375 A:376 A:379 A:405 A:408 A:409 A:412
+  n_site_evidence: 0
+- accession: Q3TMH2
+  taxid: 10090
+  species: '10090'
+  role: outgroup
+  side: absent
+  state: A
+  footprint_plddt: 97.32691955566406
+  reason: rescue:negative
+  gene: Scrn3
+  protein_name: Secernin-3
+  rescue_settings_hit: 0
+  residues: A:295 A:306 A:307 A:308 A:309 A:372 A:375 A:376 A:379 A:404 A:407 A:408 A:411
+  n_site_evidence: 0
+- accession: Q5TYS5
+  taxid: 7955
+  species: '7955'
+  role: outgroup
+  side: absent
+  state: U
+  footprint_plddt: 95.32691955566406
+  reason: partial_site_overlap
+  gene: scrn2
+  protein_name: Secernin-2
+  rescue_settings_hit: null
+  residues: A:300 A:311 A:312 A:313 A:314 A:375 A:378 A:379 A:382 A:406 A:409 A:410 A:413
+  n_site_evidence: 0
+- accession: Q6AY84
+  taxid: 10116
+  species: '10116'
+  role: outgroup
+  side: absent
+  state: U
+  footprint_plddt: 96.05769348144531
+  reason: partial_site_overlap
+  gene: Scrn1
+  protein_name: Secernin-1
+  rescue_settings_hit: null
+  residues: A:293 A:304 A:305 A:306 A:307 A:372 A:375 A:376 A:379 A:405 A:408 A:409 A:412
+  n_site_evidence: 0
+- accession: Q6AYR8
+  taxid: 10116
+  species: '10116'
+  role: outgroup
+  side: absent
+  state: A
+  footprint_plddt: 96.75
+  reason: rescue:negative
+  gene: Scrn2
+  protein_name: Secernin-2
+  rescue_settings_hit: 0
+  residues: A:304 A:315 A:316 A:317 A:318 A:381 A:384 A:385 A:388 A:414 A:417 A:418 A:421
+  n_site_evidence: 0
+- accession: Q803W1
+  taxid: 7955
+  species: '7955'
+  role: outgroup
+  side: absent
+  state: U
+  footprint_plddt: 98.01923370361328
+  reason: partial_site_overlap
+  gene: scrn3
+  protein_name: Secernin-3
+  rescue_settings_hit: null
+  residues: A:295 A:306 A:307 A:308 A:309 A:374 A:377 A:378 A:381 A:406 A:409 A:410 A:413
+  n_site_evidence: 0
+- accession: Q8VCA8
+  taxid: 10090
+  species: '10090'
+  role: outgroup
+  side: absent
+  state: A
+  footprint_plddt: 96.13461303710938
+  reason: ''
+  gene: Scrn2
+  protein_name: Secernin-2
+  rescue_settings_hit: null
+  residues: A:304 A:315 A:316 A:317 A:318 A:383 A:386 A:387 A:390 A:416 A:419 A:420 A:423
+  n_site_evidence: 0
+- accession: Q8ZQ55
+  taxid: 99287
+  species: '99287'
+  role: outgroup
+  side: absent
+  state: U
+  footprint_plddt: 98.41666412353516
+  reason: partial_site_overlap
+  gene: pipD
+  protein_name: Dipeptidase
+  rescue_settings_hit: null
+  residues: A:353 A:362 A:363 A:364 A:365 A:430 A:438 A:439 A:466 A:469 A:470 A:473
+  n_site_evidence: 0
+- accession: Q96FV2
+  taxid: 9606
+  species: '9606'
+  role: outgroup
+  side: absent
+  state: U
+  footprint_plddt: 97.21154022216797
+  reason: partial_site_overlap
+  gene: SCRN2
+  protein_name: Secernin-2
+  rescue_settings_hit: null
+  residues: A:304 A:315 A:316 A:317 A:318 A:383 A:386 A:387 A:390 A:416 A:419 A:420 A:423
+  n_site_evidence: 0
+- accession: Q9CZC8
+  taxid: 10090
+  species: '10090'
+  role: outgroup
+  side: absent
+  state: U
+  footprint_plddt: 96.01923370361328
+  reason: partial_site_overlap
+  gene: Scrn1
+  protein_name: Secernin-1
+  rescue_settings_hit: null
+  residues: A:293 A:304 A:305 A:306 A:307 A:372 A:375 A:376 A:379 A:405 A:408 A:409 A:412
+  n_site_evidence: 0
+- accession: Q9HVB8
+  taxid: 208964
+  species: '208964'
+  role: outgroup
+  side: absent
+  state: A
+  footprint_plddt: 96.75
+  reason: rescue:negative
+  gene: null
+  protein_name: Dipeptidase
+  rescue_settings_hit: 0
+  residues: A:299 A:310 A:311 A:312 A:313 A:361 A:364 A:365 A:368 A:390 A:393 A:394 A:397
+  n_site_evidence: 0
+- accession: Q9VI64
+  taxid: 7227
+  species: '7227'
+  role: derived
+  side: present
+  state: P
+  footprint_plddt: 97.28845977783203
+  reason: ''
+  gene: Dmel\CG10098
+  protein_name: Secernin-3
+  rescue_settings_hit: null
+  residues: A:259 A:270 A:271 A:272 A:273 A:312 A:315 A:316 A:319 A:344 A:347 A:348 A:351
+  n_site_evidence: 0
+- accession: T0PU97
+  taxid: 1156394
+  species: '1156394'
+  role: outgroup
+  side: absent
+  state: U
+  footprint_plddt: 97.95833587646484
+  reason: length_ratio
+  gene: ''
+  protein_name: ''
+  rescue_settings_hit: null
+  residues: A:414 A:423 A:424 A:425 A:426 A:491 A:498 A:499 A:526 A:529 A:530 A:533
+  n_site_evidence: 0
+- accession: T0PYZ2
+  taxid: 1156394
+  species: '1156394'
+  role: outgroup
+  side: absent
+  state: U
+  footprint_plddt: 96.5
+  reason: length_ratio
+  gene: ''
+  protein_name: ''
+  rescue_settings_hit: null
+  residues: A:422 A:431 A:432 A:433 A:434 A:499 A:506 A:507 A:528 A:531 A:532 A:535
+  n_site_evidence: 0
+- accession: T0PZ89
+  taxid: 1156394
+  species: '1156394'
+  role: outgroup
+  side: absent
+  state: U
+  footprint_plddt: 97.58333587646484
+  reason: length_ratio
+  gene: ''
+  protein_name: ''
+  rescue_settings_hit: null
+  residues: A:407 A:416 A:417 A:418 A:419 A:484 A:494 A:495 A:522 A:525 A:526 A:529
+  n_site_evidence: 0
+- accession: T0Q755
+  taxid: 1156394
+  species: '1156394'
+  role: outgroup
+  side: absent
+  state: U
+  footprint_plddt: 97.83333587646484
+  reason: length_ratio
+  gene: ''
+  protein_name: ''
+  rescue_settings_hit: null
+  residues: A:412 A:421 A:422 A:423 A:424 A:489 A:499 A:500 A:527 A:530 A:531 A:534
+  n_site_evidence: 0
+- accession: T0QAA1
+  taxid: 1156394
+  species: '1156394'
+  role: outgroup
+  side: absent
+  state: U
+  footprint_plddt: 97.79166412353516
+  reason: length_ratio
+  gene: ''
+  protein_name: ''
+  rescue_settings_hit: null
+  residues: A:414 A:423 A:424 A:425 A:426 A:491 A:501 A:502 A:529 A:532 A:533 A:536
+  n_site_evidence: 0
+- accession: T0QAB3
+  taxid: 1156394
+  species: '1156394'
+  role: outgroup
+  side: absent
+  state: U
+  footprint_plddt: 97.25
+  reason: length_ratio
+  gene: ''
+  protein_name: ''
+  rescue_settings_hit: null
+  residues: A:423 A:432 A:433 A:434 A:435 A:500 A:508 A:509 A:537 A:540 A:541 A:544
+  n_site_evidence: 0
+- accession: T0QEK5
+  taxid: 1156394
+  species: '1156394'
+  role: outgroup
+  side: absent
+  state: U
+  footprint_plddt: 96.71154022216797
+  reason: length_ratio
+  gene: ''
+  protein_name: ''
+  rescue_settings_hit: null
+  residues: A:414 A:423 A:424 A:425 A:426 A:489 A:495 A:496 A:500 A:523 A:526 A:527 A:530
+  n_site_evidence: 0
+- accession: T0QHI8
+  taxid: 1156394
+  species: '1156394'
+  role: outgroup
+  side: absent
+  state: U
+  footprint_plddt: 97.66666412353516
+  reason: partial_site_overlap
+  gene: ''
+  protein_name: ''
+  rescue_settings_hit: null
+  residues: A:408 A:417 A:418 A:419 A:420 A:487 A:494 A:495 A:522 A:525 A:526 A:529
+  n_site_evidence: 0
+- accession: T0QMS9
+  taxid: 1156394
+  species: '1156394'
+  role: outgroup
+  side: absent
+  state: U
+  footprint_plddt: 96.95833587646484
+  reason: partial_site_overlap
+  gene: ''
+  protein_name: ''
+  rescue_settings_hit: null
+  residues: A:418 A:427 A:428 A:429 A:430 A:489 A:499 A:500 A:527 A:530 A:531 A:534
+  n_site_evidence: 0
+- accession: T0QQY2
+  taxid: 1156394
+  species: '1156394'
+  role: outgroup
+  side: absent
+  state: U
+  footprint_plddt: 97.95833587646484
+  reason: length_ratio
+  gene: ''
+  protein_name: ''
+  rescue_settings_hit: null
+  residues: A:414 A:423 A:424 A:425 A:426 A:491 A:498 A:499 A:526 A:529 A:530 A:533
+  n_site_evidence: 0
+- accession: T0RBS8
+  taxid: 1156394
+  species: '1156394'
+  role: outgroup
+  side: absent
+  state: U
+  footprint_plddt: 97.45833587646484
+  reason: length_ratio
+  gene: ''
+  protein_name: ''
+  rescue_settings_hit: null
+  residues: A:411 A:420 A:421 A:422 A:423 A:488 A:495 A:496 A:511 A:514 A:515 A:518
+  n_site_evidence: 0
+- accession: T0RFW8
+  taxid: 1156394
+  species: '1156394'
+  role: outgroup
+  side: absent
+  state: U
+  footprint_plddt: 91.56818389892578
+  reason: length_ratio
+  gene: ''
+  protein_name: ''
+  rescue_settings_hit: null
+  residues: A:372 A:381 A:382 A:383 A:384 A:452 A:453 A:480 A:483 A:484 A:487
+  n_site_evidence: 0
+- accession: T0RIH4
+  taxid: 1156394
+  species: '1156394'
+  role: outgroup
+  side: absent
+  state: U
+  footprint_plddt: 96.54166412353516
+  reason: length_ratio
+  gene: ''
+  protein_name: ''
+  rescue_settings_hit: null
+  residues: A:414 A:423 A:424 A:425 A:426 A:491 A:498 A:499 A:518 A:521 A:522 A:525
+  n_site_evidence: 0
+- accession: T0RKD3
+  taxid: 1156394
+  species: '1156394'
+  role: outgroup
+  side: absent
+  state: U
+  footprint_plddt: 97.08333587646484
+  reason: length_ratio
+  gene: ''
+  protein_name: ''
+  rescue_settings_hit: null
+  residues: A:414 A:423 A:424 A:425 A:426 A:491 A:497 A:498 A:525 A:528 A:529 A:532
+  n_site_evidence: 0
+- accession: V4CJ56
+  taxid: 225164
+  species: '225164'
+  role: derived
+  side: present
+  state: P
+  footprint_plddt: 97.28845977783203
+  reason: ''
+  gene: ''
+  protein_name: ''
+  rescue_settings_hit: null
+  residues: A:298 A:309 A:310 A:311 A:312 A:371 A:374 A:375 A:378 A:404 A:407 A:408 A:411
+  n_site_evidence: 0
+- accession: W7M1X0
+  taxid: 334819
+  species: '334819'
+  role: outgroup
+  side: absent
+  state: U
+  footprint_plddt: 98.36538696289062
+  reason: partial_site_overlap
+  gene: ''
+  protein_name: ''
+  rescue_settings_hit: null
+  residues: A:330 A:342 A:343 A:344 A:345 A:410 A:414 A:415 A:418 A:441 A:444 A:445 A:448
+  n_site_evidence: 0
+- accession: X6LLF9
+  taxid: 46433
+  species: '46433'
+  role: outgroup
+  side: absent
+  state: U
+  footprint_plddt: 39.32692337036133
+  reason: length_ratio
+  gene: ''
+  protein_name: ''
+  rescue_settings_hit: null
+  residues: A:351 A:380 A:381 A:382 A:383 A:462 A:469 A:470 A:474 A:498 A:501 A:502 A:505
+  n_site_evidence: 0
+filters:
+- name: persistence
+  status: pass
+  detail: 'P in 4 derived species (purity 0.80 of informative derived members; 0.80 over all members under
+    the species-tree LCA: clean clade); single tree-consistent event: True; outgroup support: A in 15
+    outgroup species'
+- name: experimental
+  status: fail
+  detail: no experimental evidence at the footprint
+- name: computational
+  status: pass
+  detail: 'conservation: pass (3/13 footprint columns clade-specific (rate 0.23 vs background 0.06); derived
+    conservation 0.75, outgroup identity to derived majority 0.49); rescue_consistency: na (no rescue
+    run for present-side members); source_consistency: na (no present-side member in the v6/v4 re-detection
+    sample); cofolding: pending (placeholder; filled by the co-folding agent)'
+- name: f3:conservation
+  status: pass
+  detail: 3/13 footprint columns clade-specific (rate 0.23 vs background 0.06); derived conservation 0.75,
+    outgroup identity to derived majority 0.49
+- name: f3:rescue_consistency
+  status: na
+  detail: no rescue run for present-side members
+- name: f3:source_consistency
+  status: na
+  detail: no present-side member in the v6/v4 re-detection sample
+- name: f3:cofolding
+  status: pending
+  detail: placeholder; filled by the co-folding agent
+artifact_checks:
+- name: a_footprint_plddt
+  status: pass
+  detail: ''
+- name: a_disorder
+  status: pass
+  detail: ''
+- name: a_pae_ted
+  status: pass
+  detail: ''
+- name: a_fragment
+  status: pass
+  detail: ''
+- name: a_orthology_o2
+  status: pass
+  detail: ''
+- name: a_orthology_panther
+  status: pass
+  detail: ''
+- name: a_instability
+  status: na
+  detail: ''
+- name: a_fragment_present
+  status: pass
+  detail: ''
+- name: flag_present_plddt_lt90
+  status: na
+  detail: 'flag (reported, not a fail; D24): False'
+- name: a_species_tree_lineages
+  status: pass
+  detail: ''
+- name: flag_paralog_branch
+  status: na
+  detail: 'flag (reported, not a fail; D24): False'
+- name: artifact_na
+  status: na
+  detail: a_instability
+- name: artifact_fails
+  status: na
+  detail: ''
+- name: orthology_side_family_reported_only
+  status: pass
+  detail: 'PANTHER: present side [''PTHR12994''], absent side [''PTHR12994'']; shared [''PTHR12994'']
+    [reported only; does not gate selection (PI D30)]'
+evidence:
+- type: chembl
+  id: CHEMBL6196085
+  about_change: false
+  detail: 'Q0VDG4: 1 compounds pChEMBL>=6 (max 6.7), protein-level only'
+  filter: experimental
+  verified: null
+cofold:
+- model_id: pending
+  status: pending
+  role: derived
+  note: "placeholder; co-folding agent fills models per DESIGN \xA76 and the D23 concordance rule (ligand\
+    \ pLDDT AND centroid distance or site-residue recall in >= 2/3 seeds)"
+- model_id: gain_HOG0056135_g10_n70_O2_apo
+  role: apo_refold
+  status: apo_consistent_with_call
+  ligands: []
+  seeds: 3
+  samples_per_seed: 5
+  templates: none
+  msa: ColabFold MMseqs2
+  method: protein-only AF3 refold, then pocketcompare describe --af-mode; site recall of the best-covering
+    BURROW pocket against the case footprint, reported CONTINUOUS (never thresholded at 0.8)
+  present_recall_median: 0.923
+  absent_recall_median: 0.077
+  delta_recall: 0.846
+  n_present: 3
+  n_absent: 3
+  members:
+  - acc: Q9VI64
+    side: present
+    recall: 1.0
+    precision: 1.0
+    burrow_rank: '4'
+    n_pockets: '6'
+    construct: full_length
+    atlas_footprint_plddt: 97.288
+    site_source: own_footprint
+  - acc: V4CJ56
+    side: present
+    recall: 0.0
+    precision: 0.0
+    burrow_rank: '1'
+    n_pockets: '3'
+    construct: full_length
+    atlas_footprint_plddt: 97.288
+    site_source: own_footprint
+  - acc: A0A6I8URX3
+    side: present
+    recall: 0.923
+    precision: 0.857
+    burrow_rank: '6'
+    n_pockets: '8'
+    construct: full_length
+    atlas_footprint_plddt: 96.712
+    site_source: own_footprint
+  - acc: H0ZEN0
+    side: absent
+    recall: 0.077
+    precision: 0.067
+    burrow_rank: '24'
+    n_pockets: '9'
+    construct: full_length
+    atlas_footprint_plddt: 98.173
+    site_source: own_footprint
+  - acc: A0A077ZFA6
+    side: absent
+    recall: 0.0
+    precision: 0.0
+    burrow_rank: '1'
+    n_pockets: '7'
+    construct: full_length
+    atlas_footprint_plddt: 98.167
+    site_source: mapped_from:A0A6I8URX3
+  - acc: I0AKS3
+    side: absent
+    recall: 0.167
+    precision: 0.1
+    burrow_rank: '10'
+    n_pockets: '7'
+    construct: full_length
+    atlas_footprint_plddt: 98.125
+    site_source: own_footprint
+  table: results/cofold/apo_pool/apo_burrow_pool.tsv
+  outcome: 'present-side median recall 0.923, absent-side 0.077: BURROW on fresh ligand-free models finds
+    the pocket on the present side and not on the absent side, independently of the atlas'
+figures: []
+literature: []
+headline: convincing_only
+filter_label_with_literature_post_hoc: supported
+notes: 'filter_label=supported (prereg: convincing = all three filters; supported = f1 + one of f2/f3);
+  final label also needs the artifact cascade (pass). candidate label: FDR-calibrated candidate; fdr_supported=True.
+  selection: eligible. G (gene-absent) rows not listed: 126; every other member is listed with side (present/absent/other),
+  state and reason. Evidence counts are derived from BioLiP2/UniProt 2026_03/M-CSA/ChEMBL 37 (DATA.md);
+  BioLiP rows are not redistributed, only PDB IDs and counts. Final co-fold pool selection (D28, case_list_v2.parquet):
+  audit.'
+provenance:
+  builder: scripts/cases/build_cases.py
+  orthology: O2
+  snapshot: 20261030T085136Z
+  case_list: results/cases/20261030T085136Z/case_list_v2.parquet
+  prereg_sha256: 52f9461890984c210b730af86c40de221307a668e7d4b38098b3316059690d83
+  git_commit: cdb00a44da5049d0e4a054f4e2ba4ee534e35363+dirty
+  seed: 0
+  built_utc: '2026-10-30T16:18:47Z'
+  n_excluded_tune_annotations:
+    rule: per SOG (prereg literal); OG-wide reported as sensitivity
+    n_tuning_list_rows: 505
+    n_used_in_tune_pairs: 155
+    pairs_file: results/sogs/20261030T085136Z/O1/tau_benchmark_pairs.parquet
+    n_keys_per_sog: 114
+    n_keys_og_wide: 130

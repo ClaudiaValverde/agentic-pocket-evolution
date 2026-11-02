@@ -1,0 +1,206 @@
+{
+ "f1": {
+  "status": "pass",
+  "n_species_change": 7,
+  "clade_purity": 0.9,
+  "lca_purity": 0.9,
+  "single_event": true,
+  "n_out_support": 3,
+  "shape": "clean clade",
+  "detail": "P in 7 derived species (purity 0.90 of informative derived members; 0.90 over all members under the species-tree LCA: clean clade); single tree-consistent event: True; outgroup support: A in 3 outgroup species"
+ },
+ "f2": {
+  "status": "fail",
+  "strength": "none",
+  "about_change": false,
+  "detail": "no experimental evidence at the footprint",
+  "present": {
+   "n_members_with_evidence": 0,
+   "n_biolip": 0,
+   "n_uniprot_exp": 0,
+   "n_mcsa_ref": 0,
+   "pdb_ids": [],
+   "ligands": [],
+   "ligand_tokens": []
+  },
+  "absent": {
+   "n_members_with_evidence": 0,
+   "n_biolip": 0,
+   "n_uniprot_exp": 0,
+   "n_mcsa_ref": 0,
+   "pdb_ids": [],
+   "ligands": [],
+   "ligand_tokens": []
+  },
+  "chembl_present_proteins": 0,
+  "chembl_absent_proteins": 0,
+  "n_members_numbering_unverified": 9,
+  "n_hits_excluded_tau_tuning": 0,
+  "sensitivity_og_wide_exclusion": {
+   "status": "fail",
+   "n_hits_excluded": 0
+  }
+ },
+ "f3": {
+  "status": "pass",
+  "passing": [
+   "conservation"
+  ],
+  "detail": "conservation: pass (2/11 footprint columns clade-specific (rate 0.18 vs background 0.14); derived conservation 0.95, outgroup identity to derived majority 0.76); rescue_consistency: na (no rescue run for present-side members); source_consistency: na (no present-side member in the v6/v4 re-detection sample); cofolding: pending (placeholder; filled by the co-folding agent)"
+ },
+ "lines": {
+  "conservation": {
+   "status": "pass",
+   "n_specific": 2,
+   "n_fp_cols": 11,
+   "rate_fp": 0.182,
+   "rate_bg": 0.136,
+   "mean_cons_derived": 0.945,
+   "mean_identity_out": 0.758,
+   "detail": "2/11 footprint columns clade-specific (rate 0.18 vs background 0.14); derived conservation 0.95, outgroup identity to derived majority 0.76"
+  },
+  "rescue_consistency": {
+   "status": "na",
+   "detail": "no rescue run for present-side members"
+  },
+  "source_consistency": {
+   "status": "na",
+   "detail": "no present-side member in the v6/v4 re-detection sample"
+  },
+  "cofolding": {
+   "status": "pending",
+   "detail": "placeholder; filled by the co-folding agent"
+  }
+ },
+ "identifier_checks": {
+  "pdb": {},
+  "uniprot": {
+   "A0A4W3I4Z8": {
+    "resolved": true,
+    "title": "Gap junction protein",
+    "organism": "Callorhinchus milii",
+    "retrieved_utc": "2026-10-30T16:07:16Z"
+   },
+   "A0A670HZU8": {
+    "resolved": true,
+    "title": "Gap junction protein",
+    "organism": "Podarcis muralis",
+    "retrieved_utc": "2026-10-30T16:07:16Z"
+   },
+   "A0A670JXF6": {
+    "resolved": true,
+    "title": "Gap junction protein",
+    "organism": "Podarcis muralis",
+    "retrieved_utc": "2026-10-30T16:19:02Z"
+   },
+   "A0A6J3GDI0": {
+    "resolved": true,
+    "title": "Gap junction protein",
+    "organism": "Sapajus apella",
+    "retrieved_utc": "2026-10-30T16:19:03Z"
+   },
+   "A0A6J3GDR9": {
+    "resolved": true,
+    "title": "Gap junction protein",
+    "organism": "Sapajus apella",
+    "retrieved_utc": "2026-10-30T16:19:03Z"
+   },
+   "A0A6P5IQR9": {
+    "resolved": true,
+    "title": "Gap junction protein",
+    "organism": "Phascolarctos cinereus",
+    "retrieved_utc": "2026-10-30T16:07:16Z"
+   },
+   "A0A6P5IQS6": {
+    "resolved": true,
+    "title": "Gap junction protein",
+    "organism": "Phascolarctos cinereus",
+    "retrieved_utc": "2026-10-30T16:19:03Z"
+   },
+   "A0A6P8R6Q5": {
+    "resolved": true,
+    "title": "Gap junction protein",
+    "organism": "Geotrypetes seraphini",
+    "retrieved_utc": "2026-10-30T16:07:16Z"
+   },
+   "A0A7J8DWK8": {
+    "resolved": true,
+    "title": "Gap junction protein",
+    "organism": "Rousettus aegyptiacus",
+    "retrieved_utc": "2026-10-30T16:07:16Z"
+   },
+   "A0A7J8DWS5": {
+    "resolved": true,
+    "title": "Gap junction protein",
+    "organism": "Rousettus aegyptiacus",
+    "retrieved_utc": "2026-10-30T16:19:03Z"
+   },
+   "A0A8N1TZV4": {
+    "resolved": true,
+    "title": "Gap junction protein",
+    "organism": "Danio rerio",
+    "retrieved_utc": "2026-10-30T16:07:16Z"
+   },
+   "H0ZM33": {
+    "resolved": true,
+    "title": "Gap junction protein",
+    "organism": "Taeniopygia guttata",
+    "retrieved_utc": "2026-10-30T16:07:17Z"
+   },
+   "H0ZM34": {
+    "resolved": true,
+    "title": "Gap junction protein",
+    "organism": "Taeniopygia guttata",
+    "retrieved_utc": "2026-10-30T16:07:17Z"
+   },
+   "I3K1N1": {
+    "resolved": true,
+    "title": "Gap junction protein",
+    "organism": "Oreochromis niloticus",
+    "retrieved_utc": "2026-10-30T16:19:03Z"
+   },
+   "I3KXW0": {
+    "resolved": true,
+    "title": "Gap junction protein",
+    "organism": "Oreochromis niloticus",
+    "retrieved_utc": "2026-10-30T16:19:03Z"
+   },
+   "O95452": {
+    "resolved": true,
+    "title": "Gap junction beta-6 protein",
+    "organism": "Homo sapiens",
+    "retrieved_utc": "2026-10-30T16:07:17Z"
+   },
+   "P21994": {
+    "resolved": true,
+    "title": "Gap junction beta-2 protein",
+    "organism": "Rattus norvegicus",
+    "retrieved_utc": "2026-10-30T16:07:17Z"
+   },
+   "P29033": {
+    "resolved": true,
+    "title": "Gap junction beta-2 protein",
+    "organism": "Homo sapiens",
+    "retrieved_utc": "2026-10-30T16:07:18Z"
+   },
+   "P70689": {
+    "resolved": true,
+    "title": "Gap junction beta-6 protein",
+    "organism": "Mus musculus",
+    "retrieved_utc": "2026-10-30T16:19:04Z"
+   },
+   "Q00977": {
+    "resolved": true,
+    "title": "Gap junction beta-2 protein",
+    "organism": "Mus musculus",
+    "retrieved_utc": "2026-10-30T16:07:18Z"
+   },
+   "Q6AZ42": {
+    "resolved": true,
+    "title": "Gap junction protein",
+    "organism": "Rattus norvegicus",
+    "retrieved_utc": "2026-10-30T16:07:18Z"
+   }
+  }
+ }
+}

@@ -1,0 +1,73 @@
+{
+ "snapshot_id": "20261030T085136Z",
+ "orthology": "O2",
+ "tau": 0.3,
+ "ogs_total": 57332,
+ "ogs_ge_min_species": 35093,
+ "ogs_run": 35093,
+ "ogs_tune": 17499,
+ "ogs_test": 17594,
+ "ogs_with_sites": 33590,
+ "ogs_with_multispecies_sog": 29806,
+ "ogs_low_identity": 5331,
+ "members_run": 1168309,
+ "members_with_model": 1121082,
+ "members_model_seq_mismatch": 12119,
+ "sites_in_run_ogs": 3908023,
+ "site_residues_dropped": 0,
+ "sogs_by_tau": {
+  "0.2": 463014,
+  "0.3": 729507,
+  "0.4": 1009410,
+  "0.5": 1325519
+ },
+ "multispecies_sogs_by_tau": {
+  "0.2": 192317,
+  "0.3": 229123,
+  "0.4": 253560,
+  "0.5": 269475
+ },
+ "sogs": 729507,
+ "sogs_singleton_site": 478137,
+ "sogs_multispecies": 229123,
+ "sogs_ge3_species": 155029,
+ "small_footprint_max": 3,
+ "sogs_empty_footprint_multisite": 974,
+ "sogs_small_footprint": 10619,
+ "sogs_small_footprint_multispecies": 4683,
+ "state_rows": 150739583,
+ "states": {
+  "A": 1599539,
+  "G": 38578550,
+  "P": 2983671,
+  "U": 107577823
+ },
+ "states_s70": {
+  "A": 2481833,
+  "G": 38578550,
+  "P": 2983671,
+  "U": 106695529
+ },
+ "states_by_reason": {
+  "A|": 1599539,
+  "G|": 38578550,
+  "P|": 2983671,
+  "U|aligned<0.8": 44032875,
+  "U|footprint_residues<=10": 4081783,
+  "U|frac_lt70>0.2": 321,
+  "U|length_ratio": 8264301,
+  "U|model_sequence_mismatch": 1546906,
+  "U|no_model": 8195051,
+  "U|partial_site_overlap": 33942458,
+  "U|plddt<90": 6640128,
+  "U|sp_tm_overlap": 197969,
+  "U|terminal_truncation": 676031
+ },
+ "fallback_counters": {
+  "famsa_to_mafft": 0,
+  "msa_cache_miss": 35069,
+  "model_seq_mismatch": 12119
+ },
+ "sptm_annotations": true,
+ "wall_s": 143.69205904006958
+}

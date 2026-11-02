@@ -1,0 +1,22 @@
+{
+ "output": "calibration_grid.csv",
+ "snapshot_id": "20261030T085136Z",
+ "prereg_sha256": "52f9461890984c210b730af86c40de221307a668e7d4b38098b3316059690d83",
+ "git_commit": "4fe605fdcf95684bb4ce347ceb7be9908bd1b964+dirty",
+ "seed": 0,
+ "created_utc": "2026-10-30T11:47:56Z",
+ "sha256": "3603317c0e71a31ecf9796105632e889c8653a942450686fc305106210b02884",
+ "script": "scripts/partB/run_sim.py",
+ "argv": [
+  "--n-trees",
+  "30000",
+  "--reps",
+  "30",
+  "--heterogeneity",
+  "0",
+  "--noise-json",
+  "results/partB/sim/measured/noise_primary_known_gt10.json",
+  "--out",
+  "results/partB/sim/measured/d11_primary_known_gt10"
+ ]
+}

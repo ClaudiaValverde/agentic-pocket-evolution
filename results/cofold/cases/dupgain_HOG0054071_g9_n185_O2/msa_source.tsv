@@ -1,0 +1,7 @@
+member	acc	state	source	n_seqs	depth_over_sqrtL	ticket
+A0AAF5DGQ3_derived_P	A0AAF5DGQ3	derived	colabfold_mmseqs2	140	7.64	g_QfZalhQbT0BypdmlPbrfNXFT_V2zK_lGDv8g
+A0A0I9N741_derived_P	A0A0I9N741	derived	colabfold_mmseqs2	138	7.86	L6CMCp_6zV8QanT1k7X6AMMJ9QlO_IR4tiecqw
+A0A0N4UFV7_derived_P	A0A0N4UFV7	derived	colabfold_mmseqs2	139	7.96	bbJfd2x2OnVnc_OUyekMQQ95NHGvn5-J3enWxg
+P35790_outgroup_A	P35790	ancestral	colabfold_mmseqs2	7056	330.07	6guH3hd4JtETUgDbPRxd3E-tWKs9CwLmk2Rtig
+P46560_outgroup_A	P46560	ancestral	colabfold_mmseqs2	2897	151.02	-Hry1CBmF4qQt47SgrKQQsIh-Nel7i6bVYrK0Q
+A0A6J3I851_outgroup_A	A0A6J3I851	ancestral	colabfold_mmseqs2	7010	329.0	r1QEPvY-695EcMlgV3qxNJms2sO5i6i360lSXQ

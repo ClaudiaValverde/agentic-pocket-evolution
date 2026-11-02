@@ -1,0 +1,10 @@
+{
+ "output": "SIM.md",
+ "snapshot_id": "20261030T085136Z",
+ "prereg_sha256": "52f9461890984c210b730af86c40de221307a668e7d4b38098b3316059690d83",
+ "git_commit": "b3264dd789bab733c54badede43fa813134ca790+dirty",
+ "seed": 0,
+ "created_utc": "2026-10-30T13:32:56Z",
+ "sha256": "c177659abbadf775e4bee99a720c075cfbe030dc7b2d530ac816ae28f6a963e6",
+ "script": "scripts/partB/write_sim_md.py"
+}

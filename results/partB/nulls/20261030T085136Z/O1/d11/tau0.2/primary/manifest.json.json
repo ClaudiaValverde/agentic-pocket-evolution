@@ -1,0 +1,34 @@
+{
+ "output": "manifest.json",
+ "snapshot_id": "20261030T085136Z",
+ "prereg_sha256": "52f9461890984c210b730af86c40de221307a668e7d4b38098b3316059690d83",
+ "git_commit": "b2bb8f718761234093c47a9e8fb7597669362270+dirty",
+ "seed": [
+  0,
+  1,
+  2
+ ],
+ "created_utc": "2026-10-30T13:56:23Z",
+ "sha256": "45f4d1e4c3b1986935d229456af382759abe19d3049ff49bf4f90521aa649aeb",
+ "script": "scripts/partB/run_nulls.py",
+ "argv": [
+  "--sogs",
+  "results/sogs/20261030T085136Z/O1/web",
+  "--orthology",
+  "O1",
+  "--snapshot",
+  "20261030T085136Z",
+  "--states-glob",
+  "/tmp/pe_big/partB/20261030T085136Z/O1/states_d11_t0.2/shard=*.parquet",
+  "--sog-meta",
+  "results/sogs/20261030T085136Z/O1/sogs_all_tau.parquet",
+  "--tau",
+  "0.2",
+  "--thresholds",
+  "results/partB/sim/measured/d11_primary_known_gt10/thresholds.json",
+  "--prefilter",
+  "--skip-m3",
+  "--out",
+  "results/partB/nulls/20261030T085136Z/O1/d11/tau0.2/primary"
+ ]
+}

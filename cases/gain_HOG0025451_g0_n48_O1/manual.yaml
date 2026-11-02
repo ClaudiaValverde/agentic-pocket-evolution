@@ -1,0 +1,47 @@
+schema: manual-v1
+case_id: gain_HOG0025451_g0_n48_O1
+note: 'D25b post-hoc literature f2 line; never used for headline counts. '
+literature_evidence:
+- pmid: '30242155'
+  side: present
+  protein: Q09024 (ImpL2, D. melanogaster)
+  finding: Crystal structures of Imp-L2 free and bound to DILP5 and human IGF-1; the hormone is held by the two Ig-like domains
+    that contain the footprint residues (86-123, 178-196).
+  quote: we report structures of the Drosophila IBP Imp-L2 in its free form and bound to Drosophila insulin-like peptide 5
+    and human IGF-1. Imp-L2 contains two immunoglobulin-like fold domains
+  about_change: true
+  source: literature
+  post_hoc: true
+  author_agent: general-purpose literature agent a14187d9e30a37f2b (M4, D25b)
+  reviewed_by: 'M4 case-builder agent: PMID resolved by NCBI efetch, quote verified verbatim in abstract, site relevance checked
+    against footprint residues'
+  review_ok: true
+  retrieved_at: '2026-10-30T14:28:59Z'
+- pmid: '31649623'
+  side: present
+  protein: Q09024 (ImpL2)
+  finding: Cross-linking/MS maps the IGF-1 N-terminus onto Imp-L2 residues 185-242, overlapping footprint residues 192/194/196.
+  quote: indicating the importance of the IGF-1 N-terminus interaction with the C-terminal (185-242) part of the Imp-L2 for
+    stability of this complex
+  about_change: true
+  source: literature
+  post_hoc: true
+  author_agent: general-purpose literature agent a14187d9e30a37f2b (M4, D25b)
+  reviewed_by: 'M4 case-builder agent: PMID resolved by NCBI efetch, quote verified verbatim in abstract, site relevance checked
+    against footprint residues'
+  review_ok: true
+  retrieved_at: '2026-10-30T14:28:59Z'
+- pmid: '19737747'
+  side: present
+  protein: zig-3 / zig-4
+  finding: zig gene knockouts (axon position); no binding site.
+  quote: One of these genes, zig-4, has previously been found to be required for maintaining axon position postembryonically
+    in the ventral nerve cord of C. elegans
+  about_change: false
+  source: literature
+  post_hoc: true
+  author_agent: general-purpose literature agent a14187d9e30a37f2b (M4, D25b)
+  reviewed_by: 'M4 case-builder agent: PMID resolved by NCBI efetch, quote verified verbatim in abstract, site relevance checked
+    against footprint residues'
+  review_ok: false
+  retrieved_at: '2026-10-30T14:28:59Z'

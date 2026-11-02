@@ -1,0 +1,7 @@
+class,subset,testable_pairs,passing,F_conv_dir_per_pair,F_conv_dir_per_family_pair,F_conv_dir_per_pair.ci_lo,F_conv_dir_per_pair.ci_hi,F_conv_dir_per_family_pair.ci_lo,F_conv_dir_per_family_pair.ci_hi,testable_of_class
+all,all,2344759,2,8.529661257297659e-07,1.7997588323164696e-06,0.0,2.9311245767869283e-06,0.0,5.833004233977265e-06,5107143
+N,all,1580477,2,1.2654407498495708e-06,1.938159155815398e-06,0.0,4.184250354250766e-06,0.0,6.273127933634542e-06,3605586
+H3j,all,704408,0,0.0,0.0,0.0,0.0,0.0,0.0,1393868
+H3s,all,17580,0,0.0,0.0,0.0,0.0,0.0,0.0,44138
+H4,all,42294,0,0.0,0.0,0.0,0.0,0.0,0.0,63551
+all,test_half,559090,0,0.0,0.0,0.0,0.0,0.0,0.0,5107143

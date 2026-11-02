@@ -1,0 +1,14 @@
+step,real,null_shuffled
+og_pairs,2000,2000
+sog_pairs_considered,52044,52044
+sog_pairs_aligned,29904,29904
+sog_pairs_supported_alntm,9826,9826
+sog_pairs_linked_J,610,1
+links_tested_best_partner,606,1
+links_with_fingerprints,606,1
+call_a,0,0
+projections,20056,20056
+projections_testable,1974,1974
+b_pre_rescue,20,35
+call_b,10,33
+og_pairs_with_call_b,8,27

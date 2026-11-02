@@ -1,0 +1,59 @@
+schema: case-v1
+case_id: val_IDH_NADP_NAD
+title: 'Validation (known answer): Isocitrate dehydrogenase coenzyme specificity (E. coli NADP vs NAD)'
+category: validation_known
+track: annotation-first
+label: rejected
+toy: false
+summary: 'Known answer: NAD -> NADP coenzyme switch in bacterial IDH. Pipeline outcome: O1: not recovered; O2: not recovered'
+og_id: HOG0036048
+sog_id: HOG0036048:g1
+proteins:
+- accession: P08200
+  role: derived
+  state_O1: P
+  state_O2: P
+- accession: P50213
+  role: ancestral
+  state_O1: no row
+  state_O2: no row
+filters:
+- name: persistence
+  status: fail
+  detail: 'O1: not recovered | SOG HOG0036048:g1 (max overlap with 34 experimental site residues of P08200: 8) | called events:
+    no Sankoff event (SOG not event-eligible: < 2 P or < 2 A members, or small footprint); O2: not recovered | SOG HOG0054339:g1
+    (max overlap with 34 experimental site residues of P08200: 13) | called events: no Sankoff event (SOG not event-eligible:
+    < 2 P or < 2 A members, or small footprint)'
+- name: experimental
+  status: pass
+  detail: 'known answer from the literature: NAD -> NADP coenzyme switch in bacterial IDH (DOIs below)'
+- name: computational
+  status: na
+  detail: 'O1: specificity 1 branch tests in SOG; on a derived-only clade: 1 (residue_pass 1, shift_pass 0, BH-called 0; min
+    q 0.77); artifact cascade no candidate at this SOG; O2: specificity not tested (no specificity run for this orthology);
+    artifact cascade no candidate at this SOG'
+artifact_checks:
+- name: artifact_cascade_O1
+  status: na
+  detail: no candidate at this SOG
+- name: artifact_cascade_O2
+  status: na
+  detail: no candidate at this SOG
+evidence:
+- type: doi
+  id: 10.1126/science.1106974
+  about_change: true
+  filter: experimental
+  source: literature
+  detail: known-answer reference for IDH_NADP_NAD
+literature:
+- doi: 10.1126/science.1106974
+cofold: []
+figures: []
+notes: label = whether the unchanged pipeline recovers the known event (supported) or not (rejected); f2 is the published
+  known answer, legitimately (annotation-first track). Not a discovery.
+provenance:
+  builder: scripts/cases/validation_track.py
+  snapshot: 20261030T085136Z
+  prereg_sha256: 52f9461890984c210b730af86c40de221307a668e7d4b38098b3316059690d83
+  git_commit: 9f9ba879c81bd222ebf214dbb5d5e6edbdc55763+dirty

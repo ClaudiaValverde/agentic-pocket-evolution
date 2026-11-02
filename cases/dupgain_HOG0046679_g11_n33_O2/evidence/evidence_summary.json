@@ -1,0 +1,228 @@
+{
+ "f1": {
+  "status": "pass",
+  "n_species_change": 5,
+  "clade_purity": 0.833,
+  "lca_purity": 0.312,
+  "single_event": true,
+  "n_out_support": 12,
+  "shape": "scattered",
+  "detail": "P in 5 derived species (purity 0.83 of informative derived members; 0.31 over all members under the species-tree LCA: scattered); single tree-consistent event: True; outgroup support: A in 12 outgroup species"
+ },
+ "f2": {
+  "status": "fail",
+  "strength": "none",
+  "about_change": false,
+  "detail": "no experimental evidence at the footprint",
+  "present": {
+   "n_members_with_evidence": 0,
+   "n_biolip": 0,
+   "n_uniprot_exp": 0,
+   "n_mcsa_ref": 0,
+   "pdb_ids": [],
+   "ligands": [],
+   "ligand_tokens": []
+  },
+  "absent": {
+   "n_members_with_evidence": 0,
+   "n_biolip": 0,
+   "n_uniprot_exp": 0,
+   "n_mcsa_ref": 0,
+   "pdb_ids": [],
+   "ligands": [],
+   "ligand_tokens": []
+  },
+  "chembl_present_proteins": 0,
+  "chembl_absent_proteins": 0,
+  "n_members_numbering_unverified": 27,
+  "n_hits_excluded_tau_tuning": 0,
+  "sensitivity_og_wide_exclusion": {
+   "status": "fail",
+   "n_hits_excluded": 0
+  }
+ },
+ "f3": {
+  "status": "fail",
+  "passing": [],
+  "detail": "conservation: fail (0/17 footprint columns clade-specific (rate 0.00 vs background 0.14); derived conservation 0.66, outgroup identity to derived majority 0.58); rescue_consistency: na (no rescue run for present-side members); source_consistency: na (no present-side member in the v6/v4 re-detection sample); cofolding: pending (placeholder; filled by the co-folding agent)"
+ },
+ "lines": {
+  "conservation": {
+   "status": "fail",
+   "n_specific": 0,
+   "n_fp_cols": 17,
+   "rate_fp": 0.0,
+   "rate_bg": 0.142,
+   "mean_cons_derived": 0.663,
+   "mean_identity_out": 0.578,
+   "detail": "0/17 footprint columns clade-specific (rate 0.00 vs background 0.14); derived conservation 0.66, outgroup identity to derived majority 0.58"
+  },
+  "rescue_consistency": {
+   "status": "na",
+   "detail": "no rescue run for present-side members"
+  },
+  "source_consistency": {
+   "status": "na",
+   "detail": "no present-side member in the v6/v4 re-detection sample"
+  },
+  "cofolding": {
+   "status": "pending",
+   "detail": "placeholder; filled by the co-folding agent"
+  }
+ },
+ "identifier_checks": {
+  "pdb": {},
+  "uniprot": {
+   "A0A0A2V3M4": {
+    "resolved": true,
+    "title": "DNA polymerase epsilon subunit C",
+    "organism": "Paracoccidioides lutzii (strain ATCC MYA-826 / Pb01)",
+    "retrieved_utc": "2026-10-30T16:19:21Z"
+   },
+   "A0A0C4EVY4": {
+    "resolved": true,
+    "title": "FHF complex subunit HOOK-interacting protein C-terminal domain-containing protein",
+    "organism": "Puccinia triticina (isolate 1-1 / race 1 (BBBD))",
+    "retrieved_utc": "2026-10-30T16:19:21Z"
+   },
+   "A0A0D2HAB4": {
+    "resolved": true,
+    "title": "FHF complex subunit HOOK-interacting protein C-terminal domain-containing protein",
+    "organism": "Fonsecaea pedrosoi CBS 271.37",
+    "retrieved_utc": "2026-10-30T16:19:21Z"
+   },
+   "A0A162N1X2": {
+    "resolved": true,
+    "title": "FHF complex subunit HOOK-interacting protein C-terminal domain-containing protein",
+    "organism": "Phycomyces blakesleeanus (strain ATCC 8743b / DSM 1359 / FGSC 10004 / NBRC 33097 / NRRL 1555)",
+    "retrieved_utc": "2026-10-30T16:19:22Z"
+   },
+   "A0A162UBH7": {
+    "resolved": true,
+    "title": "FHF complex subunit HOOK-interacting protein C-terminal domain-containing protein",
+    "organism": "Phycomyces blakesleeanus (strain ATCC 8743b / DSM 1359 / FGSC 10004 / NBRC 33097 / NRRL 1555)",
+    "retrieved_utc": "2026-10-30T16:19:22Z"
+   },
+   "A0A162ZJV5": {
+    "resolved": true,
+    "title": "FHF complex subunit HOOK-interacting protein C-terminal domain-containing protein",
+    "organism": "Phycomyces blakesleeanus (strain ATCC 8743b / DSM 1359 / FGSC 10004 / NBRC 33097 / NRRL 1555)",
+    "retrieved_utc": "2026-10-30T16:19:22Z"
+   },
+   "A0A175W1K4": {
+    "resolved": true,
+    "title": "FHF complex subunit HOOK-interacting protein C-terminal domain-containing protein",
+    "organism": "Madurella mycetomatis",
+    "retrieved_utc": "2026-10-30T16:19:22Z"
+   },
+   "A0A1C1CNW8": {
+    "resolved": true,
+    "title": "",
+    "organism": "Cladophialophora carrionii",
+    "retrieved_utc": "2026-10-30T16:19:22Z"
+   },
+   "A0A4W3GY18": {
+    "resolved": true,
+    "title": "",
+    "organism": "Callorhinchus milii",
+    "retrieved_utc": "2026-10-30T16:09:39Z"
+   },
+   "A0A4W3H766": {
+    "resolved": true,
+    "title": "",
+    "organism": "Callorhinchus milii",
+    "retrieved_utc": "2026-10-30T16:09:39Z"
+   },
+   "A0A5M9J3Z1": {
+    "resolved": true,
+    "title": "Retinoic acid induced 16-like protein-domain-containing protein",
+    "organism": "Monilinia fructicola",
+    "retrieved_utc": "2026-10-30T16:19:23Z"
+   },
+   "A0A670HN16": {
+    "resolved": true,
+    "title": "",
+    "organism": "Podarcis muralis",
+    "retrieved_utc": "2026-10-30T16:09:40Z"
+   },
+   "A0A670J362": {
+    "resolved": true,
+    "title": "",
+    "organism": "Podarcis muralis",
+    "retrieved_utc": "2026-10-30T16:09:40Z"
+   },
+   "A0A674HS44": {
+    "resolved": true,
+    "title": "",
+    "organism": "Taeniopygia guttata",
+    "retrieved_utc": "2026-10-30T16:09:40Z"
+   },
+   "A0A6J3I4X8": {
+    "resolved": true,
+    "title": "",
+    "organism": "Sapajus apella",
+    "retrieved_utc": "2026-10-30T16:09:40Z"
+   },
+   "A0A6J3IP72": {
+    "resolved": true,
+    "title": "",
+    "organism": "Sapajus apella",
+    "retrieved_utc": "2026-10-30T16:19:24Z"
+   },
+   "A0A6P5JD86": {
+    "resolved": true,
+    "title": "",
+    "organism": "Phascolarctos cinereus",
+    "retrieved_utc": "2026-10-30T16:09:40Z"
+   },
+   "A0A6P5KFK0": {
+    "resolved": true,
+    "title": "",
+    "organism": "Phascolarctos cinereus",
+    "retrieved_utc": "2026-10-30T16:09:40Z"
+   },
+   "A0A6P8R815": {
+    "resolved": true,
+    "title": "",
+    "organism": "Geotrypetes seraphini",
+    "retrieved_utc": "2026-10-30T16:09:40Z"
+   },
+   "A0A6P8RAR7": {
+    "resolved": true,
+    "title": "",
+    "organism": "Geotrypetes seraphini",
+    "retrieved_utc": "2026-10-30T16:09:41Z"
+   },
+   "A0A7J8BQ23": {
+    "resolved": true,
+    "title": "",
+    "organism": "Rousettus aegyptiacus",
+    "retrieved_utc": "2026-10-30T16:09:41Z"
+   },
+   "A0A7J8G7F7": {
+    "resolved": true,
+    "title": "",
+    "organism": "Rousettus aegyptiacus",
+    "retrieved_utc": "2026-10-30T16:09:41Z"
+   },
+   "A0A7M7NSS5": {
+    "resolved": true,
+    "title": "FHF complex subunit HOOK-interacting protein C-terminal domain-containing protein",
+    "organism": "Strongylocentrotus purpuratus",
+    "retrieved_utc": "2026-10-30T16:09:41Z"
+   },
+   "A0ACM8QGW9": {
+    "resolved": true,
+    "title": "",
+    "organism": "Rattus norvegicus",
+    "retrieved_utc": "2026-10-30T16:19:24Z"
+   },
+   "A0JPF5": {
+    "resolved": true,
+    "title": "FHF complex subunit HOOK-interacting protein 2B",
+    "organism": "Danio rerio",
+    "retrieved_utc": "2026-10-30T16:19:24Z"
+   }
+  }
+ }
+}

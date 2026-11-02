@@ -1,0 +1,87 @@
+{
+ "snapshot_id": "20261030T085136Z",
+ "run": "/tmp/pe_big/sogs/20261030T085136Z/O2_r1",
+ "tau": 0.2,
+ "k": 1,
+ "hit_tau": 0.3,
+ "all_A": false,
+ "min_p_species": 0,
+ "sample": 1000,
+ "seed": 0,
+ "workers": 40,
+ "n_A_rows": 548061,
+ "n_pending": 442783,
+ "n_flag_skipped": 0,
+ "n_selected": 1000,
+ "n_models": 997,
+ "n_multifragment": 0,
+ "per_setting": [
+  {
+   "setting": "min_score_none",
+   "n_models": 997,
+   "n_rows": 1000,
+   "n_hit": 151,
+   "wall_s": 10.837727069854736,
+   "s_per_model": 0.010870338084107058
+  },
+  {
+   "setting": "no_af_mode",
+   "n_models": 846,
+   "n_rows": 849,
+   "n_hit": 21,
+   "wall_s": 13.489821434020996,
+   "s_per_model": 0.015945415406644202
+  },
+  {
+   "setting": "seed_s1",
+   "n_models": 825,
+   "n_rows": 828,
+   "n_hit": 7,
+   "wall_s": 12.12096881866455,
+   "s_per_model": 0.014692083416563091
+  },
+  {
+   "setting": "seed_s2",
+   "n_models": 818,
+   "n_rows": 821,
+   "n_hit": 3,
+   "wall_s": 11.838212251663208,
+   "s_per_model": 0.014472142116947686
+  },
+  {
+   "setting": "preset_fast",
+   "n_models": 815,
+   "n_rows": 818,
+   "n_hit": 37,
+   "wall_s": 7.273489952087402,
+   "s_per_model": 0.0089245275485735
+  },
+  {
+   "setting": "preset_accurate",
+   "n_models": 778,
+   "n_rows": 781,
+   "n_hit": 20,
+   "wall_s": 17.059210777282715,
+   "s_per_model": 0.021927006140466214
+  }
+ ],
+ "extract_s": 51.69366645812988,
+ "burrow_s": 72.61943030357361,
+ "wall_s": 186.07971739768982,
+ "result": {
+  "A": 761,
+  "W": 239
+ },
+ "result_by_tier": {
+  "1|A": 326,
+  "1|W": 117,
+  "2|A": 9,
+  "2|W": 2,
+  "3|A": 129,
+  "3|W": 40,
+  "4|A": 297,
+  "4|W": 80
+ },
+ "git_commit": "34a7885ad9e164124af6f4b37f742edc5af0ec24",
+ "prereg_sha256": "52f9461890984c210b730af86c40de221307a668e7d4b38098b3316059690d83"
+}

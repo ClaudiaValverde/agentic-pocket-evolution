@@ -1,0 +1,17 @@
+{
+ "score": "csls",
+ "N": 3221702,
+ "k": 1000,
+ "keep_E": 1.0,
+ "n_entries_kept": 71549059,
+ "n_pairs_unique": 40813971,
+ "n_same_protein_entries_excl_self": 138922,
+ "n_sig_pairs_E0.01": {
+  "pooled": 8388045,
+  "perq": 22643239,
+  "xi0": 0
+ },
+ "saturated_queries_E0.01": 13711,
+ "saturated_frac": 0.004255825026647406,
+ "wall_s": 59.533376693725586
+}

@@ -1,0 +1,13 @@
+{
+ "source": "https://zenodo.org/api/records/13908086",
+ "file": "ted_365m.domain_summary.cath.globularity.taxid.tsv.gz",
+ "zenodo_version": "v5 (2024-10-31)",
+ "license": "CC BY 4.0",
+ "md5": "51468b8ec6c74388085ebe0f66f973c5",
+ "sha256": "0b0193460e8bbda890ffc1f6dab580db433260f71838ea94e30e505e9d38abde",
+ "n_domains": 1670988,
+ "n_accessions_with_ted": 886085,
+ "n_accessions_total": 989696,
+ "n_domains_cath_H": 1099627,
+ "frac_domains_seq_match": 0.9939624203095856
+}

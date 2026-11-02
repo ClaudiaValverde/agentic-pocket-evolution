@@ -1,0 +1,249 @@
+schema: case-v1
+case_id: val_steroid_receptor_LBP
+title: 'Validation (known answer): Steroid receptor LBPs: estrogen receptor (ancestral) -> 3-ketosteroid
+  receptors AR/GR/MR/PR'
+category: validation_known
+track: annotation-first
+label: rejected
+toy: false
+summary: 'Known answer: Conserved LBD pocket; ligand specificity shifted from estrogens to 3-ketosteroids
+  after duplication. Pipeline outcome: O1: not recovered; O2: not recovered'
+og_id: HOG0025274
+sog_id: HOG0025274:g0
+proteins:
+- accession: P10275
+  role: derived
+  state_O1: P
+  state_O2: no row
+- accession: P04150
+  role: derived
+  state_O1: P
+  state_O2: no row
+- accession: P08235
+  role: derived
+  state_O1: no row
+  state_O2: no row
+- accession: P06401
+  role: derived
+  state_O1: no row
+  state_O2: no row
+- accession: P03372
+  role: ancestral
+  state_O1: P
+  state_O2: P
+filters:
+- name: persistence
+  status: fail
+  detail: 'O1: not recovered | SOG HOG0025274:g0 (max overlap with 67 experimental site residues of P03372:
+    15) | called events: events but none called; O2: not recovered | SOG HOG0035169:g0 (max overlap with
+    67 experimental site residues of P03372: 22) | called events: no Sankoff event (SOG not event-eligible:
+    < 2 P or < 2 A members, or small footprint)'
+- name: experimental
+  status: pass
+  detail: 'known answer from the literature: Conserved LBD pocket; ligand specificity shifted from estrogens
+    to 3-ketosteroids after duplication (DOIs below)'
+- name: computational
+  status: na
+  detail: 'O1: specificity 1 branch tests in SOG; on a derived-only clade: 0 (residue_pass 0, shift_pass
+    0, BH-called 0; min q nan); artifact cascade no candidate at this SOG; O2: specificity not tested
+    (no specificity run for this orthology); artifact cascade no candidate at this SOG'
+artifact_checks:
+- name: artifact_cascade_O1
+  status: na
+  detail: no candidate at this SOG
+- name: artifact_cascade_O2
+  status: na
+  detail: no candidate at this SOG
+evidence:
+- type: doi
+  id: 10.1126/science.1086185
+  about_change: true
+  filter: experimental
+  source: literature
+  detail: known-answer reference for steroid_receptor_LBP
+- type: doi
+  id: 10.1126/science.1123348
+  about_change: true
+  filter: experimental
+  source: literature
+  detail: known-answer reference for steroid_receptor_LBP
+- type: doi
+  id: 10.1371/journal.pgen.1003072
+  about_change: true
+  filter: experimental
+  source: literature
+  detail: known-answer reference for steroid_receptor_LBP
+- type: doi
+  id: 10.1038/nrg3540
+  about_change: true
+  filter: experimental
+  source: literature
+  detail: known-answer reference for steroid_receptor_LBP
+literature:
+- doi: 10.1126/science.1086185
+- doi: 10.1126/science.1123348
+- doi: 10.1371/journal.pgen.1003072
+- doi: 10.1038/nrg3540
+cofold:
+- model_id: deepdive_steroid_MR_vs_GR
+  role: case
+  status: resolved
+  design: 2x2 protein x ligand, 3 seeds x 5 samples, no templates, ColabFold MSAs
+  blinding:
+    status: BLINDED
+    detail: 'BLINDED: readouts computed by collect() on hashed job names in one automated pass; labels
+      attached only in deepdive_score.py, whose criterion was committed before the folds finished'
+  criterion_committed_in: 21b5c9e (before either dive finished folding)
+  positive_control_gate:
+    status: run
+    pass: true
+    lig_rmsd: 0.31
+    centroid_dist: 0.16
+    site_recall: 1.0
+    lig_plddt: 97.7
+    threshold_A: 2.0
+    ref: 2aa2:AS4
+  interaction_lig_plddt_per_seed:
+  - 2.96
+  - 2.68
+  - 2.8
+  interaction_neg_pae_per_seed:
+  - 0.036
+  - 0.026
+  - 0.026
+  expected_sign: positive
+  cells:
+    GR+AS4:
+      binds: true
+      n_seeds_binding: 3
+      lig_plddt:
+        '1': 94.54
+        '2': 94.75999999999999
+        '3': 94.66
+      pae_min:
+        '1': 0.842
+        '2': 0.842
+        '3': 0.836
+      centroid:
+        '1': 1.434
+        '2': 1.418
+        '3': 1.448
+      recall:
+        '1': 1.0
+        '2': 1.0
+        '3': 1.0
+    GR+HCY:
+      binds: true
+      n_seeds_binding: 3
+      lig_plddt:
+        '1': 97.76
+        '2': 97.74
+        '3': 97.72
+      pae_min:
+        '1': 0.804
+        '2': 0.806
+        '3': 0.804
+      centroid:
+        '1': 1.478
+        '2': 1.488
+        '3': 1.476
+      recall:
+        '1': 1.0
+        '2': 1.0
+        '3': 1.0
+    MR+AS4:
+      binds: true
+      n_seeds_binding: 3
+      lig_plddt:
+        '1': 98.24
+        '2': 98.2
+        '3': 98.2
+      pae_min:
+        '1': 0.8
+        '2': 0.808
+        '3': 0.802
+      centroid:
+        '1': 0.51
+        '2': 0.5
+        '3': 0.51
+      recall:
+        '1': 1.0
+        '2': 1.0
+        '3': 1.0
+    MR+HCY:
+      binds: true
+      n_seeds_binding: 3
+      lig_plddt:
+        '1': 98.5
+        '2': 98.5
+        '3': 98.46000000000001
+      pae_min:
+        '1': 0.798
+        '2': 0.798
+        '3': 0.796
+      centroid:
+        '1': 0.514
+        '2': 0.48
+        '3': 0.504
+      recall:
+        '1': 1.0
+        '2': 1.0
+        '3': 1.0
+  threshold_file: results/cofold/calibration/threshold.json
+  result_file: results/cofold/deepdives/deepdive_steroid_MR_vs_GR/result.json
+  note: 'Co-folding resolves this known specificity: GR separates cortisol (97.7) from aldosterone (94.5)
+    while MR is flat (98.5/98.2). The discriminating signal is ~3 pLDDT points against an 18-42 point
+    cognate-vs-decoy gap in the controls: reproducible (seed SD ~0.1) but small.'
+- model_id: ancestral_P04150
+  accession: P04150
+  ligand: AS4
+  seed: 2
+  role: ancestral
+  file: cases/val_steroid_receptor_LBP/cofold/models/ancestral_P04150_AS4_top.cif.gz
+  ranking_score: 0.963
+  metrics:
+    ligand_plddt: 95.1
+    min_pae: 0.83
+    centroid_dist_A: 1.28
+    site_recall: 1.0
+    posebusters_pass: true
+  note: top-ranked sample of the best-ranked cognate job on this side; centroid/recall are measured against
+    the case footprint
+- model_id: derived_P08235
+  accession: P08235
+  ligand: AS4
+  seed: 1
+  role: derived
+  file: cases/val_steroid_receptor_LBP/cofold/models/derived_P08235_AS4_top.cif.gz
+  ranking_score: 0.973
+  metrics:
+    ligand_plddt: 98.3
+    min_pae: 0.79
+    centroid_dist_A: 0.54
+    site_recall: 1.0
+    posebusters_pass: true
+  note: top-ranked sample of the best-ranked cognate job on this side; centroid/recall are measured against
+    the case footprint
+- model_id: control_poscontrol
+  accession: poscontrol
+  ligand: AS4
+  seed: 2
+  role: control
+  file: cases/val_steroid_receptor_LBP/cofold/models/control_poscontrol_AS4_top.cif.gz
+  ranking_score: 1.205
+  metrics:
+    ligand_plddt: 97.7
+    min_pae: 0.81
+    centroid_dist_A: null
+    site_recall: 0.0
+    posebusters_pass: true
+  note: family holo positive control (gate); centroid/recall fields refer to the case footprint and are
+    not meaningful for this protein
+figures: []
+notes: label = whether the unchanged pipeline recovers the known event (supported) or not (rejected);
+  f2 is the published known answer, legitimately (annotation-first track). Not a discovery.
+provenance:
+  builder: scripts/cases/validation_track.py
+  snapshot: 20261030T085136Z
+  prereg_sha256: 52f9461890984c210b730af86c40de221307a668e7d4b38098b3316059690d83
+  git_commit: 9f9ba879c81bd222ebf214dbb5d5e6edbdc55763+dirty

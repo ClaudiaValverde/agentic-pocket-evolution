@@ -1,0 +1,135 @@
+{
+ "stage": "partB_nulls",
+ "snapshot_id": "TOY",
+ "orthology": "O1",
+ "stratum": "primary",
+ "prereg_sha256": "52f9461890984c210b730af86c40de221307a668e7d4b38098b3316059690d83",
+ "git_commit": "cbe924346b0adeee1359ea8d7fae54ac6bedf5e0+dirty",
+ "seeds": [
+  0,
+  1,
+  2
+ ],
+ "runtime_s": 127.33165097236633,
+ "n_in": 800,
+ "n_out": 800,
+ "n_dropped_by_reason": {
+  "og_not_in_orthology": 0
+ },
+ "member_counters": {
+  "og_not_in_orthology": 0,
+  "accession_not_in_tree": 0,
+  "member_without_row": 0,
+  "G_rows": 24413,
+  "taxid_mismatch": 0,
+  "sogs_in": 800,
+  "rows_in": 49272
+ },
+ "thresholds_chosen": {
+  "1:1": {
+   "gain": {
+    "min_species": 3,
+    "min_margin": 1.0,
+    "min_out_lineages": 2,
+    "recall": 0.4263537662687976,
+    "fdr": 0.023105235680621887,
+    "fdr_all_pi": {
+     "0.02": 0.04329768396590163,
+     "0.05": 0.023105235680621887,
+     "0.1": 0.016183660661460396,
+     "0.2": 0.012685961402941969
+    },
+    "fdr_strict": 0.041822017416833,
+    "recall_consistent": 0.43461797828579135,
+    "false_calls_per_null_sog": 0.00015652539920553494
+   },
+   "loss": {
+    "min_species": 3,
+    "min_margin": 1.0,
+    "min_out_lineages": 2,
+    "recall": 0.10864702498881575,
+    "fdr": 0.07007234918749504,
+    "fdr_all_pi": {
+     "0.02": 0.10724144705781857,
+     "0.05": 0.07007234918749504,
+     "0.1": 0.05698519383513553,
+     "0.2": 0.0503025026198016
+    },
+    "fdr_strict": 0.07554656365370252,
+    "recall_consistent": 0.1092882554696321,
+    "false_calls_per_null_sog": 8.155104832557282e-05
+   }
+  },
+  "2:1": {
+   "gain": {
+    "min_species": 3,
+    "min_margin": 1.0,
+    "min_out_lineages": 2,
+    "recall": 0.2816744217411828,
+    "fdr": 0.013219645324193128,
+    "fdr_all_pi": {
+     "0.02": 0.014018697767657958,
+     "0.05": 0.013219645324193128,
+     "0.1": 0.012953006626250202,
+     "0.2": 0.012819633233487473
+    },
+    "fdr_strict": 0.0358521163828979,
+    "recall_consistent": 0.28828646570908356,
+    "false_calls_per_null_sog": 3.9460184673664275e-06
+   },
+   "loss": {
+    "min_species": 3,
+    "min_margin": 1.0,
+    "min_out_lineages": 3,
+    "recall": 0.07947423361240706,
+    "fdr": 0.08331781109625731,
+    "fdr_all_pi": {
+     "0.02": 0.12772947321937017,
+     "0.05": 0.08331781109625731,
+     "0.1": 0.06749158619260447,
+     "0.2": 0.05937176331137044
+    },
+    "fdr_strict": 0.1004854085106259,
+    "recall_consistent": 0.08091007860931808,
+    "false_calls_per_null_sog": 7.497435087996212e-05
+   }
+  },
+  "3:1": {
+   "gain": {
+    "min_species": 3,
+    "min_margin": 1.0,
+    "min_out_lineages": 2,
+    "recall": 0.1876896621484928,
+    "fdr": 0.013992908414771254,
+    "fdr_all_pi": {
+     "0.02": 0.013992908414771254,
+     "0.05": 0.013992908414771254,
+     "0.1": 0.013992908414771254,
+     "0.2": 0.013992908414771254
+    },
+    "fdr_strict": 0.03718758107757503,
+    "recall_consistent": 0.1922112077685616,
+    "false_calls_per_null_sog": 0.0
+   },
+   "loss": {
+    "min_species": 3,
+    "min_margin": 1.0,
+    "min_out_lineages": 4,
+    "recall": 0.05712277113823736,
+    "fdr": 0.08790787948426787,
+    "fdr_all_pi": {
+     "0.02": 0.13742887288375358,
+     "0.05": 0.08790787948426787,
+     "0.1": 0.07011265320661127,
+     "0.2": 0.06095208169418245
+    },
+    "fdr_strict": 0.11586876872573054,
+    "recall_consistent": 0.058763128182186146,
+    "false_calls_per_null_sog": 6.18209559887407e-05
+   }
+  }
+ },
+ "species_tree": "results/partB/sim/toy_sogs/TOY/O1/species_tree.nwk",
+ "orthoxml": "<repo>/data/orthology/ancestra_tier1_v0/accurate/hogs.orthoxml.gz",
+ "code_sha256": "3d58ed74f5ba1cea5f849e5a907bbcc93c11c1bc5a5f3cd0df23129399f06344"
+}

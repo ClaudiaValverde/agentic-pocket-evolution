@@ -1,0 +1,34 @@
+[ancestra] stage input: running
+[ancestra] stage input: done in 0.6s, peak RSS 924 MB
+[ancestra] stage families: running
+[ancestra] stage families: done in 1587.2s, peak RSS 11307 MB
+[ancestra] stage scores: running
+[ancestra] stage scores: done in 2290.4s, peak RSS 46913 MB
+[ancestra] stage merge: running
+[ancestra] stage merge: done in 1965.3s, peak RSS 13980 MB
+[ancestra] stage output: running
+[ancestra] stage output: done in 68.2s, peak RSS 9211 MB
+[ancestra] done in 5927.1s -> /tmp/pe_big/ancestra/o2/run_O2_accurate/hogs.orthoxml
+	Command being timed: "python -m ancestra run --proteomes /tmp/pe_big/ancestra/o2/input_O2 --tree /tmp/pe_big/ancestra/o2/o2_guide_tree.nwk --out /tmp/pe_big/ancestra/o2/run_O2_accurate --threads 40 --preset accurate"
+	User time (seconds): 85634.78
+	System time (seconds): 3411.35
+	Percent of CPU this job got: 1501%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 1:38:49
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 48038716
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 2427
+	Minor (reclaiming a frame) page faults: 1216904603
+	Voluntary context switches: 13512455
+	Involuntary context switches: 16747895
+	Swaps: 0
+	File system inputs: 895208
+	File system outputs: 190514024
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0

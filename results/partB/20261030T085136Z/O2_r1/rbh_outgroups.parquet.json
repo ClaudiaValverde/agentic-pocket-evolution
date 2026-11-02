@@ -1,0 +1,16 @@
+{
+ "output": "rbh_outgroups.parquet",
+ "snapshot_id": "20261030T085136Z",
+ "prereg_sha256": "52f9461890984c210b730af86c40de221307a668e7d4b38098b3316059690d83",
+ "git_commit": "c1281f21cbfcdcf318a8a54bd442c3e5bd880b72+dirty",
+ "seed": 0,
+ "created_utc": "2026-10-30T16:02:06Z",
+ "sha256": "30dc087053a8d937a6019fc88e48724ab4a7712667e5a21935eb927f0332895e",
+ "script": "scripts/partB/rbh_check.py",
+ "argv": [
+  "--threads",
+  "16"
+ ],
+ "diamond": "diamond version 2.2.8",
+ "runtime_s": 293.70144510269165
+}

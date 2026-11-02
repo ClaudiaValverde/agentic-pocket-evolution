@@ -1,0 +1,107 @@
+# Annotation-first validation track (DESIGN §5.3). Source: reviews/round1/prior_work.md seed list + LITERATURE.md.
+# derived = proteins carrying the derived state; ancestral = proteins in the ancestral / sister state.
+# expected_type: gain | loss | specificity (any of the listed types counts as recovered); role: known | detection_limited
+# | negative_gene_loss | negative_truncation. No tuning: the pipeline outputs are read as they are.
+items:
+  - id: steroid_receptor_LBP
+    title: "Steroid receptor LBPs: estrogen receptor (ancestral) -> 3-ketosteroid receptors AR/GR/MR/PR"
+    role: known
+    expected_type: [specificity]
+    derived: [P10275, P04150, P08235, P06401]
+    ancestral: [P03372]
+    reference: P03372
+    known_answer: "Conserved LBD pocket; ligand specificity shifted from estrogens to 3-ketosteroids after duplication"
+    dois: [10.1126/science.1086185, 10.1126/science.1123348, 10.1371/journal.pgen.1003072, 10.1038/nrg3540]
+  - id: NR4A_Nurr1_loss
+    title: "NR4A/Nurr1: LBD pocket lost (no cavity) from a ligand-binding NR ancestor"
+    role: known
+    expected_type: [loss]
+    derived: [P43354, Q06219, P49869]
+    ancestral: [P41829]
+    reference: P43354
+    known_answer: "Nurr1 LBD has no ligand cavity (1OVL); pocket loss after duplication"
+    dois: [10.1038/nature01645]
+    note: "NHR-6 (P41829) has a 0.475 LBD pocket in the atlas; prior_work asked whether it is a regain or an artifact"
+  - id: PfLDH_vs_MDH
+    title: "Apicomplexan LDH evolved from MDH (substrate specificity, R102->W107f moved by an insertion)"
+    role: known
+    expected_type: [specificity]
+    derived: [Q76NM3]
+    ancestral: [C6KT25, P40925]
+    reference: Q76NM3
+    known_answer: "LDH specificity arose from an MDH ancestor in Apicomplexa"
+    dois: [10.7554/eLife.02304]
+  - id: IDH_NADP_NAD
+    title: "Isocitrate dehydrogenase coenzyme specificity (E. coli NADP vs NAD)"
+    role: known
+    expected_type: [specificity]
+    derived: [P08200]
+    ancestral: [P50213]
+    reference: P08200
+    known_answer: "NAD -> NADP coenzyme switch in bacterial IDH"
+    dois: [10.1126/science.1106974]
+  - id: GID1_vs_HSL
+    title: "GID1 gibberellin receptor pocket on the HSL scaffold (plants)"
+    role: known
+    expected_type: [gain, specificity]
+    derived: [Q6L545, Q9MAA7]
+    ancestral: [Q05469]
+    reference: Q9MAA7
+    known_answer: "Receptor pocket (GA binding, N-terminal lid) gained on the HSL alpha/beta-hydrolase scaffold in plants"
+    dois: [10.1038/nature04028]
+  - id: D14_vs_KAI2
+    title: "D14 (strigolactone) derived from KAI2 (karrikin) after duplication"
+    role: known
+    expected_type: [specificity]
+    derived: [Q9SQR3, Q10QA5]
+    ancestral: [Q9SZU7]
+    reference: Q9SQR3
+    known_answer: "Ligand specificity change after duplication; KAI2 ancestral"
+    dois: [10.1242/dev.074567]
+  - id: lysozyme_vs_lactalbumin
+    title: "Lysozyme C vs alpha-lactalbumin: catalytic cleft function lost, Ca site gained"
+    role: known
+    expected_type: [loss, specificity]
+    derived: [P00709, P29752]
+    ancestral: [P61626]
+    reference: P61626
+    known_answer: "Mammalian duplication; LALBA lost lysozyme activity (cleft), gained Ca binding"
+    dois: [10.3109/10409239709082574]
+  - id: serine_protease_triads
+    title: "Ser-His-Asp triad convergence across folds (chymotrypsin, subtilisin, ClpP)"
+    role: detection_limited
+    accessions: [P00766, P07477, P00782, P04189, P0A6G7]
+    known_answer: "Convergent triads in unrelated folds"
+    dois: [10.1002/pro.5560050603, 10.1111/febs.17332]
+  - id: carbonic_anhydrase_classes
+    title: "alpha/beta/gamma carbonic anhydrase convergence"
+    role: detection_limited
+    accessions: [P00918, P61517, P0ABE9, P53615, P27140, P40881]
+    known_answer: "Zn active sites converged in unrelated folds"
+    dois: [10.1006/mpev.1996.0006, 10.1111/febs.17332]
+  - id: superoxide_dismutases
+    title: "Cu/Zn SOD vs Mn/Fe SOD (analogous enzymes)"
+    role: detection_limited
+    accessions: [P00441, P0AGD1, P04179, P00448]
+    known_answer: "Analogous enzymes, unrelated folds"
+    dois: [10.1101/gr.8.8.779]
+  - id: uricase_gene_loss
+    title: "Uricase lost as a gene in hominoids: human must be G, not A"
+    role: negative_gene_loss
+    reference: P25688
+    accessions: [P25688]
+    lost_in_taxid: 9606
+    dois: [10.1093/oxfordjournals.molbev.a004123]
+  - id: GULO_gene_loss
+    title: "GULO lost as a gene in primates: human must be G, not A"
+    role: negative_gene_loss
+    reference: P58710
+    accessions: [P58710, P10867]
+    lost_in_taxid: 9606
+    dois: [10.1093/oxfordjournals.molbev.a004123]
+  - id: M_leprae_truncation
+    title: "M. leprae (decaying genome) vs M. tuberculosis: truncations must not become losses"
+    role: negative_truncation
+    taxid_test: 272631
+    taxid_ref: 83332
+    dois: [10.1038/35059006]

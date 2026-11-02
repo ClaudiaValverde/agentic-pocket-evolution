@@ -1,0 +1,16 @@
+{
+ "output": "candidates.parquet",
+ "snapshot_id": "20261030T085136Z",
+ "prereg_sha256": "52f9461890984c210b730af86c40de221307a668e7d4b38098b3316059690d83",
+ "git_commit": "fe67f2c7270af9cc942c23de86049ca81ff53b28+dirty",
+ "seed": 0,
+ "created_utc": "2026-10-30T16:44:57Z",
+ "sha256": "4c4852bfa26158dbef371015c207b6bb109afd620160b189e97a186531b089ca",
+ "script": "scripts/partB/run_artifacts.py",
+ "argv": [
+  "--orthology",
+  "O2",
+  "--sog-run",
+  "O2_r1"
+ ]
+}

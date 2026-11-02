@@ -1,0 +1,21 @@
+{
+ "snapshot_id": "20261030T085136Z",
+ "prereg_sha256": "52f9461890984c210b730af86c40de221307a668e7d4b38098b3316059690d83",
+ "git_commit": "ab2eb1d97fac7608cb41eab817ae54fca008c748",
+ "seed": 0,
+ "code_sha256_16": {
+  "directional.py": "d495d982cdc833aa",
+  "estimands.py": "5dd2be39c0e89141",
+  "homology.py": "e6ee620947a140b1",
+  "nulls.py": "6f193b3d663c550d",
+  "pairs.py": "642c9b09a648492f"
+ },
+ "written_utc": "2026-10-30T15:59:40Z",
+ "stage": "o2_vs_o1",
+ "sig_pairs_O1": 9776291,
+ "sig_pairs_O2": 9778355,
+ "sig_both": 9757299,
+ "moved_class_among_sig_both": 1529928,
+ "moved_class_among_sig_both_with_tier2": 932692,
+ "O1_H12_with_tier2_sig_both": 3970709
+}

@@ -1,0 +1,46 @@
+schema: manual-v1
+case_id: gain_HOG0035363_g6_n51_O1
+note: 'D25b post-hoc literature f2 line; never used for headline counts. Same as g0: absent side unrelated (KAS family).'
+literature_evidence:
+- pmid: '35680945'
+  side: present
+  protein: P43004 SLC1A2/EAAT2
+  finding: Cryo-EM with glutamate and WAY-213613 in the HP1/TM7/TM8 substrate site where the footprint lies.
+  quote: The glutamate is coordinated by extensive hydrogen bonds and further stabilized by HP2. The inhibitor WAY-213613
+    occupies a similar binding pocket to that of the substrate glutamate.
+  about_change: true
+  source: literature
+  post_hoc: true
+  author_agent: general-purpose literature agent a14187d9e30a37f2b (M4, D25b)
+  reviewed_by: 'M4 case-builder agent: PMID resolved by NCBI efetch, quote verified verbatim in abstract, site relevance checked
+    against footprint residues'
+  review_ok: true
+  retrieved_at: '2026-10-30T14:28:59Z'
+- pmid: '34507995'
+  side: present
+  protein: SLC1A5/ASCT2
+  finding: Cryo-EM/MD of designed inhibitors in subpockets of the HP1/TM8 substrate site.
+  quote: we rationally designed stereospecific inhibitors exploiting specific subpockets in the substrate binding site using
+    computational modeling and cryo-electron microscopy
+  about_change: true
+  source: literature
+  post_hoc: true
+  author_agent: general-purpose literature agent a14187d9e30a37f2b (M4, D25b)
+  reviewed_by: 'M4 case-builder agent: PMID resolved by NCBI efetch, quote verified verbatim in abstract, site relevance checked
+    against footprint residues'
+  review_ok: true
+  retrieved_at: '2026-10-30T14:28:59Z'
+- pmid: '28424515'
+  side: present
+  protein: P43003 SLC1A3/EAAT1
+  finding: EAAT1 structures with a competitive inhibitor in the substrate site (HP1/HP2/TM8).
+  quote: we present crystal structures of a thermostabilized human SLC1 transporter, the excitatory amino acid transporter
+    1 (EAAT1), with and without allosteric and competitive inhibitors bound
+  about_change: true
+  source: literature
+  post_hoc: true
+  author_agent: general-purpose literature agent a14187d9e30a37f2b (M4, D25b)
+  reviewed_by: 'M4 case-builder agent: PMID resolved by NCBI efetch, quote verified verbatim in abstract, site relevance checked
+    against footprint residues'
+  review_ok: true
+  retrieved_at: '2026-10-30T14:28:59Z'

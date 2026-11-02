@@ -1,0 +1,30 @@
+{
+ "output": "m3_x200_multi_species.json",
+ "snapshot_id": "20261030T085136Z",
+ "prereg_sha256": "52f9461890984c210b730af86c40de221307a668e7d4b38098b3316059690d83",
+ "git_commit": "1399ee6925d12def97c93313c4483aae753b670b+dirty",
+ "seed": [
+  0,
+  1,
+  2
+ ],
+ "created_utc": "2026-10-30T15:06:34Z",
+ "sha256": "4c4aa4309b9ecfb679187093c1df4e843d6b47b4a28dd172aac4eca832589e39",
+ "script": "scripts/partB/run_m3.py",
+ "argv": [
+  "--release",
+  "O1_r3",
+  "--tau",
+  "0.2",
+  "--states-dir",
+  "/tmp/pe_big/sogs/20261030T085136Z/O1_r3/states_t0.2",
+  "--workers",
+  "16",
+  "--swap-mult",
+  "200",
+  "--only",
+  "multi_species",
+  "--reps",
+  "200"
+ ]
+}

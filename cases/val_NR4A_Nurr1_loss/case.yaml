@@ -1,0 +1,67 @@
+schema: case-v1
+case_id: val_NR4A_Nurr1_loss
+title: 'Validation (known answer): NR4A/Nurr1: LBD pocket lost (no cavity) from a ligand-binding NR ancestor'
+category: validation_known
+track: annotation-first
+label: rejected
+toy: false
+summary: 'Known answer: Nurr1 LBD has no ligand cavity (1OVL); pocket loss after duplication. Pipeline outcome: O1: not recovered;
+  O2: not recovered'
+og_id: HOG0025274
+sog_id: HOG0025274:g2
+proteins:
+- accession: P43354
+  role: derived
+  state_O1: U(length_ratio)
+  state_O2: U(plddt<90)
+- accession: Q06219
+  role: derived
+  state_O1: U(length_ratio)
+  state_O2: U(plddt<90)
+- accession: P49869
+  role: derived
+  state_O1: U(length_ratio)
+  state_O2: U(length_ratio)
+- accession: P41829
+  role: ancestral
+  state_O1: U(partial_site_overlap)
+  state_O2: no row
+filters:
+- name: persistence
+  status: fail
+  detail: 'O1: not recovered | SOG HOG0025274:g2 (max overlap with 17 experimental site residues of P43354: 3) | called events:
+    no Sankoff event (SOG not event-eligible: < 2 P or < 2 A members, or small footprint); O2: not recovered | SOG HOG0035741:g4
+    (max overlap with 17 experimental site residues of P43354: 12) | called events: no Sankoff event (SOG not event-eligible:
+    < 2 P or < 2 A members, or small footprint)'
+- name: experimental
+  status: pass
+  detail: 'known answer from the literature: Nurr1 LBD has no ligand cavity (1OVL); pocket loss after duplication (DOIs below)'
+- name: computational
+  status: na
+  detail: 'O1: specificity not tested (no specificity run for this orthology); artifact cascade no candidate at this SOG;
+    O2: specificity not tested (no specificity run for this orthology); artifact cascade no candidate at this SOG'
+artifact_checks:
+- name: artifact_cascade_O1
+  status: na
+  detail: no candidate at this SOG
+- name: artifact_cascade_O2
+  status: na
+  detail: no candidate at this SOG
+evidence:
+- type: doi
+  id: 10.1038/nature01645
+  about_change: true
+  filter: experimental
+  source: literature
+  detail: known-answer reference for NR4A_Nurr1_loss
+literature:
+- doi: 10.1038/nature01645
+cofold: []
+figures: []
+notes: label = whether the unchanged pipeline recovers the known event (supported) or not (rejected); f2 is the published
+  known answer, legitimately (annotation-first track). Not a discovery.
+provenance:
+  builder: scripts/cases/validation_track.py
+  snapshot: 20261030T085136Z
+  prereg_sha256: 52f9461890984c210b730af86c40de221307a668e7d4b38098b3316059690d83
+  git_commit: 9f9ba879c81bd222ebf214dbb5d5e6edbdc55763+dirty

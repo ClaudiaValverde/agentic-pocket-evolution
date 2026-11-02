@@ -1,0 +1,464 @@
+schema: case-v1
+case_id: gain_HOG0034532_g4_n8_O2
+title: 'Pocket gain: HOG0034532:g4 (Amniota)'
+category: gain
+track: discovery
+label: supported
+toy: false
+summary: 'SOG HOG0034532:g4: pocket present in the Amniota clade (node 8) and absent-observed in outgroup
+  lineages.'
+og_id: HOG0034532
+sog_id: HOG0034532:g4
+score: 7.0
+proteins:
+- accession: A0A4W3I4Z8
+  taxid: 7868
+  species: '7868'
+  role: outgroup
+  side: absent
+  state: A
+  footprint_plddt: 94.38636016845703
+  reason: ''
+  gene: ''
+  protein_name: ''
+  rescue_settings_hit: null
+  residues: A:76 A:77 A:80 A:151 A:152 A:155 A:162 A:193 A:196 A:197 A:200
+  n_site_evidence: 0
+- accession: A0A670HZU8
+  taxid: 64176
+  species: '64176'
+  role: derived
+  side: present
+  state: P
+  footprint_plddt: 94.11363983154297
+  reason: ''
+  gene: ''
+  protein_name: ''
+  rescue_settings_hit: null
+  residues: A:76 A:77 A:80 A:150 A:151 A:154 A:161 A:192 A:195 A:196 A:199
+  n_site_evidence: 0
+- accession: A0A670JXF6
+  taxid: 64176
+  species: '64176'
+  role: derived
+  side: other
+  state: U
+  footprint_plddt: 92.4772720336914
+  reason: partial_site_overlap
+  gene: ''
+  protein_name: ''
+  rescue_settings_hit: null
+  residues: null
+  n_site_evidence: 0
+- accession: A0A6J3GDI0
+  taxid: 9515
+  species: '9515'
+  role: derived
+  side: other
+  state: U
+  footprint_plddt: 93.79545593261719
+  reason: partial_site_overlap
+  gene: ''
+  protein_name: ''
+  rescue_settings_hit: null
+  residues: null
+  n_site_evidence: 0
+- accession: A0A6J3GDR9
+  taxid: 9515
+  species: '9515'
+  role: derived
+  side: other
+  state: U
+  footprint_plddt: 94.20454406738281
+  reason: partial_site_overlap
+  gene: ''
+  protein_name: ''
+  rescue_settings_hit: null
+  residues: null
+  n_site_evidence: 0
+- accession: A0A6P5IQR9
+  taxid: 38626
+  species: '38626'
+  role: derived
+  side: present
+  state: P
+  footprint_plddt: 92.20454406738281
+  reason: ''
+  gene: ''
+  protein_name: ''
+  rescue_settings_hit: null
+  residues: A:76 A:77 A:80 A:150 A:151 A:154 A:161 A:192 A:195 A:196 A:199
+  n_site_evidence: 0
+- accession: A0A6P5IQS6
+  taxid: 38626
+  species: '38626'
+  role: derived
+  side: other
+  state: U
+  footprint_plddt: 93.25
+  reason: partial_site_overlap
+  gene: ''
+  protein_name: ''
+  rescue_settings_hit: null
+  residues: null
+  n_site_evidence: 0
+- accession: A0A6P8R6Q5
+  taxid: 260995
+  species: '260995'
+  role: outgroup
+  side: absent
+  state: A
+  footprint_plddt: 92.15908813476562
+  reason: rescue:negative
+  gene: ''
+  protein_name: ''
+  rescue_settings_hit: 0
+  residues: A:76 A:77 A:80 A:151 A:152 A:155 A:162 A:193 A:196 A:197 A:200
+  n_site_evidence: 0
+- accession: A0A7J8DWK8
+  taxid: 9407
+  species: '9407'
+  role: derived
+  side: present
+  state: P
+  footprint_plddt: 94.34091186523438
+  reason: ''
+  gene: ''
+  protein_name: ''
+  rescue_settings_hit: null
+  residues: A:76 A:77 A:80 A:150 A:151 A:154 A:161 A:192 A:195 A:196 A:199
+  n_site_evidence: 0
+- accession: A0A7J8DWS5
+  taxid: 9407
+  species: '9407'
+  role: derived
+  side: other
+  state: U
+  footprint_plddt: 94.29545593261719
+  reason: partial_site_overlap
+  gene: ''
+  protein_name: ''
+  rescue_settings_hit: null
+  residues: null
+  n_site_evidence: 0
+- accession: A0A8N1TZV4
+  taxid: 7955
+  species: '7955'
+  role: outgroup
+  side: absent
+  state: A
+  footprint_plddt: 93.20454406738281
+  reason: ''
+  gene: ''
+  protein_name: ''
+  rescue_settings_hit: null
+  residues: A:76 A:77 A:80 A:152 A:153 A:156 A:163 A:194 A:197 A:198 A:201
+  n_site_evidence: 0
+- accession: H0ZM33
+  taxid: 59729
+  species: '59729'
+  role: derived
+  side: other
+  state: A
+  footprint_plddt: 93.29545593261719
+  reason: ''
+  gene: ''
+  protein_name: ''
+  rescue_settings_hit: null
+  residues: null
+  n_site_evidence: 0
+- accession: H0ZM34
+  taxid: 59729
+  species: '59729'
+  role: derived
+  side: present
+  state: P
+  footprint_plddt: 93.29545593261719
+  reason: ''
+  gene: ''
+  protein_name: ''
+  rescue_settings_hit: null
+  residues: A:76 A:77 A:80 A:150 A:151 A:154 A:161 A:192 A:195 A:196 A:199
+  n_site_evidence: 0
+- accession: I3K1N1
+  taxid: 8128
+  species: '8128'
+  role: outgroup
+  side: absent
+  state: U
+  footprint_plddt: 93.29545593261719
+  reason: model_sequence_mismatch
+  gene: ''
+  protein_name: ''
+  rescue_settings_hit: null
+  residues: A:82 A:83 A:86 A:160 A:161 A:164 A:171 A:202 A:205 A:206 A:209
+  n_site_evidence: 0
+- accession: I3KXW0
+  taxid: 8128
+  species: '8128'
+  role: outgroup
+  side: absent
+  state: U
+  footprint_plddt: 94.5227279663086
+  reason: partial_site_overlap
+  gene: ''
+  protein_name: ''
+  rescue_settings_hit: null
+  residues: A:76 A:77 A:80 A:152 A:153 A:156 A:163 A:194 A:197 A:198 A:201
+  n_site_evidence: 0
+- accession: O95452
+  taxid: 9606
+  species: '9606'
+  role: derived
+  side: present
+  state: P
+  footprint_plddt: 95.56818389892578
+  reason: ''
+  gene: GJB6
+  protein_name: Gap junction beta-6 protein
+  rescue_settings_hit: null
+  residues: A:76 A:77 A:80 A:150 A:151 A:154 A:161 A:192 A:195 A:196 A:199
+  n_site_evidence: 0
+- accession: P21994
+  taxid: 10116
+  species: '10116'
+  role: derived
+  side: present
+  state: P
+  footprint_plddt: 94.25
+  reason: ''
+  gene: Gjb2
+  protein_name: Gap junction beta-2 protein
+  rescue_settings_hit: null
+  residues: A:76 A:77 A:80 A:150 A:151 A:154 A:161 A:192 A:195 A:196 A:199
+  n_site_evidence: 0
+- accession: P29033
+  taxid: 9606
+  species: '9606'
+  role: derived
+  side: present
+  state: P
+  footprint_plddt: 93.56818389892578
+  reason: ''
+  gene: GJB2
+  protein_name: Gap junction beta-2 protein
+  rescue_settings_hit: null
+  residues: A:76 A:77 A:80 A:150 A:151 A:154 A:161 A:192 A:195 A:196 A:199
+  n_site_evidence: 0
+- accession: P70689
+  taxid: 10090
+  species: '10090'
+  role: derived
+  side: other
+  state: U
+  footprint_plddt: 95.43181610107422
+  reason: partial_site_overlap
+  gene: Gjb6
+  protein_name: Gap junction beta-6 protein
+  rescue_settings_hit: null
+  residues: null
+  n_site_evidence: 0
+- accession: Q00977
+  taxid: 10090
+  species: '10090'
+  role: derived
+  side: present
+  state: P
+  footprint_plddt: 93.84091186523438
+  reason: ''
+  gene: Gjb2
+  protein_name: Gap junction beta-2 protein
+  rescue_settings_hit: null
+  residues: A:76 A:77 A:80 A:150 A:151 A:154 A:161 A:192 A:195 A:196 A:199
+  n_site_evidence: 0
+- accession: Q6AZ42
+  taxid: 10116
+  species: '10116'
+  role: derived
+  side: present
+  state: P
+  footprint_plddt: 93.38636016845703
+  reason: ''
+  gene: Gjb6
+  protein_name: Gap junction protein
+  rescue_settings_hit: null
+  residues: A:76 A:77 A:80 A:150 A:151 A:154 A:161 A:192 A:195 A:196 A:199
+  n_site_evidence: 0
+filters:
+- name: persistence
+  status: pass
+  detail: 'P in 7 derived species (purity 0.90 of informative derived members; 0.90 over all members under
+    the species-tree LCA: clean clade); single tree-consistent event: True; outgroup support: A in 3 outgroup
+    species'
+- name: experimental
+  status: fail
+  detail: no experimental evidence at the footprint
+- name: computational
+  status: pass
+  detail: 'conservation: pass (2/11 footprint columns clade-specific (rate 0.18 vs background 0.14); derived
+    conservation 0.95, outgroup identity to derived majority 0.76); rescue_consistency: na (no rescue
+    run for present-side members); source_consistency: na (no present-side member in the v6/v4 re-detection
+    sample); cofolding: pending (placeholder; filled by the co-folding agent)'
+- name: f3:conservation
+  status: pass
+  detail: 2/11 footprint columns clade-specific (rate 0.18 vs background 0.14); derived conservation 0.95,
+    outgroup identity to derived majority 0.76
+- name: f3:rescue_consistency
+  status: na
+  detail: no rescue run for present-side members
+- name: f3:source_consistency
+  status: na
+  detail: no present-side member in the v6/v4 re-detection sample
+- name: f3:cofolding
+  status: pending
+  detail: placeholder; filled by the co-folding agent
+artifact_checks:
+- name: a_footprint_plddt
+  status: pass
+  detail: ''
+- name: a_disorder
+  status: na
+  detail: ''
+- name: a_pae_ted
+  status: pass
+  detail: ''
+- name: a_fragment
+  status: pass
+  detail: ''
+- name: a_orthology_o2
+  status: pass
+  detail: ''
+- name: a_orthology_panther
+  status: pass
+  detail: ''
+- name: a_instability
+  status: na
+  detail: ''
+- name: a_fragment_present
+  status: pass
+  detail: ''
+- name: flag_present_plddt_lt90
+  status: na
+  detail: 'flag (reported, not a fail; D24): False'
+- name: a_species_tree_lineages
+  status: pass
+  detail: ''
+- name: flag_paralog_branch
+  status: na
+  detail: 'flag (reported, not a fail; D24): False'
+- name: artifact_na
+  status: na
+  detail: a_disorder;a_pae_ted(no TED labels);a_instability
+- name: artifact_fails
+  status: na
+  detail: ''
+- name: orthology_side_family_reported_only
+  status: pass
+  detail: 'PANTHER: present side [''PTHR11984''], absent side [''PTHR11984'']; shared [''PTHR11984'']
+    [reported only; does not gate selection (PI D30)]'
+evidence: []
+cofold:
+- model_id: pending
+  status: pending
+  role: derived
+  note: "placeholder; co-folding agent fills models per DESIGN \xA76 and the D23 concordance rule (ligand\
+    \ pLDDT AND centroid distance or site-residue recall in >= 2/3 seeds)"
+- model_id: gain_HOG0034532_g4_n8_O2_apo
+  role: apo_refold
+  status: apo_consistent_with_call
+  ligands: []
+  seeds: 3
+  samples_per_seed: 5
+  templates: none
+  msa: ColabFold MMseqs2
+  method: protein-only AF3 refold, then pocketcompare describe --af-mode; site recall of the best-covering
+    BURROW pocket against the case footprint, reported CONTINUOUS (never thresholded at 0.8)
+  present_recall_median: 1.0
+  absent_recall_median: 0.0
+  delta_recall: 1.0
+  n_present: 3
+  n_absent: 3
+  members:
+  - acc: O95452
+    side: present
+    recall: 1.0
+    precision: 1.0
+    burrow_rank: '5'
+    n_pockets: '6'
+    construct: full_length
+    atlas_footprint_plddt: 95.568
+    site_source: own_footprint
+  - acc: A0A7J8DWK8
+    side: present
+    recall: 1.0
+    precision: 0.208
+    burrow_rank: '2'
+    n_pockets: '5'
+    construct: full_length
+    atlas_footprint_plddt: 94.341
+    site_source: own_footprint
+  - acc: P21994
+    side: present
+    recall: 0.273
+    precision: 0.2
+    burrow_rank: '5'
+    n_pockets: '4'
+    construct: full_length
+    atlas_footprint_plddt: 94.25
+    site_source: own_footprint
+  - acc: A0A4W3I4Z8
+    side: absent
+    recall: 0.0
+    precision: 0.0
+    burrow_rank: '2'
+    n_pockets: '4'
+    construct: full_length
+    atlas_footprint_plddt: 94.386
+    site_source: own_footprint
+  - acc: H0ZM33
+    side: absent
+    recall: 0.0
+    precision: 0.0
+    burrow_rank: '2'
+    n_pockets: '6'
+    construct: full_length
+    atlas_footprint_plddt: 93.295
+    site_source: mapped_from:A0A670HZU8
+  - acc: A0A8N1TZV4
+    side: absent
+    recall: 0.364
+    precision: 0.222
+    burrow_rank: '5'
+    n_pockets: '4'
+    construct: full_length
+    atlas_footprint_plddt: 93.205
+    site_source: own_footprint
+  table: results/cofold/apo_pool/apo_burrow_pool.tsv
+  outcome: 'present-side median recall 1.0, absent-side 0.0: BURROW on fresh ligand-free models finds
+    the pocket on the present side and not on the absent side, independently of the atlas'
+figures: []
+literature: []
+headline: convincing_only
+filter_label_with_literature_post_hoc: supported
+notes: 'filter_label=supported (prereg: convincing = all three filters; supported = f1 + one of f2/f3);
+  final label also needs the artifact cascade (pass). candidate label: FDR-calibrated candidate; fdr_supported=True.
+  selection: eligible. G (gene-absent) rows not listed: 0; every other member is listed with side (present/absent/other),
+  state and reason. Evidence counts are derived from BioLiP2/UniProt 2026_03/M-CSA/ChEMBL 37 (DATA.md);
+  BioLiP rows are not redistributed, only PDB IDs and counts. Final co-fold pool selection (D28, case_list_v2.parquet):
+  top_k.'
+provenance:
+  builder: scripts/cases/build_cases.py
+  orthology: O2
+  snapshot: 20261030T085136Z
+  case_list: results/cases/20261030T085136Z/case_list_v2.parquet
+  prereg_sha256: 52f9461890984c210b730af86c40de221307a668e7d4b38098b3316059690d83
+  git_commit: cdb00a44da5049d0e4a054f4e2ba4ee534e35363+dirty
+  seed: 0
+  built_utc: '2026-10-30T16:18:47Z'
+  n_excluded_tune_annotations:
+    rule: per SOG (prereg literal); OG-wide reported as sensitivity
+    n_tuning_list_rows: 505
+    n_used_in_tune_pairs: 155
+    pairs_file: results/sogs/20261030T085136Z/O1/tau_benchmark_pairs.parquet
+    n_keys_per_sog: 114
+    n_keys_og_wide: 130

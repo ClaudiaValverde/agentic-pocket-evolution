@@ -1,0 +1,135 @@
+{
+ "snapshot_id": "20261030T085136Z",
+ "prereg_sha256": "52f9461890984c210b730af86c40de221307a668e7d4b38098b3316059690d83",
+ "git_commit": "cbe924346b0adeee1359ea8d7fae54ac6bedf5e0",
+ "seed": 0,
+ "sources": {
+  "LIGYSIS_af_set": 6320
+ },
+ "n_known": 6320,
+ "n_proteins": 2497,
+ "n_skipped": {},
+ "A_primary": {
+  "n_known": 6320,
+  "n_A_eligible": 4695,
+  "n_false_A": 3081,
+  "false_A": 0.6562300319488817
+ },
+ "A_sens": {
+  "n_known": 6320,
+  "n_A_eligible": 6254,
+  "n_false_A": 4167,
+  "false_A": 0.6662935721138471
+ },
+ "by_band": {
+  "70-90": {
+   "n_known": 1559,
+   "n_A_eligible": 0,
+   "n_false_A": 0,
+   "false_A": null
+  },
+  "<70": {
+   "n_known": 66,
+   "n_A_eligible": 0,
+   "n_false_A": 0,
+   "false_A": null
+  },
+  ">=90": {
+   "n_known": 4695,
+   "n_A_eligible": 4695,
+   "n_false_A": 3081,
+   "false_A": 0.6562300319488817
+  }
+ },
+ "by_ligand_class": {
+  "metal": {
+   "n_known": 2285,
+   "n_A_eligible": 1641,
+   "n_false_A": 1291,
+   "false_A": 0.7867154174283973
+  },
+  "small_molecule": {
+   "n_known": 4035,
+   "n_A_eligible": 3054,
+   "n_false_A": 1790,
+   "false_A": 0.5861165684348395
+  }
+ },
+ "by_size_bin": {
+  "11-20": {
+   "n_known": 1400,
+   "n_A_eligible": 1045,
+   "n_false_A": 565,
+   "false_A": 0.5406698564593302
+  },
+  "3-5": {
+   "n_known": 1153,
+   "n_A_eligible": 877,
+   "n_false_A": 742,
+   "false_A": 0.8460661345496009
+  },
+  "6-10": {
+   "n_known": 2465,
+   "n_A_eligible": 1764,
+   "n_false_A": 1390,
+   "false_A": 0.7879818594104309
+  },
+  ">20": {
+   "n_known": 1302,
+   "n_A_eligible": 1009,
+   "n_false_A": 384,
+   "false_A": 0.38057482656095143
+  }
+ },
+ "by_source": {
+  "LIGYSIS_af_set": {
+   "n_known": 6320,
+   "n_A_eligible": 4695,
+   "n_false_A": 3081,
+   "false_A": 0.6562300319488817
+  }
+ },
+ "false_A_primary_by_overlap_threshold": {
+  "1e-09": 0.3648562300319489,
+  "0.3": 0.521618743343983,
+  "0.5": 0.6562300319488817,
+  "0.7": 0.8063897763578275
+ },
+ "by_tier": {
+  "1": {
+   "n_known": 6314,
+   "n_A_eligible": 4689,
+   "n_false_A": 3078,
+   "false_A": 0.6564299424184261
+  },
+  "2": {
+   "n_known": 6,
+   "n_A_eligible": 6,
+   "n_false_A": 3,
+   "false_A": 0.5
+  }
+ },
+ "by_half": {
+  "test": {
+   "n_known": 3405,
+   "n_A_eligible": 2568,
+   "n_false_A": 1661,
+   "false_A": 0.6468068535825545
+  },
+  "tune": {
+   "n_known": 2915,
+   "n_A_eligible": 2127,
+   "n_false_A": 1420,
+   "false_A": 0.6676069581570286
+  }
+ },
+ "n_in_O1_hog": 6292,
+ "timings": {
+  "known_sites_loaded_s": 8.470717191696167,
+  "models_s": 20.77374577522278,
+  "false_A_table_s": 23.900718688964844,
+  "rescue_burrow_s": 0.06552243232727051,
+  "rescue_n_models": 974
+ },
+ "runtime_s": 31.6
+}

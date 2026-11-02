@@ -1,0 +1,7 @@
+{
+ "n_gain_loss_called": 1097,
+ "threshold": 5,
+ "run_secondary_stratum": false,
+ "rule": "pi_freeze.yield_preflight (pLDDT>=70 stratum = 'secondary stratum')",
+ "stratum": "pre_d11_state"
+}

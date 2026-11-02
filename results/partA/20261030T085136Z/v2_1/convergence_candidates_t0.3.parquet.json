@@ -1,0 +1,64 @@
+{
+ "snapshot_id": "20261030T085136Z",
+ "prereg_sha256": "52f9461890984c210b730af86c40de221307a668e7d4b38098b3316059690d83",
+ "git_commit": "346fae760c326ec36e2f4ec67065da1d4865ec32",
+ "seed": [
+  0,
+  40
+ ],
+ "code_sha256_16": {
+  "directional.py": "d495d982cdc833aa",
+  "estimands.py": "9602b81d549a9847",
+  "homology.py": "6938977067d03a2c",
+  "nulls.py": "6f193b3d663c550d",
+  "pairs.py": "642c9b09a648492f"
+ },
+ "written_utc": "2026-10-30T14:32:58Z",
+ "stage": "directional",
+ "tau": 0.3,
+ "sogs_dir": "<repo>/results/sogs/20261030T085136Z/O1_r2/sensitivity_tau0.3",
+ "sites_in_multispecies_sogs": 1054823,
+ "sog_sites_without_tree_leaf": 0,
+ "orientations_with_sog": 3797518,
+ "orientations_testable": 2738140,
+ "null_ortholog_n": 237217,
+ "null_random_n": 296333,
+ "null_ortholog_mean_sd_q95": [
+  0.2213653031874591,
+  0.5878010837271518,
+  1.2707943201065064
+ ],
+ "null_random_mean_sd_q95": [
+  0.003105946955700479,
+  0.4337515525856609,
+  0.71508992910385
+ ],
+ "q95_threshold": 1.2707943201065064,
+ "selected_orientations": 2230123,
+ "delta_tested_mean_sd_q50_q95_q99": [
+  0.2028329391400577,
+  0.5519761837289382,
+  0.15071702003479004,
+  1.180914658308029,
+  1.87041670322418
+ ],
+ "frac_selected_and_delta_gt_q95": 0.04035001862578247,
+ "sensitivity_random_null_only": {
+  "q95": 0.71508992910385,
+  "passing_orientations": 13409
+ },
+ "testable_pairs": 2344759,
+ "testable_frac_of_tested_classes": 0.4591136375073108,
+ "passing_pairs": 2,
+ "primary_passes_artifact_like": 2,
+ "primary_passes_flags": {
+  "flag_small_volume": 1,
+  "flag_volume_ratio": 1,
+  "flag_low_plddt": 1,
+  "flag_small_footprint": 0,
+  "flag_few_residues": 1,
+  "flag_low_burrow": 2
+ },
+ "all_listed_artifact_like_frac": 0.813632634797524,
+ "wall_s": 246.89765095710754
+}

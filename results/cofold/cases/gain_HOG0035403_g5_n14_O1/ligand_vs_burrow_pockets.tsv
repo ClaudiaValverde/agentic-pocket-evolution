@@ -1,0 +1,7 @@
+case	acc	state	n_lig_atoms	ligand_site_n	footprint_n	ligand_site_fp_overlap	n_pockets	ligand_pocket_id	ligand_pocket_rank	ligand_pocket_recall	ligand_pocket_precision	footprint_pocket_id	footprint_pocket_rank	footprint_pocket_recall	footprint_detected	same_pocket
+gain_HOG0035403_g5_n14_O1	I1KY39	ancestral	9	7	11	0	8	I1KY39_protein_only:m0	1	1.0	0.143	I1KY39_protein_only:m0	1	0.0	False	False
+gain_HOG0035403_g5_n14_O1	K7MR36	ancestral	9	7	11	0	6	K7MR36_protein_only:m0	1	1.0	0.368	K7MR36_protein_only:m14	34	1.0	True	False
+gain_HOG0035403_g5_n14_O1	Q0P7U8	ancestral	9	7	11	0	5	Q0P7U8_protein_only:m0	1	1.0	0.5	Q0P7U8_protein_only:m0	1	0.0	False	False
+gain_HOG0035403_g5_n14_O1	A0A0H3GQA5	derived	9	7	11	0	4	A0A0H3GQA5_protein_only:m0	1	1.0	0.5	A0A0H3GQA5_protein_only:m0	1	0.0	False	False
+gain_HOG0035403_g5_n14_O1	O68883	derived	9	7	11	0	4	O68883_protein_only:m0	1	1.0	0.389	O68883_protein_only:m0	1	0.0	False	False
+gain_HOG0035403_g5_n14_O1	Q32IL1	derived	9	7	11	0	4	Q32IL1_protein_only:m0	1	1.0	0.189	Q32IL1_protein_only:m0	1	0.0	False	False

@@ -1,0 +1,12 @@
+{
+ "snapshot_id": "20261030T085136Z",
+ "prereg_sha256": "52f9461890984c210b730af86c40de221307a668e7d4b38098b3316059690d83",
+ "git_commit": "3f11d4c7fd0ceb248d8cd72bc59ce8209f1f272d",
+ "seed": 0,
+ "code_version": "3f11d4c7fd0ceb248d8cd72bc59ce8209f1f272d",
+ "annotations_available": {
+  "uniprot": true,
+  "biolip": true
+ },
+ "orthology_version": "O2_r1"
+}

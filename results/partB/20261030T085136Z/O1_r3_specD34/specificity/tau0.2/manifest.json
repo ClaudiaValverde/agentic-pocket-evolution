@@ -1,0 +1,26 @@
+{
+ "sogs_total": 260991,
+ "noise_floor": 0.3942247420549391,
+ "noise_floor_n": 1798,
+ "after_D8_flags": 254396,
+ "eligible_ge3P_ge2species": 84905,
+ "fingerprint_rows": 791053,
+ "fingerprint_duplicate_keys": 0,
+ "PW_members_without_fingerprint": 0,
+ "n_pairs": 222489,
+ "runtime_s": 179.84331440925598,
+ "alpha": 0.05,
+ "permutation_n": 10000,
+ "prereg_sha256": "52f9461890984c210b730af86c40de221307a668e7d4b38098b3316059690d83",
+ "release": "O1_r3",
+ "tau": 0.2,
+ "run_id": "O1_r3_specD34",
+ "orthology": "O1",
+ "states_glob": "/tmp/pe_big/sogs/20261030T085136Z/O1_r3/states_t0.2/shard=*.parquet",
+ "fp_glob": [
+  "/tmp/pe_big/sites/20261030T085136Z/site_fp/tier1/*.parquet"
+ ],
+ "orthoxml": "<repo>/data/orthology/ancestra_tier1_v0/accurate/hogs.orthoxml.gz",
+ "guide": "<repo>/data/orthology/ancestra_tier1_v0/tier1_guide_tree.nwk",
+ "n_null_seeds": 3
+}

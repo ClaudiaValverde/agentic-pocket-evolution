@@ -1,0 +1,33 @@
+{
+ "salt_hex": "759a7a2dd82b1bde50171e9e86308058",
+ "map": {
+  "6ef89a774e07": {
+   "member": "human_CDK2",
+   "acc": "P24941",
+   "state": "derived",
+   "ligand_kind": "cognate",
+   "ligands": "ATP+MG"
+  },
+  "fa336ca4b92d": {
+   "member": "human_CDK2",
+   "acc": "P24941",
+   "state": "derived",
+   "ligand_kind": "decoy1",
+   "ligands": "CFF+MG"
+  },
+  "cdbaa262399b": {
+   "member": "CDK2_site_gly",
+   "acc": "P24941",
+   "state": "ancestral",
+   "ligand_kind": "cognate",
+   "ligands": "ATP+MG"
+  },
+  "13425178967c": {
+   "member": "CDK2_site_gly",
+   "acc": "P24941",
+   "state": "ancestral",
+   "ligand_kind": "decoy1",
+   "ligands": "CFF+MG"
+  }
+ }
+}

@@ -1,0 +1,21 @@
+job	residues	tokens	n_seeds	first_seed_s	later_seed_s	featurise_s	wall_s	peak_gpu_mib	rc	oom
+ca2_zn_azm	260	274	3	21.75	16.8	8.0	77.1	4552	0	False
+ca2_zn_azmsmiles	260	274	3	21.64	16.7	7.9	77.1	4552	0	False
+ca2_zn_decoy_atp	260	292	3	21.9	16.8	8.3	78.5	4552	0	False
+ca2_zn_decoy_cff	260	275	3	23.07	17.2	8.6	84.3	4552	0	False
+cdk2_atp_mg	298	330	3	20.65	16.7	10.6	79.5	4552	0	False
+cdk2_atp_mg_notmpl	298	330	3	20.62	16.9	10.5	78.8	4552	0	False
+cdk2_atp_s1_cold	298	330	1	47.43		3.8				False
+cdk2_decoy_azm	298	311	3	20.66	16.8	10.2	79.6	4552	0	False
+cdk2_decoy_cff	298	312	3	21.38	17.2	13.5	87.3	4552	0	False
+mem_pyglx2_prealloc	847	1726	1	316.11		15.7	351.9	23324	0	False
+mem_pyglx2_unified	847	1726	1	318.99		15.9	353.3	15808	0	False
+mem_pyglx3_prealloc			0			22.9	152.0	23296	1	True
+mem_pyglx3_unified	847	2589	1	1086.81		22.4	1141.3	24080	0	False
+pygl_plp	847	863	3	109.26	78.8	22.6	312.2	8650	0	False
+scale_cdk2x4_atp	298	1223	2	160.68	124.5	26.2	329.3	16842	0	False
+scale_cdk2x5_atp	298	1521	2	213.15	179.8	30.3	442.2	16842	0	False
+scale_pyglx2_plp			0			30.0	105.8	16816	1	True
+scale_pyglx3_plp			0			43.8	168.3	18488	1	True
+yADH1_decoy_cff	348	364	3	20.82	16.7	10.7	81.0	4552	0	False
+yADH1_nad_zn	348	394	3	54.92	25.1	11.4	131.7	4554	0	False

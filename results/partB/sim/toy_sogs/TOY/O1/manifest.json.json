@@ -1,0 +1,10 @@
+{
+ "output": "manifest.json",
+ "snapshot_id": "TOY",
+ "prereg_sha256": "52f9461890984c210b730af86c40de221307a668e7d4b38098b3316059690d83",
+ "git_commit": "c325bfaa7a9194de66f2a0ea399de80df7e50d82+dirty",
+ "seed": 0,
+ "created_utc": "2026-10-30T10:10:42Z",
+ "sha256": "76f918a65b2dc31baf13314ac8c7616cfa3b8757163e407df40851920ca871d6",
+ "script": "scripts/partB/make_toy_sogs.py"
+}

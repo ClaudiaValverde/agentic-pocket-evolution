@@ -1,0 +1,119 @@
+{
+ "orthoxml": "/tmp/pe_big/ancestra/run_t1/hogs.orthoxml",
+ "tree": "/tmp/pe_big/ancestra/run_t1/stages/input/guide_tree.nwk",
+ "checks": {
+  "xsd": {
+   "ok": true,
+   "errors": []
+  },
+  "generef_integrity": {
+   "ok": true,
+   "n_genes_declared": 557396,
+   "n_generefs": 451629,
+   "n_groups": 298667,
+   "dup_gene_ids": [],
+   "dup_protids": [],
+   "dangling_generefs": [],
+   "dup_group_ids": []
+  },
+  "genes_once": {
+   "n_genes_in_groups": 451629,
+   "n_singletons": 105767,
+   "n_genes_referenced_more_than_once": 0,
+   "examples": [],
+   "gene_table": "/tmp/pe_big/ancestra/run_t1/stages/input/genes.tsv",
+   "n_input_genes": 557396,
+   "n_missing": 0,
+   "n_extra": 0,
+   "n_wrong_species": 0,
+   "examples_missing": [],
+   "examples_extra": [],
+   "examples_wrong_species": [],
+   "ok": true
+  },
+  "taxrange_lca": {
+   "ok": true,
+   "n_orthologGroups": 226941,
+   "n_paralogGroups": 71726,
+   "n_taxrange_ne_lca": 0,
+   "examples_taxrange_ne_lca": [],
+   "n_taxonid_ne_taxrange": 0,
+   "examples_taxonid": [],
+   "n_nesting_violations": 0,
+   "examples_nesting": [],
+   "n_paralog_level_violations": 0,
+   "examples_paralog": [],
+   "n_unknown_levels": 0,
+   "examples_unknown": [],
+   "orthologGroups_per_level": {
+    "Murinae": 18606,
+    "Poaceae": 17878,
+    "Euarchontoglires": 17516,
+    "rosids": 14101,
+    "Euteleostomi": 13874,
+    "Mesangiospermae": 12968,
+    "Onchocercidae": 9530,
+    "Herpotrichiellaceae": 8835,
+    "Rhabditida": 8439,
+    "Spirurina": 7275,
+    "leotiomyceta": 6648,
+    "Trypanosoma": 6461,
+    "Bilateria": 6382,
+    "Ajellomycetaceae": 6311,
+    "Eurotiomycetes": 6153,
+    "Trypanosomatidae": 6068,
+    "Eukaryota": 5996,
+    "Sordariomycetidae": 5857,
+    "Ecdysozoa": 4829,
+    "Nematoda": 4762,
+    "Protostomia": 4269,
+    "Enterobacteriaceae": 4181,
+    "Saccharomycotina": 3704,
+    "saccharomyceta": 3644,
+    "Ascomycota": 3524,
+    "Opisthokonta": 3099,
+    "Gammaproteobacteria": 2914,
+    "cellular organisms": 2392,
+    "Mycobacteriales": 2378,
+    "Bacteria": 1802,
+    "Mycobacterium": 1424,
+    "Pseudomonadota": 1252,
+    "Pseudomonadati": 1036,
+    "Bacillati": 1033,
+    "Bacilli": 931,
+    "Campylobacterales": 869
+   }
+  },
+  "pairs_count": {
+   "ok": true,
+   "n_pairs_hogs": 6535284,
+   "n_lines_pairs_tsv": 6535284
+  },
+  "flattening_vs_qfo": {
+   "ok": true,
+   "skipped": "QfO map_relations.py not found in <repo>/external/ancestra-mvp-ai/data/qfo/benchmark-webservice (set QFO_BENCHMARK_DIR)"
+  },
+  "pyham": {
+   "ok": true,
+   "n_top_level_hogs_pyham": 37437,
+   "n_expected": 37437,
+   "n_genes": 451629,
+   "load_s": 9.2,
+   "mode": "full"
+  },
+  "orthobench_export": {
+   "ok": true,
+   "skipped": "Open_Orthobench benchmark.py not found in <repo>/external/ancestra-mvp-ai/data/orthobench/Open_Orthobench/BENCHMARKS (set ORTHOBENCH_DIR)"
+  }
+ },
+ "timing_s": {
+  "xsd": 3.8,
+  "generef_integrity": 3.9,
+  "genes_once": 3.9,
+  "read_orthoxml": 6.9,
+  "taxrange_lca": 2.4,
+  "pairs_count": 2.4,
+  "pyham": 16.7
+ },
+ "ok": true
+}

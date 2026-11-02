@@ -1,0 +1,11 @@
+panel	protein	role	ligand	cognate	construct	n_site	lig_plddt	pae_min	centroid	site_recall	d23_binds	n_seeds_binding	pb_valid
+steroid_receptor	MR_P08235	promiscuous	aldosterone	True	TED:736-977(242aa,cov12/12)	12	98.2	0.8	0.51	1.0	True	3	True
+steroid_receptor	MR_P08235	promiscuous	cortisol	True	TED:736-977(242aa,cov12/12)	12	98.5	0.8	0.5	1.0	True	3	True
+steroid_receptor	GR_P04150	cortisol-selective	aldosterone	False	TED:531-770(240aa,cov11/11)	11	94.6	0.84	1.31	1.0	True	3	True
+steroid_receptor	GR_P04150	cortisol-selective	cortisol	True	TED:531-770(240aa,cov11/11)	11	97.7	0.8	1.39	1.0	True	3	True
+ldh_mdh	PfLDH_Q76NM3	LDH (derived)	pyruvate	True	full_length	16	97.3	0.83	9.79	0.31	False	0	False
+ldh_mdh	PfLDH_Q76NM3	LDH (derived)	oxaloacetate	False	full_length	16	95.7	0.87	9.82	0.31	False	0	False
+ldh_mdh	MDH1_P40925	MDH (ancestral)	pyruvate	False	full_length	6	94.8	0.84	11.38	0.17	False	0	False
+ldh_mdh	MDH1_P40925	MDH (ancestral)	oxaloacetate	True	full_length	6	97.1	0.81	12.07	0.33	False	0	False
+ldh_mdh	LDHA_P00338	LDH (gate)	pyruvate	True	full_length	19	97.2	0.84	1.28	1.0	True	3	False
+ldh_mdh	LDHA_P00338	LDH (gate)	oxaloacetate	False	full_length	19	96.0	0.86	1.25	1.0	True	3	False

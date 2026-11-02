@@ -1,0 +1,22 @@
+{
+ "output": "recall_by_clade.csv",
+ "snapshot_id": "20261030T085136Z",
+ "prereg_sha256": "52f9461890984c210b730af86c40de221307a668e7d4b38098b3316059690d83",
+ "git_commit": "4fe605fdcf95684bb4ce347ceb7be9908bd1b964+dirty",
+ "seed": 0,
+ "created_utc": "2026-10-30T11:47:56Z",
+ "sha256": "af4f8e5186b5f2ea4be4232e65d4da3c57c235f98813e6c379cda34f1cd6c561",
+ "script": "scripts/partB/run_sim.py",
+ "argv": [
+  "--n-trees",
+  "30000",
+  "--reps",
+  "30",
+  "--heterogeneity",
+  "0",
+  "--noise-json",
+  "results/partB/sim/measured/noise_primary_known_gt10.json",
+  "--out",
+  "results/partB/sim/measured/d11_primary_known_gt10"
+ ]
+}

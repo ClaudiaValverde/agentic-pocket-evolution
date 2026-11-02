@@ -1,0 +1,14 @@
+{
+ "output": "duplication_gains_exploratory.parquet",
+ "snapshot_id": "20261030T085136Z",
+ "prereg_sha256": "52f9461890984c210b730af86c40de221307a668e7d4b38098b3316059690d83",
+ "git_commit": "5cd4fd2f967a3673db5ac7fead77b9237bf64853+dirty",
+ "seed": 0,
+ "created_utc": "2026-10-30T16:06:16Z",
+ "sha256": "fa551c1ce73b861c0db98c3a11bd1862ab5984db7e66807c83fb82b76ff53d29",
+ "script": "scripts/partB/dup_gain_test.py",
+ "argv": [
+  "--sog-run",
+  "O2_r1"
+ ]
+}

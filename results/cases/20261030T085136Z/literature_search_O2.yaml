@@ -1,0 +1,22 @@
+# D25b/D28 post-hoc literature search on O2 candidates (2026-10-30 ~16:10-16:20 CET), top-10 eligible gains and
+# 7 eligible losses by S of a pre-final O2 build (events-level candidates). Searcher: general-purpose agent af6e95a0;
+# reviewer: M4 case-builder agent. No item passed review, so no O2 manual.yaml was written.
+review:
+  loss_HOG0007447_g6_n10_O2:
+    proposed_about_change: [22603794, 33561247]
+    review_ok: false
+    reason: >-
+      Both papers concern the ABSENT side (E. coli RecC Chi tunnel mutagenesis; Chi-motif genomics). A loss needs
+      binding on the present side and no site on the absent side. A functional ssDNA site in E. coli RecC argues
+      against a loss. The O1 search on the same family (loss_HOG0033853) found that the footprint lies next to the
+      Chi site (6SJB contacts), not in it.
+  loss_HOG0004658_g9_n19_O2: {items: [31098021], note: "holo FhuE-coprogen structure on the absent side contradicts a functional loss"}
+  gain_HOG0057094_g6_n7_O2: {items: [12429089, 23688113], about_change: false, note: "CbiT holo SAM structures; absent side unrelated MTase family"}
+  gain_HOG0004330_g5_n4_O2: {items: [15157101], about_change: false}
+  gain_HOG0034532_g4_n8_O2: {items: [19340074], about_change: false}
+  gain_HOG0047083_g6_n4_O2: {items: [38593795], about_change: false}
+  loss_HOG0054672_g3_n40_O2: {items: [22571434], about_change: false, note: "computational only"}
+family_audit_by_searcher:
+  orthology_artifact: [gain_HOG0047083_g6_n4_O2, gain_HOG0057094_g6_n7_O2, gain_HOG0053806_g5_n9_O2, gain_HOG0006749_g0_n9_O2, loss_HOG0047105_g8_n179_O2]
+  paralogous_subfamilies: [gain_HOG0049988_g8_n76_O2, gain_HOG0050569_g8_n29_O2, loss_HOG0054672_g3_n40_O2]
+  automatic_orthology_side_family_check: "fails the first 4 of the 5 orthology artifacts; loss_HOG0047105 passes because one present-side protein shares PTHR43490 with the absent side"

@@ -1,0 +1,12 @@
+{
+ "annotated_sites": 19081,
+ "ccd_fp_fail": 109,
+ "n_ccd": 26688,
+ "train_accessions": 1943,
+ "control_resolved_classes": {
+  "N": 29941,
+  "H4": 36,
+  "H3s": 8
+ },
+ "wall_s": 45.533888816833496
+}

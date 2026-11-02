@@ -1,0 +1,33 @@
+{
+ "output": "funnel.csv",
+ "snapshot_id": "20261030T085136Z",
+ "prereg_sha256": "52f9461890984c210b730af86c40de221307a668e7d4b38098b3316059690d83",
+ "git_commit": "de08948e491d569b316bd91b1d2bc2927adecdbd+dirty",
+ "seed": 0,
+ "created_utc": "2026-10-30T13:59:51Z",
+ "sha256": "b4b6ed3196b8e73bfd7c6cc74e6c84c8f119753a30ecf5e5943d25cb4393ce56",
+ "script": "scripts/partB/run_events.py",
+ "argv": [
+  "--sogs",
+  "results/sogs/20261030T085136Z/O1_r3/web",
+  "--orthology",
+  "O1",
+  "--snapshot",
+  "20261030T085136Z",
+  "--states-glob",
+  "/tmp/pe_big/sogs/20261030T085136Z/O1_r3/states_t0.2/shard=*.parquet",
+  "--state-col",
+  "state",
+  "--sog-meta",
+  "results/sogs/20261030T085136Z/O1_r3/sogs_all_tau.parquet",
+  "--tau",
+  "0.2",
+  "--thresholds",
+  "results/partB/sim/measured/d11_primary_known_gt10/thresholds.json",
+  "--prefilter",
+  "--stratum",
+  "primary",
+  "--out",
+  "results/partB/events/20261030T085136Z/O1_r3/tau0.2/primary"
+ ]
+}

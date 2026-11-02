@@ -1,0 +1,13 @@
+{
+ "schema": "sogs-web-v1",
+ "snapshot": "20261030T085136Z",
+ "orthology": "O2",
+ "tau": 0.3,
+ "created_utc": "2026-10-30T13:18:45.627280+00:00",
+ "code_sha256": "92a11d70aada8c7b7a52bf4dec76884f7de6290c",
+ "toy": false,
+ "prereg_sha256": "52f9461890984c210b730af86c40de221307a668e7d4b38098b3316059690d83",
+ "git_commit": "92a11d70aada8c7b7a52bf4dec76884f7de6290c",
+ "seed": 0,
+ "orthology_dir": "data/orthology/ancestra_O2/accurate"
+}

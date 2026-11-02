@@ -1,0 +1,7 @@
+case	acc	state	n_lig_atoms	ligand_site_n	footprint_n	ligand_site_fp_overlap	n_pockets	ligand_pocket_id	ligand_pocket_rank	ligand_pocket_recall	ligand_pocket_precision	footprint_pocket_id	footprint_pocket_rank	footprint_pocket_recall	footprint_detected	same_pocket
+gain_HOG0035156_g10_n21_O1	A0A175VRB1	ancestral	9	13	13	0	6	A0A175VRB1_protein_only:m1	2	0.923	0.222	A0A175VRB1_protein_only:m0	1	0.0	False	False
+gain_HOG0035156_g10_n21_O1	C0NIW4	ancestral	9	13	13	0	8	C0NIW4_protein_only:m1	2	1.0	0.65	C0NIW4_protein_only:m18	41	0.077	False	False
+gain_HOG0035156_g10_n21_O1	P05694	ancestral	9	13	13	0	8	P05694_protein_only:m2	3	0.923	0.222	P05694_protein_only:m1	2	0.0	False	False
+gain_HOG0035156_g10_n21_O1	K0F3I3	derived	9	13	10	0	12	K0F3I3_protein_only:m1	2	0.923	0.667	K0F3I3_protein_only:m2	3	1.0	True	False
+gain_HOG0035156_g10_n21_O1	O05564	derived	9	13	13	0	8	O05564_protein_only:m1	2	0.923	0.185	O05564_protein_only:m3	6	0.923	True	False
+gain_HOG0035156_g10_n21_O1	P9WK07	derived	9	12	13	0	6	P9WK07_protein_only:m1	2	0.917	0.08	P9WK07_protein_only:m2	5	0.846	True	False

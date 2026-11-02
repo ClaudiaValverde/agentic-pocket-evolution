@@ -1,0 +1,10 @@
+{
+ "output": "toy_eval.json",
+ "snapshot_id": "TOY",
+ "prereg_sha256": "52f9461890984c210b730af86c40de221307a668e7d4b38098b3316059690d83",
+ "git_commit": "cbe924346b0adeee1359ea8d7fae54ac6bedf5e0+dirty",
+ "seed": 0,
+ "created_utc": "2026-10-30T10:41:15Z",
+ "sha256": "75ec707124c20b879d667f92d98d361800c5404a9c841e80ffaf0be2d7bafdcf",
+ "script": "scripts/partB/eval_toy.py"
+}

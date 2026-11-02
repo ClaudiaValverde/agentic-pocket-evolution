@@ -1,0 +1,226 @@
+{
+ "f1": {
+  "status": "pass",
+  "n_species_change": 4,
+  "clade_purity": 1.0,
+  "lca_purity": 0.267,
+  "single_event": true,
+  "n_out_support": 29,
+  "shape": "scattered",
+  "detail": "P in 4 derived species (purity 1.00 of informative derived members; 0.27 over all members under the species-tree LCA: scattered); single tree-consistent event: True; outgroup support: A in 29 outgroup species"
+ },
+ "f2": {
+  "status": "fail",
+  "strength": "none",
+  "about_change": false,
+  "detail": "no experimental evidence at the footprint",
+  "present": {
+   "n_members_with_evidence": 0,
+   "n_biolip": 0,
+   "n_uniprot_exp": 0,
+   "n_mcsa_ref": 0,
+   "pdb_ids": [],
+   "ligands": [],
+   "ligand_tokens": []
+  },
+  "absent": {
+   "n_members_with_evidence": 0,
+   "n_biolip": 0,
+   "n_uniprot_exp": 0,
+   "n_mcsa_ref": 0,
+   "pdb_ids": [],
+   "ligands": [],
+   "ligand_tokens": []
+  },
+  "chembl_present_proteins": 0,
+  "chembl_absent_proteins": 1,
+  "n_members_numbering_unverified": 143,
+  "n_hits_excluded_tau_tuning": 0,
+  "sensitivity_og_wide_exclusion": {
+   "status": "fail",
+   "n_hits_excluded": 0
+  }
+ },
+ "f3": {
+  "status": "fail",
+  "passing": [],
+  "detail": "conservation: fail (0/12 footprint columns clade-specific (rate 0.00 vs background 0.22); derived conservation 0.53, outgroup identity to derived majority 0.13); rescue_consistency: na (no rescue run for present-side members); source_consistency: na (no present-side member in the v6/v4 re-detection sample); cofolding: pending (placeholder; filled by the co-folding agent)"
+ },
+ "lines": {
+  "conservation": {
+   "status": "fail",
+   "n_specific": 0,
+   "n_fp_cols": 12,
+   "rate_fp": 0.0,
+   "rate_bg": 0.221,
+   "mean_cons_derived": 0.528,
+   "mean_identity_out": 0.133,
+   "detail": "0/12 footprint columns clade-specific (rate 0.00 vs background 0.22); derived conservation 0.53, outgroup identity to derived majority 0.13"
+  },
+  "rescue_consistency": {
+   "status": "na",
+   "detail": "no rescue run for present-side members"
+  },
+  "source_consistency": {
+   "status": "na",
+   "detail": "no present-side member in the v6/v4 re-detection sample"
+  },
+  "cofolding": {
+   "status": "pending",
+   "detail": "placeholder; filled by the co-folding agent"
+  }
+ },
+ "identifier_checks": {
+  "pdb": {},
+  "uniprot": {
+   "A0A061FIW5": {
+    "resolved": true,
+    "title": "",
+    "organism": "Theobroma cacao",
+    "retrieved_utc": "2026-10-30T16:19:25Z"
+   },
+   "A0A061FRB0": {
+    "resolved": true,
+    "title": "",
+    "organism": "Theobroma cacao",
+    "retrieved_utc": "2026-10-30T16:19:25Z"
+   },
+   "A0A061GV59": {
+    "resolved": true,
+    "title": "ethanolamine kinase",
+    "organism": "Theobroma cacao",
+    "retrieved_utc": "2026-10-30T16:09:42Z"
+   },
+   "A0A077Z6S1": {
+    "resolved": true,
+    "title": "",
+    "organism": "Trichuris trichiura",
+    "retrieved_utc": "2026-10-30T16:09:42Z"
+   },
+   "A0A0D2GSF7": {
+    "resolved": true,
+    "title": "Choline kinase N-terminal domain-containing protein",
+    "organism": "Fonsecaea pedrosoi CBS 271.37",
+    "retrieved_utc": "2026-10-30T16:19:25Z"
+   },
+   "A0A0D2HN09": {
+    "resolved": true,
+    "title": "ethanolamine kinase",
+    "organism": "Fonsecaea pedrosoi CBS 271.37",
+    "retrieved_utc": "2026-10-30T16:19:25Z"
+   },
+   "A0A0G4IUZ4": {
+    "resolved": true,
+    "title": "Aminoglycoside phosphotransferase domain-containing protein",
+    "organism": "Plasmodiophora brassicae",
+    "retrieved_utc": "2026-10-30T16:19:25Z"
+   },
+   "A0A0G4IVV2": {
+    "resolved": true,
+    "title": "Aminoglycoside phosphotransferase domain-containing protein",
+    "organism": "Plasmodiophora brassicae",
+    "retrieved_utc": "2026-10-30T16:19:25Z"
+   },
+   "A0A0G4IWM5": {
+    "resolved": true,
+    "title": "ethanolamine kinase",
+    "organism": "Plasmodiophora brassicae",
+    "retrieved_utc": "2026-10-30T16:19:25Z"
+   },
+   "A0A0I9N741": {
+    "resolved": true,
+    "title": "",
+    "organism": "Brugia malayi",
+    "retrieved_utc": "2026-10-30T16:09:43Z"
+   },
+   "A0A0K0DYR8": {
+    "resolved": true,
+    "title": "",
+    "organism": "Strongyloides stercoralis",
+    "retrieved_utc": "2026-10-30T16:19:25Z"
+   },
+   "A0A0K0ES68": {
+    "resolved": true,
+    "title": "",
+    "organism": "Strongyloides stercoralis",
+    "retrieved_utc": "2026-10-30T16:19:26Z"
+   },
+   "A0A0K0ESG5": {
+    "resolved": true,
+    "title": "",
+    "organism": "Strongyloides stercoralis",
+    "retrieved_utc": "2026-10-30T16:19:26Z"
+   },
+   "A0A0K0ESG6": {
+    "resolved": true,
+    "title": "",
+    "organism": "Strongyloides stercoralis",
+    "retrieved_utc": "2026-10-30T16:09:43Z"
+   },
+   "A0A0N4U4Z0": {
+    "resolved": null,
+    "error": "http error"
+   },
+   "A0A0N4U4Z1": {
+    "resolved": true,
+    "title": "",
+    "organism": "Dracunculus medinensis",
+    "retrieved_utc": "2026-10-30T16:19:27Z"
+   },
+   "A0A0N4U599": {
+    "resolved": true,
+    "title": "CHK domain-containing protein",
+    "organism": "Dracunculus medinensis",
+    "retrieved_utc": "2026-10-30T16:09:43Z"
+   },
+   "A0A0N4U9D5": {
+    "resolved": true,
+    "title": "ethanolamine kinase",
+    "organism": "Dracunculus medinensis",
+    "retrieved_utc": "2026-10-30T16:19:27Z"
+   },
+   "A0A0N4UFV7": {
+    "resolved": true,
+    "title": "7TM_GPCR_Srx domain-containing protein",
+    "organism": "Dracunculus medinensis",
+    "retrieved_utc": "2026-10-30T16:09:43Z"
+   },
+   "A0A0P0XM67": {
+    "resolved": true,
+    "title": "ethanolamine kinase",
+    "organism": "Oryza sativa subsp. japonica",
+    "retrieved_utc": "2026-10-30T16:19:27Z"
+   },
+   "A0A0R0JRE3": {
+    "resolved": true,
+    "title": "ethanolamine kinase",
+    "organism": "Glycine max",
+    "retrieved_utc": "2026-10-30T16:19:27Z"
+   },
+   "A0A0R0L9B1": {
+    "resolved": true,
+    "title": "Choline kinase N-terminal domain-containing protein",
+    "organism": "Glycine max",
+    "retrieved_utc": "2026-10-30T16:19:27Z"
+   },
+   "A0A0V1DIR0": {
+    "resolved": true,
+    "title": "",
+    "organism": "Trichinella britovi",
+    "retrieved_utc": "2026-10-30T16:19:28Z"
+   },
+   "A0A158Q4N0": {
+    "resolved": true,
+    "title": "",
+    "organism": "Dracunculus medinensis",
+    "retrieved_utc": "2026-10-30T16:09:43Z"
+   },
+   "A0A162N4D5": {
+    "resolved": true,
+    "title": "ethanolamine kinase",
+    "organism": "Phycomyces blakesleeanus (strain ATCC 8743b / DSM 1359 / FGSC 10004 / NBRC 33097 / NRRL 1555)",
+    "retrieved_utc": "2026-10-30T16:19:28Z"
+   }
+  }
+ }
+}

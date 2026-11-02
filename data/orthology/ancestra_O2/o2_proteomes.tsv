@@ -1,0 +1,158 @@
+set	proteome	taxid	species	file	md5	n_proteins
+tier1	UP000078237	100816	Madurella mycetomatis	/tmp/pe_big/ancestra/tier1_fa/UP000078237_100816.fasta.gz	a1991f5b31aeb631d6bf0c4d9d7ed837	9733
+tier1	UP000000589	10090	Mus musculus	/tmp/pe_big/ancestra/tier1_fa/UP000000589_10090.fasta.gz	39894aa0f64d600ede8d4e86968d454e	21860
+tier1	UP000002494	10116	Rattus norvegicus	/tmp/pe_big/ancestra/tier1_fa/UP000002494_10116.fasta.gz	60fb1d76aeb5cf5deada77c2b83c62c2	21471
+tier1	UP000007841	1125630	Klebsiella pneumoniae subsp. pneumoniae (strain HS11286)	/tmp/pe_big/ancestra/tier1_fa/UP000007841_1125630.fasta.gz	8783e93c2e4fa6925b7af0e5c9d1583f	5728
+tier1	UP000006304	1133849	Nocardia brasiliensis (strain ATCC 700358 / HUJEG-1)	/tmp/pe_big/ancestra/tier1_fa/UP000006304_1133849.fasta.gz	5dca6bdac6892b0fd7812a66d57c41db	8414
+tier1	UP000018087	1391915	Sporothrix schenckii (strain ATCC 58251 / de Perez 2211183)	/tmp/pe_big/ancestra/tier1_fa/UP000018087_1391915.fasta.gz	6f20246e14a8cfc44cf83783ff162b54	8673
+tier1	UP000053029	1442368	Fonsecaea pedrosoi CBS 271.37	/tmp/pe_big/ancestra/tier1_fa/UP000053029_1442368.fasta.gz	3fea3f927f48181d3ccf83abeab1a43d	12525
+tier1	UP000000586	171101	Streptococcus pneumoniae (strain ATCC BAA-255 / R6)	/tmp/pe_big/ancestra/tier1_fa/UP000000586_171101.fasta.gz	2c85ead98c778d892ed33bbef4434762	2031
+tier1	UP000008524	185431	Trypanosoma brucei brucei (strain 927/4 GUTat10.1)	/tmp/pe_big/ancestra/tier1_fa/UP000008524_185431.fasta.gz	5a8ff34287c2aeea8999f23b5981585b	8561
+tier1	UP000000799	192222	Campylobacter jejuni subsp. jejuni serotype O:2 (strain ATCC 700819 / NCTC 11168)	/tmp/pe_big/ancestra/tier1_fa/UP000000799_192222.fasta.gz	c9fa5e36d88a7696fcfef663d3431707	1623
+tier1	UP000002438	208964	Pseudomonas aeruginosa (strain ATCC 15692 / DSM 22644 / CIP 104116 / JCM 14847 / LMG 12228 / 1C / PRS 101 / PAO1)	/tmp/pe_big/ancestra/tier1_fa/UP000002438_208964.fasta.gz	81bcbe47fe6961563cfe1b9a46b00d8b	5563
+tier1	UP000000559	237561	Candida albicans (strain SC5314 / ATCC MYA-2876)	/tmp/pe_big/ancestra/tier1_fa/UP000000559_237561.fasta.gz	cc807894ca02799f7c0d8227ae0969d6	6040
+tier1	UP000000535	242231	Neisseria gonorrhoeae (strain ATCC 700825 / FA 1090)	/tmp/pe_big/ancestra/tier1_fa/UP000000535_242231.fasta.gz	0007b4e2f28edb1f0d51d1ca16ef4819	2106
+tier1	UP000000805	243232	Methanocaldococcus jannaschii (strain ATCC 43067 / DSM 2661 / JAL-1 / JCM 10045 / NBRC 100440)	/tmp/pe_big/ancestra/tier1_fa/UP000000805_243232.fasta.gz	c2fe15a58f16765837a1c23dae920eff	1786
+tier1	UP000000806	272631	Mycobacterium leprae (strain TN)	/tmp/pe_big/ancestra/tier1_fa/UP000000806_272631.fasta.gz	fb256426e9afa613e88f3883369126ed	1603
+tier1	UP000002485	284812	Schizosaccharomyces pombe (strain 972 / ATCC 24843)	/tmp/pe_big/ancestra/tier1_fa/UP000002485_284812.fasta.gz	c0f3541067c12a6b552c4ee91dddafdc	5129
+tier1	UP000002716	300267	Shigella dysenteriae serotype 1 (strain Sd197)	/tmp/pe_big/ancestra/tier1_fa/UP000002716_300267.fasta.gz	3033f2d3d3549fd62dd4495e1ef99950	3897
+tier1	UP000274756	318479	Dracunculus medinensis	/tmp/pe_big/ancestra/tier1_fa/UP000274756_318479.fasta.gz	e3ddd49fa2275695981560ffa6aab56f	10868
+tier1	UP000002296	353153	Trypanosoma cruzi (strain CL Brener)	/tmp/pe_big/ancestra/tier1_fa/UP000002296_353153.fasta.gz	2aec9ff86d640dad3adab9a70c3b448b	19242
+tier1	UP000030665	36087	Trichuris trichiura	/tmp/pe_big/ancestra/tier1_fa/UP000030665_36087.fasta.gz	a9bac34137f1ec1425aaeeb78a6f6eb4	9624
+tier1	UP000001450	36329	Plasmodium falciparum (isolate 3D7)	/tmp/pe_big/ancestra/tier1_fa/UP000001450_36329.fasta.gz	8b6aadce22f5dc17dcba7d01daba7c74	5361
+tier1	UP000006548	3702	Arabidopsis thaliana	/tmp/pe_big/ancestra/tier1_fa/UP000006548_3702.fasta.gz	7e272b3224147a628114632b55f63fa4	27496
+tier1	UP000008827	3847	Glycine max	/tmp/pe_big/ancestra/tier1_fa/UP000008827_3847.fasta.gz	744a71e820fa1ccf9f333c69583b1532	55852
+tier1	UP000059680	39947	Oryza sativa subsp. japonica	/tmp/pe_big/ancestra/tier1_fa/UP000059680_39947.fasta.gz	2effd110ab5298ba541dfd7067bb96ab	43678
+tier1	UP000002195	44689	Dictyostelium discoideum	/tmp/pe_big/ancestra/tier1_fa/UP000002195_44689.fasta.gz	88db1194a29308819ac26b3d78651760	12718
+tier1	UP000001631	447093	Ajellomyces capsulatus (strain G186AR / H82 / ATCC MYA-2454 / RMSCC 2432)	/tmp/pe_big/ancestra/tier1_fa/UP000001631_447093.fasta.gz	0e4c87367593ef3bee7eb3b562574b5c	9214
+tier1	UP000007305	4577	Zea mays	/tmp/pe_big/ancestra/tier1_fa/UP000007305_4577.fasta.gz	8af32635b62653097f5375b0a2dbc023	39346
+tier1	UP000002059	502779	Paracoccidioides lutzii (strain ATCC MYA-826 / Pb01)	/tmp/pe_big/ancestra/tier1_fa/UP000002059_502779.fasta.gz	9524854585e6d9eb8257813a99f89ff9	8811
+tier1	UP000002311	559292	Saccharomyces cerevisiae (strain ATCC 204508 / S288c)	/tmp/pe_big/ancestra/tier1_fa/UP000002311_559292.fasta.gz	bc1101d1cab0ed829a0c5e12fd72413f	6066
+tier1	UP000008153	5671	Leishmania infantum	/tmp/pe_big/ancestra/tier1_fa/UP000008153_5671.fasta.gz	f4feb6ad188eb5986506c3f19239b957	8045
+tier1	UP000008854	6183	Schistosoma mansoni	/tmp/pe_big/ancestra/tier1_fa/UP000008854_6183.fasta.gz	7c7c3e97bd0eb44dd91373c35ae8ca21	10750
+tier1	UP000001940	6239	Caenorhabditis elegans	/tmp/pe_big/ancestra/tier1_fa/UP000001940_6239.fasta.gz	3e719f7207ad55b25cd048e06dd1ce12	19792
+tier1	UP000035681	6248	Strongyloides stercoralis	/tmp/pe_big/ancestra/tier1_fa/UP000035681_6248.fasta.gz	a53fa974b994a9fcd4c8dc20e7a0c498	15510
+tier1	UP000006672	6279	Brugia malayi	/tmp/pe_big/ancestra/tier1_fa/UP000006672_6279.fasta.gz	53b8d37881f62d0255de2b2b0b2ece91	11878
+tier1	UP000024404	6282	Onchocerca volvulus	/tmp/pe_big/ancestra/tier1_fa/UP000024404_6282.fasta.gz	1a50aaf7b5f3b2cd5949710f1f31640b	12109
+tier1	UP000270924	6293	Wuchereria bancrofti	/tmp/pe_big/ancestra/tier1_fa/UP000270924_6293.fasta.gz	e941f5758ac039103b21f316fc7325e9	13000
+tier1	UP000000579	71421	Haemophilus influenzae (strain ATCC 51907 / DSM 11121 / KW20 / Rd)	/tmp/pe_big/ancestra/tier1_fa/UP000000579_71421.fasta.gz	62450444c08630b39b8dfc4e812cda52	1703
+tier1	UP000000803	7227	Drosophila melanogaster	/tmp/pe_big/ancestra/tier1_fa/UP000000803_7227.fasta.gz	cba8409d195c49c2832b9e95bbedbcb5	13814
+tier1	UP000000437	7955	Danio rerio	/tmp/pe_big/ancestra/tier1_fa/UP000000437_7955.fasta.gz	3e776cb65f060fa2608e1a9e3bf6224c	26567
+tier1	UP000001584	83332	Mycobacterium tuberculosis (strain ATCC 25618 / H37Rv)	/tmp/pe_big/ancestra/tier1_fa/UP000001584_83332.fasta.gz	9ffc73289b9590532774a50e7d487b06	3997
+tier1	UP000000625	83333	Escherichia coli (strain K12)	/tmp/pe_big/ancestra/tier1_fa/UP000000625_83333.fasta.gz	8d6f83ea596f4debaabc15919fc71c5a	4403
+tier1	UP000000429	85962	Helicobacter pylori (strain ATCC 700392 / 26695)	/tmp/pe_big/ancestra/tier1_fa/UP000000429_85962.fasta.gz	e92da797df0abf56f0c77b677297e6ba	1554
+tier1	UP000094526	86049	Cladophialophora carrionii	/tmp/pe_big/ancestra/tier1_fa/UP000094526_86049.fasta.gz	5b4b6723455145f5f66ca423a349d4b3	11181
+tier1	UP000008816	93061	Staphylococcus aureus (strain NCTC 8325 / PS 47)	/tmp/pe_big/ancestra/tier1_fa/UP000008816_93061.fasta.gz	63f7f35637b83d2d9ea1e9c438dabe1c	2889
+tier1	UP000005640	9606	Homo sapiens	/tmp/pe_big/ancestra/tier1_fa/UP000005640_9606.fasta.gz	4e4f5aca22ba12eabda1e347765db069	20652
+tier1	UP000001014	99287	Salmonella typhimurium (strain LT2 / SGSC1412 / ATCC 700720)	/tmp/pe_big/ancestra/tier1_fa/UP000001014_99287.fasta.gz	72bf137114861a6523ad2420dd60937c	4533
+context	UP000504640	9515	Sapajus apella (Brown-capped capuchin) (Cebus apella)	/tmp/pe_big/ancestra/o2/proteomes/UP000504640_9515.fasta.gz	5e7b6274dc96d900cfb4ef8c919eb83d	20277
+context	UP000593571	9407	Rousettus aegyptiacus (Egyptian fruit bat) (Pteropus aegyptiacus)	/tmp/pe_big/ancestra/o2/proteomes/UP000593571_9407.fasta.gz	590f90867c69b0a07b3a70263ea3e0cb	21287
+context	UP000515140	38626	Phascolarctos cinereus (Koala)	/tmp/pe_big/ancestra/o2/proteomes/UP000515140_38626.fasta.gz	eff7712b71928b3859eeb259c07b9bc4	19808
+context	UP000007754	59729	Taeniopygia guttata (Zebra finch) (Poephila guttata)	/tmp/pe_big/ancestra/o2/proteomes/UP000007754_59729.fasta.gz	eb7d51c39725b371f5ea6773f5a3ff25	16489
+context	UP000472272	64176	Podarcis muralis (Wall lizard) (Lacerta muralis)	/tmp/pe_big/ancestra/o2/proteomes/UP000472272_64176.fasta.gz	5a8b1592fc6c7be042d75c789a2dd21f	21930
+context	UP000515159	260995	Geotrypetes seraphini (Gaboon caecilian) (Caecilia seraphini)	/tmp/pe_big/ancestra/o2/proteomes/UP000515159_260995.fasta.gz	f3bedae93264465e3d994c8f4a9be6aa	18984
+context	UP000005207	8128	Oreochromis niloticus (Nile tilapia) (Tilapia nilotica)	/tmp/pe_big/ancestra/o2/proteomes/UP000005207_8128.fasta.gz	4cb022c8fbafac8fbabbe05f75749b3a	28038
+context	UP000314986	7868	Callorhinchus milii (Ghost shark)	/tmp/pe_big/ancestra/o2/proteomes/UP000314986_7868.fasta.gz	2db73455c871d1359a261b3b049db3c2	19409
+context	UP000002358	7425	Nasonia vitripennis (Parasitic wasp)	/tmp/pe_big/ancestra/o2/proteomes/UP000002358_7425.fasta.gz	7f1926dda7640a203595bdce9077e6c9	13385
+context	UP000410492	64391	Callosobruchus maculatus (Southern cowpea weevil) (Pulse bruchid)	/tmp/pe_big/ancestra/o2/proteomes/UP000410492_64391.fasta.gz	cf1eafe106eaa34518938a79ed81b0a2	20551
+context	UP000001819	46245	Drosophila pseudoobscura pseudoobscura (Fruit fly)	/tmp/pe_big/ancestra/o2/proteomes/UP000001819_46245.fasta.gz	721356bc41ffb3bde8660f989be5333e	14294
+context	UP000515158	161013	Thrips palmi (Melon thrips)	/tmp/pe_big/ancestra/o2/proteomes/UP000515158_161013.fasta.gz	00e4c83772f935fb2114a064d189c63d	14312
+context	UP000594260	109461	Varroa destructor (Honeybee mite)	/tmp/pe_big/ancestra/o2/proteomes/UP000594260_109461.fasta.gz	6ad348f1b272e83160120b30e449ec50	10202
+context	UP000298663	34508	Steinernema carpocapsae (Entomopathogenic nematode)	/tmp/pe_big/ancestra/o2/proteomes/UP000298663_34508.fasta.gz	4ef9b16eb27478ee56f54d7c3b1de98c	29664
+context	UP000054653	45882	Trichinella britovi (Parasitic roundworm)	/tmp/pe_big/ancestra/o2/proteomes/UP000054653_45882.fasta.gz	8eedf383523c7fa22f7188366fd3f8c1	15466
+context	UP000270296	241478	Soboliphyme baturini	/tmp/pe_big/ancestra/o2/proteomes/UP000270296_241478.fasta.gz	c673df5abffed94296477dfe6dd10680	13153
+context	UP000308267	147828	Opisthorchis felineus	/tmp/pe_big/ancestra/o2/proteomes/UP000308267_147828.fasta.gz	1723ce756abd0bba04ce5eb9f02078e7	11402
+context	UP000030746	225164	Lottia gigantea (Giant owl limpet)	/tmp/pe_big/ancestra/o2/proteomes/UP000030746_225164.fasta.gz	c3950c9b480b048b0cb338dab57f534f	23671
+context	UP000007110	7668	Strongylocentrotus purpuratus (Purple sea urchin)	/tmp/pe_big/ancestra/o2/proteomes/UP000007110_7668.fasta.gz	127fee3d32191fd6bb3fd8128a0c5e42	26461
+context	UP000001593	45351	Nematostella vectensis (Starlet sea anemone)	/tmp/pe_big/ancestra/o2/proteomes/UP000001593_45351.fasta.gz	1343ad7607601f17e6cdeea81e2921e6	24428
+context	UP000007799	946362	Salpingoeca rosetta (Choanoflagellate)	/tmp/pe_big/ancestra/o2/proteomes/UP000007799_946362.fasta.gz	51118fd372b19d8c1f3edaae40465bd8	11614
+context	UP000006727	3218	Physcomitrium patens (Spreading-leaved earth moss) (Physcomitrella patens)	/tmp/pe_big/ancestra/o2/proteomes/UP000006727_3218.fasta.gz	0753f8ab7d1dcc5b1a87d179a0c79e66	31356
+context	UP000230069	218851	Aquilegia coerulea (Rocky mountain columbine)	/tmp/pe_big/ancestra/o2/proteomes/UP000230069_218851.fasta.gz	7a04e7c5e4c1e9e739fa2e8ef6accc72	24741
+context	UP000006882	3760	Prunus persica (Peach) (Amygdalus persica)	/tmp/pe_big/ancestra/o2/proteomes/UP000006882_3760.fasta.gz	0caff43ec2a72d3f39e393f4ffa2858f	26850
+context	UP000026915	3641	Theobroma cacao (Cacao) (Cocoa)	/tmp/pe_big/ancestra/o2/proteomes/UP000026915_3641.fasta.gz	64d5746f4e05fc5f42a1dd00dc4f3b1c	29235
+context	UP000235220	51240	Juglans regia (English walnut)	/tmp/pe_big/ancestra/o2/proteomes/UP000235220_51240.fasta.gz	6b823b0777de6773e5ed0a3c2cbd21fb	30329
+context	UP000006906	3055	Chlamydomonas reinhardtii (Chlamydomonas smithii)	/tmp/pe_big/ancestra/o2/proteomes/UP000006906_3055.fasta.gz	f1d8e730c555c6131c5638a73fd2e9b5	17625
+context	UP000000707	590646	Candida tenuis (strain ATCC 10573 / BCRC 21748 / CBS 615 / JCM 9827 / NBRC 10315 / NRRL Y-1498 / VKM Y-70) (Yeast) (Yamadazyma tenuis)	/tmp/pe_big/ancestra/o2/proteomes/UP000000707_590646.fasta.gz	6a922769e2e2522ce428eb232d7902c6	5540
+context	UP000000267	436907	Vanderwaltozyma polyspora (strain ATCC 22028 / DSM 70294 / BCRC 21397 / CBS 2163 / NBRC 10782 / NRRL Y-8283 / UCD 57-17) (Kluyveromyces polysporus)	/tmp/pe_big/ancestra/o2/proteomes/UP000000267_436907.fasta.gz	316ad04ec09ffe61a6546e2ca1203dd4	5314
+context	UP000009096	334819	Gibberella moniliformis (strain M3125 / FGSC 7600) (Maize ear and stalk rot fungus) (Fusarium verticillioides)	/tmp/pe_big/ancestra/o2/proteomes/UP000009096_334819.fasta.gz	f12b09959e8d2a82941648d9e27a2fda	15968
+context	UP000322873	38448	Monilinia fructicola (Brown rot fungus) (Ciboria fructicola)	/tmp/pe_big/ancestra/o2/proteomes/UP000322873_38448.fasta.gz	4b789aceb9ad4ed250aebaa480458bd0	12118
+context	UP000008864	559305	Trichophyton rubrum (strain ATCC MYA-4607 / CBS 118892) (Athlete's foot fungus)	/tmp/pe_big/ancestra/o2/proteomes/UP000008864_559305.fasta.gz	70e0e3bb409109881de4ee73793d2e43	8617
+context	UP000005240	630390	Puccinia triticina (isolate 1-1 / race 1 (BBBD)) (Brown leaf rust fungus)	/tmp/pe_big/ancestra/o2/proteomes/UP000005240_630390.fasta.gz	b975f10970413fe2d159e4c75cf4cb7a	14860
+context	UP000010091	235443	Cryptococcus neoformans (strain H99 / ATCC 208821 / CBS 10515 / FGSC 9487) (Cryptococcus neoformans var. grubii serotype A)	/tmp/pe_big/ancestra/o2/proteomes/UP000010091_235443.fasta.gz	a365cf63cab9e1d5cdb1655d1556f393	6965
+context	UP000077315	763407	Phycomyces blakesleeanus (strain ATCC 8743b / DSM 1359 / FGSC 10004 / NBRC 33097 / NRRL 1555)	/tmp/pe_big/ancestra/o2/proteomes/UP000077315_763407.fasta.gz	d36f611b86133148540c694fa712df16	16154
+context	UP000000542	5664	Leishmania major	/tmp/pe_big/ancestra/o2/proteomes/UP000000542_5664.fasta.gz	5c40df3b0f49311d0bbc19fb6ec2d25b	8038
+context	UP000031513	5851	Plasmodium knowlesi (strain H)	/tmp/pe_big/ancestra/o2/proteomes/UP000031513_5851.fasta.gz	f50fd1fde80b03fa52ac62277cb12cc5	5323
+context	UP000030762	1156394	Saprolegnia diclina (strain VS20)	/tmp/pe_big/ancestra/o2/proteomes/UP000030762_1156394.fasta.gz	121107f1050d2f1a5e05be6068800b2a	17306
+context	UP000323011	33653	Cafeteria roenbergensis (Marine flagellate)	/tmp/pe_big/ancestra/o2/proteomes/UP000323011_33653.fasta.gz	6db582cc7b06cf0dced26d7e672dc601	8424
+context	UP000011083	1257118	Acanthamoeba castellanii (strain ATCC 30010 / Neff)	/tmp/pe_big/ancestra/o2/proteomes/UP000011083_1257118.fasta.gz	5f8dfd20b20fef7da2325d5fc79489aa	14938
+context	UP000002173	5865	Babesia bovis	/tmp/pe_big/ancestra/o2/proteomes/UP000002173_5865.fasta.gz	8454d2dd3ab2d4a8a38c7b79d4769b85	3213
+context	UP000000422	273121	Wolinella succinogenes (strain ATCC 29543 / DSM 1740 / CCUG 13145 / JCM 31913 / LMG 7466 / NCTC 11488 / FDC 602W) (Vibrio succinogenes)	/tmp/pe_big/ancestra/o2/proteomes/UP000000422_273121.fasta.gz	0b970e44d106a140b775cd83ac5d5ea2	2028
+context	UP000002061	573063	Methanocaldococcus infernus (strain DSM 11812 / JCM 15783 / ME)	/tmp/pe_big/ancestra/o2/proteomes/UP000002061_573063.fasta.gz	4d0bab7565a32794984391c4944ed581	1439
+context	UP000001926	294381	Entamoeba histolytica (strain ATCC 30459 / HM-1:IMSS / ABRM)	/tmp/pe_big/ancestra/o2/proteomes/UP000001926_294381.fasta.gz	2eff6236dd82e81f4328e1df76ef1ed6	7967
+context	UP000182882	44577	Nitrosomonas ureae	/tmp/pe_big/ancestra/o2/proteomes/UP000182882_44577.fasta.gz	5e3485a8afa1d320b928ea2e7bdfdb26	3069
+context	UP000001024	273075	Thermoplasma acidophilum (strain ATCC 25905 / DSM 1728 / JCM 9062 / NBRC 15155 / AMRC-C165)	/tmp/pe_big/ancestra/o2/proteomes/UP000001024_273075.fasta.gz	7631d8f64b7aef39c3db8f81e3d0faae	1482
+context	UP000315496	5742	Giardia muris	/tmp/pe_big/ancestra/o2/proteomes/UP000315496_5742.fasta.gz	5ec8b29eaa990d591165a19ec4d42edb	4560
+context	UP000001570	224308	Bacillus subtilis (strain 168)	/tmp/pe_big/ancestra/o2/proteomes/UP000001570_224308.fasta.gz	e0a22c06199a0922f391dc4c1a11c0a4	4288
+context	UP000186940	1838285	Candidatus Syntropharchaeum caldarium	/tmp/pe_big/ancestra/o2/proteomes/UP000186940_1838285.fasta.gz	31b8e7cd034bcdf5bfa0829b004833f3	1784
+context	UP000006671	5762	Naegleria gruberi (Amoeba)	/tmp/pe_big/ancestra/o2/proteomes/UP000006671_5762.fasta.gz	bad60dea12d7830c7ae6c95d5627f6ae	15634
+context	UP000222056	29539	Thermoleophilum album	/tmp/pe_big/ancestra/o2/proteomes/UP000222056_29539.fasta.gz	c02cd15f3811398c8d9e593d15ad6234	2060
+context	UP000426328	2283	Acidianus ambivalens (Desulfurolobus ambivalens)	/tmp/pe_big/ancestra/o2/proteomes/UP000426328_2283.fasta.gz	abe616ee71a267ba9cdf2cf749652b14	2373
+context	UP000553632	32597	Perkinsus olseni (Perkinsus atlanticus)	/tmp/pe_big/ancestra/o2/proteomes/UP000553632_32597.fasta.gz	0fabbbd0e635cbff4c6a53f95ebfb863	33083
+context	UP000235584	960	Bacteriovorax stolpii (Bdellovibrio stolpii)	/tmp/pe_big/ancestra/o2/proteomes/UP000235584_960.fasta.gz	581da4b9afcdbd17b6d657dcb9dbeedf	3721
+context	UP000000758	414004	Cenarchaeum symbiosum (strain A)	/tmp/pe_big/ancestra/o2/proteomes/UP000000758_414004.fasta.gz	99c223c3b51bf87cb422193ce57119b4	2022
+context	UP000039324	37360	Plasmodiophora brassicae (Clubroot disease agent)	/tmp/pe_big/ancestra/o2/proteomes/UP000039324_37360.fasta.gz	55963cfddb76b1c222f04ff98b2c3cf0	9720
+context	UP000053937	1092	Chlorobium limicola	/tmp/pe_big/ancestra/o2/proteomes/UP000053937_1092.fasta.gz	ed748236fa8349cd842e8490818cdfd6	1841
+context	UP000332487	425595	Candidatus Micrarchaeum acidiphilum ARMAN-2	/tmp/pe_big/ancestra/o2/proteomes/UP000332487_425595.fasta.gz	d1fc00ae26d1e707b9a4873740057c07	1025
+context	UP000023152	46433	Reticulomyxa filosa	/tmp/pe_big/ancestra/o2/proteomes/UP000023152_46433.fasta.gz	788302aee544bc89f79498e658ef543a	39903
+context	UP000289841	29552	Haploplasma axanthum (Acholeplasma axanthum)	/tmp/pe_big/ancestra/o2/proteomes/UP000289841_29552.fasta.gz	e3ef6110a9cfe306a950afc891ff8aa5	1645
+context	UP000377803	2565781	Candidatus Nanohalobium constans	/tmp/pe_big/ancestra/o2/proteomes/UP000377803_2565781.fasta.gz	ccd0abfadbbca10e23850eefffa6e27f	1162
+context	UP000179807	1144522	Tritrichomonas foetus	/tmp/pe_big/ancestra/o2/proteomes/UP000179807_1144522.fasta.gz	3c0d2d35411669dbc48c1bcd3ee73c1e	24634
+context	UP000010482	13035	Dactylococcopsis salina (strain PCC 8305) (Myxobactron salinum)	/tmp/pe_big/ancestra/o2/proteomes/UP000010482_13035.fasta.gz	a024039df86f0c27fdeb179f29bcfaf7	3305
+context	UP000321408	2594042	Promethearchaeum syntrophicum	/tmp/pe_big/ancestra/o2/proteomes/UP000321408_2594042.fasta.gz	1dd16c716b2cc80913e88f1cc28c3dd6	3856
+context	UP000294684	29508	Leptospira meyeri	/tmp/pe_big/ancestra/o2/proteomes/UP000294684_29508.fasta.gz	038a767e957c1c9877623e36d57bc29b	3930
+context	UP000646946	2756139	Candidatus Naiadarchaeum limnaeum	/tmp/pe_big/ancestra/o2/proteomes/UP000646946_2756139.fasta.gz	c17dcf4479ce5799682ec8a8c9d11c27	1101
+context	UP000184275	28122	Fibrobacter intestinalis	/tmp/pe_big/ancestra/o2/proteomes/UP000184275_28122.fasta.gz	80efb2aa7a6fd3eca44dc1f4053feb4b	2865
+context	UP000009227	880724	Methanotorris igneus (strain DSM 5666 / JCM 11834 / Kol 5)	/tmp/pe_big/ancestra/o2/proteomes/UP000009227_880724.fasta.gz	5e9adb07602ae88f7fa25474d6465300	1753
+context	UP000000529	264201	Protochlamydia amoebophila (strain UWE25)	/tmp/pe_big/ancestra/o2/proteomes/UP000000529_264201.fasta.gz	10054fa5eb58fe2aaf412e6cf025677d	1879
+context	UP000001400	439481	Aciduliprofundum boonei (strain DSM 19572 / T469)	/tmp/pe_big/ancestra/o2/proteomes/UP000001400_439481.fasta.gz	4a9991a25af67384a7e9fd28bd76a6a4	1539
+context	UP000001366	123214	Persephonella marina (strain DSM 14350 / EX-H1)	/tmp/pe_big/ancestra/o2/proteomes/UP000001366_123214.fasta.gz	7b3d407e0cb75608b7508686264fca34	2048
+context	UP000053352	2309	Pyrodictium occultum	/tmp/pe_big/ancestra/o2/proteomes/UP000053352_2309.fasta.gz	b887a75b92ffcd18c06de48d8a4cc4e6	1602
+context	UP000184474	156994	Reichenbachiella agariperforans	/tmp/pe_big/ancestra/o2/proteomes/UP000184474_156994.fasta.gz	82351a1809ce30403561f4799db2adcd	4019
+context	UP000000792	436308	Nitrosopumilus maritimus (strain SCM1)	/tmp/pe_big/ancestra/o2/proteomes/UP000000792_436308.fasta.gz	e02fbc12f04ba19a6fccf4ed70c2d9bc	1795
+context	UP000008631	575540	Isosphaera pallida (strain ATCC 43644 / DSM 9630 / IS1B)	/tmp/pe_big/ancestra/o2/proteomes/UP000008631_575540.fasta.gz	fdfc91536863ad681071bdb40370d8ed	3721
+context	UP000000590	267377	Methanococcus maripaludis (strain DSM 14266 / JCM 13030 / NBRC 101832 / S2 / LL)	/tmp/pe_big/ancestra/o2/proteomes/UP000000590_267377.fasta.gz	b2ea6210ac37c491b4f980c8415645d5	1722
+context	UP000000718	289376	Thermodesulfovibrio yellowstonii (strain ATCC 51303 / DSM 11347 / YP87)	/tmp/pe_big/ancestra/o2/proteomes/UP000000718_289376.fasta.gz	f9a9b292a4f3df36ae10e67ab293ed98	1982
+context	UP000012672	1236689	Methanomethylophilus alvi (strain Mx1201)	/tmp/pe_big/ancestra/o2/proteomes/UP000012672_1236689.fasta.gz	4121caf9917ba53ab209c29ed59efae3	1643
+context	UP000001732	309798	Coprothermobacter proteolyticus (strain ATCC 35245 / DSM 5265 / OCM 4 / BT)	/tmp/pe_big/ancestra/o2/proteomes/UP000001732_309798.fasta.gz	cef9be985bc1e4dcfdf8a32fe5961e23	1481
+context	UP000298568	43687	Metallosphaera prunae	/tmp/pe_big/ancestra/o2/proteomes/UP000298568_43687.fasta.gz	4e160f5d7aeebcb12e83461255ab920d	2310
+context	UP000001733	309799	Dictyoglomus thermophilum (strain ATCC 35947 / DSM 3960 / H-6-12)	/tmp/pe_big/ancestra/o2/proteomes/UP000001733_309799.fasta.gz	bae118b29ddcdf90819917467a207e20	1913
+context	UP000008037	1237085	Nitrososphaera gargensis (strain Ga9.2)	/tmp/pe_big/ancestra/o2/proteomes/UP000008037_1237085.fasta.gz	793247f0e7e41e3c64410c0a8e513348	3523
+context	UP000000447	309801	Thermomicrobium roseum (strain ATCC 27502 / DSM 5159 / P-2)	/tmp/pe_big/ancestra/o2/proteomes/UP000000447_309801.fasta.gz	106b04fb0b1c587aed50c150907a67dc	2858
+context	UP000009296	647113	Methanothermococcus okinawensis (strain DSM 14208 / JCM 11175 / IH1)	/tmp/pe_big/ancestra/o2/proteomes/UP000009296_647113.fasta.gz	b8f16a75cb35c7f6591a5ae2ab2f2735	1583
+context	UP000008674	309807	Salinibacter ruber (strain DSM 13855 / M31)	/tmp/pe_big/ancestra/o2/proteomes/UP000008674_309807.fasta.gz	17d53ca4c4dca559e8a801702e47efae	2812
+context	UP000014070	1295009	Methanomassiliicoccus intestinalis (strain Issoire-Mx1)	/tmp/pe_big/ancestra/o2/proteomes/UP000014070_1295009.fasta.gz	3ec4251fdeb3381ac3b68888fde0906a	1826
+context	UP000003688	320771	Pedosphaera parvula (strain Ellin514)	/tmp/pe_big/ancestra/o2/proteomes/UP000003688_320771.fasta.gz	0e34a1306a773753f3ce5f133ffc485c	6492
+context	UP000427373	69656	Sulfurisphaera ohwakuensis	/tmp/pe_big/ancestra/o2/proteomes/UP000427373_69656.fasta.gz	d93bb7acf76cbb46138db6483ce36f29	2759
+context	UP000002209	379066	Gemmatimonas aurantiaca (strain DSM 14586 / JCM 11422 / NBRC 100505 / T-27)	/tmp/pe_big/ancestra/o2/proteomes/UP000002209_379066.fasta.gz	cd17f65ad4d3039b7624159b9edf1a89	3932
+context	UP000014065	859192	Candidatus Nitrosarchaeum limnium BG20	/tmp/pe_big/ancestra/o2/proteomes/UP000014065_859192.fasta.gz	f005ec692edc7c8244067c6266553807	2621
+context	UP000001029	445932	Elusimicrobium minutum (strain Pei191)	/tmp/pe_big/ancestra/o2/proteomes/UP000001029_445932.fasta.gz	fa84138c9764f2f7036b21550a960a4c	1528
+context	UP000290527	2082189	Methanofervidicoccus abyssi	/tmp/pe_big/ancestra/o2/proteomes/UP000290527_2082189.fasta.gz	2e69dc4fd39c9b8d29b65716484e6b60	1246
+context	UP000007089	455488	Anaeromyxobacter dehalogenans (strain ATCC BAA-258 / DSM 21875 / 2CP-1)	/tmp/pe_big/ancestra/o2/proteomes/UP000007089_455488.fasta.gz	979927a66c83ee45015120dfbe0b37b7	4460
+context	UP000192050	74969	Ferroplasma acidiphilum	/tmp/pe_big/ancestra/o2/proteomes/UP000192050_74969.fasta.gz	afe38066a31fd7c694752b4c46045094	1749
+context	UP000002019	459349	Cloacimonas acidaminovorans (strain Evry)	/tmp/pe_big/ancestra/o2/proteomes/UP000002019_459349.fasta.gz	377dc0aec5d6bd4d42d1fd5e97aa3be6	1813
+context	UP000002439	178306	Pyrobaculum aerophilum (strain ATCC 51768 / DSM 7523 / JCM 9630 / CIP 104966 / NBRC 100827 / IM2)	/tmp/pe_big/ancestra/o2/proteomes/UP000002439_178306.fasta.gz	e652e8a5563c9d24f64c36238f85976c	2590
+context	UP000001052	485915	Desulfohalobium retbaense (strain ATCC 49708 / DSM 5692 / JCM 16813 / HR100)	/tmp/pe_big/ancestra/o2/proteomes/UP000001052_485915.fasta.gz	62f71d1985448972dc7f9cc3f7f15499	2500
+context	UP000196239	1078905	Nitrosotalea devaniterrae	/tmp/pe_big/ancestra/o2/proteomes/UP000196239_1078905.fasta.gz	a8a873fbaef6cdfb1b4aaabec3d3b0d6	2102
+context	UP000004793	511051	Caldisericum exile (strain DSM 21853 / NBRC 104410 / AZM16c01)	/tmp/pe_big/ancestra/o2/proteomes/UP000004793_511051.fasta.gz	cb7a5a2eed573305e37d2d5d33942b78	1566
+context	UP000217784	2161	Methanobacterium bryantii	/tmp/pe_big/ancestra/o2/proteomes/UP000217784_2161.fasta.gz	7cf847e798e70399b14a4b01f8256fa5	3168
+context	UP000002012	522772	Denitrovibrio acetiphilus (strain DSM 12809 / NBRC 114555 / N2460)	/tmp/pe_big/ancestra/o2/proteomes/UP000002012_522772.fasta.gz	d3055b09560df1d03f544e622eb13b29	2901
+context	UP000050301	312540	Acidiplasma cupricumulans	/tmp/pe_big/ancestra/o2/proteomes/UP000050301_312540.fasta.gz	530afaf823caacf9e44958085c9212e3	1683
+context	UP000000323	525904	Thermobaculum terrenum (strain ATCC BAA-798 / CCMEE 7001 / YNP1)	/tmp/pe_big/ancestra/o2/proteomes/UP000000323_525904.fasta.gz	3f1e726ce166f6da43ee0069856fc439	2827
+context	UP000002518	272557	Aeropyrum pernix (strain ATCC 700893 / DSM 11879 / JCM 9820 / NBRC 100138 / K1)	/tmp/pe_big/ancestra/o2/proteomes/UP000002518_272557.fasta.gz	45773e97464b58a2bc31706be3e73df1	1700
+context	UP000002572	653733	Desulfurispirillum indicum (strain ATCC BAA-1389 / DSM 22839 / S5)	/tmp/pe_big/ancestra/o2/proteomes/UP000002572_653733.fasta.gz	402b49498141a2073f0be03a36988e5f	2551
+context	UP000058925	1353260	Candidatus Nitrosocosmicus oleophilus	/tmp/pe_big/ancestra/o2/proteomes/UP000058925_1353260.fasta.gz	7237155e493f11049f65a262d23901f8	3684
+context	UP000520814	685828	Armatimonas rosea	/tmp/pe_big/ancestra/o2/proteomes/UP000520814_685828.fasta.gz	28ffeb99bf18dfad38cb2c930e06a4e9	5895
+context	UP000326500	2200	Methanoculleus thermophilus (Methanogenium thermophilicum)	/tmp/pe_big/ancestra/o2/proteomes/UP000326500_2200.fasta.gz	53c62717c5cc079a03ffa9aaf58ddcd7	2250
+context	UP000004671	880073	Caldithrix abyssi (strain DSM 13497 / VKM B-2286 / LF13)	/tmp/pe_big/ancestra/o2/proteomes/UP000004671_880073.fasta.gz	89bc707ded6660893eb1765f7dcaf782	3674
+context	UP000007394	945713	Ignavibacterium album (strain DSM 19864 / JCM 16511 / NBRC 101810 / Mat9-16)	/tmp/pe_big/ancestra/o2/proteomes/UP000007394_945713.fasta.gz	1dd6b25cf458999fddf13dac868eb1ee	3169
+context	UP000006791	981222	Chloracidobacterium thermophilum (strain B)	/tmp/pe_big/ancestra/o2/proteomes/UP000006791_981222.fasta.gz	7252d67f41a6938a2f18e793ca03c9cb	3053

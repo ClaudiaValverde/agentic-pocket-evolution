@@ -1,0 +1,52 @@
+{
+ "snapshot_id": "20261030T085136Z",
+ "orthology": "O1",
+ "tau": 0.2,
+ "state_col": "state",
+ "n_sogs_total": 260991,
+ "n_small_footprint_excluded": 6595,
+ "states": "pre-rescue (78 % of A rows rescue:pending; SOGS.md open issue 1)",
+ "vertical_noisy_rate_source": "<repo>/results/partB/sim/measured/noise_primary_known_le10.csv (pre-rescue P(A|informative,present))",
+ "rescue_k": 1,
+ "definition": "fraction of SOGs explained by <= 1 gain/loss under Dollo parsimony",
+ "results": {
+  "multi_species": {
+   "n_sogs": 111685,
+   "m3": 0.9317903030845682,
+   "curveball_mean": 0.9171436808882124,
+   "curveball_q025": 0.9166047365357927,
+   "curveball_q975": 0.917697094506872,
+   "p_null_ge_real": 0.000999000999000999,
+   "curveball_replicates": 1000,
+   "swaps_per_replicate_min": 4580600,
+   "swaps_target": 4580600,
+   "n_zeros": 45806,
+   "swaps_rule": "100 x min(#1, #0) (INTERP of prereg 100 x #1; see SIM.md)",
+   "attempts_per_replicate_max": 277894728,
+   "null_method": "masked checkerboard swaps (simulate.checkerboard)",
+   "n_ones": 576148,
+   "vertical_noisy_mean": 0.8480274265338662,
+   "vertical_noisy_sd": 0.0009538022305117044
+  },
+  "all_with_P": {
+   "n_sogs": 252954,
+   "m3": 0.9698838524000412,
+   "curveball_mean": 0.9630945547411782,
+   "curveball_q025": 0.96285994686781,
+   "curveball_q975": 0.9633365157301327,
+   "p_null_ge_real": 0.009900990099009901,
+   "curveball_replicates": 100,
+   "swaps_per_replicate_min": 11272700,
+   "swaps_target": 11272700,
+   "n_zeros": 112727,
+   "swaps_rule": "100 x min(#1, #0) (INTERP of prereg 100 x #1; see SIM.md)",
+   "attempts_per_replicate_max": 2072066242,
+   "null_method": "masked checkerboard swaps (simulate.checkerboard)",
+   "n_ones": 717417,
+   "vertical_noisy_mean": 0.9228714061418044,
+   "vertical_noisy_sd": 0.0004865940145231274
+  }
+ },
+ "prereg_sha256": "52f9461890984c210b730af86c40de221307a668e7d4b38098b3316059690d83",
+ "runtime_s": 1185.767284154892
+}

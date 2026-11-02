@@ -1,0 +1,156 @@
+{
+ "f1": {
+  "status": "fail",
+  "n_species_change": 0,
+  "clade_purity": 0.0,
+  "lca_purity": 0.0,
+  "single_event": false,
+  "n_out_support": 4,
+  "shape": "scattered",
+  "detail": "A in 0 derived species (purity 0.00 of informative derived members; 0.00 over all members under the species-tree LCA: scattered); single tree-consistent event: False; outgroup support: P in 4 outgroup species"
+ },
+ "f2": {
+  "status": "fail",
+  "strength": "none",
+  "about_change": false,
+  "detail": "no experimental evidence at the footprint",
+  "present": {
+   "n_members_with_evidence": 0,
+   "n_biolip": 0,
+   "n_uniprot_exp": 0,
+   "n_mcsa_ref": 0,
+   "pdb_ids": [],
+   "ligands": [],
+   "ligand_tokens": []
+  },
+  "absent": {
+   "n_members_with_evidence": 0,
+   "n_biolip": 0,
+   "n_uniprot_exp": 0,
+   "n_mcsa_ref": 0,
+   "pdb_ids": [],
+   "ligands": [],
+   "ligand_tokens": []
+  },
+  "chembl_present_proteins": 0,
+  "chembl_absent_proteins": 1,
+  "n_members_numbering_unverified": 0,
+  "n_hits_excluded_tau_tuning": 0,
+  "sensitivity_og_wide_exclusion": {
+   "status": "fail",
+   "n_hits_excluded": 0
+  }
+ },
+ "f3": {
+  "status": "pending",
+  "passing": [],
+  "detail": "conservation: na (too few aligned members (derived 0, outgroup 4)); rescue_consistency: na (no rescue run for present-side members); source_consistency: na (no present-side member in the v6/v4 re-detection sample); cofolding: pending (placeholder; filled by the co-folding agent)"
+ },
+ "lines": {
+  "conservation": {
+   "status": "na",
+   "detail": "too few aligned members (derived 0, outgroup 4)"
+  },
+  "rescue_consistency": {
+   "status": "na",
+   "detail": "no rescue run for present-side members"
+  },
+  "source_consistency": {
+   "status": "na",
+   "detail": "no present-side member in the v6/v4 re-detection sample"
+  },
+  "cofolding": {
+   "status": "pending",
+   "detail": "placeholder; filled by the co-folding agent"
+  }
+ },
+ "identifier_checks": {
+  "pdb": {},
+  "uniprot": {
+   "A0A077ZF37": {
+    "resolved": true,
+    "title": "",
+    "organism": "Trichuris trichiura",
+    "retrieved_utc": "2026-10-30T16:18:30Z"
+   },
+   "A0A077ZLG1": {
+    "resolved": true,
+    "title": "",
+    "organism": "Trichuris trichiura",
+    "retrieved_utc": "2026-10-30T16:18:30Z"
+   },
+   "A0A0H3GTX1": {
+    "resolved": true,
+    "title": "Peptidoglycan D,D-transpeptidase MrdA",
+    "organism": "Klebsiella pneumoniae subsp. pneumoniae (strain HS11286)",
+    "retrieved_utc": "2026-10-30T16:18:30Z"
+   },
+   "A0A0H3GY10": {
+    "resolved": true,
+    "title": "Peptidoglycan D,D-transpeptidase MrdA",
+    "organism": "Klebsiella pneumoniae subsp. pneumoniae (strain HS11286)",
+    "retrieved_utc": "2026-10-30T16:06:39Z"
+   },
+   "G3XCV7": {
+    "resolved": true,
+    "title": "Peptidoglycan D,D-transpeptidase MrdA",
+    "organism": "Pseudomonas aeruginosa (strain ATCC 15692 / DSM 22644 / CIP 104116 / JCM 14847 / LMG 12228 / 1C / PRS 101 / PAO1)",
+    "retrieved_utc": "2026-10-30T16:06:39Z"
+   },
+   "O26085": {
+    "resolved": true,
+    "title": "",
+    "organism": "Helicobacter pylori (strain ATCC 700392 / 26695)",
+    "retrieved_utc": "2026-10-30T16:18:30Z"
+   },
+   "P0AD65": {
+    "resolved": true,
+    "title": "Peptidoglycan D,D-transpeptidase MrdA",
+    "organism": "Escherichia coli (strain K12)",
+    "retrieved_utc": "2026-10-30T16:18:30Z"
+   },
+   "P0CL14": {
+    "resolved": true,
+    "title": "Peptidoglycan D,D-transpeptidase MrdA",
+    "organism": "Salmonella typhimurium (strain LT2 / SGSC1412 / ATCC 700720)",
+    "retrieved_utc": "2026-10-30T16:06:39Z"
+   },
+   "P44469": {
+    "resolved": true,
+    "title": "Peptidoglycan D,D-transpeptidase MrdA",
+    "organism": "Haemophilus influenzae (strain ATCC 51907 / DSM 11121 / KW20 / Rd)",
+    "retrieved_utc": "2026-10-30T16:18:30Z"
+   },
+   "P59676": {
+    "resolved": true,
+    "title": "Penicillin-binding protein 2X",
+    "organism": "Streptococcus pneumoniae (strain ATCC BAA-255 / R6)",
+    "retrieved_utc": "2026-10-30T16:18:30Z"
+   },
+   "Q0PAL6": {
+    "resolved": true,
+    "title": "",
+    "organism": "Campylobacter jejuni subsp. jejuni serotype O:2 (strain ATCC 700819 / NCTC 11168)",
+    "retrieved_utc": "2026-10-30T16:06:39Z"
+   },
+   "Q2FZ94": {
+    "resolved": true,
+    "title": "",
+    "organism": "Staphylococcus aureus (strain NCTC 8325 / PS 47)",
+    "retrieved_utc": "2026-10-30T16:18:31Z"
+   },
+   "Q32IU5": {
+    "resolved": true,
+    "title": "Peptidoglycan D,D-transpeptidase MrdA",
+    "organism": "Shigella dysenteriae serotype 1 (strain Sd197)",
+    "retrieved_utc": "2026-10-30T16:18:31Z"
+   },
+   "Q8ZR00": {
+    "resolved": true,
+    "title": "Peptidoglycan D,D-transpeptidase MrdA",
+    "organism": "Salmonella typhimurium (strain LT2 / SGSC1412 / ATCC 700720)",
+    "retrieved_utc": "2026-10-30T16:18:31Z"
+   }
+  }
+ }
+}

@@ -1,0 +1,7 @@
+input,cost,type,n_sogs,clade_size_ok,unambiguous,species,frac,outgroup,candidate,called,called_f1_single_event,chars_with_called
+real,2:1,gain,13245,1536,879,494,360,360,360,360,305,355
+real,2:1,loss,13245,8860,3974,3905,3873,2730,2730,69,29,67
+real,1:1,gain,13245,2638,1387,894,803,803,803,803,632,774
+real,1:1,loss,13245,4954,1083,1067,971,971,971,13,10,13
+real,3:1,gain,13245,928,535,266,179,179,179,179,154,177
+real,3:1,loss,13245,11819,6330,6230,6215,4157,4157,107,35,103

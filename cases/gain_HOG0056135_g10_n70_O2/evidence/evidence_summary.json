@@ -1,0 +1,230 @@
+{
+ "f1": {
+  "status": "pass",
+  "n_species_change": 4,
+  "clade_purity": 0.8,
+  "lca_purity": 0.8,
+  "single_event": true,
+  "n_out_support": 15,
+  "shape": "clean clade",
+  "detail": "P in 4 derived species (purity 0.80 of informative derived members; 0.80 over all members under the species-tree LCA: clean clade); single tree-consistent event: True; outgroup support: A in 15 outgroup species"
+ },
+ "f2": {
+  "status": "fail",
+  "strength": "none",
+  "about_change": false,
+  "detail": "no experimental evidence at the footprint",
+  "present": {
+   "n_members_with_evidence": 0,
+   "n_biolip": 0,
+   "n_uniprot_exp": 0,
+   "n_mcsa_ref": 0,
+   "pdb_ids": [],
+   "ligands": [],
+   "ligand_tokens": []
+  },
+  "absent": {
+   "n_members_with_evidence": 0,
+   "n_biolip": 0,
+   "n_uniprot_exp": 0,
+   "n_mcsa_ref": 0,
+   "pdb_ids": [],
+   "ligands": [],
+   "ligand_tokens": []
+  },
+  "chembl_present_proteins": 0,
+  "chembl_absent_proteins": 1,
+  "n_members_numbering_unverified": 55,
+  "n_hits_excluded_tau_tuning": 0,
+  "sensitivity_og_wide_exclusion": {
+   "status": "fail",
+   "n_hits_excluded": 0
+  }
+ },
+ "f3": {
+  "status": "pass",
+  "passing": [
+   "conservation"
+  ],
+  "detail": "conservation: pass (3/13 footprint columns clade-specific (rate 0.23 vs background 0.06); derived conservation 0.75, outgroup identity to derived majority 0.49); rescue_consistency: na (no rescue run for present-side members); source_consistency: na (no present-side member in the v6/v4 re-detection sample); cofolding: pending (placeholder; filled by the co-folding agent)"
+ },
+ "lines": {
+  "conservation": {
+   "status": "pass",
+   "n_specific": 3,
+   "n_fp_cols": 13,
+   "rate_fp": 0.231,
+   "rate_bg": 0.057,
+   "mean_cons_derived": 0.754,
+   "mean_identity_out": 0.491,
+   "detail": "3/13 footprint columns clade-specific (rate 0.23 vs background 0.06); derived conservation 0.75, outgroup identity to derived majority 0.49"
+  },
+  "rescue_consistency": {
+   "status": "na",
+   "detail": "no rescue run for present-side members"
+  },
+  "source_consistency": {
+   "status": "na",
+   "detail": "no present-side member in the v6/v4 re-detection sample"
+  },
+  "cofolding": {
+   "status": "pending",
+   "detail": "placeholder; filled by the co-folding agent"
+  }
+ },
+ "identifier_checks": {
+  "pdb": {},
+  "uniprot": {
+   "A0A077ZFA6": {
+    "resolved": true,
+    "title": "membrane dipeptidase",
+    "organism": "Trichuris trichiura",
+    "retrieved_utc": "2026-10-30T16:07:33Z"
+   },
+   "A0A0G2K189": {
+    "resolved": true,
+    "title": "",
+    "organism": "Rattus norvegicus",
+    "retrieved_utc": "2026-10-30T16:07:33Z"
+   },
+   "A0A4R8MKW0": {
+    "resolved": true,
+    "title": "Dipeptidase",
+    "organism": "Leptospira meyeri",
+    "retrieved_utc": "2026-10-30T16:19:16Z"
+   },
+   "A0A4W3GZY4": {
+    "resolved": true,
+    "title": "Secernin-2",
+    "organism": "Callorhinchus milii",
+    "retrieved_utc": "2026-10-30T16:19:16Z"
+   },
+   "A0A4W3IJS2": {
+    "resolved": true,
+    "title": "",
+    "organism": "Callorhinchus milii",
+    "retrieved_utc": "2026-10-30T16:07:33Z"
+   },
+   "A0A4W3K1B0": {
+    "resolved": true,
+    "title": "",
+    "organism": "Callorhinchus milii",
+    "retrieved_utc": "2026-10-30T16:19:16Z"
+   },
+   "A0A5B9D720": {
+    "resolved": true,
+    "title": "",
+    "organism": "Promethearchaeum syntrophicum",
+    "retrieved_utc": "2026-10-30T16:07:33Z"
+   },
+   "A0A653CCP3": {
+    "resolved": true,
+    "title": "Secernin-3",
+    "organism": "Callosobruchus maculatus",
+    "retrieved_utc": "2026-10-30T16:19:16Z"
+   },
+   "A0A670HKV4": {
+    "resolved": true,
+    "title": "",
+    "organism": "Podarcis muralis",
+    "retrieved_utc": "2026-10-30T16:07:33Z"
+   },
+   "A0A670J8F0": {
+    "resolved": true,
+    "title": "Secernin-2",
+    "organism": "Podarcis muralis",
+    "retrieved_utc": "2026-10-30T16:19:16Z"
+   },
+   "A0A670K4A4": {
+    "resolved": true,
+    "title": "",
+    "organism": "Podarcis muralis",
+    "retrieved_utc": "2026-10-30T16:19:17Z"
+   },
+   "A0A674GPP2": {
+    "resolved": true,
+    "title": "",
+    "organism": "Taeniopygia guttata",
+    "retrieved_utc": "2026-10-30T16:19:17Z"
+   },
+   "A0A674GS46": {
+    "resolved": true,
+    "title": "Secernin-2",
+    "organism": "Taeniopygia guttata",
+    "retrieved_utc": "2026-10-30T16:19:17Z"
+   },
+   "A0A6I8URX3": {
+    "resolved": true,
+    "title": "",
+    "organism": "Drosophila pseudoobscura pseudoobscura",
+    "retrieved_utc": "2026-10-30T16:07:34Z"
+   },
+   "A0A6J3I1E0": {
+    "resolved": true,
+    "title": "Secernin-2",
+    "organism": "Sapajus apella",
+    "retrieved_utc": "2026-10-30T16:07:34Z"
+   },
+   "A0A6J3IL85": {
+    "resolved": true,
+    "title": "",
+    "organism": "Sapajus apella",
+    "retrieved_utc": "2026-10-30T16:19:17Z"
+   },
+   "A0A6J3J2J5": {
+    "resolved": true,
+    "title": "",
+    "organism": "Sapajus apella",
+    "retrieved_utc": "2026-10-30T16:07:34Z"
+   },
+   "A0A6P5KM16": {
+    "resolved": true,
+    "title": "Ubiquitin-conjugating enzyme E2 C",
+    "organism": "Phascolarctos cinereus",
+    "retrieved_utc": "2026-10-30T16:19:17Z"
+   },
+   "A0A6P5KWI6": {
+    "resolved": true,
+    "title": "",
+    "organism": "Phascolarctos cinereus",
+    "retrieved_utc": "2026-10-30T16:19:17Z"
+   },
+   "A0A6P5L4J4": {
+    "resolved": true,
+    "title": "Secernin-2",
+    "organism": "Phascolarctos cinereus",
+    "retrieved_utc": "2026-10-30T16:07:34Z"
+   },
+   "A0A6P8NZS7": {
+    "resolved": true,
+    "title": "Secernin-2",
+    "organism": "Geotrypetes seraphini",
+    "retrieved_utc": "2026-10-30T16:19:17Z"
+   },
+   "A0A6P8PC72": {
+    "resolved": true,
+    "title": "Secernin-2",
+    "organism": "Geotrypetes seraphini",
+    "retrieved_utc": "2026-10-30T16:19:18Z"
+   },
+   "A0A6P8QWZ2": {
+    "resolved": true,
+    "title": "Secernin-2",
+    "organism": "Geotrypetes seraphini",
+    "retrieved_utc": "2026-10-30T16:07:34Z"
+   },
+   "A0A6P8YLD3": {
+    "resolved": true,
+    "title": "",
+    "organism": "Thrips palmi",
+    "retrieved_utc": "2026-10-30T16:19:18Z"
+   },
+   "A0A7J6Q304": {
+    "resolved": true,
+    "title": "Peptidase",
+    "organism": "Perkinsus olseni",
+    "retrieved_utc": "2026-10-30T16:19:19Z"
+   }
+  }
+ }
+}

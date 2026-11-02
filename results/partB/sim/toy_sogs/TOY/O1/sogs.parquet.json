@@ -1,0 +1,10 @@
+{
+ "output": "sogs.parquet",
+ "snapshot_id": "TOY",
+ "prereg_sha256": "52f9461890984c210b730af86c40de221307a668e7d4b38098b3316059690d83",
+ "git_commit": "c325bfaa7a9194de66f2a0ea399de80df7e50d82+dirty",
+ "seed": 0,
+ "created_utc": "2026-10-30T10:10:41Z",
+ "sha256": "70dd4cd13a8892f403fd1a3d482b7866c3c725abe5a958f6945ab1cbb71fc876",
+ "script": "scripts/partB/make_toy_sogs.py"
+}

@@ -1,0 +1,18 @@
+{
+ "output": "calibration_pr_curves.png",
+ "snapshot_id": "20261030T085136Z",
+ "prereg_sha256": "52f9461890984c210b730af86c40de221307a668e7d4b38098b3316059690d83",
+ "git_commit": "cbe924346b0adeee1359ea8d7fae54ac6bedf5e0+dirty",
+ "seed": 0,
+ "created_utc": "2026-10-30T10:45:31Z",
+ "sha256": "9356ec78fedb03e333bc588ddb15d6848cdb70ddb6768cf17eb78558cbb0319b",
+ "script": "scripts/partB/run_sim.py",
+ "argv": [
+  "--n-trees",
+  "30000",
+  "--reps",
+  "30",
+  "--out",
+  "results/partB/sim"
+ ]
+}

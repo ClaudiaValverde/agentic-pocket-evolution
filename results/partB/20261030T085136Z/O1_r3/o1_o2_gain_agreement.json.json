@@ -1,0 +1,10 @@
+{
+ "output": "o1_o2_gain_agreement.json",
+ "snapshot_id": "20261030T085136Z",
+ "prereg_sha256": "52f9461890984c210b730af86c40de221307a668e7d4b38098b3316059690d83",
+ "git_commit": "dd2f3c1d717f65f19cc1e6ee62cc64a7b51f62d3+dirty",
+ "seed": 0,
+ "created_utc": "2026-10-30T15:11:56Z",
+ "sha256": "2dbafcdde6387299638180c82579511109013daa1dcc21cec3bb12c4ee1d7758",
+ "script": "scripts/partB/o1_o2_agreement.py"
+}

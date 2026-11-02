@@ -1,0 +1,14 @@
+{
+ "pfam_release": "38.2",
+ "version_file": "Pfam release       : 38.2\nPfam-A families    : 30134\nDate               : 2026-01\nBased on UniProtKB : 2025_03\n",
+ "sha256": {
+  "Pfam-A.clans.tsv.gz": "86062b7ef1a0e0caee0c28cef479ac0d294c80789c51cbf75e513b368ce3a6f6",
+  "Pfam-A.regions.tsv.gz": "6be816409bc6d3f58005fbecaacfe1542046b87c64ec6e69636b864fc1a9dce5"
+ },
+ "n_families": 30134,
+ "n_families_in_clan": 13933,
+ "n_regions": 1137630,
+ "n_accessions_with_pfam": 622712,
+ "n_accessions_total": 989696,
+ "frac_regions_seq_match": 0.9695498536431001
+}

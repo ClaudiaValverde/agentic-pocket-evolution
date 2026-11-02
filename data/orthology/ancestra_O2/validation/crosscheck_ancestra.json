@@ -1,0 +1,8 @@
+{
+ "n_orth_pairs_total": 37454115,
+ "n_para_pairs_total": 146935178,
+ "orth_agree": 50000,
+ "para_agree": 50000,
+ "n_sampled_each": 50000,
+ "seconds": 1467.2
+}

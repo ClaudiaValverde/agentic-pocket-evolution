@@ -1,0 +1,7 @@
+case	acc	state	n_lig_atoms	ligand_site_n	footprint_n	ligand_site_fp_overlap	n_pockets	ligand_pocket_id	ligand_pocket_rank	ligand_pocket_recall	ligand_pocket_precision	footprint_pocket_id	footprint_pocket_rank	footprint_pocket_recall	footprint_detected	same_pocket
+dupgain_HOG0054071_g9_n185_O2	A0A6J3I851	ancestral	27	19	12	0	5	A0A6J3I851_protein_only:m4	5	0.579	0.55	A0A6J3I851_protein_only:m8	14	0.083	False	False
+dupgain_HOG0054071_g9_n185_O2	P35790	ancestral	27	20	12	0	1	P35790_protein_only:m1	2	0.8	0.267	P35790_protein_only:m1	2	0.083	False	False
+dupgain_HOG0054071_g9_n185_O2	P46560	ancestral	27	23	12	0	1	P46560_protein_only:m0	1	1.0	0.371	P46560_protein_only:m0	1	0.0	False	False
+dupgain_HOG0054071_g9_n185_O2	A0A0I9N741	derived	27	21	12	0	5	A0A0I9N741_protein_only:m0	1	1.0	0.412	A0A0I9N741_protein_only:m0	1	0.083	False	False
+dupgain_HOG0054071_g9_n185_O2	A0A0N4UFV7	derived	27	17	12	0	6	A0A0N4UFV7_protein_only:m0	1	1.0	0.321	A0A0N4UFV7_protein_only:m1	3	0.75	True	False
+dupgain_HOG0054071_g9_n185_O2	A0AAF5DGQ3	derived	27	16	11	0	4	A0AAF5DGQ3_protein_only:m0	1	1.0	0.172	A0AAF5DGQ3_protein_only:m5	8	1.0	True	False

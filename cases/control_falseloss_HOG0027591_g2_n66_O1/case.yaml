@@ -1,0 +1,1080 @@
+schema: case-v1
+case_id: control_falseloss_HOG0027591_g2_n66_O1
+title: 'False-loss negative control: HOG0027591:g2 (Onchocercidae)'
+category: control
+track: discovery
+label: rejected
+toy: false
+summary: 'SOG HOG0027591:g2: loss called on pre-quality-filter states whose derived-clade A members are
+  all poor models (bad_model, D24); it disappears once A_primary + D11 apply. Negative control for false
+  losses: filters are expected to fail.'
+og_id: HOG0027591
+sog_id: HOG0027591:g2
+score: 0.0
+proteins:
+- accession: Q5QIT3
+  taxid: 3702
+  species: '3702'
+  role: outgroup
+  side: present
+  state: P
+  state_pre_filter: P (primary_pLDDT90, pre-D11)
+  footprint_plddt: 96.75
+  reason: ''
+  gene: B''BETA
+  protein_name: Serine/threonine protein phosphatase 2A regulatory subunit B''beta
+  rescue_settings_hit: null
+  residues: A:342 A:383 A:384 A:475
+  n_site_evidence: 0
+- accession: Q84JI6
+  taxid: 3702
+  species: '3702'
+  role: outgroup
+  side: other
+  state: U
+  state_pre_filter: A (primary_pLDDT90, pre-D11)
+  footprint_plddt: 97.125
+  reason: footprint_residues<=10
+  gene: B''EPSILON
+  protein_name: Probable serine/threonine protein phosphatase 2A regulatory subunit B''epsilon
+  rescue_settings_hit: null
+  residues: null
+  n_site_evidence: 0
+- accession: Q8VZQ4
+  taxid: 3702
+  species: '3702'
+  role: outgroup
+  side: other
+  state: U
+  state_pre_filter: U (primary_pLDDT90, pre-D11)
+  footprint_plddt: 96.875
+  reason: partial_site_overlap
+  gene: B''GAMMA
+  protein_name: Probable serine/threonine protein phosphatase 2A regulatory subunit B''gamma
+  rescue_settings_hit: null
+  residues: null
+  n_site_evidence: 0
+- accession: Q9SLI8
+  taxid: 3702
+  species: '3702'
+  role: outgroup
+  side: other
+  state: U
+  state_pre_filter: A (primary_pLDDT90, pre-D11)
+  footprint_plddt: 96.75
+  reason: footprint_residues<=10
+  gene: B''DELTA
+  protein_name: Probable serine/threonine protein phosphatase 2A regulatory subunit B''delta
+  rescue_settings_hit: null
+  residues: null
+  n_site_evidence: 0
+- accession: Q9XGR4
+  taxid: 3702
+  species: '3702'
+  role: outgroup
+  side: other
+  state: U
+  state_pre_filter: A (primary_pLDDT90, pre-D11)
+  footprint_plddt: 96.75
+  reason: footprint_residues<=10
+  gene: B''ALPHA
+  protein_name: Serine/threonine protein phosphatase 2A regulatory subunit B''alpha
+  rescue_settings_hit: null
+  residues: null
+  n_site_evidence: 0
+- accession: A0A0R0HUD3
+  taxid: 3847
+  species: '3847'
+  role: outgroup
+  side: other
+  state: U
+  state_pre_filter: A (primary_pLDDT90, pre-D11)
+  footprint_plddt: 96.625
+  reason: footprint_residues<=10
+  gene: LOC100792998
+  protein_name: EF-hand domain-containing protein
+  rescue_settings_hit: null
+  residues: null
+  n_site_evidence: 0
+- accession: A0A368UGB1
+  taxid: 3847
+  species: '3847'
+  role: outgroup
+  side: present
+  state: P
+  state_pre_filter: P (primary_pLDDT90, pre-D11)
+  footprint_plddt: 96.875
+  reason: ''
+  gene: null
+  protein_name: EF-hand domain-containing protein
+  rescue_settings_hit: null
+  residues: A:306 A:347 A:348 A:439
+  n_site_evidence: 0
+- accession: A0A368UGI4
+  taxid: 3847
+  species: '3847'
+  role: outgroup
+  side: present
+  state: P
+  state_pre_filter: P (primary_pLDDT90, pre-D11)
+  footprint_plddt: 96.75
+  reason: ''
+  gene: LOC100815724
+  protein_name: EF-hand domain-containing protein
+  rescue_settings_hit: null
+  residues: A:344 A:385 A:386 A:477
+  n_site_evidence: 0
+- accession: I1JRS9
+  taxid: 3847
+  species: '3847'
+  role: outgroup
+  side: present
+  state: P
+  state_pre_filter: P (primary_pLDDT90, pre-D11)
+  footprint_plddt: 96.625
+  reason: ''
+  gene: LOC100807531
+  protein_name: EF-hand domain-containing protein
+  rescue_settings_hit: null
+  residues: A:344 A:385 A:386 A:477
+  n_site_evidence: 0
+- accession: I1LC62
+  taxid: 3847
+  species: '3847'
+  role: outgroup
+  side: other
+  state: U
+  state_pre_filter: A (primary_pLDDT90, pre-D11)
+  footprint_plddt: 96.75
+  reason: footprint_residues<=10
+  gene: LOC100793000
+  protein_name: EF-hand domain-containing protein
+  rescue_settings_hit: null
+  residues: null
+  n_site_evidence: 0
+- accession: I1NIM7
+  taxid: 3847
+  species: '3847'
+  role: outgroup
+  side: other
+  state: U
+  state_pre_filter: A (primary_pLDDT90, pre-D11)
+  footprint_plddt: 96.625
+  reason: footprint_residues<=10
+  gene: LOC100799748
+  protein_name: EF-hand domain-containing protein
+  rescue_settings_hit: null
+  residues: null
+  n_site_evidence: 0
+- accession: K7KJN8
+  taxid: 3847
+  species: '3847'
+  role: outgroup
+  side: other
+  state: U
+  state_pre_filter: U (primary_pLDDT90, pre-D11)
+  footprint_plddt: null
+  reason: aligned<0.8
+  gene: null
+  protein_name: Uncharacterized protein
+  rescue_settings_hit: null
+  residues: null
+  n_site_evidence: 0
+- accession: A0A1D6GPL1
+  taxid: 4577
+  species: '4577'
+  role: outgroup
+  side: other
+  state: U
+  state_pre_filter: A (primary_pLDDT90, pre-D11)
+  footprint_plddt: 97.0
+  reason: footprint_residues<=10
+  gene: LOC103626168
+  protein_name: EF-hand domain-containing protein
+  rescue_settings_hit: null
+  residues: null
+  n_site_evidence: 0
+- accession: A0A1D6H350
+  taxid: 4577
+  species: '4577'
+  role: outgroup
+  side: other
+  state: U
+  state_pre_filter: U (primary_pLDDT90, pre-D11)
+  footprint_plddt: 96.625
+  reason: partial_site_overlap
+  gene: LOC100279229
+  protein_name: PP2A regulatory subunit B'' EF-hand domain-containing protein
+  rescue_settings_hit: null
+  residues: null
+  n_site_evidence: 0
+- accession: A0A1D6KTF9
+  taxid: 4577
+  species: '4577'
+  role: outgroup
+  side: other
+  state: U
+  state_pre_filter: A (primary_pLDDT90, pre-D11)
+  footprint_plddt: 97.0
+  reason: footprint_residues<=10
+  gene: LOC103643458
+  protein_name: EF-hand domain-containing protein
+  rescue_settings_hit: null
+  residues: null
+  n_site_evidence: 0
+- accession: A0A804P3P8
+  taxid: 4577
+  species: '4577'
+  role: outgroup
+  side: other
+  state: U
+  state_pre_filter: U (primary_pLDDT90, pre-D11)
+  footprint_plddt: null
+  reason: no_model
+  gene: ''
+  protein_name: ''
+  rescue_settings_hit: null
+  residues: null
+  n_site_evidence: 0
+- accession: A4IBL2
+  taxid: 5671
+  species: '5671'
+  role: outgroup
+  side: other
+  state: U
+  state_pre_filter: A (primary_pLDDT90, pre-D11)
+  footprint_plddt: 96.75
+  reason: footprint_residues<=10
+  gene: null
+  protein_name: Uncharacterized protein
+  rescue_settings_hit: null
+  residues: null
+  n_site_evidence: 0
+- accession: A0A3Q0KI09
+  taxid: 6183
+  species: '6183'
+  role: outgroup
+  side: other
+  state: U
+  state_pre_filter: A (primary_pLDDT90, pre-D11)
+  footprint_plddt: 95.125
+  reason: footprint_residues<=10
+  gene: null
+  protein_name: Serine/threonine-protein phosphatase 2A regulatory subunit B'' subunit gamma
+  rescue_settings_hit: null
+  residues: null
+  n_site_evidence: 0
+- accession: A0A3Q0KJ13
+  taxid: 6183
+  species: '6183'
+  role: outgroup
+  side: other
+  state: U
+  state_pre_filter: U (primary_pLDDT90, pre-D11)
+  footprint_plddt: 96.375
+  reason: partial_site_overlap
+  gene: null
+  protein_name: Phosphatase 2a regulatory subunit-related
+  rescue_settings_hit: null
+  residues: null
+  n_site_evidence: 0
+- accession: A0A1N7SYW5
+  taxid: 6239
+  species: '6239'
+  role: outgroup
+  side: other
+  state: U
+  state_pre_filter: U (primary_pLDDT90, pre-D11)
+  footprint_plddt: 94.0
+  reason: length_ratio
+  gene: null
+  protein_name: EF-hand domain-containing protein
+  rescue_settings_hit: null
+  residues: null
+  n_site_evidence: 0
+- accession: O02217
+  taxid: 6239
+  species: '6239'
+  role: outgroup
+  side: present
+  state: P
+  state_pre_filter: P (primary_pLDDT90, pre-D11)
+  footprint_plddt: 93.0
+  reason: ''
+  gene: rsa-1
+  protein_name: Serine/threonine-protein phosphatase 2A regulatory subunit rsa-1
+  rescue_settings_hit: null
+  residues: A:265 A:302 A:303 A:395
+  n_site_evidence: 0
+- accession: Q9GZH6
+  taxid: 6239
+  species: '6239'
+  role: outgroup
+  side: present
+  state: P
+  state_pre_filter: P (primary_pLDDT90, pre-D11)
+  footprint_plddt: 94.0
+  reason: ''
+  gene: null
+  protein_name: EF-hand domain-containing protein
+  rescue_settings_hit: null
+  residues: A:202 A:241 A:242 A:331
+  n_site_evidence: 0
+- accession: A0A0K0EM08
+  taxid: 6248
+  species: '6248'
+  role: outgroup
+  side: other
+  state: U
+  state_pre_filter: U (primary_pLDDT90, pre-D11)
+  footprint_plddt: null
+  reason: aligned<0.8
+  gene: null
+  protein_name: SoHo domain-containing protein
+  rescue_settings_hit: null
+  residues: null
+  n_site_evidence: 0
+- accession: A0A0K0EM09
+  taxid: 6248
+  species: '6248'
+  role: outgroup
+  side: other
+  state: U
+  state_pre_filter: U (primary_pLDDT90, pre-D11)
+  footprint_plddt: 94.75
+  reason: partial_site_overlap
+  gene: null
+  protein_name: SoHo domain-containing protein
+  rescue_settings_hit: null
+  residues: null
+  n_site_evidence: 0
+- accession: A0AAF5CRE4
+  taxid: 6248
+  species: '6248'
+  role: outgroup
+  side: other
+  state: U
+  state_pre_filter: U (primary_pLDDT90, pre-D11)
+  footprint_plddt: 96.25
+  reason: partial_site_overlap
+  gene: null
+  protein_name: EF-hand domain-containing protein
+  rescue_settings_hit: null
+  residues: null
+  n_site_evidence: 0
+- accession: A0AAF5CY94
+  taxid: 6248
+  species: '6248'
+  role: outgroup
+  side: other
+  state: U
+  state_pre_filter: U (primary_pLDDT90, pre-D11)
+  footprint_plddt: 92.75
+  reason: partial_site_overlap
+  gene: null
+  protein_name: EF-hand domain-containing protein
+  rescue_settings_hit: null
+  residues: null
+  n_site_evidence: 0
+- accession: A0AAF5HYU8
+  taxid: 6248
+  species: '6248'
+  role: outgroup
+  side: other
+  state: U
+  state_pre_filter: U (primary_pLDDT90, pre-D11)
+  footprint_plddt: 91.375
+  reason: length_ratio
+  gene: null
+  protein_name: SoHo domain-containing protein
+  rescue_settings_hit: null
+  residues: null
+  n_site_evidence: 0
+- accession: A0A0H5SE91
+  taxid: 6279
+  species: '6279'
+  role: derived
+  side: absent
+  state: U
+  state_pre_filter: A (primary_pLDDT90, pre-D11)
+  footprint_plddt: 94.0
+  reason: footprint_residues<=10
+  gene: Bma-rsa-1
+  protein_name: Serine/threonine-protein phosphatase 2A regulatory subunit B'' subunit gamma
+  rescue_settings_hit: null
+  residues: A:295 A:330 A:331 A:427
+  n_site_evidence: 0
+- accession: A0A4E9EVI8
+  taxid: 6279
+  species: '6279'
+  role: outgroup
+  side: other
+  state: U
+  state_pre_filter: U (primary_pLDDT90, pre-D11)
+  footprint_plddt: 92.75
+  reason: partial_site_overlap
+  gene: Bm9175
+  protein_name: EF-hand domain-containing protein
+  rescue_settings_hit: null
+  residues: null
+  n_site_evidence: 0
+- accession: A0A4E9EZ99
+  taxid: 6279
+  species: '6279'
+  role: outgroup
+  side: present
+  state: P
+  state_pre_filter: P (primary_pLDDT90, pre-D11)
+  footprint_plddt: 91.75
+  reason: ''
+  gene: null
+  protein_name: Protein phosphatase 2A, putative
+  rescue_settings_hit: null
+  residues: A:1088 A:1134 A:1135 A:1226
+  n_site_evidence: 0
+- accession: A0A8R1TUT7
+  taxid: 6282
+  species: '6282'
+  role: outgroup
+  side: present
+  state: P
+  state_pre_filter: P (primary_pLDDT90, pre-D11)
+  footprint_plddt: 94.75
+  reason: ''
+  gene: null
+  protein_name: EF-hand domain-containing protein
+  rescue_settings_hit: null
+  residues: A:587 A:627 A:628 A:720
+  n_site_evidence: 0
+- accession: A0A8R1XR96
+  taxid: 6282
+  species: '6282'
+  role: outgroup
+  side: present
+  state: P
+  state_pre_filter: P (primary_pLDDT90, pre-D11)
+  footprint_plddt: 96.625
+  reason: ''
+  gene: null
+  protein_name: EF-hand domain-containing protein
+  rescue_settings_hit: null
+  residues: A:297 A:343 A:344 A:435
+  n_site_evidence: 0
+- accession: A0A8R1XTV4
+  taxid: 6282
+  species: '6282'
+  role: outgroup
+  side: other
+  state: U
+  state_pre_filter: U (primary_pLDDT90, pre-D11)
+  footprint_plddt: null
+  reason: aligned<0.8
+  gene: null
+  protein_name: Uncharacterized protein
+  rescue_settings_hit: null
+  residues: null
+  n_site_evidence: 0
+- accession: A0A8R1XW41
+  taxid: 6282
+  species: '6282'
+  role: derived
+  side: absent
+  state: U
+  state_pre_filter: A (primary_pLDDT90, pre-D11)
+  footprint_plddt: 94.125
+  reason: footprint_residues<=10
+  gene: null
+  protein_name: Serine/threonine-protein phosphatase 2A regulatory subunit B'' subunit gamma
+  rescue_settings_hit: null
+  residues: A:297 A:332 A:333 A:429
+  n_site_evidence: 0
+- accession: A0A3P7DBT0
+  taxid: 6293
+  species: '6293'
+  role: derived
+  side: absent
+  state: U
+  state_pre_filter: A (primary_pLDDT90, pre-D11)
+  footprint_plddt: 94.75
+  reason: footprint_residues<=10
+  gene: null
+  protein_name: EF-hand domain-containing protein
+  rescue_settings_hit: null
+  residues: A:268 A:303 A:304 A:400
+  n_site_evidence: 0
+- accession: A0A3P7DEC5
+  taxid: 6293
+  species: '6293'
+  role: outgroup
+  side: present
+  state: P
+  state_pre_filter: P (primary_pLDDT90, pre-D11)
+  footprint_plddt: 96.375
+  reason: ''
+  gene: null
+  protein_name: EF-hand domain-containing protein
+  rescue_settings_hit: null
+  residues: A:78 A:124 A:125 A:213
+  n_site_evidence: 0
+- accession: A0A3P7DLZ1
+  taxid: 6293
+  species: '6293'
+  role: outgroup
+  side: other
+  state: U
+  state_pre_filter: U (primary_pLDDT90, pre-D11)
+  footprint_plddt: 92.25
+  reason: partial_site_overlap
+  gene: null
+  protein_name: EF-hand domain-containing protein
+  rescue_settings_hit: null
+  residues: null
+  n_site_evidence: 0
+- accession: A0A3P7DRK7
+  taxid: 6293
+  species: '6293'
+  role: outgroup
+  side: other
+  state: U
+  state_pre_filter: U (primary_pLDDT90, pre-D11)
+  footprint_plddt: null
+  reason: aligned<0.8
+  gene: null
+  protein_name: PP2A regulatory subunit B'' EF-hand domain-containing protein
+  rescue_settings_hit: null
+  residues: null
+  n_site_evidence: 0
+- accession: A0A3P7DU35
+  taxid: 6293
+  species: '6293'
+  role: outgroup
+  side: other
+  state: U
+  state_pre_filter: U (primary_pLDDT90, pre-D11)
+  footprint_plddt: null
+  reason: aligned<0.8
+  gene: null
+  protein_name: Uncharacterized protein
+  rescue_settings_hit: null
+  residues: null
+  n_site_evidence: 0
+- accession: J9E4D4
+  taxid: 6293
+  species: '6293'
+  role: outgroup
+  side: other
+  state: U
+  state_pre_filter: U (primary_pLDDT90, pre-D11)
+  footprint_plddt: 44.75
+  reason: aligned<0.8
+  gene: null
+  protein_name: Uncharacterized protein
+  rescue_settings_hit: null
+  residues: null
+  n_site_evidence: 0
+- accession: Q9I7J1
+  taxid: 7227
+  species: '7227'
+  role: outgroup
+  side: present
+  state: P
+  state_pre_filter: P (primary_pLDDT90, pre-D11)
+  footprint_plddt: 94.875
+  reason: ''
+  gene: PR72
+  protein_name: EF-hand domain-containing protein
+  rescue_settings_hit: null
+  residues: A:713 A:758 A:759 A:850
+  n_site_evidence: 0
+- accession: B0S5T6
+  taxid: 7955
+  species: '7955'
+  role: outgroup
+  side: present
+  state: P
+  state_pre_filter: P (primary_pLDDT90, pre-D11)
+  footprint_plddt: 96.0
+  reason: ''
+  gene: ppp2r3b
+  protein_name: Serine/threonine-protein phosphatase 2A regulatory subunit B'' subunit beta isof
+  rescue_settings_hit: null
+  residues: A:353 A:395 A:396 A:487
+  n_site_evidence: 0
+- accession: E9QG28
+  taxid: 7955
+  species: '7955'
+  role: outgroup
+  side: other
+  state: U
+  state_pre_filter: U (primary_pLDDT90, pre-D11)
+  footprint_plddt: 95.875
+  reason: partial_site_overlap
+  gene: ppp2r3a
+  protein_name: Serine/threonine-protein phosphatase 2A regulatory subunit B'' subunit alpha iso
+  rescue_settings_hit: null
+  residues: null
+  n_site_evidence: 0
+- accession: Q803V3
+  taxid: 7955
+  species: '7955'
+  role: outgroup
+  side: present
+  state: P
+  state_pre_filter: P (primary_pLDDT90, pre-D11)
+  footprint_plddt: 95.375
+  reason: ''
+  gene: ppp2r3c
+  protein_name: Serine/threonine-protein phosphatase 2A regulatory subunit B'' subunit gamma
+  rescue_settings_hit: null
+  residues: A:304 A:340 A:341 A:432
+  n_site_evidence: 0
+- accession: Q06190
+  taxid: 9606
+  species: '9606'
+  role: outgroup
+  side: other
+  state: U
+  state_pre_filter: U (primary_pLDDT90, pre-D11)
+  footprint_plddt: 95.25
+  reason: partial_site_overlap
+  gene: PPP2R3A
+  protein_name: Serine/threonine-protein phosphatase 2A regulatory subunit B'' subunit alpha
+  rescue_settings_hit: null
+  residues: null
+  n_site_evidence: 0
+- accession: Q969Q6
+  taxid: 9606
+  species: '9606'
+  role: outgroup
+  side: present
+  state: P
+  state_pre_filter: P (primary_pLDDT90, pre-D11)
+  footprint_plddt: 95.5
+  reason: ''
+  gene: PPP2R3C
+  protein_name: Serine/threonine-protein phosphatase 2A regulatory subunit B'' subunit gamma
+  rescue_settings_hit: null
+  residues: A:301 A:337 A:338 A:429
+  n_site_evidence: 0
+- accession: Q9Y5P8
+  taxid: 9606
+  species: '9606'
+  role: outgroup
+  side: present
+  state: P
+  state_pre_filter: P (primary_pLDDT90, pre-D11)
+  footprint_plddt: 96.25
+  reason: ''
+  gene: PPP2R3B
+  protein_name: Serine/threonine-protein phosphatase 2A regulatory subunit B'' subunit beta
+  rescue_settings_hit: null
+  residues: A:342 A:384 A:385 A:476
+  n_site_evidence: 0
+- accession: F6UGB9
+  taxid: 10090
+  species: '10090'
+  role: outgroup
+  side: other
+  state: U
+  state_pre_filter: U (primary_pLDDT90, pre-D11)
+  footprint_plddt: null
+  reason: no_model
+  gene: ''
+  protein_name: ''
+  rescue_settings_hit: null
+  residues: null
+  n_site_evidence: 0
+- accession: Q9JK24
+  taxid: 10090
+  species: '10090'
+  role: outgroup
+  side: present
+  state: P
+  state_pre_filter: P (primary_pLDDT90, pre-D11)
+  footprint_plddt: 95.5
+  reason: ''
+  gene: Ppp2r3c
+  protein_name: Serine/threonine-protein phosphatase 2A regulatory subunit B'' subunit gamma
+  rescue_settings_hit: null
+  residues: A:301 A:337 A:338 A:429
+  n_site_evidence: 0
+- accession: Q9Z176
+  taxid: 10090
+  species: '10090'
+  role: outgroup
+  side: other
+  state: U
+  state_pre_filter: A (primary_pLDDT90, pre-D11)
+  footprint_plddt: 96.75
+  reason: footprint_residues<=10
+  gene: Ppp2r3d
+  protein_name: Serine/threonine-protein phosphatase 2A regulatory subunit B'' subunit delta
+  rescue_settings_hit: null
+  residues: null
+  n_site_evidence: 0
+- accession: D3ZLD7
+  taxid: 10116
+  species: '10116'
+  role: outgroup
+  side: other
+  state: U
+  state_pre_filter: U (primary_pLDDT90, pre-D11)
+  footprint_plddt: null
+  reason: no_model
+  gene: ''
+  protein_name: ''
+  rescue_settings_hit: null
+  residues: null
+  n_site_evidence: 0
+- accession: M0R7K2
+  taxid: 10116
+  species: '10116'
+  role: outgroup
+  side: other
+  state: U
+  state_pre_filter: U (primary_pLDDT90, pre-D11)
+  footprint_plddt: null
+  reason: no_model
+  gene: ''
+  protein_name: ''
+  rescue_settings_hit: null
+  residues: null
+  n_site_evidence: 0
+- accession: Q6AXZ3
+  taxid: 10116
+  species: '10116'
+  role: outgroup
+  side: present
+  state: P
+  state_pre_filter: P (primary_pLDDT90, pre-D11)
+  footprint_plddt: 95.125
+  reason: ''
+  gene: Ppp2r3c
+  protein_name: Serine/threonine-protein phosphatase 2A regulatory subunit B'' subunit gamma
+  rescue_settings_hit: null
+  residues: A:301 A:337 A:338 A:429
+  n_site_evidence: 0
+- accession: A0A077Z272
+  taxid: 36087
+  species: '36087'
+  role: outgroup
+  side: other
+  state: U
+  state_pre_filter: U (primary_pLDDT90, pre-D11)
+  footprint_plddt: 95.25
+  reason: partial_site_overlap
+  gene: null
+  protein_name: EF-hand 7 domain containing protein
+  rescue_settings_hit: null
+  residues: null
+  n_site_evidence: 0
+- accession: A0A077ZCP7
+  taxid: 36087
+  species: '36087'
+  role: outgroup
+  side: present
+  state: P
+  state_pre_filter: P (primary_pLDDT90, pre-D11)
+  footprint_plddt: 96.625
+  reason: ''
+  gene: null
+  protein_name: Serine:threonine protein phosphatase 2A
+  rescue_settings_hit: null
+  residues: A:270 A:306 A:307 A:398
+  n_site_evidence: 0
+- accession: Q8IDD8
+  taxid: 36329
+  species: '36329'
+  role: outgroup
+  side: present
+  state: P
+  state_pre_filter: P (primary_pLDDT90, pre-D11)
+  footprint_plddt: 94.5
+  reason: ''
+  gene: null
+  protein_name: Phosphatase 2A regulatory subunit-related protein, putative
+  rescue_settings_hit: null
+  residues: A:776 A:817 A:818 A:910
+  n_site_evidence: 0
+- accession: Q69M01
+  taxid: 39947
+  species: '39947'
+  role: outgroup
+  side: other
+  state: U
+  state_pre_filter: U (primary_pLDDT90, pre-D11)
+  footprint_plddt: 96.375
+  reason: partial_site_overlap
+  gene: null
+  protein_name: Os02g0191700 protein
+  rescue_settings_hit: null
+  residues: null
+  n_site_evidence: 0
+- accession: Q7XDE0
+  taxid: 39947
+  species: '39947'
+  role: outgroup
+  side: present
+  state: P
+  state_pre_filter: P (primary_pLDDT90, pre-D11)
+  footprint_plddt: 96.375
+  reason: ''
+  gene: null
+  protein_name: Os10g0476600 protein
+  rescue_settings_hit: null
+  residues: A:348 A:389 A:390 A:481
+  n_site_evidence: 0
+- accession: Q54W95
+  taxid: 44689
+  species: '44689'
+  role: outgroup
+  side: other
+  state: U
+  state_pre_filter: U (primary_pLDDT90, pre-D11)
+  footprint_plddt: 96.75
+  reason: length_ratio
+  gene: null
+  protein_name: EF-hand domain-containing protein
+  rescue_settings_hit: null
+  residues: null
+  n_site_evidence: 0
+- accession: Q38DH1
+  taxid: 185431
+  species: '185431'
+  role: outgroup
+  side: other
+  state: U
+  state_pre_filter: U (primary_pLDDT90, pre-D11)
+  footprint_plddt: 96.125
+  reason: partial_site_overlap
+  gene: null
+  protein_name: EF-hand domain-containing protein
+  rescue_settings_hit: null
+  residues: null
+  n_site_evidence: 0
+- accession: A0A0N4U6H1
+  taxid: 318479
+  species: '318479'
+  role: outgroup
+  side: other
+  state: U
+  state_pre_filter: U (primary_pLDDT90, pre-D11)
+  footprint_plddt: null
+  reason: aligned<0.8
+  gene: null
+  protein_name: Uncharacterized protein
+  rescue_settings_hit: null
+  residues: null
+  n_site_evidence: 0
+- accession: A0A0N4UCA6
+  taxid: 318479
+  species: '318479'
+  role: outgroup
+  side: present
+  state: P
+  state_pre_filter: P (primary_pLDDT90, pre-D11)
+  footprint_plddt: 91.375
+  reason: ''
+  gene: null
+  protein_name: EF-hand domain-containing protein
+  rescue_settings_hit: null
+  residues: A:311 A:346 A:347 A:444
+  n_site_evidence: 0
+- accession: A0A0N4UEC1
+  taxid: 318479
+  species: '318479'
+  role: outgroup
+  side: other
+  state: U
+  state_pre_filter: U (primary_pLDDT90, pre-D11)
+  footprint_plddt: 95.08333587646484
+  reason: partial_site_overlap
+  gene: null
+  protein_name: EF-hand domain-containing protein
+  rescue_settings_hit: null
+  residues: null
+  n_site_evidence: 0
+- accession: A0A158Q3J2
+  taxid: 318479
+  species: '318479'
+  role: outgroup
+  side: present
+  state: P
+  state_pre_filter: P (primary_pLDDT90, pre-D11)
+  footprint_plddt: 97.125
+  reason: ''
+  gene: null
+  protein_name: EF-hand domain-containing protein
+  rescue_settings_hit: null
+  residues: A:178 A:224 A:225 A:316
+  n_site_evidence: 0
+- accession: Q4DRM2
+  taxid: 353153
+  species: '353153'
+  role: outgroup
+  side: other
+  state: U
+  state_pre_filter: U (primary_pLDDT90, pre-D11)
+  footprint_plddt: 96.875
+  reason: partial_site_overlap
+  gene: null
+  protein_name: EF-hand domain-containing protein
+  rescue_settings_hit: null
+  residues: null
+  n_site_evidence: 0
+- accession: Q4DUH0
+  taxid: 353153
+  species: '353153'
+  role: outgroup
+  side: other
+  state: U
+  state_pre_filter: A (primary_pLDDT90, pre-D11)
+  footprint_plddt: 96.5
+  reason: footprint_residues<=10
+  gene: null
+  protein_name: EF-hand domain-containing protein
+  rescue_settings_hit: null
+  residues: null
+  n_site_evidence: 0
+filters:
+- name: persistence
+  status: fail
+  detail: 'A in 0 derived species (purity 0.00 of informative derived members; 0.00 over all members under
+    the species-tree LCA: scattered); single tree-consistent event: False; outgroup support: P in 15 outgroup
+    species'
+- name: experimental
+  status: fail
+  detail: no experimental evidence at the footprint
+- name: computational
+  status: pending
+  detail: 'conservation: na (too few aligned members (derived 0, outgroup 22)); rescue_consistency: na
+    (no rescue run for present-side members); source_consistency: na (no present-side member in the v6/v4
+    re-detection sample); cofolding: pending (placeholder; filled by the co-folding agent)'
+- name: f3:conservation
+  status: na
+  detail: too few aligned members (derived 0, outgroup 22)
+- name: f3:rescue_consistency
+  status: na
+  detail: no rescue run for present-side members
+- name: f3:source_consistency
+  status: na
+  detail: no present-side member in the v6/v4 re-detection sample
+- name: f3:cofolding
+  status: pending
+  detail: placeholder; filled by the co-folding agent
+artifact_checks:
+- name: artifact_cascade
+  status: pending
+  detail: pass_artifacts not yet in the candidate table (Part B agent)
+- name: orthology_side_family_reported_only
+  status: pending
+  detail: no PANTHER/Pfam family on one side [reported only; does not gate selection (PI D30)]
+evidence: []
+cofold:
+- model_id: pending
+  status: pending
+  role: derived
+  note: "placeholder; co-folding agent fills models per DESIGN \xA76 and the D23 concordance rule (ligand\
+    \ pLDDT AND centroid distance or site-residue recall in >= 2/3 seeds)"
+- model_id: control_falseloss_HOG0027591_g2_n66_O1_apo
+  role: apo_refold
+  status: pocket_did_not_reappear
+  ligands: []
+  seeds: 3
+  samples_per_seed: 5
+  templates: none
+  msa: ColabFold MMseqs2
+  method: protein-only AF3 refold, then pocketcompare describe --af-mode; site recall of the best-covering
+    BURROW pocket against the case footprint, reported CONTINUOUS (never thresholded at 0.8)
+  present_recall_median: 0.75
+  absent_recall_median: 0.25
+  delta_recall: 0.5
+  n_present: 3
+  n_absent: 3
+  members:
+  - acc: A0A158Q3J2
+    side: present
+    recall: 0.75
+    precision: 0.375
+    burrow_rank: '6'
+    n_pockets: '10'
+    construct: full_length
+    atlas_footprint_plddt: 97.125
+    site_source: own_footprint
+  - acc: A0A368UGB1
+    side: present
+    recall: 0.75
+    precision: 0.214
+    burrow_rank: '6'
+    n_pockets: '8'
+    construct: full_length
+    atlas_footprint_plddt: 96.875
+    site_source: own_footprint
+  - acc: A0A368UGI4
+    side: present
+    recall: 0.0
+    precision: 0.0
+    burrow_rank: '3'
+    n_pockets: '5'
+    construct: full_length
+    atlas_footprint_plddt: 96.75
+    site_source: own_footprint
+  - acc: A0A0H5SE91
+    side: absent_pre_d11
+    recall: 0.25
+    precision: 0.2
+    burrow_rank: '10'
+    n_pockets: '7'
+    construct: full_length
+    atlas_footprint_plddt: 94.0
+    site_source: own_footprint
+  - acc: A0A8R1XW41
+    side: absent_pre_d11
+    recall: 0.0
+    precision: 0.0
+    burrow_rank: '2'
+    n_pockets: '5'
+    construct: full_length
+    atlas_footprint_plddt: 94.125
+    site_source: own_footprint
+  - acc: A0A3P7DBT0
+    side: absent_pre_d11
+    recall: 0.25
+    precision: 0.067
+    burrow_rank: '6'
+    n_pockets: '5'
+    construct: full_length
+    atlas_footprint_plddt: 94.75
+    site_source: own_footprint
+  table: results/cofold/apo_pool/apo_burrow_pool.tsv
+  outcome: 'NOT CONFIRMED: absent-side median recall 0.25; the pocket does NOT reappear in fresh ligand-free
+    models of the bad-model proteins. The false-loss prediction fails for this control, so the absence
+    is not explained as a modelling artifact by this test'
+  prediction: the pocket should reappear in a fresh ligand-free model of the absent-side (bad-model) proteins
+figures: []
+literature: []
+headline: convincing_only
+filter_label_with_literature_post_hoc: null
+notes: 'filter_label=rejected (prereg: convincing = all three filters; supported = f1 + one of f2/f3);
+  final label also needs the artifact cascade (pending). candidate label: false-loss control; fdr_supported=False.
+  selection: negative_control. G (gene-absent) rows not listed: 9; every other member is listed with side
+  (present/absent/other), state and reason; state_pre_filter = state in the pre-quality-filter run that
+  called the false loss. Evidence counts are derived from BioLiP2/UniProt 2026_03/M-CSA/ChEMBL 37 (DATA.md);
+  BioLiP rows are not redistributed, only PDB IDs and counts. Final co-fold pool selection (D28, case_list_v2.parquet):
+  negative_control.'
+provenance:
+  builder: scripts/cases/build_cases.py
+  orthology: O1
+  snapshot: 20261030T085136Z
+  case_list: results/cases/20261030T085136Z/case_list_v2.parquet
+  prereg_sha256: 52f9461890984c210b730af86c40de221307a668e7d4b38098b3316059690d83
+  git_commit: cdb00a44da5049d0e4a054f4e2ba4ee534e35363+dirty
+  seed: 0
+  built_utc: '2026-10-30T16:17:54Z'
+  n_excluded_tune_annotations:
+    rule: per SOG (prereg literal); OG-wide reported as sensitivity
+    n_tuning_list_rows: 450
+    n_used_in_tune_pairs: 245
+    pairs_file: results/sogs/20261030T085136Z/O1/tau_benchmark_pairs.parquet
+    n_keys_per_sog: 216
+    n_keys_og_wide: 221

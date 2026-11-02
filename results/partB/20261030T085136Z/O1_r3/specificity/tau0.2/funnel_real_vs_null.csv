@@ -1,0 +1,5 @@
+input,seed,n_pairs,residue_gate,residue_and_shift,bh_tested,called,called_f1_ge3_species
+real,,222489,10584,513,10584,0,0
+null_pseudo_clade,0.0,222489,2230,88,2230,0,0
+null_pseudo_clade,1.0,222489,2260,77,2260,0,0
+null_pseudo_clade,2.0,222489,2243,71,2243,0,0

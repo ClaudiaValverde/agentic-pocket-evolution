@@ -1,0 +1,6 @@
+class,testable_pairs,passing,F_conv_dir_per_pair,F_conv_dir_per_family_pair,ci_per_pair,ci_per_family_pair,testable_of_class
+all,2627453,3,1.1417901671314388e-06,1.9136763559927924e-06,"[np.float64(0.0), np.float64(3.8860432899852335e-06)]","[np.float64(0.0), np.float64(6.8489344348456285e-06)]",5107143
+N,1842604,3,1.6281306238345298e-06,2.049541517562521e-06,"[np.float64(0.0), np.float64(5.708186675696089e-06)]","[np.float64(0.0), np.float64(7.322301250895773e-06)]",3605586
+H3j,721621,0,0.0,0.0,"[np.float64(0.0), np.float64(0.0)]","[np.float64(0.0), np.float64(0.0)]",1393868
+H3s,18293,0,0.0,0.0,"[np.float64(0.0), np.float64(0.0)]","[np.float64(0.0), np.float64(0.0)]",44138
+H4,44935,0,0.0,0.0,"[np.float64(0.0), np.float64(0.0)]","[np.float64(0.0), np.float64(0.0)]",63551

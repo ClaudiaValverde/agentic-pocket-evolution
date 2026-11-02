@@ -1,0 +1,199 @@
+{
+ "case": "gain_HOG0035403_g5_n14_O1",
+ "verdict": "uninformative_ligand_not_at_footprint",
+ "positive_control_gate": {
+  "status": "run",
+  "pass": true,
+  "lig_rmsd": 1.34,
+  "centroid_dist": 0.37,
+  "site_recall": 0.42,
+  "lig_plddt": 80.3,
+  "threshold_A": 2.0,
+  "ref": "4jag:OAA"
+ },
+ "d23_composite": {
+  "thresholds": {
+   "t_plddt": 92.0,
+   "t_centroid": 2.0,
+   "t_recall": 0.9
+  },
+  "per_job": {
+   "32a2b667feac": {
+    "state": "ancestral",
+    "kind": "cognate",
+    "acc": "K7MR36",
+    "binds": false,
+    "n_seeds_binding": 0,
+    "median_centroid_A": 19.26,
+    "median_site_recall": 0.0
+   },
+   "41f0f38d9251": {
+    "state": "derived",
+    "kind": "cognate",
+    "acc": "O68883",
+    "binds": false,
+    "n_seeds_binding": 0,
+    "median_centroid_A": 23.47,
+    "median_site_recall": 0.0
+   },
+   "7ba7e997aa10": {
+    "state": "derived",
+    "kind": "cognate",
+    "acc": "Q32IL1",
+    "binds": false,
+    "n_seeds_binding": 0,
+    "median_centroid_A": 19.49,
+    "median_site_recall": 0.0
+   },
+   "7dbe2889e7ce": {
+    "state": "ancestral",
+    "kind": "decoy1",
+    "acc": "Q0P7U8",
+    "binds": false,
+    "n_seeds_binding": 0,
+    "median_centroid_A": 24.58,
+    "median_site_recall": 0.0
+   },
+   "81d578c54af2": {
+    "state": "ancestral",
+    "kind": "cognate",
+    "acc": "I1KY39",
+    "binds": false,
+    "n_seeds_binding": 0,
+    "median_centroid_A": 19.3,
+    "median_site_recall": 0.0
+   },
+   "a49b6ad882af": {
+    "state": "ancestral",
+    "kind": "decoy1",
+    "acc": "K7MR36",
+    "binds": false,
+    "n_seeds_binding": 0,
+    "median_centroid_A": 19.85,
+    "median_site_recall": 0.0
+   },
+   "b789d69ed45d": {
+    "state": "derived",
+    "kind": "decoy1",
+    "acc": "A0A0H3GQA5",
+    "binds": false,
+    "n_seeds_binding": 0,
+    "median_centroid_A": 23.85,
+    "median_site_recall": 0.0
+   },
+   "c007e893b6a3": {
+    "state": "ancestral",
+    "kind": "decoy1",
+    "acc": "I1KY39",
+    "binds": false,
+    "n_seeds_binding": 0,
+    "median_centroid_A": 19.7,
+    "median_site_recall": 0.0
+   },
+   "d8d608653cd1": {
+    "state": "derived",
+    "kind": "decoy1",
+    "acc": "Q32IL1",
+    "binds": false,
+    "n_seeds_binding": 0,
+    "median_centroid_A": 23.79,
+    "median_site_recall": 0.0
+   },
+   "db1256df7d34": {
+    "state": "ancestral",
+    "kind": "cognate",
+    "acc": "Q0P7U8",
+    "binds": false,
+    "n_seeds_binding": 0,
+    "median_centroid_A": 19.4,
+    "median_site_recall": 0.0
+   },
+   "dd1e8b4649b8": {
+    "state": "derived",
+    "kind": "decoy1",
+    "acc": "O68883",
+    "binds": false,
+    "n_seeds_binding": 0,
+    "median_centroid_A": 23.51,
+    "median_site_recall": 0.0
+   },
+   "e971be47f687": {
+    "state": "derived",
+    "kind": "cognate",
+    "acc": "A0A0H3GQA5",
+    "binds": false,
+    "n_seeds_binding": 0,
+    "median_centroid_A": 19.54,
+    "median_site_recall": 0.0
+   }
+  },
+  "derived_members_binding": [],
+  "ancestral_members_binding": [],
+  "any_cognate_binds": false,
+  "ligand_off_footprint": true
+ },
+ "verdict_basis": "frozen D23 composite (d23_composite) gating the per-seed rule",
+ "legacy_prereg_rule": {
+  "status": "SUPERSEDED: computed for the record only. It ranks on ligand pLDDT and min PAE with no geometry term, so it can call a direction from placements far from the footprint. The verdict uses d23_composite.",
+  "rule": "all seeds must meet D > X for BOTH ligand pLDDT and min P-L PAE",
+  "seeds_gain": [
+   false,
+   false,
+   false
+  ],
+  "seeds_loss": [
+   false,
+   false,
+   false
+  ]
+ },
+ "per_seed": [
+  {
+   "seed": "1",
+   "derived_lig_plddt": 72.3,
+   "ancestral_lig_plddt": 84.1,
+   "derived_pae_min": 2.681,
+   "ancestral_pae_min": 2.013,
+   "D_plddt": -11.8,
+   "X_plddt_decoy_gap": 10.5,
+   "D_pae": -0.669,
+   "X_pae_decoy_gap": 1.079,
+   "gain_rule_met": false,
+   "loss_rule_met": false
+  },
+  {
+   "seed": "2",
+   "derived_lig_plddt": 73.4,
+   "ancestral_lig_plddt": 83.7,
+   "derived_pae_min": 3.025,
+   "ancestral_pae_min": 2.135,
+   "D_plddt": -10.3,
+   "X_plddt_decoy_gap": 12.7,
+   "D_pae": -0.889,
+   "X_pae_decoy_gap": 0.915,
+   "gain_rule_met": false,
+   "loss_rule_met": false
+  },
+  {
+   "seed": "3",
+   "derived_lig_plddt": 77.2,
+   "ancestral_lig_plddt": 81.9,
+   "derived_pae_min": 2.297,
+   "ancestral_pae_min": 2.561,
+   "D_plddt": -4.7,
+   "X_plddt_decoy_gap": 13.8,
+   "D_pae": 0.264,
+   "X_pae_decoy_gap": 1.36,
+   "gain_rule_met": false,
+   "loss_rule_met": false
+  }
+ ],
+ "primary_readout": "ligand_plddt",
+ "blinding": {
+  "status": "UNBLINDED",
+  "prereg_requirement": "cofold.blinding: derived/ancestral labels hashed in file names; the agent scoring models sees no state label",
+  "what_actually_happened": "The folds themselves were run blind: inputs carried HMAC-hashed names and the state labels existed only in blind_key.json. But build() minted a fresh salt on every call, which destroyed the original key, and recovering it required matching each AF3 output back to its member by sequence identity. That reconstruction, and the debugging around it, happened BEFORE the final scoring pass, so the state labels were visible to me while the readouts were being produced.",
+  "honest_claim": "These four cases are reported as UNBLINDED. The readout code is deterministic and never receives a state label, so the measurements themselves are label-independent, but the preregistered blinding claim cannot be made for them.",
+  "remedy": "The salt is now persisted, so cases folded from here on can be scored without ever reconstructing the mapping, and will be labelled blinded."
+ }
+}

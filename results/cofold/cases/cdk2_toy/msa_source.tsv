@@ -1,0 +1,3 @@
+member	acc	state	source	n_seqs	depth_over_sqrtL	ticket
+human_CDK2	P24941	derived	colabfold_mmseqs2	20013	1159.32	KcWlpZpQZF772Cnuy_-S6HtpFDN31dmbOwUdLA
+CDK2_site_gly	P24941	ancestral	colabfold_mmseqs2	16847	975.92	MglOWdBBPj1w3OgNfgojzFAZadYkGBiav8YDcw

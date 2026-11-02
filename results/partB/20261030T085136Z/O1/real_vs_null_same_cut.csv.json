@@ -1,0 +1,10 @@
+{
+ "output": "real_vs_null_same_cut.csv",
+ "snapshot_id": "20261030T085136Z",
+ "prereg_sha256": "52f9461890984c210b730af86c40de221307a668e7d4b38098b3316059690d83",
+ "git_commit": "b2bb8f718761234093c47a9e8fb7597669362270+dirty",
+ "seed": 0,
+ "created_utc": "2026-10-30T13:56:36Z",
+ "sha256": "ff9f385a8a4f2d365440e1f6d84f55d0d3081dfda03fbc541199ad216bf30712",
+ "script": "scripts/partB/write_candidates.py"
+}

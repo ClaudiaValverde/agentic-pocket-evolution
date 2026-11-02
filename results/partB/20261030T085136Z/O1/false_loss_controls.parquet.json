@@ -1,0 +1,10 @@
+{
+ "output": "false_loss_controls.parquet",
+ "snapshot_id": "20261030T085136Z",
+ "prereg_sha256": "52f9461890984c210b730af86c40de221307a668e7d4b38098b3316059690d83",
+ "git_commit": "b2bb8f718761234093c47a9e8fb7597669362270+dirty",
+ "seed": 0,
+ "created_utc": "2026-10-30T13:56:36Z",
+ "sha256": "554b5bb5d4086fca2dad76e5c529454c4ac086b726e97cb8c748833d2505d634",
+ "script": "scripts/partB/write_candidates.py"
+}

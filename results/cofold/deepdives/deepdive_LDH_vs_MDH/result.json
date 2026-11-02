@@ -1,0 +1,126 @@
+{
+ "case": "deepdive_LDH_vs_MDH",
+ "verdict": "uninterpretable",
+ "positive_control_gate": {
+  "status": "run",
+  "pass": false,
+  "lig_rmsd": 2.66,
+  "centroid_dist": 1.39,
+  "site_recall": 0.62,
+  "lig_plddt": 86.3,
+  "threshold_A": 2.0,
+  "ref": "7rm9:MLI"
+ },
+ "interaction_lig_plddt_per_seed": [
+  18.88,
+  9.94,
+  17.48
+ ],
+ "interaction_neg_pae_per_seed": [
+  0.544,
+  0.294,
+  0.574
+ ],
+ "expected_sign": "positive",
+ "d23_contradiction": false,
+ "cells": {
+  "LDH+OAA": {
+   "binds": false,
+   "n_seeds_binding": 0,
+   "lig_plddt": {
+    "1": 86.7,
+    "2": 87.84,
+    "3": 85.36
+   },
+   "pae_min": {
+    "1": 1.224,
+    "2": 1.112,
+    "3": 1.254
+   },
+   "centroid": {
+    "1": 3.616,
+    "2": 3.636,
+    "3": 3.516
+   },
+   "recall": {
+    "1": 0.6,
+    "2": 0.6,
+    "3": 0.6
+   }
+  },
+  "LDH+PYR": {
+   "binds": false,
+   "n_seeds_binding": 0,
+   "lig_plddt": {
+    "1": 96.76,
+    "2": 93.78,
+    "3": 96.82
+   },
+   "pae_min": {
+    "1": 0.948,
+    "2": 1.022,
+    "3": 0.9359999999999999
+   },
+   "centroid": {
+    "1": 4.116,
+    "2": 4.592,
+    "3": 4.172000000000001
+   },
+   "recall": {
+    "1": 0.6,
+    "2": 0.4,
+    "3": 0.6
+   }
+  },
+  "MDH+OAA": {
+   "binds": true,
+   "n_seeds_binding": 3,
+   "lig_plddt": {
+    "1": 93.28,
+    "2": 92.72,
+    "3": 93.68
+   },
+   "pae_min": {
+    "1": 0.944,
+    "2": 0.952,
+    "3": 0.9359999999999999
+   },
+   "centroid": {
+    "1": 1.924,
+    "2": 1.948,
+    "3": 1.97
+   },
+   "recall": {
+    "1": 1.0,
+    "2": 1.0,
+    "3": 1.0
+   }
+  },
+  "MDH+PYR": {
+   "binds": false,
+   "n_seeds_binding": 0,
+   "lig_plddt": {
+    "1": 84.46,
+    "2": 88.72,
+    "3": 87.66
+   },
+   "pae_min": {
+    "1": 1.212,
+    "2": 1.156,
+    "3": 1.192
+   },
+   "centroid": {
+    "1": 2.792,
+    "2": 3.456,
+    "3": 3.476
+   },
+   "recall": {
+    "1": 0.736,
+    "2": 0.67,
+    "3": 0.67
+   }
+  }
+ },
+ "blinding": "BLINDED: readouts computed by collect() on hashed job names in one automated pass; labels attached only in deepdive_score.py, whose criterion was committed before the folds finished",
+ "criterion": "\"resolved\" only if I has the expected sign in ALL 3 seeds for\nligand pLDDT AND for min P-L PAE (sign-flipped, lower is better), and the frozen D23\ncomposite does not call a dispreferred pairing \"binds\" while a preferred one \"does not\".\nOne readout or not all seeds -> \"partial\"; otherwise \"not_resolved\". The positive-control\ngate (ligand RMSD <= 2 A) is applied first; failure -> \"uninterpretable\"."
+}

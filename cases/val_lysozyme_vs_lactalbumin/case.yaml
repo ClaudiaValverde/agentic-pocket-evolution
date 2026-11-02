@@ -1,0 +1,64 @@
+schema: case-v1
+case_id: val_lysozyme_vs_lactalbumin
+title: 'Validation (known answer): Lysozyme C vs alpha-lactalbumin: catalytic cleft function lost, Ca site gained'
+category: validation_known
+track: annotation-first
+label: rejected
+toy: false
+summary: 'Known answer: Mammalian duplication; LALBA lost lysozyme activity (cleft), gained Ca binding. Pipeline outcome:
+  O1: not recovered; O2: not recovered'
+og_id: HOG0027604
+sog_id: HOG0027604:g0
+proteins:
+- accession: P00709
+  role: derived
+  state_O1: P
+  state_O2: P
+- accession: P29752
+  role: derived
+  state_O1: P
+  state_O2: P
+- accession: P61626
+  role: ancestral
+  state_O1: P
+  state_O2: P
+filters:
+- name: persistence
+  status: fail
+  detail: 'O1: not recovered | SOG HOG0027604:g0 (max overlap with 12 experimental site residues of P61626: 6) | called events:
+    no Sankoff event (SOG not event-eligible: < 2 P or < 2 A members, or small footprint); O2: not recovered | SOG HOG0047027:g4
+    (max overlap with 12 experimental site residues of P61626: 6) | called events: events but none called'
+- name: experimental
+  status: pass
+  detail: 'known answer from the literature: Mammalian duplication; LALBA lost lysozyme activity (cleft), gained Ca binding
+    (DOIs below)'
+- name: computational
+  status: na
+  detail: 'O1: specificity 1 branch tests in SOG; on a derived-only clade: 0 (residue_pass 0, shift_pass 0, BH-called 0; min
+    q nan); artifact cascade no candidate at this SOG; O2: specificity not tested (no specificity run for this orthology);
+    artifact cascade no candidate at this SOG'
+artifact_checks:
+- name: artifact_cascade_O1
+  status: na
+  detail: no candidate at this SOG
+- name: artifact_cascade_O2
+  status: na
+  detail: no candidate at this SOG
+evidence:
+- type: doi
+  id: 10.3109/10409239709082574
+  about_change: true
+  filter: experimental
+  source: literature
+  detail: known-answer reference for lysozyme_vs_lactalbumin
+literature:
+- doi: 10.3109/10409239709082574
+cofold: []
+figures: []
+notes: label = whether the unchanged pipeline recovers the known event (supported) or not (rejected); f2 is the published
+  known answer, legitimately (annotation-first track). Not a discovery.
+provenance:
+  builder: scripts/cases/validation_track.py
+  snapshot: 20261030T085136Z
+  prereg_sha256: 52f9461890984c210b730af86c40de221307a668e7d4b38098b3316059690d83
+  git_commit: 9f9ba879c81bd222ebf214dbb5d5e6edbdc55763+dirty

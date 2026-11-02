@@ -1,0 +1,32 @@
+{
+ "output": "funnel.csv",
+ "snapshot_id": "20261030T085136Z",
+ "prereg_sha256": "52f9461890984c210b730af86c40de221307a668e7d4b38098b3316059690d83",
+ "git_commit": "3f11d4c7fd0ceb248d8cd72bc59ce8209f1f272d+dirty",
+ "seed": 0,
+ "created_utc": "2026-10-30T13:01:58Z",
+ "sha256": "7f326a2acaa3654b087f4f074abfa0b3cdb0e8f7eb2337f8ee1517ef5cf2f333",
+ "script": "scripts/partB/run_events.py",
+ "argv": [
+  "--sogs",
+  "results/partB/events/20261030T085136Z/O1/d11/tau0.2/primary/rescue",
+  "--orthology",
+  "O1",
+  "--snapshot",
+  "20261030T085136Z",
+  "--guide",
+  "data/orthology/ancestra_tier1_v0/tier1_guide_tree.nwk",
+  "--sog-meta",
+  "results/sogs/20261030T085136Z/O1/sogs_all_tau.parquet",
+  "--tau",
+  "0.2",
+  "--thresholds",
+  "results/partB/sim/measured/d11_primary_known_gt10/thresholds.json",
+  "--stratum",
+  "primary",
+  "--workers",
+  "4",
+  "--out",
+  "results/partB/events/20261030T085136Z/O1/d11/tau0.2/primary/rescue/events"
+ ]
+}

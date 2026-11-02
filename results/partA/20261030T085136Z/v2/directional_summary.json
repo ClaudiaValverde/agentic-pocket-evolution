@@ -1,0 +1,36 @@
+{
+ "sites_in_multispecies_sogs": 1179014,
+ "sog_sites_without_tree_leaf": 0,
+ "orientations_with_sog": 4174611,
+ "orientations_testable": 3126140,
+ "null_ortholog_n": 247901,
+ "null_random_n": 296338,
+ "null_ortholog_mean_sd_q95": [
+  0.23736605194533617,
+  0.630149254660085,
+  1.3385958671569824
+ ],
+ "null_random_mean_sd_q95": [
+  0.004794769913377757,
+  0.44588333385646484,
+  0.7383176594972589
+ ],
+ "q95_threshold": 1.3385958671569824,
+ "selected_orientations": 2541031,
+ "delta_tested_mean_sd_q50_q95_q99": [
+  0.2038065014759587,
+  0.5747193256192193,
+  0.14847807586193085,
+  1.2111950695514677,
+  1.9163364410400356
+ ],
+ "frac_selected_and_delta_gt_q95": 0.03723217770157446,
+ "sensitivity_random_null_only": {
+  "q95": 0.7383176594972589,
+  "passing_orientations": 11350
+ },
+ "testable_pairs": 2627453,
+ "testable_frac_of_tested_classes": 0.5144663072876557,
+ "passing_pairs": 3,
+ "wall_s": 216.6252887248993
+}

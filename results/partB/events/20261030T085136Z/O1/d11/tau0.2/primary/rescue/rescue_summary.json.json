@@ -1,0 +1,20 @@
+{
+ "output": "rescue_summary.json",
+ "snapshot_id": "20261030T085136Z",
+ "prereg_sha256": "52f9461890984c210b730af86c40de221307a668e7d4b38098b3316059690d83",
+ "git_commit": "3f11d4c7fd0ceb248d8cd72bc59ce8209f1f272d+dirty",
+ "seed": 0,
+ "created_utc": "2026-10-30T13:01:24Z",
+ "sha256": "fe0c1ea44be1baf302bdc5bbbe5dba8c8174366f0bd85f73a8fa7a438b776e5a",
+ "script": "scripts/partB/run_rescue.py",
+ "argv": [
+  "--tau",
+  "0.2",
+  "--events",
+  "results/partB/events/20261030T085136Z/O1/d11/tau0.2/primary",
+  "--states-dir",
+  "/tmp/pe_big/partB/20261030T085136Z/O1/states_d11_t0.2",
+  "--workers",
+  "16"
+ ]
+}

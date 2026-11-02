@@ -1,0 +1,171 @@
+{
+ "case": "cdk2_toy",
+ "d23_verdict": "uninformative_no_binding",
+ "reason": "no present-side member binds (0/1); at sensitivity 0.42 a non-binding call is weak, so this is absence of evidence, not evidence of absence",
+ "thresholds": {
+  "t_plddt": 92.0,
+  "t_centroid": 2.0,
+  "t_recall": 0.9,
+  "specificity": 0.9583,
+  "sensitivity": 0.4167,
+  "frozen_utc": "2026-10-30T16:13:27Z"
+ },
+ "threshold_file": "results/cofold/calibration/threshold.json",
+ "positive_control_gate": {
+  "status": "run",
+  "pass": true,
+  "lig_rmsd": 1.14,
+  "centroid_dist": 0.36,
+  "site_recall": 1.0,
+  "lig_plddt": 91.3,
+  "threshold_A": 2.0,
+  "ref": "1hck:ATP"
+ },
+ "n_present_binding": 0,
+ "n_present": 1,
+ "n_absent_binding": 0,
+ "n_absent": 1,
+ "members": [
+  {
+   "blind_id": "cdbaa262399b",
+   "member": "CDK2_site_gly",
+   "state": "ancestral",
+   "ligand_kind": "cognate",
+   "ligands": "ATP+MG",
+   "binds": false,
+   "n_seeds_binding": 0,
+   "per_seed": {
+    "1": {
+     "lig_plddt": 46.78,
+     "centroid": 0.916,
+     "recall": 0.818,
+     "plddt_ok": false,
+     "geometry_ok": true,
+     "binds": false
+    },
+    "2": {
+     "lig_plddt": 47.62,
+     "centroid": 1.244,
+     "recall": 0.718,
+     "plddt_ok": false,
+     "geometry_ok": true,
+     "binds": false
+    },
+    "3": {
+     "lig_plddt": 47.4,
+     "centroid": 1.274,
+     "recall": 0.728,
+     "plddt_ok": false,
+     "geometry_ok": true,
+     "binds": false
+    }
+   }
+  },
+  {
+   "blind_id": "13425178967c",
+   "member": "CDK2_site_gly",
+   "state": "ancestral",
+   "ligand_kind": "decoy1",
+   "ligands": "CFF+MG",
+   "binds": false,
+   "n_seeds_binding": 0,
+   "per_seed": {
+    "1": {
+     "lig_plddt": 41.04,
+     "centroid": 5.466,
+     "recall": 0.35200000000000004,
+     "plddt_ok": false,
+     "geometry_ok": false,
+     "binds": false
+    },
+    "2": {
+     "lig_plddt": 43.9,
+     "centroid": 6.118,
+     "recall": 0.346,
+     "plddt_ok": false,
+     "geometry_ok": false,
+     "binds": false
+    },
+    "3": {
+     "lig_plddt": 44.22,
+     "centroid": 4.86,
+     "recall": 0.454,
+     "plddt_ok": false,
+     "geometry_ok": false,
+     "binds": false
+    }
+   }
+  },
+  {
+   "blind_id": "6ef89a774e07",
+   "member": "human_CDK2",
+   "state": "derived",
+   "ligand_kind": "cognate",
+   "ligands": "ATP+MG",
+   "binds": false,
+   "n_seeds_binding": 0,
+   "per_seed": {
+    "1": {
+     "lig_plddt": 90.84,
+     "centroid": 1.834,
+     "recall": 1.0,
+     "plddt_ok": false,
+     "geometry_ok": true,
+     "binds": false
+    },
+    "2": {
+     "lig_plddt": 90.62,
+     "centroid": 1.828,
+     "recall": 1.0,
+     "plddt_ok": false,
+     "geometry_ok": true,
+     "binds": false
+    },
+    "3": {
+     "lig_plddt": 90.84,
+     "centroid": 1.842,
+     "recall": 1.0,
+     "plddt_ok": false,
+     "geometry_ok": true,
+     "binds": false
+    }
+   }
+  },
+  {
+   "blind_id": "fa336ca4b92d",
+   "member": "human_CDK2",
+   "state": "derived",
+   "ligand_kind": "decoy1",
+   "ligands": "CFF+MG",
+   "binds": false,
+   "n_seeds_binding": 0,
+   "per_seed": {
+    "1": {
+     "lig_plddt": 73.54,
+     "centroid": 3.576,
+     "recall": 0.574,
+     "plddt_ok": false,
+     "geometry_ok": false,
+     "binds": false
+    },
+    "2": {
+     "lig_plddt": 70.98,
+     "centroid": 3.5,
+     "recall": 0.59,
+     "plddt_ok": false,
+     "geometry_ok": false,
+     "binds": false
+    },
+    "3": {
+     "lig_plddt": 73.18,
+     "centroid": 3.616,
+     "recall": 0.53,
+     "plddt_ok": false,
+     "geometry_ok": false,
+     "binds": false
+    }
+   }
+  }
+ ],
+ "legacy_dvx_verdict": "inconclusive"
+}

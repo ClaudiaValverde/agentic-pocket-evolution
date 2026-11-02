@@ -1,0 +1,26 @@
+{
+ "orthoxml": "data/orthology/ancestra_O2/accurate/hogs.orthoxml.gz",
+ "n_proteins": 1549554,
+ "n_in_groups": 1234439,
+ "n_root_hogs": 57332,
+ "n_groups": 815733,
+ "n_ortholog_groups": 638734,
+ "n_paralog_groups": 176999,
+ "max_root_size": 5324,
+ "frac_in_groups_per_species": {
+  "median": 0.8196955280685062,
+  "min": 0.41437987118763,
+  "lowest": {
+   "UP000023152_46433": 0.414,
+   "UP000315496_5742": 0.426,
+   "UP000298663_34508": 0.527,
+   "UP000179807_1144522": 0.532,
+   "UP000054653_45882": 0.532,
+   "UP000005240_630390": 0.534,
+   "UP000006906_3055": 0.549,
+   "UP000321408_2594042": 0.572
+  }
+ },
+ "levels_without_taxid": [],
+ "seconds": 22.4
+}

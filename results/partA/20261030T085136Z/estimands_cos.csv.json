@@ -1,0 +1,18 @@
+{
+ "snapshot_id": "20261030T085136Z",
+ "prereg_sha256": "52f9461890984c210b730af86c40de221307a668e7d4b38098b3316059690d83",
+ "git_commit": "bab66c35d56fb89cc22c6d6b76f67b86b06759d4+dirty",
+ "seed": 0,
+ "code_sha256_16": {
+  "estimands.py": "9602b81d549a9847",
+  "homology.py": "36d581570f088da9",
+  "nulls.py": "6f193b3d663c550d",
+  "pairs.py": "d2bbc75a8782aff3"
+ },
+ "written_utc": "2026-10-30T11:33:57Z",
+ "stage": "estimands_cos",
+ "n_boot": 200,
+ "primary_variant": "pooled",
+ "E_primary": 0.01,
+ "wall_s": 1068.6068506240845
+}

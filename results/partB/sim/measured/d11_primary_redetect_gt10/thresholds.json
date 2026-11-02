@@ -1,0 +1,141 @@
+{
+ "schema": "partb-thresholds-v1",
+ "prereg_sha256": "52f9461890984c210b730af86c40de221307a668e7d4b38098b3316059690d83",
+ "snapshot_id": "20261030T085136Z",
+ "event_fdr_target": 0.1,
+ "pi_ref": 0.05,
+ "reference_noise_multiplier": 1.0,
+ "noise_model": {
+  "false_A": 0.0031825770976370306,
+  "false_P": 0.020000000000000004,
+  "w_present": 0.010159765350148982,
+  "u_present": 0.1282546842908535,
+  "u_absent": 0.9789218989642525,
+  "w_absent": 0.35,
+  "heterogeneity": 0.0,
+  "source": "measured 20261030T085136Z (redetect miss model, footprint gt10, primary A, rescue k=1 D9)"
+ },
+ "noise_model_is_placeholder": false,
+ "frozen_rules": {
+  "gain_min_species": 3,
+  "gain_min_frac_present": 0.8,
+  "gain_min_absent_members_out": 2,
+  "gain_min_out_lineages": 2,
+  "loss_min_out_lineages_present": 2,
+  "loss_min_species_absent": 2,
+  "loss_min_frac_absent": 0.8,
+  "gain_min_species_cal": 3,
+  "loss_min_species_cal": 2,
+  "gain_min_margin": 0.0,
+  "loss_min_margin": 0.0,
+  "gain_min_out_lineages_cal": 2,
+  "loss_min_out_lineages_cal": 2,
+  "require_unambiguous": true
+ },
+ "chosen": {
+  "1:1": {
+   "gain": {
+    "min_species": 3,
+    "min_margin": 1.0,
+    "min_out_lineages": 2,
+    "recall": 0.008092251669026907,
+    "fdr": 0.05372605855469349,
+    "fdr_all_pi": {
+     "0.02": 0.062304627262873696,
+     "0.05": 0.05372605855469349,
+     "0.1": 0.05083154824221917,
+     "0.2": 0.04937764250915883
+    },
+    "fdr_strict": 0.061934134874541254,
+    "recall_consistent": 0.008163058871130892,
+    "false_calls_per_null_sog": 1.3153394891221425e-06
+   },
+   "loss": {
+    "min_species": 3,
+    "min_margin": 1.0,
+    "min_out_lineages": 4,
+    "recall": 1.0651669116550563e-05,
+    "fdr": 0.0,
+    "fdr_all_pi": {
+     "0.02": 0.0,
+     "0.05": 0.0,
+     "0.1": 0.0,
+     "0.2": 0.0
+    },
+    "fdr_strict": 0.0,
+    "recall_consistent": 1.0651669116550563e-05,
+    "false_calls_per_null_sog": 0.0
+   }
+  },
+  "2:1": {
+   "gain": {
+    "min_species": 3,
+    "min_margin": 1.0,
+    "min_out_lineages": 2,
+    "recall": 0.0013048755816305888,
+    "fdr": 0.048780487804878044,
+    "fdr_all_pi": {
+     "0.02": 0.04878048780487805,
+     "0.05": 0.048780487804878044,
+     "0.1": 0.048780487804878044,
+     "0.2": 0.048780487804878044
+    },
+    "fdr_strict": 0.056097560975609743,
+    "recall_consistent": 0.0013149908962168722,
+    "false_calls_per_null_sog": 0.0
+   },
+   "loss": {
+    "min_species": 2,
+    "min_margin": 2.0,
+    "min_out_lineages": 3,
+    "recall": 1.2782002939860676e-05,
+    "fdr": 0.0,
+    "fdr_all_pi": {
+     "0.02": 0.0,
+     "0.05": 0.0,
+     "0.1": 0.0,
+     "0.2": 0.0
+    },
+    "fdr_strict": 0.0,
+    "recall_consistent": 1.2782002939860676e-05,
+    "false_calls_per_null_sog": 0.0
+   }
+  },
+  "3:1": {
+   "gain": {
+    "min_species": 3,
+    "min_margin": 1.0,
+    "min_out_lineages": 2,
+    "recall": 0.00033717715287612113,
+    "fdr": 0.04761904761904762,
+    "fdr_all_pi": {
+     "0.02": 0.047619047619047616,
+     "0.05": 0.04761904761904762,
+     "0.1": 0.04761904761904762,
+     "0.2": 0.04761904761904762
+    },
+    "fdr_strict": 0.04761904761904762,
+    "recall_consistent": 0.00033717715287612113,
+    "false_calls_per_null_sog": 0.0
+   },
+   "loss": {
+    "min_species": 2,
+    "min_margin": 2.0,
+    "min_out_lineages": 3,
+    "recall": 1.0651669116550563e-05,
+    "fdr": 0.0,
+    "fdr_all_pi": {
+     "0.02": 0.0,
+     "0.05": 0.0,
+     "0.1": 0.0,
+     "0.2": 0.0
+    },
+    "fdr_strict": 0.0,
+    "recall_consistent": 1.0651669116550563e-05,
+    "false_calls_per_null_sog": 0.0
+   }
+  }
+ },
+ "apply": "Rules.from_prereg(calibrated={'gain_min_species_cal': chosen['2:1']['gain']['min_species'], 'gain_min_margin': ..., 'loss_min_species_cal': ..., 'loss_min_margin': ...})",
+ "real_data_rule": "on real SOGs, re-check FDR with events.empirical_fdr(null calls per SOG from a simulation on the same trees with measured rates, n_real_sogs, n_real_calls)"
+}

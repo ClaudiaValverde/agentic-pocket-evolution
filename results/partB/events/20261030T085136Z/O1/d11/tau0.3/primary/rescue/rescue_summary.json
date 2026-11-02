@@ -1,0 +1,27 @@
+{
+ "k": 1,
+ "hit_tau": 0.3,
+ "tau": 0.3,
+ "n_sogs": 912,
+ "n_PA_rows": 24704,
+ "n_proteins": 21429,
+ "models": {
+  "multi_fragment": 1,
+  "no_model": 0,
+  "extracted": 21428
+ },
+ "failures": {
+  "no_footprint": 0,
+  "burrow_output_missing": 0
+ },
+ "burrow_s": 1302.0574016571045,
+ "n_rescue_rows": 24703,
+ "A_to_W": 5806,
+ "P_to_W": 0,
+ "A_to_U_not_rescued": 0,
+ "A_before": 14482,
+ "A_after": 8676,
+ "P_before": 10222,
+ "P_after": 10222,
+ "runtime_s": 1776.8750584125519
+}

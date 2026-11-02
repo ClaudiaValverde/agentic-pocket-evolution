@@ -1,0 +1,35 @@
+{
+ "snapshot_id": "20261031T020009Z",
+ "prereg_sha256": "52f9461890984c210b730af86c40de221307a668e7d4b38098b3316059690d83",
+ "git_commit": "088fd121bb1e6739fed0cfb0a27864b2e009bf9c",
+ "seed": 0,
+ "code_version": "088fd121bb1e6739fed0cfb0a27864b2e009bf9c",
+ "decision": "D20",
+ "o1_run": "/tmp/pe_big/sogs/20261031T020009Z/O1_g5",
+ "o2_run": "/tmp/pe_big/sogs/20261031T020009Z/O2_g5",
+ "all_ogs": {
+  "test": 23019,
+  "tune": 22900,
+  "crossover": 11413
+ },
+ "eligible_ogs": {
+  "test": 12220,
+  "tune": 12099,
+  "crossover": 10774
+ },
+ "eligible_by_hash_half": {
+  "test->crossover": 5374,
+  "test->test": 12220,
+  "tune->crossover": 5400,
+  "tune->tune": 12099
+ },
+ "forced_test_crossover": 5,
+ "benchmark_pairs": {
+  "crossover|neg": 6970,
+  "crossover|pos": 30790,
+  "test|neg": 1177,
+  "test|pos": 3020,
+  "tune|neg": 1196,
+  "tune|pos": 4399
+ }
+}

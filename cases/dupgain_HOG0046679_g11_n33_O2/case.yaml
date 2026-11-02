@@ -1,0 +1,763 @@
+schema: case-v1
+case_id: dupgain_HOG0046679_g11_n33_O2
+title: 'Duplication-associated gain (exploratory, not preregistered): HOG0046679:g11 (Gnathostomata)'
+category: duplication_gain_exploratory
+track: discovery
+label: rejected
+toy: false
+summary: 'SOG HOG0046679:g11: pocket gained on one copy after a duplication (Gnathostomata). Not preregistered;
+  the null is selection-conditioned. Not counted in headline numbers.'
+og_id: HOG0046679
+sog_id: HOG0046679:g11
+score: 0.0
+proteins:
+- accession: A0A0A2V3M4
+  taxid: 502779
+  species: '502779'
+  role: outgroup
+  side: absent
+  state: U
+  footprint_plddt: 82.55769348144531
+  reason: aligned<0.8
+  gene: null
+  protein_name: DNA polymerase epsilon subunit C
+  rescue_settings_hit: null
+  residues: A:383 A:384 A:385 A:387 A:391 A:417 A:433 A:434 A:437 A:438 A:551 A:552 A:553
+  n_site_evidence: 0
+- accession: A0A0D2HAB4
+  taxid: 1442368
+  species: '1442368'
+  role: outgroup
+  side: absent
+  state: U
+  footprint_plddt: 83.48076629638672
+  reason: aligned<0.8
+  gene: null
+  protein_name: FHF complex subunit HOOK-interacting protein C-terminal domain-containing protei
+  rescue_settings_hit: null
+  residues: A:382 A:383 A:384 A:386 A:390 A:416 A:432 A:433 A:436 A:437 A:548 A:549 A:550
+  n_site_evidence: 0
+- accession: A0A162N1X2
+  taxid: 763407
+  species: '763407'
+  role: outgroup
+  side: absent
+  state: U
+  footprint_plddt: 74.54412078857422
+  reason: length_ratio
+  gene: ''
+  protein_name: ''
+  rescue_settings_hit: null
+  residues: A:454 A:455 A:456 A:458 A:500 A:518 A:520 A:521 A:524 A:542 A:556 A:557 A:560 A:561 A:724
+    A:725 A:726
+  n_site_evidence: 0
+- accession: A0A162UBH7
+  taxid: 763407
+  species: '763407'
+  role: outgroup
+  side: absent
+  state: U
+  footprint_plddt: 65.44230651855469
+  reason: partial_site_overlap
+  gene: ''
+  protein_name: ''
+  rescue_settings_hit: null
+  residues: A:396 A:397 A:398 A:400 A:408 A:419 A:440 A:441 A:444 A:445 A:602 A:603 A:604
+  n_site_evidence: 0
+- accession: A0A162ZJV5
+  taxid: 763407
+  species: '763407'
+  role: outgroup
+  side: absent
+  state: U
+  footprint_plddt: 62.44230651855469
+  reason: aligned<0.8
+  gene: ''
+  protein_name: ''
+  rescue_settings_hit: null
+  residues: A:397 A:398 A:399 A:401 A:408 A:419 A:440 A:441 A:444 A:445 A:603 A:604 A:605
+  n_site_evidence: 0
+- accession: A0A175W1K4
+  taxid: 100816
+  species: '100816'
+  role: outgroup
+  side: absent
+  state: U
+  footprint_plddt: 84.05769348144531
+  reason: aligned<0.8
+  gene: null
+  protein_name: FHF complex subunit HOOK-interacting protein C-terminal domain-containing protei
+  rescue_settings_hit: null
+  residues: A:395 A:396 A:397 A:399 A:403 A:428 A:445 A:446 A:449 A:450 A:578 A:579 A:580
+  n_site_evidence: 0
+- accession: A0A1C1CNW8
+  taxid: 86049
+  species: '86049'
+  role: outgroup
+  side: absent
+  state: U
+  footprint_plddt: 83.51923370361328
+  reason: partial_site_overlap
+  gene: null
+  protein_name: DNA polymerase epsilon subunit C
+  rescue_settings_hit: null
+  residues: A:384 A:385 A:386 A:388 A:392 A:418 A:434 A:435 A:438 A:439 A:550 A:551 A:552
+  n_site_evidence: 0
+- accession: A0A4W3GY18
+  taxid: 7868
+  species: '7868'
+  role: derived
+  side: present
+  state: P
+  footprint_plddt: 67.71428680419922
+  reason: ''
+  gene: ''
+  protein_name: ''
+  rescue_settings_hit: null
+  residues: A:352 A:353 A:354 A:356 A:362 A:371 A:373 A:374 A:377 A:395 A:409 A:410 A:413 A:414
+  n_site_evidence: 0
+- accession: A0A4W3H766
+  taxid: 7868
+  species: '7868'
+  role: outgroup
+  side: absent
+  state: A
+  footprint_plddt: 94.60294342041016
+  reason: rescue:negative
+  gene: ''
+  protein_name: ''
+  rescue_settings_hit: 0
+  residues: A:436 A:437 A:438 A:440 A:444 A:452 A:454 A:455 A:458 A:476 A:490 A:491 A:494 A:495 A:634
+    A:635 A:636
+  n_site_evidence: 0
+- accession: A0A5M9J3Z1
+  taxid: 38448
+  species: '38448'
+  role: outgroup
+  side: absent
+  state: U
+  footprint_plddt: 78.86538696289062
+  reason: aligned<0.8
+  gene: ''
+  protein_name: ''
+  rescue_settings_hit: null
+  residues: A:396 A:397 A:398 A:400 A:403 A:428 A:444 A:445 A:448 A:449 A:577 A:578 A:579
+  n_site_evidence: 0
+- accession: A0A670HN16
+  taxid: 64176
+  species: '64176'
+  role: outgroup
+  side: absent
+  state: A
+  footprint_plddt: 94.80882263183594
+  reason: rescue:negative
+  gene: ''
+  protein_name: ''
+  rescue_settings_hit: 0
+  residues: A:445 A:446 A:447 A:449 A:453 A:462 A:464 A:465 A:468 A:486 A:500 A:501 A:504 A:505 A:644
+    A:645 A:646
+  n_site_evidence: 0
+- accession: A0A670J362
+  taxid: 64176
+  species: '64176'
+  role: derived
+  side: present
+  state: P
+  footprint_plddt: 86.6617660522461
+  reason: ''
+  gene: ''
+  protein_name: ''
+  rescue_settings_hit: null
+  residues: A:509 A:510 A:511 A:513 A:517 A:529 A:531 A:532 A:535 A:553 A:567 A:568 A:571 A:572 A:706
+    A:707 A:708
+  n_site_evidence: 0
+- accession: A0A674HS44
+  taxid: 59729
+  species: '59729'
+  role: outgroup
+  side: absent
+  state: A
+  footprint_plddt: 95.63235473632812
+  reason: rescue:negative
+  gene: ''
+  protein_name: ''
+  rescue_settings_hit: 0
+  residues: A:434 A:435 A:436 A:438 A:442 A:451 A:453 A:454 A:457 A:475 A:489 A:490 A:493 A:494 A:633
+    A:634 A:635
+  n_site_evidence: 0
+- accession: A0A6J3I4X8
+  taxid: 9515
+  species: '9515'
+  role: outgroup
+  side: absent
+  state: A
+  footprint_plddt: 95.86764526367188
+  reason: ''
+  gene: ''
+  protein_name: ''
+  rescue_settings_hit: null
+  residues: A:434 A:435 A:436 A:438 A:442 A:451 A:453 A:454 A:457 A:475 A:489 A:490 A:493 A:494 A:633
+    A:634 A:635
+  n_site_evidence: 0
+- accession: A0A6J3IP72
+  taxid: 9515
+  species: '9515'
+  role: derived
+  side: other
+  state: U
+  footprint_plddt: 91.57353210449219
+  reason: partial_site_overlap
+  gene: ''
+  protein_name: ''
+  rescue_settings_hit: null
+  residues: null
+  n_site_evidence: 0
+- accession: A0A6P5JD86
+  taxid: 38626
+  species: '38626'
+  role: derived
+  side: present
+  state: P
+  footprint_plddt: 88.92646789550781
+  reason: ''
+  gene: ''
+  protein_name: ''
+  rescue_settings_hit: null
+  residues: A:409 A:410 A:411 A:413 A:417 A:425 A:427 A:428 A:431 A:449 A:463 A:464 A:467 A:468 A:593
+    A:594 A:595
+  n_site_evidence: 0
+- accession: A0A6P5KFK0
+  taxid: 38626
+  species: '38626'
+  role: outgroup
+  side: absent
+  state: A
+  footprint_plddt: 95.48529052734375
+  reason: rescue:negative
+  gene: ''
+  protein_name: ''
+  rescue_settings_hit: 0
+  residues: A:434 A:435 A:436 A:438 A:442 A:451 A:453 A:454 A:457 A:475 A:489 A:490 A:493 A:494 A:633
+    A:634 A:635
+  n_site_evidence: 0
+- accession: A0A6P8R815
+  taxid: 260995
+  species: '260995'
+  role: derived
+  side: other
+  state: A
+  footprint_plddt: 94.86764526367188
+  reason: rescue:negative
+  gene: ''
+  protein_name: ''
+  rescue_settings_hit: 0
+  residues: null
+  n_site_evidence: 0
+- accession: A0A6P8RAR7
+  taxid: 260995
+  species: '260995'
+  role: outgroup
+  side: absent
+  state: A
+  footprint_plddt: 95.69117736816406
+  reason: rescue:negative
+  gene: ''
+  protein_name: ''
+  rescue_settings_hit: 0
+  residues: A:430 A:431 A:432 A:434 A:438 A:447 A:449 A:450 A:453 A:471 A:485 A:486 A:489 A:490 A:625
+    A:626 A:627
+  n_site_evidence: 0
+- accession: A0A7J8BQ23
+  taxid: 9407
+  species: '9407'
+  role: derived
+  side: present
+  state: P
+  footprint_plddt: 86.19117736816406
+  reason: ''
+  gene: ''
+  protein_name: ''
+  rescue_settings_hit: null
+  residues: A:404 A:405 A:406 A:408 A:412 A:420 A:422 A:423 A:426 A:444 A:458 A:459 A:462 A:463 A:589
+    A:590 A:591
+  n_site_evidence: 0
+- accession: A0A7J8G7F7
+  taxid: 9407
+  species: '9407'
+  role: outgroup
+  side: absent
+  state: A
+  footprint_plddt: 95.63235473632812
+  reason: rescue:negative
+  gene: ''
+  protein_name: ''
+  rescue_settings_hit: 0
+  residues: A:435 A:436 A:437 A:439 A:443 A:452 A:454 A:455 A:458 A:476 A:490 A:491 A:494 A:495 A:634
+    A:635 A:636
+  n_site_evidence: 0
+- accession: A0A7M7NSS5
+  taxid: 7668
+  species: '7668'
+  role: outgroup
+  side: absent
+  state: A
+  footprint_plddt: 95.19117736816406
+  reason: rescue:negative
+  gene: ''
+  protein_name: ''
+  rescue_settings_hit: 0
+  residues: A:372 A:373 A:374 A:376 A:380 A:388 A:390 A:391 A:394 A:412 A:426 A:427 A:430 A:431 A:755
+    A:756 A:757
+  n_site_evidence: 0
+- accession: A0ACM8QGW9
+  taxid: 10116
+  species: '10116'
+  role: derived
+  side: other
+  state: U
+  footprint_plddt: 88.8382339477539
+  reason: model_sequence_mismatch
+  gene: ''
+  protein_name: ''
+  rescue_settings_hit: null
+  residues: null
+  n_site_evidence: 0
+- accession: A0JPF5
+  taxid: 7955
+  species: '7955'
+  role: derived
+  side: other
+  state: U
+  footprint_plddt: 95.27941131591797
+  reason: partial_site_overlap
+  gene: fhip2b
+  protein_name: FHF complex subunit HOOK-interacting protein 2B
+  rescue_settings_hit: null
+  residues: null
+  n_site_evidence: 0
+- accession: A7RQK0
+  taxid: 45351
+  species: '45351'
+  role: outgroup
+  side: absent
+  state: U
+  footprint_plddt: 90.36764526367188
+  reason: partial_site_overlap
+  gene: ''
+  protein_name: ''
+  rescue_settings_hit: null
+  residues: A:389 A:390 A:391 A:393 A:397 A:406 A:408 A:409 A:412 A:430 A:444 A:445 A:448 A:449 A:573
+    A:574 A:575
+  n_site_evidence: 0
+- accession: B8A6I4
+  taxid: 7955
+  species: '7955'
+  role: outgroup
+  side: absent
+  state: A
+  footprint_plddt: 95.95587921142578
+  reason: rescue:negative
+  gene: fhip2a
+  protein_name: FHF complex subunit HOOK interacting protein 2A isoform 1
+  rescue_settings_hit: 0
+  residues: A:413 A:414 A:415 A:417 A:421 A:430 A:432 A:433 A:436 A:454 A:468 A:469 A:472 A:473 A:613
+    A:614 A:615
+  n_site_evidence: 0
+- accession: C0NA50
+  taxid: 447093
+  species: '447093'
+  role: outgroup
+  side: absent
+  state: U
+  footprint_plddt: 83.67308044433594
+  reason: aligned<0.8
+  gene: null
+  protein_name: FHF complex subunit HOOK-interacting protein C-terminal domain-containing protei
+  rescue_settings_hit: null
+  residues: A:381 A:382 A:383 A:385 A:389 A:415 A:431 A:432 A:435 A:436 A:548 A:549 A:550
+  n_site_evidence: 0
+- accession: D4A3I5
+  taxid: 10116
+  species: '10116'
+  role: outgroup
+  side: absent
+  state: U
+  footprint_plddt: 96.75
+  reason: model_sequence_mismatch
+  gene: Fhip2a
+  protein_name: FHF complex subunit HOOK interacting protein 2A
+  rescue_settings_hit: null
+  residues: A:434 A:435 A:436 A:438 A:442 A:451 A:453 A:454 A:457 A:475 A:489 A:490 A:493 A:494 A:632
+    A:633 A:634
+  n_site_evidence: 0
+- accession: F2SM35
+  taxid: 559305
+  species: '559305'
+  role: outgroup
+  side: absent
+  state: U
+  footprint_plddt: 70.3499984741211
+  reason: aligned<0.8
+  gene: ''
+  protein_name: ''
+  rescue_settings_hit: null
+  residues: A:395 A:396 A:397 A:399 A:403 A:430 A:446 A:447 A:450 A:451
+  n_site_evidence: 0
+- accession: F2U974
+  taxid: 946362
+  species: '946362'
+  role: outgroup
+  side: absent
+  state: U
+  footprint_plddt: 82.17308044433594
+  reason: partial_site_overlap
+  gene: ''
+  protein_name: ''
+  rescue_settings_hit: null
+  residues: A:369 A:370 A:371 A:373 A:377 A:397 A:411 A:412 A:415 A:416 A:524 A:525 A:526
+  n_site_evidence: 0
+- accession: I3IWT4
+  taxid: 8128
+  species: '8128'
+  role: derived
+  side: other
+  state: U
+  footprint_plddt: 92.71154022216797
+  reason: aligned<0.8
+  gene: ''
+  protein_name: ''
+  rescue_settings_hit: null
+  residues: null
+  n_site_evidence: 0
+- accession: I3JV87
+  taxid: 8128
+  species: '8128'
+  role: outgroup
+  side: absent
+  state: A
+  footprint_plddt: 93.48529052734375
+  reason: rescue:negative
+  gene: ''
+  protein_name: ''
+  rescue_settings_hit: 0
+  residues: A:456 A:457 A:458 A:460 A:464 A:473 A:475 A:476 A:479 A:497 A:511 A:512 A:515 A:516 A:654
+    A:655 A:656
+  n_site_evidence: 0
+- accession: J9VKM1
+  taxid: 235443
+  species: '235443'
+  role: outgroup
+  side: absent
+  state: U
+  footprint_plddt: 79.25
+  reason: aligned<0.8
+  gene: ''
+  protein_name: ''
+  rescue_settings_hit: null
+  residues: A:492 A:493 A:494 A:496 A:522 A:543 A:544 A:547 A:548 A:713 A:714 A:715
+  n_site_evidence: 0
+- accession: L8H654
+  taxid: 1257118
+  species: '1257118'
+  role: outgroup
+  side: absent
+  state: U
+  footprint_plddt: 37.91666793823242
+  reason: plddt<90
+  gene: ''
+  protein_name: ''
+  rescue_settings_hit: null
+  residues: A:266 A:267 A:268 A:270 A:280 A:282 A:283 A:286 A:304 A:315 A:318 A:319 A:396 A:397 A:398
+  n_site_evidence: 0
+- accession: Q55D58
+  taxid: 44689
+  species: '44689'
+  role: outgroup
+  side: absent
+  state: U
+  footprint_plddt: 80.60294342041016
+  reason: length_ratio
+  gene: null
+  protein_name: FHF complex subunit HOOK-interacting protein C-terminal domain-containing protei
+  rescue_settings_hit: null
+  residues: A:513 A:514 A:515 A:517 A:539 A:561 A:563 A:564 A:567 A:585 A:599 A:600 A:603 A:604 A:778
+    A:779 A:780
+  n_site_evidence: 0
+- accession: Q5W0V3
+  taxid: 9606
+  species: '9606'
+  role: outgroup
+  side: absent
+  state: W
+  footprint_plddt: 97.80882263183594
+  reason: rescue:min_score_none
+  gene: FHIP2A
+  protein_name: FHF complex subunit HOOK interacting protein 2A
+  rescue_settings_hit: 1
+  residues: A:434 A:435 A:436 A:438 A:442 A:451 A:453 A:454 A:457 A:475 A:489 A:490 A:493 A:494 A:633
+    A:634 A:635
+  n_site_evidence: 0
+- accession: Q80YR2
+  taxid: 10090
+  species: '10090'
+  role: derived
+  side: present
+  state: P
+  footprint_plddt: 87.48529052734375
+  reason: ''
+  gene: Fhip2b
+  protein_name: FHF complex subunit HOOK-interacting protein 2B
+  rescue_settings_hit: null
+  residues: A:417 A:418 A:419 A:421 A:425 A:433 A:435 A:436 A:439 A:457 A:471 A:472 A:475 A:476 A:602
+    A:603 A:604
+  n_site_evidence: 0
+- accession: Q86V87
+  taxid: 9606
+  species: '9606'
+  role: derived
+  side: other
+  state: U
+  footprint_plddt: 92.80882263183594
+  reason: partial_site_overlap
+  gene: FHIP2B
+  protein_name: FHF complex subunit HOOK-interacting protein 2B
+  rescue_settings_hit: null
+  residues: null
+  n_site_evidence: 0
+- accession: Q8CDM8
+  taxid: 10090
+  species: '10090'
+  role: outgroup
+  side: absent
+  state: A
+  footprint_plddt: 97.80882263183594
+  reason: rescue:negative
+  gene: Fhip2a
+  protein_name: FHF complex subunit HOOK interacting protein 2A
+  rescue_settings_hit: 0
+  residues: A:434 A:435 A:436 A:438 A:442 A:451 A:453 A:454 A:457 A:475 A:489 A:490 A:493 A:494 A:632
+    A:633 A:634
+  n_site_evidence: 0
+- accession: T0RQ95
+  taxid: 1156394
+  species: '1156394'
+  role: outgroup
+  side: absent
+  state: U
+  footprint_plddt: 83.30882263183594
+  reason: plddt<90
+  gene: ''
+  protein_name: ''
+  rescue_settings_hit: null
+  residues: A:419 A:420 A:421 A:423 A:427 A:456 A:458 A:459 A:462 A:480 A:493 A:494 A:497 A:498 A:630
+    A:631 A:632
+  n_site_evidence: 0
+- accession: U7Q1L0
+  taxid: 1391915
+  species: '1391915'
+  role: outgroup
+  side: absent
+  state: U
+  footprint_plddt: 69.90384674072266
+  reason: aligned<0.8
+  gene: null
+  protein_name: Uncharacterized protein
+  rescue_settings_hit: null
+  residues: A:363 A:364 A:365 A:367 A:371 A:396 A:413 A:414 A:417 A:418 A:541 A:542 A:543
+  n_site_evidence: 0
+- accession: V3ZD16
+  taxid: 225164
+  species: '225164'
+  role: outgroup
+  side: absent
+  state: U
+  footprint_plddt: null
+  reason: aligned<0.8
+  gene: ''
+  protein_name: ''
+  rescue_settings_hit: null
+  residues: null
+  n_site_evidence: 0
+- accession: V3ZN32
+  taxid: 225164
+  species: '225164'
+  role: outgroup
+  side: absent
+  state: A
+  footprint_plddt: 92.25
+  reason: rescue:negative
+  gene: ''
+  protein_name: ''
+  rescue_settings_hit: 0
+  residues: A:420 A:421 A:422 A:424 A:428 A:436 A:438 A:439 A:442 A:460 A:474 A:475 A:478 A:479 A:602
+    A:603 A:604
+  n_site_evidence: 0
+- accession: W7MIF4
+  taxid: 334819
+  species: '334819'
+  role: outgroup
+  side: absent
+  state: U
+  footprint_plddt: 80.01923370361328
+  reason: aligned<0.8
+  gene: ''
+  protein_name: ''
+  rescue_settings_hit: null
+  residues: A:395 A:396 A:397 A:399 A:403 A:428 A:445 A:446 A:449 A:450 A:575 A:576 A:577
+  n_site_evidence: 0
+- accession: A0A0C4EVY4
+  taxid: 630390
+  species: '630390'
+  role: outgroup
+  side: absent
+  state: U
+  footprint_plddt: null
+  reason: no_model
+  gene: ''
+  protein_name: ''
+  rescue_settings_hit: null
+  residues: null
+  n_site_evidence: 0
+filters:
+- name: persistence
+  status: pass
+  detail: 'P in 5 derived species (purity 0.83 of informative derived members; 0.31 over all members under
+    the species-tree LCA: scattered); single tree-consistent event: True; outgroup support: A in 12 outgroup
+    species'
+- name: experimental
+  status: fail
+  detail: no experimental evidence at the footprint
+- name: computational
+  status: fail
+  detail: 'conservation: fail (0/17 footprint columns clade-specific (rate 0.00 vs background 0.14); derived
+    conservation 0.66, outgroup identity to derived majority 0.58); rescue_consistency: na (no rescue
+    run for present-side members); source_consistency: na (no present-side member in the v6/v4 re-detection
+    sample); cofolding: pending (placeholder; filled by the co-folding agent)'
+- name: f3:conservation
+  status: fail
+  detail: 0/17 footprint columns clade-specific (rate 0.00 vs background 0.14); derived conservation 0.66,
+    outgroup identity to derived majority 0.58
+- name: f3:rescue_consistency
+  status: na
+  detail: no rescue run for present-side members
+- name: f3:source_consistency
+  status: na
+  detail: no present-side member in the v6/v4 re-detection sample
+- name: f3:cofolding
+  status: pending
+  detail: placeholder; filled by the co-folding agent
+artifact_checks:
+- name: art_orthology_split_ignored
+  status: na
+  detail: orthology_split ignored for this category (PI)
+- name: orthology_side_family_reported_only
+  status: pass
+  detail: 'PANTHER: present side [''PTHR21705''], absent side [''PTHR21705'']; shared [''PTHR21705'']
+    [reported only; does not gate selection (PI D30)]'
+evidence: []
+cofold:
+- model_id: pending
+  status: pending
+  role: derived
+  note: "placeholder; co-folding agent fills models per DESIGN \xA76 and the D23 concordance rule (ligand\
+    \ pLDDT AND centroid distance or site-residue recall in >= 2/3 seeds)"
+- model_id: dupgain_HOG0046679_g11_n33_O2_apo
+  role: apo_refold
+  status: apo_inconclusive
+  ligands: []
+  seeds: 3
+  samples_per_seed: 5
+  templates: none
+  msa: ColabFold MMseqs2
+  method: protein-only AF3 refold, then pocketcompare describe --af-mode; site recall of the best-covering
+    BURROW pocket against the case footprint, reported CONTINUOUS (never thresholded at 0.8)
+  present_recall_median: 0.706
+  absent_recall_median: 0.353
+  delta_recall: 0.353
+  n_present: 3
+  n_absent: 3
+  members:
+  - acc: A0A6P5JD86
+    side: present
+    recall: 0.706
+    precision: 0.857
+    burrow_rank: '2'
+    n_pockets: '4'
+    construct: full_length
+    atlas_footprint_plddt: 88.926
+    site_source: own_footprint
+  - acc: Q80YR2
+    side: present
+    recall: 0.882
+    precision: 0.938
+    burrow_rank: '2'
+    n_pockets: '5'
+    construct: full_length
+    atlas_footprint_plddt: 87.485
+    site_source: own_footprint
+  - acc: A0A670J362
+    side: present
+    recall: 0.353
+    precision: 0.667
+    burrow_rank: '1'
+    n_pockets: '6'
+    construct: full_length
+    atlas_footprint_plddt: 86.662
+    site_source: own_footprint
+  - acc: Q8CDM8
+    side: absent
+    recall: 0.0
+    precision: 0.0
+    burrow_rank: '2'
+    n_pockets: '5'
+    construct: full_length
+    atlas_footprint_plddt: 97.809
+    site_source: own_footprint
+  - acc: B8A6I4
+    side: absent
+    recall: 0.353
+    precision: 0.462
+    burrow_rank: '14'
+    n_pockets: '7'
+    construct: full_length
+    atlas_footprint_plddt: 95.956
+    site_source: own_footprint
+  - acc: A0A6J3I4X8
+    side: absent
+    recall: 0.412
+    precision: 0.467
+    burrow_rank: '25'
+    n_pockets: '7'
+    construct: full_length
+    atlas_footprint_plddt: 95.868
+    site_source: own_footprint
+  table: results/cofold/apo_pool/apo_burrow_pool.tsv
+  outcome: 'present-side median recall 0.706, absent-side 0.353: the two sides are not separated, so the
+    refold neither supports nor contradicts the call'
+figures: []
+literature: []
+headline: convincing_only
+filter_label_with_literature_post_hoc: rejected
+notes: 'filter_label=rejected (prereg: convincing = all three filters; supported = f1 + one of f2/f3);
+  final label also needs the artifact cascade (pass). candidate label: duplication-associated gain (exploratory,
+  not preregistered; null is selection-conditioned); fdr_supported=False. selection: exploratory_duplication.
+  G (gene-absent) rows not listed: 48; every other member is listed with side (present/absent/other),
+  state and reason. Evidence counts are derived from BioLiP2/UniProt 2026_03/M-CSA/ChEMBL 37 (DATA.md);
+  BioLiP rows are not redistributed, only PDB IDs and counts. Final co-fold pool selection (D28, case_list_v2.parquet):
+  exploratory_duplication.'
+provenance:
+  builder: scripts/cases/build_cases.py
+  orthology: O2
+  snapshot: 20261030T085136Z
+  case_list: results/cases/20261030T085136Z/case_list_v2.parquet
+  prereg_sha256: 52f9461890984c210b730af86c40de221307a668e7d4b38098b3316059690d83
+  git_commit: cdb00a44da5049d0e4a054f4e2ba4ee534e35363+dirty
+  seed: 0
+  built_utc: '2026-10-30T16:18:47Z'
+  n_excluded_tune_annotations:
+    rule: per SOG (prereg literal); OG-wide reported as sensitivity
+    n_tuning_list_rows: 505
+    n_used_in_tune_pairs: 155
+    pairs_file: results/sogs/20261030T085136Z/O1/tau_benchmark_pairs.parquet
+    n_keys_per_sog: 114
+    n_keys_og_wide: 130

@@ -1,0 +1,57 @@
+case: deepdive_steroid_MR_vs_GR
+source_schema: deepdive
+description: 'Known answer: MR (P08235) binds aldosterone and cortisol with high affinity; GR (P04150)
+  is selective for cortisol and binds aldosterone poorly. LBD constructs (TED). Tests whether co-folding
+  resolves a known specificity difference.'
+members:
+- accession: P08235
+  state: derived
+  label: MR_LBD
+  sequence: PSPVMVLENIEPEIVYAGYDSSKPDTAENLLSTLNRLAGKQMIQVVKWAKVLPGFKNLPLEDQITLIQYSWMCLSSFALSWRSYKHTNSQFLYFAPDLVFNEEKMHQSAMYELCQGMHQISLQFVRLQLTFEEYTIMKVLLLLSTIPKDGLKSQAAFEEMRTNYIKELRKMVTKCPNNSGQSWQRFYQLTKLLDSMHDLVSDLLEFCFYTFRESHALKVEFPAMLVEIISDQLPKVESGNAK
+  site:
+  - 31
+  - 34
+  - 35
+  - 41
+  - 72
+  - 75
+  - 94
+  - 110
+  - 117
+  - 206
+  - 207
+  - 210
+  site_source: BioLiP 2aa2 AS4, renumbered into TED 736-977
+- accession: P04150
+  state: ancestral
+  label: GR_LBD
+  sequence: TLVSLLEVIEPEVLYAGYDSSVPDSTWRIMTTLNMLGGRQVIAAVKWAKAIPGFRNLHLDDQMTLLQYSWMFLMAFALGWRSYRQSSANLLCFAPDLIINEQRMTLPCMYDQCKHMLYVSSELHRLQVSYEEYLCMKTLLLLSSVPKDGLKSQELFDEIRMTYIKELGKAIVKREGNSSQNWQRFYQLTKLLDSMHEVVENLLNYCFQTFLDKTMSIEFPEMLAEIITNQIPKYSNGNIK
+  site:
+  - 33
+  - 34
+  - 40
+  - 74
+  - 93
+  - 205
+  - 206
+  - 209
+  site_source: BioLiP 4p6x HCY, renumbered into TED 531-770
+ligands:
+- CCD:AS4
+decoys:
+- - CCD:HCY
+seeds:
+- 1
+- 2
+- 3
+positive_control:
+  acc: P08235
+  pdb: 2aa2
+  chain: A
+  ligand: AS4
+  seqnum: null
+  ligands:
+  - CCD:AS4
+note: 'Here "decoy" is the SECOND REAL LIGAND, not a non-binder: the comparison of interest is aldosterone
+  vs cortisol across the two receptors, so the D23 machinery is used to contrast ligands, and the decoy-gap
+  term is not a non-binder baseline.'

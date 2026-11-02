@@ -1,0 +1,16 @@
+{
+ "m3_real": 0.6495619524405507,
+ "n_sogs_defined": 799,
+ "n_sogs": 800,
+ "curveball_replicates": 1000,
+ "curveball_mean": 0.5660025031289111,
+ "curveball_q025": 0.55819774718398,
+ "curveball_q975": 0.574468085106383,
+ "p_real_ge_null": 0.000999000999000999,
+ "swaps_target": 931300,
+ "swaps_done_min": 931300,
+ "vertical_noisy_mean": 0.6370625000000001,
+ "vertical_noisy_sd": 0.015401273283400959,
+ "vertical_noisy_false_A_source": "defaults (prereg false_A_target; other rates placeholders)",
+ "interpretation": "M3 near the vertical-noisy value and far above curveball = descent with noise"
+}

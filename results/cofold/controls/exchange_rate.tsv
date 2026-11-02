@@ -1,0 +1,13 @@
+system	perturbation	d_lig_plddt	d_pae_min	d_centroid	d_iptm	d_site_recall	wt_pb_valid	pb_valid
+ca2	gly	-30.6	3.03	17.51	-0.19	-1.0	True	True
+ca2	phe	-42.0	2.18	3.6	-0.22	-0.62	True	False
+ca2	decoy_cff	-17.9	1.29	3.48	-0.15	-0.54	True	True
+cdk2	gly	-42.7	1.84	-0.36	-0.2	-0.32	True	False
+cdk2	phe	-28.8	1.78	12.41	-0.16	-0.86	True	False
+cdk2	decoy_cff	-20.1	0.71	1.76	-0.1	-0.45	True	True
+pygl	gly	-19.6	2.34	29.37	-0.11	-1.0	False	False
+pygl	phe	-19.8	1.57	28.94	-0.08	-1.0	False	False
+pygl	decoy_cff	-41.8	3.81	18.41	-0.19	-1.0	False	True
+yadh1	gly	-39.1	2.29	5.47	-0.2	-0.56	True	True
+yadh1	phe	-47.2	3.31	7.51	-0.22	-0.61	True	False
+yadh1	decoy_cff	-25.1	1.89	7.7	-0.13	-0.69	True	True

@@ -1,0 +1,30 @@
+{
+ "trees": 36736,
+ "nodes": 750296,
+ "leaves": 451629,
+ "dup_nodes": 71726,
+ "spec_nodes": 226941,
+ "trees_ge3_species": 25347,
+ "root_is_dup": 2538,
+ "children_per_internal_node": {
+  "2": 252588,
+  "3": 27948,
+  "4": 9572,
+  "5": 3322,
+  "6": 1349,
+  "7": 864,
+  "8": 570,
+  "9": 408,
+  "10": 2046
+ },
+ "frac_internal_polytomy": 0.15428219388148004,
+ "leaf_species_not_in_guide": {},
+ "levels_not_in_guide": {},
+ "n_level_mismatch_nodes": 0,
+ "orthoxml": "<repo>/data/orthology/ancestra_tier1_v0/accurate/hogs.orthoxml.gz",
+ "orthoxml_sha256": "222981823c2a75e57d5e655961d0f9c7b350fdf476fccb74cee5582e29aef63a",
+ "guide": "<repo>/data/orthology/ancestra_tier1_v0/tier1_guide_tree.nwk",
+ "guide_sha256": "d9b3ae8103e91007944c18962017d4970d0ec3f1adf86815bd987e03fc4fed55",
+ "n_guide_species": 46,
+ "runtime_s": 15.04903268814087
+}

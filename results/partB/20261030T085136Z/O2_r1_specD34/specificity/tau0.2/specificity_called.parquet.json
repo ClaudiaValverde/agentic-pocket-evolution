@@ -1,0 +1,30 @@
+{
+ "output": "specificity_called.parquet",
+ "snapshot_id": "20261030T085136Z",
+ "prereg_sha256": "52f9461890984c210b730af86c40de221307a668e7d4b38098b3316059690d83",
+ "git_commit": "4cb08f11772a86eb9bd6280f1e004b89e4ec8286+dirty",
+ "seed": [
+  0,
+  1,
+  2
+ ],
+ "created_utc": "2026-10-30T22:31:09Z",
+ "sha256": "80dc96deef89520702c5b662dc4d450cf15c90c3f33766ec6d22d97f8d4b4f55",
+ "script": "scripts/partB/run_specificity.py",
+ "argv": [
+  "--orthology",
+  "O2",
+  "--release",
+  "O2_r1",
+  "--run-id",
+  "O2_r1_specD34",
+  "--tau",
+  "0.2",
+  "--workers",
+  "16",
+  "--n-null-seeds",
+  "3",
+  "--rows-dir",
+  "/tmp/pe_big/partB/specD34/O2_r1/rows"
+ ]
+}

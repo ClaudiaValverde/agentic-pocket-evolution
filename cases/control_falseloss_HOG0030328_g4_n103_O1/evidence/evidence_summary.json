@@ -1,0 +1,220 @@
+{
+ "f1": {
+  "status": "fail",
+  "n_species_change": 0,
+  "clade_purity": 0.0,
+  "lca_purity": 0.0,
+  "single_event": false,
+  "n_out_support": 7,
+  "shape": "scattered",
+  "detail": "A in 0 derived species (purity 0.00 of informative derived members; 0.00 over all members under the species-tree LCA: scattered); single tree-consistent event: False; outgroup support: P in 7 outgroup species"
+ },
+ "f2": {
+  "status": "fail",
+  "strength": "protein-level only",
+  "about_change": false,
+  "detail": "ChEMBL pChEMBL>=6 activity on 1 outgroup/ancestral (pocket present) protein(s): protein-level only, not mapped to the footprint",
+  "present": {
+   "n_members_with_evidence": 0,
+   "n_biolip": 0,
+   "n_uniprot_exp": 0,
+   "n_mcsa_ref": 0,
+   "pdb_ids": [],
+   "ligands": [],
+   "ligand_tokens": []
+  },
+  "absent": {
+   "n_members_with_evidence": 0,
+   "n_biolip": 0,
+   "n_uniprot_exp": 0,
+   "n_mcsa_ref": 0,
+   "pdb_ids": [],
+   "ligands": [],
+   "ligand_tokens": []
+  },
+  "chembl_present_proteins": 1,
+  "chembl_absent_proteins": 0,
+  "n_members_numbering_unverified": 0,
+  "n_hits_excluded_tau_tuning": 0,
+  "sensitivity_og_wide_exclusion": {
+   "status": "fail",
+   "n_hits_excluded": 0
+  }
+ },
+ "f3": {
+  "status": "pending",
+  "passing": [],
+  "detail": "conservation: na (too few aligned members (derived 0, outgroup 19)); rescue_consistency: na (no rescue run for present-side members); source_consistency: na (no present-side member in the v6/v4 re-detection sample); cofolding: pending (placeholder; filled by the co-folding agent)"
+ },
+ "lines": {
+  "conservation": {
+   "status": "na",
+   "detail": "too few aligned members (derived 0, outgroup 19)"
+  },
+  "rescue_consistency": {
+   "status": "na",
+   "detail": "no rescue run for present-side members"
+  },
+  "source_consistency": {
+   "status": "na",
+   "detail": "no present-side member in the v6/v4 re-detection sample"
+  },
+  "cofolding": {
+   "status": "pending",
+   "detail": "placeholder; filled by the co-folding agent"
+  }
+ },
+ "identifier_checks": {
+  "pdb": {},
+  "uniprot": {
+   "A0A077Z7V0": {
+    "resolved": true,
+    "title": "",
+    "organism": "Trichuris trichiura",
+    "retrieved_utc": "2026-10-30T16:18:22Z"
+   },
+   "A0A077ZEW4": {
+    "resolved": true,
+    "title": "",
+    "organism": "Trichuris trichiura",
+    "retrieved_utc": "2026-10-30T16:06:32Z"
+   },
+   "A0A077ZN99": {
+    "resolved": null,
+    "error": "http error"
+   },
+   "A0A0B4KH77": {
+    "resolved": true,
+    "title": "",
+    "organism": "Drosophila melanogaster",
+    "retrieved_utc": "2026-10-30T16:18:22Z"
+   },
+   "A0A0B4KHC6": {
+    "resolved": true,
+    "title": "Aminopeptidase",
+    "organism": "Drosophila melanogaster",
+    "retrieved_utc": "2026-10-30T16:18:22Z"
+   },
+   "A0A0J9XVR9": {
+    "resolved": true,
+    "title": "",
+    "organism": "Brugia malayi",
+    "retrieved_utc": "2026-10-30T16:18:22Z"
+   },
+   "A0A0J9Y008": {
+    "resolved": true,
+    "title": "Aminopeptidase",
+    "organism": "Brugia malayi",
+    "retrieved_utc": "2026-10-30T16:18:23Z"
+   },
+   "A0A0K0DSH2": {
+    "resolved": true,
+    "title": "",
+    "organism": "Strongyloides stercoralis",
+    "retrieved_utc": "2026-10-30T16:18:23Z"
+   },
+   "A0A0K0DV16": {
+    "resolved": true,
+    "title": "",
+    "organism": "Strongyloides stercoralis",
+    "retrieved_utc": "2026-10-30T16:18:23Z"
+   },
+   "A0A0K0DX41": {
+    "resolved": true,
+    "title": "",
+    "organism": "Strongyloides stercoralis",
+    "retrieved_utc": "2026-10-30T16:18:23Z"
+   },
+   "A0A0K0EFC7": {
+    "resolved": true,
+    "title": "",
+    "organism": "Strongyloides stercoralis",
+    "retrieved_utc": "2026-10-30T16:18:23Z"
+   },
+   "A0A0K0EGF0": {
+    "resolved": true,
+    "title": "",
+    "organism": "Strongyloides stercoralis",
+    "retrieved_utc": "2026-10-30T16:18:23Z"
+   },
+   "A0A0N4U375": {
+    "resolved": true,
+    "title": "Peptidase M1 membrane alanine aminopeptidase domain-containing protein",
+    "organism": "Dracunculus medinensis",
+    "retrieved_utc": "2026-10-30T16:18:24Z"
+   },
+   "A0A0N4U4M3": {
+    "resolved": true,
+    "title": "Aminopeptidase",
+    "organism": "Dracunculus medinensis",
+    "retrieved_utc": "2026-10-30T16:06:32Z"
+   },
+   "A0A0N4U4R0": {
+    "resolved": true,
+    "title": "ERAP1-like C-terminal domain-containing protein",
+    "organism": "Dracunculus medinensis",
+    "retrieved_utc": "2026-10-30T16:18:24Z"
+   },
+   "A0A0N4U5R2": {
+    "resolved": true,
+    "title": "Aminopeptidase",
+    "organism": "Dracunculus medinensis",
+    "retrieved_utc": "2026-10-30T16:06:32Z"
+   },
+   "A0A0N4UGN5": {
+    "resolved": true,
+    "title": "",
+    "organism": "Dracunculus medinensis",
+    "retrieved_utc": "2026-10-30T16:18:24Z"
+   },
+   "A0A126GUZ8": {
+    "resolved": true,
+    "title": "Aminopeptidase",
+    "organism": "Drosophila melanogaster",
+    "retrieved_utc": "2026-10-30T16:18:25Z"
+   },
+   "A0A158Q368": {
+    "resolved": true,
+    "title": "Aminopeptidase",
+    "organism": "Dracunculus medinensis",
+    "retrieved_utc": "2026-10-30T16:06:32Z"
+   },
+   "A0A1P6C580": {
+    "resolved": true,
+    "title": "",
+    "organism": "Brugia malayi",
+    "retrieved_utc": "2026-10-30T16:06:32Z"
+   },
+   "A0A286YAT8": {
+    "resolved": true,
+    "title": "Aminopeptidase",
+    "organism": "Danio rerio",
+    "retrieved_utc": "2026-10-30T16:18:25Z"
+   },
+   "A0A2K6WAV6": {
+    "resolved": true,
+    "title": "Aminopeptidase",
+    "organism": "Onchocerca volvulus",
+    "retrieved_utc": "2026-10-30T16:18:25Z"
+   },
+   "A0A3P7F8H0": {
+    "resolved": true,
+    "title": "Aminopeptidase",
+    "organism": "Wuchereria bancrofti",
+    "retrieved_utc": "2026-10-30T16:18:25Z"
+   },
+   "A0A3P7F8J2": {
+    "resolved": true,
+    "title": "",
+    "organism": "Wuchereria bancrofti",
+    "retrieved_utc": "2026-10-30T16:18:25Z"
+   },
+   "A0A3P7FAR3": {
+    "resolved": true,
+    "title": "Peptidase family M1 containing protein",
+    "organism": "Wuchereria bancrofti",
+    "retrieved_utc": "2026-10-30T16:06:32Z"
+   }
+  }
+ }
+}

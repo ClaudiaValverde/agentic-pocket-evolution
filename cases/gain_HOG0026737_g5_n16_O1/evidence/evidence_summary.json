@@ -1,0 +1,233 @@
+{
+ "f1": {
+  "status": "pass",
+  "n_species_change": 4,
+  "clade_purity": 1.0,
+  "lca_purity": 1.0,
+  "single_event": true,
+  "n_out_support": 10,
+  "shape": "clean clade",
+  "detail": "P in 4 derived species (purity 1.00 of informative derived members; 1.00 over all members under the species-tree LCA: clean clade); single tree-consistent event: True; outgroup support: A in 10 outgroup species"
+ },
+ "f2": {
+  "status": "fail",
+  "strength": "none",
+  "about_change": false,
+  "detail": "no experimental evidence at the footprint",
+  "present": {
+   "n_members_with_evidence": 0,
+   "n_biolip": 0,
+   "n_uniprot_exp": 0,
+   "n_mcsa_ref": 0,
+   "pdb_ids": [],
+   "ligands": [],
+   "ligand_tokens": []
+  },
+  "absent": {
+   "n_members_with_evidence": 0,
+   "n_biolip": 0,
+   "n_uniprot_exp": 0,
+   "n_mcsa_ref": 0,
+   "pdb_ids": [],
+   "ligands": [],
+   "ligand_tokens": []
+  },
+  "chembl_present_proteins": 0,
+  "chembl_absent_proteins": 1,
+  "n_members_numbering_unverified": 0,
+  "n_hits_excluded_tau_tuning": 0,
+  "sensitivity_og_wide_exclusion": {
+   "status": "fail",
+   "n_hits_excluded": 0
+  }
+ },
+ "f3": {
+  "status": "pass",
+  "passing": [
+   "rescue_consistency"
+  ],
+  "detail": "conservation: fail (3/12 footprint columns clade-specific (rate 0.25 vs background 0.29); derived conservation 0.81, outgroup identity to derived majority 0.27); rescue_consistency: pass (present side re-detected in >= 3/6 BURROW settings for 1.00 of 4 members (median 6); absent side max 0/6 over 11 members); source_consistency: na (no present-side member in the v6/v4 re-detection sample); cofolding: pending (placeholder; filled by the co-folding agent)"
+ },
+ "lines": {
+  "conservation": {
+   "status": "fail",
+   "n_specific": 3,
+   "n_fp_cols": 12,
+   "rate_fp": 0.25,
+   "rate_bg": 0.29,
+   "mean_cons_derived": 0.812,
+   "mean_identity_out": 0.273,
+   "detail": "3/12 footprint columns clade-specific (rate 0.25 vs background 0.29); derived conservation 0.81, outgroup identity to derived majority 0.27"
+  },
+  "rescue_consistency": {
+   "status": "pass",
+   "frac_present_majority": 1.0,
+   "median_hits_present": 6.0,
+   "max_hits_absent": 0,
+   "detail": "present side re-detected in >= 3/6 BURROW settings for 1.00 of 4 members (median 6); absent side max 0/6 over 11 members"
+  },
+  "source_consistency": {
+   "status": "na",
+   "detail": "no present-side member in the v6/v4 re-detection sample"
+  },
+  "cofolding": {
+   "status": "pending",
+   "detail": "placeholder; filled by the co-folding agent"
+  }
+ },
+ "identifier_checks": {
+  "pdb": {},
+  "uniprot": {
+   "A0A077ZGF3": {
+    "resolved": true,
+    "title": "Protein VAC14 homolog",
+    "organism": "Trichuris trichiura",
+    "retrieved_utc": "2026-10-30T16:06:14Z"
+   },
+   "A0A0D2EKZ2": {
+    "resolved": true,
+    "title": "",
+    "organism": "Fonsecaea pedrosoi CBS 271.37",
+    "retrieved_utc": "2026-10-30T16:18:03Z"
+   },
+   "A0A0K0DZY9": {
+    "resolved": true,
+    "title": "Protein VAC14 homolog",
+    "organism": "Strongyloides stercoralis",
+    "retrieved_utc": "2026-10-30T16:06:15Z"
+   },
+   "A0A0N4UFB5": {
+    "resolved": true,
+    "title": "Protein VAC14 homolog",
+    "organism": "Dracunculus medinensis",
+    "retrieved_utc": "2026-10-30T16:06:15Z"
+   },
+   "A0A0R0IKU5": {
+    "resolved": true,
+    "title": "Vacuolar protein 14 C-terminal Fig4-binding domain-containing protein",
+    "organism": "Glycine max",
+    "retrieved_utc": "2026-10-30T16:18:03Z"
+   },
+   "A0A175W511": {
+    "resolved": true,
+    "title": "",
+    "organism": "Madurella mycetomatis",
+    "retrieved_utc": "2026-10-30T16:06:15Z"
+   },
+   "A0A1C1CXA3": {
+    "resolved": true,
+    "title": "",
+    "organism": "Cladophialophora carrionii",
+    "retrieved_utc": "2026-10-30T16:18:03Z"
+   },
+   "A0A3P7E9E9": {
+    "resolved": true,
+    "title": "Protein VAC14 homolog",
+    "organism": "Wuchereria bancrofti",
+    "retrieved_utc": "2026-10-30T16:06:15Z"
+   },
+   "A0A4E9FLK7": {
+    "resolved": true,
+    "title": "Protein VAC14 homolog",
+    "organism": "Brugia malayi",
+    "retrieved_utc": "2026-10-30T16:06:15Z"
+   },
+   "A0A5K4F1H6": {
+    "resolved": true,
+    "title": "Protein VAC14 homolog",
+    "organism": "Schistosoma mansoni",
+    "retrieved_utc": "2026-10-30T16:18:04Z"
+   },
+   "A0A804LGC5": {
+    "resolved": true,
+    "title": "Vacuolar protein 14 C-terminal Fig4-binding domain-containing protein",
+    "organism": "Zea mays",
+    "retrieved_utc": "2026-10-30T16:18:04Z"
+   },
+   "A0A804PBB7": {
+    "resolved": true,
+    "title": "Protein VAC14-like protein",
+    "organism": "Zea mays",
+    "retrieved_utc": "2026-10-30T16:18:04Z"
+   },
+   "A0A8R1TW10": {
+    "resolved": true,
+    "title": "Protein VAC14 homolog",
+    "organism": "Onchocerca volvulus",
+    "retrieved_utc": "2026-10-30T16:06:16Z"
+   },
+   "A0AAF5HZF5": {
+    "resolved": true,
+    "title": "Protein VAC14 homolog",
+    "organism": "Strongyloides stercoralis",
+    "retrieved_utc": "2026-10-30T16:06:16Z"
+   },
+   "A4HW92": {
+    "resolved": true,
+    "title": "Vacuolar protein 14 C-terminal Fig4-binding domain-containing protein",
+    "organism": "Leishmania infantum",
+    "retrieved_utc": "2026-10-30T16:18:04Z"
+   },
+   "C1H2Q1": {
+    "resolved": true,
+    "title": "",
+    "organism": "Paracoccidioides lutzii (strain ATCC MYA-826 / Pb01)",
+    "retrieved_utc": "2026-10-30T16:18:04Z"
+   },
+   "I1JDH1": {
+    "resolved": true,
+    "title": "Vacuolar protein 14 C-terminal Fig4-binding domain-containing protein",
+    "organism": "Glycine max",
+    "retrieved_utc": "2026-10-30T16:18:04Z"
+   },
+   "I1K5K6": {
+    "resolved": true,
+    "title": "Vacuolar protein 14 C-terminal Fig4-binding domain-containing protein",
+    "organism": "Glycine max",
+    "retrieved_utc": "2026-10-30T16:18:04Z"
+   },
+   "K7L292": {
+    "resolved": true,
+    "title": "Vacuolar protein 14 C-terminal Fig4-binding domain-containing protein",
+    "organism": "Glycine max",
+    "retrieved_utc": "2026-10-30T16:18:05Z"
+   },
+   "K7LI26": {
+    "resolved": true,
+    "title": "",
+    "organism": "Glycine max",
+    "retrieved_utc": "2026-10-30T16:18:05Z"
+   },
+   "K7WFR0": {
+    "resolved": true,
+    "title": "Vacuolar protein 14 C-terminal Fig4-binding domain-containing protein",
+    "organism": "Zea mays",
+    "retrieved_utc": "2026-10-30T16:18:05Z"
+   },
+   "P87145": {
+    "resolved": true,
+    "title": "Protein VAC14 homolog",
+    "organism": "Schizosaccharomyces pombe (strain 972 / ATCC 24843)",
+    "retrieved_utc": "2026-10-30T16:06:16Z"
+   },
+   "Q06708": {
+    "resolved": true,
+    "title": "Vacuole morphology and inheritance protein 14",
+    "organism": "Saccharomyces cerevisiae (strain ATCC 204508 / S288c)",
+    "retrieved_utc": "2026-10-30T16:18:05Z"
+   },
+   "Q08AM6": {
+    "resolved": true,
+    "title": "Protein VAC14 homolog",
+    "organism": "Homo sapiens",
+    "retrieved_utc": "2026-10-30T16:06:16Z"
+   },
+   "Q10PS3": {
+    "resolved": true,
+    "title": "",
+    "organism": "Oryza sativa subsp. japonica",
+    "retrieved_utc": "2026-10-30T16:18:05Z"
+   }
+  }
+ }
+}

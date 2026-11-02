@@ -1,0 +1,14 @@
+{
+ "frozen_thresholds": {
+  "t_plddt": 92.0,
+  "t_centroid": 2.0,
+  "t_recall": 0.9
+ },
+ "n_jobs": 10,
+ "cognate_binds": 4,
+ "n_cognate": 6,
+ "noncognate_binds": 2,
+ "n_noncognate": 4,
+ "cognate_median_plddt": 97.5,
+ "noncognate_median_plddt": 95.25
+}

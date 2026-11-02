@@ -1,0 +1,42 @@
+[
+ {
+  "case": "dupgain_HOG0054071_g9_n185_O2",
+  "ligand": "CCD:ADP+CCD:MG",
+  "n_members": 6,
+  "len_range": "305-457",
+  "bucket": 512,
+  "t_job_s": 103,
+  "n_jobs": 13,
+  "gpu_min": 22.3
+ },
+ {
+  "case": "gain_HOG0035156_g10_n21_O1",
+  "ligand": "CCD:MET",
+  "n_members": 6,
+  "len_range": "737-774",
+  "bucket": 1024,
+  "t_job_s": 272,
+  "n_jobs": 13,
+  "gpu_min": 58.9
+ },
+ {
+  "case": "gain_HOG0035403_g5_n14_O1",
+  "ligand": "CCD:OAA",
+  "n_members": 6,
+  "len_range": "422-514",
+  "bucket": 768,
+  "t_job_s": 176,
+  "n_jobs": 13,
+  "gpu_min": 38.2
+ },
+ {
+  "case": "loss_HOG0027153_g11_n17_O1",
+  "ligand": "CCD:APC+CCD:MG",
+  "n_members": 6,
+  "len_range": "1071-1300",
+  "bucket": 1536,
+  "t_job_s": 527,
+  "n_jobs": 13,
+  "gpu_min": 114.1
+ }
+]

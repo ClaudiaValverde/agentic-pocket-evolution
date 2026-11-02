@@ -1,0 +1,3334 @@
+schema: case-v1
+case_id: control_falseloss_HOG0028108_g15_n235_O1
+title: 'False-loss negative control: HOG0028108:g15 (Rhabditida)'
+category: control
+track: discovery
+label: rejected
+toy: false
+summary: 'SOG HOG0028108:g15: loss called on pre-quality-filter states whose derived-clade A members are
+  all poor models (bad_model, D24); it disappears once A_primary + D11 apply. Negative control for false
+  losses: filters are expected to fail.'
+og_id: HOG0028108
+sog_id: HOG0028108:g15
+score: 0.0
+proteins:
+- accession: B3H6K1
+  taxid: 3702
+  species: '3702'
+  role: outgroup
+  side: other
+  state: U
+  state_pre_filter: U (secondary_pLDDT70, pre-D11)
+  footprint_plddt: 39.75
+  reason: aligned<0.8
+  gene: null
+  protein_name: Uncharacterized protein At4g17910
+  rescue_settings_hit: null
+  residues: null
+  n_site_evidence: 0
+- accession: A0A0R0L8L8
+  taxid: 3847
+  species: '3847'
+  role: outgroup
+  side: other
+  state: U
+  state_pre_filter: U (secondary_pLDDT70, pre-D11)
+  footprint_plddt: null
+  reason: aligned<0.8
+  gene: null
+  protein_name: GPI-anchored wall transfer protein 1
+  rescue_settings_hit: null
+  residues: null
+  n_site_evidence: 0
+- accession: K7L971
+  taxid: 3847
+  species: '3847'
+  role: outgroup
+  side: other
+  state: U
+  state_pre_filter: U (secondary_pLDDT70, pre-D11)
+  footprint_plddt: 49.75
+  reason: aligned<0.8
+  gene: LOC100811353
+  protein_name: GPI-anchored wall transfer protein
+  rescue_settings_hit: null
+  residues: null
+  n_site_evidence: 0
+- accession: A0A804LL11
+  taxid: 4577
+  species: '4577'
+  role: outgroup
+  side: other
+  state: U
+  state_pre_filter: U (secondary_pLDDT70, pre-D11)
+  footprint_plddt: 39.75
+  reason: aligned<0.8
+  gene: LOC100216561
+  protein_name: Transferase transferring acyl groups
+  rescue_settings_hit: null
+  residues: null
+  n_site_evidence: 0
+- accession: K7VH76
+  taxid: 4577
+  species: '4577'
+  role: outgroup
+  side: other
+  state: U
+  state_pre_filter: U (secondary_pLDDT70, pre-D11)
+  footprint_plddt: 50.25
+  reason: aligned<0.8
+  gene: LOC100273831
+  protein_name: Uncharacterized protein
+  rescue_settings_hit: null
+  residues: null
+  n_site_evidence: 0
+- accession: A0A5K4F4L8
+  taxid: 6183
+  species: '6183'
+  role: outgroup
+  side: other
+  state: U
+  state_pre_filter: U (secondary_pLDDT70, pre-D11)
+  footprint_plddt: 79.5
+  reason: partial_site_overlap
+  gene: null
+  protein_name: Phosphatidylinositol-glycan biosynthesis class W protein
+  rescue_settings_hit: null
+  residues: null
+  n_site_evidence: 0
+- accession: A0A0K3ASC2
+  taxid: 6239
+  species: '6239'
+  role: outgroup
+  side: other
+  state: U
+  state_pre_filter: U (secondary_pLDDT70, pre-D11)
+  footprint_plddt: 77.91666412353516
+  reason: aligned<0.8
+  gene: ptr-16
+  protein_name: SSD domain-containing protein
+  rescue_settings_hit: null
+  residues: null
+  n_site_evidence: 0
+- accession: A0A5S9MNL4
+  taxid: 6239
+  species: '6239'
+  role: outgroup
+  side: other
+  state: U
+  state_pre_filter: A (secondary_pLDDT70, pre-D11)
+  footprint_plddt: 79.3499984741211
+  reason: plddt<90
+  gene: ptr-17
+  protein_name: SSD domain-containing protein
+  rescue_settings_hit: null
+  residues: null
+  n_site_evidence: 0
+- accession: B6VQ56
+  taxid: 6239
+  species: '6239'
+  role: outgroup
+  side: other
+  state: U
+  state_pre_filter: U (secondary_pLDDT70, pre-D11)
+  footprint_plddt: 48.75
+  reason: plddt<90
+  gene: ptr-24
+  protein_name: SSD domain-containing protein
+  rescue_settings_hit: null
+  residues: null
+  n_site_evidence: 0
+- accession: D6RYD7
+  taxid: 6239
+  species: '6239'
+  role: outgroup
+  side: other
+  state: U
+  state_pre_filter: U (secondary_pLDDT70, pre-D11)
+  footprint_plddt: 81.75
+  reason: aligned<0.8
+  gene: pigw-1
+  protein_name: Phosphatidylinositol-glycan biosynthesis class W protein
+  rescue_settings_hit: null
+  residues: null
+  n_site_evidence: 0
+- accession: G5EE13
+  taxid: 6239
+  species: '6239'
+  role: outgroup
+  side: other
+  state: U
+  state_pre_filter: U (secondary_pLDDT70, pre-D11)
+  footprint_plddt: 75.5
+  reason: plddt<90
+  gene: ptr-23
+  protein_name: SSD domain-containing protein
+  rescue_settings_hit: null
+  residues: null
+  n_site_evidence: 0
+- accession: H1UBK7
+  taxid: 6239
+  species: '6239'
+  role: outgroup
+  side: other
+  state: U
+  state_pre_filter: U (secondary_pLDDT70, pre-D11)
+  footprint_plddt: 77.75
+  reason: aligned<0.8
+  gene: ptr-22
+  protein_name: SSD domain-containing protein
+  rescue_settings_hit: null
+  residues: null
+  n_site_evidence: 0
+- accession: H2KZH1
+  taxid: 6239
+  species: '6239'
+  role: derived
+  side: absent
+  state: U
+  state_pre_filter: A (secondary_pLDDT70, pre-D11)
+  footprint_plddt: 76.0
+  reason: plddt<90
+  gene: ptr-12
+  protein_name: SSD domain-containing protein
+  rescue_settings_hit: null
+  residues: A:309 A:462 A:464 A:465
+  n_site_evidence: 0
+- accession: O16530
+  taxid: 6239
+  species: '6239'
+  role: outgroup
+  side: other
+  state: U
+  state_pre_filter: U (secondary_pLDDT70, pre-D11)
+  footprint_plddt: 72.875
+  reason: partial_site_overlap
+  gene: ptr-3
+  protein_name: SSD domain-containing protein
+  rescue_settings_hit: null
+  residues: null
+  n_site_evidence: 0
+- accession: O44978
+  taxid: 6239
+  species: '6239'
+  role: outgroup
+  side: other
+  state: U
+  state_pre_filter: U (secondary_pLDDT70, pre-D11)
+  footprint_plddt: 58.75
+  reason: aligned<0.8
+  gene: ptr-11
+  protein_name: SSD domain-containing protein
+  rescue_settings_hit: null
+  residues: null
+  n_site_evidence: 0
+- accession: O61894
+  taxid: 6239
+  species: '6239'
+  role: outgroup
+  side: present
+  state: P
+  state_pre_filter: P (secondary_pLDDT70, pre-D11)
+  footprint_plddt: 86.91666412353516
+  reason: ''
+  gene: ptr-15
+  protein_name: SSD domain-containing protein
+  rescue_settings_hit: null
+  residues: A:429 A:431 A:432
+  n_site_evidence: 0
+- accession: P91129
+  taxid: 6239
+  species: '6239'
+  role: outgroup
+  side: present
+  state: P
+  state_pre_filter: P (secondary_pLDDT70, pre-D11)
+  footprint_plddt: 81.25
+  reason: ''
+  gene: ptr-2
+  protein_name: SSD domain-containing protein
+  rescue_settings_hit: null
+  residues: A:295 A:438 A:440 A:441 A:461
+  n_site_evidence: 0
+- accession: P91184
+  taxid: 6239
+  species: '6239'
+  role: outgroup
+  side: other
+  state: U
+  state_pre_filter: U (secondary_pLDDT70, pre-D11)
+  footprint_plddt: 64.75
+  reason: aligned<0.8
+  gene: ptr-5
+  protein_name: SSD domain-containing protein
+  rescue_settings_hit: null
+  residues: null
+  n_site_evidence: 0
+- accession: P91346
+  taxid: 6239
+  species: '6239'
+  role: outgroup
+  side: present
+  state: P
+  state_pre_filter: P (secondary_pLDDT70, pre-D11)
+  footprint_plddt: 79.94999694824219
+  reason: ''
+  gene: ptr-10
+  protein_name: SSD domain-containing protein
+  rescue_settings_hit: null
+  residues: A:298 A:441 A:443 A:444 A:462
+  n_site_evidence: 0
+- accession: Q03602
+  taxid: 6239
+  species: '6239'
+  role: outgroup
+  side: present
+  state: P
+  state_pre_filter: P (secondary_pLDDT70, pre-D11)
+  footprint_plddt: 63.25
+  reason: ''
+  gene: ptr-9
+  protein_name: Patched-related protein 9
+  rescue_settings_hit: null
+  residues: A:431 A:433 A:434 A:448
+  n_site_evidence: 0
+- accession: Q09934
+  taxid: 6239
+  species: '6239'
+  role: outgroup
+  side: other
+  state: U
+  state_pre_filter: U (secondary_pLDDT70, pre-D11)
+  footprint_plddt: 39.75
+  reason: aligned<0.8
+  gene: ptr-13
+  protein_name: SSD domain-containing protein
+  rescue_settings_hit: null
+  residues: null
+  n_site_evidence: 0
+- accession: Q09938
+  taxid: 6239
+  species: '6239'
+  role: outgroup
+  side: other
+  state: U
+  state_pre_filter: U (secondary_pLDDT70, pre-D11)
+  footprint_plddt: 68.05000305175781
+  reason: plddt<90
+  gene: ptr-6
+  protein_name: SSD domain-containing protein
+  rescue_settings_hit: null
+  residues: null
+  n_site_evidence: 0
+- accession: Q18129
+  taxid: 6239
+  species: '6239'
+  role: outgroup
+  side: present
+  state: P
+  state_pre_filter: P (secondary_pLDDT70, pre-D11)
+  footprint_plddt: 76.05000305175781
+  reason: ''
+  gene: ptr-1
+  protein_name: SSD domain-containing protein
+  rescue_settings_hit: null
+  residues: A:320 A:463 A:465 A:466 A:484
+  n_site_evidence: 0
+- accession: Q19945
+  taxid: 6239
+  species: '6239'
+  role: outgroup
+  side: present
+  state: P
+  state_pre_filter: P (secondary_pLDDT70, pre-D11)
+  footprint_plddt: 81.75
+  reason: ''
+  gene: daf-6
+  protein_name: SSD domain-containing protein
+  rescue_settings_hit: null
+  residues: A:297 A:440 A:442 A:443
+  n_site_evidence: 0
+- accession: Q20404
+  taxid: 6239
+  species: '6239'
+  role: outgroup
+  side: other
+  state: U
+  state_pre_filter: U (secondary_pLDDT70, pre-D11)
+  footprint_plddt: 70.25
+  reason: aligned<0.8
+  gene: ptr-8
+  protein_name: SSD domain-containing protein
+  rescue_settings_hit: null
+  residues: null
+  n_site_evidence: 0
+- accession: Q21883
+  taxid: 6239
+  species: '6239'
+  role: outgroup
+  side: other
+  state: U
+  state_pre_filter: U (secondary_pLDDT70, pre-D11)
+  footprint_plddt: 76.0
+  reason: aligned<0.8
+  gene: ptr-14
+  protein_name: SSD domain-containing protein
+  rescue_settings_hit: null
+  residues: null
+  n_site_evidence: 0
+- accession: Q95YD0
+  taxid: 6239
+  species: '6239'
+  role: outgroup
+  side: other
+  state: U
+  state_pre_filter: U (secondary_pLDDT70, pre-D11)
+  footprint_plddt: 57.25
+  reason: aligned<0.8
+  gene: ptr-4
+  protein_name: SSD domain-containing protein
+  rescue_settings_hit: null
+  residues: null
+  n_site_evidence: 0
+- accession: Q9N2Z6
+  taxid: 6239
+  species: '6239'
+  role: outgroup
+  side: other
+  state: U
+  state_pre_filter: U (secondary_pLDDT70, pre-D11)
+  footprint_plddt: 84.5
+  reason: aligned<0.8
+  gene: ptr-21
+  protein_name: SSD domain-containing protein
+  rescue_settings_hit: null
+  residues: null
+  n_site_evidence: 0
+- accession: Q9XWL9
+  taxid: 6239
+  species: '6239'
+  role: outgroup
+  side: other
+  state: U
+  state_pre_filter: U (secondary_pLDDT70, pre-D11)
+  footprint_plddt: 81.41666412353516
+  reason: aligned<0.8
+  gene: ptr-18
+  protein_name: Patched-related protein 18
+  rescue_settings_hit: null
+  residues: null
+  n_site_evidence: 0
+- accession: Q9XWU1
+  taxid: 6239
+  species: '6239'
+  role: outgroup
+  side: other
+  state: U
+  state_pre_filter: U (secondary_pLDDT70, pre-D11)
+  footprint_plddt: null
+  reason: aligned<0.8
+  gene: null
+  protein_name: WAP domain-containing protein
+  rescue_settings_hit: null
+  residues: null
+  n_site_evidence: 0
+- accession: Q9XXR9
+  taxid: 6239
+  species: '6239'
+  role: outgroup
+  side: present
+  state: P
+  state_pre_filter: P (secondary_pLDDT70, pre-D11)
+  footprint_plddt: 85.625
+  reason: ''
+  gene: ptr-19
+  protein_name: SSD domain-containing protein
+  rescue_settings_hit: null
+  residues: A:317 A:460 A:462 A:463
+  n_site_evidence: 0
+- accession: A0A0K0DTA0
+  taxid: 6248
+  species: '6248'
+  role: outgroup
+  side: other
+  state: U
+  state_pre_filter: U (secondary_pLDDT70, pre-D11)
+  footprint_plddt: 61.75
+  reason: aligned<0.8
+  gene: null
+  protein_name: Phosphatidylinositol-glycan biosynthesis class W protein
+  rescue_settings_hit: null
+  residues: null
+  n_site_evidence: 0
+- accession: A0A0K0DTA2
+  taxid: 6248
+  species: '6248'
+  role: outgroup
+  side: other
+  state: U
+  state_pre_filter: U (secondary_pLDDT70, pre-D11)
+  footprint_plddt: 66.5
+  reason: aligned<0.8
+  gene: null
+  protein_name: SSD domain-containing protein
+  rescue_settings_hit: null
+  residues: null
+  n_site_evidence: 0
+- accession: A0A0K0DUE9
+  taxid: 6248
+  species: '6248'
+  role: outgroup
+  side: other
+  state: U
+  state_pre_filter: U (secondary_pLDDT70, pre-D11)
+  footprint_plddt: 57.5
+  reason: aligned<0.8
+  gene: null
+  protein_name: SSD domain-containing protein
+  rescue_settings_hit: null
+  residues: null
+  n_site_evidence: 0
+- accession: A0A0K0DWU9
+  taxid: 6248
+  species: '6248'
+  role: outgroup
+  side: other
+  state: U
+  state_pre_filter: U (secondary_pLDDT70, pre-D11)
+  footprint_plddt: 46.25
+  reason: aligned<0.8
+  gene: null
+  protein_name: SSD domain-containing protein
+  rescue_settings_hit: null
+  residues: null
+  n_site_evidence: 0
+- accession: A0A0K0DYQ7
+  taxid: 6248
+  species: '6248'
+  role: outgroup
+  side: present
+  state: P
+  state_pre_filter: P (secondary_pLDDT70, pre-D11)
+  footprint_plddt: 75.75
+  reason: ''
+  gene: null
+  protein_name: SSD domain-containing protein
+  rescue_settings_hit: null
+  residues: A:318 A:461 A:463 A:464 A:484
+  n_site_evidence: 0
+- accession: A0A0K0DYX2
+  taxid: 6248
+  species: '6248'
+  role: outgroup
+  side: present
+  state: P
+  state_pre_filter: P (secondary_pLDDT70, pre-D11)
+  footprint_plddt: 80.44999694824219
+  reason: ''
+  gene: null
+  protein_name: SSD domain-containing protein
+  rescue_settings_hit: null
+  residues: A:296 A:439 A:441 A:442 A:462
+  n_site_evidence: 0
+- accession: A0A0K0E0Q8
+  taxid: 6248
+  species: '6248'
+  role: outgroup
+  side: other
+  state: U
+  state_pre_filter: U (secondary_pLDDT70, pre-D11)
+  footprint_plddt: 68.58333587646484
+  reason: aligned<0.8
+  gene: null
+  protein_name: SSD domain-containing protein
+  rescue_settings_hit: null
+  residues: null
+  n_site_evidence: 0
+- accession: A0A0K0E4B6
+  taxid: 6248
+  species: '6248'
+  role: outgroup
+  side: other
+  state: U
+  state_pre_filter: U (secondary_pLDDT70, pre-D11)
+  footprint_plddt: 78.41666412353516
+  reason: aligned<0.8
+  gene: null
+  protein_name: SSD domain-containing protein
+  rescue_settings_hit: null
+  residues: null
+  n_site_evidence: 0
+- accession: A0A0K0E744
+  taxid: 6248
+  species: '6248'
+  role: outgroup
+  side: other
+  state: U
+  state_pre_filter: U (secondary_pLDDT70, pre-D11)
+  footprint_plddt: 44.75
+  reason: aligned<0.8
+  gene: null
+  protein_name: SSD domain-containing protein
+  rescue_settings_hit: null
+  residues: null
+  n_site_evidence: 0
+- accession: A0A0K0EB51
+  taxid: 6248
+  species: '6248'
+  role: outgroup
+  side: other
+  state: U
+  state_pre_filter: U (secondary_pLDDT70, pre-D11)
+  footprint_plddt: 76.75
+  reason: aligned<0.8
+  gene: null
+  protein_name: SSD domain-containing protein
+  rescue_settings_hit: null
+  residues: null
+  n_site_evidence: 0
+- accession: A0A0K0EE49
+  taxid: 6248
+  species: '6248'
+  role: outgroup
+  side: other
+  state: U
+  state_pre_filter: U (secondary_pLDDT70, pre-D11)
+  footprint_plddt: 53.25
+  reason: aligned<0.8
+  gene: null
+  protein_name: SSD domain-containing protein
+  rescue_settings_hit: null
+  residues: null
+  n_site_evidence: 0
+- accession: A0A0K0EGT6
+  taxid: 6248
+  species: '6248'
+  role: outgroup
+  side: other
+  state: U
+  state_pre_filter: A (secondary_pLDDT70, pre-D11)
+  footprint_plddt: 80.5
+  reason: plddt<90
+  gene: null
+  protein_name: SSD domain-containing protein
+  rescue_settings_hit: null
+  residues: null
+  n_site_evidence: 0
+- accession: A0A0K0EJP3
+  taxid: 6248
+  species: '6248'
+  role: derived
+  side: absent
+  state: U
+  state_pre_filter: A (secondary_pLDDT70, pre-D11)
+  footprint_plddt: 77.125
+  reason: plddt<90
+  gene: null
+  protein_name: SSD domain-containing protein
+  rescue_settings_hit: null
+  residues: A:350 A:503 A:505 A:506
+  n_site_evidence: 0
+- accession: A0A0K0EN34
+  taxid: 6248
+  species: '6248'
+  role: outgroup
+  side: other
+  state: U
+  state_pre_filter: U (secondary_pLDDT70, pre-D11)
+  footprint_plddt: 82.25
+  reason: aligned<0.8
+  gene: null
+  protein_name: SSD domain-containing protein
+  rescue_settings_hit: null
+  residues: null
+  n_site_evidence: 0
+- accession: A0A0K0EN38
+  taxid: 6248
+  species: '6248'
+  role: outgroup
+  side: other
+  state: U
+  state_pre_filter: U (secondary_pLDDT70, pre-D11)
+  footprint_plddt: 77.0
+  reason: aligned<0.8
+  gene: null
+  protein_name: SSD domain-containing protein
+  rescue_settings_hit: null
+  residues: null
+  n_site_evidence: 0
+- accession: A0A0K0ERG3
+  taxid: 6248
+  species: '6248'
+  role: outgroup
+  side: other
+  state: U
+  state_pre_filter: U (secondary_pLDDT70, pre-D11)
+  footprint_plddt: 87.91666412353516
+  reason: aligned<0.8
+  gene: null
+  protein_name: SSD domain-containing protein
+  rescue_settings_hit: null
+  residues: null
+  n_site_evidence: 0
+- accession: A0A0K0ESN3
+  taxid: 6248
+  species: '6248'
+  role: outgroup
+  side: other
+  state: U
+  state_pre_filter: A (secondary_pLDDT70, pre-D11)
+  footprint_plddt: 73.3499984741211
+  reason: plddt<90
+  gene: null
+  protein_name: SSD domain-containing protein
+  rescue_settings_hit: null
+  residues: null
+  n_site_evidence: 0
+- accession: A0AAF5CVW6
+  taxid: 6248
+  species: '6248'
+  role: outgroup
+  side: other
+  state: U
+  state_pre_filter: U (secondary_pLDDT70, pre-D11)
+  footprint_plddt: 75.5
+  reason: length_ratio
+  gene: null
+  protein_name: ShKT domain-containing protein
+  rescue_settings_hit: null
+  residues: null
+  n_site_evidence: 0
+- accession: A0AAF5CWZ9
+  taxid: 6248
+  species: '6248'
+  role: outgroup
+  side: other
+  state: U
+  state_pre_filter: U (secondary_pLDDT70, pre-D11)
+  footprint_plddt: 65.25
+  reason: plddt<90
+  gene: null
+  protein_name: SSD domain-containing protein
+  rescue_settings_hit: null
+  residues: null
+  n_site_evidence: 0
+- accession: A0AAF5D014
+  taxid: 6248
+  species: '6248'
+  role: outgroup
+  side: other
+  state: U
+  state_pre_filter: U (secondary_pLDDT70, pre-D11)
+  footprint_plddt: 79.625
+  reason: length_ratio
+  gene: null
+  protein_name: ShKT domain-containing protein
+  rescue_settings_hit: null
+  residues: null
+  n_site_evidence: 0
+- accession: A0AAF5D4J6
+  taxid: 6248
+  species: '6248'
+  role: outgroup
+  side: other
+  state: U
+  state_pre_filter: U (secondary_pLDDT70, pre-D11)
+  footprint_plddt: 49.0
+  reason: aligned<0.8
+  gene: null
+  protein_name: SSD domain-containing protein
+  rescue_settings_hit: null
+  residues: null
+  n_site_evidence: 0
+- accession: A0AAF5D7W2
+  taxid: 6248
+  species: '6248'
+  role: outgroup
+  side: present
+  state: P
+  state_pre_filter: P (secondary_pLDDT70, pre-D11)
+  footprint_plddt: 75.6500015258789
+  reason: ''
+  gene: null
+  protein_name: SSD domain-containing protein
+  rescue_settings_hit: null
+  residues: A:319 A:462 A:464 A:465 A:483
+  n_site_evidence: 0
+- accession: A0AAF5D9A3
+  taxid: 6248
+  species: '6248'
+  role: outgroup
+  side: other
+  state: U
+  state_pre_filter: U (secondary_pLDDT70, pre-D11)
+  footprint_plddt: 55.75
+  reason: aligned<0.8
+  gene: null
+  protein_name: SSD domain-containing protein
+  rescue_settings_hit: null
+  residues: null
+  n_site_evidence: 0
+- accession: A0AAF5D9E9
+  taxid: 6248
+  species: '6248'
+  role: outgroup
+  side: other
+  state: U
+  state_pre_filter: U (secondary_pLDDT70, pre-D11)
+  footprint_plddt: 46.54999923706055
+  reason: plddt<90
+  gene: null
+  protein_name: SSD domain-containing protein
+  rescue_settings_hit: null
+  residues: null
+  n_site_evidence: 0
+- accession: A0AAF5DBF3
+  taxid: 6248
+  species: '6248'
+  role: outgroup
+  side: present
+  state: P
+  state_pre_filter: P (secondary_pLDDT70, pre-D11)
+  footprint_plddt: 85.3499984741211
+  reason: ''
+  gene: null
+  protein_name: SSD domain-containing protein
+  rescue_settings_hit: null
+  residues: A:296 A:439 A:441 A:442 A:465
+  n_site_evidence: 0
+- accession: A0AAF5DDU3
+  taxid: 6248
+  species: '6248'
+  role: outgroup
+  side: other
+  state: U
+  state_pre_filter: U (secondary_pLDDT70, pre-D11)
+  footprint_plddt: null
+  reason: aligned<0.8
+  gene: null
+  protein_name: SSD domain-containing protein
+  rescue_settings_hit: null
+  residues: null
+  n_site_evidence: 0
+- accession: A0AAF5DH78
+  taxid: 6248
+  species: '6248'
+  role: outgroup
+  side: other
+  state: U
+  state_pre_filter: U (secondary_pLDDT70, pre-D11)
+  footprint_plddt: 64.5
+  reason: length_ratio
+  gene: null
+  protein_name: UBC core domain-containing protein
+  rescue_settings_hit: null
+  residues: null
+  n_site_evidence: 0
+- accession: A0AAF5DHZ5
+  taxid: 6248
+  species: '6248'
+  role: outgroup
+  side: other
+  state: U
+  state_pre_filter: U (secondary_pLDDT70, pre-D11)
+  footprint_plddt: 48.54999923706055
+  reason: plddt<90
+  gene: null
+  protein_name: SSD domain-containing protein
+  rescue_settings_hit: null
+  residues: null
+  n_site_evidence: 0
+- accession: A0AAF5DJF6
+  taxid: 6248
+  species: '6248'
+  role: outgroup
+  side: other
+  state: U
+  state_pre_filter: U (secondary_pLDDT70, pre-D11)
+  footprint_plddt: 61.75
+  reason: length_ratio
+  gene: null
+  protein_name: Ubiquitin-conjugating enzyme E2 J2
+  rescue_settings_hit: null
+  residues: null
+  n_site_evidence: 0
+- accession: A0AAF5DPA7
+  taxid: 6248
+  species: '6248'
+  role: outgroup
+  side: other
+  state: U
+  state_pre_filter: U (secondary_pLDDT70, pre-D11)
+  footprint_plddt: 69.25
+  reason: aligned<0.8
+  gene: null
+  protein_name: SSD domain-containing protein
+  rescue_settings_hit: null
+  residues: null
+  n_site_evidence: 0
+- accession: A0AAF5I270
+  taxid: 6248
+  species: '6248'
+  role: outgroup
+  side: other
+  state: U
+  state_pre_filter: U (secondary_pLDDT70, pre-D11)
+  footprint_plddt: 73.55000305175781
+  reason: partial_site_overlap
+  gene: null
+  protein_name: SSD domain-containing protein
+  rescue_settings_hit: null
+  residues: null
+  n_site_evidence: 0
+- accession: A0A0H5S1E8
+  taxid: 6279
+  species: '6279'
+  role: outgroup
+  side: other
+  state: U
+  state_pre_filter: U (secondary_pLDDT70, pre-D11)
+  footprint_plddt: 86.25
+  reason: aligned<0.8
+  gene: bma-ptr-15
+  protein_name: BMA-PTR-15
+  rescue_settings_hit: null
+  residues: null
+  n_site_evidence: 0
+- accession: A0A0H5SMN4
+  taxid: 6279
+  species: '6279'
+  role: outgroup
+  side: other
+  state: U
+  state_pre_filter: U (secondary_pLDDT70, pre-D11)
+  footprint_plddt: 44.75
+  reason: aligned<0.8
+  gene: Bma-hpo-20.2
+  protein_name: Phosphatidylinositol-glycan biosynthesis class W protein
+  rescue_settings_hit: null
+  residues: null
+  n_site_evidence: 0
+- accession: A0A0J9Y5G6
+  taxid: 6279
+  species: '6279'
+  role: outgroup
+  side: present
+  state: P
+  state_pre_filter: P (secondary_pLDDT70, pre-D11)
+  footprint_plddt: 82.75
+  reason: ''
+  gene: bma-ptr-10
+  protein_name: BMA-PTR-2, isoform a
+  rescue_settings_hit: null
+  residues: A:296 A:439 A:441 A:442 A:462
+  n_site_evidence: 0
+- accession: A0A0K0JBL5
+  taxid: 6279
+  species: '6279'
+  role: outgroup
+  side: other
+  state: U
+  state_pre_filter: U (secondary_pLDDT70, pre-D11)
+  footprint_plddt: null
+  reason: no_model
+  gene: ''
+  protein_name: ''
+  rescue_settings_hit: null
+  residues: null
+  n_site_evidence: 0
+- accession: A0A0K0JSF7
+  taxid: 6279
+  species: '6279'
+  role: outgroup
+  side: other
+  state: U
+  state_pre_filter: A (secondary_pLDDT70, pre-D11)
+  footprint_plddt: 78.625
+  reason: plddt<90
+  gene: null
+  protein_name: Patched family protein
+  rescue_settings_hit: null
+  residues: null
+  n_site_evidence: 0
+- accession: A0A1P6BIP2
+  taxid: 6279
+  species: '6279'
+  role: outgroup
+  side: other
+  state: U
+  state_pre_filter: U (secondary_pLDDT70, pre-D11)
+  footprint_plddt: 78.25
+  reason: partial_site_overlap
+  gene: Bma-ptr-18
+  protein_name: Patched family protein
+  rescue_settings_hit: null
+  residues: null
+  n_site_evidence: 0
+- accession: A0A1P6BKA1
+  taxid: 6279
+  species: '6279'
+  role: derived
+  side: absent
+  state: U
+  state_pre_filter: U (secondary_pLDDT70, pre-D11)
+  footprint_plddt: 72.5
+  reason: plddt<90
+  gene: Bma-ptr-12
+  protein_name: BMA-PTR-12, isoform c; SSD domain-containing protein
+  rescue_settings_hit: null
+  residues: A:324 A:477 A:479 A:480
+  n_site_evidence: 0
+- accession: A0A1P6BTZ8
+  taxid: 6279
+  species: '6279'
+  role: outgroup
+  side: other
+  state: U
+  state_pre_filter: A (secondary_pLDDT70, pre-D11)
+  footprint_plddt: 78.75
+  reason: plddt<90
+  gene: Bma-ptr-1
+  protein_name: BMA-PTR-1, isoform c
+  rescue_settings_hit: null
+  residues: null
+  n_site_evidence: 0
+- accession: A0A4E9ERT8
+  taxid: 6279
+  species: '6279'
+  role: outgroup
+  side: other
+  state: U
+  state_pre_filter: U (secondary_pLDDT70, pre-D11)
+  footprint_plddt: null
+  reason: aligned<0.8
+  gene: Bm18161
+  protein_name: SSD domain-containing protein
+  rescue_settings_hit: null
+  residues: null
+  n_site_evidence: 0
+- accession: A0A4E9ESW6
+  taxid: 6279
+  species: '6279'
+  role: outgroup
+  side: other
+  state: U
+  state_pre_filter: U (secondary_pLDDT70, pre-D11)
+  footprint_plddt: 45.0
+  reason: aligned<0.8
+  gene: Bm9627
+  protein_name: SSD domain-containing protein
+  rescue_settings_hit: null
+  residues: null
+  n_site_evidence: 0
+- accession: A0A4E9EUZ9
+  taxid: 6279
+  species: '6279'
+  role: outgroup
+  side: other
+  state: U
+  state_pre_filter: U (secondary_pLDDT70, pre-D11)
+  footprint_plddt: 78.05000305175781
+  reason: partial_site_overlap
+  gene: Bma-ptr-17
+  protein_name: SSD domain-containing protein
+  rescue_settings_hit: null
+  residues: null
+  n_site_evidence: 0
+- accession: A0A4E9EWI9
+  taxid: 6279
+  species: '6279'
+  role: outgroup
+  side: other
+  state: U
+  state_pre_filter: A (secondary_pLDDT70, pre-D11)
+  footprint_plddt: 73.3499984741211
+  reason: plddt<90
+  gene: null
+  protein_name: SSD domain-containing protein
+  rescue_settings_hit: null
+  residues: null
+  n_site_evidence: 0
+- accession: A0A4E9EZ04
+  taxid: 6279
+  species: '6279'
+  role: outgroup
+  side: other
+  state: U
+  state_pre_filter: U (secondary_pLDDT70, pre-D11)
+  footprint_plddt: 61.91666793823242
+  reason: aligned<0.8
+  gene: Bma-ptr-4
+  protein_name: Patched related family protein 4, putative
+  rescue_settings_hit: null
+  residues: null
+  n_site_evidence: 0
+- accession: A0A4E9F023
+  taxid: 6279
+  species: '6279'
+  role: outgroup
+  side: other
+  state: U
+  state_pre_filter: U (secondary_pLDDT70, pre-D11)
+  footprint_plddt: 58.5
+  reason: aligned<0.8
+  gene: Bma-ptr-24
+  protein_name: SSD domain-containing protein
+  rescue_settings_hit: null
+  residues: null
+  n_site_evidence: 0
+- accession: A0A4E9F1Z8
+  taxid: 6279
+  species: '6279'
+  role: outgroup
+  side: other
+  state: U
+  state_pre_filter: U (secondary_pLDDT70, pre-D11)
+  footprint_plddt: 56.5
+  reason: aligned<0.8
+  gene: null
+  protein_name: SSD domain-containing protein
+  rescue_settings_hit: null
+  residues: null
+  n_site_evidence: 0
+- accession: A0A4E9F9V2
+  taxid: 6279
+  species: '6279'
+  role: outgroup
+  side: other
+  state: U
+  state_pre_filter: U (secondary_pLDDT70, pre-D11)
+  footprint_plddt: 77.08333587646484
+  reason: partial_site_overlap
+  gene: null
+  protein_name: Patched family protein
+  rescue_settings_hit: null
+  residues: null
+  n_site_evidence: 0
+- accession: A0A4E9FA64
+  taxid: 6279
+  species: '6279'
+  role: outgroup
+  side: other
+  state: U
+  state_pre_filter: U (secondary_pLDDT70, pre-D11)
+  footprint_plddt: 53.25
+  reason: plddt<90
+  gene: Bma-ptr-6
+  protein_name: Patched family protein
+  rescue_settings_hit: null
+  residues: null
+  n_site_evidence: 0
+- accession: A0A4E9FBQ1
+  taxid: 6279
+  species: '6279'
+  role: outgroup
+  side: other
+  state: U
+  state_pre_filter: U (secondary_pLDDT70, pre-D11)
+  footprint_plddt: 56.75
+  reason: aligned<0.8
+  gene: null
+  protein_name: SSD domain-containing protein
+  rescue_settings_hit: null
+  residues: null
+  n_site_evidence: 0
+- accession: A0A4E9FDW8
+  taxid: 6279
+  species: '6279'
+  role: outgroup
+  side: other
+  state: U
+  state_pre_filter: U (secondary_pLDDT70, pre-D11)
+  footprint_plddt: 40.75
+  reason: aligned<0.8
+  gene: null
+  protein_name: BMA-PTR-13
+  rescue_settings_hit: null
+  residues: null
+  n_site_evidence: 0
+- accession: A0A4E9FLB4
+  taxid: 6279
+  species: '6279'
+  role: outgroup
+  side: other
+  state: U
+  state_pre_filter: U (secondary_pLDDT70, pre-D11)
+  footprint_plddt: 57.75
+  reason: partial_site_overlap
+  gene: Bma-hpo-20.1
+  protein_name: Phosphatidylinositol-glycan biosynthesis class W protein
+  rescue_settings_hit: null
+  residues: null
+  n_site_evidence: 0
+- accession: A0A4E9FRF1
+  taxid: 6279
+  species: '6279'
+  role: outgroup
+  side: other
+  state: U
+  state_pre_filter: U (secondary_pLDDT70, pre-D11)
+  footprint_plddt: 68.0
+  reason: aligned<0.8
+  gene: null
+  protein_name: Patched family protein
+  rescue_settings_hit: null
+  residues: null
+  n_site_evidence: 0
+- accession: A0A5S6P809
+  taxid: 6279
+  species: '6279'
+  role: outgroup
+  side: other
+  state: U
+  state_pre_filter: U (secondary_pLDDT70, pre-D11)
+  footprint_plddt: 36.25
+  reason: aligned<0.8
+  gene: null
+  protein_name: SSD domain-containing protein
+  rescue_settings_hit: null
+  residues: null
+  n_site_evidence: 0
+- accession: A0A5S6P830
+  taxid: 6279
+  species: '6279'
+  role: outgroup
+  side: other
+  state: U
+  state_pre_filter: U (secondary_pLDDT70, pre-D11)
+  footprint_plddt: 30.25
+  reason: aligned<0.8
+  gene: null
+  protein_name: SSD domain-containing protein
+  rescue_settings_hit: null
+  residues: null
+  n_site_evidence: 0
+- accession: A0A5S6PMJ0
+  taxid: 6279
+  species: '6279'
+  role: outgroup
+  side: other
+  state: U
+  state_pre_filter: U (secondary_pLDDT70, pre-D11)
+  footprint_plddt: 43.25
+  reason: aligned<0.8
+  gene: null
+  protein_name: SSD domain-containing protein
+  rescue_settings_hit: null
+  residues: null
+  n_site_evidence: 0
+- accession: A0A7I4KHN0
+  taxid: 6279
+  species: '6279'
+  role: outgroup
+  side: other
+  state: U
+  state_pre_filter: U (secondary_pLDDT70, pre-D11)
+  footprint_plddt: 78.25
+  reason: aligned<0.8
+  gene: Bma-ptr-14
+  protein_name: SSD domain-containing protein
+  rescue_settings_hit: null
+  residues: null
+  n_site_evidence: 0
+- accession: A0A7I4KQI5
+  taxid: 6279
+  species: '6279'
+  role: outgroup
+  side: other
+  state: U
+  state_pre_filter: U (secondary_pLDDT70, pre-D11)
+  footprint_plddt: 75.6500015258789
+  reason: partial_site_overlap
+  gene: Bma-ptr-19
+  protein_name: Patched related family protein 10, putative
+  rescue_settings_hit: null
+  residues: null
+  n_site_evidence: 0
+- accession: A0A8L7SYL2
+  taxid: 6279
+  species: '6279'
+  role: outgroup
+  side: present
+  state: P
+  state_pre_filter: P (secondary_pLDDT70, pre-D11)
+  footprint_plddt: 76.25
+  reason: ''
+  gene: null
+  protein_name: BMA-PTR-2, isoform a
+  rescue_settings_hit: null
+  residues: A:92 A:94 A:95 A:115
+  n_site_evidence: 0
+- accession: A0A8L7SZ57
+  taxid: 6279
+  species: '6279'
+  role: outgroup
+  side: other
+  state: U
+  state_pre_filter: U (secondary_pLDDT70, pre-D11)
+  footprint_plddt: null
+  reason: aligned<0.8
+  gene: null
+  protein_name: BMA-PTR-2, isoform a
+  rescue_settings_hit: null
+  residues: null
+  n_site_evidence: 0
+- accession: A0A8L7SZG2
+  taxid: 6279
+  species: '6279'
+  role: outgroup
+  side: other
+  state: U
+  state_pre_filter: U (secondary_pLDDT70, pre-D11)
+  footprint_plddt: null
+  reason: aligned<0.8
+  gene: null
+  protein_name: BMA-PTR-2, isoform a
+  rescue_settings_hit: null
+  residues: null
+  n_site_evidence: 0
+- accession: A0A8L7T016
+  taxid: 6279
+  species: '6279'
+  role: outgroup
+  side: other
+  state: U
+  state_pre_filter: U (secondary_pLDDT70, pre-D11)
+  footprint_plddt: 61.349998474121094
+  reason: plddt<90
+  gene: null
+  protein_name: Patched family protein
+  rescue_settings_hit: null
+  residues: null
+  n_site_evidence: 0
+- accession: A0A2K6VLI9
+  taxid: 6282
+  species: '6282'
+  role: outgroup
+  side: present
+  state: P
+  state_pre_filter: P (secondary_pLDDT70, pre-D11)
+  footprint_plddt: 79.75
+  reason: ''
+  gene: null
+  protein_name: SSD domain-containing protein
+  rescue_settings_hit: null
+  residues: A:321 A:464 A:466 A:467 A:485
+  n_site_evidence: 0
+- accession: A0A2K6VV77
+  taxid: 6282
+  species: '6282'
+  role: outgroup
+  side: other
+  state: U
+  state_pre_filter: U (secondary_pLDDT70, pre-D11)
+  footprint_plddt: 55.75
+  reason: aligned<0.8
+  gene: null
+  protein_name: SSD domain-containing protein
+  rescue_settings_hit: null
+  residues: null
+  n_site_evidence: 0
+- accession: A0A2K6WH12
+  taxid: 6282
+  species: '6282'
+  role: outgroup
+  side: other
+  state: U
+  state_pre_filter: U (secondary_pLDDT70, pre-D11)
+  footprint_plddt: 50.25
+  reason: aligned<0.8
+  gene: null
+  protein_name: SSD domain-containing protein
+  rescue_settings_hit: null
+  residues: null
+  n_site_evidence: 0
+- accession: A0A8R1TIK9
+  taxid: 6282
+  species: '6282'
+  role: outgroup
+  side: other
+  state: U
+  state_pre_filter: U (secondary_pLDDT70, pre-D11)
+  footprint_plddt: 84.08333587646484
+  reason: partial_site_overlap
+  gene: null
+  protein_name: SSD domain-containing protein
+  rescue_settings_hit: null
+  residues: null
+  n_site_evidence: 0
+- accession: A0A8R1TIS5
+  taxid: 6282
+  species: '6282'
+  role: outgroup
+  side: other
+  state: U
+  state_pre_filter: U (secondary_pLDDT70, pre-D11)
+  footprint_plddt: 55.5
+  reason: plddt<90
+  gene: null
+  protein_name: SSD domain-containing protein
+  rescue_settings_hit: null
+  residues: null
+  n_site_evidence: 0
+- accession: A0A8R1TJ88
+  taxid: 6282
+  species: '6282'
+  role: outgroup
+  side: other
+  state: U
+  state_pre_filter: U (secondary_pLDDT70, pre-D11)
+  footprint_plddt: 47.25
+  reason: aligned<0.8
+  gene: null
+  protein_name: Ubiquitin-conjugating enzyme E2 J2
+  rescue_settings_hit: null
+  residues: null
+  n_site_evidence: 0
+- accession: A0A8R1TJE1
+  taxid: 6282
+  species: '6282'
+  role: outgroup
+  side: other
+  state: U
+  state_pre_filter: U (secondary_pLDDT70, pre-D11)
+  footprint_plddt: 72.25
+  reason: aligned<0.8
+  gene: null
+  protein_name: Phosphatidylinositol-glycan biosynthesis class W protein
+  rescue_settings_hit: null
+  residues: null
+  n_site_evidence: 0
+- accession: A0A8R1TKP0
+  taxid: 6282
+  species: '6282'
+  role: outgroup
+  side: other
+  state: U
+  state_pre_filter: U (secondary_pLDDT70, pre-D11)
+  footprint_plddt: 68.6500015258789
+  reason: plddt<90
+  gene: null
+  protein_name: SSD domain-containing protein
+  rescue_settings_hit: null
+  residues: null
+  n_site_evidence: 0
+- accession: A0A8R1TPD5
+  taxid: 6282
+  species: '6282'
+  role: outgroup
+  side: other
+  state: U
+  state_pre_filter: U (secondary_pLDDT70, pre-D11)
+  footprint_plddt: 53.25
+  reason: aligned<0.8
+  gene: null
+  protein_name: SSD domain-containing protein
+  rescue_settings_hit: null
+  residues: null
+  n_site_evidence: 0
+- accession: A0A8R1TPX4
+  taxid: 6282
+  species: '6282'
+  role: outgroup
+  side: other
+  state: U
+  state_pre_filter: U (secondary_pLDDT70, pre-D11)
+  footprint_plddt: 65.0
+  reason: aligned<0.8
+  gene: null
+  protein_name: SSD domain-containing protein
+  rescue_settings_hit: null
+  residues: null
+  n_site_evidence: 0
+- accession: A0A8R1TT26
+  taxid: 6282
+  species: '6282'
+  role: outgroup
+  side: other
+  state: U
+  state_pre_filter: U (secondary_pLDDT70, pre-D11)
+  footprint_plddt: 42.75
+  reason: aligned<0.8
+  gene: null
+  protein_name: Uncharacterized protein
+  rescue_settings_hit: null
+  residues: null
+  n_site_evidence: 0
+- accession: A0A8R1TTD1
+  taxid: 6282
+  species: '6282'
+  role: outgroup
+  side: other
+  state: U
+  state_pre_filter: U (secondary_pLDDT70, pre-D11)
+  footprint_plddt: null
+  reason: aligned<0.8
+  gene: null
+  protein_name: Uncharacterized protein
+  rescue_settings_hit: null
+  residues: null
+  n_site_evidence: 0
+- accession: A0A8R1TU69
+  taxid: 6282
+  species: '6282'
+  role: outgroup
+  side: other
+  state: U
+  state_pre_filter: U (secondary_pLDDT70, pre-D11)
+  footprint_plddt: null
+  reason: aligned<0.8
+  gene: null
+  protein_name: Uncharacterized protein
+  rescue_settings_hit: null
+  residues: null
+  n_site_evidence: 0
+- accession: A0A8R1XMZ2
+  taxid: 6282
+  species: '6282'
+  role: derived
+  side: absent
+  state: U
+  state_pre_filter: A (secondary_pLDDT70, pre-D11)
+  footprint_plddt: 76.75
+  reason: plddt<90
+  gene: null
+  protein_name: SSD domain-containing protein
+  rescue_settings_hit: null
+  residues: A:285 A:438 A:440 A:441
+  n_site_evidence: 0
+- accession: A0A8R1XS30
+  taxid: 6282
+  species: '6282'
+  role: outgroup
+  side: other
+  state: U
+  state_pre_filter: A (secondary_pLDDT70, pre-D11)
+  footprint_plddt: 76.875
+  reason: plddt<90
+  gene: null
+  protein_name: SSD domain-containing protein
+  rescue_settings_hit: null
+  residues: null
+  n_site_evidence: 0
+- accession: A0A8R1XT12
+  taxid: 6282
+  species: '6282'
+  role: outgroup
+  side: other
+  state: U
+  state_pre_filter: U (secondary_pLDDT70, pre-D11)
+  footprint_plddt: 65.5
+  reason: aligned<0.8
+  gene: null
+  protein_name: SSD domain-containing protein
+  rescue_settings_hit: null
+  residues: null
+  n_site_evidence: 0
+- accession: A0A8R1XVE9
+  taxid: 6282
+  species: '6282'
+  role: outgroup
+  side: other
+  state: U
+  state_pre_filter: U (secondary_pLDDT70, pre-D11)
+  footprint_plddt: 85.41666412353516
+  reason: aligned<0.8
+  gene: null
+  protein_name: SSD domain-containing protein
+  rescue_settings_hit: null
+  residues: null
+  n_site_evidence: 0
+- accession: A0A8R1Y0P5
+  taxid: 6282
+  species: '6282'
+  role: outgroup
+  side: other
+  state: U
+  state_pre_filter: U (secondary_pLDDT70, pre-D11)
+  footprint_plddt: 38.58333206176758
+  reason: aligned<0.8
+  gene: null
+  protein_name: SSD domain-containing protein
+  rescue_settings_hit: null
+  residues: null
+  n_site_evidence: 0
+- accession: A0A8R1Y0T7
+  taxid: 6282
+  species: '6282'
+  role: outgroup
+  side: other
+  state: U
+  state_pre_filter: U (secondary_pLDDT70, pre-D11)
+  footprint_plddt: 67.75
+  reason: aligned<0.8
+  gene: null
+  protein_name: SSD domain-containing protein
+  rescue_settings_hit: null
+  residues: null
+  n_site_evidence: 0
+- accession: A0A8R1Y4N5
+  taxid: 6282
+  species: '6282'
+  role: outgroup
+  side: present
+  state: P
+  state_pre_filter: P (secondary_pLDDT70, pre-D11)
+  footprint_plddt: 83.1500015258789
+  reason: ''
+  gene: null
+  protein_name: SSD domain-containing protein
+  rescue_settings_hit: null
+  residues: A:296 A:439 A:441 A:442 A:462
+  n_site_evidence: 0
+- accession: A0A8R1Y546
+  taxid: 6282
+  species: '6282'
+  role: outgroup
+  side: other
+  state: U
+  state_pre_filter: U (secondary_pLDDT70, pre-D11)
+  footprint_plddt: 76.25
+  reason: partial_site_overlap
+  gene: null
+  protein_name: SSD domain-containing protein
+  rescue_settings_hit: null
+  residues: null
+  n_site_evidence: 0
+- accession: A0A3P7DBV7
+  taxid: 6293
+  species: '6293'
+  role: outgroup
+  side: other
+  state: U
+  state_pre_filter: U (secondary_pLDDT70, pre-D11)
+  footprint_plddt: null
+  reason: aligned<0.8
+  gene: null
+  protein_name: SSD domain-containing protein
+  rescue_settings_hit: null
+  residues: null
+  n_site_evidence: 0
+- accession: A0A3P7DDB1
+  taxid: 6293
+  species: '6293'
+  role: outgroup
+  side: other
+  state: U
+  state_pre_filter: U (secondary_pLDDT70, pre-D11)
+  footprint_plddt: null
+  reason: aligned<0.8
+  gene: null
+  protein_name: SSD domain-containing protein
+  rescue_settings_hit: null
+  residues: null
+  n_site_evidence: 0
+- accession: A0A3P7DJ33
+  taxid: 6293
+  species: '6293'
+  role: outgroup
+  side: other
+  state: U
+  state_pre_filter: U (secondary_pLDDT70, pre-D11)
+  footprint_plddt: null
+  reason: aligned<0.8
+  gene: null
+  protein_name: SSD domain-containing protein
+  rescue_settings_hit: null
+  residues: null
+  n_site_evidence: 0
+- accession: A0A3P7DJZ8
+  taxid: 6293
+  species: '6293'
+  role: outgroup
+  side: other
+  state: U
+  state_pre_filter: A (secondary_pLDDT70, pre-D11)
+  footprint_plddt: 77.875
+  reason: plddt<90
+  gene: null
+  protein_name: SSD domain-containing protein
+  rescue_settings_hit: null
+  residues: null
+  n_site_evidence: 0
+- accession: A0A3P7DLW2
+  taxid: 6293
+  species: '6293'
+  role: outgroup
+  side: other
+  state: U
+  state_pre_filter: U (secondary_pLDDT70, pre-D11)
+  footprint_plddt: null
+  reason: aligned<0.8
+  gene: null
+  protein_name: Patched domain-containing protein
+  rescue_settings_hit: null
+  residues: null
+  n_site_evidence: 0
+- accession: A0A3P7DLX2
+  taxid: 6293
+  species: '6293'
+  role: outgroup
+  side: other
+  state: U
+  state_pre_filter: U (secondary_pLDDT70, pre-D11)
+  footprint_plddt: null
+  reason: aligned<0.8
+  gene: null
+  protein_name: Uncharacterized protein
+  rescue_settings_hit: null
+  residues: null
+  n_site_evidence: 0
+- accession: A0A3P7DNV6
+  taxid: 6293
+  species: '6293'
+  role: outgroup
+  side: other
+  state: U
+  state_pre_filter: U (secondary_pLDDT70, pre-D11)
+  footprint_plddt: 50.75
+  reason: aligned<0.8
+  gene: null
+  protein_name: Ubiquitin-conjugating enzyme E2 J2
+  rescue_settings_hit: null
+  residues: null
+  n_site_evidence: 0
+- accession: A0A3P7DST3
+  taxid: 6293
+  species: '6293'
+  role: outgroup
+  side: other
+  state: U
+  state_pre_filter: U (secondary_pLDDT70, pre-D11)
+  footprint_plddt: null
+  reason: no_model
+  gene: ''
+  protein_name: ''
+  rescue_settings_hit: null
+  residues: null
+  n_site_evidence: 0
+- accession: A0A3P7DTQ5
+  taxid: 6293
+  species: '6293'
+  role: outgroup
+  side: other
+  state: U
+  state_pre_filter: U (secondary_pLDDT70, pre-D11)
+  footprint_plddt: null
+  reason: aligned<0.8
+  gene: null
+  protein_name: SSD domain-containing protein
+  rescue_settings_hit: null
+  residues: null
+  n_site_evidence: 0
+- accession: A0A3P7DTX1
+  taxid: 6293
+  species: '6293'
+  role: outgroup
+  side: other
+  state: U
+  state_pre_filter: U (secondary_pLDDT70, pre-D11)
+  footprint_plddt: 65.75
+  reason: aligned<0.8
+  gene: null
+  protein_name: SSD domain-containing protein
+  rescue_settings_hit: null
+  residues: null
+  n_site_evidence: 0
+- accession: A0A3P7DVE9
+  taxid: 6293
+  species: '6293'
+  role: outgroup
+  side: other
+  state: U
+  state_pre_filter: U (secondary_pLDDT70, pre-D11)
+  footprint_plddt: 34.75
+  reason: aligned<0.8
+  gene: null
+  protein_name: SSD domain-containing protein
+  rescue_settings_hit: null
+  residues: null
+  n_site_evidence: 0
+- accession: A0A3P7DX72
+  taxid: 6293
+  species: '6293'
+  role: outgroup
+  side: other
+  state: U
+  state_pre_filter: U (secondary_pLDDT70, pre-D11)
+  footprint_plddt: 56.75
+  reason: partial_site_overlap
+  gene: null
+  protein_name: SSD domain-containing protein
+  rescue_settings_hit: null
+  residues: null
+  n_site_evidence: 0
+- accession: A0A3P7DYJ7
+  taxid: 6293
+  species: '6293'
+  role: outgroup
+  side: present
+  state: P
+  state_pre_filter: P (secondary_pLDDT70, pre-D11)
+  footprint_plddt: 83.1500015258789
+  reason: ''
+  gene: null
+  protein_name: SSD domain-containing protein
+  rescue_settings_hit: null
+  residues: A:296 A:439 A:441 A:442 A:462
+  n_site_evidence: 0
+- accession: A0A3P7DZI2
+  taxid: 6293
+  species: '6293'
+  role: outgroup
+  side: other
+  state: U
+  state_pre_filter: U (secondary_pLDDT70, pre-D11)
+  footprint_plddt: null
+  reason: aligned<0.8
+  gene: null
+  protein_name: SSD domain-containing protein
+  rescue_settings_hit: null
+  residues: null
+  n_site_evidence: 0
+- accession: A0A3P7E0I1
+  taxid: 6293
+  species: '6293'
+  role: outgroup
+  side: other
+  state: U
+  state_pre_filter: A (secondary_pLDDT70, pre-D11)
+  footprint_plddt: 71.05000305175781
+  reason: plddt<90
+  gene: null
+  protein_name: SSD domain-containing protein
+  rescue_settings_hit: null
+  residues: null
+  n_site_evidence: 0
+- accession: A0A3P7E149
+  taxid: 6293
+  species: '6293'
+  role: outgroup
+  side: other
+  state: U
+  state_pre_filter: U (secondary_pLDDT70, pre-D11)
+  footprint_plddt: 58.5
+  reason: partial_site_overlap
+  gene: null
+  protein_name: SSD domain-containing protein
+  rescue_settings_hit: null
+  residues: null
+  n_site_evidence: 0
+- accession: A0A3P7E2K1
+  taxid: 6293
+  species: '6293'
+  role: outgroup
+  side: other
+  state: U
+  state_pre_filter: U (secondary_pLDDT70, pre-D11)
+  footprint_plddt: 33.75
+  reason: aligned<0.8
+  gene: null
+  protein_name: SSD domain-containing protein
+  rescue_settings_hit: null
+  residues: null
+  n_site_evidence: 0
+- accession: A0A3P7E2W8
+  taxid: 6293
+  species: '6293'
+  role: outgroup
+  side: other
+  state: U
+  state_pre_filter: U (secondary_pLDDT70, pre-D11)
+  footprint_plddt: null
+  reason: aligned<0.8
+  gene: null
+  protein_name: SSD domain-containing protein
+  rescue_settings_hit: null
+  residues: null
+  n_site_evidence: 0
+- accession: A0A3P7E3B5
+  taxid: 6293
+  species: '6293'
+  role: outgroup
+  side: other
+  state: U
+  state_pre_filter: U (secondary_pLDDT70, pre-D11)
+  footprint_plddt: null
+  reason: aligned<0.8
+  gene: null
+  protein_name: SSD domain-containing protein
+  rescue_settings_hit: null
+  residues: null
+  n_site_evidence: 0
+- accession: A0A3P7E5G4
+  taxid: 6293
+  species: '6293'
+  role: outgroup
+  side: other
+  state: U
+  state_pre_filter: U (secondary_pLDDT70, pre-D11)
+  footprint_plddt: null
+  reason: aligned<0.8
+  gene: null
+  protein_name: Uncharacterized protein
+  rescue_settings_hit: null
+  residues: null
+  n_site_evidence: 0
+- accession: A0A3P7E7P7
+  taxid: 6293
+  species: '6293'
+  role: outgroup
+  side: other
+  state: U
+  state_pre_filter: U (secondary_pLDDT70, pre-D11)
+  footprint_plddt: null
+  reason: aligned<0.8
+  gene: null
+  protein_name: SSD domain-containing protein
+  rescue_settings_hit: null
+  residues: null
+  n_site_evidence: 0
+- accession: A0A3P7E8R4
+  taxid: 6293
+  species: '6293'
+  role: outgroup
+  side: other
+  state: U
+  state_pre_filter: U (secondary_pLDDT70, pre-D11)
+  footprint_plddt: 63.25
+  reason: length_ratio
+  gene: null
+  protein_name: SSD domain-containing protein
+  rescue_settings_hit: null
+  residues: null
+  n_site_evidence: 0
+- accession: A0A3P7EA06
+  taxid: 6293
+  species: '6293'
+  role: outgroup
+  side: other
+  state: U
+  state_pre_filter: U (secondary_pLDDT70, pre-D11)
+  footprint_plddt: null
+  reason: aligned<0.8
+  gene: null
+  protein_name: Uncharacterized protein
+  rescue_settings_hit: null
+  residues: null
+  n_site_evidence: 0
+- accession: A0A3P7EDF9
+  taxid: 6293
+  species: '6293'
+  role: derived
+  side: absent
+  state: U
+  state_pre_filter: U (secondary_pLDDT70, pre-D11)
+  footprint_plddt: 67.5
+  reason: plddt<90
+  gene: null
+  protein_name: SSD domain-containing protein
+  rescue_settings_hit: null
+  residues: A:374 A:527 A:529 A:530
+  n_site_evidence: 0
+- accession: A0A3P7EE11
+  taxid: 6293
+  species: '6293'
+  role: outgroup
+  side: other
+  state: U
+  state_pre_filter: U (secondary_pLDDT70, pre-D11)
+  footprint_plddt: 55.25
+  reason: aligned<0.8
+  gene: null
+  protein_name: SSD domain-containing protein
+  rescue_settings_hit: null
+  residues: null
+  n_site_evidence: 0
+- accession: A0A3P7EE44
+  taxid: 6293
+  species: '6293'
+  role: outgroup
+  side: other
+  state: U
+  state_pre_filter: U (secondary_pLDDT70, pre-D11)
+  footprint_plddt: null
+  reason: aligned<0.8
+  gene: null
+  protein_name: SSD domain-containing protein
+  rescue_settings_hit: null
+  residues: null
+  n_site_evidence: 0
+- accession: A0A3P7EF95
+  taxid: 6293
+  species: '6293'
+  role: outgroup
+  side: other
+  state: U
+  state_pre_filter: U (secondary_pLDDT70, pre-D11)
+  footprint_plddt: 56.41666793823242
+  reason: partial_site_overlap
+  gene: null
+  protein_name: SSD domain-containing protein
+  rescue_settings_hit: null
+  residues: null
+  n_site_evidence: 0
+- accession: A0A3P7EFP7
+  taxid: 6293
+  species: '6293'
+  role: outgroup
+  side: other
+  state: U
+  state_pre_filter: U (secondary_pLDDT70, pre-D11)
+  footprint_plddt: 80.25
+  reason: aligned<0.8
+  gene: null
+  protein_name: SSD domain-containing protein
+  rescue_settings_hit: null
+  residues: null
+  n_site_evidence: 0
+- accession: A0A3P7EH60
+  taxid: 6293
+  species: '6293'
+  role: outgroup
+  side: other
+  state: U
+  state_pre_filter: U (secondary_pLDDT70, pre-D11)
+  footprint_plddt: null
+  reason: aligned<0.8
+  gene: null
+  protein_name: Uncharacterized protein
+  rescue_settings_hit: null
+  residues: null
+  n_site_evidence: 0
+- accession: A0A3P7EM82
+  taxid: 6293
+  species: '6293'
+  role: outgroup
+  side: other
+  state: U
+  state_pre_filter: U (secondary_pLDDT70, pre-D11)
+  footprint_plddt: null
+  reason: aligned<0.8
+  gene: null
+  protein_name: Uncharacterized protein
+  rescue_settings_hit: null
+  residues: null
+  n_site_evidence: 0
+- accession: A0A3P7ET37
+  taxid: 6293
+  species: '6293'
+  role: outgroup
+  side: other
+  state: U
+  state_pre_filter: U (secondary_pLDDT70, pre-D11)
+  footprint_plddt: 81.91666412353516
+  reason: partial_site_overlap
+  gene: null
+  protein_name: SSD domain-containing protein
+  rescue_settings_hit: null
+  residues: null
+  n_site_evidence: 0
+- accession: A0A3P7F930
+  taxid: 6293
+  species: '6293'
+  role: outgroup
+  side: other
+  state: U
+  state_pre_filter: A (secondary_pLDDT70, pre-D11)
+  footprint_plddt: 74.6500015258789
+  reason: plddt<90
+  gene: null
+  protein_name: SSD domain-containing protein
+  rescue_settings_hit: null
+  residues: null
+  n_site_evidence: 0
+- accession: A0A3P7FEA3
+  taxid: 6293
+  species: '6293'
+  role: outgroup
+  side: other
+  state: U
+  state_pre_filter: U (secondary_pLDDT70, pre-D11)
+  footprint_plddt: 79.75
+  reason: aligned<0.8
+  gene: null
+  protein_name: SSD domain-containing protein
+  rescue_settings_hit: null
+  residues: null
+  n_site_evidence: 0
+- accession: A0A3P7FGU0
+  taxid: 6293
+  species: '6293'
+  role: derived
+  side: absent
+  state: U
+  state_pre_filter: U (secondary_pLDDT70, pre-D11)
+  footprint_plddt: null
+  reason: aligned<0.8
+  gene: null
+  protein_name: SSD domain-containing protein
+  rescue_settings_hit: null
+  residues: null
+  n_site_evidence: 0
+- accession: A0A3P7FIF0
+  taxid: 6293
+  species: '6293'
+  role: outgroup
+  side: other
+  state: U
+  state_pre_filter: U (secondary_pLDDT70, pre-D11)
+  footprint_plddt: 78.75
+  reason: aligned<0.8
+  gene: null
+  protein_name: SSD domain-containing protein
+  rescue_settings_hit: null
+  residues: null
+  n_site_evidence: 0
+- accession: A0A3P7FR99
+  taxid: 6293
+  species: '6293'
+  role: outgroup
+  side: other
+  state: U
+  state_pre_filter: U (secondary_pLDDT70, pre-D11)
+  footprint_plddt: null
+  reason: aligned<0.8
+  gene: null
+  protein_name: Uncharacterized protein
+  rescue_settings_hit: null
+  residues: null
+  n_site_evidence: 0
+- accession: A0A3P7FSA9
+  taxid: 6293
+  species: '6293'
+  role: outgroup
+  side: other
+  state: U
+  state_pre_filter: U (secondary_pLDDT70, pre-D11)
+  footprint_plddt: 54.25
+  reason: aligned<0.8
+  gene: null
+  protein_name: SSD domain-containing protein
+  rescue_settings_hit: null
+  residues: null
+  n_site_evidence: 0
+- accession: A0A3P7FYI6
+  taxid: 6293
+  species: '6293'
+  role: outgroup
+  side: other
+  state: U
+  state_pre_filter: U (secondary_pLDDT70, pre-D11)
+  footprint_plddt: null
+  reason: aligned<0.8
+  gene: null
+  protein_name: SSD domain-containing protein
+  rescue_settings_hit: null
+  residues: null
+  n_site_evidence: 0
+- accession: A0A3P7FYR5
+  taxid: 6293
+  species: '6293'
+  role: outgroup
+  side: other
+  state: U
+  state_pre_filter: U (secondary_pLDDT70, pre-D11)
+  footprint_plddt: null
+  reason: aligned<0.8
+  gene: null
+  protein_name: SSD domain-containing protein
+  rescue_settings_hit: null
+  residues: null
+  n_site_evidence: 0
+- accession: A0A3P7G7Q3
+  taxid: 6293
+  species: '6293'
+  role: outgroup
+  side: other
+  state: U
+  state_pre_filter: U (secondary_pLDDT70, pre-D11)
+  footprint_plddt: null
+  reason: aligned<0.8
+  gene: null
+  protein_name: Uncharacterized protein
+  rescue_settings_hit: null
+  residues: null
+  n_site_evidence: 0
+- accession: A0A3P7GEM7
+  taxid: 6293
+  species: '6293'
+  role: outgroup
+  side: other
+  state: U
+  state_pre_filter: U (secondary_pLDDT70, pre-D11)
+  footprint_plddt: null
+  reason: no_model
+  gene: ''
+  protein_name: ''
+  rescue_settings_hit: null
+  residues: null
+  n_site_evidence: 0
+- accession: A0A3P7GGD9
+  taxid: 6293
+  species: '6293'
+  role: outgroup
+  side: other
+  state: U
+  state_pre_filter: U (secondary_pLDDT70, pre-D11)
+  footprint_plddt: 47.0
+  reason: aligned<0.8
+  gene: null
+  protein_name: SSD domain-containing protein
+  rescue_settings_hit: null
+  residues: null
+  n_site_evidence: 0
+- accession: A0A3P7GHY8
+  taxid: 6293
+  species: '6293'
+  role: outgroup
+  side: other
+  state: U
+  state_pre_filter: U (secondary_pLDDT70, pre-D11)
+  footprint_plddt: 35.25
+  reason: aligned<0.8
+  gene: null
+  protein_name: SSD domain-containing protein
+  rescue_settings_hit: null
+  residues: null
+  n_site_evidence: 0
+- accession: A0A3P7GLC4
+  taxid: 6293
+  species: '6293'
+  role: outgroup
+  side: other
+  state: U
+  state_pre_filter: U (secondary_pLDDT70, pre-D11)
+  footprint_plddt: null
+  reason: aligned<0.8
+  gene: null
+  protein_name: SSD domain-containing protein
+  rescue_settings_hit: null
+  residues: null
+  n_site_evidence: 0
+- accession: J9E2K5
+  taxid: 6293
+  species: '6293'
+  role: outgroup
+  side: other
+  state: U
+  state_pre_filter: U (secondary_pLDDT70, pre-D11)
+  footprint_plddt: 65.25
+  reason: aligned<0.8
+  gene: null
+  protein_name: SSD domain-containing protein
+  rescue_settings_hit: null
+  residues: null
+  n_site_evidence: 0
+- accession: A1Z6K5
+  taxid: 7227
+  species: '7227'
+  role: outgroup
+  side: other
+  state: U
+  state_pre_filter: U (secondary_pLDDT70, pre-D11)
+  footprint_plddt: null
+  reason: no_model
+  gene: ''
+  protein_name: ''
+  rescue_settings_hit: null
+  residues: null
+  n_site_evidence: 0
+- accession: Q9VQB8
+  taxid: 7227
+  species: '7227'
+  role: outgroup
+  side: other
+  state: U
+  state_pre_filter: U (secondary_pLDDT70, pre-D11)
+  footprint_plddt: 91.25
+  reason: aligned<0.8
+  gene: PIG-Wa
+  protein_name: Phosphatidylinositol-glycan biosynthesis class W protein
+  rescue_settings_hit: null
+  residues: null
+  n_site_evidence: 0
+- accession: Q9W096
+  taxid: 7227
+  species: '7227'
+  role: outgroup
+  side: other
+  state: U
+  state_pre_filter: U (secondary_pLDDT70, pre-D11)
+  footprint_plddt: 72.75
+  reason: aligned<0.8
+  gene: PIG-Wb
+  protein_name: Phosphatidylinositol-glycan biosynthesis class W protein
+  rescue_settings_hit: null
+  residues: null
+  n_site_evidence: 0
+- accession: A0A8M1RMZ0
+  taxid: 7955
+  species: '7955'
+  role: outgroup
+  side: other
+  state: U
+  state_pre_filter: U (secondary_pLDDT70, pre-D11)
+  footprint_plddt: 87.375
+  reason: model_sequence_mismatch
+  gene: ptchd3b
+  protein_name: Patched domain-containing protein 3
+  rescue_settings_hit: null
+  residues: null
+  n_site_evidence: 0
+- accession: A0A8M1RPB3
+  taxid: 7955
+  species: '7955'
+  role: outgroup
+  side: other
+  state: U
+  state_pre_filter: U (secondary_pLDDT70, pre-D11)
+  footprint_plddt: 84.625
+  reason: model_sequence_mismatch
+  gene: ptchd3a
+  protein_name: Patched domain-containing protein 3
+  rescue_settings_hit: null
+  residues: null
+  n_site_evidence: 0
+- accession: A0AB32TMK9
+  taxid: 7955
+  species: '7955'
+  role: outgroup
+  side: other
+  state: U
+  state_pre_filter: U (secondary_pLDDT70, pre-D11)
+  footprint_plddt: 79.625
+  reason: plddt<90
+  gene: ptchd3l
+  protein_name: Patched domain-containing protein 3
+  rescue_settings_hit: null
+  residues: null
+  n_site_evidence: 0
+- accession: F1QAR3
+  taxid: 7955
+  species: '7955'
+  role: outgroup
+  side: other
+  state: U
+  state_pre_filter: U (secondary_pLDDT70, pre-D11)
+  footprint_plddt: 93.25
+  reason: aligned<0.8
+  gene: pigw
+  protein_name: Phosphatidylinositol-glycan biosynthesis class W protein
+  rescue_settings_hit: null
+  residues: null
+  n_site_evidence: 0
+- accession: K7DYL5
+  taxid: 7955
+  species: '7955'
+  role: outgroup
+  side: other
+  state: U
+  state_pre_filter: A (secondary_pLDDT70, pre-D11)
+  footprint_plddt: 89.0
+  reason: plddt<90
+  gene: ptchd1
+  protein_name: Patched domain-containing protein 1 isoform X1
+  rescue_settings_hit: null
+  residues: null
+  n_site_evidence: 0
+- accession: Q5RIV7
+  taxid: 7955
+  species: '7955'
+  role: outgroup
+  side: other
+  state: U
+  state_pre_filter: A (secondary_pLDDT70, pre-D11)
+  footprint_plddt: 81.125
+  reason: plddt<90
+  gene: ptchd1
+  protein_name: Patched domain-containing protein 1
+  rescue_settings_hit: null
+  residues: null
+  n_site_evidence: 0
+- accession: Q3KNS1
+  taxid: 9606
+  species: '9606'
+  role: outgroup
+  side: other
+  state: U
+  state_pre_filter: U (secondary_pLDDT70, pre-D11)
+  footprint_plddt: 68.25
+  reason: aligned<0.8
+  gene: PTCHD3
+  protein_name: Patched domain-containing protein 3
+  rescue_settings_hit: null
+  residues: null
+  n_site_evidence: 0
+- accession: Q6ZW05
+  taxid: 9606
+  species: '9606'
+  role: outgroup
+  side: other
+  state: U
+  state_pre_filter: U (secondary_pLDDT70, pre-D11)
+  footprint_plddt: 83.75
+  reason: partial_site_overlap
+  gene: PTCHD4
+  protein_name: Patched domain-containing protein 4
+  rescue_settings_hit: null
+  residues: null
+  n_site_evidence: 0
+- accession: Q7Z7B1
+  taxid: 9606
+  species: '9606'
+  role: outgroup
+  side: other
+  state: U
+  state_pre_filter: U (secondary_pLDDT70, pre-D11)
+  footprint_plddt: 89.25
+  reason: aligned<0.8
+  gene: PIGW
+  protein_name: Glucosaminyl-phosphatidylinositol-acyltransferase PIGW
+  rescue_settings_hit: null
+  residues: null
+  n_site_evidence: 0
+- accession: Q96NR3
+  taxid: 9606
+  species: '9606'
+  role: outgroup
+  side: other
+  state: U
+  state_pre_filter: U (secondary_pLDDT70, pre-D11)
+  footprint_plddt: 79.25
+  reason: partial_site_overlap
+  gene: PTCHD1
+  protein_name: Patched domain-containing protein 1
+  rescue_settings_hit: null
+  residues: null
+  n_site_evidence: 0
+- accession: B9EKX1
+  taxid: 10090
+  species: '10090'
+  role: outgroup
+  side: other
+  state: U
+  state_pre_filter: U (secondary_pLDDT70, pre-D11)
+  footprint_plddt: 83.25
+  reason: partial_site_overlap
+  gene: Ptchd4
+  protein_name: Patched domain-containing protein 4
+  rescue_settings_hit: null
+  residues: null
+  n_site_evidence: 0
+- accession: Q0EEE2
+  taxid: 10090
+  species: '10090'
+  role: outgroup
+  side: other
+  state: U
+  state_pre_filter: U (secondary_pLDDT70, pre-D11)
+  footprint_plddt: 68.25
+  reason: aligned<0.8
+  gene: Ptchd3
+  protein_name: Patched domain-containing protein 3
+  rescue_settings_hit: null
+  residues: null
+  n_site_evidence: 0
+- accession: Q14B62
+  taxid: 10090
+  species: '10090'
+  role: outgroup
+  side: other
+  state: U
+  state_pre_filter: U (secondary_pLDDT70, pre-D11)
+  footprint_plddt: 82.375
+  reason: partial_site_overlap
+  gene: ptchd1
+  protein_name: Patched domain-containing protein 1
+  rescue_settings_hit: null
+  residues: null
+  n_site_evidence: 0
+- accession: Q8C398
+  taxid: 10090
+  species: '10090'
+  role: outgroup
+  side: other
+  state: U
+  state_pre_filter: U (secondary_pLDDT70, pre-D11)
+  footprint_plddt: 88.25
+  reason: aligned<0.8
+  gene: Pigw
+  protein_name: Glucosaminyl-phosphatidylinositol-acyltransferase PIGW
+  rescue_settings_hit: null
+  residues: null
+  n_site_evidence: 0
+- accession: A0A8I5ZYJ0
+  taxid: 10116
+  species: '10116'
+  role: outgroup
+  side: present
+  state: P
+  state_pre_filter: P (secondary_pLDDT70, pre-D11)
+  footprint_plddt: 82.125
+  reason: ''
+  gene: Ptchd1
+  protein_name: Patched domain-containing protein 1
+  rescue_settings_hit: null
+  residues: A:437 A:439 A:440 A:459
+  n_site_evidence: 0
+- accession: D3ZRK8
+  taxid: 10116
+  species: '10116'
+  role: outgroup
+  side: other
+  state: U
+  state_pre_filter: U (secondary_pLDDT70, pre-D11)
+  footprint_plddt: 83.0
+  reason: model_sequence_mismatch
+  gene: Ptchd4
+  protein_name: Patched domain containing 4
+  rescue_settings_hit: null
+  residues: null
+  n_site_evidence: 0
+- accession: M0R3Q7
+  taxid: 10116
+  species: '10116'
+  role: outgroup
+  side: other
+  state: U
+  state_pre_filter: U (secondary_pLDDT70, pre-D11)
+  footprint_plddt: 63.08333206176758
+  reason: aligned<0.8
+  gene: Ptchd3
+  protein_name: Patched domain-containing protein 3
+  rescue_settings_hit: null
+  residues: null
+  n_site_evidence: 0
+- accession: Q7TSN4
+  taxid: 10116
+  species: '10116'
+  role: outgroup
+  side: other
+  state: U
+  state_pre_filter: U (secondary_pLDDT70, pre-D11)
+  footprint_plddt: 85.25
+  reason: partial_site_overlap
+  gene: Pigw
+  protein_name: Glucosaminyl-phosphatidylinositol-acyltransferase PIGW
+  rescue_settings_hit: null
+  residues: null
+  n_site_evidence: 0
+- accession: A0A077YWD7
+  taxid: 36087
+  species: '36087'
+  role: outgroup
+  side: other
+  state: U
+  state_pre_filter: U (secondary_pLDDT70, pre-D11)
+  footprint_plddt: 49.875
+  reason: plddt<90
+  gene: null
+  protein_name: Patched family protein
+  rescue_settings_hit: null
+  residues: null
+  n_site_evidence: 0
+- accession: A0A077YX24
+  taxid: 36087
+  species: '36087'
+  role: outgroup
+  side: other
+  state: U
+  state_pre_filter: U (secondary_pLDDT70, pre-D11)
+  footprint_plddt: 81.94999694824219
+  reason: partial_site_overlap
+  gene: null
+  protein_name: Patched family protein
+  rescue_settings_hit: null
+  residues: null
+  n_site_evidence: 0
+- accession: A0A077YZS9
+  taxid: 36087
+  species: '36087'
+  role: outgroup
+  side: other
+  state: U
+  state_pre_filter: U (secondary_pLDDT70, pre-D11)
+  footprint_plddt: 64.8499984741211
+  reason: plddt<90
+  gene: null
+  protein_name: Patched family protein
+  rescue_settings_hit: null
+  residues: null
+  n_site_evidence: 0
+- accession: A0A077Z163
+  taxid: 36087
+  species: '36087'
+  role: outgroup
+  side: other
+  state: U
+  state_pre_filter: U (secondary_pLDDT70, pre-D11)
+  footprint_plddt: 37.25
+  reason: plddt<90
+  gene: null
+  protein_name: Patched family protein
+  rescue_settings_hit: null
+  residues: null
+  n_site_evidence: 0
+- accession: A0A077Z3P1
+  taxid: 36087
+  species: '36087'
+  role: outgroup
+  side: other
+  state: U
+  state_pre_filter: U (secondary_pLDDT70, pre-D11)
+  footprint_plddt: 77.91666412353516
+  reason: aligned<0.8
+  gene: null
+  protein_name: Patched family protein
+  rescue_settings_hit: null
+  residues: null
+  n_site_evidence: 0
+- accession: A0A077Z5Q2
+  taxid: 36087
+  species: '36087'
+  role: outgroup
+  side: other
+  state: U
+  state_pre_filter: U (secondary_pLDDT70, pre-D11)
+  footprint_plddt: 74.0
+  reason: plddt<90
+  gene: null
+  protein_name: Patched protein 9
+  rescue_settings_hit: null
+  residues: null
+  n_site_evidence: 0
+- accession: A0A077Z7D3
+  taxid: 36087
+  species: '36087'
+  role: outgroup
+  side: other
+  state: U
+  state_pre_filter: U (secondary_pLDDT70, pre-D11)
+  footprint_plddt: 77.75
+  reason: aligned<0.8
+  gene: null
+  protein_name: Patched domain containing protein
+  rescue_settings_hit: null
+  residues: null
+  n_site_evidence: 0
+- accession: A0A077Z844
+  taxid: 36087
+  species: '36087'
+  role: outgroup
+  side: other
+  state: U
+  state_pre_filter: U (secondary_pLDDT70, pre-D11)
+  footprint_plddt: 69.94999694824219
+  reason: plddt<90
+  gene: null
+  protein_name: Patched family protein
+  rescue_settings_hit: null
+  residues: null
+  n_site_evidence: 0
+- accession: A0A077Z855
+  taxid: 36087
+  species: '36087'
+  role: outgroup
+  side: present
+  state: P
+  state_pre_filter: P (secondary_pLDDT70, pre-D11)
+  footprint_plddt: 80.94999694824219
+  reason: ''
+  gene: null
+  protein_name: Patched domain containing protein
+  rescue_settings_hit: null
+  residues: A:314 A:457 A:459 A:460 A:481
+  n_site_evidence: 0
+- accession: A0A077ZB01
+  taxid: 36087
+  species: '36087'
+  role: outgroup
+  side: other
+  state: U
+  state_pre_filter: U (secondary_pLDDT70, pre-D11)
+  footprint_plddt: 63.875
+  reason: terminal_truncation
+  gene: null
+  protein_name: Patched domain containing protein
+  rescue_settings_hit: null
+  residues: null
+  n_site_evidence: 0
+- accession: A0A077ZHK3
+  taxid: 36087
+  species: '36087'
+  role: outgroup
+  side: other
+  state: U
+  state_pre_filter: U (secondary_pLDDT70, pre-D11)
+  footprint_plddt: 58.08333206176758
+  reason: aligned<0.8
+  gene: null
+  protein_name: Patched domain containing protein
+  rescue_settings_hit: null
+  residues: null
+  n_site_evidence: 0
+- accession: C6KSZ4
+  taxid: 36329
+  species: '36329'
+  role: outgroup
+  side: other
+  state: U
+  state_pre_filter: U (secondary_pLDDT70, pre-D11)
+  footprint_plddt: 75.41666412353516
+  reason: partial_site_overlap
+  gene: null
+  protein_name: GPI-anchored wall transfer protein 1, putative
+  rescue_settings_hit: null
+  residues: null
+  n_site_evidence: 0
+- accession: Q10KM5
+  taxid: 39947
+  species: '39947'
+  role: outgroup
+  side: other
+  state: U
+  state_pre_filter: U (secondary_pLDDT70, pre-D11)
+  footprint_plddt: 39.75
+  reason: aligned<0.8
+  gene: null
+  protein_name: Os03g0378200 protein
+  rescue_settings_hit: null
+  residues: null
+  n_site_evidence: 0
+- accession: Q54MC0
+  taxid: 44689
+  species: '44689'
+  role: outgroup
+  side: other
+  state: U
+  state_pre_filter: U (secondary_pLDDT70, pre-D11)
+  footprint_plddt: 46.625
+  reason: length_ratio
+  gene: pigw
+  protein_name: Phosphatidylinositol-glycan biosynthesis class W protein
+  rescue_settings_hit: null
+  residues: null
+  n_site_evidence: 0
+- accession: A0A1C1CNT7
+  taxid: 86049
+  species: '86049'
+  role: outgroup
+  side: other
+  state: U
+  state_pre_filter: U (secondary_pLDDT70, pre-D11)
+  footprint_plddt: 61.25
+  reason: length_ratio
+  gene: gwt1
+  protein_name: GPI-anchored wall transfer protein
+  rescue_settings_hit: null
+  residues: null
+  n_site_evidence: 0
+- accession: A0A175VPJ5
+  taxid: 100816
+  species: '100816'
+  role: outgroup
+  side: other
+  state: U
+  state_pre_filter: U (secondary_pLDDT70, pre-D11)
+  footprint_plddt: 92.25
+  reason: aligned<0.8
+  gene: null
+  protein_name: GPI-anchored wall transfer protein
+  rescue_settings_hit: null
+  residues: null
+  n_site_evidence: 0
+- accession: Q873N2
+  taxid: 237561
+  species: '237561'
+  role: outgroup
+  side: other
+  state: U
+  state_pre_filter: U (secondary_pLDDT70, pre-D11)
+  footprint_plddt: 87.75
+  reason: aligned<0.8
+  gene: GWT1
+  protein_name: GPI-anchored wall transfer protein 1
+  rescue_settings_hit: null
+  residues: null
+  n_site_evidence: 0
+- accession: Q9UTL4
+  taxid: 284812
+  species: '284812'
+  role: outgroup
+  side: other
+  state: U
+  state_pre_filter: U (secondary_pLDDT70, pre-D11)
+  footprint_plddt: 91.25
+  reason: partial_site_overlap
+  gene: gwt1
+  protein_name: GPI-anchored wall transfer protein 1
+  rescue_settings_hit: null
+  residues: null
+  n_site_evidence: 0
+- accession: A0A0N4U1E0
+  taxid: 318479
+  species: '318479'
+  role: outgroup
+  side: other
+  state: U
+  state_pre_filter: U (secondary_pLDDT70, pre-D11)
+  footprint_plddt: null
+  reason: aligned<0.8
+  gene: null
+  protein_name: Uncharacterized protein
+  rescue_settings_hit: null
+  residues: null
+  n_site_evidence: 0
+- accession: A0A0N4U1Z3
+  taxid: 318479
+  species: '318479'
+  role: outgroup
+  side: other
+  state: U
+  state_pre_filter: U (secondary_pLDDT70, pre-D11)
+  footprint_plddt: 38.75
+  reason: aligned<0.8
+  gene: null
+  protein_name: SSD domain-containing protein
+  rescue_settings_hit: null
+  residues: null
+  n_site_evidence: 0
+- accession: A0A0N4U386
+  taxid: 318479
+  species: '318479'
+  role: outgroup
+  side: other
+  state: U
+  state_pre_filter: U (secondary_pLDDT70, pre-D11)
+  footprint_plddt: 65.25
+  reason: aligned<0.8
+  gene: null
+  protein_name: SSD domain-containing protein
+  rescue_settings_hit: null
+  residues: null
+  n_site_evidence: 0
+- accession: A0A0N4U5E1
+  taxid: 318479
+  species: '318479'
+  role: outgroup
+  side: present
+  state: P
+  state_pre_filter: P (secondary_pLDDT70, pre-D11)
+  footprint_plddt: 71.94999694824219
+  reason: ''
+  gene: null
+  protein_name: SSD domain-containing protein
+  rescue_settings_hit: null
+  residues: A:298 A:441 A:443 A:444 A:465
+  n_site_evidence: 0
+- accession: A0A0N4U7B5
+  taxid: 318479
+  species: '318479'
+  role: outgroup
+  side: other
+  state: U
+  state_pre_filter: U (secondary_pLDDT70, pre-D11)
+  footprint_plddt: 63.625
+  reason: plddt<90
+  gene: null
+  protein_name: SSD domain-containing protein
+  rescue_settings_hit: null
+  residues: null
+  n_site_evidence: 0
+- accession: A0A0N4U7B6
+  taxid: 318479
+  species: '318479'
+  role: derived
+  side: absent
+  state: U
+  state_pre_filter: U (secondary_pLDDT70, pre-D11)
+  footprint_plddt: 60.91666793823242
+  reason: aligned<0.8
+  gene: null
+  protein_name: SSD domain-containing protein
+  rescue_settings_hit: null
+  residues: A:445 A:447 A:448
+  n_site_evidence: 0
+- accession: A0A0N4UAE3
+  taxid: 318479
+  species: '318479'
+  role: outgroup
+  side: other
+  state: U
+  state_pre_filter: U (secondary_pLDDT70, pre-D11)
+  footprint_plddt: 53.0
+  reason: aligned<0.8
+  gene: null
+  protein_name: SSD domain-containing protein
+  rescue_settings_hit: null
+  residues: null
+  n_site_evidence: 0
+- accession: A0A0N4UCH5
+  taxid: 318479
+  species: '318479'
+  role: outgroup
+  side: other
+  state: U
+  state_pre_filter: U (secondary_pLDDT70, pre-D11)
+  footprint_plddt: 65.91666412353516
+  reason: aligned<0.8
+  gene: null
+  protein_name: SSD domain-containing protein
+  rescue_settings_hit: null
+  residues: null
+  n_site_evidence: 0
+- accession: A0A0N4UDP2
+  taxid: 318479
+  species: '318479'
+  role: outgroup
+  side: other
+  state: U
+  state_pre_filter: U (secondary_pLDDT70, pre-D11)
+  footprint_plddt: 73.25
+  reason: partial_site_overlap
+  gene: null
+  protein_name: SSD domain-containing protein
+  rescue_settings_hit: null
+  residues: null
+  n_site_evidence: 0
+- accession: A0A0N4UEA0
+  taxid: 318479
+  species: '318479'
+  role: outgroup
+  side: other
+  state: U
+  state_pre_filter: U (secondary_pLDDT70, pre-D11)
+  footprint_plddt: 53.25
+  reason: aligned<0.8
+  gene: null
+  protein_name: SSD domain-containing protein
+  rescue_settings_hit: null
+  residues: null
+  n_site_evidence: 0
+- accession: A0A0N4UHH4
+  taxid: 318479
+  species: '318479'
+  role: outgroup
+  side: other
+  state: U
+  state_pre_filter: U (secondary_pLDDT70, pre-D11)
+  footprint_plddt: 70.75
+  reason: aligned<0.8
+  gene: null
+  protein_name: SSD domain-containing protein
+  rescue_settings_hit: null
+  residues: null
+  n_site_evidence: 0
+- accession: A0A0N4UIA1
+  taxid: 318479
+  species: '318479'
+  role: outgroup
+  side: other
+  state: U
+  state_pre_filter: U (secondary_pLDDT70, pre-D11)
+  footprint_plddt: null
+  reason: aligned<0.8
+  gene: null
+  protein_name: SSD domain-containing protein
+  rescue_settings_hit: null
+  residues: null
+  n_site_evidence: 0
+- accession: A0A0N4UIA2
+  taxid: 318479
+  species: '318479'
+  role: outgroup
+  side: present
+  state: P
+  state_pre_filter: P (secondary_pLDDT70, pre-D11)
+  footprint_plddt: 85.44999694824219
+  reason: ''
+  gene: null
+  protein_name: SSD domain-containing protein
+  rescue_settings_hit: null
+  residues: A:296 A:439 A:441 A:442 A:462
+  n_site_evidence: 0
+- accession: A0A0N4UL21
+  taxid: 318479
+  species: '318479'
+  role: outgroup
+  side: other
+  state: U
+  state_pre_filter: U (secondary_pLDDT70, pre-D11)
+  footprint_plddt: 62.75
+  reason: aligned<0.8
+  gene: null
+  protein_name: Phosphatidylinositol-glycan biosynthesis class W protein
+  rescue_settings_hit: null
+  residues: null
+  n_site_evidence: 0
+- accession: A0A0N4UL74
+  taxid: 318479
+  species: '318479'
+  role: outgroup
+  side: other
+  state: U
+  state_pre_filter: A (secondary_pLDDT70, pre-D11)
+  footprint_plddt: 84.125
+  reason: plddt<90
+  gene: null
+  protein_name: SSD domain-containing protein
+  rescue_settings_hit: null
+  residues: null
+  n_site_evidence: 0
+- accession: A0A0N4ULW3
+  taxid: 318479
+  species: '318479'
+  role: outgroup
+  side: other
+  state: U
+  state_pre_filter: U (secondary_pLDDT70, pre-D11)
+  footprint_plddt: 80.75
+  reason: aligned<0.8
+  gene: null
+  protein_name: SSD domain-containing protein
+  rescue_settings_hit: null
+  residues: null
+  n_site_evidence: 0
+- accession: A0A0N4ULW4
+  taxid: 318479
+  species: '318479'
+  role: outgroup
+  side: other
+  state: U
+  state_pre_filter: U (secondary_pLDDT70, pre-D11)
+  footprint_plddt: null
+  reason: aligned<0.8
+  gene: null
+  protein_name: SSD domain-containing protein
+  rescue_settings_hit: null
+  residues: null
+  n_site_evidence: 0
+- accession: A0A0N4UMY5
+  taxid: 318479
+  species: '318479'
+  role: outgroup
+  side: present
+  state: P
+  state_pre_filter: P (secondary_pLDDT70, pre-D11)
+  footprint_plddt: 88.75
+  reason: ''
+  gene: null
+  protein_name: SSD domain-containing protein
+  rescue_settings_hit: null
+  residues: A:435 A:437 A:438
+  n_site_evidence: 0
+- accession: A0A0N4UQS8
+  taxid: 318479
+  species: '318479'
+  role: outgroup
+  side: other
+  state: U
+  state_pre_filter: U (secondary_pLDDT70, pre-D11)
+  footprint_plddt: 56.75
+  reason: aligned<0.8
+  gene: null
+  protein_name: SSD domain-containing protein
+  rescue_settings_hit: null
+  residues: null
+  n_site_evidence: 0
+- accession: A0A158Q3B0
+  taxid: 318479
+  species: '318479'
+  role: outgroup
+  side: other
+  state: U
+  state_pre_filter: U (secondary_pLDDT70, pre-D11)
+  footprint_plddt: 62.75
+  reason: plddt<90
+  gene: null
+  protein_name: SSD domain-containing protein
+  rescue_settings_hit: null
+  residues: null
+  n_site_evidence: 0
+- accession: A0A158Q5N2
+  taxid: 318479
+  species: '318479'
+  role: outgroup
+  side: other
+  state: U
+  state_pre_filter: A (secondary_pLDDT70, pre-D11)
+  footprint_plddt: 78.875
+  reason: plddt<90
+  gene: null
+  protein_name: SSD domain-containing protein
+  rescue_settings_hit: null
+  residues: null
+  n_site_evidence: 0
+- accession: A0A3P7PAK1
+  taxid: 318479
+  species: '318479'
+  role: outgroup
+  side: other
+  state: U
+  state_pre_filter: U (secondary_pLDDT70, pre-D11)
+  footprint_plddt: 55.75
+  reason: aligned<0.8
+  gene: null
+  protein_name: SSD domain-containing protein
+  rescue_settings_hit: null
+  residues: null
+  n_site_evidence: 0
+- accession: A0A3P7PVF7
+  taxid: 318479
+  species: '318479'
+  role: outgroup
+  side: other
+  state: U
+  state_pre_filter: U (secondary_pLDDT70, pre-D11)
+  footprint_plddt: 41.75
+  reason: aligned<0.8
+  gene: null
+  protein_name: SSD domain-containing protein
+  rescue_settings_hit: null
+  residues: null
+  n_site_evidence: 0
+- accession: A0A3P7PWC9
+  taxid: 318479
+  species: '318479'
+  role: outgroup
+  side: other
+  state: U
+  state_pre_filter: U (secondary_pLDDT70, pre-D11)
+  footprint_plddt: 74.25
+  reason: aligned<0.8
+  gene: null
+  protein_name: SSD domain-containing protein
+  rescue_settings_hit: null
+  residues: null
+  n_site_evidence: 0
+- accession: A0A3P7Q8I7
+  taxid: 318479
+  species: '318479'
+  role: outgroup
+  side: other
+  state: U
+  state_pre_filter: U (secondary_pLDDT70, pre-D11)
+  footprint_plddt: 63.349998474121094
+  reason: plddt<90
+  gene: null
+  protein_name: SSD domain-containing protein
+  rescue_settings_hit: null
+  residues: null
+  n_site_evidence: 0
+- accession: A0A3P7QAF1
+  taxid: 318479
+  species: '318479'
+  role: outgroup
+  side: other
+  state: U
+  state_pre_filter: U (secondary_pLDDT70, pre-D11)
+  footprint_plddt: null
+  reason: aligned<0.8
+  gene: null
+  protein_name: SSD domain-containing protein
+  rescue_settings_hit: null
+  residues: null
+  n_site_evidence: 0
+- accession: A0A3P7SPH9
+  taxid: 318479
+  species: '318479'
+  role: outgroup
+  side: other
+  state: U
+  state_pre_filter: U (secondary_pLDDT70, pre-D11)
+  footprint_plddt: 83.25
+  reason: aligned<0.8
+  gene: null
+  protein_name: SSD domain-containing protein
+  rescue_settings_hit: null
+  residues: null
+  n_site_evidence: 0
+- accession: C0NF13
+  taxid: 447093
+  species: '447093'
+  role: outgroup
+  side: other
+  state: U
+  state_pre_filter: U (secondary_pLDDT70, pre-D11)
+  footprint_plddt: 93.25
+  reason: aligned<0.8
+  gene: null
+  protein_name: GPI-anchored wall transfer protein
+  rescue_settings_hit: null
+  residues: null
+  n_site_evidence: 0
+- accession: C1H3W6
+  taxid: 502779
+  species: '502779'
+  role: outgroup
+  side: other
+  state: U
+  state_pre_filter: U (secondary_pLDDT70, pre-D11)
+  footprint_plddt: 91.75
+  reason: aligned<0.8
+  gene: null
+  protein_name: GPI-anchored wall transfer protein
+  rescue_settings_hit: null
+  residues: null
+  n_site_evidence: 0
+- accession: P47026
+  taxid: 559292
+  species: '559292'
+  role: outgroup
+  side: other
+  state: U
+  state_pre_filter: U (secondary_pLDDT70, pre-D11)
+  footprint_plddt: 65.25
+  reason: aligned<0.8
+  gene: GWT1
+  protein_name: GPI-anchored wall transfer protein 1
+  rescue_settings_hit: null
+  residues: null
+  n_site_evidence: 0
+- accession: U7PQN0
+  taxid: 1391915
+  species: '1391915'
+  role: outgroup
+  side: other
+  state: U
+  state_pre_filter: U (secondary_pLDDT70, pre-D11)
+  footprint_plddt: 91.25
+  reason: aligned<0.8
+  gene: null
+  protein_name: GPI-anchored wall transfer protein
+  rescue_settings_hit: null
+  residues: null
+  n_site_evidence: 0
+- accession: A0A0D2HA92
+  taxid: 1442368
+  species: '1442368'
+  role: outgroup
+  side: other
+  state: U
+  state_pre_filter: U (secondary_pLDDT70, pre-D11)
+  footprint_plddt: 69.0
+  reason: partial_site_overlap
+  gene: null
+  protein_name: GPI-anchored wall transfer protein
+  rescue_settings_hit: null
+  residues: null
+  n_site_evidence: 0
+filters:
+- name: persistence
+  status: fail
+  detail: 'A in 0 derived species (purity 0.00 of informative derived members; 0.00 over all members under
+    the species-tree LCA: scattered); single tree-consistent event: False; outgroup support: P in 8 outgroup
+    species'
+- name: experimental
+  status: fail
+  detail: no experimental evidence at the footprint
+- name: computational
+  status: pending
+  detail: 'conservation: na (too few aligned members (derived 0, outgroup 21)); rescue_consistency: na
+    (no rescue run for present-side members); source_consistency: na (no present-side member in the v6/v4
+    re-detection sample); cofolding: pending (placeholder; filled by the co-folding agent)'
+- name: f3:conservation
+  status: na
+  detail: too few aligned members (derived 0, outgroup 21)
+- name: f3:rescue_consistency
+  status: na
+  detail: no rescue run for present-side members
+- name: f3:source_consistency
+  status: na
+  detail: no present-side member in the v6/v4 re-detection sample
+- name: f3:cofolding
+  status: pending
+  detail: placeholder; filled by the co-folding agent
+artifact_checks:
+- name: artifact_cascade
+  status: pending
+  detail: pass_artifacts not yet in the candidate table (Part B agent)
+- name: orthology_side_family_reported_only
+  status: pending
+  detail: no PANTHER/Pfam family on one side [reported only; does not gate selection (PI D30)]
+evidence: []
+cofold:
+- model_id: pending
+  status: pending
+  role: derived
+  note: "placeholder; co-folding agent fills models per DESIGN \xA76 and the D23 concordance rule (ligand\
+    \ pLDDT AND centroid distance or site-residue recall in >= 2/3 seeds)"
+- model_id: control_falseloss_HOG0028108_g15_n235_O1_apo
+  role: apo_refold
+  status: control_not_testable
+  ligands: []
+  seeds: 3
+  samples_per_seed: 5
+  templates: none
+  msa: ColabFold MMseqs2
+  method: protein-only AF3 refold, then pocketcompare describe --af-mode; site recall of the best-covering
+    BURROW pocket against the case footprint, reported CONTINUOUS (never thresholded at 0.8)
+  present_recall_median: 0.0
+  absent_recall_median: null
+  delta_recall: null
+  n_present: 3
+  n_absent: 0
+  members:
+  - acc: A0A0N4UMY5
+    side: present
+    recall: 1.0
+    precision: 0.75
+    burrow_rank: '13'
+    n_pockets: '14'
+    construct: full_length
+    atlas_footprint_plddt: 88.75
+    site_source: own_footprint
+  - acc: O61894
+    side: present
+    recall: 0.0
+    precision: 0.0
+    burrow_rank: '1'
+    n_pockets: '14'
+    construct: full_length
+    atlas_footprint_plddt: 86.917
+    site_source: own_footprint
+  - acc: Q9XXR9
+    side: present
+    recall: 0.0
+    precision: 0.0
+    burrow_rank: '2'
+    n_pockets: '7'
+    construct: TED:5-47_314-466_486-528_701-859(398aa,cov4/4)
+    atlas_footprint_plddt: 85.625
+    site_source: own_footprint
+  table: results/cofold/apo_pool/apo_burrow_pool.tsv
+  prediction: the pocket should reappear in a fresh ligand-free model of the absent-side (bad-model) proteins
+  outcome: 'NOT TESTED: no pre-D11 state-A member could be recovered for this SOG, so there is no absent
+    side to refold'
+figures: []
+literature: []
+headline: convincing_only
+filter_label_with_literature_post_hoc: null
+notes: 'filter_label=rejected (prereg: convincing = all three filters; supported = f1 + one of f2/f3);
+  final label also needs the artifact cascade (pending). candidate label: false-loss control; fdr_supported=False.
+  selection: negative_control. G (gene-absent) rows not listed: 3; every other member is listed with side
+  (present/absent/other), state and reason; state_pre_filter = state in the pre-quality-filter run that
+  called the false loss. Evidence counts are derived from BioLiP2/UniProt 2026_03/M-CSA/ChEMBL 37 (DATA.md);
+  BioLiP rows are not redistributed, only PDB IDs and counts. Final co-fold pool selection (D28, case_list_v2.parquet):
+  negative_control.'
+provenance:
+  builder: scripts/cases/build_cases.py
+  orthology: O1
+  snapshot: 20261030T085136Z
+  case_list: results/cases/20261030T085136Z/case_list_v2.parquet
+  prereg_sha256: 52f9461890984c210b730af86c40de221307a668e7d4b38098b3316059690d83
+  git_commit: cdb00a44da5049d0e4a054f4e2ba4ee534e35363+dirty
+  seed: 0
+  built_utc: '2026-10-30T16:17:54Z'
+  n_excluded_tune_annotations:
+    rule: per SOG (prereg literal); OG-wide reported as sensitivity
+    n_tuning_list_rows: 450
+    n_used_in_tune_pairs: 245
+    pairs_file: results/sogs/20261030T085136Z/O1/tau_benchmark_pairs.parquet
+    n_keys_per_sog: 216
+    n_keys_og_wide: 221

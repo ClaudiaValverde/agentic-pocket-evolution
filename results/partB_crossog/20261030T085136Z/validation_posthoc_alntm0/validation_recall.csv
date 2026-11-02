@@ -1,0 +1,15 @@
+item,orthology,expected,in_scope,derived_ogs,ancestral_ogs,family_rule,anchor_sog,anchor_eligible,anchor_has_rep,n_links_tested,n_anchor_links,anchor_best_J,anchor_min_q_a,n_call_a_any_link,n_projections_testable,n_b_pre_rescue,n_call_b,rec_specificity_anchor,rec_specificity_lenient,rec_loss,rec_gain,recovered
+steroid_receptor_LBP,O1,specificity,True,HOG0022342;HOG0022634;HOG0025274,HOG0025274,"TED:1.10.565.10,3.30.50.10;TED:1.10.565.10,3.30.50.10",HOG0025274:g0,True,True,4,2,0.4827586206896552,0.8954973332483372,0,12,0,0,False,False,False,False,False
+NR4A_Nurr1_loss,O1,loss,False,HOG0025274,HOG0025274,,HOG0025274:g2,False,False,0,0,,,0,0,0,0,False,False,False,False,False
+PfLDH_vs_MDH,O1,specificity,True,HOG0035618,HOG0030579;HOG0035618,"TED:3.40.50.720,3.90.110.10",HOG0035618:g1,True,True,6,2,0.5357142857142857,0.8811382237041527,0,8,0,0,False,False,False,False,False
+IDH_NADP_NAD,O1,specificity,True,HOG0036048,HOG0036184,TED:3.40.718.10,HOG0036048:g1,True,True,3,1,0.6923076923076923,0.8811382237041527,0,11,0,0,False,False,False,False,False
+GID1_vs_HSL,O1,gain;specificity,True,HOG0030582,HOG0029749,nan,HOG0030582:g0,True,True,0,0,,,0,0,0,0,False,False,False,False,False
+D14_vs_KAI2,O1,specificity,False,HOG0034565,HOG0034565,,HOG0034565:g4,True,False,0,0,,,0,0,0,0,False,False,False,False,False
+lysozyme_vs_lactalbumin,O1,loss;specificity,False,HOG0027604,HOG0027604,,HOG0027604:g0,True,False,0,0,,,0,0,0,0,False,False,False,False,False
+steroid_receptor_LBP,O2,specificity,True,HOG0035184,HOG0035169,None,HOG0035169:g0,True,True,3,1,0.7407407407407407,0.9701618282023379,0,8,0,0,False,False,False,False,False
+NR4A_Nurr1_loss,O2,loss,True,HOG0035741,HOG0028532,None,HOG0035741:g4,True,True,1,0,,,0,10,0,0,False,False,False,False,False
+PfLDH_vs_MDH,O2,specificity,True,HOG0019046,HOG0019046;HOG0051690,None,HOG0019046:g2,True,True,5,1,0.3333333333333333,0.9257417102966841,0,11,1,0,False,False,False,False,False
+IDH_NADP_NAD,O2,specificity,True,HOG0054339,HOG0053286,None,HOG0054339:g1,True,True,5,1,0.9411764705882353,0.806512079977784,0,8,0,0,False,False,False,False,False
+GID1_vs_HSL,O2,gain;specificity,True,HOG0044281,HOG0042820,None,HOG0044281:g0,True,True,3,2,0.5263157894736842,0.806512079977784,0,7,0,0,False,False,False,False,False
+D14_vs_KAI2,O2,specificity,False,HOG0044130,HOG0044130,,HOG0044130:g0,True,False,0,0,,,0,0,0,0,False,False,False,False,False
+lysozyme_vs_lactalbumin,O2,loss;specificity,False,HOG0047027,HOG0047027,,HOG0047027:g4,True,False,0,0,,,0,0,0,0,False,False,False,False,False

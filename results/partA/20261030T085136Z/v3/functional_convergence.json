@@ -1,0 +1,29 @@
+{
+ "site_labels_attached": {
+  "biolip2": 307616,
+  "uniprot_exp": 7184,
+  "mcsa_ref": 839
+ },
+ "annotated_sites": 23540,
+ "sig_pairs_by_class": {
+  "H12s": 4043166,
+  "N": 3607062,
+  "H3j": 1304574,
+  "H2s": 468921,
+  "H1s": 154988,
+  "H12x": 75125,
+  "H4": 65599,
+  "H3s": 36736,
+  "H2x": 16025,
+  "H1x": 6159
+ },
+ "control_resolved_classes": {
+  "N": 59855,
+  "H4": 76,
+  "H3s": 29
+ },
+ "control_drawn": 200000,
+ "wall_s": 115.26034688949585,
+ "n_boot": 200,
+ "train_accessions": 1943
+}

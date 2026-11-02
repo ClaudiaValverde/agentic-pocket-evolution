@@ -1,0 +1,18 @@
+{
+ "output": "SPECIFICITY_O1.md",
+ "snapshot_id": "20261030T085136Z",
+ "prereg_sha256": "52f9461890984c210b730af86c40de221307a668e7d4b38098b3316059690d83",
+ "git_commit": "4cb08f11772a86eb9bd6280f1e004b89e4ec8286+dirty",
+ "seed": 0,
+ "created_utc": "2026-10-30T22:40:34Z",
+ "sha256": "29bfc615bda2b9e1de3cc0cf1e97f3dcedf36c7cb71917fa7174a5445c88645d",
+ "script": "scripts/partB/write_spec_d34.py",
+ "argv": [
+  "--orthology",
+  "O1",
+  "--release",
+  "O1_r3",
+  "--run-id",
+  "O1_r3_specD34"
+ ]
+}

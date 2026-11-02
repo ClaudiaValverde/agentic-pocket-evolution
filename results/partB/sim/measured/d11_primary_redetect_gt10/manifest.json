@@ -1,0 +1,23 @@
+{
+ "stage": "partB_sim",
+ "n_root_hogs_ge3_species": 25347,
+ "n_trees": 25342,
+ "reps": 30,
+ "noise_grid": [
+  0.0,
+  0.5,
+  1.0,
+  2.0,
+  4.0
+ ],
+ "cost_settings": [
+  "2:1 all noise",
+  "1:1 and 3:1 at ref noise"
+ ],
+ "n_characters": 15262500,
+ "n_events_stored": 1227767,
+ "runtime_s": 47.66781520843506,
+ "orthoxml": "<repo>/data/orthology/ancestra_tier1_v0/accurate/hogs.orthoxml.gz",
+ "orthoxml_sha256": "222981823c2a75e57d5e655961d0f9c7b350fdf476fccb74cee5582e29aef63a",
+ "code_sha256": "e2537214ae1d54f8141bc2a9b240edde1eb7f9c65f7071b5631448fd1074f41a"
+}

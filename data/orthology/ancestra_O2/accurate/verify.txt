@@ -1,0 +1,9 @@
+[verify_orthoxml] PASS xsd (10.9s): {}
+[verify_orthoxml] PASS generef_integrity (12.5s): {"n_genes_declared": 1549554, "n_generefs": 1234439, "n_groups": 815733}
+[verify_orthoxml] PASS genes_once (12.5s): {"n_genes_in_groups": 1234439, "n_singletons": 315115, "n_genes_referenced_more_than_once": 0, "gene_table": "/tmp/pe_big/ancestra/o2/run_O2_accurate/stages/input/genes.tsv", "n_input_genes": 1549554, "n_missing": 0, "n_extra": 0, "n_wrong_species": 0}
+[verify_orthoxml] PASS taxrange_lca (9.4s): {"n_orthologGroups": 638734, "n_paralogGroups": 176999, "n_taxrange_ne_lca": 0, "n_taxonid_ne_taxrange": 0, "n_nesting_violations": 0, "n_paralog_level_violations": 0, "n_unknown_levels": 0}
+[verify_orthoxml] PASS pairs_count (11.5s): {"n_pairs_hogs": 37454115, "n_lines_pairs_tsv": 37454115}
+[verify_orthoxml] SKIP flattening_vs_qfo (s): {"skipped": "QfO map_relations.py not found in <repo>/external/ancestra-mvp-ai/data/qfo/benchmark-webservice (set QFO_BENCHMARK_DIR)"}
+[verify_orthoxml] PASS pyham (45.8s): {"n_top_level_hogs_pyham": 56120, "n_expected": 56120, "n_genes": 1234439, "load_s": 28.0, "mode": "full"}
+[verify_orthoxml] SKIP orthobench_export (s): {"skipped": "Open_Orthobench benchmark.py not found in <repo>/external/ancestra-mvp-ai/data/orthobench/Open_Orthobench/BENCHMARKS (set ORTHOBENCH_DIR)"}
+[verify_orthoxml] overall: PASS

@@ -1,0 +1,222 @@
+{
+ "f1": {
+  "status": "pass",
+  "n_species_change": 4,
+  "clade_purity": 1.0,
+  "lca_purity": 1.0,
+  "single_event": true,
+  "n_out_support": 9,
+  "shape": "clean clade",
+  "detail": "P in 4 derived species (purity 1.00 of informative derived members; 1.00 over all members under the species-tree LCA: clean clade); single tree-consistent event: True; outgroup support: A in 9 outgroup species"
+ },
+ "f2": {
+  "status": "fail",
+  "strength": "none",
+  "about_change": false,
+  "detail": "no experimental evidence at the footprint",
+  "present": {
+   "n_members_with_evidence": 0,
+   "n_biolip": 0,
+   "n_uniprot_exp": 0,
+   "n_mcsa_ref": 0,
+   "pdb_ids": [],
+   "ligands": [],
+   "ligand_tokens": []
+  },
+  "absent": {
+   "n_members_with_evidence": 0,
+   "n_biolip": 0,
+   "n_uniprot_exp": 0,
+   "n_mcsa_ref": 0,
+   "pdb_ids": [],
+   "ligands": [],
+   "ligand_tokens": []
+  },
+  "chembl_present_proteins": 0,
+  "chembl_absent_proteins": 0,
+  "n_members_numbering_unverified": 0,
+  "n_hits_excluded_tau_tuning": 0,
+  "sensitivity_og_wide_exclusion": {
+   "status": "fail",
+   "n_hits_excluded": 0
+  }
+ },
+ "f3": {
+  "status": "pass",
+  "passing": [
+   "conservation",
+   "rescue_consistency"
+  ],
+  "detail": "conservation: pass (6/11 footprint columns clade-specific (rate 0.55 vs background 0.51); derived conservation 1.00, outgroup identity to derived majority 0.49); rescue_consistency: pass (present side re-detected in >= 3/6 BURROW settings for 1.00 of 4 members (median 6); absent side max 0/6 over 13 members); source_consistency: na (no present-side member in the v6/v4 re-detection sample); cofolding: pending (placeholder; filled by the co-folding agent)"
+ },
+ "lines": {
+  "conservation": {
+   "status": "pass",
+   "n_specific": 6,
+   "n_fp_cols": 11,
+   "rate_fp": 0.545,
+   "rate_bg": 0.514,
+   "mean_cons_derived": 1.0,
+   "mean_identity_out": 0.49,
+   "detail": "6/11 footprint columns clade-specific (rate 0.55 vs background 0.51); derived conservation 1.00, outgroup identity to derived majority 0.49"
+  },
+  "rescue_consistency": {
+   "status": "pass",
+   "frac_present_majority": 1.0,
+   "median_hits_present": 6.0,
+   "max_hits_absent": 0,
+   "detail": "present side re-detected in >= 3/6 BURROW settings for 1.00 of 4 members (median 6); absent side max 0/6 over 13 members"
+  },
+  "source_consistency": {
+   "status": "na",
+   "detail": "no present-side member in the v6/v4 re-detection sample"
+  },
+  "cofolding": {
+   "status": "pending",
+   "detail": "placeholder; filled by the co-folding agent"
+  }
+ },
+ "identifier_checks": {
+  "pdb": {},
+  "uniprot": {
+   "A0A0H3GJI7": {
+    "resolved": true,
+    "title": "Citrate synthase",
+    "organism": "Klebsiella pneumoniae subsp. pneumoniae (strain HS11286)",
+    "retrieved_utc": "2026-10-30T14:30:00Z"
+   },
+   "A0A0H3GQA5": {
+    "resolved": true,
+    "title": "Citrate synthase",
+    "organism": "Klebsiella pneumoniae subsp. pneumoniae (strain HS11286)",
+    "retrieved_utc": "2026-10-30T14:30:00Z"
+   },
+   "A0A804PIG9": {
+    "resolved": true,
+    "title": "Citrate synthase",
+    "organism": "Zea mays",
+    "retrieved_utc": "2026-10-30T14:30:00Z"
+   },
+   "I1JJ62": {
+    "resolved": true,
+    "title": "Citrate synthase",
+    "organism": "Glycine max",
+    "retrieved_utc": "2026-10-30T14:30:00Z"
+   },
+   "I1KY39": {
+    "resolved": true,
+    "title": "Citrate synthase",
+    "organism": "Glycine max",
+    "retrieved_utc": "2026-10-30T14:30:00Z"
+   },
+   "I1M6V7": {
+    "resolved": true,
+    "title": "Citrate synthase",
+    "organism": "Glycine max",
+    "retrieved_utc": "2026-10-30T14:30:00Z"
+   },
+   "K0EPC8": {
+    "resolved": true,
+    "title": "Citrate synthase",
+    "organism": "Nocardia brasiliensis (strain ATCC 700358 / HUJEG-1)",
+    "retrieved_utc": "2026-10-30T14:30:01Z"
+   },
+   "K7MR36": {
+    "resolved": true,
+    "title": "Citrate synthase",
+    "organism": "Glycine max",
+    "retrieved_utc": "2026-10-30T14:30:01Z"
+   },
+   "O68883": {
+    "resolved": true,
+    "title": "Citrate synthase",
+    "organism": "Salmonella typhimurium (strain LT2 / SGSC1412 / ATCC 700720)",
+    "retrieved_utc": "2026-10-30T14:30:01Z"
+   },
+   "P0ABH7": {
+    "resolved": true,
+    "title": "Citrate synthase",
+    "organism": "Escherichia coli (strain K12)",
+    "retrieved_utc": "2026-10-30T14:30:01Z"
+   },
+   "P14165": {
+    "resolved": true,
+    "title": "Citrate synthase",
+    "organism": "Pseudomonas aeruginosa (strain ATCC 15692 / DSM 22644 / CIP 104116 / JCM 14847 / LMG 12228 / 1C / PRS 101 / PAO1)",
+    "retrieved_utc": "2026-10-30T14:30:01Z"
+   },
+   "P56062": {
+    "resolved": true,
+    "title": "Citrate synthase",
+    "organism": "Helicobacter pylori (strain ATCC 700392 / 26695)",
+    "retrieved_utc": "2026-10-30T14:30:01Z"
+   },
+   "P9WPD5": {
+    "resolved": true,
+    "title": "Citrate synthase 1",
+    "organism": "Mycobacterium tuberculosis (strain ATCC 25618 / H37Rv)",
+    "retrieved_utc": "2026-10-30T14:30:01Z"
+   },
+   "Q0P7U8": {
+    "resolved": true,
+    "title": "Citrate synthase",
+    "organism": "Campylobacter jejuni subsp. jejuni serotype O:2 (strain ATCC 700819 / NCTC 11168)",
+    "retrieved_utc": "2026-10-30T14:30:02Z"
+   },
+   "Q32IL1": {
+    "resolved": true,
+    "title": "Citrate synthase",
+    "organism": "Shigella dysenteriae serotype 1 (strain Sd197)",
+    "retrieved_utc": "2026-10-30T14:30:02Z"
+   },
+   "Q5F873": {
+    "resolved": true,
+    "title": "Citrate synthase",
+    "organism": "Neisseria gonorrhoeae (strain ATCC 700825 / FA 1090)",
+    "retrieved_utc": "2026-10-30T14:30:02Z"
+   },
+   "Q6EUF8": {
+    "resolved": true,
+    "title": "Citrate synthase",
+    "organism": "Oryza sativa subsp. japonica",
+    "retrieved_utc": "2026-10-30T14:30:02Z"
+   },
+   "Q7APY8": {
+    "resolved": true,
+    "title": "Citrate synthase",
+    "organism": "Mycobacterium leprae (strain TN)",
+    "retrieved_utc": "2026-10-30T14:30:03Z"
+   },
+   "Q86AV6": {
+    "resolved": true,
+    "title": "Citrate synthase",
+    "organism": "Dictyostelium discoideum",
+    "retrieved_utc": "2026-10-30T14:30:03Z"
+   },
+   "Q8MQU6": {
+    "resolved": true,
+    "title": "Citrate synthase, peroxisomal",
+    "organism": "Dictyostelium discoideum",
+    "retrieved_utc": "2026-10-30T14:30:03Z"
+   },
+   "Q9LXS6": {
+    "resolved": true,
+    "title": "Citrate synthase 2, peroxisomal",
+    "organism": "Arabidopsis thaliana",
+    "retrieved_utc": "2026-10-30T14:30:03Z"
+   },
+   "Q9LXS7": {
+    "resolved": true,
+    "title": "Citrate synthase 1, peroxisomal",
+    "organism": "Arabidopsis thaliana",
+    "retrieved_utc": "2026-10-30T14:30:03Z"
+   },
+   "Q9SJH7": {
+    "resolved": true,
+    "title": "Citrate synthase 3, peroxisomal",
+    "organism": "Arabidopsis thaliana",
+    "retrieved_utc": "2026-10-30T14:30:03Z"
+   }
+  }
+ }
+}

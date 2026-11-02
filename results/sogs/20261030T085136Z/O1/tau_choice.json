@@ -1,0 +1,32 @@
+{
+ "snapshot_id": "20261030T085136Z",
+ "prereg_sha256": "52f9461890984c210b730af86c40de221307a668e7d4b38098b3316059690d83",
+ "git_commit": "0e112016eaa3dfe087a0193d64ffce7273e9166c-dirty",
+ "seed": 0,
+ "code_sha256": "7416036fc1aaeddb32ee6e988cf032c147614a6ea2acb49b4928c037c48bd837",
+ "annotations_available": {
+  "uniprot": true,
+  "biolip": true
+ },
+ "orthology_version": "O1",
+ "tau": 0.2,
+ "objective": "max F1 of SOG recall/precision on \u00a78.1 ortholog site pairs, TUNE half",
+ "grid": [
+  0.2,
+  0.3,
+  0.4,
+  0.5
+ ],
+ "tie_break": "max F1, then max precision, then smaller tau",
+ "tune_f1": {
+  "0.2": 0.7178997613365156,
+  "0.3": 0.6868944416114228,
+  "0.4": 0.6564299424184262,
+  "0.5": 0.5879560961139129
+ },
+ "msa_method": "FAMSA",
+ "leiden_resolution": 1.0,
+ "n_pos_tune": 5242,
+ "n_neg_tune": 3677,
+ "created_utc": "2026-10-30T11:02:32.933865+00:00"
+}

@@ -1,0 +1,222 @@
+schema: case-v1
+case_id: val_PfLDH_vs_MDH
+title: 'Validation (known answer): Apicomplexan LDH evolved from MDH (substrate specificity, R102->W107f
+  moved by an insertion)'
+category: validation_known
+track: annotation-first
+label: rejected
+toy: false
+summary: 'Known answer: LDH specificity arose from an MDH ancestor in Apicomplexa. Pipeline outcome: O1:
+  not recovered; O2: not recovered'
+og_id: HOG0035618
+sog_id: HOG0035618:g1
+proteins:
+- accession: Q76NM3
+  role: derived
+  state_O1: P
+  state_O2: P
+- accession: C6KT25
+  role: ancestral
+  state_O1: P
+  state_O2: P
+- accession: P40925
+  role: ancestral
+  state_O1: no row
+  state_O2: no row
+filters:
+- name: persistence
+  status: fail
+  detail: 'O1: not recovered | SOG HOG0035618:g1 (Q76NM3 is P; most P species (24); no experimental site)
+    | called events: no Sankoff event (SOG not event-eligible: < 2 P or < 2 A members, or small footprint);
+    O2: not recovered | SOG HOG0019046:g2 (Q76NM3 is P; most P species (5); no experimental site) | called
+    events: no Sankoff event (SOG not event-eligible: < 2 P or < 2 A members, or small footprint)'
+- name: experimental
+  status: pass
+  detail: 'known answer from the literature: LDH specificity arose from an MDH ancestor in Apicomplexa
+    (DOIs below)'
+- name: computational
+  status: na
+  detail: 'O1: specificity 2 branch tests in SOG; on a derived-only clade: 0 (residue_pass 0, shift_pass
+    0, BH-called 0; min q nan); artifact cascade no candidate at this SOG; O2: specificity not tested
+    (no specificity run for this orthology); artifact cascade no candidate at this SOG'
+artifact_checks:
+- name: artifact_cascade_O1
+  status: na
+  detail: no candidate at this SOG
+- name: artifact_cascade_O2
+  status: na
+  detail: no candidate at this SOG
+evidence:
+- type: doi
+  id: 10.7554/eLife.02304
+  about_change: true
+  filter: experimental
+  source: literature
+  detail: known-answer reference for PfLDH_vs_MDH
+literature:
+- doi: 10.7554/eLife.02304
+cofold:
+- model_id: deepdive_LDH_vs_MDH
+  role: case
+  status: uninterpretable
+  design: 2x2 protein x ligand, 3 seeds x 5 samples, no templates, ColabFold MSAs
+  blinding:
+    status: BLINDED
+    detail: 'BLINDED: readouts computed by collect() on hashed job names in one automated pass; labels
+      attached only in deepdive_score.py, whose criterion was committed before the folds finished'
+  criterion_committed_in: 21b5c9e (before either dive finished folding)
+  positive_control_gate:
+    status: run
+    pass: false
+    lig_rmsd: 2.66
+    centroid_dist: 1.39
+    site_recall: 0.62
+    lig_plddt: 86.3
+    threshold_A: 2.0
+    ref: 7rm9:MLI
+  interaction_lig_plddt_per_seed:
+  - 18.88
+  - 9.94
+  - 17.48
+  interaction_neg_pae_per_seed:
+  - 0.544
+  - 0.294
+  - 0.574
+  expected_sign: positive
+  cells:
+    LDH+OAA:
+      binds: false
+      n_seeds_binding: 0
+      lig_plddt:
+        '1': 86.7
+        '2': 87.84
+        '3': 85.36
+      pae_min:
+        '1': 1.224
+        '2': 1.112
+        '3': 1.254
+      centroid:
+        '1': 3.616
+        '2': 3.636
+        '3': 3.516
+      recall:
+        '1': 0.6
+        '2': 0.6
+        '3': 0.6
+    LDH+PYR:
+      binds: false
+      n_seeds_binding: 0
+      lig_plddt:
+        '1': 96.76
+        '2': 93.78
+        '3': 96.82
+      pae_min:
+        '1': 0.948
+        '2': 1.022
+        '3': 0.9359999999999999
+      centroid:
+        '1': 4.116
+        '2': 4.592
+        '3': 4.172000000000001
+      recall:
+        '1': 0.6
+        '2': 0.4
+        '3': 0.6
+    MDH+OAA:
+      binds: true
+      n_seeds_binding: 3
+      lig_plddt:
+        '1': 93.28
+        '2': 92.72
+        '3': 93.68
+      pae_min:
+        '1': 0.944
+        '2': 0.952
+        '3': 0.9359999999999999
+      centroid:
+        '1': 1.924
+        '2': 1.948
+        '3': 1.97
+      recall:
+        '1': 1.0
+        '2': 1.0
+        '3': 1.0
+    MDH+PYR:
+      binds: false
+      n_seeds_binding: 0
+      lig_plddt:
+        '1': 84.46
+        '2': 88.72
+        '3': 87.66
+      pae_min:
+        '1': 1.212
+        '2': 1.156
+        '3': 1.192
+      centroid:
+        '1': 2.792
+        '2': 3.456
+        '3': 3.476
+      recall:
+        '1': 0.736
+        '2': 0.67
+        '3': 0.67
+  threshold_file: results/cofold/calibration/threshold.json
+  result_file: results/cofold/deepdives/deepdive_LDH_vs_MDH/result.json
+  note: Each enzyme prefers its own substrate and the interaction has the expected sign in all 3 seeds,
+    but the positive-control gate failed (hMDH1/7RM9 malonate RMSD 2.66 A > 2.0), so the dive is reported
+    uninterpretable and the verdict was not overridden. Malonate is a symmetric dicarboxylate and our
+    ligand RMSD matches atoms by name without symmetry correction, which inflates it; the fix is a symmetry-corrected
+    RMSD, not a looser gate.
+- model_id: ancestral_P40925
+  accession: P40925
+  ligand: PYR+NAI
+  seed: 2
+  role: ancestral
+  file: cases/val_PfLDH_vs_MDH/cofold/models/ancestral_P40925_PYR-NAI_top.cif.gz
+  ranking_score: 0.967
+  metrics:
+    ligand_plddt: 90.8
+    min_pae: 1.07
+    centroid_dist_A: 3.53
+    site_recall: 0.67
+    posebusters_pass: true
+  note: top-ranked sample of the best-ranked cognate job on this side; centroid/recall are measured against
+    the case footprint
+- model_id: derived_Q76NM3
+  accession: Q76NM3
+  ligand: PYR+NAI
+  seed: 3
+  role: derived
+  file: cases/val_PfLDH_vs_MDH/cofold/models/derived_Q76NM3_PYR-NAI_top.cif.gz
+  ranking_score: 0.973
+  metrics:
+    ligand_plddt: 97.0
+    min_pae: 0.92
+    centroid_dist_A: 4.13
+    site_recall: 0.6
+    posebusters_pass: true
+  note: top-ranked sample of the best-ranked cognate job on this side; centroid/recall are measured against
+    the case footprint
+- model_id: control_poscontrol
+  accession: poscontrol
+  ligand: MLI
+  seed: 3
+  role: control
+  file: cases/val_PfLDH_vs_MDH/cofold/models/control_poscontrol_MLI_top.cif.gz
+  ranking_score: 0.955
+  metrics:
+    ligand_plddt: 86.3
+    min_pae: 1.2
+    centroid_dist_A: 4.25
+    site_recall: 0.5
+    posebusters_pass: true
+  note: family holo positive control (gate); centroid/recall fields refer to the case footprint and are
+    not meaningful for this protein
+figures: []
+notes: label = whether the unchanged pipeline recovers the known event (supported) or not (rejected);
+  f2 is the published known answer, legitimately (annotation-first track). Not a discovery.
+provenance:
+  builder: scripts/cases/validation_track.py
+  snapshot: 20261030T085136Z
+  prereg_sha256: 52f9461890984c210b730af86c40de221307a668e7d4b38098b3316059690d83
+  git_commit: 9f9ba879c81bd222ebf214dbb5d5e6edbdc55763+dirty

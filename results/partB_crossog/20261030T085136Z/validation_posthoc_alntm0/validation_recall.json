@@ -1,0 +1,12 @@
+{
+ "recall_k": 0,
+ "n_items": 7,
+ "recall_O1": 0,
+ "recall_O2": 0,
+ "in_scope_items": 5,
+ "lenient_specificity_items": 0,
+ "git_commit": "461e0826a5b39e2df5425e282a11c3a05d00f33c",
+ "method": "docs/CROSSOG_METHOD.md @ 77db16c",
+ "snapshot": "20261030T085136Z",
+ "label": "exploratory, not preregistered (D31)"
+}

@@ -1,0 +1,613 @@
+{
+ "stages": {
+  "input": {
+   "key": "902aa6734f4402f3",
+   "wall_s": 0.187,
+   "peak_rss_mb": 362.1,
+   "children_max_rss_mb": 380.2,
+   "stats": {
+    "n_genes": 557396,
+    "n_species": 46,
+    "n_internal_nodes": 36
+   },
+   "skipped": true
+  },
+  "families": {
+   "key": "663d7498b9427ab7",
+   "wall_s": 266.337,
+   "peak_rss_mb": 2857.5,
+   "children_max_rss_mb": 4125.4,
+   "stats": {
+    "source": "ancestra.families",
+    "s0_timings": {
+     "stage1_s": 143.79992723464966,
+     "stage2_search_s": 53.6638765335083,
+     "stage2_s": 114.41832184791565,
+     "total_s": 264.6299948692322
+    },
+    "n_families": 84845,
+    "n_singletons": 59977,
+    "max_family": 7418,
+    "sum_g2": 1271668680
+   },
+   "skipped": true
+  },
+  "scores": {
+   "key": "789924343e5a07e2",
+   "wall_s": 407.127,
+   "peak_rss_mb": 10572.5,
+   "children_max_rss_mb": 10572.5,
+   "stats": {
+    "backend": "hybrid",
+    "n_families": 84845,
+    "sum_g2": 1271668680,
+    "max_family": 7418,
+    "n_cross_family_hits": 23704846,
+    "n_raw_hits": 138641217,
+    "n_blocks": 6,
+    "diamond_s": 267.79,
+    "n_pairs_diamond": 58992686,
+    "n_pairs_rescue_candidates": 10830341,
+    "n_pairs_aligned_mmseqs": 10830341,
+    "pairs_write_s": 4.54,
+    "align_s": 11.46,
+    "n_families_over_cap": 22,
+    "n_families_over_gmax": 0,
+    "n_pairs_dropped_by_cap": 27858455,
+    "pairs_dropped_per_family": {
+     "0": 1591962,
+     "5": 623742,
+     "15": 1665196,
+     "18": 847003,
+     "43": 410730,
+     "44": 307379,
+     "72": 282285,
+     "79": 538305,
+     "147": 734397,
+     "159": 247910,
+     "203": 383292,
+     "210": 440722,
+     "221": 615426,
+     "281": 771719,
+     "286": 928058,
+     "299": 1438575,
+     "347": 692734,
+     "359": 433343,
+     "366": 222090,
+     "531": 903957,
+     "949": 5867730,
+     "2818": 7911900
+    },
+    "wall_s": 342.96,
+    "n_scored_pairs": 27363286,
+    "n_self_scores": 557394,
+    "rescue_joins": 349,
+    "rescue_rescored_genes": 85255,
+    "rescue_wall_s": 60.85,
+    "n_families_after_rescue": 84496,
+    "n_families_before_rescue": 84845
+   },
+   "skipped": true
+  },
+  "merge": {
+   "key": "1afad86bee68b592",
+   "wall_s": 43.771,
+   "peak_rss_mb": 3600.5,
+   "children_max_rss_mb": 2953.8,
+   "stats": {
+    "n_root_groups": 37105,
+    "n_root_anc_genes": 143193,
+    "merge_s_sum_nodes": 38.626,
+    "tree_clusters": 90225,
+    "tree_units": 395996,
+    "tree_s": 13.14
+   },
+   "skipped": false
+  },
+  "output": {
+   "key": "1d889cdfe7235fc8",
+   "wall_s": 15.508,
+   "peak_rss_mb": 2981.7,
+   "children_max_rss_mb": 2953.8,
+   "stats": {
+    "xsd_valid": true,
+    "n_top_groups": 37105,
+    "n_pairs": 7290582,
+    "n_ogs_multi": 37105
+   },
+   "skipped": false
+  }
+ },
+ "tool": "ancestra core v0",
+ "argv": [
+  "<repo>/external/ancestra-mvp-ai/ancestra/__main__.py",
+  "run",
+  "--proteomes",
+  "/tmp/pe_big/ancestra/tier1_fa",
+  "--tree",
+  "/tmp/pe_big/ancestra/tier1_guide_tree.nwk",
+  "--out",
+  "/tmp/pe_big/ancestra/run_t1_fast",
+  "--threads",
+  "48",
+  "--preset",
+  "fast"
+ ],
+ "git": {
+  "commit": "ffb0bbef28bc31d05755264bbe0094e4c0d4a5fa",
+  "ancestra_dirty": false
+ },
+ "versions": {
+  "python": "3.11.18",
+  "numpy": "1.26.4",
+  "mmseqs": "18.8cc5c",
+  "diamond": "diamond version 2.2.8"
+ },
+ "inputs": {
+  "proteomes": {
+   "UP000000429_85962.fasta.gz": "e92da797df0abf56f0c77b677297e6ba",
+   "UP000000437_7955.fasta.gz": "3e776cb65f060fa2608e1a9e3bf6224c",
+   "UP000000535_242231.fasta.gz": "0007b4e2f28edb1f0d51d1ca16ef4819",
+   "UP000000559_237561.fasta.gz": "cc807894ca02799f7c0d8227ae0969d6",
+   "UP000000579_71421.fasta.gz": "62450444c08630b39b8dfc4e812cda52",
+   "UP000000586_171101.fasta.gz": "2c85ead98c778d892ed33bbef4434762",
+   "UP000000589_10090.fasta.gz": "39894aa0f64d600ede8d4e86968d454e",
+   "UP000000625_83333.fasta.gz": "8d6f83ea596f4debaabc15919fc71c5a",
+   "UP000000799_192222.fasta.gz": "c9fa5e36d88a7696fcfef663d3431707",
+   "UP000000803_7227.fasta.gz": "cba8409d195c49c2832b9e95bbedbcb5",
+   "UP000000805_243232.fasta.gz": "c2fe15a58f16765837a1c23dae920eff",
+   "UP000000806_272631.fasta.gz": "fb256426e9afa613e88f3883369126ed",
+   "UP000001014_99287.fasta.gz": "72bf137114861a6523ad2420dd60937c",
+   "UP000001450_36329.fasta.gz": "8b6aadce22f5dc17dcba7d01daba7c74",
+   "UP000001584_83332.fasta.gz": "9ffc73289b9590532774a50e7d487b06",
+   "UP000001631_447093.fasta.gz": "0e4c87367593ef3bee7eb3b562574b5c",
+   "UP000001940_6239.fasta.gz": "3e719f7207ad55b25cd048e06dd1ce12",
+   "UP000002059_502779.fasta.gz": "9524854585e6d9eb8257813a99f89ff9",
+   "UP000002195_44689.fasta.gz": "88db1194a29308819ac26b3d78651760",
+   "UP000002296_353153.fasta.gz": "2aec9ff86d640dad3adab9a70c3b448b",
+   "UP000002311_559292.fasta.gz": "bc1101d1cab0ed829a0c5e12fd72413f",
+   "UP000002438_208964.fasta.gz": "81bcbe47fe6961563cfe1b9a46b00d8b",
+   "UP000002485_284812.fasta.gz": "c0f3541067c12a6b552c4ee91dddafdc",
+   "UP000002494_10116.fasta.gz": "60fb1d76aeb5cf5deada77c2b83c62c2",
+   "UP000002716_300267.fasta.gz": "3033f2d3d3549fd62dd4495e1ef99950",
+   "UP000005640_9606.fasta.gz": "4e4f5aca22ba12eabda1e347765db069",
+   "UP000006304_1133849.fasta.gz": "5dca6bdac6892b0fd7812a66d57c41db",
+   "UP000006548_3702.fasta.gz": "7e272b3224147a628114632b55f63fa4",
+   "UP000006672_6279.fasta.gz": "53b8d37881f62d0255de2b2b0b2ece91",
+   "UP000007305_4577.fasta.gz": "8af32635b62653097f5375b0a2dbc023",
+   "UP000007841_1125630.fasta.gz": "8783e93c2e4fa6925b7af0e5c9d1583f",
+   "UP000008153_5671.fasta.gz": "f4feb6ad188eb5986506c3f19239b957",
+   "UP000008524_185431.fasta.gz": "5a8ff34287c2aeea8999f23b5981585b",
+   "UP000008816_93061.fasta.gz": "63f7f35637b83d2d9ea1e9c438dabe1c",
+   "UP000008827_3847.fasta.gz": "744a71e820fa1ccf9f333c69583b1532",
+   "UP000008854_6183.fasta.gz": "7c7c3e97bd0eb44dd91373c35ae8ca21",
+   "UP000018087_1391915.fasta.gz": "6f20246e14a8cfc44cf83783ff162b54",
+   "UP000024404_6282.fasta.gz": "1a50aaf7b5f3b2cd5949710f1f31640b",
+   "UP000030665_36087.fasta.gz": "a9bac34137f1ec1425aaeeb78a6f6eb4",
+   "UP000035681_6248.fasta.gz": "a53fa974b994a9fcd4c8dc20e7a0c498",
+   "UP000053029_1442368.fasta.gz": "3fea3f927f48181d3ccf83abeab1a43d",
+   "UP000059680_39947.fasta.gz": "2effd110ab5298ba541dfd7067bb96ab",
+   "UP000078237_100816.fasta.gz": "a1991f5b31aeb631d6bf0c4d9d7ed837",
+   "UP000094526_86049.fasta.gz": "5b4b6723455145f5f66ca423a349d4b3",
+   "UP000270924_6293.fasta.gz": "e941f5758ac039103b21f316fc7325e9",
+   "UP000274756_318479.fasta.gz": "e3ddd49fa2275695981560ffa6aab56f"
+  },
+  "tree": "b32f300ccfe75ac6c55ccc3055b799dc",
+  "families": null
+ },
+ "config": {
+  "threads": 48,
+  "preset": "fast",
+  "off_tree_method": "nj",
+  "scoring": {
+   "backend": "hybrid",
+   "evalue": 10.0,
+   "block_genes": 100000,
+   "diamond_sens": "--sensitive",
+   "diamond_b": 4.0,
+   "cap_all": 5000,
+   "g_max": 20000,
+   "top_per_species": 2,
+   "top_same": 20,
+   "family_rescue": true,
+   "rescue_cov": 0.5,
+   "rescue_max_join": 7500,
+   "rescue_max_family": 1000,
+   "rescue_evalue": 1e-05,
+   "threads": 48
+  },
+  "merge": {
+   "link": "avg",
+   "score": "norm_max",
+   "tol": 0.95,
+   "inparalogs": true,
+   "inpar_factor": 1.0,
+   "inpar_rule": "ortholog",
+   "repair": true,
+   "repair_ratio": 0.9,
+   "min_cov": 0.0,
+   "min_score": 0.0,
+   "rd_hidden": false,
+   "rd_z": 3.0,
+   "rd_inpar": false,
+   "rd_inpar_factor": 1.0,
+   "engine": "numba",
+   "tree_mode": true,
+   "tree_tau": 0.9,
+   "tree_max_units": 60,
+   "tree_require_outgroup": true,
+   "tree_conservative": false,
+   "tree_nodes": "",
+   "tree_method": "nj",
+   "tree_ft_mode": "medoid",
+   "tree_ft_workers": 48,
+   "tree_min_d": 0.5,
+   "ctx_mode": "r1",
+   "ctx_window": 0.75,
+   "ctx_r3": false,
+   "ctx_veto": false,
+   "ctx_veto_min": 2.0,
+   "locus_repair": false,
+   "locus_single_species": true,
+   "locus_min_support": 1.0,
+   "so_struct": true,
+   "so_absorb": false,
+   "deep_min_d": 1.5,
+   "deep_tol": 0.0,
+   "deep_so_absorb": true,
+   "orphan_min": 0.0,
+   "orphan_merge": "off"
+  },
+  "families": {
+   "default_clustering": {
+    "backend": "diamond",
+    "dmnd_cmd": "cluster",
+    "approx_id": 30,
+    "member_cover": 50,
+    "stage2": "cc",
+    "s2_query": "all",
+    "s2_sens": "--sensitive",
+    "s2_evalue": 1e-05,
+    "s2_cov": 0.3,
+    "s2_cov_mode": "shorter",
+    "s2_gmax": 7500,
+    "s2_reassign": true
+   }
+  },
+  "synteny": null
+ },
+ "n_genes": 557396,
+ "n_species": 46,
+ "nodes": [
+  {
+   "node": "Poaceae",
+   "n_children": 2,
+   "n_units": 83024,
+   "n_anc_out": 56838,
+   "n_merged_groups": 17878,
+   "n_edges": 1084045,
+   "wall_s": 4.4696
+  },
+  {
+   "node": "rosids",
+   "n_children": 2,
+   "n_units": 83348,
+   "n_anc_out": 43091,
+   "n_merged_groups": 14101,
+   "n_edges": 1780304,
+   "wall_s": 1.7777
+  },
+  {
+   "node": "Mesangiospermae",
+   "n_children": 2,
+   "n_units": 99929,
+   "n_anc_out": 62062,
+   "n_merged_groups": 16510,
+   "n_edges": 1488971,
+   "wall_s": 5.0931
+  },
+  {
+   "node": "Trypanosoma",
+   "n_children": 2,
+   "n_units": 27803,
+   "n_anc_out": 14048,
+   "n_merged_groups": 7105,
+   "n_edges": 1045984,
+   "wall_s": 0.8779
+  },
+  {
+   "node": "Trypanosomatidae",
+   "n_children": 2,
+   "n_units": 22093,
+   "n_anc_out": 15137,
+   "n_merged_groups": 6200,
+   "n_edges": 925043,
+   "wall_s": 1.3404
+  },
+  {
+   "node": "Sordariomycetidae",
+   "n_children": 2,
+   "n_units": 18406,
+   "n_anc_out": 10953,
+   "n_merged_groups": 6406,
+   "n_edges": 69657,
+   "wall_s": 0.4537
+  },
+  {
+   "node": "Herpotrichiellaceae",
+   "n_children": 2,
+   "n_units": 23706,
+   "n_anc_out": 14752,
+   "n_merged_groups": 8835,
+   "n_edges": 142233,
+   "wall_s": 0.1383
+  },
+  {
+   "node": "Ajellomycetaceae",
+   "n_children": 2,
+   "n_units": 18025,
+   "n_anc_out": 11632,
+   "n_merged_groups": 6311,
+   "n_edges": 41247,
+   "wall_s": 0.1595
+  },
+  {
+   "node": "Eurotiomycetes",
+   "n_children": 2,
+   "n_units": 26384,
+   "n_anc_out": 16769,
+   "n_merged_groups": 7103,
+   "n_edges": 136082,
+   "wall_s": 0.5803
+  },
+  {
+   "node": "leotiomyceta",
+   "n_children": 2,
+   "n_units": 27722,
+   "n_anc_out": 19877,
+   "n_merged_groups": 6937,
+   "n_edges": 129490,
+   "wall_s": 0.3824
+  },
+  {
+   "node": "Saccharomycotina",
+   "n_children": 2,
+   "n_units": 12106,
+   "n_anc_out": 7256,
+   "n_merged_groups": 3870,
+   "n_edges": 30412,
+   "wall_s": 0.2913
+  },
+  {
+   "node": "saccharomyceta",
+   "n_children": 2,
+   "n_units": 27133,
+   "n_anc_out": 21337,
+   "n_merged_groups": 4024,
+   "n_edges": 98842,
+   "wall_s": 0.3349
+  },
+  {
+   "node": "Ascomycota",
+   "n_children": 2,
+   "n_units": 26466,
+   "n_anc_out": 21562,
+   "n_merged_groups": 3816,
+   "n_edges": 72509,
+   "wall_s": 0.8022
+  },
+  {
+   "node": "Onchocercidae",
+   "n_children": 3,
+   "n_units": 36987,
+   "n_anc_out": 18145,
+   "n_merged_groups": 9530,
+   "n_edges": 201909,
+   "wall_s": 0.3088
+  },
+  {
+   "node": "Spirurina",
+   "n_children": 2,
+   "n_units": 29013,
+   "n_anc_out": 17622,
+   "n_merged_groups": 8014,
+   "n_edges": 123479,
+   "wall_s": 0.8146
+  },
+  {
+   "node": "Rhabditida",
+   "n_children": 3,
+   "n_units": 52924,
+   "n_anc_out": 31121,
+   "n_merged_groups": 9470,
+   "n_edges": 494348,
+   "wall_s": 1.2163
+  },
+  {
+   "node": "Nematoda",
+   "n_children": 2,
+   "n_units": 40745,
+   "n_anc_out": 30980,
+   "n_merged_groups": 5732,
+   "n_edges": 261029,
+   "wall_s": 0.9084
+  },
+  {
+   "node": "Ecdysozoa",
+   "n_children": 2,
+   "n_units": 44794,
+   "n_anc_out": 35539,
+   "n_merged_groups": 5472,
+   "n_edges": 284087,
+   "wall_s": 0.871
+  },
+  {
+   "node": "Protostomia",
+   "n_children": 2,
+   "n_units": 46289,
+   "n_anc_out": 37347,
+   "n_merged_groups": 5143,
+   "n_edges": 283267,
+   "wall_s": 1.4468
+  },
+  {
+   "node": "Murinae",
+   "n_children": 2,
+   "n_units": 43331,
+   "n_anc_out": 22084,
+   "n_merged_groups": 18606,
+   "n_edges": 671556,
+   "wall_s": 0.6782
+  },
+  {
+   "node": "Euarchontoglires",
+   "n_children": 2,
+   "n_units": 42736,
+   "n_anc_out": 23203,
+   "n_merged_groups": 17516,
+   "n_edges": 561806,
+   "wall_s": 0.7024
+  },
+  {
+   "node": "Euteleostomi",
+   "n_children": 2,
+   "n_units": 49770,
+   "n_anc_out": 26729,
+   "n_merged_groups": 14590,
+   "n_edges": 837371,
+   "wall_s": 2.3507
+  },
+  {
+   "node": "Bilateria",
+   "n_children": 2,
+   "n_units": 64076,
+   "n_anc_out": 49404,
+   "n_merged_groups": 7160,
+   "n_edges": 690853,
+   "wall_s": 1.8382
+  },
+  {
+   "node": "Opisthokonta",
+   "n_children": 2,
+   "n_units": 70966,
+   "n_anc_out": 62443,
+   "n_merged_groups": 4069,
+   "n_edges": 442300,
+   "wall_s": 2.4448
+  },
+  {
+   "node": "Eukaryota",
+   "n_children": 5,
+   "n_units": 157721,
+   "n_anc_out": 131113,
+   "n_merged_groups": 7008,
+   "n_edges": 2273614,
+   "wall_s": 4.7054
+  },
+  {
+   "node": "Mycobacterium",
+   "n_children": 2,
+   "n_units": 5600,
+   "n_anc_out": 4107,
+   "n_merged_groups": 1424,
+   "n_edges": 16338,
+   "wall_s": 0.0217
+  },
+  {
+   "node": "Mycobacteriales",
+   "n_children": 2,
+   "n_units": 12521,
+   "n_anc_out": 8674,
+   "n_merged_groups": 2759,
+   "n_edges": 72420,
+   "wall_s": 0.1976
+  },
+  {
+   "node": "Bacilli",
+   "n_children": 2,
+   "n_units": 4920,
+   "n_anc_out": 3632,
+   "n_merged_groups": 1047,
+   "n_edges": 6910,
+   "wall_s": 0.0625
+  },
+  {
+   "node": "Bacillati",
+   "n_children": 2,
+   "n_units": 12306,
+   "n_anc_out": 9356,
+   "n_merged_groups": 1603,
+   "n_edges": 46339,
+   "wall_s": 0.2281
+  },
+  {
+   "node": "Enterobacteriaceae",
+   "n_children": 4,
+   "n_units": 18561,
+   "n_anc_out": 8295,
+   "n_merged_groups": 4181,
+   "n_edges": 88635,
+   "wall_s": 0.0837
+  },
+  {
+   "node": "Gammaproteobacteria",
+   "n_children": 3,
+   "n_units": 15561,
+   "n_anc_out": 10665,
+   "n_merged_groups": 3171,
+   "n_edges": 61605,
+   "wall_s": 0.4822
+  },
+  {
+   "node": "Pseudomonadota",
+   "n_children": 2,
+   "n_units": 12771,
+   "n_anc_out": 10446,
+   "n_merged_groups": 1585,
+   "n_edges": 38584,
+   "wall_s": 0.1521
+  },
+  {
+   "node": "Campylobacterales",
+   "n_children": 2,
+   "n_units": 3177,
+   "n_anc_out": 2154,
+   "n_merged_groups": 932,
+   "n_edges": 2988,
+   "wall_s": 0.038
+  },
+  {
+   "node": "Pseudomonadati",
+   "n_children": 2,
+   "n_units": 12600,
+   "n_anc_out": 10248,
+   "n_merged_groups": 1446,
+   "n_edges": 31021,
+   "wall_s": 0.172
+  },
+  {
+   "node": "Bacteria",
+   "n_children": 2,
+   "n_units": 19604,
+   "n_anc_out": 16575,
+   "n_merged_groups": 2152,
+   "n_edges": 60299,
+   "wall_s": 0.5194
+  },
+  {
+   "node": "cellular organisms",
+   "n_children": 3,
+   "n_units": 149474,
+   "n_anc_out": 143193,
+   "n_merged_groups": 2406,
+   "n_edges": 1659691,
+   "wall_s": 1.6815
+  }
+ ],
+ "total_wall_s": 64.064,
+ "outputs": {
+  "hogs.orthoxml": "5b1dbc4fd63fa128c1fa49021a2ec3e0",
+  "pairs.tsv": "02fa74a43dda6c5c6cf9f1211796200a",
+  "orthobench_ogs.txt": "e6c63aee42deeaddc3117bdc142e6333"
+ }
+}

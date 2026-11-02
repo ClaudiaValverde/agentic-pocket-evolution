@@ -1,0 +1,115 @@
+{
+ "gain": {
+  "n": 104,
+  "pass_artifacts": 17,
+  "pass_artifacts_strict": 13,
+  "flag_paralog_branch": 57,
+  "flag_present_plddt_lt90": 63,
+  "o2_root_split": {
+   "unknown": 104
+  },
+  "panther_split": {
+   "unknown": 104
+  },
+  "o2_paralog_split": {
+   "true": 57,
+   "NaN": 47
+  },
+  "a_footprint_plddt": {
+   "pass": 104
+  },
+  "a_disorder": {
+   "pass": 89,
+   "na": 13,
+   "fail": 2
+  },
+  "a_pae_ted": {
+   "pass": 104
+  },
+  "a_fragment": {
+   "pass": 97,
+   "fail": 7
+  },
+  "a_fragment_present": {
+   "pass": 59,
+   "fail": 45
+  },
+  "a_orthology_o2": {
+   "pass": 104
+  },
+  "a_orthology_panther": {
+   "pass": 61,
+   "fail": 28,
+   "na": 15
+  },
+  "a_instability": {
+   "na": 104
+  },
+  "a_species_tree_lineages": {
+   "pass": 91,
+   "fail": 13
+  },
+  "orthology_split": {
+   "fail": 80,
+   "pass": 24
+  }
+ },
+ "loss": {
+  "n": 66,
+  "pass_artifacts": 6,
+  "pass_artifacts_strict": 1,
+  "flag_paralog_branch": 23,
+  "flag_present_plddt_lt90": 41,
+  "o2_root_split": {
+   "unknown": 66
+  },
+  "panther_split": {
+   "unknown": 65,
+   "pass": 1
+  },
+  "o2_paralog_split": {
+   "NaN": 43,
+   "true": 23
+  },
+  "a_footprint_plddt": {
+   "pass": 66
+  },
+  "a_disorder": {
+   "pass": 48,
+   "na": 16,
+   "fail": 2
+  },
+  "a_pae_ted": {
+   "pass": 65,
+   "fail": 1
+  },
+  "a_fragment": {
+   "pass": 59,
+   "fail": 7
+  },
+  "a_fragment_present": {
+   "fail": 52,
+   "pass": 14
+  },
+  "a_orthology_o2": {
+   "pass": 66
+  },
+  "a_orthology_panther": {
+   "pass": 41,
+   "na": 21,
+   "fail": 4
+  },
+  "a_instability": {
+   "na": 66
+  },
+  "a_species_tree_lineages": {
+   "pass": 59,
+   "fail": 7
+  },
+  "orthology_split": {
+   "fail": 44,
+   "pass": 22
+  }
+ },
+ "runtime_s": 20.131809949874878
+}

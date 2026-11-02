@@ -1,0 +1,160 @@
+{
+ "output": "case_list_v2.parquet",
+ "snapshot_id": "20261030T085136Z",
+ "prereg_sha256": "52f9461890984c210b730af86c40de221307a668e7d4b38098b3316059690d83",
+ "git_commit": "cdb00a44da5049d0e4a054f4e2ba4ee534e35363+dirty",
+ "seed": 0,
+ "created_utc": "2026-10-30T16:19:32Z",
+ "sha256": "ce898ecb1133ccba79aa72b065d9709f17a0b000952dc66af52baf03f9d2a913",
+ "empirical_null_fdr": {
+  "O1:gain": {
+   "curveball": 0.199,
+   "pseudo_clade": 0.08,
+   "real_called": 175.0
+  },
+  "O1:loss": {
+   "curveball": 1.0,
+   "pseudo_clade": 0.407,
+   "real_called": 61.0
+  },
+  "O2:gain": {
+   "curveball": 0.267,
+   "pseudo_clade": 0.093,
+   "real_called": 104.0
+  },
+  "O2:loss": {
+   "curveball": 1.0,
+   "pseudo_clade": 0.674,
+   "real_called": 66.0
+  }
+ },
+ "script": "scripts/cases/combine_pool.py",
+ "argv": [
+  "--lists",
+  "results/cases/20261030T085136Z/stage/case_list_stage_O1.parquet",
+  "results/cases/20261030T085136Z/stage/case_list_stage_O2.parquet",
+  "--stage-dirs",
+  "/tmp/pe_big/cases/stage/O1",
+  "/tmp/pe_big/cases/stage/O2",
+  "--out",
+  "results/cases/20261030T085136Z/case_list_v2.parquet",
+  "--candidates",
+  "O1=results/partB/20261030T085136Z/O1_r3/candidates.parquet",
+  "O2=results/partB/20261030T085136Z/O2_r1/candidates.parquet"
+ ],
+ "inputs": {
+  "results/cases/20261030T085136Z/stage/case_list_stage_O1.parquet": "5022a0f008d8e97ac6f1378426d33b4806a1118044f96ea1483b6abf5b2655aa",
+  "results/cases/20261030T085136Z/stage/case_list_stage_O2.parquet": "b11fbb50fdd475adc7c3857d9b9aad99f0bc18db0dd7903cef95214cc056074e"
+ },
+ "rule": "D25c/D28: pool = filter_label in {convincing, supported} AND artifacts pass AND not exploratory; dedup by present-side protein Jaccard >= 0.5 (higher S kept, tie -> later list); prereg top_k=5 + audit=1 per category, seed 0; no backfill",
+ "headline": "convincing_only (convincing and artifacts pass)",
+ "counts": {
+  "O1:control": {
+   "n": 5,
+   "f1": 0,
+   "f2": 0,
+   "f3": 0,
+   "artifacts_pass": 0,
+   "supported_or_convincing": 0,
+   "convincing_headline": 0,
+   "convincing_with_literature_post_hoc": 0,
+   "eligible": 0,
+   "duplicates": 0,
+   "selected": 5
+  },
+  "O1:convergence": {
+   "n": 3,
+   "f1": 3,
+   "f2": 0,
+   "f3": 0,
+   "artifacts_pass": 0,
+   "supported_or_convincing": 0,
+   "convincing_headline": 0,
+   "convincing_with_literature_post_hoc": 0,
+   "eligible": 0,
+   "duplicates": 0,
+   "selected": 0
+  },
+  "O1:gain": {
+   "n": 50,
+   "f1": 42,
+   "f2": 1,
+   "f3": 47,
+   "artifacts_pass": 7,
+   "supported_or_convincing": 39,
+   "convincing_headline": 0,
+   "convincing_with_literature_post_hoc": 0,
+   "eligible": 5,
+   "duplicates": 0,
+   "selected": 4
+  },
+  "O1:loss": {
+   "n": 17,
+   "f1": 8,
+   "f2": 2,
+   "f3": 16,
+   "artifacts_pass": 1,
+   "supported_or_convincing": 8,
+   "convincing_headline": 0,
+   "convincing_with_literature_post_hoc": 0,
+   "eligible": 1,
+   "duplicates": 0,
+   "selected": 1
+  },
+  "O1:specificity": {
+   "n": 5,
+   "f1": 2,
+   "f2": 0,
+   "f3": 0,
+   "artifacts_pass": 0,
+   "supported_or_convincing": 0,
+   "convincing_headline": 0,
+   "convincing_with_literature_post_hoc": 0,
+   "eligible": 0,
+   "duplicates": 0,
+   "selected": 0
+  },
+  "O2:duplication_gain_exploratory": {
+   "n": 2,
+   "f1": 2,
+   "f2": 0,
+   "f3": 0,
+   "artifacts_pass": 2,
+   "supported_or_convincing": 0,
+   "convincing_headline": 0,
+   "convincing_with_literature_post_hoc": 0,
+   "eligible": 0,
+   "duplicates": 0,
+   "selected": 2
+  },
+  "O2:gain": {
+   "n": 104,
+   "f1": 76,
+   "f2": 0,
+   "f3": 61,
+   "artifacts_pass": 17,
+   "supported_or_convincing": 47,
+   "convincing_headline": 0,
+   "convincing_with_literature_post_hoc": 0,
+   "eligible": 8,
+   "duplicates": 0,
+   "selected": 2
+  },
+  "O2:loss": {
+   "n": 66,
+   "f1": 19,
+   "f2": 3,
+   "f3": 28,
+   "artifacts_pass": 6,
+   "supported_or_convincing": 7,
+   "convincing_headline": 0,
+   "convincing_with_literature_post_hoc": 0,
+   "eligible": 0,
+   "duplicates": 0,
+   "selected": 0
+  }
+ },
+ "n_case_dirs_written": 14,
+ "code_sha256": "63ae92abcc091a8d38927dfabb511ffed664003407aeea26220639986c77d569",
+ "runtime_s": 3.6
+}

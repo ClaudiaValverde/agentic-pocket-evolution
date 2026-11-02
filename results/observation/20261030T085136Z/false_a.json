@@ -1,0 +1,177 @@
+{
+ "snapshot_id": "20261030T085136Z",
+ "prereg_sha256": "52f9461890984c210b730af86c40de221307a668e7d4b38098b3316059690d83",
+ "git_commit": "0e112016eaa3dfe087a0193d64ffce7273e9166c",
+ "seed": 0,
+ "sources": {
+  "BioLiP2": 58457,
+  "UniProt_ECO": 8330,
+  "LIGYSIS_af_set": 6320
+ },
+ "n_known": 73107,
+ "n_proteins": 16999,
+ "n_skipped": {
+  "model_seq_ne_uniprot": 106
+ },
+ "A_primary": {
+  "n_known": 73107,
+  "n_A_eligible": 52949,
+  "n_false_A": 21127,
+  "false_A": 0.3990065912481822
+ },
+ "A_sens": {
+  "n_known": 73107,
+  "n_A_eligible": 63626,
+  "n_false_A": 26397,
+  "false_A": 0.4148775657749976
+ },
+ "by_band": {
+  "70-90": {
+   "n_known": 12526,
+   "n_A_eligible": 0,
+   "n_false_A": 0,
+   "false_A": null
+  },
+  "<70": {
+   "n_known": 562,
+   "n_A_eligible": 0,
+   "n_false_A": 0,
+   "false_A": null
+  },
+  ">=90": {
+   "n_known": 59913,
+   "n_A_eligible": 52949,
+   "n_false_A": 21127,
+   "false_A": 0.3990065912481822
+  },
+  "na": {
+   "n_known": 106,
+   "n_A_eligible": 0,
+   "n_false_A": 0,
+   "false_A": null
+  }
+ },
+ "by_ligand_class": {
+  "cofactor": {
+   "n_known": 15983,
+   "n_A_eligible": 10327,
+   "n_false_A": 2328,
+   "false_A": 0.22542848842839158
+  },
+  "metal": {
+   "n_known": 18164,
+   "n_A_eligible": 14339,
+   "n_false_A": 8732,
+   "false_A": 0.608968547318502
+  },
+  "small_molecule": {
+   "n_known": 38960,
+   "n_A_eligible": 28283,
+   "n_false_A": 10067,
+   "false_A": 0.35593819608952376
+  }
+ },
+ "by_size_bin": {
+  "11-20": {
+   "n_known": 13161,
+   "n_A_eligible": 9717,
+   "n_false_A": 1946,
+   "false_A": 0.20026757229597614
+  },
+  "3-5": {
+   "n_known": 34692,
+   "n_A_eligible": 25227,
+   "n_false_A": 13466,
+   "false_A": 0.533793158124232
+  },
+  "6-10": {
+   "n_known": 22969,
+   "n_A_eligible": 16203,
+   "n_false_A": 5067,
+   "false_A": 0.31271986669135343
+  },
+  ">20": {
+   "n_known": 2285,
+   "n_A_eligible": 1802,
+   "n_false_A": 648,
+   "false_A": 0.35960044395116536
+  }
+ },
+ "by_source": {
+  "BioLiP2": {
+   "n_known": 58457,
+   "n_A_eligible": 41634,
+   "n_false_A": 16127,
+   "false_A": 0.38735168372003653
+  },
+  "LIGYSIS_af_set": {
+   "n_known": 6320,
+   "n_A_eligible": 4212,
+   "n_false_A": 2765,
+   "false_A": 0.6564577397910731
+  },
+  "UniProt_ECO": {
+   "n_known": 8330,
+   "n_A_eligible": 7103,
+   "n_false_A": 2235,
+   "false_A": 0.314655779248205
+  }
+ },
+ "false_A_primary_by_overlap_threshold": {
+  "1e-09": 0.24510377910819844,
+  "0.3": 0.31231940168841715,
+  "0.5": 0.3990065912481822,
+  "0.7": 0.5669417741600408
+ },
+ "by_tier": {
+  "1": {
+   "n_known": 45278,
+   "n_A_eligible": 32090,
+   "n_false_A": 13518,
+   "false_A": 0.421252726706139
+  },
+  "2": {
+   "n_known": 27829,
+   "n_A_eligible": 20859,
+   "n_false_A": 7609,
+   "false_A": 0.36478258785176665
+  }
+ },
+ "by_half": {
+  "test": {
+   "n_known": 38156,
+   "n_A_eligible": 27965,
+   "n_false_A": 10957,
+   "false_A": 0.39181119256213126
+  },
+  "tune": {
+   "n_known": 34951,
+   "n_A_eligible": 24984,
+   "n_false_A": 10170,
+   "false_A": 0.40706051873198845
+  }
+ },
+ "n_in_O1_hog": 44234,
+ "timings": {
+  "known_site_counts": {
+   "biolip_rows": 677377,
+   "biolip_rows_tier12": 675540,
+   "biolip_excluded_class": {
+    "regular": 321154,
+    "metal": 147916,
+    "rna": 140484,
+    "dna": 36867,
+    "peptide": 29119
+   },
+   "biolip_sites_before_dedupe": 382679,
+   "biolip_sites_after_dedupe": 58457,
+   "uniprot_sites": 10043
+  },
+  "known_sites_loaded_s": 21.315431594848633,
+  "models_s": 491.91347193717957,
+  "false_A_table_s": 510.73142290115356,
+  "rescue_burrow_s": 502.5812563896179,
+  "rescue_n_models": 2000
+ },
+ "runtime_s": 1032.1
+}

@@ -1,0 +1,9 @@
+{
+ "snapshot_id": "20261030T085136Z",
+ "prereg_sha256": "52f9461890984c210b730af86c40de221307a668e7d4b38098b3316059690d83",
+ "git_commit": "c7d6baa99f6da4effee6304be2686629e7ab3b69",
+ "seed": 0,
+ "code_version": "c7d6baa99f6da4effee6304be2686629e7ab3b69",
+ "created_utc": "2026-10-30T13:22:36.498546+00:00",
+ "small_footprint_max": 3
+}

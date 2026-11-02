@@ -1,0 +1,15 @@
+{
+ "sogs_total": 260991,
+ "noise_floor": 0.3942247420549391,
+ "noise_floor_n": 1798,
+ "after_D8_flags": 254396,
+ "eligible_ge3P_ge2species": 84905,
+ "PW_members_without_fingerprint": 0,
+ "n_pairs": 222489,
+ "runtime_s": 1876.2819039821625,
+ "alpha": 0.05,
+ "permutation_n": 10000,
+ "prereg_sha256": "52f9461890984c210b730af86c40de221307a668e7d4b38098b3316059690d83",
+ "release": "O1_r3",
+ "tau": 0.2
+}

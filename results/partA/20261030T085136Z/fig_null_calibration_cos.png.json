@@ -1,0 +1,21 @@
+{
+ "snapshot_id": "20261030T085136Z",
+ "prereg_sha256": "52f9461890984c210b730af86c40de221307a668e7d4b38098b3316059690d83",
+ "git_commit": "0e112016eaa3dfe087a0193d64ffce7273e9166c+dirty",
+ "seed": [
+  1,
+  2
+ ],
+ "code_sha256_16": {
+  "estimands.py": "9602b81d549a9847",
+  "homology.py": "36d581570f088da9",
+  "nulls.py": "6f193b3d663c550d",
+  "pairs.py": "d2bbc75a8782aff3"
+ },
+ "written_utc": "2026-10-30T11:11:17Z",
+ "script": "scripts/partA/10_figures.py",
+ "inputs_sha256_16": {
+  "/tmp/pe_big/partA/20261030T085136Z/null_cos/calib_heldout.parquet": "5cc4cd44b61a5294",
+  "<repo>/results/partA/20261030T085136Z/null_cos_calibration_extended.csv": "e9b04ceca91b5f16"
+ }
+}

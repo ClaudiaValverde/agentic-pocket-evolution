@@ -1,0 +1,77 @@
+schema: manual-v1
+case_id: gain_HOG0035363_g0_n51_O1
+note: 'D25b post-hoc literature f2 line; never used for headline counts. Literature review: the absent side is beta-ketoacyl-ACP
+  synthases (unrelated family); the literature shows the SLC1 pocket exists, not that it was gained. Automatic orthology_side_family
+  check fails.'
+literature_evidence:
+- pmid: '23325245'
+  side: present
+  protein: P43003 SLC1A3/EAAT1
+  finding: Mutagenesis maps UCPH-101 to the trimerization-domain crevice (TM3, TM4c, TM7a) bordering the footprint (TM4 172-191,
+    HP2/TM8 439-450).
+  quote: Substitutions of several residues in TM3, TM4c, and TM7a of GLAST have detrimental effects on the inhibitory potency
+    and/or efficacy of UCPH-101 while not affecting the pharmacological properties of (S)-glutamate
+  about_change: true
+  source: literature
+  post_hoc: true
+  author_agent: general-purpose literature agent a14187d9e30a37f2b (M4, D25b)
+  reviewed_by: 'M4 case-builder agent: PMID resolved by NCBI efetch, quote verified verbatim in abstract, site relevance checked
+    against footprint residues'
+  review_ok: true
+  retrieved_at: '2026-10-30T14:28:59Z'
+- pmid: '28424515'
+  side: present
+  protein: P43003 SLC1A3/EAAT1
+  finding: Crystal structures of EAAT1 with allosteric UCPH-101 bound between transport and scaffold domains.
+  quote: we present crystal structures of a thermostabilized human SLC1 transporter, the excitatory amino acid transporter
+    1 (EAAT1), with and without allosteric and competitive inhibitors bound
+  about_change: true
+  source: literature
+  post_hoc: true
+  author_agent: general-purpose literature agent a14187d9e30a37f2b (M4, D25b)
+  reviewed_by: 'M4 case-builder agent: PMID resolved by NCBI efetch, quote verified verbatim in abstract, site relevance checked
+    against footprint residues'
+  review_ok: true
+  retrieved_at: '2026-10-30T14:28:59Z'
+- pmid: '32079674'
+  side: present
+  protein: P43004 SLC1A2/EAAT2
+  finding: Pocket at the transport/trimerization interface yields selective EAAT2 inhibitors (uptake/electrophysiology).
+  quote: Utilizing a homology model of human EAAT2, we identified a binding pocket at the interface of the transport and trimerization
+    domain
+  about_change: true
+  source: literature
+  post_hoc: true
+  author_agent: general-purpose literature agent a14187d9e30a37f2b (M4, D25b)
+  reviewed_by: 'M4 case-builder agent: PMID resolved by NCBI efetch, quote verified verbatim in abstract, site relevance checked
+    against footprint residues'
+  review_ok: true
+  retrieved_at: '2026-10-30T14:28:59Z'
+- pmid: '42020573'
+  side: present
+  protein: P43005 SLC1A1/EAAT3
+  finding: 'Cryo-EM: inhibitor 3e wedged between trimerization and transport domains, beside cholesterol.'
+  quote: by forming a wedge between the trimerization domain and the substrate-binding transport domain, alongside a cholesterol
+    moiety from the lipid bilayer, 3e blocks SLC1A1's elevator-like movements
+  about_change: true
+  source: literature
+  post_hoc: true
+  author_agent: general-purpose literature agent a14187d9e30a37f2b (M4, D25b)
+  reviewed_by: 'M4 case-builder agent: PMID resolved by NCBI efetch, quote verified verbatim in abstract, site relevance checked
+    against footprint residues'
+  review_ok: true
+  retrieved_at: '2026-10-30T14:28:59Z'
+- pmid: '42284891'
+  side: present
+  protein: P43004 SLC1A2/EAAT2
+  finding: Mutagenesis maps allosteric modulator sites to TM1, TM5, TM8 and HP2.
+  quote: We identified potential binding sites of representative compounds in transmembrane domains 1, 5, 8, and hairpin 2
+    and demonstrated that these are necessary for their activity.
+  about_change: true
+  source: literature
+  post_hoc: true
+  author_agent: general-purpose literature agent a14187d9e30a37f2b (M4, D25b)
+  reviewed_by: 'M4 case-builder agent: PMID resolved by NCBI efetch, quote verified verbatim in abstract, site relevance checked
+    against footprint residues'
+  review_ok: true
+  retrieved_at: '2026-10-30T14:28:59Z'

@@ -1,0 +1,175 @@
+{
+ "tables": "<repo>/data/orthology/ancestra_O2/tables",
+ "known_pairs": [
+  {
+   "a": "P07900",
+   "b": "P08238",
+   "note": "HSP90AA1 vs HSP90AB1 (human)",
+   "expected": "paralog",
+   "got": "paralog",
+   "level": "Gnathostomata",
+   "ok": true
+  },
+  {
+   "a": "P07900",
+   "b": "P07901",
+   "note": "HSP90AA1 human vs mouse",
+   "expected": "ortholog",
+   "got": "ortholog",
+   "level": "Euarchontoglires",
+   "ok": true
+  },
+  {
+   "a": "P08238",
+   "b": "P11499",
+   "note": "HSP90AB1 human vs mouse",
+   "expected": "ortholog",
+   "got": "ortholog",
+   "level": "Euarchontoglires",
+   "ok": true
+  },
+  {
+   "a": "P07900",
+   "b": "P02829",
+   "note": "HSP90AA1 human vs yeast HSP82",
+   "expected": "ortholog",
+   "got": "ortholog",
+   "level": "Opisthokonta",
+   "ok": true
+  },
+  {
+   "a": "P00533",
+   "b": "P04626",
+   "note": "EGFR vs ERBB2 (human)",
+   "expected": "paralog",
+   "got": "paralog",
+   "level": "Gnathostomata",
+   "ok": true
+  },
+  {
+   "a": "P00533",
+   "b": "Q01279",
+   "note": "EGFR human vs mouse",
+   "expected": "ortholog",
+   "got": "ortholog",
+   "level": "Euarchontoglires",
+   "ok": true
+  },
+  {
+   "a": "P68871",
+   "b": "P02088",
+   "note": "HBB human vs mouse Hbb-b1",
+   "expected": "ortholog",
+   "got": "ortholog",
+   "level": "Euarchontoglires",
+   "ok": true
+  },
+  {
+   "a": "P69905",
+   "b": "P68871",
+   "note": "HBA vs HBB (human)",
+   "expected": "paralog",
+   "got": "paralog",
+   "level": "Deuterostomia",
+   "ok": true
+  },
+  {
+   "a": "P04637",
+   "b": "P02340",
+   "note": "TP53 human vs mouse",
+   "expected": "ortholog",
+   "got": "ortholog",
+   "level": "Euarchontoglires",
+   "ok": true
+  },
+  {
+   "a": "P60709",
+   "b": "P63261",
+   "note": "ACTB vs ACTG1 (human)",
+   "expected": "paralog",
+   "got": "paralog",
+   "level": "UP000005640_9606",
+   "ok": true
+  },
+  {
+   "a": "P38398",
+   "b": "P48754",
+   "note": "BRCA1 human vs mouse",
+   "expected": "ortholog",
+   "got": "ortholog",
+   "level": "Euarchontoglires",
+   "ok": true
+  },
+  {
+   "a": "P00533",
+   "b": "P07900",
+   "note": "EGFR vs HSP90AA1 (negative control)",
+   "expected": "unrelated",
+   "got": "unrelated",
+   "level": null,
+   "ok": true
+  },
+  {
+   "a": "P68871",
+   "b": "P07900",
+   "note": "HBB vs HSP90AA1 (negative control)",
+   "expected": "unrelated",
+   "got": "unrelated",
+   "level": null,
+   "ok": true
+  }
+ ],
+ "known_pairs_ok": "13/13",
+ "human_mouse": {
+  "n_ortholog_pairs": 26969,
+  "n_1to1": 16585,
+  "n_human_proteins": 20652,
+  "frac_human_with_mouse_ortholog": 0.8879,
+  "frac_human_1to1": 0.8031,
+  "frac_pairs_1to1": 0.615
+ },
+ "panther_coverage": {
+  "UP000005640_9606": 0.881,
+  "UP000000589_10090": 0.851,
+  "UP000000437_7955": 0.963,
+  "UP000000803_7227": 0.825,
+  "UP000001940_6239": 0.728,
+  "UP000002311_559292": 0.787,
+  "UP000006548_3702": 0.909,
+  "UP000000625_83333": 0.782
+ },
+ "panther_pairs": [
+  {
+   "relation": "ortholog",
+   "n": 800,
+   "same_family": 0.8625,
+   "same_subfamily": 0.7255747126436781,
+   "n_with_sub": 696
+  },
+  {
+   "relation": "paralog",
+   "n": 600,
+   "same_family": 0.7883,
+   "same_subfamily": 0.25697211155378485,
+   "n_with_sub": 502
+  },
+  {
+   "relation": "unrelated",
+   "n": 600,
+   "same_family": 0.0,
+   "same_subfamily": 0.0,
+   "n_with_sub": 402
+  }
+ ],
+ "panther_pairs_tries": 1532,
+ "human_mouse_same_panther_subfamily_pairs": {
+  "n": 20000,
+  "relation_fractions": {
+   "ortholog": 0.7502,
+   "unrelated": 0.158,
+   "paralog": 0.0918
+  }
+ },
+ "ancestra_crosscheck": "skipped (ancestra not importable)",
+ "seconds": 103.4
+}

@@ -1,0 +1,10 @@
+{
+ "output": "fingerprints.parquet",
+ "snapshot_id": "TOY",
+ "prereg_sha256": "52f9461890984c210b730af86c40de221307a668e7d4b38098b3316059690d83",
+ "git_commit": "c325bfaa7a9194de66f2a0ea399de80df7e50d82+dirty",
+ "seed": 0,
+ "created_utc": "2026-10-30T10:10:42Z",
+ "sha256": "3a63212b13d3fe17d923c7c50de227218fc6e5a4090a13e4f0a4b2241a1881a3",
+ "script": "scripts/partB/make_toy_sogs.py"
+}

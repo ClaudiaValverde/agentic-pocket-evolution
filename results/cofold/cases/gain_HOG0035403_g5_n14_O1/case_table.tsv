@@ -1,0 +1,14 @@
+member	state	ligand_kind	blind_id	ligands	n_samples	n_seeds	top_ranking	lig_resname	n_site	top_lig_plddt	med_lig_plddt	sd_lig_plddt	top_prot_lig_pae_min	med_prot_lig_pae_min	sd_prot_lig_pae_min	top_site_centroid_dist	med_site_centroid_dist	sd_site_centroid_dist	top_site_recall	med_site_recall	sd_site_recall	top_prot_lig_iptm	med_prot_lig_iptm	sd_prot_lig_iptm	top_iptm	med_iptm	sd_iptm	frac_in_site	pb_valid	pb_failed
+I1KY39_outgroup_A	ancestral	cognate	81d578c54af2	OAA	15	3	1.0051	OAA	11	85.4	84.7	0.888	2.13	2.17	0.104	19.23	19.3	0.119	0.0	0.0	0.0	0.92	0.91	0.005	0.92	0.91	0.005	0.0	True	
+I1KY39_outgroup_A	ancestral	decoy1	c007e893b6a3	OKG	15	3	0.9882	OKG	11	78.2	66.9	4.108	2.5	3.22	0.375	19.64	19.64	0.681	0.0	0.0	0.0	0.91	0.85	0.025	0.91	0.85	0.025	0.0	True	
+K7MR36_outgroup_A	ancestral	cognate	32a2b667feac	OAA	15	3	1.0062	OAA	11	85.8	83.8	0.956	2.01	2.27	0.151	19.07	19.23	0.095	0.0	0.0	0.0	0.92	0.91	0.006	0.92	0.91	0.006	0.0	True	
+K7MR36_outgroup_A	ancestral	decoy1	a49b6ad882af	OKG	15	3	0.9747	OKG	11	75.6	72.0	2.57	2.96	2.92	0.126	19.71	19.93	0.284	0.0	0.0	0.0	0.88	0.87	0.007	0.88	0.87	0.007	0.0	True	
+Q0P7U8_outgroup_A	ancestral	cognate	db1256df7d34	OAA	15	3	0.9477	OAA	11	84.2	83.0	7.874	1.61	1.8	1.827	19.4	19.36	7.401	0.0	0.0	0.0	0.93	0.92	0.083	0.93	0.92	0.083	0.0	True	
+Q0P7U8_outgroup_A	ancestral	decoy1	7dbe2889e7ce	OKG	15	3	0.9049	OKG	11	72.0	67.9	4.248	2.5	2.98	0.9	20.5	20.64	8.329	0.0	0.0	0.0	0.88	0.85	0.039	0.88	0.85	0.039	0.0	True	
+positive_control	control	cognate	poscontrol	OAA	15	3	0.9457	OAA	0	80.3	78.9	2.818	2.01	2.18	0.111				0.0	0.0	0.0	0.91	0.9	0.01	0.91	0.9	0.01	0.0	True	
+A0A0H3GQA5_derived_P	derived	cognate	e971be47f687	OAA	15	3	0.9381	OAA	11	78.8	76.4	4.03	2.15	2.24	0.193	19.39	19.52	0.127	0.0	0.0	0.0	0.9	0.89	0.014	0.9	0.89	0.014	0.0	True	
+A0A0H3GQA5_derived_P	derived	decoy1	b789d69ed45d	OKG	15	3	0.9066	OKG	11	66.7	64.6	7.245	2.49	3.02	1.818	18.11	20.06	9.455	0.0	0.0	0.0	0.87	0.85	0.09	0.87	0.85	0.09	0.0	False	minimum_distance_to_protein
+O68883_derived_P	derived	cognate	41f0f38d9251	OAA	15	3	0.9497	OAA	11	81.0	77.6	10.249	2.04	2.19	2.042	19.5	19.56	5.402	0.0	0.0	0.0	0.91	0.9	0.089	0.91	0.9	0.089	0.0	True	
+O68883_derived_P	derived	decoy1	dd1e8b4649b8	OKG	15	3	0.9056	OKG	11	68.8	66.2	3.777	2.9	4.16	0.843	20.56	25.06	4.677	0.0	0.0	0.0	0.86	0.82	0.037	0.86	0.82	0.037	0.0	False	minimum_distance_to_protein
+Q32IL1_derived_P	derived	cognate	7ba7e997aa10	OAA	15	3	0.9458	OAA	11	79.6	78.1	5.378	2.09	2.21	0.354	19.52	19.43	0.161	0.0	0.0	0.0	0.91	0.9	0.026	0.91	0.9	0.026	0.0	True	
+Q32IL1_derived_P	derived	decoy1	d8d608653cd1	OKG	15	3	0.9096	OKG	11	68.2	65.6	7.796	3.09	3.13	2.017	20.42	20.14	10.258	0.0	0.0	0.0	0.86	0.84	0.095	0.86	0.84	0.095	0.0	True	

@@ -1,0 +1,17 @@
+{
+ "score": "cos",
+ "N": 3221702,
+ "k": 1000,
+ "keep_E": 1.0,
+ "n_entries_kept": 77443231,
+ "n_pairs_unique": 43319413,
+ "n_same_protein_entries_excl_self": 138922,
+ "n_sig_pairs_E0.01": {
+  "pooled": 9778355,
+  "perq": 25416122,
+  "xi0": 0
+ },
+ "saturated_queries_E0.01": 13509,
+ "saturated_frac": 0.004193125248703946,
+ "wall_s": 57.61296319961548
+}

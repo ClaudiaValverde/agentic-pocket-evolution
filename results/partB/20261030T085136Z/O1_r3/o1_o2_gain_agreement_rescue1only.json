@@ -1,0 +1,41 @@
+{
+ "n_O1_gains": 50,
+ "recovered_called": 2,
+ "recovered_candidate": 2,
+ "recovered_event": 2,
+ "o2_same_sog": 50,
+ "by_parent_kind": {
+  "duplication": {
+   "recovered_called": 0,
+   "recovered_event": 0,
+   "n": 32
+  },
+  "speciation": {
+   "recovered_called": 2,
+   "recovered_event": 2,
+   "n": 18
+  }
+ },
+ "n_O2_gains_called": 104,
+ "rule": "O2 clade holds >= 50 % of the O1 derived P members",
+ "diagnosis": {
+  "O1_state_vs_O2_state_of_the_same_proteins_in_the_modal_O2_SOG": {
+   "O1 A (outgroup absences)": {
+    "O2 A": 37,
+    "O2 P": 34,
+    "O2 U": 94,
+    "O2 W": 0
+   },
+   "O1 P (derived clade)": {
+    "O2 P": 411,
+    "O2 U": 26
+   },
+   "O1 W": {
+    "O2 P": 9,
+    "O2 U": 15,
+    "O2 W": 8
+   }
+  },
+  "reading": "All 50 O1 gains map to one O2 SOG (o2_same_sog). They are not re-called on O2 because the absences that support them are mostly missing on O2: 94/165 outgroup A calls are U on O2 (rescue:pending outside the O2 rescue pool -> U by PI rule) and 34/165 are P on O2 (different SOG/footprint). So non-recovery reflects O2 absence observability, not O1 orthology misassignment; the O2 rescue pool should be extended to these SOGs before reading this as an orthology check."
+ }
+}

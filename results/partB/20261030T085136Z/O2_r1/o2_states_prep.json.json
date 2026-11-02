@@ -1,0 +1,10 @@
+{
+ "output": "o2_states_prep.json",
+ "snapshot_id": "20261030T085136Z",
+ "prereg_sha256": "52f9461890984c210b730af86c40de221307a668e7d4b38098b3316059690d83",
+ "git_commit": "4da6c37525743a301d669f97c73a291bbf8db7a2+dirty",
+ "seed": 0,
+ "created_utc": "2026-10-30T15:09:55Z",
+ "sha256": "af7154627e51e36f938932b952276666b6e07e4cace65e4a3ee2f98ed861a4c4",
+ "script": "scripts/partB/prep_o2_states.py"
+}

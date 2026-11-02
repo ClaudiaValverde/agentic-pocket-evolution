@@ -1,0 +1,36 @@
+{
+ "snapshot_id": "20261030T085136Z",
+ "orthology": "O1",
+ "release": "O1_r3",
+ "swap_mult": 200,
+ "tau": 0.2,
+ "state_col": "state",
+ "n_sogs_total": 260991,
+ "n_small_footprint_excluded": 6595,
+ "states": "SOG states before rescue (A not rescued; D11 applied)",
+ "vertical_noisy_rate_source": "<repo>/results/partB/sim/measured/noise_primary_known_gt10.csv (pre-rescue P(A|informative,present))",
+ "rescue_k": 1,
+ "definition": "fraction of SOGs explained by <= 1 gain/loss under Dollo parsimony",
+ "results": {
+  "multi_species": {
+   "n_sogs": 111685,
+   "m3": 0.9329901061019833,
+   "curveball_mean": 0.918609750637955,
+   "curveball_q025": 0.9181172494068138,
+   "curveball_q975": 0.9190941039530823,
+   "p_null_ge_real": 0.004975124378109453,
+   "curveball_replicates": 200,
+   "swaps_per_replicate_min": 8982800,
+   "swaps_target": 8982800,
+   "n_zeros": 44914,
+   "swaps_rule": "200 x min(#1, #0) (INTERP of prereg 100 x #1; see SIM.md)",
+   "attempts_per_replicate_max": 544885822,
+   "null_method": "masked checkerboard swaps (simulate.checkerboard)",
+   "n_ones": 576148,
+   "vertical_noisy_mean": 0.9422672999067845,
+   "vertical_noisy_sd": 0.0006058573975783073
+  }
+ },
+ "prereg_sha256": "52f9461890984c210b730af86c40de221307a668e7d4b38098b3316059690d83",
+ "runtime_s": 301.3419289588928
+}

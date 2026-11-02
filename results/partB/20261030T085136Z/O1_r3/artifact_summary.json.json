@@ -1,0 +1,14 @@
+{
+ "output": "artifact_summary.json",
+ "snapshot_id": "20261030T085136Z",
+ "prereg_sha256": "52f9461890984c210b730af86c40de221307a668e7d4b38098b3316059690d83",
+ "git_commit": "fe67f2c7270af9cc942c23de86049ca81ff53b28+dirty",
+ "seed": 0,
+ "created_utc": "2026-10-30T16:44:35Z",
+ "sha256": "f3ae44d943b179231a7dc71447094d2bde1701d1e7354456dea2ad1d414ec093",
+ "script": "scripts/partB/run_artifacts.py",
+ "argv": [
+  "--sog-run",
+  "O1_r3"
+ ]
+}

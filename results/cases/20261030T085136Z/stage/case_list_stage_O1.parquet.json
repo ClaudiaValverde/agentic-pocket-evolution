@@ -1,0 +1,273 @@
+{
+ "output": "case_list_stage.parquet",
+ "snapshot_id": "20261030T085136Z",
+ "prereg_sha256": "52f9461890984c210b730af86c40de221307a668e7d4b38098b3316059690d83",
+ "git_commit": "cdb00a44da5049d0e4a054f4e2ba4ee534e35363+dirty",
+ "seed": 0,
+ "created_utc": "2026-10-30T16:18:00Z",
+ "sha256": "5022a0f008d8e97ac6f1378426d33b4806a1118044f96ea1483b6abf5b2655aa",
+ "script": "scripts/cases/build_cases.py",
+ "argv": [
+  "--orthology",
+  "O1",
+  "--sog-release",
+  "O1_r3",
+  "--pool",
+  "eligible",
+  "--version",
+  "stage",
+  "--candidates",
+  "results/partB/20261030T085136Z/O1_r3/candidates.parquet",
+  "--false-loss",
+  "results/partB/20261030T085136Z/O1_r3/false_loss_controls.parquet",
+  "--false-loss-kind",
+  "bad_model",
+  "--n-controls",
+  "5",
+  "--events-base",
+  "results/partB/events/20261030T085136Z/O1_r3/tau0.2/primary",
+  "--specificity",
+  "results/partB/20261030T085136Z/O1_r3/specificity_candidates.parquet",
+  "--out",
+  "/tmp/pe_big/cases/stage/O1",
+  "--cases-dir",
+  "/tmp/pe_big/cases/stage/O1",
+  "--verify-ids"
+ ],
+ "orthology": "O1",
+ "inputs": {
+  "candidates": [
+   "results/partB/20261030T085136Z/O1_r3/candidates.parquet",
+   "5b03102d940a3f01f69c4be140fdd072f81f84c7f972bae435964634e4e65ade"
+  ],
+  "false_loss": [
+   "results/partB/20261030T085136Z/O1_r3/false_loss_controls.parquet",
+   "969bc080b2be6f2e813c6ba0e50bda3ff2bf7e1f387ba1f4bdbc3fb7e1929216"
+  ],
+  "convergence": [
+   "results/partA/20261030T085136Z/v2/convergence_candidates.parquet",
+   "9eee5070cec1fbdcfb82fe35f9d78c3cee093e1eacd450d20cbe01a9021e1c00"
+  ],
+  "hog_trees": [
+   "results/partB/hog_trees/O1/hog_trees.parquet",
+   "5ea7d66b45168faa48efd44482d1b64820eaf9a627ee921285210685f9dcda35"
+  ],
+  "tau_tuning": [
+   "results/sogs/20261030T085136Z/O1/tau_tuning_annotations.parquet",
+   "cea2d0d6758df1421dda6e8fbe910bcde24adac199219c64c1c92177fc394d89"
+  ],
+  "redetection": [
+   "results/observation/20261030T085136Z/redetection_sites.parquet",
+   "a5c179799e0fd0bc4eedb9f173e2c243258d6c2fd39b1b58e18a49f0b8a54832"
+  ]
+ },
+ "sog_release": "O1_r3",
+ "sog_bulk": "/tmp/pe_big/sogs/20261030T085136Z/O1_r3",
+ "events_base": "results/partB/events/20261030T085136Z/O1_r3/tau0.2/primary",
+ "rules": {
+  "f1_min_species": 3,
+  "site_overlap_min": 0.5,
+  "eco_experimental": [
+   "ECO:0000269",
+   "ECO:0007744"
+  ],
+  "pchembl_min": 6.0,
+  "top_k": 5,
+  "n_audit": 1,
+  "extra": {},
+  "m4_constants": {
+   "CONS_CLADE_MIN": 0.8,
+   "CONS_MIN_COLUMNS": 2,
+   "CONS_OUT_MAX": 0.5,
+   "F1_CLADE_PURITY_MIN": 0.8,
+   "F1_MIN_OUT_LINEAGES": 2,
+   "INFORMATIVE": [
+    "P",
+    "A"
+   ],
+   "REDETECT_JACCARD_MIN": 0.3,
+   "RESCUE_FRAC_MIN": 0.8,
+   "RESCUE_MAJORITY": 3,
+   "SITE_OVERLAP_MIN_DEFAULT": 0.5,
+   "SPEC_LIGAND_CLASSES": [
+    "regular"
+   ]
+  }
+ },
+ "bar": "D25c co-fold pool: filter_label in {convincing, supported} AND artifacts pass (pass_artifacts and M4 orthology_side_family); no backfill; headline = convincing_only",
+ "pool": "eligible",
+ "headline": "convincing_only",
+ "excluded_artifacts": {
+  "gain_HOG0028478_g6_n52_O1": "a_pae_ted: ;a_orthology_o2: ;a_orthology_panther: ;a_fragment_present: ;orthology_side_family_reported_only: PANTHER: present side ['PTHR10012'], absent side ['PTHR47959']; shared none -> different families on the two sides (misa",
+  "gain_HOG0035363_g6_n51_O1": "a_orthology_o2: ;a_orthology_panther: ;orthology_side_family_reported_only: PANTHER: present side ['PTHR11958'], absent side ['PTHR11712']; shared none -> different families on the two sides (misa",
+  "gain_HOG0035363_g0_n51_O1": "orthology_side_family_reported_only: PANTHER: present side ['PTHR11958'], absent side ['PTHR11712']; shared none -> different families on the two sides (misa",
+  "gain_HOG0026595_g6_n41_O1": "a_orthology_o2: ;a_orthology_panther: ;a_fragment_present: ;orthology_side_family_reported_only: PANTHER: present side ['PTHR28291'], absent side ['PTHR16255']; shared none -> different families on the two sides (misa",
+  "gain_HOG0029217_g0_n25_O1": "a_fragment: ;a_orthology_o2: ;a_orthology_panther: ;a_fragment_present: ;orthology_side_family_reported_only: PANTHER: present side ['PTHR14102'], absent side ['PTHR12292']; shared none -> different families on the two sides (misa",
+  "gain_HOG0036350_g6_n85_O1": "a_pae_ted: ;a_orthology_o2: ;a_orthology_panther: ;a_fragment_present: ;orthology_side_family_reported_only: PANTHER: present side ['PTHR43385'], absent side ['PTHR45759']; shared none -> different families on the two sides (misa",
+  "gain_HOG0025451_g0_n48_O1": "a_pae_ted: ;a_orthology_o2: ;a_orthology_panther: ",
+  "gain_HOG0030922_g6_n85_O1": "a_orthology_o2: ;a_orthology_panther: ;a_fragment_present: ;orthology_side_family_reported_only: PANTHER: present side ['PTHR38436'], absent side ['PTHR17630', 'PTHR47668']; shared none -> different families on the tw",
+  "gain_HOG0029076_g3_n34_O1": "a_pae_ted: ;a_orthology_o2: ",
+  "gain_HOG0029098_g4_n13_O1": "a_fragment: ;a_fragment_present: ;orthology_side_family_reported_only: Pfam: present side ['PF10419'], absent side ['PF10392', 'PF20649']; shared none -> different families on the two sides (",
+  "gain_HOG0029236_g20_n56_O1": "a_fragment_present: ",
+  "gain_HOG0029246_g3_n80_O1": "",
+  "gain_HOG0029908_g16_n17_O1": "a_orthology_o2: ;a_orthology_panther: ;a_fragment_present: ;orthology_side_family_reported_only: PANTHER: present side ['PTHR11972'], absent side ['PTHR21461', 'PTHR47966']; shared none -> different families on the tw",
+  "gain_HOG0030032_g5_n59_O1": "a_pae_ted: ;a_orthology_o2: ;a_orthology_panther: ;a_fragment_present: ;orthology_side_family_reported_only: PANTHER: present side ['PTHR22811'], absent side ['PTHR11353', 'PTHR15377']; shared none -> different families on the tw",
+  "gain_HOG0030847_g4_n15_O1": "a_orthology_o2: ;a_orthology_panther: ;a_fragment_present: ;orthology_side_family_reported_only: PANTHER: present side ['PTHR12936'], absent side ['PTHR43380']; shared none -> different families on the two sides (misa",
+  "gain_HOG0031031_g3_n18_O1": "a_pae_ted: ;a_orthology_o2: ;a_orthology_panther: ;a_fragment_present: ;orthology_side_family_reported_only: PANTHER: present side ['PTHR31996'], absent side ['PTHR43028']; shared none -> different families on the two sides (misa",
+  "gain_HOG0033466_g4_n13_O1": "a_species_tree_lineages: ",
+  "gain_HOG0034565_g13_n84_O1": "a_orthology_o2: ;a_orthology_panther: ;a_fragment_present: ;orthology_side_family_reported_only: PANTHER: present side ['PTHR13350'], absent side ['PTHR11034', 'PTHR43039']; shared none -> different families on the tw",
+  "gain_HOG0034782_g3_n32_O1": "a_disorder: ;a_orthology_o2: ;a_orthology_panther: ",
+  "gain_HOG0034782_g3_n45_O1": "a_disorder: ;a_orthology_o2: ;a_orthology_panther: ",
+  "gain_HOG0034899_g8_n22_O1": "a_orthology_o2: ;a_orthology_panther: ;a_fragment_present: ;a_species_tree_lineages: ",
+  "gain_HOG0035199_g6_n52_O1": "a_orthology_o2: ;a_orthology_panther: ;a_fragment_present: ;orthology_side_family_reported_only: PANTHER: present side ['PTHR14305'], absent side ['PTHR11105', 'PTHR32308']; shared none -> different families on the tw",
+  "gain_HOG0035782_g6_n64_O1": "a_pae_ted: ;a_orthology_o2: ;a_orthology_panther: ;a_fragment_present: ;orthology_side_family_reported_only: PANTHER: present side ['PTHR31905'], absent side ['PTHR10996', 'PTHR42938', 'PTHR43026']; shared none -> different famil",
+  "gain_HOG0036512_g4_n41_O1": "a_orthology_o2: ;a_orthology_panther: ;a_fragment_present: ;orthology_side_family_reported_only: PANTHER: present side ['PTHR43090'], absent side ['PTHR31559', 'PTHR42701']; shared none -> different families on the tw",
+  "gain_HOG0031044_g10_n87_O1": "a_fragment: ;a_fragment_present: ;orthology_side_family_reported_only: PANTHER: present side ['PTHR43730'], absent side ['PTHR13398', 'PTHR42732', 'PTHR43536']; shared none -> different famil",
+  "gain_HOG0026966_g3_n12_O1": "a_orthology_o2: ;a_orthology_panther: ;a_fragment_present: ;orthology_side_family_reported_only: PANTHER: present side ['PTHR43066'], absent side ['PTHR21506']; shared none -> different families on the two sides (misa",
+  "gain_HOG0027878_g8_n25_O1": "a_fragment_present: ;orthology_side_family_reported_only: PANTHER: present side ['PTHR14058'], absent side ['PTHR12937']; shared none -> different families on the two sides (misa",
+  "gain_HOG0030347_g8_n12_O1": "a_fragment: ;a_orthology_o2: ;a_orthology_panther: ;a_fragment_present: ;orthology_side_family_reported_only: PANTHER: present side ['PTHR11827'], absent side ['PTHR13847']; shared none -> different families on the two sides (misa",
+  "gain_HOG0030712_g13_n44_O1": "a_fragment: ;a_fragment_present: ",
+  "gain_HOG0031003_g16_n37_O1": "a_pae_ted: ;a_orthology_o2: ;a_orthology_panther: ;a_fragment_present: ;orthology_side_family_reported_only: PANTHER: present side ['PTHR12461'], absent side ['PTHR10145']; shared none -> different families on the two sides (misa",
+  "gain_HOG0034186_g10_n11_O1": "a_species_tree_lineages: ",
+  "gain_HOG0034223_g12_n134_O1": "a_footprint_plddt: ",
+  "gain_HOG0034715_g11_n81_O1": "a_orthology_o2: ;a_fragment_present: ",
+  "gain_HOG0035150_g35_n190_O1": "a_pae_ted: ;a_orthology_panther: ;orthology_side_family_reported_only: PANTHER: present side ['PTHR48013'], absent side ['PTHR22969', 'PTHR44899', 'PTHR46049']; shared none -> different famil",
+  "gain_HOG0035256_g19_n66_O1": "a_orthology_panther: ;a_fragment_present: ;orthology_side_family_reported_only: PANTHER: present side ['PTHR23301'], absent side ['PTHR11177']; shared none -> different families on the two sides (misa",
+  "gain_HOG0035447_g8_n57_O1": "a_fragment: ;a_orthology_o2: ;a_orthology_panther: ;a_fragment_present: ;orthology_side_family_reported_only: PANTHER: present side ['PTHR42905'], absent side ['PTHR11739']; shared none -> different families on the two sides (misa",
+  "gain_HOG0035533_g7_n51_O1": "a_pae_ted: ;a_species_tree_lineages: ",
+  "gain_HOG0036041_g9_n44_O1": "a_orthology_o2: ;a_orthology_panther: ;orthology_side_family_reported_only: PANTHER: present side ['PTHR10801'], absent side ['PTHR11748', 'PTHR42934']; shared none -> different families on the tw",
+  "gain_HOG0036328_g8_n78_O1": "a_orthology_panther: ;a_fragment_present: ",
+  "gain_HOG0036417_g9_n13_O1": "a_pae_ted: ;a_orthology_o2: ;a_orthology_panther: ;a_fragment_present: ;orthology_side_family_reported_only: PANTHER: present side ['PTHR41394', 'PTHR43773'], absent side ['PTHR11911']; shared none -> different families on the tw",
+  "gain_HOG0029844_g11_n48_O1": "a_orthology_panther: ;a_fragment_present: ;orthology_side_family_reported_only: PANTHER: present side ['PTHR47784'], absent side ['PTHR36206', 'PTHR37534', 'PTHR45770', 'PTHR47657']; shared none -> di",
+  "gain_HOG0027482_g15_n134_O1": "a_orthology_o2: ;a_orthology_panther: ;a_fragment_present: ;a_species_tree_lineages: ;orthology_side_family_reported_only: PANTHER: present side ['PTHR19237'], absent side ['PTHR10974']; shared none -> different families on the two sides (misa",
+  "gain_HOG0030588_g6_n29_O1": "a_fragment_present: ",
+  "loss_HOG0034468_g1_n322_O1": "a_pae_ted: ;a_fragment: ;a_orthology_o2: ;a_fragment_present: ;a_species_tree_lineages: ;orthology_side_family_reported_only: PANTHER: present side ['PTHR18934', 'PTHR43020', 'PTHR43519'], absent side ['PTHR10953']; shared none -> different famil",
+  "loss_HOG0036644_g2_n49_O1": "a_pae_ted: ;a_fragment: ;a_fragment_present: ;orthology_side_family_reported_only: PANTHER: present side ['PTHR42861', 'PTHR43294', 'PTHR43743'], absent side ['PTHR11452']; shared none -> different famil",
+  "loss_HOG0034683_g7_n132_O1": "a_pae_ted: ;a_fragment_present: ;a_species_tree_lineages: ;orthology_side_family_reported_only: PANTHER: present side ['PTHR21320'], absent side ['PTHR11669']; shared none -> different families on the two sides (misa",
+  "loss_HOG0026081_g6_n166_O1": "a_orthology_panther: ;a_fragment_present: ;orthology_side_family_reported_only: PANTHER: present side ['PTHR24174'], absent side ['PTHR47695']; shared none -> different families on the two sides (misa",
+  "loss_HOG0035876_g4_n122_O1": "a_pae_ted: ;a_fragment_present: ",
+  "loss_HOG0033853_g4_n5_O1": "a_pae_ted: ",
+  "loss_HOG0034901_g8_n39_O1": "a_orthology_o2: ;a_species_tree_lineages: ",
+  "loss_HOG0035062_g3_n107_O1": "a_pae_ted: ",
+  "loss_HOG0035662_g11_n3_O1": "a_pae_ted: ",
+  "loss_HOG0019751_g3_n30_O1": "a_pae_ted: ;a_fragment: ;a_fragment_present: ",
+  "loss_HOG0029979_g11_n24_O1": "a_fragment_present: ;a_species_tree_lineages: ",
+  "loss_HOG0029979_g8_n24_O1": "a_fragment_present: ;a_species_tree_lineages: ",
+  "loss_HOG0034750_g4_n230_O1": "a_orthology_o2: ;a_fragment_present: ",
+  "loss_HOG0034901_g8_n27_O1": "a_orthology_o2: ;a_orthology_panther: ;a_species_tree_lineages: ;orthology_side_family_reported_only: PANTHER: present side ['PTHR33121'], absent side ['PTHR44757']; shared none -> different families on the two sides (misa",
+  "loss_HOG0035153_g2_n11_O1": "a_pae_ted: ;a_orthology_o2: ;a_orthology_panther: ;a_fragment_present: ;orthology_side_family_reported_only: PANTHER: present side ['PTHR11496'], absent side ['PTHR11699']; shared none -> different families on the two sides (misa",
+  "loss_HOG0028754_g12_n106_O1": "",
+  "specificity_HOG0025600_g5_n27_O1": "a_orthology_panther: ;a_fragment_present: ",
+  "specificity_HOG0025600_g5_n13_O1": "a_orthology_panther: ",
+  "specificity_HOG0027899_g7_n1_O1": "a_fragment: ;a_fragment_present: ",
+  "specificity_HOG0028186_g4_n24_O1": "a_fragment_present: ",
+  "specificity_HOG0027961_g4_n102_O1": "a_orthology_o2: ;a_orthology_panther: ",
+  "convergence_Q24298_s0__E1JGJ8_s0_O1": NaN,
+  "convergence_P46723_s3__C0NED7_s2_O1": NaN,
+  "convergence_Q22937_s1__Q6R5P0_s1_O1": NaN
+ },
+ "headline_rule": "convincing = all three filters AND artifact cascade not failed; literature line post hoc",
+ "counts": {
+  "control": {
+   "n": 5,
+   "f1": 0,
+   "f2": 0,
+   "f3": 0,
+   "filter_label": {
+    "rejected": 5
+   },
+   "label": {
+    "rejected": 5
+   },
+   "selected": 5,
+   "convincing_filters_only": 0,
+   "convincing_headline": 0,
+   "convincing_with_literature_post_hoc": 0,
+   "artifact_fail": 0
+  },
+  "convergence": {
+   "n": 3,
+   "f1": 3,
+   "f2": 0,
+   "f3": 0,
+   "filter_label": {
+    "rejected": 3
+   },
+   "label": {
+    "rejected": 3
+   },
+   "selected": 0,
+   "convincing_filters_only": 0,
+   "convincing_headline": 0,
+   "convincing_with_literature_post_hoc": 0,
+   "artifact_fail": 3
+  },
+  "gain": {
+   "n": 50,
+   "f1": 42,
+   "f2": 1,
+   "f3": 47,
+   "filter_label": {
+    "supported": 38,
+    "rejected": 11,
+    "convincing": 1
+   },
+   "label": {
+    "rejected": 45,
+    "supported": 5
+   },
+   "selected": 5,
+   "convincing_filters_only": 1,
+   "convincing_headline": 0,
+   "convincing_with_literature_post_hoc": 0,
+   "artifact_fail": 43
+  },
+  "loss": {
+   "n": 17,
+   "f1": 8,
+   "f2": 2,
+   "f3": 16,
+   "filter_label": {
+    "rejected": 9,
+    "supported": 7,
+    "convincing": 1
+   },
+   "label": {
+    "rejected": 16,
+    "supported": 1
+   },
+   "selected": 1,
+   "convincing_filters_only": 1,
+   "convincing_headline": 0,
+   "convincing_with_literature_post_hoc": 0,
+   "artifact_fail": 16
+  },
+  "specificity": {
+   "n": 5,
+   "f1": 2,
+   "f2": 0,
+   "f3": 0,
+   "filter_label": {
+    "rejected": 5
+   },
+   "label": {
+    "rejected": 5
+   },
+   "selected": 0,
+   "convincing_filters_only": 0,
+   "convincing_headline": 0,
+   "convincing_with_literature_post_hoc": 0,
+   "artifact_fail": 5
+  }
+ },
+ "n_excluded_tune_annotations": {
+  "rule": "per SOG (prereg literal); OG-wide reported as sensitivity",
+  "n_tuning_list_rows": 450,
+  "n_used_in_tune_pairs": 245,
+  "pairs_file": "results/sogs/20261030T085136Z/O1/tau_benchmark_pairs.parquet",
+  "n_keys_per_sog": 216,
+  "n_keys_og_wide": 221
+ },
+ "code_sha256": "73118833f2d6d061f48224f5e88f3852f7b687426d548c10cecfcf30c55771e9",
+ "runtime_s": 9.9
+}

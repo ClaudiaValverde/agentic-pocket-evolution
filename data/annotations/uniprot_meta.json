@@ -1,0 +1,418 @@
+{
+ "uniprot_release": "2026_03",
+ "fields": "accession,id,gene_primary,protein_name,organism_id,length,sequence,sequence_version,fragment,protein_existence,annotation_score,reviewed,ec,cc_cofactor,xref_pfam,xref_panther,xref_interpro,xref_supfam,xref_gene3d,xref_pdb,ft_binding,ft_act_site,ft_site,ft_mutagen,ft_signal,ft_transmem,ft_region",
+ "queries": [
+  {
+   "query": "proteome:UP000001631",
+   "n": 9214,
+   "total": 9214,
+   "release": "2026_03"
+  },
+  {
+   "query": "proteome:UP000000803",
+   "n": 21947,
+   "total": 21947,
+   "release": "2026_03"
+  },
+  {
+   "query": "proteome:UP000000586",
+   "n": 2031,
+   "total": 2031,
+   "release": "2026_03"
+  },
+  {
+   "query": "proteome:UP000002059",
+   "n": 8811,
+   "total": 8811,
+   "release": "2026_03"
+  },
+  {
+   "query": "proteome:UP000001450",
+   "n": 5361,
+   "total": 5361,
+   "release": "2026_03"
+  },
+  {
+   "query": "proteome:UP000000625",
+   "n": 4403,
+   "total": 4403,
+   "release": "2026_03"
+  },
+  {
+   "query": "proteome:UP000000806",
+   "n": 1603,
+   "total": 1603,
+   "release": "2026_03"
+  },
+  {
+   "query": "proteome:UP000001940",
+   "n": 26629,
+   "total": 26629,
+   "release": "2026_03"
+  },
+  {
+   "query": "proteome:UP000001014",
+   "n": 4533,
+   "total": 4533,
+   "release": "2026_03"
+  },
+  {
+   "query": "proteome:UP000000429",
+   "n": 1554,
+   "total": 1554,
+   "release": "2026_03"
+  },
+  {
+   "query": "proteome:UP000000589",
+   "n": 54855,
+   "total": 54855,
+   "release": "2026_03"
+  },
+  {
+   "query": "proteome:UP000000535",
+   "n": 2106,
+   "total": 2106,
+   "release": "2026_03"
+  },
+  {
+   "query": "proteome:UP000000799",
+   "n": 1623,
+   "total": 1623,
+   "release": "2026_03"
+  },
+  {
+   "query": "proteome:UP000000805",
+   "n": 1786,
+   "total": 1786,
+   "release": "2026_03"
+  },
+  {
+   "query": "proteome:UP000001584",
+   "n": 3997,
+   "total": 3997,
+   "release": "2026_03"
+  },
+  {
+   "query": "proteome:UP000000579",
+   "n": 1703,
+   "total": 1703,
+   "release": "2026_03"
+  },
+  {
+   "query": "proteome:UP000002311",
+   "n": 6067,
+   "total": 6067,
+   "release": "2026_03"
+  },
+  {
+   "query": "proteome:UP000000559",
+   "n": 6041,
+   "total": 6041,
+   "release": "2026_03"
+  },
+  {
+   "query": "proteome:UP000002438",
+   "n": 5563,
+   "total": 5563,
+   "release": "2026_03"
+  },
+  {
+   "query": "proteome:UP000002195",
+   "n": 12726,
+   "total": 12726,
+   "release": "2026_03"
+  },
+  {
+   "query": "proteome:UP000002296",
+   "n": 19242,
+   "total": 19242,
+   "release": "2026_03"
+  },
+  {
+   "query": "proteome:UP000006304",
+   "n": 8414,
+   "total": 8414,
+   "release": "2026_03"
+  },
+  {
+   "query": "proteome:UP000002716",
+   "n": 3897,
+   "total": 3897,
+   "release": "2026_03"
+  },
+  {
+   "query": "proteome:UP000002485",
+   "n": 5130,
+   "total": 5130,
+   "release": "2026_03"
+  },
+  {
+   "query": "proteome:UP000006672",
+   "n": 15168,
+   "total": 15168,
+   "release": "2026_03"
+  },
+  {
+   "query": "proteome:UP000006548",
+   "n": 39272,
+   "total": 39272,
+   "release": "2026_03"
+  },
+  {
+   "query": "proteome:UP000007841",
+   "n": 5728,
+   "total": 5728,
+   "release": "2026_03"
+  },
+  {
+   "query": "proteome:UP000008153",
+   "n": 8045,
+   "total": 8045,
+   "release": "2026_03"
+  },
+  {
+   "query": "proteome:UP000008524",
+   "n": 8588,
+   "total": 8588,
+   "release": "2026_03"
+  },
+  {
+   "query": "proteome:UP000008816",
+   "n": 2889,
+   "total": 2889,
+   "release": "2026_03"
+  },
+  {
+   "query": "proteome:UP000002494",
+   "n": 52824,
+   "total": 52824,
+   "release": "2026_03"
+  },
+  {
+   "query": "proteome:UP000000437",
+   "n": 69241,
+   "total": 69241,
+   "release": "2026_03"
+  },
+  {
+   "query": "proteome:UP000018087",
+   "n": 8673,
+   "total": 8673,
+   "release": "2026_03"
+  },
+  {
+   "query": "proteome:UP000030665",
+   "n": 9624,
+   "total": 9624,
+   "release": "2026_03"
+  },
+  {
+   "query": "proteome:UP000008854",
+   "n": 10771,
+   "total": 10771,
+   "release": "2026_03"
+  },
+  {
+   "query": "proteome:UP000053029",
+   "n": 12525,
+   "total": 12525,
+   "release": "2026_03"
+  },
+  {
+   "query": "proteome:UP000078237",
+   "n": 9733,
+   "total": 9733,
+   "release": "2026_03"
+  },
+  {
+   "query": "proteome:UP000035681",
+   "n": 15552,
+   "total": 15552,
+   "release": "2026_03"
+  },
+  {
+   "query": "proteome:UP000094526",
+   "n": 11181,
+   "total": 11181,
+   "release": "2026_03"
+  },
+  {
+   "query": "proteome:UP000024404",
+   "n": 12223,
+   "total": 12223,
+   "release": "2026_03"
+  },
+  {
+   "query": "proteome:UP000270924",
+   "n": 13000,
+   "total": 13000,
+   "release": "2026_03"
+  },
+  {
+   "query": "proteome:UP000274756",
+   "n": 10868,
+   "total": 10868,
+   "release": "2026_03"
+  },
+  {
+   "query": "reviewed:true AND taxonomy_id:10239",
+   "n": 17529,
+   "total": 17529,
+   "release": "2026_03"
+  },
+  {
+   "query": "reviewed:true AND taxonomy_id:2157",
+   "n": 19908,
+   "total": 19908,
+   "release": "2026_03"
+  },
+  {
+   "query": "proteome:UP000007305",
+   "n": 63237,
+   "total": 63237,
+   "release": "2026_03"
+  },
+  {
+   "query": "reviewed:true AND taxonomy_id:201174",
+   "n": 25003,
+   "total": 25003,
+   "release": "2026_03"
+  },
+  {
+   "query": "proteome:UP000059680",
+   "n": 48896,
+   "total": 48896,
+   "release": "2026_03"
+  },
+  {
+   "query": "reviewed:true NOT taxonomy_id:2 NOT taxonomy_id:1224 NOT taxonomy_id:1239 NOT taxonomy_id:201174 NOT taxonomy_id:2157 NOT taxonomy_id:10239 NOT taxonomy_id:33208 NOT taxonomy_id:4751 NOT taxonomy_id:33090",
+   "n": 9892,
+   "total": 9892,
+   "release": "2026_03"
+  },
+  {
+   "query": "reviewed:true AND taxonomy_id:4751",
+   "n": 38309,
+   "total": 38309,
+   "release": "2026_03"
+  },
+  {
+   "query": "proteome:UP000008827",
+   "n": 74859,
+   "total": 74859,
+   "release": "2026_03"
+  },
+  {
+   "query": "reviewed:true AND taxonomy_id:33090",
+   "n": 42106,
+   "total": 42106,
+   "release": "2026_03"
+  },
+  {
+   "query": "reviewed:true AND taxonomy_id:1239",
+   "n": 69228,
+   "total": 69228,
+   "release": "2026_03"
+  },
+  {
+   "query": "reviewed:true AND taxonomy_id:2 NOT taxonomy_id:1224 NOT taxonomy_id:1239 NOT taxonomy_id:201174",
+   "n": 58610,
+   "total": 58610,
+   "release": "2026_03"
+  },
+  {
+   "query": "proteome:UP000005640",
+   "n": 147520,
+   "total": 147520,
+   "release": "2026_03"
+  },
+  {
+   "query": "reviewed:true AND taxonomy_id:33208",
+   "n": 110712,
+   "total": 110712,
+   "release": "2026_03"
+  },
+  {
+   "query": "reviewed:true AND taxonomy_id:1224",
+   "n": 184451,
+   "total": 184451,
+   "release": "2026_03"
+  }
+ ],
+ "raw_files": {
+  "proteome_UP000000429.jsonl.gz": "48dd80aea0247477741a04140ec346bd04a56090a4147cd003bfc566712fc8f8",
+  "proteome_UP000000437.jsonl.gz": "b3ba6ba0b5da26b885b52b22bb66a9ad81b35c15b44758721562702da747adfe",
+  "proteome_UP000000535.jsonl.gz": "2b78fcfe32e001eeed71b2e35ba452e654b56b7bde15e830de84ecdc2a838e3e",
+  "proteome_UP000000559.jsonl.gz": "68747ff241ae75a5e4f19d32a3295ec9ed3ef043a1cc0bf613d8d0218fcc0436",
+  "proteome_UP000000579.jsonl.gz": "99cfee40f8a6757df4cef4c8a05b6c05104bacef96a8de57677708aedcb51a11",
+  "proteome_UP000000586.jsonl.gz": "188d0962067bdd58be91d9fdb91cf5aae27848fd4506283822333a7d3169c874",
+  "proteome_UP000000589.jsonl.gz": "31951c85a5e972cfd81bbcdd006509d8ce9c018b4854b9871c05811973c85280",
+  "proteome_UP000000625.jsonl.gz": "ad6a31b3f2a0ab9f7199799c7f98e30912bef8e85837fbe36a5f4682493a0f62",
+  "proteome_UP000000799.jsonl.gz": "e2c0d7cf5cdfbda2c5e461d32c2689c2f0305ebc58256d574e2fdee0f1fcf0b0",
+  "proteome_UP000000803.jsonl.gz": "aa9f1878ad869694a1846fd938453852200ff90cb4ac42729c33226cf3e404f1",
+  "proteome_UP000000805.jsonl.gz": "10a1899a5ddce36fd867bae2e42917f53790085985840df1780b11ee6b59a3ac",
+  "proteome_UP000000806.jsonl.gz": "b93b5b2eeb0021c9d6d861a40229cd9207c3a5a6c424d386638f78409a42fd74",
+  "proteome_UP000001014.jsonl.gz": "4ff076d95e3ce721e1db8048e606d30cd342e6e366bacd2655e5ee1c0d5dbf48",
+  "proteome_UP000001450.jsonl.gz": "117e9b6da6454ea003f884dc3739d02d9f5a290ac008b9c5fea77238bd740e4e",
+  "proteome_UP000001584.jsonl.gz": "4a277b2590b50f7c8bfc4d36d377f16c755ed981ac67fcf9ce57293cd00e16c8",
+  "proteome_UP000001631.jsonl.gz": "5df950a4ae624acacffc38d4df9c86cd4a6715ca26d2b429f7e4022a05717514",
+  "proteome_UP000001940.jsonl.gz": "c338bd1eb60e203c626237c83708e28b0cca6353daba537a3f72dc3e1e82d0ac",
+  "proteome_UP000002059.jsonl.gz": "7e9a3b409e6357b9497deadafef295a0c137377c68c4ac203fb6d57b0f65ee02",
+  "proteome_UP000002195.jsonl.gz": "f05b821a9cab5c0ac5cc413490d58852274eddd33c34063fa3e97c00551a8c37",
+  "proteome_UP000002296.jsonl.gz": "7a7c1274bb65e24e71047a9e18fe0f2acaa6f8ce1ef672c63ca1af3ec5075f1b",
+  "proteome_UP000002311.jsonl.gz": "adb94991483e5a0f00706c8315b197f22f9f6bd8005ae47e728cd16a6f80a79c",
+  "proteome_UP000002438.jsonl.gz": "99fe34c4667ff67cb86a19838f2240e940e6cae8cc9e41fcccc98aa9fdb18df6",
+  "proteome_UP000002485.jsonl.gz": "a26a286e55a67ba8419172e249f1750b678ed5831fe68c58a4e15d5918793043",
+  "proteome_UP000002494.jsonl.gz": "d72111a3428aef701d93a73cdf03a43cf599c2b82207ec8f18801b315bdc1849",
+  "proteome_UP000002716.jsonl.gz": "730d7d67dafb73f7dc22aeab3ca768d84eb6d7b14a1b5e9fe96163e9ba8684ba",
+  "proteome_UP000005640.jsonl.gz": "64f48c74e236f98b8e8cf79e61136cffffbe330038fd9bf76858582f2e742f96",
+  "proteome_UP000006304.jsonl.gz": "792e0b4d388b4a319155c2c195ec12feb70395a374b884415a0af61623905cf7",
+  "proteome_UP000006548.jsonl.gz": "99be08d490bd6a4f0ac1e7f5ed64b598b096663abe51fb68802856c6121a0e28",
+  "proteome_UP000006672.jsonl.gz": "cc070b109fa6189ad6645c282c2fe0e166eeb98efddfecd67d1a90c0c468d52b",
+  "proteome_UP000007305.jsonl.gz": "f1703d9e88012f54d0ac56a0f9c274fb250aaad3c49e163e70753fdb19e4f309",
+  "proteome_UP000007841.jsonl.gz": "7046b3c053b7fba88310a7d33b9b92511214b632c001a0713cd30288df45946c",
+  "proteome_UP000008153.jsonl.gz": "2908713564cabd123718b0172150dadb346d60a95494bb8cacd6667c217405a4",
+  "proteome_UP000008524.jsonl.gz": "16102daed3f26462076d439c1261fc64d233382eb6790fe11a0c9b424e6c353d",
+  "proteome_UP000008816.jsonl.gz": "7ae20cadd5700adc2ff68631aaecc6cc04dbf265e9655dc273ab03a33bad36dc",
+  "proteome_UP000008827.jsonl.gz": "c7537751000449b25e5dac8c516246de2550ceb36d6f18c908b3841c76567d67",
+  "proteome_UP000008854.jsonl.gz": "fcdbbf177cb9972e975d8af5e979f5c184f9689eaf7704c635d4ce7dd890ccf5",
+  "proteome_UP000018087.jsonl.gz": "43c1cc4aa4bcb42d7c969820842551d940d08aab661090d2fce1ae347304afb3",
+  "proteome_UP000024404.jsonl.gz": "d5df0b692a3936fbf4316d25b0d90c45dd1b932b9fcbda4d96b4c0e9410c81fb",
+  "proteome_UP000030665.jsonl.gz": "5fd51158852632e809fdca279f13a500cc3b5d49775b0da3e35545cf5fa6ee43",
+  "proteome_UP000035681.jsonl.gz": "3764aa86a06f47d265efe05a6a0fe1349f7de2baed5839ffb69505f535c40b28",
+  "proteome_UP000053029.jsonl.gz": "b74ad18e8eaffc60d8e29e56878711ad665eec29434e48794ba58b1e7f0d253d",
+  "proteome_UP000059680.jsonl.gz": "652dabff17054c7b6956871717c6b3bce6661523cd25cac672a6d96c75a01e00",
+  "proteome_UP000078237.jsonl.gz": "62751bc1d346aa5a5b5e92bca49ee316ebb3162b789c1805049ece63a2e30321",
+  "proteome_UP000094526.jsonl.gz": "29c863fc91873bad73a3aa0ea84eb7c747c0ae934f62df1b0d196af8ae2210bf",
+  "proteome_UP000270924.jsonl.gz": "38524f243f57946eb310544783e93b27ae0c6550a1296bb5219716dd5d790e27",
+  "proteome_UP000274756.jsonl.gz": "32483833f29879ead718cd1b6b43eabad1bddb4379ef294b56fff1f24b612cdb",
+  "reviewed_pseudomonadota.jsonl.gz": "040ebd623bdada79746fe11f21a90e4c271bf97750168bf093499db54e711f1d",
+  "reviewed_bacillota.jsonl.gz": "7bc2953e94e0038323f60c5039f42d80b2c1e3fd3f3bfddb4668a9a4e4f5fc77",
+  "reviewed_actinomycetota.jsonl.gz": "3a4e53222846e0758286fcd5028ba463f3947f5919c395cbe23785cc637f2b21",
+  "reviewed_archaea.jsonl.gz": "94142818a345fee6c7cfaab4c25fb8541cb9d593bb404173348efa16cbed5335",
+  "reviewed_viruses.jsonl.gz": "e614153fc3bd3dc9bd7cdf4327f9b38dbe2dce853540d458b6b72dd9934dbcfd",
+  "reviewed_metazoa.jsonl.gz": "2435d9913367a584a29cf487d3178921dd2a15aa848c2f2f86c54ad3a13a7343",
+  "reviewed_fungi.jsonl.gz": "3b2e2ab207270a0388f2e5eb2975d949cc667e3b2af52782215e98a97e1b924d",
+  "reviewed_viridiplantae.jsonl.gz": "3076cc766115d584de65ef037234ae0bb0133dd661f5170b533143a42c44ac1a",
+  "reviewed_bacteria_other.jsonl.gz": "d8da404dbbb769b4f8783efb1f14c2bad541e7a4efb137b697941649541d173d",
+  "reviewed_rest.jsonl.gz": "9544af4ad881717cb801704b7142bad1062e15088eeb36197efa30b581ae3b4a",
+  "leftover_accessions.jsonl.gz": "3eed1c25f0e50d97959d4263f5c801f41caa72671ed108ea09c4ecf09c0c2323"
+ },
+ "n_accessions": 989696,
+ "n_found": 989696,
+ "n_secondary": 0,
+ "not_found": [],
+ "site_rows": 1794891,
+ "site_rows_by_type": {
+  "Binding site": 1415447,
+  "Active site": 214108,
+  "Mutagenesis": 103411,
+  "Site": 61925
+ },
+ "site_rows_experimental_by_type": {
+  "Mutagenesis": 101925,
+  "Binding site": 50391,
+  "Site": 3024,
+  "Active site": 2116
+ }
+}

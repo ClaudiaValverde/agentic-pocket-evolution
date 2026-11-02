@@ -1,0 +1,20 @@
+{
+ "output": "rescue_hits.parquet",
+ "snapshot_id": "20261030T085136Z",
+ "prereg_sha256": "52f9461890984c210b730af86c40de221307a668e7d4b38098b3316059690d83",
+ "git_commit": "b3264dd789bab733c54badede43fa813134ca790+dirty",
+ "seed": 0,
+ "created_utc": "2026-10-30T13:31:30Z",
+ "sha256": "c88305780c0a3c1473a3e4048261158eceaafcd5199e00eabcca8a3356a2ce31",
+ "script": "scripts/partB/run_rescue.py",
+ "argv": [
+  "--tau",
+  "0.3",
+  "--events",
+  "results/partB/events/20261030T085136Z/O1/d11/tau0.3/primary",
+  "--states-dir",
+  "/tmp/pe_big/partB/20261030T085136Z/O1/states_d11_t0.3",
+  "--workers",
+  "16"
+ ]
+}

@@ -1,0 +1,135 @@
+# TOY co-folding model (synthetic helix + ligand), webapp fixture
+data_TOY_cofold_m1
+_entry.id 'TOY_cofold_m1'
+
+_cell.entry_id 'TOY_cofold_m1'
+_cell.length_a 1
+_cell.length_b 1
+_cell.length_c 1
+_cell.angle_alpha 90
+_cell.angle_beta 90
+_cell.angle_gamma 90
+
+_symmetry.entry_id 'TOY_cofold_m1'
+_symmetry.space_group_name_H-M ''
+
+loop_
+_entity.id
+_entity.type
+A polymer
+LIG! non-polymer
+
+loop_
+_entity_poly.entity_id
+_entity_poly.type
+_entity_poly.pdbx_strand_id
+_entity_poly.pdbx_seq_one_letter_code
+A polypeptide(L) A ?
+
+
+
+loop_
+_chem_comp.id
+_chem_comp.type
+ALA .
+LIG .
+
+loop_
+_struct_asym.id
+_struct_asym.entity_id
+Axp A
+Bx1 LIG!
+
+
+
+loop_
+_atom_type.symbol
+C
+N
+O
+
+
+loop_
+_atom_site.group_PDB
+_atom_site.id
+_atom_site.type_symbol
+_atom_site.label_atom_id
+_atom_site.label_alt_id
+_atom_site.label_comp_id
+_atom_site.label_asym_id
+_atom_site.label_entity_id
+_atom_site.label_seq_id
+_atom_site.pdbx_PDB_ins_code
+_atom_site.Cartn_x
+_atom_site.Cartn_y
+_atom_site.Cartn_z
+_atom_site.occupancy
+_atom_site.B_iso_or_equiv
+_atom_site.pdbx_formal_charge
+_atom_site.auth_seq_id
+_atom_site.auth_asym_id
+_atom_site.pdbx_PDB_model_num
+ATOM 1 N N . ALA Axp A . ? 1.55 0 -0.6 1 80 ? 1 A 1
+ATOM 2 C CA . ALA Axp A . ? 2.3 0 0 1 80 ? 1 A 1
+ATOM 3 C C . ALA Axp A . ? 1.65 0 0.7 1 80 ? 1 A 1
+ATOM 4 O O . ALA Axp A . ? 1.9 0 1.6 1 80 ? 1 A 1
+ATOM 5 C CB . ALA Axp A . ? 3.3 0 0.3 1 80 ? 1 A 1
+ATOM 6 N N . ALA Axp A . ? -0.269 1.526 0.9 1 81 ? 2 A 1
+ATOM 7 C CA . ALA Axp A . ? -0.399 2.265 1.5 1 81 ? 2 A 1
+ATOM 8 C C . ALA Axp A . ? -0.287 1.625 2.2 1 81 ? 2 A 1
+ATOM 9 O O . ALA Axp A . ? -0.33 1.871 3.1 1 81 ? 2 A 1
+ATOM 10 C CB . ALA Axp A . ? -0.573 3.25 1.8 1 81 ? 2 A 1
+ATOM 11 N N . ALA Axp A . ? -1.457 -0.53 2.4 1 82 ? 3 A 1
+ATOM 12 C CA . ALA Axp A . ? -2.161 -0.787 3 1 82 ? 3 A 1
+ATOM 13 C C . ALA Axp A . ? -1.55 -0.564 3.7 1 82 ? 3 A 1
+ATOM 14 O O . ALA Axp A . ? -1.785 -0.65 4.6 1 82 ? 3 A 1
+ATOM 15 C CB . ALA Axp A . ? -3.101 -1.129 3.3 1 82 ? 3 A 1
+ATOM 16 N N . ALA Axp A . ? 0.775 -1.342 3.9 1 83 ? 4 A 1
+ATOM 17 C CA . ALA Axp A . ? 1.15 -1.992 4.5 1 83 ? 4 A 1
+ATOM 18 C C . ALA Axp A . ? 0.825 -1.429 5.2 1 83 ? 4 A 1
+ATOM 19 O O . ALA Axp A . ? 0.95 -1.645 6.1 1 83 ? 4 A 1
+ATOM 20 C CB . ALA Axp A . ? 1.65 -2.858 4.8 1 83 ? 4 A 1
+ATOM 21 N N . ALA Axp A . ? 1.187 0.996 5.4 1 84 ? 5 A 1
+ATOM 22 C CA . ALA Axp A . ? 1.762 1.478 6 1 84 ? 5 A 1
+ATOM 23 C C . ALA Axp A . ? 1.264 1.061 6.7 1 84 ? 5 A 1
+ATOM 24 O O . ALA Axp A . ? 1.455 1.221 7.6 1 84 ? 5 A 1
+ATOM 25 C CB . ALA Axp A . ? 2.528 2.121 6.3 1 84 ? 5 A 1
+ATOM 26 N N . ALA Axp A . ? -1.187 0.996 6.9 1 85 ? 6 A 1
+ATOM 27 C CA . ALA Axp A . ? -1.762 1.478 7.5 1 85 ? 6 A 1
+ATOM 28 C C . ALA Axp A . ? -1.264 1.061 8.2 1 85 ? 6 A 1
+ATOM 29 O O . ALA Axp A . ? -1.455 1.221 9.1 1 85 ? 6 A 1
+ATOM 30 C CB . ALA Axp A . ? -2.528 2.121 7.8 1 85 ? 6 A 1
+ATOM 31 N N . ALA Axp A . ? -0.775 -1.342 8.4 1 86 ? 7 A 1
+ATOM 32 C CA . ALA Axp A . ? -1.15 -1.992 9 1 86 ? 7 A 1
+ATOM 33 C C . ALA Axp A . ? -0.825 -1.429 9.7 1 86 ? 7 A 1
+ATOM 34 O O . ALA Axp A . ? -0.95 -1.645 10.6 1 86 ? 7 A 1
+ATOM 35 C CB . ALA Axp A . ? -1.65 -2.858 9.3 1 86 ? 7 A 1
+ATOM 36 N N . ALA Axp A . ? 1.457 -0.53 9.9 1 87 ? 8 A 1
+ATOM 37 C CA . ALA Axp A . ? 2.161 -0.787 10.5 1 87 ? 8 A 1
+ATOM 38 C C . ALA Axp A . ? 1.55 -0.564 11.2 1 87 ? 8 A 1
+ATOM 39 O O . ALA Axp A . ? 1.785 -0.65 12.1 1 87 ? 8 A 1
+ATOM 40 C CB . ALA Axp A . ? 3.101 -1.129 10.8 1 87 ? 8 A 1
+ATOM 41 N N . ALA Axp A . ? 0.269 1.526 11.4 1 88 ? 9 A 1
+ATOM 42 C CA . ALA Axp A . ? 0.399 2.265 12 1 88 ? 9 A 1
+ATOM 43 C C . ALA Axp A . ? 0.287 1.625 12.7 1 88 ? 9 A 1
+ATOM 44 O O . ALA Axp A . ? 0.33 1.871 13.6 1 88 ? 9 A 1
+ATOM 45 C CB . ALA Axp A . ? 0.573 3.25 12.3 1 88 ? 9 A 1
+ATOM 46 N N . ALA Axp A . ? -1.55 0 12.9 1 89 ? 10 A 1
+ATOM 47 C CA . ALA Axp A . ? -2.3 0 13.5 1 89 ? 10 A 1
+ATOM 48 C C . ALA Axp A . ? -1.65 0 14.2 1 89 ? 10 A 1
+ATOM 49 O O . ALA Axp A . ? -1.9 0 15.1 1 89 ? 10 A 1
+ATOM 50 C CB . ALA Axp A . ? -3.3 0 13.8 1 89 ? 10 A 1
+ATOM 51 N N . ALA Axp A . ? 0.269 -1.526 14.4 1 90 ? 11 A 1
+ATOM 52 C CA . ALA Axp A . ? 0.399 -2.265 15 1 90 ? 11 A 1
+ATOM 53 C C . ALA Axp A . ? 0.287 -1.625 15.7 1 90 ? 11 A 1
+ATOM 54 O O . ALA Axp A . ? 0.33 -1.871 16.6 1 90 ? 11 A 1
+ATOM 55 C CB . ALA Axp A . ? 0.573 -3.25 15.3 1 90 ? 11 A 1
+ATOM 56 N N . ALA Axp A . ? 1.457 0.53 15.9 1 91 ? 12 A 1
+ATOM 57 C CA . ALA Axp A . ? 2.161 0.787 16.5 1 91 ? 12 A 1
+ATOM 58 C C . ALA Axp A . ? 1.55 0.564 17.2 1 91 ? 12 A 1
+ATOM 59 O O . ALA Axp A . ? 1.785 0.65 18.1 1 91 ? 12 A 1
+ATOM 60 C CB . ALA Axp A . ? 3.101 1.129 16.8 1 91 ? 12 A 1
+HETATM 61 C C1 . LIG Bx1 LIG! . ? 0 0 20 1 85 ? 1 B 1
+HETATM 62 C C2 . LIG Bx1 LIG! . ? 0.5 0.8 21.2 1 85 ? 1 B 1
+HETATM 63 C C3 . LIG Bx1 LIG! . ? -0.6 0.7 22.4 1 85 ? 1 B 1
+HETATM 64 C C4 . LIG Bx1 LIG! . ? 0.1 -0.4 23.5 1 85 ? 1 B 1

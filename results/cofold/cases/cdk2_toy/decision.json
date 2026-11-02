@@ -1,0 +1,120 @@
+{
+ "case": "cdk2_toy",
+ "verdict": "inconclusive",
+ "positive_control_gate": {
+  "status": "run",
+  "pass": true,
+  "lig_rmsd": 1.14,
+  "centroid_dist": 0.36,
+  "site_recall": 1.0,
+  "lig_plddt": 91.3,
+  "threshold_A": 2.0,
+  "ref": "1hck:ATP"
+ },
+ "d23_composite": {
+  "thresholds": {
+   "t_plddt": 92.0,
+   "t_centroid": 2.0,
+   "t_recall": 0.9
+  },
+  "per_job": {
+   "6ef89a774e07": {
+    "state": "derived",
+    "kind": "cognate",
+    "acc": "P24941",
+    "binds": false,
+    "n_seeds_binding": 0,
+    "median_centroid_A": 1.83,
+    "median_site_recall": 1.0
+   },
+   "fa336ca4b92d": {
+    "state": "derived",
+    "kind": "decoy1",
+    "acc": "P24941",
+    "binds": false,
+    "n_seeds_binding": 0,
+    "median_centroid_A": 3.58,
+    "median_site_recall": 0.574
+   },
+   "cdbaa262399b": {
+    "state": "ancestral",
+    "kind": "cognate",
+    "acc": "P24941",
+    "binds": false,
+    "n_seeds_binding": 0,
+    "median_centroid_A": 1.24,
+    "median_site_recall": 0.728
+   },
+   "13425178967c": {
+    "state": "ancestral",
+    "kind": "decoy1",
+    "acc": "P24941",
+    "binds": false,
+    "n_seeds_binding": 0,
+    "median_centroid_A": 5.47,
+    "median_site_recall": 0.352
+   }
+  },
+  "derived_members_binding": [],
+  "ancestral_members_binding": [],
+  "any_cognate_binds": false,
+  "ligand_off_footprint": false
+ },
+ "verdict_basis": "frozen D23 composite (d23_composite) gating the per-seed rule",
+ "legacy_prereg_rule": {
+  "status": "SUPERSEDED: computed for the record only. It ranks on ligand pLDDT and min PAE with no geometry term, so it can call a direction from placements far from the footprint. The verdict uses d23_composite.",
+  "rule": "all seeds must meet D > X for BOTH ligand pLDDT and min P-L PAE",
+  "seeds_gain": [
+   true,
+   true,
+   true
+  ],
+  "seeds_loss": [
+   false,
+   false,
+   false
+  ]
+ },
+ "per_seed": [
+  {
+   "seed": "1",
+   "derived_lig_plddt": 90.8,
+   "ancestral_lig_plddt": 46.8,
+   "derived_pae_min": 0.858,
+   "ancestral_pae_min": 3.548,
+   "D_plddt": 44.1,
+   "X_plddt_decoy_gap": 11.5,
+   "D_pae": 2.69,
+   "X_pae_decoy_gap": 1.787,
+   "gain_rule_met": true,
+   "loss_rule_met": false
+  },
+  {
+   "seed": "2",
+   "derived_lig_plddt": 90.6,
+   "ancestral_lig_plddt": 47.6,
+   "derived_pae_min": 0.854,
+   "ancestral_pae_min": 2.994,
+   "D_plddt": 43.0,
+   "X_plddt_decoy_gap": 11.7,
+   "D_pae": 2.14,
+   "X_pae_decoy_gap": 1.752,
+   "gain_rule_met": true,
+   "loss_rule_met": false
+  },
+  {
+   "seed": "3",
+   "derived_lig_plddt": 90.8,
+   "ancestral_lig_plddt": 47.4,
+   "derived_pae_min": 0.852,
+   "ancestral_pae_min": 3.206,
+   "D_plddt": 43.4,
+   "X_plddt_decoy_gap": 10.4,
+   "D_pae": 2.354,
+   "X_pae_decoy_gap": 1.738,
+   "gain_rule_met": true,
+   "loss_rule_met": false
+  }
+ ],
+ "primary_readout": "ligand_plddt"
+}

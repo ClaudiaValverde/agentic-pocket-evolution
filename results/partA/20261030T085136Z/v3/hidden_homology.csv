@@ -1,0 +1,3 @@
+set,n,aligned,hidden_lenient,eps_lenient,eps_lenient_wilson,hidden_strict,eps_strict,eps_strict_wilson,tm_max_median
+sig_N,200,200,0,0.0,"(np.float64(0.0), np.float64(0.018846005918320894))",0,0.0,"(np.float64(0.0), np.float64(0.018846005918320894))",0.1036
+random_N,200,200,0,0.0,"(np.float64(0.0), np.float64(0.018846005918320894))",0,0.0,"(np.float64(0.0), np.float64(0.018846005918320894))",0.10139999999999999

@@ -1,0 +1,52 @@
+{
+ "snapshot_id": "20261030T085136Z",
+ "prereg_sha256": "52f9461890984c210b730af86c40de221307a668e7d4b38098b3316059690d83",
+ "git_commit": "3f11d4c7fd0ceb248d8cd72bc59ce8209f1f272d",
+ "seed": [
+  0,
+  40
+ ],
+ "code_sha256_16": {
+  "directional.py": "2a9d4b316c90e8c0",
+  "estimands.py": "9602b81d549a9847",
+  "homology.py": "36d581570f088da9",
+  "nulls.py": "6f193b3d663c550d",
+  "pairs.py": "642c9b09a648492f"
+ },
+ "written_utc": "2026-10-30T13:05:36Z",
+ "stage": "directional",
+ "sites_in_multispecies_sogs": 1179014,
+ "sog_sites_without_tree_leaf": 0,
+ "orientations_with_sog": 4174611,
+ "orientations_testable": 3126140,
+ "null_ortholog_n": 247901,
+ "null_random_n": 296338,
+ "null_ortholog_mean_sd_q95": [
+  0.23736605194533617,
+  0.630149254660085,
+  1.3385958671569824
+ ],
+ "null_random_mean_sd_q95": [
+  0.004794769913377757,
+  0.44588333385646484,
+  0.7383176594972589
+ ],
+ "q95_threshold": 1.3385958671569824,
+ "selected_orientations": 2541031,
+ "delta_tested_mean_sd_q50_q95_q99": [
+  0.2038065014759587,
+  0.5747193256192193,
+  0.14847807586193085,
+  1.2111950695514677,
+  1.9163364410400356
+ ],
+ "frac_selected_and_delta_gt_q95": 0.03723217770157446,
+ "sensitivity_random_null_only": {
+  "q95": 0.7383176594972589,
+  "passing_orientations": 11350
+ },
+ "testable_pairs": 2627453,
+ "testable_frac_of_tested_classes": 0.5144663072876557,
+ "passing_pairs": 3,
+ "wall_s": 216.6252887248993
+}

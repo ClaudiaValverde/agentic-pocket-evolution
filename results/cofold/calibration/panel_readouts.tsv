@@ -1,0 +1,97 @@
+acc	tag	neg_kind	ligand	lig_class	label	lig_plddt	pae_min	centroid	site_recall	iptm	pb_valid
+P00431	ablation	ablation	HEC	cofactor	0	65.7	1.11	3.49	0.83	0.83	False
+P00431	cognate		HEC	cofactor	1	98.6	0.8	1.78	1.0	0.98	False
+P00431	decoy1	decoy	TPP	cofactor	0	86.8	1.16	2.64	0.78	0.94	False
+P00431	decoy2	decoy	PLP	cofactor	0	85.1	1.2	2.84	0.61	0.93	True
+P00709	ablation	ablation	CA	metal	0	72.2	3.79	16.55	0.0	0.74	False
+P00709	cognate		CA	metal	1	97.4	0.87	0.41	1.0	0.96	False
+P00709	decoy1	decoy	MN	metal	0	91.8	0.98	0.39	1.0	0.95	False
+P00709	decoy2	decoy	MG	metal	0	90.0	1.19	0.37	1.0	0.94	False
+P01112	ablation	ablation	GDP	nucleotide	0	50.0	4.66	4.16	0.75	0.64	False
+P01112	cognate		GDP	nucleotide	1	89.5	0.96	3.54	1.0	0.94	True
+P01112	decoy1	decoy	CTP	nucleotide	0	49.9	2.37	4.94	1.0	0.75	False
+P01112	decoy2	decoy	ADP	nucleotide	0	59.6	2.09	3.84	1.0	0.76	True
+P01116	ablation	ablation	GDP	nucleotide	0	47.6	4.69	3.27	0.54	0.61	False
+P01116	cognate		GDP	nucleotide	1	90.3	0.89	3.59	1.0	0.95	True
+P01116	decoy1	decoy	CTP	nucleotide	0	51.9	2.25	4.97	1.0	0.75	False
+P01116	decoy2	decoy	ADP	nucleotide	0	69.0	1.59	3.91	1.0	0.82	True
+P02689	ablation	ablation	VCA	drug_like	0	64.3	2.59	1.24	0.64	0.76	True
+P02689	cognate		VCA	drug_like	1	87.9	0.99	3.59	1.0	0.91	True
+P02689	decoy1	decoy	4I1	drug_like	0	90.3	1.0	3.49	1.0	0.91	True
+P02689	decoy2	decoy	PLM	drug_like	0	88.6	1.0	3.08	1.0	0.92	True
+P05413	ablation	ablation	4I1	drug_like	0	68.3	1.82	2.99	0.71	0.78	True
+P05413	cognate		4I1	drug_like	1	93.0	0.91	3.29	1.0	0.92	True
+P05413	decoy1	decoy	PLM	drug_like	0	89.4	0.96	3.24	1.0	0.91	True
+P05413	decoy2	decoy	TO4	drug_like	0	91.4	0.99	3.24	1.0	0.92	True
+P15090	ablation	ablation	U8H	drug_like	0	56.7	3.11	5.45	0.38	0.64	False
+P15090	cognate		U8H	drug_like	1	73.9	1.88	3.61	1.0	0.79	False
+P15090	decoy1	decoy	HRC	drug_like	0	92.2	0.98	3.76	0.88	0.92	False
+P15090	decoy2	decoy	ZLE	drug_like	0	91.8	1.0	2.41	0.75	0.91	False
+P15121	ablation	ablation	NDP	cofactor	0	41.1	3.54	9.25	0.32	0.7	False
+P15121	cognate		NDP	cofactor	1	97.2	0.78	2.31	0.96	0.98	False
+P15121	decoy1	decoy	FAD	cofactor	0	63.4	2.93	1.8	0.86	0.77	False
+P15121	decoy2	decoy	NAI	cofactor	0	97.5	0.79	1.79	0.89	0.98	False
+P17931	ablation	ablation	GAL	drug_like	0	82.9	1.7	4.49	0.6	0.89	True
+P17931	cognate		GAL	drug_like	1	98.6	0.8	5.14	1.0	0.98	True
+P17931	decoy1	decoy	MAN	drug_like	0	98.0	0.81	5.1	1.0	0.98	True
+P17931	decoy2	decoy	I1N	drug_like	0	87.1	1.31	4.81	1.0	0.92	False
+P19784	ablation	ablation	N92	drug_like	0	43.5	9.66	5.62	0.4	0.47	False
+P19784	cognate		N92	drug_like	1	87.8	0.85	1.05	0.9	0.95	False
+P19784	decoy1	decoy	RV2	drug_like	0	68.0	2.22	4.41	0.7	0.79	False
+P19784	decoy2	decoy	Z83	drug_like	0	67.3	2.38	1.56	1.0	0.8	False
+P20339	ablation	ablation	GNP	nucleotide	0	40.5	7.63	7.04	0.28	0.45	False
+P20339	cognate		GNP	nucleotide	1	92.8	0.84	2.45	1.0	0.95	True
+P20339	decoy1	decoy	ANP	nucleotide	0	86.4	1.1	2.71	1.0	0.92	False
+P20339	decoy2	decoy	CTP	nucleotide	0	81.8	1.21	3.0	1.0	0.9	False
+P22894	ablation	ablation	CA	metal	0	85.0	4.36	37.88	0.0	0.87	False
+P22894	cognate		CA	metal	1	74.1	6.36	0.83	1.0	0.78	False
+P22894	decoy1	decoy	MN	metal	0	52.3	9.62	13.83	0.0	0.64	False
+P22894	decoy2	decoy	MG	metal	0	45.8	9.58	13.83	0.0	0.63	False
+P27616	ablation	ablation	ADP	nucleotide	0	74.3	2.63	14.82	0.0	0.83	False
+P27616	cognate		ADP	nucleotide	1	87.4	0.86	3.56	0.91	0.94	True
+P27616	decoy1	decoy	GDP	nucleotide	0	82.2	2.42	14.61	0.0	0.86	True
+P27616	decoy2	decoy	TTP	nucleotide	0	69.1	3.21	16.25	0.0	0.79	False
+P31153	ablation	ablation	SAM	cofactor	0	87.6	1.86	33.54	0.0	0.91	True
+P31153	cognate		SAM	cofactor	1	89.7	2.46	4.77	1.0	0.88	True
+P31153	decoy1	decoy	SAH	cofactor	0	88.7	2.22	4.76	1.0	0.89	True
+P31153	decoy2	decoy	FMN	cofactor	0	52.8	5.19	7.09	0.71	0.75	False
+P38340	ablation	ablation	SAH	cofactor	0	62.3	3.03	7.38	0.42	0.74	False
+P38340	cognate		SAH	cofactor	1	98.7	0.8	2.27	1.0	0.98	True
+P38340	decoy1	decoy	FMN	cofactor	0	51.5	5.54	3.15	1.0	0.61	False
+P38340	decoy2	decoy	SAM	cofactor	0	98.7	0.8	2.44	1.0	0.98	True
+P39900	ablation	ablation	CA	metal	0	86.1	3.46	46.24	0.0	0.9	False
+P39900	cognate		CA	metal	1	46.6	10.76	0.75	1.0	0.6	False
+P39900	decoy1	decoy	MN	metal	0	33.0	12.7	13.67	0.0	0.48	False
+P39900	decoy2	decoy	MG	metal	0	29.8	16.13	13.7	0.0	0.39	False
+P45452	ablation	ablation	CA	metal	0	79.4	5.44	22.98	0.0	0.84	False
+P45452	cognate		CA	metal	1	51.0	9.28	0.82	1.0	0.67	False
+P45452	decoy1	decoy	MN	metal	0	50.6	10.24	13.95	0.0	0.62	False
+P45452	decoy2	decoy	MG	metal	0	42.9	13.99	14.0	0.0	0.49	False
+P53582	ablation	ablation	CO	metal	0	55.8	9.71	33.16	0.0	0.66	False
+P53582	cognate		CO	metal	1	85.1	2.63	3.87	1.0	0.91	False
+P53582	decoy1	decoy	FE	metal	0	83.4	2.54	3.64	1.0	0.91	False
+P53582	decoy2	decoy	FE2	metal	0	84.9	1.81	3.63	1.0	0.94	False
+P61586	ablation	ablation	GDP	nucleotide	0	38.0	6.77	5.01	0.73	0.45	False
+P61586	cognate		GDP	nucleotide	1	85.6	1.09	4.1	1.0	0.93	True
+P61586	decoy1	decoy	CTP	nucleotide	0	67.3	1.73	5.47	1.0	0.83	False
+P61586	decoy2	decoy	ADP	nucleotide	0	76.1	1.38	4.5	1.0	0.87	False
+P68400	ablation	ablation	ATP	nucleotide	0	61.9	4.46	19.42	0.0	0.79	False
+P68400	cognate		ATP	nucleotide	1	80.3	1.16	2.54	1.0	0.93	True
+P68400	decoy1	decoy	AGS	nucleotide	0	80.7	1.18	2.68	0.88	0.93	False
+P68400	decoy2	decoy	CTP	nucleotide	0	68.0	4.87	4.06	0.88	0.77	False
+Q13451	ablation	ablation	RTQ	drug_like	0	46.5	5.43	3.05	0.89	0.67	False
+Q13451	cognate		RTQ	drug_like	1	92.8	0.89	5.08	1.0	0.97	False
+Q13451	decoy1	decoy	38Z	drug_like	0	69.5	1.95	8.47	0.89	0.79	False
+Q13451	decoy2	decoy	F8Z	drug_like	0	62.4	4.28	5.42	1.0	0.75	False
+Q5SQI0	ablation	ablation	ACO	cofactor	0	56.4	4.04	18.51	0.25	0.73	False
+Q5SQI0	cognate		ACO	cofactor	1	97.0	0.81	2.52	1.0	0.98	False
+Q5SQI0	decoy1	decoy	FAD	cofactor	0	67.7	1.87	3.91	0.94	0.84	False
+Q5SQI0	decoy2	decoy	NDP	cofactor	0	70.5	1.56	3.53	0.94	0.87	False
+Q8NBK3	ablation	ablation	CA	metal	0	98.1	0.83	11.68	0.0	0.99	False
+Q8NBK3	cognate		CA	metal	1	89.5	2.81	11.63	0.0	0.89	False
+Q8NBK3	decoy1	decoy	MN	metal	0	84.3	2.95	11.44	0.0	0.87	False
+Q8NBK3	decoy2	decoy	MG	metal	0	82.5	3.17	1.74	1.0	0.86	False
+Q9GZZ1	ablation	ablation	ACO	cofactor	0	65.4	2.07	2.75	0.83	0.81	True
+Q9GZZ1	cognate		ACO	cofactor	1	95.2	0.83	3.76	1.0	0.95	False
+Q9GZZ1	decoy1	decoy	FAD	cofactor	0	70.4	1.34	4.47	1.0	0.84	False
+Q9GZZ1	decoy2	decoy	NDP	cofactor	0	69.2	1.62	4.89	0.92	0.84	False

@@ -1,0 +1,52 @@
+case: cdk2_toy
+description: 'Toy positive case: human CDK2 (derived, has the ATP pocket) vs the same protein with all
+  22 ATP-site residues mutated to Gly (stand-in ancestral, pocket destroyed). Cognate ATP+Mg, caffeine
+  decoy. Used to test case_cofold.py end to end.'
+positive_control:
+  acc: P24941
+  pdb: 1hck
+  chain: A
+  ligand: ATP
+  seqnum: 400
+site:
+- 10
+- 11
+- 12
+- 13
+- 14
+- 15
+- 16
+- 18
+- 31
+- 33
+- 64
+- 80
+- 81
+- 82
+- 83
+- 86
+- 127
+- 129
+- 131
+- 132
+- 134
+- 145
+ligands:
+- CCD:ATP
+- CCD:MG
+decoys:
+- - CCD:CFF
+  - CCD:MG
+seeds:
+- 1
+- 2
+- 3
+members:
+- accession: P24941
+  state: derived
+  label: human_CDK2
+- accession: P24941
+  state: ancestral
+  label: CDK2_site_gly
+  sequence_fasta: /tmp/pe_big/ablation/cdk2_gly.fa
+  note: site-ablation stand-in for an ancestral pocket-less state; NOT a real ancestor

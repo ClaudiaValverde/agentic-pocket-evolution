@@ -1,0 +1,472 @@
+schema: case-v1
+case_id: gain_HOG0025964_g2_n28_O1
+title: 'Pocket gain: HOG0025964:g2 (leotiomyceta)'
+category: gain
+track: discovery
+label: supported
+toy: false
+summary: 'SOG HOG0025964:g2: pocket present in the leotiomyceta clade (node 28.0) and absent-observed
+  in outgroup lineages.'
+og_id: HOG0025964
+sog_id: HOG0025964:g2
+score: 5.0
+proteins:
+- accession: A0A0D2E3L4
+  taxid: 1442368
+  species: '1442368'
+  role: derived
+  side: present
+  state: P
+  footprint_plddt: 93.20833587646484
+  reason: ''
+  gene: null
+  protein_name: IQ domain-containing protein containing GTPase activating protein
+  rescue_settings_hit: 6
+  residues: A:1035 A:1036 A:1043 A:1159 A:1163 A:1175 A:1178 A:1179 A:1181 A:1182 A:1185 A:1186
+  n_site_evidence: 0
+- accession: A0A175VUG7
+  taxid: 100816
+  species: '100816'
+  role: derived
+  side: present
+  state: P
+  footprint_plddt: 91.375
+  reason: ''
+  gene: null
+  protein_name: Ras GTPase-activating-like protein rng2
+  rescue_settings_hit: 6
+  residues: A:1031 A:1032 A:1039 A:1155 A:1159 A:1171 A:1174 A:1175 A:1177 A:1178 A:1181 A:1182
+  n_site_evidence: 0
+- accession: A0A1C1CM41
+  taxid: 86049
+  species: '86049'
+  role: derived
+  side: present
+  state: P
+  footprint_plddt: 92.66666412353516
+  reason: ''
+  gene: null
+  protein_name: RasGAP-like protein
+  rescue_settings_hit: 6
+  residues: A:1034 A:1035 A:1042 A:1158 A:1162 A:1174 A:1177 A:1178 A:1180 A:1181 A:1184 A:1185
+  n_site_evidence: 0
+- accession: A0A8I6AM38
+  taxid: 10116
+  species: '10116'
+  role: outgroup
+  side: absent
+  state: A
+  footprint_plddt: 90.41666412353516
+  reason: ''
+  gene: Iqgap2
+  protein_name: IQ motif containing GTPase activating protein 2
+  rescue_settings_hit: 0
+  residues: A:957 A:958 A:965 A:1080 A:1084 A:1096 A:1099 A:1100 A:1102 A:1103 A:1106 A:1107
+  n_site_evidence: 0
+- accession: A2CE93
+  taxid: 7955
+  species: '7955'
+  role: outgroup
+  side: absent
+  state: U
+  footprint_plddt: 87.75
+  reason: plddt<90
+  gene: iqgap2
+  protein_name: Ras GTPase-activating-like protein IQGAP2
+  rescue_settings_hit: null
+  residues: A:1053 A:1054 A:1061 A:1176 A:1180 A:1192 A:1195 A:1196 A:1198 A:1199 A:1202 A:1203
+  n_site_evidence: 0
+- accession: C0NBC6
+  taxid: 447093
+  species: '447093'
+  role: derived
+  side: other
+  state: A
+  footprint_plddt: 90.75
+  reason: ''
+  gene: null
+  protein_name: Ras GTPase-activating-like protein rng2
+  rescue_settings_hit: 0
+  residues: null
+  n_site_evidence: 0
+- accession: C1H4W1
+  taxid: 502779
+  species: '502779'
+  role: derived
+  side: present
+  state: P
+  footprint_plddt: 90.375
+  reason: ''
+  gene: null
+  protein_name: RasGAP-like protein
+  rescue_settings_hit: 4
+  residues: A:1076 A:1077 A:1084 A:1200 A:1204 A:1216 A:1219 A:1220 A:1222 A:1223 A:1226 A:1227
+  n_site_evidence: 0
+- accession: D3ZCS4
+  taxid: 10116
+  species: '10116'
+  role: outgroup
+  side: absent
+  state: U
+  footprint_plddt: 88.70833587646484
+  reason: plddt<90
+  gene: Iqgap3
+  protein_name: IQ motif containing GTPase activating protein 3
+  rescue_settings_hit: null
+  residues: A:1029 A:1030 A:1037 A:1152 A:1156 A:1168 A:1171 A:1172 A:1174 A:1175 A:1178 A:1179
+  n_site_evidence: 0
+- accession: F8VQ29
+  taxid: 10090
+  species: '10090'
+  role: outgroup
+  side: absent
+  state: U
+  footprint_plddt: 88.66666412353516
+  reason: plddt<90
+  gene: Iqgap3
+  protein_name: IQ motif containing GTPase activating protein 3
+  rescue_settings_hit: null
+  residues: A:1029 A:1030 A:1037 A:1152 A:1156 A:1168 A:1171 A:1172 A:1174 A:1175 A:1178 A:1179
+  n_site_evidence: 0
+- accession: O14188
+  taxid: 284812
+  species: '284812'
+  role: outgroup
+  side: absent
+  state: A
+  footprint_plddt: 93.375
+  reason: ''
+  gene: rng2
+  protein_name: Ras GTPase-activating-like protein rng2
+  rescue_settings_hit: 0
+  residues: A:893 A:894 A:901 A:1011 A:1015 A:1027 A:1030 A:1031 A:1033 A:1034 A:1037 A:1038
+  n_site_evidence: 0
+- accession: P46940
+  taxid: 9606
+  species: '9606'
+  role: outgroup
+  side: absent
+  state: U
+  footprint_plddt: 90.04166412353516
+  reason: plddt<90
+  gene: IQGAP1
+  protein_name: Ras GTPase-activating-like protein IQGAP1
+  rescue_settings_hit: null
+  residues: A:1044 A:1045 A:1052 A:1167 A:1171 A:1183 A:1186 A:1187 A:1189 A:1190 A:1193 A:1194
+  n_site_evidence: 0
+- accession: Q12280
+  taxid: 559292
+  species: '559292'
+  role: outgroup
+  side: absent
+  state: U
+  footprint_plddt: 89.08333587646484
+  reason: plddt<90
+  gene: IQG1
+  protein_name: Ras GTPase-activating-like protein IQG1
+  rescue_settings_hit: null
+  residues: A:899 A:900 A:908 A:1008 A:1012 A:1022 A:1025 A:1026 A:1028 A:1029 A:1032 A:1033
+  n_site_evidence: 0
+- accession: Q13576
+  taxid: 9606
+  species: '9606'
+  role: outgroup
+  side: absent
+  state: U
+  footprint_plddt: 88.08333587646484
+  reason: plddt<90
+  gene: IQGAP2
+  protein_name: Ras GTPase-activating-like protein IQGAP2
+  rescue_settings_hit: null
+  residues: A:957 A:958 A:965 A:1080 A:1084 A:1096 A:1099 A:1100 A:1102 A:1103 A:1106 A:1107
+  n_site_evidence: 0
+- accession: Q3UQ44
+  taxid: 10090
+  species: '10090'
+  role: outgroup
+  side: absent
+  state: U
+  footprint_plddt: 89.66666412353516
+  reason: plddt<90
+  gene: Iqgap2
+  protein_name: Ras GTPase-activating-like protein IQGAP2
+  rescue_settings_hit: null
+  residues: A:957 A:958 A:965 A:1080 A:1084 A:1096 A:1099 A:1100 A:1102 A:1103 A:1106 A:1107
+  n_site_evidence: 0
+- accession: Q5AH02
+  taxid: 237561
+  species: '237561'
+  role: outgroup
+  side: absent
+  state: A
+  footprint_plddt: 90.41666412353516
+  reason: ''
+  gene: IQG1
+  protein_name: Ras GTPase-activating-like protein IQG1
+  rescue_settings_hit: 0
+  residues: A:995 A:996 A:1004 A:1124 A:1128 A:1140 A:1143 A:1144 A:1146 A:1147 A:1150 A:1151
+  n_site_evidence: 0
+- accession: Q86VI3
+  taxid: 9606
+  species: '9606'
+  role: outgroup
+  side: absent
+  state: U
+  footprint_plddt: 89.875
+  reason: plddt<90
+  gene: IQGAP3
+  protein_name: Ras GTPase-activating-like protein IQGAP3
+  rescue_settings_hit: null
+  residues: A:1028 A:1029 A:1036 A:1151 A:1155 A:1167 A:1170 A:1171 A:1173 A:1174 A:1177 A:1178
+  n_site_evidence: 0
+- accession: Q9JKF1
+  taxid: 10090
+  species: '10090'
+  role: outgroup
+  side: absent
+  state: U
+  footprint_plddt: 89.625
+  reason: plddt<90
+  gene: Iqgap1
+  protein_name: Ras GTPase-activating-like protein IQGAP1
+  rescue_settings_hit: null
+  residues: A:1044 A:1045 A:1052 A:1167 A:1171 A:1183 A:1186 A:1187 A:1189 A:1190 A:1193 A:1194
+  n_site_evidence: 0
+- accession: U7PV55
+  taxid: 1391915
+  species: '1391915'
+  role: derived
+  side: present
+  state: P
+  footprint_plddt: 91.91666412353516
+  reason: ''
+  gene: null
+  protein_name: Ras-GAP domain-containing protein
+  rescue_settings_hit: 6
+  residues: A:1049 A:1050 A:1057 A:1173 A:1177 A:1189 A:1192 A:1193 A:1195 A:1196 A:1199 A:1200
+  n_site_evidence: 0
+- accession: A0A8I6AJK7
+  taxid: 10116
+  species: '10116'
+  role: outgroup
+  side: absent
+  state: U
+  footprint_plddt: null
+  reason: no_model
+  gene: ''
+  protein_name: ''
+  rescue_settings_hit: null
+  residues: null
+  n_site_evidence: 0
+- accession: A0A8M1P6K4
+  taxid: 7955
+  species: '7955'
+  role: outgroup
+  side: absent
+  state: U
+  footprint_plddt: null
+  reason: no_model
+  gene: ''
+  protein_name: ''
+  rescue_settings_hit: null
+  residues: null
+  n_site_evidence: 0
+- accession: A0AC58FXE0
+  taxid: 7955
+  species: '7955'
+  role: outgroup
+  side: absent
+  state: U
+  footprint_plddt: null
+  reason: no_model
+  gene: ''
+  protein_name: ''
+  rescue_settings_hit: null
+  residues: null
+  n_site_evidence: 0
+filters:
+- name: persistence
+  status: pass
+  detail: 'P in 5 derived species (purity 0.83 of informative derived members; 0.83 over all members under
+    the species-tree LCA: clean clade); single tree-consistent event: True; outgroup support: A in 3 outgroup
+    species'
+- name: experimental
+  status: fail
+  detail: no experimental evidence at the footprint
+- name: computational
+  status: pass
+  detail: 'conservation: fail (3/12 footprint columns clade-specific (rate 0.25 vs background 0.33); derived
+    conservation 0.67, outgroup identity to derived majority 0.14); rescue_consistency: pass (present
+    side re-detected in >= 3/6 BURROW settings for 1.00 of 5 members (median 6); absent side max 0/6 over
+    3 members); source_consistency: na (no present-side member in the v6/v4 re-detection sample); cofolding:
+    pending (placeholder; filled by the co-folding agent)'
+- name: f3:conservation
+  status: fail
+  detail: 3/12 footprint columns clade-specific (rate 0.25 vs background 0.33); derived conservation 0.67,
+    outgroup identity to derived majority 0.14
+- name: f3:rescue_consistency
+  status: pass
+  detail: present side re-detected in >= 3/6 BURROW settings for 1.00 of 5 members (median 6); absent
+    side max 0/6 over 3 members
+- name: f3:source_consistency
+  status: na
+  detail: no present-side member in the v6/v4 re-detection sample
+- name: f3:cofolding
+  status: pending
+  detail: placeholder; filled by the co-folding agent
+artifact_checks:
+- name: a_footprint_plddt
+  status: pass
+  detail: ''
+- name: a_disorder
+  status: pass
+  detail: ''
+- name: a_pae_ted
+  status: pass
+  detail: ''
+- name: a_fragment
+  status: pass
+  detail: ''
+- name: a_orthology_o2
+  status: pass
+  detail: ''
+- name: a_orthology_panther
+  status: pass
+  detail: ''
+- name: a_instability
+  status: pass
+  detail: ''
+- name: a_fragment_present
+  status: pass
+  detail: ''
+- name: flag_present_plddt_lt90
+  status: na
+  detail: 'flag (reported, not a fail; D24): False'
+- name: a_species_tree_lineages
+  status: pass
+  detail: ''
+- name: flag_paralog_branch
+  status: na
+  detail: 'flag (reported, not a fail; D24): False'
+- name: artifact_na
+  status: na
+  detail: ''
+- name: artifact_fails
+  status: na
+  detail: ''
+- name: orthology_side_family_reported_only
+  status: pass
+  detail: 'PANTHER: present side [''PTHR14149''], absent side [''PTHR14149'']; shared [''PTHR14149'']
+    [reported only; does not gate selection (PI D30)]'
+evidence:
+- type: chembl
+  id: CHEMBL4295763
+  about_change: false
+  detail: 'P46940: 2 compounds pChEMBL>=6 (max 7.45), protein-level only'
+  filter: experimental
+  verified: null
+cofold:
+- model_id: pending
+  status: pending
+  role: derived
+  note: "placeholder; co-folding agent fills models per DESIGN \xA76 and the D23 concordance rule (ligand\
+    \ pLDDT AND centroid distance or site-residue recall in >= 2/3 seeds)"
+- model_id: gain_HOG0025964_g2_n28_O1_apo
+  role: apo_refold
+  status: apo_pocket_not_recovered
+  ligands: []
+  seeds: 3
+  samples_per_seed: 5
+  templates: none
+  msa: ColabFold MMseqs2
+  method: protein-only AF3 refold, then pocketcompare describe --af-mode; site recall of the best-covering
+    BURROW pocket against the case footprint, reported CONTINUOUS (never thresholded at 0.8)
+  present_recall_median: 0.222
+  absent_recall_median: 0.167
+  delta_recall: 0.055
+  n_present: 3
+  n_absent: 3
+  members:
+  - acc: A0A0D2E3L4
+    side: present
+    recall: 0.0
+    precision: 0.0
+    burrow_rank: '3'
+    n_pockets: '1'
+    construct: TED:1065-1148_1167-1268(186aa,cov7/12)
+    atlas_footprint_plddt: 93.208
+    site_source: own_footprint
+  - acc: A0A1C1CM41
+    side: present
+    recall: 0.222
+    precision: 0.143
+    burrow_rank: '1'
+    n_pockets: '1'
+    construct: TED:1046-1267(222aa,cov9/12)
+    atlas_footprint_plddt: 92.667
+    site_source: own_footprint
+  - acc: U7PV55
+    side: present
+    recall: 0.222
+    precision: 0.286
+    burrow_rank: '2'
+    n_pockets: '4'
+    construct: TED:1069-1112_1125-1284(204aa,cov9/12)
+    atlas_footprint_plddt: 91.917
+    site_source: own_footprint
+  - acc: O14188
+    side: absent
+    recall: 0.111
+    precision: 0.143
+    burrow_rank: '1'
+    n_pockets: '4'
+    construct: TED:913-954_963-1121(201aa,cov9/12)
+    atlas_footprint_plddt: 93.375
+    site_source: own_footprint
+  - acc: C0NBC6
+    side: absent
+    recall: 0.417
+    precision: 1.0
+    burrow_rank: '4'
+    n_pockets: '10'
+    construct: full_length
+    atlas_footprint_plddt: 90.75
+    site_source: mapped_from:A0A0D2E3L4
+  - acc: A0A8I6AM38
+    side: absent
+    recall: 0.167
+    precision: 0.4
+    burrow_rank: '14'
+    n_pockets: '5'
+    construct: full_length
+    atlas_footprint_plddt: 90.417
+    site_source: own_footprint
+  table: results/cofold/apo_pool/apo_burrow_pool.tsv
+  outcome: 'present-side median recall only 0.222: the pocket is not clearly recovered even on the present
+    side, so this test is uninformative'
+figures: []
+literature: []
+headline: convincing_only
+filter_label_with_literature_post_hoc: supported
+notes: 'filter_label=supported (prereg: convincing = all three filters; supported = f1 + one of f2/f3);
+  final label also needs the artifact cascade (pass). candidate label: FDR-calibrated candidate; fdr_supported=True.
+  selection: eligible. G (gene-absent) rows not listed: 9; every other member is listed with side (present/absent/other),
+  state and reason. Evidence counts are derived from BioLiP2/UniProt 2026_03/M-CSA/ChEMBL 37 (DATA.md);
+  BioLiP rows are not redistributed, only PDB IDs and counts. Final co-fold pool selection (D28, case_list_v2.parquet):
+  top_k.'
+provenance:
+  builder: scripts/cases/build_cases.py
+  orthology: O1
+  snapshot: 20261030T085136Z
+  case_list: results/cases/20261030T085136Z/case_list_v2.parquet
+  prereg_sha256: 52f9461890984c210b730af86c40de221307a668e7d4b38098b3316059690d83
+  git_commit: cdb00a44da5049d0e4a054f4e2ba4ee534e35363+dirty
+  seed: 0
+  built_utc: '2026-10-30T16:17:54Z'
+  n_excluded_tune_annotations:
+    rule: per SOG (prereg literal); OG-wide reported as sensitivity
+    n_tuning_list_rows: 450
+    n_used_in_tune_pairs: 245
+    pairs_file: results/sogs/20261030T085136Z/O1/tau_benchmark_pairs.parquet
+    n_keys_per_sog: 216
+    n_keys_og_wide: 221

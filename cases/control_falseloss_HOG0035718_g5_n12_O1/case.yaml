@@ -1,0 +1,358 @@
+schema: case-v1
+case_id: control_falseloss_HOG0035718_g5_n12_O1
+title: 'False-loss negative control: HOG0035718:g5 (Enterobacteriaceae)'
+category: control
+track: discovery
+label: rejected
+toy: false
+summary: 'SOG HOG0035718:g5: loss called on pre-quality-filter states whose derived-clade A members are
+  all poor models (bad_model, D24); it disappears once A_primary + D11 apply. Negative control for false
+  losses: filters are expected to fail.'
+og_id: HOG0035718
+sog_id: HOG0035718:g5
+score: 0.0
+proteins:
+- accession: A0A077ZF37
+  taxid: 36087
+  species: '36087'
+  role: outgroup
+  side: other
+  state: U
+  state_pre_filter: A (primary_pLDDT90, pre-D11)
+  footprint_plddt: 96.625
+  reason: footprint_residues<=10
+  gene: null
+  protein_name: Peptidoglycan synthase ftsI homolog
+  rescue_settings_hit: null
+  residues: null
+  n_site_evidence: 0
+- accession: A0A077ZLG1
+  taxid: 36087
+  species: '36087'
+  role: outgroup
+  side: other
+  state: U
+  state_pre_filter: U (primary_pLDDT90, pre-D11)
+  footprint_plddt: 94.39286041259766
+  reason: partial_site_overlap
+  gene: null
+  protein_name: FtsL and Transpeptidase and PBP dimer domain cont aining protein
+  rescue_settings_hit: null
+  residues: null
+  n_site_evidence: 0
+- accession: P44469
+  taxid: 71421
+  species: '71421'
+  role: outgroup
+  side: other
+  state: U
+  state_pre_filter: A (primary_pLDDT90, pre-D11)
+  footprint_plddt: 94.25
+  reason: footprint_residues<=10
+  gene: mrdA
+  protein_name: Peptidoglycan D,D-transpeptidase MrdA
+  rescue_settings_hit: null
+  residues: null
+  n_site_evidence: 0
+- accession: P0AD65
+  taxid: 83333
+  species: '83333'
+  role: derived
+  side: absent
+  state: U
+  state_pre_filter: A (primary_pLDDT90, pre-D11)
+  footprint_plddt: 96.75
+  reason: footprint_residues<=10
+  gene: mrdA
+  protein_name: Peptidoglycan D,D-transpeptidase MrdA
+  rescue_settings_hit: null
+  residues: A:365 A:367 A:444 A:446 A:447 A:450 A:456 A:457
+  n_site_evidence: 0
+- accession: O26085
+  taxid: 85962
+  species: '85962'
+  role: outgroup
+  side: other
+  state: U
+  state_pre_filter: U (primary_pLDDT90, pre-D11)
+  footprint_plddt: 93.875
+  reason: partial_site_overlap
+  gene: null
+  protein_name: Penicillin-binding protein 2 (Pbp2)
+  rescue_settings_hit: null
+  residues: null
+  n_site_evidence: 0
+- accession: Q2FZ94
+  taxid: 93061
+  species: '93061'
+  role: outgroup
+  side: other
+  state: U
+  state_pre_filter: U (primary_pLDDT90, pre-D11)
+  footprint_plddt: 93.75
+  reason: partial_site_overlap
+  gene: null
+  protein_name: Penicillin-binding protein 1
+  rescue_settings_hit: null
+  residues: null
+  n_site_evidence: 0
+- accession: P0CL14
+  taxid: 99287
+  species: '99287'
+  role: outgroup
+  side: present
+  state: P
+  state_pre_filter: P (primary_pLDDT90, pre-D11)
+  footprint_plddt: 94.625
+  reason: ''
+  gene: mrdA
+  protein_name: Peptidoglycan D,D-transpeptidase MrdA
+  rescue_settings_hit: null
+  residues: A:361 A:363 A:440 A:442 A:443 A:446 A:452 A:453
+  n_site_evidence: 0
+- accession: Q8ZR00
+  taxid: 99287
+  species: '99287'
+  role: derived
+  side: absent
+  state: U
+  state_pre_filter: A (primary_pLDDT90, pre-D11)
+  footprint_plddt: 96.5625
+  reason: footprint_residues<=10
+  gene: mrdA
+  protein_name: Peptidoglycan D,D-transpeptidase MrdA
+  rescue_settings_hit: null
+  residues: A:365 A:367 A:444 A:446 A:447 A:450 A:456 A:457
+  n_site_evidence: 0
+- accession: P59676
+  taxid: 171101
+  species: '171101'
+  role: outgroup
+  side: other
+  state: U
+  state_pre_filter: U (primary_pLDDT90, pre-D11)
+  footprint_plddt: 97.58333587646484
+  reason: partial_site_overlap
+  gene: pbpX
+  protein_name: Penicillin-binding protein 2X
+  rescue_settings_hit: null
+  residues: null
+  n_site_evidence: 0
+- accession: Q0PAL6
+  taxid: 192222
+  species: '192222'
+  role: outgroup
+  side: present
+  state: P
+  state_pre_filter: P (primary_pLDDT90, pre-D11)
+  footprint_plddt: 93.9375
+  reason: ''
+  gene: pbpC
+  protein_name: Penicillin-binding protein
+  rescue_settings_hit: null
+  residues: A:345 A:347 A:424 A:426 A:427 A:430 A:436 A:437
+  n_site_evidence: 0
+- accession: G3XCV7
+  taxid: 208964
+  species: '208964'
+  role: outgroup
+  side: present
+  state: P
+  state_pre_filter: P (primary_pLDDT90, pre-D11)
+  footprint_plddt: 94.6875
+  reason: ''
+  gene: pbpA
+  protein_name: Peptidoglycan D,D-transpeptidase MrdA
+  rescue_settings_hit: null
+  residues: A:362 A:364 A:441 A:443 A:444 A:447 A:453 A:454
+  n_site_evidence: 0
+- accession: Q32IU5
+  taxid: 300267
+  species: '300267'
+  role: derived
+  side: absent
+  state: U
+  state_pre_filter: A (primary_pLDDT90, pre-D11)
+  footprint_plddt: 96.5625
+  reason: footprint_residues<=10
+  gene: mrdA
+  protein_name: Peptidoglycan D,D-transpeptidase MrdA
+  rescue_settings_hit: null
+  residues: A:365 A:367 A:444 A:446 A:447 A:450 A:456 A:457
+  n_site_evidence: 0
+- accession: A0A0H3GTX1
+  taxid: 1125630
+  species: '1125630'
+  role: derived
+  side: absent
+  state: U
+  state_pre_filter: A (primary_pLDDT90, pre-D11)
+  footprint_plddt: 96.5625
+  reason: footprint_residues<=10
+  gene: mrdA
+  protein_name: Peptidoglycan D,D-transpeptidase MrdA
+  rescue_settings_hit: null
+  residues: A:365 A:367 A:444 A:446 A:447 A:450 A:456 A:457
+  n_site_evidence: 0
+- accession: A0A0H3GY10
+  taxid: 1125630
+  species: '1125630'
+  role: outgroup
+  side: present
+  state: P
+  state_pre_filter: P (primary_pLDDT90, pre-D11)
+  footprint_plddt: 94.3125
+  reason: ''
+  gene: mrdA
+  protein_name: Peptidoglycan D,D-transpeptidase MrdA
+  rescue_settings_hit: null
+  residues: A:351 A:353 A:430 A:432 A:433 A:436 A:442 A:443
+  n_site_evidence: 0
+filters:
+- name: persistence
+  status: fail
+  detail: 'A in 0 derived species (purity 0.00 of informative derived members; 0.00 over all members under
+    the species-tree LCA: scattered); single tree-consistent event: False; outgroup support: P in 4 outgroup
+    species'
+- name: experimental
+  status: fail
+  detail: no experimental evidence at the footprint
+- name: computational
+  status: pending
+  detail: 'conservation: na (too few aligned members (derived 0, outgroup 4)); rescue_consistency: na
+    (no rescue run for present-side members); source_consistency: na (no present-side member in the v6/v4
+    re-detection sample); cofolding: pending (placeholder; filled by the co-folding agent)'
+- name: f3:conservation
+  status: na
+  detail: too few aligned members (derived 0, outgroup 4)
+- name: f3:rescue_consistency
+  status: na
+  detail: no rescue run for present-side members
+- name: f3:source_consistency
+  status: na
+  detail: no present-side member in the v6/v4 re-detection sample
+- name: f3:cofolding
+  status: pending
+  detail: placeholder; filled by the co-folding agent
+artifact_checks:
+- name: artifact_cascade
+  status: pending
+  detail: pass_artifacts not yet in the candidate table (Part B agent)
+- name: orthology_side_family_reported_only
+  status: pending
+  detail: no PANTHER/Pfam family on one side [reported only; does not gate selection (PI D30)]
+evidence:
+- type: chembl
+  id: CHEMBL1840
+  about_change: false
+  detail: 'P0AD65: 5 compounds pChEMBL>=6 (max 8.0), protein-level only'
+  filter: experimental
+  verified: null
+cofold:
+- model_id: pending
+  status: pending
+  role: derived
+  note: "placeholder; co-folding agent fills models per DESIGN \xA76 and the D23 concordance rule (ligand\
+    \ pLDDT AND centroid distance or site-residue recall in >= 2/3 seeds)"
+- model_id: control_falseloss_HOG0035718_g5_n12_O1_apo
+  role: apo_refold
+  status: pocket_did_not_reappear
+  ligands: []
+  seeds: 3
+  samples_per_seed: 5
+  templates: none
+  msa: ColabFold MMseqs2
+  method: protein-only AF3 refold, then pocketcompare describe --af-mode; site recall of the best-covering
+    BURROW pocket against the case footprint, reported CONTINUOUS (never thresholded at 0.8)
+  present_recall_median: 0.875
+  absent_recall_median: 0.0
+  delta_recall: 0.875
+  n_present: 3
+  n_absent: 3
+  members:
+  - acc: G3XCV7
+    side: present
+    recall: 1.0
+    precision: 0.235
+    burrow_rank: '11'
+    n_pockets: '9'
+    construct: full_length
+    atlas_footprint_plddt: 94.688
+    site_source: own_footprint
+  - acc: P0CL14
+    side: present
+    recall: 0.875
+    precision: 0.778
+    burrow_rank: '1'
+    n_pockets: '8'
+    construct: full_length
+    atlas_footprint_plddt: 94.625
+    site_source: own_footprint
+  - acc: A0A0H3GY10
+    side: present
+    recall: 0.875
+    precision: 1.0
+    burrow_rank: '2'
+    n_pockets: '6'
+    construct: full_length
+    atlas_footprint_plddt: 94.312
+    site_source: own_footprint
+  - acc: P44469
+    side: absent_pre_d11
+    recall: 0.714
+    precision: 0.714
+    burrow_rank: '6'
+    n_pockets: '7'
+    construct: full_length
+    atlas_footprint_plddt: 94.25
+    site_source: mapped_from:P0CL14
+  - acc: Q8ZR00
+    side: absent_pre_d11
+    recall: 0.0
+    precision: 0.0
+    burrow_rank: '1'
+    n_pockets: '6'
+    construct: full_length
+    atlas_footprint_plddt: 96.562
+    site_source: own_footprint
+  - acc: A0A0H3GTX1
+    side: absent_pre_d11
+    recall: 0.0
+    precision: 0.0
+    burrow_rank: '1'
+    n_pockets: '6'
+    construct: full_length
+    atlas_footprint_plddt: 96.562
+    site_source: own_footprint
+  table: results/cofold/apo_pool/apo_burrow_pool.tsv
+  outcome: 'NOT CONFIRMED: absent-side median recall 0.0; the pocket does NOT reappear in fresh ligand-free
+    models of the bad-model proteins. The false-loss prediction fails for this control, so the absence
+    is not explained as a modelling artifact by this test'
+  prediction: the pocket should reappear in a fresh ligand-free model of the absent-side (bad-model) proteins
+figures: []
+literature: []
+headline: convincing_only
+filter_label_with_literature_post_hoc: null
+notes: 'filter_label=rejected (prereg: convincing = all three filters; supported = f1 + one of f2/f3);
+  final label also needs the artifact cascade (pending). candidate label: false-loss control; fdr_supported=False.
+  selection: negative_control. G (gene-absent) rows not listed: 35; every other member is listed with
+  side (present/absent/other), state and reason; state_pre_filter = state in the pre-quality-filter run
+  that called the false loss. Evidence counts are derived from BioLiP2/UniProt 2026_03/M-CSA/ChEMBL 37
+  (DATA.md); BioLiP rows are not redistributed, only PDB IDs and counts. Final co-fold pool selection
+  (D28, case_list_v2.parquet): negative_control.'
+provenance:
+  builder: scripts/cases/build_cases.py
+  orthology: O1
+  snapshot: 20261030T085136Z
+  case_list: results/cases/20261030T085136Z/case_list_v2.parquet
+  prereg_sha256: 52f9461890984c210b730af86c40de221307a668e7d4b38098b3316059690d83
+  git_commit: cdb00a44da5049d0e4a054f4e2ba4ee534e35363+dirty
+  seed: 0
+  built_utc: '2026-10-30T16:17:54Z'
+  n_excluded_tune_annotations:
+    rule: per SOG (prereg literal); OG-wide reported as sensitivity
+    n_tuning_list_rows: 450
+    n_used_in_tune_pairs: 245
+    pairs_file: results/sogs/20261030T085136Z/O1/tau_benchmark_pairs.parquet
+    n_keys_per_sog: 216
+    n_keys_og_wide: 221

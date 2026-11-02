@@ -1,0 +1,253 @@
+{
+ "frozen_utc": "2026-10-30T16:13:27Z",
+ "panel": {
+  "n_positives": 24,
+  "n_negatives": 72,
+  "n_decoy_negatives": 48,
+  "n_ablation_negatives": 24,
+  "class_counts": {
+   "cofactor": 6,
+   "drug_like": 6,
+   "metal": 6,
+   "nucleotide": 6
+  },
+  "selection_rule": "results/cofold/calibration/selection_rule.json",
+  "job_level_statistic": "median over 3 seeds x 5 samples"
+ },
+ "single_readout_auc": {
+  "lig_plddt": {
+   "auc": 0.7931,
+   "ci_lo": 0.6823,
+   "ci_hi": 0.89,
+   "direction": "higher_is_positive"
+  },
+  "pae_min": {
+   "auc": 0.7555,
+   "ci_lo": 0.6201,
+   "ci_hi": 0.8799,
+   "direction": "lower_is_positive"
+  },
+  "centroid": {
+   "auc": 0.7277,
+   "ci_lo": 0.6152,
+   "ci_hi": 0.8281,
+   "direction": "lower_is_positive"
+  },
+  "site_recall": {
+   "auc": 0.772,
+   "ci_lo": 0.6857,
+   "ci_hi": 0.8504,
+   "direction": "higher_is_positive"
+  },
+  "iptm": {
+   "auc": 0.7836,
+   "ci_lo": 0.6696,
+   "ci_hi": 0.8877,
+   "direction": "higher_is_positive"
+  }
+ },
+ "single_readout_auc_by_ligand_class": {
+  "cofactor": {
+   "n_pos": 6,
+   "n_neg": 18,
+   "lig_plddt": {
+    "auc": 0.912,
+    "ci_lo": 0.7639,
+    "ci_hi": 1.0
+   },
+   "pae_min": {
+    "auc": 0.8241,
+    "ci_lo": 0.5926,
+    "ci_hi": 1.0
+   },
+   "centroid": {
+    "auc": 0.7407,
+    "ci_lo": 0.4815,
+    "ci_hi": 0.9537
+   },
+   "site_recall": {
+    "auc": 0.8704,
+    "ci_lo": 0.7407,
+    "ci_hi": 0.9722
+   }
+  },
+  "drug_like": {
+   "n_pos": 6,
+   "n_neg": 18,
+   "lig_plddt": {
+    "auc": 0.7685,
+    "ci_lo": 0.5278,
+    "ci_hi": 0.9444
+   },
+   "pae_min": {
+    "auc": 0.8472,
+    "ci_lo": 0.6296,
+    "ci_hi": 1.0
+   },
+   "centroid": {
+    "auc": 0.5093,
+    "ci_lo": 0.25,
+    "ci_hi": 0.7593
+   },
+   "site_recall": {
+    "auc": 0.7407,
+    "ci_lo": 0.5833,
+    "ci_hi": 0.8704
+   }
+  },
+  "metal": {
+   "n_pos": 6,
+   "n_neg": 18,
+   "lig_plddt": {
+    "auc": 0.5833,
+    "ci_lo": 0.3056,
+    "ci_hi": 0.8426
+   },
+   "pae_min": {
+    "auc": 0.5556,
+    "ci_lo": 0.2963,
+    "ci_hi": 0.8148
+   },
+   "centroid": {
+    "auc": 0.8241,
+    "ci_lo": 0.6389,
+    "ci_hi": 0.9722
+   },
+   "site_recall": {
+    "auc": 0.7778,
+    "ci_lo": 0.5833,
+    "ci_hi": 0.9444
+   }
+  },
+  "nucleotide": {
+   "n_pos": 6,
+   "n_neg": 18,
+   "lig_plddt": {
+    "auc": 0.9537,
+    "ci_lo": 0.8519,
+    "ci_hi": 1.0
+   },
+   "pae_min": {
+    "auc": 0.9907,
+    "ci_lo": 0.9444,
+    "ci_hi": 1.0
+   },
+   "centroid": {
+    "auc": 0.8241,
+    "ci_lo": 0.6296,
+    "ci_hi": 0.963
+   },
+   "site_recall": {
+    "auc": 0.7407,
+    "ci_lo": 0.5833,
+    "ci_hi": 0.8705
+   }
+  }
+ },
+ "single_readout_auc_by_negative_kind": {
+  "decoy": {
+   "lig_plddt": {
+    "auc": 0.7556,
+    "ci_lo": 0.6293,
+    "ci_hi": 0.8698
+   },
+   "pae_min": {
+    "auc": 0.7244,
+    "ci_lo": 0.5759,
+    "ci_hi": 0.8607
+   },
+   "centroid": {
+    "auc": 0.6775,
+    "ci_lo": 0.5503,
+    "ci_hi": 0.7995
+   },
+   "site_recall": {
+    "auc": 0.6749,
+    "ci_lo": 0.5699,
+    "ci_hi": 0.7708
+   }
+  },
+  "ablation": {
+   "lig_plddt": {
+    "auc": 0.8681,
+    "ci_lo": 0.75,
+    "ci_hi": 0.9618
+   },
+   "pae_min": {
+    "auc": 0.8177,
+    "ci_lo": 0.6771,
+    "ci_hi": 0.9418
+   },
+   "centroid": {
+    "auc": 0.8281,
+    "ci_lo": 0.7048,
+    "ci_hi": 0.9289
+   },
+   "site_recall": {
+    "auc": 0.9661,
+    "ci_lo": 0.8906,
+    "ci_hi": 1.0
+   }
+  }
+ },
+ "d23_composite": {
+  "definition": "ligand pLDDT >= t_plddt AND (site_centroid_dist <= t_centroid OR site_recall >= t_recall), in >= 2 of 3 seeds",
+  "thresholds": {
+   "t_plddt": 92.0,
+   "t_centroid": 2.0,
+   "t_recall": 0.9
+  },
+  "sensitivity": 0.4167,
+  "specificity": 0.9583,
+  "youden_j": 0.375,
+  "auc_threshold_sweep": 0.7943,
+  "auc_seedcount_rank": {
+   "auc": 0.8383,
+   "ci_lo": 0.7471,
+   "ci_hi": 0.9167
+  },
+  "specificity_target_0.9_feasible": true
+ },
+ "d23_composite_by_stratum": {
+  "note": "ligand class is fixed by the selection rule before folding, so these strata are pre-specified, not post-hoc tuning. The PRIMARY frozen threshold is the pooled one above; these are reported so a metal-site case is not scored with a rule calibrated on organic ligands.",
+  "non_metal": {
+   "n_pos": 18,
+   "n_neg": 54,
+   "thresholds": {
+    "t_plddt": 92.0,
+    "t_centroid": 2.0,
+    "t_recall": 0.9,
+    "sensitivity": 0.5,
+    "specificity": 0.9444,
+    "youden_j": 0.4444
+   },
+   "specificity_target_0.9_feasible": true
+  },
+  "metal": {
+   "n_pos": 6,
+   "n_neg": 18,
+   "thresholds": {
+    "t_plddt": 92.0,
+    "t_centroid": 2.0,
+    "t_recall": 0.5,
+    "sensitivity": 0.1667,
+    "specificity": 1.0,
+    "youden_j": 0.1667
+   },
+   "specificity_target_0.9_feasible": true
+  }
+ },
+ "runtime": {
+  "n_jobs": 24,
+  "median_job_wall_s": 236.0,
+  "median_seed_inference_s": 13.5,
+  "total_gpu_s": 6051.7
+ },
+ "ipTM_note": "reported for completeness only; D23 removes ipTM as a readout",
+ "posebusters_note": "reported only, never part of the call (D23). NOT VALID for single-metal ligands: PoseBusters assumes van der Waals contact, so a correctly coordinated metal at ~2.4 A always fails minimum_distance_to_protein and volume_overlap_with_protein. Treat pb_valid as missing for lig_class == metal.",
+ "caveats": [
+  "Ligand pLDDT is unreliable for single-metal ligands: on the metal subset the cognate ion scores LOWER than the site-ablated variant, because AF3 gives a lone ion poor per-atom confidence wherever it puts it. Read the per-class AUCs, not the pooled number, and do not call a metal-site case on pLDDT.",
+  "Geometry readouts (centroid distance, site recall) separate the metal class cleanly where pLDDT and PAE do not -- further support for the D23 concordance rule requiring pLDDT AND a geometry readout.",
+  "Panel decoys are hard in-class near-misses, so these AUCs are a lower bound relative to the caffeine-style decoys in docs/COFOLD.md Sec.4.3."
+ ]
+}

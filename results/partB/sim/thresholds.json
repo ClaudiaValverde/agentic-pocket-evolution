@@ -1,0 +1,140 @@
+{
+ "schema": "partb-thresholds-v1",
+ "prereg_sha256": "52f9461890984c210b730af86c40de221307a668e7d4b38098b3316059690d83",
+ "snapshot_id": "20261030T085136Z",
+ "event_fdr_target": 0.1,
+ "pi_ref": 0.05,
+ "reference_noise_multiplier": 1.0,
+ "noise_model": {
+  "false_A": 0.05,
+  "false_P": 0.02,
+  "w_present": 0.05,
+  "u_present": 0.15,
+  "u_absent": 0.5,
+  "heterogeneity": 20.0,
+  "source": "defaults (prereg false_A_target; other rates placeholders)"
+ },
+ "noise_model_is_placeholder": true,
+ "frozen_rules": {
+  "gain_min_species": 3,
+  "gain_min_frac_present": 0.8,
+  "gain_min_absent_members_out": 2,
+  "gain_min_out_lineages": 2,
+  "loss_min_out_lineages_present": 2,
+  "loss_min_species_absent": 2,
+  "loss_min_frac_absent": 0.8,
+  "gain_min_species_cal": 3,
+  "loss_min_species_cal": 2,
+  "gain_min_margin": 0.0,
+  "loss_min_margin": 0.0,
+  "gain_min_out_lineages_cal": 2,
+  "loss_min_out_lineages_cal": 2,
+  "require_unambiguous": true
+ },
+ "chosen": {
+  "1:1": {
+   "gain": {
+    "min_species": 3,
+    "min_margin": 1.0,
+    "min_out_lineages": 2,
+    "recall": 0.4263537662687976,
+    "fdr": 0.023105235680621887,
+    "fdr_all_pi": {
+     "0.02": 0.04329768396590163,
+     "0.05": 0.023105235680621887,
+     "0.1": 0.016183660661460396,
+     "0.2": 0.012685961402941969
+    },
+    "fdr_strict": 0.041822017416833,
+    "recall_consistent": 0.43461797828579135,
+    "false_calls_per_null_sog": 0.00015652539920553494
+   },
+   "loss": {
+    "min_species": 3,
+    "min_margin": 1.0,
+    "min_out_lineages": 2,
+    "recall": 0.10864702498881575,
+    "fdr": 0.07007234918749504,
+    "fdr_all_pi": {
+     "0.02": 0.10724144705781857,
+     "0.05": 0.07007234918749504,
+     "0.1": 0.05698519383513553,
+     "0.2": 0.0503025026198016
+    },
+    "fdr_strict": 0.07554656365370252,
+    "recall_consistent": 0.1092882554696321,
+    "false_calls_per_null_sog": 8.155104832557282e-05
+   }
+  },
+  "2:1": {
+   "gain": {
+    "min_species": 3,
+    "min_margin": 1.0,
+    "min_out_lineages": 2,
+    "recall": 0.2816744217411828,
+    "fdr": 0.013219645324193128,
+    "fdr_all_pi": {
+     "0.02": 0.014018697767657958,
+     "0.05": 0.013219645324193128,
+     "0.1": 0.012953006626250202,
+     "0.2": 0.012819633233487473
+    },
+    "fdr_strict": 0.0358521163828979,
+    "recall_consistent": 0.28828646570908356,
+    "false_calls_per_null_sog": 3.9460184673664275e-06
+   },
+   "loss": {
+    "min_species": 3,
+    "min_margin": 1.0,
+    "min_out_lineages": 3,
+    "recall": 0.07947423361240706,
+    "fdr": 0.08331781109625731,
+    "fdr_all_pi": {
+     "0.02": 0.12772947321937017,
+     "0.05": 0.08331781109625731,
+     "0.1": 0.06749158619260447,
+     "0.2": 0.05937176331137044
+    },
+    "fdr_strict": 0.1004854085106259,
+    "recall_consistent": 0.08091007860931808,
+    "false_calls_per_null_sog": 7.497435087996212e-05
+   }
+  },
+  "3:1": {
+   "gain": {
+    "min_species": 3,
+    "min_margin": 1.0,
+    "min_out_lineages": 2,
+    "recall": 0.1876896621484928,
+    "fdr": 0.013992908414771254,
+    "fdr_all_pi": {
+     "0.02": 0.013992908414771254,
+     "0.05": 0.013992908414771254,
+     "0.1": 0.013992908414771254,
+     "0.2": 0.013992908414771254
+    },
+    "fdr_strict": 0.03718758107757503,
+    "recall_consistent": 0.1922112077685616,
+    "false_calls_per_null_sog": 0.0
+   },
+   "loss": {
+    "min_species": 3,
+    "min_margin": 1.0,
+    "min_out_lineages": 4,
+    "recall": 0.05712277113823736,
+    "fdr": 0.08790787948426787,
+    "fdr_all_pi": {
+     "0.02": 0.13742887288375358,
+     "0.05": 0.08790787948426787,
+     "0.1": 0.07011265320661127,
+     "0.2": 0.06095208169418245
+    },
+    "fdr_strict": 0.11586876872573054,
+    "recall_consistent": 0.058763128182186146,
+    "false_calls_per_null_sog": 6.18209559887407e-05
+   }
+  }
+ },
+ "apply": "Rules.from_prereg(calibrated={'gain_min_species_cal': chosen['2:1']['gain']['min_species'], 'gain_min_margin': ..., 'loss_min_species_cal': ..., 'loss_min_margin': ...})",
+ "real_data_rule": "on real SOGs, re-check FDR with events.empirical_fdr(null calls per SOG from a simulation on the same trees with measured rates, n_real_sogs, n_real_calls)"
+}

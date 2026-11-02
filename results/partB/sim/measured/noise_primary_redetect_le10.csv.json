@@ -1,0 +1,14 @@
+{
+ "output": "noise_primary_redetect_le10.csv",
+ "snapshot_id": "20261030T085136Z",
+ "prereg_sha256": "52f9461890984c210b730af86c40de221307a668e7d4b38098b3316059690d83",
+ "git_commit": "4fe605fdcf95684bb4ce347ceb7be9908bd1b964+dirty",
+ "seed": 0,
+ "created_utc": "2026-10-30T11:46:56Z",
+ "sha256": "e2d2bcc3aa3b2c834d5240761a0d8a10f23c7962ec9d9488769329eec8d8ebf5",
+ "script": "scripts/partB/make_noise_json.py",
+ "argv": [
+  "--states",
+  "/tmp/pe_big/partB/20261030T085136Z/O1/states_d11_t0.2"
+ ]
+}

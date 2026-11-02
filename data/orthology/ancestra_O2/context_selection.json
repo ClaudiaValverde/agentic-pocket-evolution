@@ -1,0 +1,208 @@
+{
+ "snapshot": "20261030T085136Z",
+ "uniprot_refprot_release": "Release 2026_03, 02-Sep-2026",
+ "readme_md5": "e442d51330199a402ca7f646da913bf5",
+ "taxdump": {
+  "nodes.dmp": {
+   "md5": "46ec4ab886d9b3edc0f775eb0e6f39d6",
+   "mtime": "2026-10-30T08:28:12"
+  },
+  "names.dmp": {
+   "md5": "7e1561195dde03e7829c068657a20bb3",
+   "mtime": "2026-10-30T08:28:55"
+  },
+  "merged.dmp": {
+   "md5": "b97d1ffc79f0484e1a4e0c04d2b97f0c",
+   "mtime": "2026-10-30T08:26:17"
+  },
+  "taxdump.tar.gz": {
+   "md5": "a7931e8257ae5d55950eb5a43ac004d1",
+   "mtime": "2026-10-30T08:57:37"
+  }
+ },
+ "config": {
+  "max_total_proteins": 1550000,
+  "min_proteins": 1000,
+  "max_proteins": 45000,
+  "exclude_placeholder_names": true,
+  "max_proteins_slot": 32000,
+  "min_fc_coverage": 0.8,
+  "eukaryote_slots": [
+   {
+    "name": "Primates",
+    "taxid": 9443,
+    "n": 1
+   },
+   {
+    "name": "Laurasiatheria",
+    "taxid": 314145,
+    "n": 1
+   },
+   {
+    "name": "Metatheria",
+    "taxid": 9263,
+    "n": 1
+   },
+   {
+    "name": "Aves",
+    "taxid": 8782,
+    "n": 1
+   },
+   {
+    "name": "Lepidosauria",
+    "taxid": 8504,
+    "n": 1
+   },
+   {
+    "name": "Amphibia",
+    "taxid": 8292,
+    "n": 1
+   },
+   {
+    "name": "Actinopterygii",
+    "taxid": 7898,
+    "n": 1
+   },
+   {
+    "name": "Chondrichthyes",
+    "taxid": 7777,
+    "n": 1
+   },
+   {
+    "name": "Cyclostomata",
+    "taxid": 1476529,
+    "n": 1
+   },
+   {
+    "name": "Insecta",
+    "taxid": 50557,
+    "n": 4
+   },
+   {
+    "name": "Arachnida",
+    "taxid": 6854,
+    "n": 1
+   },
+   {
+    "name": "Nematoda",
+    "taxid": 6231,
+    "n": 3
+   },
+   {
+    "name": "Platyhelminthes",
+    "taxid": 6157,
+    "n": 1
+   },
+   {
+    "name": "Mollusca",
+    "taxid": 6447,
+    "n": 1
+   },
+   {
+    "name": "Echinodermata",
+    "taxid": 7586,
+    "n": 1
+   },
+   {
+    "name": "Cnidaria",
+    "taxid": 6073,
+    "n": 1
+   },
+   {
+    "name": "Choanoflagellata",
+    "taxid": 28009,
+    "n": 1
+   },
+   {
+    "name": "Embryophyta",
+    "taxid": 3193,
+    "n": 5
+   },
+   {
+    "name": "Chlorophyta",
+    "taxid": 3041,
+    "n": 1
+   },
+   {
+    "name": "Saccharomycotina",
+    "taxid": 147537,
+    "n": 2
+   },
+   {
+    "name": "Pezizomycotina",
+    "taxid": 147538,
+    "n": 3
+   },
+   {
+    "name": "Basidiomycota",
+    "taxid": 5204,
+    "n": 2
+   },
+   {
+    "name": "Mucoromycota",
+    "taxid": 1913637,
+    "n": 1
+   },
+   {
+    "name": "Kinetoplastea",
+    "taxid": 5653,
+    "n": 1
+   },
+   {
+    "name": "Apicomplexa",
+    "taxid": 5794,
+    "n": 1
+   },
+   {
+    "name": "Stramenopiles",
+    "taxid": 33634,
+    "n": 2
+   },
+   {
+    "name": "Amoebozoa",
+    "taxid": 554915,
+    "n": 1
+   }
+  ],
+  "min_size_ratio": 0.9,
+  "min_atlas_overlap": 0.9,
+  "atlas_max_total": 100,
+  "atlas_groups": [
+   {
+    "name": "protists",
+    "taxid": 2759,
+    "exclude": [
+     4751,
+     33090,
+     33208
+    ],
+    "quota": 8
+   },
+   {
+    "name": "bacteria",
+    "taxid": 2,
+    "quota": 60
+   },
+   {
+    "name": "archaea",
+    "taxid": 2157,
+    "quota": 30
+   }
+  ],
+  "max_per_class": 6,
+  "max_per_genus": 1
+ },
+ "n_candidates": 21468,
+ "n_evaluated": 171,
+ "n_selected": 111,
+ "n_selected_by_source": {
+  "atlas": 72,
+  "local": 39
+ },
+ "n_proteins_context": 992158,
+ "n_proteins_o2": 1549554,
+ "per_part": {
+  "b": 71,
+  "a": 40
+ }
+}

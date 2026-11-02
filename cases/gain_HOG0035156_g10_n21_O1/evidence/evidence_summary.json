@@ -1,0 +1,234 @@
+{
+ "f1": {
+  "status": "pass",
+  "n_species_change": 3,
+  "clade_purity": 1.0,
+  "lca_purity": 1.0,
+  "single_event": true,
+  "n_out_support": 16,
+  "shape": "clean clade",
+  "detail": "P in 3 derived species (purity 1.00 of informative derived members; 1.00 over all members under the species-tree LCA: clean clade); single tree-consistent event: True; outgroup support: A in 16 outgroup species"
+ },
+ "f2": {
+  "status": "fail",
+  "strength": "none",
+  "about_change": false,
+  "detail": "no experimental evidence at the footprint",
+  "present": {
+   "n_members_with_evidence": 0,
+   "n_biolip": 0,
+   "n_uniprot_exp": 0,
+   "n_mcsa_ref": 0,
+   "pdb_ids": [],
+   "ligands": [],
+   "ligand_tokens": []
+  },
+  "absent": {
+   "n_members_with_evidence": 0,
+   "n_biolip": 0,
+   "n_uniprot_exp": 0,
+   "n_mcsa_ref": 0,
+   "pdb_ids": [],
+   "ligands": [],
+   "ligand_tokens": []
+  },
+  "chembl_present_proteins": 0,
+  "chembl_absent_proteins": 0,
+  "n_members_numbering_unverified": 4,
+  "n_hits_excluded_tau_tuning": 0,
+  "sensitivity_og_wide_exclusion": {
+   "status": "fail",
+   "n_hits_excluded": 0
+  }
+ },
+ "f3": {
+  "status": "pass",
+  "passing": [
+   "conservation",
+   "rescue_consistency"
+  ],
+  "detail": "conservation: pass (5/13 footprint columns clade-specific (rate 0.38 vs background 0.25); derived conservation 0.81, outgroup identity to derived majority 0.28); rescue_consistency: pass (present side re-detected in >= 3/6 BURROW settings for 1.00 of 3 members (median 6); absent side max 0/6 over 21 members); source_consistency: na (no present-side member in the v6/v4 re-detection sample); cofolding: pending (placeholder; filled by the co-folding agent)"
+ },
+ "lines": {
+  "conservation": {
+   "status": "pass",
+   "n_specific": 5,
+   "n_fp_cols": 13,
+   "rate_fp": 0.385,
+   "rate_bg": 0.25,
+   "mean_cons_derived": 0.808,
+   "mean_identity_out": 0.278,
+   "detail": "5/13 footprint columns clade-specific (rate 0.38 vs background 0.25); derived conservation 0.81, outgroup identity to derived majority 0.28"
+  },
+  "rescue_consistency": {
+   "status": "pass",
+   "frac_present_majority": 1.0,
+   "median_hits_present": 6.0,
+   "max_hits_absent": 0,
+   "detail": "present side re-detected in >= 3/6 BURROW settings for 1.00 of 3 members (median 6); absent side max 0/6 over 21 members"
+  },
+  "source_consistency": {
+   "status": "na",
+   "detail": "no present-side member in the v6/v4 re-detection sample"
+  },
+  "cofolding": {
+   "status": "pending",
+   "detail": "placeholder; filled by the co-folding agent"
+  }
+ },
+ "identifier_checks": {
+  "pdb": {},
+  "uniprot": {
+   "A0A077ZKA0": {
+    "resolved": true,
+    "title": "5-methyltetrahydropteroyltriglutamate--homocysteine S-methyltransferase",
+    "organism": "Trichuris trichiura",
+    "retrieved_utc": "2026-10-30T16:18:09Z"
+   },
+   "A0A0A2V504": {
+    "resolved": true,
+    "title": "",
+    "organism": "Paracoccidioides lutzii (strain ATCC MYA-826 / Pb01)",
+    "retrieved_utc": "2026-10-30T16:18:10Z"
+   },
+   "A0A0D2DJP9": {
+    "resolved": true,
+    "title": "Cobalamin-independent methionine synthase MetE C-terminal/archaeal domain-containing protein",
+    "organism": "Fonsecaea pedrosoi CBS 271.37",
+    "retrieved_utc": "2026-10-30T16:18:10Z"
+   },
+   "A0A0D2G6F2": {
+    "resolved": true,
+    "title": "Cobalamin-independent methionine synthase MetE C-terminal/archaeal domain-containing protein",
+    "organism": "Fonsecaea pedrosoi CBS 271.37",
+    "retrieved_utc": "2026-10-30T16:18:10Z"
+   },
+   "A0A0D2GSE8": {
+    "resolved": true,
+    "title": "5-methyltetrahydropteroyltriglutamate--homocysteine S-methyltransferase",
+    "organism": "Fonsecaea pedrosoi CBS 271.37",
+    "retrieved_utc": "2026-10-30T16:06:18Z"
+   },
+   "A0A0D2H305": {
+    "resolved": true,
+    "title": "Cobalamin-independent methionine synthase MetE C-terminal/archaeal domain-containing protein",
+    "organism": "Fonsecaea pedrosoi CBS 271.37",
+    "retrieved_utc": "2026-10-30T16:18:10Z"
+   },
+   "A0A0D2H4J6": {
+    "resolved": true,
+    "title": "Cobalamin-independent methionine synthase MetE C-terminal/archaeal domain-containing protein",
+    "organism": "Fonsecaea pedrosoi CBS 271.37",
+    "retrieved_utc": "2026-10-30T16:18:10Z"
+   },
+   "A0A0D2HEW5": {
+    "resolved": true,
+    "title": "Cobalamin-independent methionine synthase MetE C-terminal/archaeal domain-containing protein",
+    "organism": "Fonsecaea pedrosoi CBS 271.37",
+    "retrieved_utc": "2026-10-30T16:18:10Z"
+   },
+   "A0A0H3GH70": {
+    "resolved": true,
+    "title": "5-methyltetrahydropteroyltriglutamate--homocysteine methyltransferase",
+    "organism": "Klebsiella pneumoniae subsp. pneumoniae (strain HS11286)",
+    "retrieved_utc": "2026-10-30T16:18:11Z"
+   },
+   "A0A0H3GN30": {
+    "resolved": true,
+    "title": "",
+    "organism": "Klebsiella pneumoniae subsp. pneumoniae (strain HS11286)",
+    "retrieved_utc": "2026-10-30T16:18:11Z"
+   },
+   "A0A0H3GU58": {
+    "resolved": true,
+    "title": "",
+    "organism": "Klebsiella pneumoniae subsp. pneumoniae (strain HS11286)",
+    "retrieved_utc": "2026-10-30T16:18:11Z"
+   },
+   "A0A0R0FQE0": {
+    "resolved": true,
+    "title": "Cobalamin-independent methionine synthase MetE C-terminal/archaeal domain-containing protein",
+    "organism": "Glycine max",
+    "retrieved_utc": "2026-10-30T16:18:12Z"
+   },
+   "A0A0R0FR64": {
+    "resolved": true,
+    "title": "Cobalamin-independent methionine synthase MetE N-terminal domain-containing protein",
+    "organism": "Glycine max",
+    "retrieved_utc": "2026-10-30T16:06:19Z"
+   },
+   "A0A0R4J5Z8": {
+    "resolved": true,
+    "title": "5-methyltetrahydropteroyltriglutamate--homocysteine S-methyltransferase",
+    "organism": "Glycine max",
+    "retrieved_utc": "2026-10-30T16:06:19Z"
+   },
+   "A0A175VRB1": {
+    "resolved": true,
+    "title": "5-methyltetrahydropteroyltriglutamate--homocysteine S-methyltransferase",
+    "organism": "Madurella mycetomatis",
+    "retrieved_utc": "2026-10-30T16:06:19Z"
+   },
+   "A0A175VVE5": {
+    "resolved": true,
+    "title": "",
+    "organism": "Madurella mycetomatis",
+    "retrieved_utc": "2026-10-30T16:18:12Z"
+   },
+   "A0A175WA68": {
+    "resolved": true,
+    "title": "",
+    "organism": "Madurella mycetomatis",
+    "retrieved_utc": "2026-10-30T16:18:12Z"
+   },
+   "A0A1C1C9Q8": {
+    "resolved": true,
+    "title": "",
+    "organism": "Cladophialophora carrionii",
+    "retrieved_utc": "2026-10-30T16:18:12Z"
+   },
+   "A0A1C1CVB6": {
+    "resolved": true,
+    "title": "Cobalamin-independent methionine synthase MetE C-terminal/archaeal domain-containing protein",
+    "organism": "Cladophialophora carrionii",
+    "retrieved_utc": "2026-10-30T16:18:12Z"
+   },
+   "A0A1C1CZT5": {
+    "resolved": true,
+    "title": "Cobalamin-independent methionine synthase MetE C-terminal/archaeal domain-containing protein",
+    "organism": "Cladophialophora carrionii",
+    "retrieved_utc": "2026-10-30T16:18:12Z"
+   },
+   "A0A1C1D1V7": {
+    "resolved": true,
+    "title": "5-methyltetrahydropteroyltriglutamate--homocysteine S-methyltransferase",
+    "organism": "Cladophialophora carrionii",
+    "retrieved_utc": "2026-10-30T16:06:20Z"
+   },
+   "A0A2K7GFE5": {
+    "resolved": true,
+    "title": "5-methyltetrahydropteroyltriglutamate--homocysteine S-methyltransferase",
+    "organism": "Glycine max",
+    "retrieved_utc": "2026-10-30T16:18:12Z"
+   },
+   "A0A804LS43": {
+    "resolved": true,
+    "title": "5-methyltetrahydropteroyltriglutamate--homocysteine S-methyltransferase",
+    "organism": "Zea mays",
+    "retrieved_utc": "2026-10-30T16:18:13Z"
+   },
+   "A0A804M1Q9": {
+    "resolved": true,
+    "title": "5-methyltetrahydropteroyltriglutamate--homocysteine S-methyltransferase",
+    "organism": "Zea mays",
+    "retrieved_utc": "2026-10-30T16:18:13Z"
+   },
+   "A0A804P9G1": {
+    "resolved": true,
+    "title": "5-methyltetrahydropteroyltriglutamate--homocysteine S-methyltransferase",
+    "organism": "Zea mays",
+    "retrieved_utc": "2026-10-30T16:18:14Z"
+   }
+  }
+ }
+}

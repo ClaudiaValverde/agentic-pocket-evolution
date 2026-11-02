@@ -1,0 +1,18 @@
+{
+ "output": "recall_by_clade.csv",
+ "snapshot_id": "20261030T085136Z",
+ "prereg_sha256": "52f9461890984c210b730af86c40de221307a668e7d4b38098b3316059690d83",
+ "git_commit": "cbe924346b0adeee1359ea8d7fae54ac6bedf5e0+dirty",
+ "seed": 0,
+ "created_utc": "2026-10-30T10:45:31Z",
+ "sha256": "c1c609d20f71d8cce816b712df6f9ce9e240d4c8db3f7fa3b67f6db1c76ab5b5",
+ "script": "scripts/partB/run_sim.py",
+ "argv": [
+  "--n-trees",
+  "30000",
+  "--reps",
+  "30",
+  "--out",
+  "results/partB/sim"
+ ]
+}

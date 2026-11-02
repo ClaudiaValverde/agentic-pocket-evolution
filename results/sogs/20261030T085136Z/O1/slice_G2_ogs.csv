@@ -1,0 +1,5 @@
+og_id,level,half,n_members,n_species,n_with_model,n_seq_mismatch,n_cols,identity,n_sites,n_sogs,n_sogs_multispecies,msa_s,graph_s,rows_U,rows_A,rows_P,rows_G
+HOG0025274,Bilateria,test,237,13,221,4,2942,0.24,641,25,10,0.0,0.4,4885,649,391,
+HOG0027286,Eukaryota,test,41,30,38,0,811,0.501,102,19,8,0.0,0.03,395,263,121,19.0
+HOG0035618,cellular organisms,test,57,24,54,1,783,0.428,257,19,7,0.0,0.07,782,83,218,418.0
+HOG0035671,cellular organisms,tune,201,26,181,4,1387,0.276,566,15,10,0.0,0.27,2248,397,370,300.0

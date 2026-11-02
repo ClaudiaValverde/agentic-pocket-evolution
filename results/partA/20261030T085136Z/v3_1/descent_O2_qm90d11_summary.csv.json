@@ -1,0 +1,22 @@
+{
+ "snapshot_id": "20261030T085136Z",
+ "prereg_sha256": "52f9461890984c210b730af86c40de221307a668e7d4b38098b3316059690d83",
+ "git_commit": "9bc7034d40827d9aefea14010507917823291ffc",
+ "seed": 0,
+ "code_sha256_16": {
+  "directional.py": "d495d982cdc833aa",
+  "estimands.py": "5dd2be39c0e89141",
+  "homology.py": "e6ee620947a140b1",
+  "nulls.py": "6f193b3d663c550d",
+  "pairs.py": "642c9b09a648492f"
+ },
+ "written_utc": "2026-10-30T16:07:16Z",
+ "stage": "descent_2d",
+ "datasets": {
+  "O2_qm90d11": "/tmp/pe_big/partA_descent_v31/20261030T085136Z/O2/pairs.parquet"
+ },
+ "variant": "qm90d11",
+ "min_cell": 20,
+ "n_boot": 200,
+ "wall_s": 26.799703359603882
+}

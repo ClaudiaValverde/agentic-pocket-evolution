@@ -1,0 +1,5 @@
+type,null,real_called,null_called_mean,null_called_max,real_f1,null_f1_mean
+gain,null_curveball,179,29.333333333333332,32,151,18.0
+gain,null_pseudo_clade,179,15.666666666666666,21,151,13.333333333333334
+loss,null_curveball,63,65.66666666666667,70,32,24.666666666666668
+loss,null_pseudo_clade,63,23.666666666666668,25,32,9.0

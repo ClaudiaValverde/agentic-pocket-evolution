@@ -1,0 +1,30 @@
+{
+ "totals": {
+  "total": 5189672883128.0,
+  "within_group": 1956261978.0,
+  "cross_group": 5187716621150.0,
+  "H1": 94852839.0,
+  "H2": 554871028.0,
+  "H12": 1306538111.0,
+  "H3j": 70267513453.0,
+  "rest": 5117449107697.0
+ },
+ "split": {
+  "H1": 0.12368118667084509,
+  "H12": 0.13398956604929968,
+  "H2": 0.12969470096939947
+ },
+ "split_mode": "sog+placeholder_fallback",
+ "N_db": 3221702,
+ "split_source": "<repo>/results/sogs/20261030T085136Z/O2_r1_split/og_split_o2.parquet",
+ "half_sites": {
+  "test": 629206,
+  "tune": 577790,
+  "excluded_crossover_or_nonhog": 2014706
+ },
+ "volume_tertiles_A3": [
+  326.0,
+  485.0
+ ],
+ "wall_s": 2867.009075641632
+}

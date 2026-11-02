@@ -1,0 +1,25 @@
+{
+ "output": "m3.json",
+ "snapshot_id": "20261030T085136Z",
+ "prereg_sha256": "52f9461890984c210b730af86c40de221307a668e7d4b38098b3316059690d83",
+ "git_commit": "e1aab3a9bf33c46f2e5610850a50320d132854c6+dirty",
+ "seed": [
+  0,
+  1,
+  2
+ ],
+ "created_utc": "2026-10-30T15:00:01Z",
+ "sha256": "32bef24153930592b0a24618218d15da8defbc876e1e494ec9b72f11629c10c3",
+ "script": "scripts/partB/run_m3.py",
+ "argv": [
+  "--release",
+  "O1_r3",
+  "--tau",
+  "0.2",
+  "--states-dir",
+  "/tmp/pe_big/sogs/20261030T085136Z/O1_r3/states_t0.2",
+  "--workers",
+  "16",
+  "--numbers"
+ ]
+}

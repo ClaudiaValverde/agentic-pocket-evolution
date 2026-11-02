@@ -1,0 +1,233 @@
+{
+ "f1": {
+  "status": "pass",
+  "n_species_change": 3,
+  "clade_purity": 1.0,
+  "lca_purity": 1.0,
+  "single_event": true,
+  "n_out_support": 6,
+  "shape": "clean clade",
+  "detail": "A in 3 derived species (purity 1.00 of informative derived members; 1.00 over all members under the species-tree LCA: clean clade); single tree-consistent event: True; outgroup support: P in 6 outgroup species"
+ },
+ "f2": {
+  "status": "fail",
+  "strength": "protein-level only",
+  "about_change": false,
+  "detail": "ChEMBL pChEMBL>=6 activity on 1 outgroup/ancestral (pocket present) protein(s): protein-level only, not mapped to the footprint",
+  "present": {
+   "n_members_with_evidence": 0,
+   "n_biolip": 0,
+   "n_uniprot_exp": 0,
+   "n_mcsa_ref": 0,
+   "pdb_ids": [],
+   "ligands": [],
+   "ligand_tokens": []
+  },
+  "absent": {
+   "n_members_with_evidence": 0,
+   "n_biolip": 0,
+   "n_uniprot_exp": 0,
+   "n_mcsa_ref": 0,
+   "pdb_ids": [],
+   "ligands": [],
+   "ligand_tokens": []
+  },
+  "chembl_present_proteins": 1,
+  "chembl_absent_proteins": 0,
+  "n_members_numbering_unverified": 0,
+  "n_hits_excluded_tau_tuning": 0,
+  "sensitivity_og_wide_exclusion": {
+   "status": "fail",
+   "n_hits_excluded": 0
+  }
+ },
+ "f3": {
+  "status": "pass",
+  "passing": [
+   "rescue_consistency"
+  ],
+  "detail": "conservation: fail (8/14 footprint columns clade-specific (rate 0.57 vs background 0.62); derived conservation 0.98, outgroup identity to derived majority 0.37); rescue_consistency: pass (present side re-detected in >= 3/6 BURROW settings for 0.86 of 7 members (median 5); absent side max 0/6 over 3 members); source_consistency: na (no present-side member in the v6/v4 re-detection sample); cofolding: pending (placeholder; filled by the co-folding agent)"
+ },
+ "lines": {
+  "conservation": {
+   "status": "fail",
+   "n_specific": 8,
+   "n_fp_cols": 14,
+   "rate_fp": 0.571,
+   "rate_bg": 0.622,
+   "mean_cons_derived": 0.976,
+   "mean_identity_out": 0.371,
+   "detail": "8/14 footprint columns clade-specific (rate 0.57 vs background 0.62); derived conservation 0.98, outgroup identity to derived majority 0.37"
+  },
+  "rescue_consistency": {
+   "status": "pass",
+   "frac_present_majority": 0.857,
+   "median_hits_present": 5.0,
+   "max_hits_absent": 0,
+   "detail": "present side re-detected in >= 3/6 BURROW settings for 0.86 of 7 members (median 5); absent side max 0/6 over 3 members"
+  },
+  "source_consistency": {
+   "status": "na",
+   "detail": "no present-side member in the v6/v4 re-detection sample"
+  },
+  "cofolding": {
+   "status": "pending",
+   "detail": "placeholder; filled by the co-folding agent"
+  }
+ },
+ "identifier_checks": {
+  "pdb": {},
+  "uniprot": {
+   "A0A077ZFJ4": {
+    "resolved": true,
+    "title": "DNA-directed RNA polymerase",
+    "organism": "Trichuris trichiura",
+    "retrieved_utc": "2026-10-30T14:30:13Z"
+   },
+   "A0A0D2HBC4": {
+    "resolved": true,
+    "title": "DNA-directed RNA polymerase",
+    "organism": "Fonsecaea pedrosoi CBS 271.37",
+    "retrieved_utc": "2026-10-30T14:30:13Z"
+   },
+   "A0A0K0ECF8": {
+    "resolved": true,
+    "title": "DNA-directed RNA polymerase",
+    "organism": "Strongyloides stercoralis",
+    "retrieved_utc": "2026-10-30T14:30:13Z"
+   },
+   "A0A0R0FNB7": {
+    "resolved": true,
+    "title": "DNA-directed RNA polymerase",
+    "organism": "Glycine max",
+    "retrieved_utc": "2026-10-30T14:30:13Z"
+   },
+   "A0A0R0ISI6": {
+    "resolved": true,
+    "title": "DNA-directed RNA polymerase",
+    "organism": "Glycine max",
+    "retrieved_utc": "2026-10-30T14:30:14Z"
+   },
+   "A0A0R0KED1": {
+    "resolved": true,
+    "title": "DNA-directed RNA polymerase",
+    "organism": "Glycine max",
+    "retrieved_utc": "2026-10-30T14:30:14Z"
+   },
+   "A0A175VP72": {
+    "resolved": true,
+    "title": "DNA-directed RNA polymerase",
+    "organism": "Madurella mycetomatis",
+    "retrieved_utc": "2026-10-30T14:30:14Z"
+   },
+   "A0A1C1C7E7": {
+    "resolved": true,
+    "title": "DNA-directed RNA polymerase",
+    "organism": "Cladophialophora carrionii",
+    "retrieved_utc": "2026-10-30T14:30:14Z"
+   },
+   "A0A1D6IJV3": {
+    "resolved": true,
+    "title": "DNA-directed RNA polymerase",
+    "organism": "Zea mays",
+    "retrieved_utc": "2026-10-30T14:30:14Z"
+   },
+   "A0A1D8PCA4": {
+    "resolved": true,
+    "title": "DNA-directed RNA polymerase",
+    "organism": "Candida albicans (strain SC5314 / ATCC MYA-2876)",
+    "retrieved_utc": "2026-10-30T14:30:14Z"
+   },
+   "A0A1D8PR19": {
+    "resolved": true,
+    "title": "DNA-directed RNA polymerase",
+    "organism": "Candida albicans (strain SC5314 / ATCC MYA-2876)",
+    "retrieved_utc": "2026-10-30T14:30:15Z"
+   },
+   "A0A3P7FE93": {
+    "resolved": true,
+    "title": "DNA-directed RNA polymerase",
+    "organism": "Wuchereria bancrofti",
+    "retrieved_utc": "2026-10-30T14:30:15Z"
+   },
+   "A0A3P7Q9B2": {
+    "resolved": true,
+    "title": "DNA-directed RNA polymerase",
+    "organism": "Dracunculus medinensis",
+    "retrieved_utc": "2026-10-30T14:30:15Z"
+   },
+   "A0A3Q0KPI7": {
+    "resolved": true,
+    "title": "DNA-directed RNA polymerase",
+    "organism": "Schistosoma mansoni",
+    "retrieved_utc": "2026-10-30T14:30:15Z"
+   },
+   "A0A4E9F0G0": {
+    "resolved": true,
+    "title": "DNA-directed RNA polymerase",
+    "organism": "Brugia malayi",
+    "retrieved_utc": "2026-10-30T14:30:15Z"
+   },
+   "A0A804LDE6": {
+    "resolved": true,
+    "title": "DNA-directed RNA polymerase",
+    "organism": "Zea mays",
+    "retrieved_utc": "2026-10-30T14:30:15Z"
+   },
+   "A0A804LR19": {
+    "resolved": true,
+    "title": "DNA-directed RNA polymerase",
+    "organism": "Zea mays",
+    "retrieved_utc": "2026-10-30T14:30:15Z"
+   },
+   "A0A804NBT5": {
+    "resolved": true,
+    "title": "DNA-directed RNA polymerase",
+    "organism": "Zea mays",
+    "retrieved_utc": "2026-10-30T14:30:15Z"
+   },
+   "A0A804PB00": {
+    "resolved": true,
+    "title": "DNA-directed RNA polymerase",
+    "organism": "Zea mays",
+    "retrieved_utc": "2026-10-30T14:30:16Z"
+   },
+   "A0A804QAV3": {
+    "resolved": true,
+    "title": "DNA-directed RNA polymerase N-terminal domain-containing protein",
+    "organism": "Zea mays",
+    "retrieved_utc": "2026-10-30T14:30:16Z"
+   },
+   "A0A804RDZ7": {
+    "resolved": true,
+    "title": "DNA-directed RNA polymerase",
+    "organism": "Zea mays",
+    "retrieved_utc": "2026-10-30T14:30:16Z"
+   },
+   "A0A804U9V6": {
+    "resolved": true,
+    "title": "DNA-directed RNA polymerase",
+    "organism": "Zea mays",
+    "retrieved_utc": "2026-10-30T14:30:16Z"
+   },
+   "A0A8I5Y8F7": {
+    "resolved": true,
+    "title": "DNA-directed RNA polymerase",
+    "organism": "Rattus norvegicus",
+    "retrieved_utc": "2026-10-30T14:30:16Z"
+   },
+   "A0A8R1U2W8": {
+    "resolved": true,
+    "title": "DNA-directed RNA polymerase",
+    "organism": "Onchocerca volvulus",
+    "retrieved_utc": "2026-10-30T14:30:16Z"
+   },
+   "A0AAF5DGA5": {
+    "resolved": true,
+    "title": "DNA-directed RNA polymerase",
+    "organism": "Strongyloides stercoralis",
+    "retrieved_utc": "2026-10-30T14:30:16Z"
+   }
+  }
+ }
+}

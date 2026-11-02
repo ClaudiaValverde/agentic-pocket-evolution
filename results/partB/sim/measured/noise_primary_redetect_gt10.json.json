@@ -1,0 +1,14 @@
+{
+ "output": "noise_primary_redetect_gt10.json",
+ "snapshot_id": "20261030T085136Z",
+ "prereg_sha256": "52f9461890984c210b730af86c40de221307a668e7d4b38098b3316059690d83",
+ "git_commit": "4fe605fdcf95684bb4ce347ceb7be9908bd1b964+dirty",
+ "seed": 0,
+ "created_utc": "2026-10-30T11:46:56Z",
+ "sha256": "8dc4d76628c09c67079caab6cd182d2b77fa153869d3b0d2a06e0c14d7f78b82",
+ "script": "scripts/partB/make_noise_json.py",
+ "argv": [
+  "--states",
+  "/tmp/pe_big/partB/20261030T085136Z/O1/states_d11_t0.2"
+ ]
+}

@@ -1,0 +1,9 @@
+{
+ "schema": "sogs-web-v1",
+ "snapshot": "TOY",
+ "orthology": "TOY",
+ "tau": 0.3,
+ "created_utc": "1970-01-01T00:00:00Z",
+ "code_sha256": null,
+ "toy": true
+}

@@ -1,0 +1,54 @@
+{
+ "n_O1_gains": 50,
+ "recovered_called": 2,
+ "recovered_candidate": 2,
+ "recovered_event": 2,
+ "o2_same_sog": 50,
+ "by_parent_kind": {
+  "duplication": {
+   "recovered_called": 0,
+   "recovered_event": 0,
+   "n": 32
+  },
+  "speciation": {
+   "recovered_called": 2,
+   "recovered_event": 2,
+   "n": 18
+  }
+ },
+ "n_O2_gains_called": 110,
+ "rule": "O2 clade holds >= 50 % of the O1 derived P members",
+ "diagnosis": {
+  "O1_state_vs_raw_O2_state_in_modal_O2_SOG": {
+   "A": {
+    "A": 0,
+    "P": 59,
+    "U": 106,
+    "not_in_O2_SOG_family": 617
+   },
+   "P": {
+    "A": 0,
+    "P": 411,
+    "U": 26,
+    "not_in_O2_SOG_family": 17
+   },
+   "W": {
+    "A": 1,
+    "P": 12,
+    "U": 19,
+    "not_in_O2_SOG_family": 20
+   }
+  },
+  "O1_A_that_are_U_on_O2_by_reason": {
+   "footprint_residues<=10": 58,
+   "partial_site_overlap": 32,
+   "plddt<90": 9,
+   "aligned<0.8": 4,
+   "length_ratio": 2,
+   "terminal_truncation": 1
+  },
+  "O1_A_members_in_another_O2_root_HOG": 617,
+  "O1_A_members_total": 782,
+  "reading": "O1 gains rest on outgroup absences; the share of those absent proteins that O2 places in a different root HOG than the derived clade measures orthology disagreement between O1 and O2."
+ }
+}

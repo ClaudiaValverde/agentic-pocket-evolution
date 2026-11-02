@@ -1,0 +1,17 @@
+[build-system]
+requires = ["setuptools>=64"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "pocketevo"
+version = "0.1.0"
+description = "Pocket-evolution analysis pipeline (sites, site orthogroups, events) over the AFDB pocket atlas"
+requires-python = ">=3.12"
+dependencies = ["numpy", "scipy", "pandas", "pyarrow"]
+
+[project.optional-dependencies]
+# research browser (webapp/README.md); install: uv pip install --python .venv/bin/python -r webapp/requirements.txt
+webapp = ["fastapi==0.162.0", "uvicorn==0.54.0", "httpx==0.28.1", "foldcomp==1.0.0", "gemmi==0.7.5", "pyyaml==6.0.3"]
+
+[tool.setuptools.packages.find]
+where = ["src"]

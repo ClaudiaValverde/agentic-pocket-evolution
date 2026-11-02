@@ -1,0 +1,88 @@
+{
+ "rule_prereg": "smallest k meeting false_A_target on the known-present set (TUNE half)",
+ "false_A_target": 0.05,
+ "grid": [
+  1,
+  2,
+  3,
+  4
+ ],
+ "hit_rule": "residue Jaccard >= 0.3 (pocket vs footprint)",
+ "k": null,
+ "k_largest_meeting_target": null,
+ "target_met": false,
+ "k_min_false_A": 1,
+ "if_target_not_met": "no k in the grid meets the target on the TUNE half: `k` is null (prereg gives no fallback; PI decision). k_min_false_A is the k with the lowest false-A after rescue (k=1, most conservative toward absence claims); residual false-A at that k must be propagated into the simulations.",
+ "tune_table": [
+  {
+   "k": 1,
+   "false_A_before": 0.6676069581570286,
+   "frac_cases_still_A": 0.2622309197651663,
+   "false_A_after": 0.17506718667914253,
+   "control_rescued_frac": 0.3276595744680851,
+   "n_cases_rescue_run": 511,
+   "n_controls": 470
+  },
+  {
+   "k": 2,
+   "false_A_before": 0.6676069581570286,
+   "frac_cases_still_A": 0.4500978473581213,
+   "false_A_after": 0.30048845474778196,
+   "control_rescued_frac": 0.1,
+   "n_cases_rescue_run": 511,
+   "n_controls": 470
+  },
+  {
+   "k": 3,
+   "false_A_before": 0.6676069581570286,
+   "frac_cases_still_A": 0.5596868884540117,
+   "false_A_after": 0.373650861121155,
+   "control_rescued_frac": 0.05319148936170213,
+   "n_cases_rescue_run": 511,
+   "n_controls": 470
+  },
+  {
+   "k": 4,
+   "false_A_before": 0.6676069581570286,
+   "frac_cases_still_A": 0.6301369863013698,
+   "false_A_after": 0.42068383664689474,
+   "control_rescued_frac": 0.02553191489361702,
+   "n_cases_rescue_run": 511,
+   "n_controls": 470
+  }
+ ],
+ "test_table": [
+  {
+   "k": 1,
+   "false_A_before": 0.6468068535825545,
+   "false_A_after": 0.18928294210191815,
+   "control_rescued_frac": 0.31675874769797424
+  },
+  {
+   "k": 2,
+   "false_A_before": 0.6468068535825545,
+   "false_A_after": 0.30934240823513476,
+   "control_rescued_frac": 0.10313075506445672
+  },
+  {
+   "k": 3,
+   "false_A_before": 0.6468068535825545,
+   "false_A_after": 0.3666680992717157,
+   "control_rescued_frac": 0.03867403314917127
+  },
+  {
+   "k": 4,
+   "false_A_before": 0.6468068535825545,
+   "false_A_after": 0.4012798372560665,
+   "control_rescued_frac": 0.01841620626151013
+  }
+ ],
+ "note": "false-A rate decreases monotonically as k decreases, so the literal prereg rule picks the smallest k that meets the target (k=1 whenever any k does). k_largest_meeting_target is reported for the PI (stricter rescue, fewer true absences turned into W); the prereg value is `k`.",
+ "n_cases": 1500,
+ "n_controls": 1392,
+ "n_controls_not_found": 108,
+ "snapshot_id": "20261030T085136Z",
+ "prereg_sha256": "52f9461890984c210b730af86c40de221307a668e7d4b38098b3316059690d83",
+ "git_commit": "cbe924346b0adeee1359ea8d7fae54ac6bedf5e0",
+ "seed": 0
+}

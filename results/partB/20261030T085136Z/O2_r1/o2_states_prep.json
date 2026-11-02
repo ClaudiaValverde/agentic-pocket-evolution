@@ -1,0 +1,14 @@
+{
+ "A_in": 548061,
+ "A_overlay_W": 50309,
+ "A_overlay_A": 50678,
+ "A_pending_to_U": 341796,
+ "A_not_pending_kept": 105278,
+ "overlays": [
+  "results/sogs/20261030T085136Z/O2_r1_rescue/rescue_A.parquet",
+  "results/sogs/20261030T085136Z/O2_r1_rescue2/rescue_A.parquet"
+ ],
+ "runtime_s": 127.57452082633972,
+ "out": "/tmp/pe_big/partB/20261030T085136Z/O2_r1/states_resc_t0.2",
+ "P_rescue": "not applied on O2 (overlay rescues A only)"
+}

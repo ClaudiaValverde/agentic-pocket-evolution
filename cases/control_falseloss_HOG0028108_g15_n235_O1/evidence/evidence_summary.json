@@ -1,0 +1,222 @@
+{
+ "f1": {
+  "status": "fail",
+  "n_species_change": 0,
+  "clade_purity": 0.0,
+  "lca_purity": 0.0,
+  "single_event": false,
+  "n_out_support": 8,
+  "shape": "scattered",
+  "detail": "A in 0 derived species (purity 0.00 of informative derived members; 0.00 over all members under the species-tree LCA: scattered); single tree-consistent event: False; outgroup support: P in 8 outgroup species"
+ },
+ "f2": {
+  "status": "fail",
+  "strength": "none",
+  "about_change": false,
+  "detail": "no experimental evidence at the footprint",
+  "present": {
+   "n_members_with_evidence": 0,
+   "n_biolip": 0,
+   "n_uniprot_exp": 0,
+   "n_mcsa_ref": 0,
+   "pdb_ids": [],
+   "ligands": [],
+   "ligand_tokens": []
+  },
+  "absent": {
+   "n_members_with_evidence": 0,
+   "n_biolip": 0,
+   "n_uniprot_exp": 0,
+   "n_mcsa_ref": 0,
+   "pdb_ids": [],
+   "ligands": [],
+   "ligand_tokens": []
+  },
+  "chembl_present_proteins": 0,
+  "chembl_absent_proteins": 0,
+  "n_members_numbering_unverified": 0,
+  "n_hits_excluded_tau_tuning": 0,
+  "sensitivity_og_wide_exclusion": {
+   "status": "fail",
+   "n_hits_excluded": 0
+  }
+ },
+ "f3": {
+  "status": "pending",
+  "passing": [],
+  "detail": "conservation: na (too few aligned members (derived 0, outgroup 21)); rescue_consistency: na (no rescue run for present-side members); source_consistency: na (no present-side member in the v6/v4 re-detection sample); cofolding: pending (placeholder; filled by the co-folding agent)"
+ },
+ "lines": {
+  "conservation": {
+   "status": "na",
+   "detail": "too few aligned members (derived 0, outgroup 21)"
+  },
+  "rescue_consistency": {
+   "status": "na",
+   "detail": "no rescue run for present-side members"
+  },
+  "source_consistency": {
+   "status": "na",
+   "detail": "no present-side member in the v6/v4 re-detection sample"
+  },
+  "cofolding": {
+   "status": "pending",
+   "detail": "placeholder; filled by the co-folding agent"
+  }
+ },
+ "identifier_checks": {
+  "pdb": {},
+  "uniprot": {
+   "A0A077YWD7": {
+    "resolved": true,
+    "title": "",
+    "organism": "Trichuris trichiura",
+    "retrieved_utc": "2026-10-30T16:18:18Z"
+   },
+   "A0A077YX24": {
+    "resolved": true,
+    "title": "",
+    "organism": "Trichuris trichiura",
+    "retrieved_utc": "2026-10-30T16:18:18Z"
+   },
+   "A0A077YZS9": {
+    "resolved": true,
+    "title": "",
+    "organism": "Trichuris trichiura",
+    "retrieved_utc": "2026-10-30T16:18:18Z"
+   },
+   "A0A077Z163": {
+    "resolved": true,
+    "title": "",
+    "organism": "Trichuris trichiura",
+    "retrieved_utc": "2026-10-30T16:18:18Z"
+   },
+   "A0A077Z3P1": {
+    "resolved": true,
+    "title": "",
+    "organism": "Trichuris trichiura",
+    "retrieved_utc": "2026-10-30T16:18:19Z"
+   },
+   "A0A077Z5Q2": {
+    "resolved": true,
+    "title": "",
+    "organism": "Trichuris trichiura",
+    "retrieved_utc": "2026-10-30T16:18:19Z"
+   },
+   "A0A077Z7D3": {
+    "resolved": true,
+    "title": "",
+    "organism": "Trichuris trichiura",
+    "retrieved_utc": "2026-10-30T16:18:19Z"
+   },
+   "A0A077Z844": {
+    "resolved": true,
+    "title": "",
+    "organism": "Trichuris trichiura",
+    "retrieved_utc": "2026-10-30T16:18:19Z"
+   },
+   "A0A077Z855": {
+    "resolved": true,
+    "title": "",
+    "organism": "Trichuris trichiura",
+    "retrieved_utc": "2026-10-30T16:06:27Z"
+   },
+   "A0A077ZB01": {
+    "resolved": true,
+    "title": "",
+    "organism": "Trichuris trichiura",
+    "retrieved_utc": "2026-10-30T16:18:19Z"
+   },
+   "A0A077ZHK3": {
+    "resolved": true,
+    "title": "",
+    "organism": "Trichuris trichiura",
+    "retrieved_utc": "2026-10-30T16:18:19Z"
+   },
+   "A0A0D2HA92": {
+    "resolved": true,
+    "title": "GPI-anchored wall transfer protein",
+    "organism": "Fonsecaea pedrosoi CBS 271.37",
+    "retrieved_utc": "2026-10-30T16:18:20Z"
+   },
+   "A0A0H5S1E8": {
+    "resolved": true,
+    "title": "",
+    "organism": "Brugia malayi",
+    "retrieved_utc": "2026-10-30T16:18:20Z"
+   },
+   "A0A0H5SMN4": {
+    "resolved": true,
+    "title": "Phosphatidylinositol-glycan biosynthesis class W protein",
+    "organism": "Brugia malayi",
+    "retrieved_utc": "2026-10-30T16:18:20Z"
+   },
+   "A0A0J9Y5G6": {
+    "resolved": true,
+    "title": "",
+    "organism": "Brugia malayi",
+    "retrieved_utc": "2026-10-30T16:06:28Z"
+   },
+   "A0A0K0DTA0": {
+    "resolved": true,
+    "title": "Phosphatidylinositol-glycan biosynthesis class W protein",
+    "organism": "Strongyloides stercoralis",
+    "retrieved_utc": "2026-10-30T16:18:20Z"
+   },
+   "A0A0K0DTA2": {
+    "resolved": true,
+    "title": "",
+    "organism": "Strongyloides stercoralis",
+    "retrieved_utc": "2026-10-30T16:18:20Z"
+   },
+   "A0A0K0DUE9": {
+    "resolved": true,
+    "title": "",
+    "organism": "Strongyloides stercoralis",
+    "retrieved_utc": "2026-10-30T16:18:20Z"
+   },
+   "A0A0K0DWU9": {
+    "resolved": true,
+    "title": "",
+    "organism": "Strongyloides stercoralis",
+    "retrieved_utc": "2026-10-30T16:18:20Z"
+   },
+   "A0A0K0DYQ7": {
+    "resolved": true,
+    "title": "",
+    "organism": "Strongyloides stercoralis",
+    "retrieved_utc": "2026-10-30T16:06:28Z"
+   },
+   "A0A0K0DYX2": {
+    "resolved": true,
+    "title": "",
+    "organism": "Strongyloides stercoralis",
+    "retrieved_utc": "2026-10-30T16:06:28Z"
+   },
+   "A0A0K0E0Q8": {
+    "resolved": true,
+    "title": "",
+    "organism": "Strongyloides stercoralis",
+    "retrieved_utc": "2026-10-30T16:18:21Z"
+   },
+   "A0A0K0E4B6": {
+    "resolved": true,
+    "title": "",
+    "organism": "Strongyloides stercoralis",
+    "retrieved_utc": "2026-10-30T16:18:21Z"
+   },
+   "A0A0K0E744": {
+    "resolved": true,
+    "title": "",
+    "organism": "Strongyloides stercoralis",
+    "retrieved_utc": "2026-10-30T16:18:22Z"
+   },
+   "A0A0K0EB51": {
+    "resolved": true,
+    "title": "",
+    "organism": "Strongyloides stercoralis",
+    "retrieved_utc": "2026-10-30T16:18:22Z"
+   }
+  }
+ }
+}

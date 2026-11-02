@@ -1,0 +1,392 @@
+{
+ "snapshot_id": "20261030T085136Z",
+ "prereg_sha256": "52f9461890984c210b730af86c40de221307a668e7d4b38098b3316059690d83",
+ "git_commit": "c325bfaa7a9194de66f2a0ea399de80df7e50d82",
+ "seed": 0,
+ "primary_tau": 0.3,
+ "taus": [
+  0.2,
+  0.3,
+  0.4,
+  0.5
+ ],
+ "n_sample": 2000,
+ "n_seq_identical": 1992,
+ "n_seq_mismatch": 8,
+ "method_hash_atlas_files": [
+  "b110dddd15a76194c91571cd3985bc6bea79a68fe852922a375cea192c6519b1"
+ ],
+ "method_hash_expected": "b110dddd15a76194c91571cd3985bc6bea79a68fe852922a375cea192c6519b1",
+ "method_hash_comparisons": {
+  "foldcomp_v4": "b110dddd15a76194c91571cd3985bc6bea79a68fe852922a375cea192c6519b1",
+  "seed_s0": "b110dddd15a76194c91571cd3985bc6bea79a68fe852922a375cea192c6519b1",
+  "seed_s1": "b110dddd15a76194c91571cd3985bc6bea79a68fe852922a375cea192c6519b1",
+  "seed_s2": "b110dddd15a76194c91571cd3985bc6bea79a68fe852922a375cea192c6519b1"
+ },
+ "method_hash_ok": true,
+ "summary": [
+  {
+   "comparison": "foldcomp_v4_kept",
+   "tau": 0.2,
+   "n_proteins": 1992,
+   "n_ref_sites": 6747,
+   "redetect": 0.7409218912109086,
+   "n_cmp_sites": 6604,
+   "reverse_redetect": 0.7569654754694125
+  },
+  {
+   "comparison": "foldcomp_v4_kept",
+   "tau": 0.3,
+   "n_proteins": 1992,
+   "n_ref_sites": 6747,
+   "redetect": 0.6528827627093523,
+   "n_cmp_sites": 6604,
+   "reverse_redetect": 0.6653543307086615
+  },
+  {
+   "comparison": "foldcomp_v4_kept",
+   "tau": 0.4,
+   "n_proteins": 1992,
+   "n_ref_sites": 6747,
+   "redetect": 0.5657329183340744,
+   "n_cmp_sites": 6604,
+   "reverse_redetect": 0.5775287704421562
+  },
+  {
+   "comparison": "foldcomp_v4_kept",
+   "tau": 0.5,
+   "n_proteins": 1992,
+   "n_ref_sites": 6747,
+   "redetect": 0.48436342077960576,
+   "n_cmp_sites": 6604,
+   "reverse_redetect": 0.49470018170805574
+  },
+  {
+   "comparison": "foldcomp_v4_all",
+   "tau": 0.2,
+   "n_proteins": 1992,
+   "n_ref_sites": 6747,
+   "redetect": 0.7673039869571662,
+   "n_cmp_sites": 8716,
+   "reverse_redetect": 0.5983249196879302
+  },
+  {
+   "comparison": "foldcomp_v4_all",
+   "tau": 0.3,
+   "n_proteins": 1992,
+   "n_ref_sites": 6747,
+   "redetect": 0.6761523640136357,
+   "n_cmp_sites": 8716,
+   "reverse_redetect": 0.5236346948141349
+  },
+  {
+   "comparison": "foldcomp_v4_all",
+   "tau": 0.4,
+   "n_proteins": 1992,
+   "n_ref_sites": 6747,
+   "redetect": 0.585297169112198,
+   "n_cmp_sites": 8716,
+   "reverse_redetect": 0.45318953648462595
+  },
+  {
+   "comparison": "foldcomp_v4_all",
+   "tau": 0.5,
+   "n_proteins": 1992,
+   "n_ref_sites": 6747,
+   "redetect": 0.49933303690529124,
+   "n_cmp_sites": 8716,
+   "reverse_redetect": 0.38653051858650755
+  },
+  {
+   "comparison": "seed_s0",
+   "tau": 0.2,
+   "n_proteins": 300,
+   "n_ref_sites": 1044,
+   "redetect": 1.0,
+   "n_cmp_sites": 1044,
+   "reverse_redetect": 1.0
+  },
+  {
+   "comparison": "seed_s0",
+   "tau": 0.3,
+   "n_proteins": 300,
+   "n_ref_sites": 1044,
+   "redetect": 1.0,
+   "n_cmp_sites": 1044,
+   "reverse_redetect": 1.0
+  },
+  {
+   "comparison": "seed_s0",
+   "tau": 0.4,
+   "n_proteins": 300,
+   "n_ref_sites": 1044,
+   "redetect": 1.0,
+   "n_cmp_sites": 1044,
+   "reverse_redetect": 1.0
+  },
+  {
+   "comparison": "seed_s0",
+   "tau": 0.5,
+   "n_proteins": 300,
+   "n_ref_sites": 1044,
+   "redetect": 1.0,
+   "n_cmp_sites": 1044,
+   "reverse_redetect": 1.0
+  },
+  {
+   "comparison": "seed_s1",
+   "tau": 0.2,
+   "n_proteins": 300,
+   "n_ref_sites": 1044,
+   "redetect": 0.8544061302681992,
+   "n_cmp_sites": 1013,
+   "reverse_redetect": 0.8746298124383021
+  },
+  {
+   "comparison": "seed_s1",
+   "tau": 0.3,
+   "n_proteins": 300,
+   "n_ref_sites": 1044,
+   "redetect": 0.8065134099616859,
+   "n_cmp_sites": 1013,
+   "reverse_redetect": 0.8272458045409674
+  },
+  {
+   "comparison": "seed_s1",
+   "tau": 0.4,
+   "n_proteins": 300,
+   "n_ref_sites": 1044,
+   "redetect": 0.7595785440613027,
+   "n_cmp_sites": 1013,
+   "reverse_redetect": 0.7877591312931885
+  },
+  {
+   "comparison": "seed_s1",
+   "tau": 0.5,
+   "n_proteins": 300,
+   "n_ref_sites": 1044,
+   "redetect": 0.7049808429118773,
+   "n_cmp_sites": 1013,
+   "reverse_redetect": 0.7275419545903258
+  },
+  {
+   "comparison": "seed_s2",
+   "tau": 0.2,
+   "n_proteins": 300,
+   "n_ref_sites": 1044,
+   "redetect": 0.867816091954023,
+   "n_cmp_sites": 1010,
+   "reverse_redetect": 0.8881188118811881
+  },
+  {
+   "comparison": "seed_s2",
+   "tau": 0.3,
+   "n_proteins": 300,
+   "n_ref_sites": 1044,
+   "redetect": 0.8180076628352491,
+   "n_cmp_sites": 1010,
+   "reverse_redetect": 0.8396039603960396
+  },
+  {
+   "comparison": "seed_s2",
+   "tau": 0.4,
+   "n_proteins": 300,
+   "n_ref_sites": 1044,
+   "redetect": 0.7729885057471264,
+   "n_cmp_sites": 1010,
+   "reverse_redetect": 0.8
+  },
+  {
+   "comparison": "seed_s2",
+   "tau": 0.5,
+   "n_proteins": 300,
+   "n_ref_sites": 1044,
+   "redetect": 0.7270114942528736,
+   "n_cmp_sites": 1010,
+   "reverse_redetect": 0.7524752475247525
+  }
+ ],
+ "headline": {
+  "foldcomp_v4_kept": {
+   "redetect": 0.6528827627093523,
+   "n_sites": 6747,
+   "n_proteins": 1992,
+   "redetect_by_band": {
+    "70-90": 0.5743760399334442,
+    ">=90": 0.7159273115980759
+   },
+   "n_by_band": {
+    "70-90": 3005,
+    ">=90": 3742
+   },
+   "cos_matched": {
+    "p05": 0.5277483701705933,
+    "p10": 0.6364696502685547,
+    "p25": 0.7583689093589783,
+    "p50": 0.8575744032859802,
+    "n": 4405
+   },
+   "cos_matched_by_band": {
+    "70-90": {
+     "p05": 0.4696185514330864,
+     "p10": 0.5967276990413666,
+     "p25": 0.7234366685152054,
+     "p50": 0.8243774771690369,
+     "n": 1726
+    },
+    ">=90": {
+     "p05": 0.5698554754257202,
+     "p10": 0.6692371249198914,
+     "p25": 0.7853390276432037,
+     "p50": 0.8759057521820068,
+     "n": 2679
+    }
+   }
+  },
+  "foldcomp_v4_all": {
+   "redetect": 0.6761523640136357,
+   "n_sites": 6747,
+   "n_proteins": 1992,
+   "redetect_by_band": {
+    "70-90": 0.6126455906821964,
+    ">=90": 0.7271512560128274
+   },
+   "n_by_band": {
+    "70-90": 3005,
+    ">=90": 3742
+   },
+   "cos_matched": {
+    "p05": 0.5184458523988724,
+    "p10": 0.630124831199646,
+    "p25": 0.7543460726737976,
+    "p50": 0.8553875684738159,
+    "n": 4562
+   },
+   "cos_matched_by_band": {
+    "70-90": {
+     "p05": 0.4526982307434082,
+     "p10": 0.5788560509681702,
+     "p25": 0.7126584053039551,
+     "p50": 0.8190030455589294,
+     "n": 1841
+    },
+    ">=90": {
+     "p05": 0.5691424608230591,
+     "p10": 0.6676148176193237,
+     "p25": 0.7847733497619629,
+     "p50": 0.8755286931991577,
+     "n": 2721
+    }
+   }
+  },
+  "seed_s0": {
+   "redetect": 1.0,
+   "n_sites": 1044,
+   "n_proteins": 300,
+   "redetect_by_band": {
+    "70-90": 1.0,
+    ">=90": 1.0
+   },
+   "n_by_band": {
+    "70-90": 505,
+    ">=90": 539
+   },
+   "cos_matched": {
+    "p05": 0.9999999403953552,
+    "p10": 1.0,
+    "p25": 1.0,
+    "p50": 1.0,
+    "n": 1044
+   },
+   "cos_matched_by_band": {
+    "70-90": {
+     "p05": 0.9999999403953552,
+     "p10": 1.0,
+     "p25": 1.0,
+     "p50": 1.0,
+     "n": 505
+    },
+    ">=90": {
+     "p05": 0.9999999403953552,
+     "p10": 0.9999999880790711,
+     "p25": 1.0,
+     "p50": 1.0,
+     "n": 539
+    }
+   }
+  },
+  "seed_s1": {
+   "redetect": 0.8065134099616859,
+   "n_sites": 1044,
+   "n_proteins": 300,
+   "redetect_by_band": {
+    "70-90": 0.8,
+    ">=90": 0.8126159554730983
+   },
+   "n_by_band": {
+    "70-90": 505,
+    ">=90": 539
+   },
+   "cos_matched": {
+    "p05": 0.6633874177932739,
+    "p10": 0.7968581080436706,
+    "p25": 0.9230908453464508,
+    "p50": 0.9909711182117462,
+    "n": 842
+   },
+   "cos_matched_by_band": {
+    "70-90": {
+     "p05": 0.6660425990819931,
+     "p10": 0.7766777396202088,
+     "p25": 0.9139697849750519,
+     "p50": 0.9853118062019348,
+     "n": 404
+    },
+    ">=90": {
+     "p05": 0.6622928261756897,
+     "p10": 0.8064377546310425,
+     "p25": 0.936826229095459,
+     "p50": 0.9949464499950409,
+     "n": 438
+    }
+   }
+  },
+  "seed_s2": {
+   "redetect": 0.8180076628352491,
+   "n_sites": 1044,
+   "n_proteins": 300,
+   "redetect_by_band": {
+    "70-90": 0.7960396039603961,
+    ">=90": 0.8385899814471243
+   },
+   "n_by_band": {
+    "70-90": 505,
+    ">=90": 539
+   },
+   "cos_matched": {
+    "p05": 0.712011867761612,
+    "p10": 0.8079393446445465,
+    "p25": 0.9229771792888641,
+    "p50": 0.9895025789737701,
+    "n": 854
+   },
+   "cos_matched_by_band": {
+    "70-90": {
+     "p05": 0.6809171825647354,
+     "p10": 0.7824263393878936,
+     "p25": 0.9177027642726898,
+     "p50": 0.9872195422649384,
+     "n": 402
+    },
+    ">=90": {
+     "p05": 0.7356984555721283,
+     "p10": 0.8178734600543975,
+     "p25": 0.9349085092544556,
+     "p50": 0.9920855760574341,
+     "n": 452
+    }
+   }
+  }
+ },
+ "runtime_s": 28.2
+}

@@ -1,0 +1,207 @@
+{
+ "f1": {
+  "status": "pass",
+  "n_species_change": 5,
+  "clade_purity": 0.833,
+  "lca_purity": 0.833,
+  "single_event": true,
+  "n_out_support": 3,
+  "shape": "clean clade",
+  "detail": "P in 5 derived species (purity 0.83 of informative derived members; 0.83 over all members under the species-tree LCA: clean clade); single tree-consistent event: True; outgroup support: A in 3 outgroup species"
+ },
+ "f2": {
+  "status": "fail",
+  "strength": "none",
+  "about_change": false,
+  "detail": "no experimental evidence at the footprint",
+  "present": {
+   "n_members_with_evidence": 0,
+   "n_biolip": 0,
+   "n_uniprot_exp": 0,
+   "n_mcsa_ref": 0,
+   "pdb_ids": [],
+   "ligands": [],
+   "ligand_tokens": []
+  },
+  "absent": {
+   "n_members_with_evidence": 0,
+   "n_biolip": 0,
+   "n_uniprot_exp": 0,
+   "n_mcsa_ref": 0,
+   "pdb_ids": [],
+   "ligands": [],
+   "ligand_tokens": []
+  },
+  "chembl_present_proteins": 0,
+  "chembl_absent_proteins": 1,
+  "n_members_numbering_unverified": 3,
+  "n_hits_excluded_tau_tuning": 0,
+  "sensitivity_og_wide_exclusion": {
+   "status": "fail",
+   "n_hits_excluded": 0
+  }
+ },
+ "f3": {
+  "status": "pass",
+  "passing": [
+   "rescue_consistency"
+  ],
+  "detail": "conservation: fail (3/12 footprint columns clade-specific (rate 0.25 vs background 0.33); derived conservation 0.67, outgroup identity to derived majority 0.14); rescue_consistency: pass (present side re-detected in >= 3/6 BURROW settings for 1.00 of 5 members (median 6); absent side max 0/6 over 3 members); source_consistency: na (no present-side member in the v6/v4 re-detection sample); cofolding: pending (placeholder; filled by the co-folding agent)"
+ },
+ "lines": {
+  "conservation": {
+   "status": "fail",
+   "n_specific": 3,
+   "n_fp_cols": 12,
+   "rate_fp": 0.25,
+   "rate_bg": 0.332,
+   "mean_cons_derived": 0.667,
+   "mean_identity_out": 0.139,
+   "detail": "3/12 footprint columns clade-specific (rate 0.25 vs background 0.33); derived conservation 0.67, outgroup identity to derived majority 0.14"
+  },
+  "rescue_consistency": {
+   "status": "pass",
+   "frac_present_majority": 1.0,
+   "median_hits_present": 6.0,
+   "max_hits_absent": 0,
+   "detail": "present side re-detected in >= 3/6 BURROW settings for 1.00 of 5 members (median 6); absent side max 0/6 over 3 members"
+  },
+  "source_consistency": {
+   "status": "na",
+   "detail": "no present-side member in the v6/v4 re-detection sample"
+  },
+  "cofolding": {
+   "status": "pending",
+   "detail": "placeholder; filled by the co-folding agent"
+  }
+ },
+ "identifier_checks": {
+  "pdb": {},
+  "uniprot": {
+   "A0A0D2E3L4": {
+    "resolved": true,
+    "title": "IQ domain-containing protein containing GTPase activating protein",
+    "organism": "Fonsecaea pedrosoi CBS 271.37",
+    "retrieved_utc": "2026-10-30T16:06:13Z"
+   },
+   "A0A175VUG7": {
+    "resolved": true,
+    "title": "",
+    "organism": "Madurella mycetomatis",
+    "retrieved_utc": "2026-10-30T16:06:13Z"
+   },
+   "A0A1C1CM41": {
+    "resolved": true,
+    "title": "",
+    "organism": "Cladophialophora carrionii",
+    "retrieved_utc": "2026-10-30T16:06:13Z"
+   },
+   "A0A8I6AJK7": {
+    "resolved": true,
+    "title": "Ras GTPase-activating-like protein IQGAP1",
+    "organism": "Rattus norvegicus",
+    "retrieved_utc": "2026-10-30T16:18:01Z"
+   },
+   "A0A8I6AM38": {
+    "resolved": true,
+    "title": "",
+    "organism": "Rattus norvegicus",
+    "retrieved_utc": "2026-10-30T16:06:13Z"
+   },
+   "A0A8M1P6K4": {
+    "resolved": true,
+    "title": "",
+    "organism": "Danio rerio",
+    "retrieved_utc": "2026-10-30T16:18:01Z"
+   },
+   "A0AC58FXE0": {
+    "resolved": true,
+    "title": "",
+    "organism": "Danio rerio",
+    "retrieved_utc": "2026-10-30T16:18:01Z"
+   },
+   "A2CE93": {
+    "resolved": true,
+    "title": "",
+    "organism": "Danio rerio",
+    "retrieved_utc": "2026-10-30T16:18:01Z"
+   },
+   "C0NBC6": {
+    "resolved": true,
+    "title": "",
+    "organism": "Ajellomyces capsulatus (strain G186AR / H82 / ATCC MYA-2454 / RMSCC 2432)",
+    "retrieved_utc": "2026-10-30T16:06:14Z"
+   },
+   "C1H4W1": {
+    "resolved": true,
+    "title": "",
+    "organism": "Paracoccidioides lutzii (strain ATCC MYA-826 / Pb01)",
+    "retrieved_utc": "2026-10-30T16:06:14Z"
+   },
+   "D3ZCS4": {
+    "resolved": true,
+    "title": "",
+    "organism": "Rattus norvegicus",
+    "retrieved_utc": "2026-10-30T16:18:01Z"
+   },
+   "F8VQ29": {
+    "resolved": true,
+    "title": "",
+    "organism": "Mus musculus",
+    "retrieved_utc": "2026-10-30T16:18:01Z"
+   },
+   "O14188": {
+    "resolved": true,
+    "title": "Ras GTPase-activating-like protein rng2",
+    "organism": "Schizosaccharomyces pombe (strain 972 / ATCC 24843)",
+    "retrieved_utc": "2026-10-30T16:06:14Z"
+   },
+   "P46940": {
+    "resolved": true,
+    "title": "Ras GTPase-activating-like protein IQGAP1",
+    "organism": "Homo sapiens",
+    "retrieved_utc": "2026-10-30T16:18:02Z"
+   },
+   "Q12280": {
+    "resolved": true,
+    "title": "Ras GTPase-activating-like protein IQG1",
+    "organism": "Saccharomyces cerevisiae (strain ATCC 204508 / S288c)",
+    "retrieved_utc": "2026-10-30T16:18:02Z"
+   },
+   "Q13576": {
+    "resolved": null,
+    "error": "http error"
+   },
+   "Q3UQ44": {
+    "resolved": true,
+    "title": "Ras GTPase-activating-like protein IQGAP2",
+    "organism": "Mus musculus",
+    "retrieved_utc": "2026-10-30T16:18:02Z"
+   },
+   "Q5AH02": {
+    "resolved": true,
+    "title": "Ras GTPase-activating-like protein IQG1",
+    "organism": "Candida albicans (strain SC5314 / ATCC MYA-2876)",
+    "retrieved_utc": "2026-10-30T16:06:14Z"
+   },
+   "Q86VI3": {
+    "resolved": true,
+    "title": "Ras GTPase-activating-like protein IQGAP3",
+    "organism": "Homo sapiens",
+    "retrieved_utc": "2026-10-30T16:18:03Z"
+   },
+   "Q9JKF1": {
+    "resolved": true,
+    "title": "Ras GTPase-activating-like protein IQGAP1",
+    "organism": "Mus musculus",
+    "retrieved_utc": "2026-10-30T16:18:03Z"
+   },
+   "U7PV55": {
+    "resolved": true,
+    "title": "Ras-GAP domain-containing protein",
+    "organism": "Sporothrix schenckii (strain ATCC 58251 / de Perez 2211183)",
+    "retrieved_utc": "2026-10-30T16:06:14Z"
+   }
+  }
+ }
+}

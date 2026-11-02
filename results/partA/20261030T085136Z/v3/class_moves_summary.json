@@ -1,0 +1,33 @@
+{
+ "sig_pairs_O1": 9776291,
+ "sig_pairs_O2": 9778355,
+ "sig_both": 9757299,
+ "moved_class_among_sig_both": 1529928,
+ "moved_class_among_sig_both_with_tier2": 932692,
+ "O1_H12_with_tier2_sig_both": 3970709,
+ "O1_H12_with_tier2_to": {
+  "H12s": 3509735,
+  "H3j": 386685,
+  "H12x": 66261,
+  "H1s": 3548,
+  "H3s": 2727,
+  "H4": 927,
+  "H2s": 586,
+  "H1x": 140,
+  "N": 63,
+  "H2x": 37
+ },
+ "into_O2_H12_from": {
+  "H12s": 3511088,
+  "H3j": 527054,
+  "H12x": 66353,
+  "H3s": 8120,
+  "H4": 252,
+  "H2s": 149,
+  "N": 69,
+  "H1s": 19,
+  "H2x": 13
+ },
+ "group_kind_O1": "{(1, 'hog'): 368764, (1, 'proxy_hog'): 27649, (1, 'proxy_sf'): 11021, (1, 'singleton'): 45835, (2, 'hog'): 13, (2, 'proxy_hog'): 336107, (2, 'proxy_sf'): 10863, (2, 'singleton'): 61733}",
+ "group_kind_O2": "{(1, 'hog'): 388319, (1, 'idgap'): 27087, (1, 'proxy_hog'): 4633, (1, 'proxy_sf'): 3659, (1, 'singleton'): 29571, (2, 'hog'): 7889, (2, 'placement'): 365882, (2, 'proxy_hog'): 15319, (2, 'proxy_sf'): 1409, (2, 'singleton'): 18217}"
+}

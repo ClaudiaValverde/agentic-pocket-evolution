@@ -1,0 +1,10 @@
+{
+ "source": "https://ftp.ebi.ac.uk/pub/databases/chembl/ChEMBLdb/latest/chembl_37_sqlite.tar.gz",
+ "chembl_version": "chembl_37",
+ "sha256": "33c203740555f96067710cdfc1c3c55d890660e5908ec5cbf5817492c290d281",
+ "license": "CC BY-SA 3.0",
+ "n_accessions_with_target": 10966,
+ "n_accessions_pchembl6_single_ge1": 5311,
+ "n_accessions_pchembl6_any_ge1": 6498,
+ "n_accessions_total": 989696
+}

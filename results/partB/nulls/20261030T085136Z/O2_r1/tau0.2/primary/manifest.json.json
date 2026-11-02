@@ -1,0 +1,40 @@
+{
+ "output": "manifest.json",
+ "snapshot_id": "20261030T085136Z",
+ "prereg_sha256": "52f9461890984c210b730af86c40de221307a668e7d4b38098b3316059690d83",
+ "git_commit": "c959aafe2db61eb4716fa2fecc7e1375d2d3b6f8+dirty",
+ "seed": [
+  0,
+  1,
+  2
+ ],
+ "created_utc": "2026-10-30T15:18:17Z",
+ "sha256": "95642d98aaa65bf1bd08bcc25ee2b17077303b7d62ea3aa25684936525fae145",
+ "script": "scripts/partB/run_nulls.py",
+ "argv": [
+  "--sogs",
+  "results/sogs/20261030T085136Z/O2_r1/web",
+  "--orthology",
+  "O2",
+  "--orthoxml",
+  "data/orthology/ancestra_O2/accurate/hogs.orthoxml.gz",
+  "--guide",
+  "data/orthology/ancestra_O2/o2_guide_tree.nwk",
+  "--snapshot",
+  "20261030T085136Z",
+  "--states-glob",
+  "/tmp/pe_big/partB/20261030T085136Z/O2_r1/states_resc_t0.2/shard=*.parquet",
+  "--sog-meta",
+  "results/sogs/20261030T085136Z/O2_r1/sogs_all_tau.parquet",
+  "--tau",
+  "0.2",
+  "--thresholds",
+  "results/partB/sim/measured/d11_primary_known_gt10/thresholds.json",
+  "--prefilter",
+  "--skip-m3",
+  "--n-seeds",
+  "20",
+  "--out",
+  "results/partB/nulls/20261030T085136Z/O2_r1/tau0.2/primary"
+ ]
+}

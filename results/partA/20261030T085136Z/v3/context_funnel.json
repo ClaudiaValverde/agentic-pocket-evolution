@@ -1,0 +1,45 @@
+{
+ "panther_fam_multi": 0,
+ "panther_available": true,
+ "prot_with_panther_fam": 758584,
+ "prot_in_forest_groups": 396208,
+ "prot_idgap_mapped": 27087,
+ "prot_idgap_dup_or_clash": 1121,
+ "placement_methods": {
+  "diamond": 386639,
+  "no_hit": 40768,
+  "member": 9479
+ },
+ "placement_table": "<repo>/data/orthology/ancestra_O2/placement/tier2",
+ "prot_placed": 365882,
+ "group_kind_proteins": {
+  "hog": 396208,
+  "placement": 365882,
+  "singleton": 47788,
+  "idgap": 27087,
+  "proxy_hog": 19952,
+  "proxy_sf": 5068
+ },
+ "group_kind_sites": {
+  "hog": 1603145,
+  "idgap": 101889,
+  "placement": 1318734,
+  "proxy_hog": 62605,
+  "proxy_sf": 16714,
+  "singleton": 118615
+ },
+ "n_groups": 107068,
+ "ted_H_domains": 1067658,
+ "pfam_regions": 1069551,
+ "sites_with_pfam_region_label": 1782232,
+ "sites_with_ted_H_region_label": 1849363,
+ "label_overflow_site": 0,
+ "label_overflow_prot": 5,
+ "n_labels": 29748,
+ "ted_label_missing_sites": 1372339,
+ "prot_seq_missing": 7028,
+ "prot_seq_len_mismatch_model": 3658,
+ "sites_cov_ok": 3176962,
+ "sites_cov_missing_seq_or_range": 44740,
+ "wall_s": 201.24585127830505
+}

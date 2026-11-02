@@ -1,0 +1,11 @@
+case	n_present	n_absent	present_recall_median	absent_recall_median	delta_recall
+control_falseloss_HOG0027591_g2_n66_O1	3	3	0.75	0.25	0.5
+control_falseloss_HOG0028108_g15_n235_O1	3	0	0.0		
+control_falseloss_HOG0030328_g4_n103_O1	3	3	0.6	0.6	0.0
+control_falseloss_HOG0034353_g3_n4659_O1	3	3	0.4	0.0	0.4
+control_falseloss_HOG0035718_g5_n12_O1	3	3	0.875	0.0	0.875
+dupgain_HOG0046679_g11_n33_O2	3	3	0.706	0.353	0.353
+gain_HOG0025964_g2_n28_O1	3	3	0.222	0.167	0.055
+gain_HOG0026737_g5_n16_O1	3	3	0.75	0.0	0.75
+gain_HOG0034532_g4_n8_O2	3	3	1.0	0.0	1.0
+gain_HOG0056135_g10_n70_O2	3	3	0.923	0.077	0.846

@@ -1,0 +1,16 @@
+{
+ "snapshot": "20261030T085136Z",
+ "manifest_sha256": "b33635ee088bf2129cb59bcb5e34a9650187ef05ebc47ea195f367ed7b969261",
+ "atlas_root": "/cluster/scratch/gmagnusson/pocketcompare_afdb",
+ "n_buckets": 256,
+ "bucket_fn": "crc32(accession.encode()) & 0xff -> '%02x'",
+ "created_utc": "2026-10-30T09:43:11.624851+00:00",
+ "tier": 1,
+ "dir": "<repo>/results/webapp_index/20261030T085136Z/tier1",
+ "units": 162,
+ "rows": 555846,
+ "accessions": 552810,
+ "bytes": 12858835,
+ "missing_blob": 0,
+ "seconds": 5.4
+}

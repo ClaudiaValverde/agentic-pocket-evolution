@@ -1,0 +1,22 @@
+{
+ "source": "https://zhanggroup.org/BioLiP/download/BioLiP.txt.gz",
+ "last_modified": "Wed, 12 Nov 2025 02:04:20 GMT",
+ "sha256": {
+  "BioLiP.txt.gz": "c92229bbc8c55c3bd84a9813c3e278ba62f4cfa44e6315cc98d9bf63ed64b6ec",
+  "ligand.tsv.gz": "7d107cfaf0cc873d393e9dcee7bbe16fc7dc024a9748495a92adf6e7658f61ec"
+ },
+ "n_rows_raw": 989058,
+ "n_rows_atlas": 677377,
+ "n_accessions": 22794,
+ "n_pdb_chains": 358247,
+ "frac_site_residues_mapped": 0.9924270803410068,
+ "frac_sites_fully_mapped": 0.9625806604003384,
+ "rows_by_ligand_class": {
+  "regular": 321677,
+  "metal": 149012,
+  "rna": 140509,
+  "dna": 36947,
+  "peptide": 29232
+ },
+ "n_accessions_regular_ligand": 13889
+}

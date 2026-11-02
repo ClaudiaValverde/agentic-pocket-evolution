@@ -1,0 +1,21 @@
+{
+ "schema": "sogs-web-v1",
+ "snapshot": "TOY",
+ "orthology": "O1",
+ "tau": null,
+ "toy": true,
+ "created_by": "scripts/partB/make_toy_sogs.py",
+ "seed": 0,
+ "n_ogs": 400,
+ "n_sogs": 800,
+ "noise_model": {
+  "false_A": 0.05,
+  "false_P": 0.02,
+  "w_present": 0.05,
+  "u_present": 0.15,
+  "u_absent": 0.5,
+  "heterogeneity": 0.0,
+  "source": "defaults (prereg false_A_target; other rates placeholders)"
+ },
+ "code_sha256": "427b24767bacb0b410d9d8ed511fd65dc488d8acfeb85e24e4e4a3dfe30cd1c9"
+}

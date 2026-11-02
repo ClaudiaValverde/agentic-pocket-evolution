@@ -1,0 +1,33 @@
+{
+ "output": "manifest.json",
+ "snapshot_id": "20261030T085136Z",
+ "prereg_sha256": "52f9461890984c210b730af86c40de221307a668e7d4b38098b3316059690d83",
+ "git_commit": "4fe605fdcf95684bb4ce347ceb7be9908bd1b964+dirty",
+ "seed": 0,
+ "created_utc": "2026-10-30T11:51:18Z",
+ "sha256": "84a2bd87a5cda9c920478b4fa7689fb5b526de9613bbd45326bafd88fb32c458",
+ "script": "scripts/partB/run_events.py",
+ "argv": [
+  "--sogs",
+  "results/sogs/20261030T085136Z/O1/web",
+  "--orthology",
+  "O1",
+  "--snapshot",
+  "20261030T085136Z",
+  "--states-glob",
+  "/tmp/pe_big/partB/20261030T085136Z/O1/states_d11_t0.3/shard=*.parquet",
+  "--state-col",
+  "state",
+  "--sog-meta",
+  "results/sogs/20261030T085136Z/O1/sogs_all_tau.parquet",
+  "--tau",
+  "0.3",
+  "--thresholds",
+  "results/partB/sim/measured/d11_primary_known_gt10/thresholds.json",
+  "--prefilter",
+  "--stratum",
+  "primary",
+  "--out",
+  "results/partB/events/20261030T085136Z/O1/d11/tau0.3/primary"
+ ]
+}

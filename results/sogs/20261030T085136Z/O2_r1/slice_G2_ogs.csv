@@ -1,0 +1,6 @@
+og_id,level,half,n_members,n_species,n_with_model,n_seq_mismatch,n_cols,identity,n_sites,n_sogs,n_sogs_multispecies,msa_s,graph_s,rows_U,rows_P,rows_A,rows_G
+HOG0035169,Gnathostomata,test,29,12,27,0,895,0.542,71,7,4,0.22,0.02,134,65,4,
+HOG0035184,Gnathostomata,test,51,12,49,2,1476,0.445,195,16,9,0.76,0.06,631,181,4,
+HOG0042924,Opisthokonta,tune,54,44,54,0,1260,0.578,147,21,9,0.27,0.04,873,158,103,147.0
+HOG0053841,cellular organisms,test,175,63,170,1,829,0.332,746,19,10,0.45,0.76,2760,491,74,1786.0
+HOG0053966,cellular organisms,tune,486,66,481,11,2722,0.288,1533,22,8,2.6,1.69,9472,1135,85,2002.0

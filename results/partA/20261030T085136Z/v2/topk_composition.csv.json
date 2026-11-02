@@ -1,0 +1,16 @@
+{
+ "snapshot_id": "20261030T085136Z",
+ "prereg_sha256": "52f9461890984c210b730af86c40de221307a668e7d4b38098b3316059690d83",
+ "git_commit": "91d5cbe3567331cec2f573ead947aace47e901f3",
+ "seed": 0,
+ "code_sha256_16": {
+  "directional.py": "2a9d4b316c90e8c0",
+  "estimands.py": "9602b81d549a9847",
+  "homology.py": "36d581570f088da9",
+  "nulls.py": "6f193b3d663c550d",
+  "pairs.py": "642c9b09a648492f"
+ },
+ "written_utc": "2026-10-30T12:53:42Z",
+ "stage": "topk_baselines",
+ "wall_s": 27.130082607269287
+}

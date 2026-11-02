@@ -1,0 +1,168 @@
+{
+ "gain": {
+  "n": 50,
+  "pass_artifacts": 7,
+  "pass_artifacts_strict": 4,
+  "flag_paralog_branch": 32,
+  "flag_present_plddt_lt90": 25,
+  "o2_root_split": {
+   "fail": 34,
+   "pass": 16
+  },
+  "panther_split": {
+   "fail": 33,
+   "pass": 15,
+   "unknown": 2
+  },
+  "o2_paralog_split": {
+   "true": 23,
+   "NaN": 18,
+   "false": 9
+  },
+  "a_footprint_plddt": {
+   "pass": 49,
+   "fail": 1
+  },
+  "a_disorder": {
+   "pass": 48,
+   "fail": 2
+  },
+  "a_pae_ted": {
+   "pass": 39,
+   "fail": 11
+  },
+  "a_fragment": {
+   "pass": 44,
+   "fail": 6
+  },
+  "a_fragment_present": {
+   "fail": 30,
+   "pass": 20
+  },
+  "a_orthology_o2": {
+   "fail": 27,
+   "pass": 23
+  },
+  "a_orthology_panther": {
+   "fail": 29,
+   "pass": 21
+  },
+  "a_instability": {
+   "pass": 50
+  },
+  "a_species_tree_lineages": {
+   "pass": 45,
+   "fail": 5
+  },
+  "orthology_split": {
+   "fail": 41,
+   "pass": 9
+  }
+ },
+ "loss": {
+  "n": 17,
+  "pass_artifacts": 1,
+  "pass_artifacts_strict": 0,
+  "flag_paralog_branch": 11,
+  "flag_present_plddt_lt90": 13,
+  "o2_root_split": {
+   "fail": 9,
+   "pass": 8
+  },
+  "panther_split": {
+   "pass": 10,
+   "fail": 7
+  },
+  "o2_paralog_split": {
+   "true": 8,
+   "NaN": 6,
+   "false": 3
+  },
+  "a_footprint_plddt": {
+   "pass": 17
+  },
+  "a_disorder": {
+   "pass": 17
+  },
+  "a_pae_ted": {
+   "fail": 9,
+   "pass": 8
+  },
+  "a_fragment": {
+   "pass": 14,
+   "fail": 3
+  },
+  "a_fragment_present": {
+   "fail": 10,
+   "pass": 7
+  },
+  "a_orthology_o2": {
+   "pass": 12,
+   "fail": 5
+  },
+  "a_orthology_panther": {
+   "pass": 14,
+   "fail": 3
+  },
+  "a_instability": {
+   "pass": 17
+  },
+  "a_species_tree_lineages": {
+   "pass": 11,
+   "fail": 6
+  },
+  "orthology_split": {
+   "fail": 15,
+   "pass": 2
+  }
+ },
+ "specificity": {
+  "n": 5,
+  "pass_artifacts": 0,
+  "pass_artifacts_strict": 0,
+  "flag_paralog_branch": 3,
+  "flag_present_plddt_lt90": 2,
+  "o2_root_split": {
+   "unknown": 5
+  },
+  "panther_split": {
+   "unknown": 5
+  },
+  "o2_paralog_split": {},
+  "a_footprint_plddt": {
+   "na": 5
+  },
+  "a_disorder": {
+   "na": 5
+  },
+  "a_pae_ted": {
+   "na": 5
+  },
+  "a_fragment": {
+   "pass": 4,
+   "fail": 1
+  },
+  "a_fragment_present": {
+   "fail": 3,
+   "pass": 2
+  },
+  "a_orthology_o2": {
+   "pass": 4,
+   "fail": 1
+  },
+  "a_orthology_panther": {
+   "fail": 3,
+   "pass": 2
+  },
+  "a_instability": {
+   "na": 5
+  },
+  "a_species_tree_lineages": {
+   "na": 5
+  },
+  "orthology_split": {
+   "unknown": 5
+  }
+ },
+ "runtime_s": 17.214693784713745
+}

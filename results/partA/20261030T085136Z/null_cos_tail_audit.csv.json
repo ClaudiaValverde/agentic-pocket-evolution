@@ -1,0 +1,18 @@
+{
+ "snapshot_id": "20261030T085136Z",
+ "prereg_sha256": "52f9461890984c210b730af86c40de221307a668e7d4b38098b3316059690d83",
+ "git_commit": "0e112016eaa3dfe087a0193d64ffce7273e9166c+dirty",
+ "seed": 0,
+ "code_sha256_16": {
+  "estimands.py": "bbff9db15c9ab562",
+  "homology.py": "36d581570f088da9",
+  "nulls.py": "6f193b3d663c550d",
+  "pairs.py": "d2bbc75a8782aff3"
+ },
+ "written_utc": "2026-10-30T10:49:26Z",
+ "stage": "tail_audit",
+ "reference_classes": {
+  "N": 2998,
+  "H4": 2
+ }
+}

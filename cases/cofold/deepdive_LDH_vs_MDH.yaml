@@ -1,0 +1,52 @@
+case: deepdive_LDH_vs_MDH
+source_schema: deepdive
+description: 'Known answer: apicomplexan LDH (Q76NM3) evolved from an MDH ancestor; LDH prefers pyruvate,
+  MDH (P40925) prefers oxaloacetate. Members are the val_PfLDH_vs_MDH proteins. Tests whether co-folding
+  resolves a known substrate-specificity switch.'
+members:
+- accession: Q76NM3
+  state: derived
+  label: PfLDH
+  sequence: MAPKAKIVLVGSGMIGGVMATLIVQKNLGDVVLFDIVKNMPHGKALDTSHTNVMAYSNCKVSGSNTYDDLAGADVVIVTAGFTKAPGKSDKEWNRDDLLPLNNKIMIEIGGHIKKNCPNAFIIVVTNPVDVMVQLLHQHSGVPKNKIIGLGGVLDTSRLKYYISQKLNVCPRDVNAHIVGAHGNKMVLLKRYITVGGIPLQEFINNKLISDAELEAIFDRTVNTALEIVNLHASPYVAPAAAIIEMAESYLKDLKKVLICSTLLEGQYGHSDIFGGTPVVLGANGVEQVIELQLNSEEKAKFDEAIAETKRMKALA
+  site:
+  - 87
+  - 95
+  - 158
+  - 182
+  - 228
+  site_source: mapped from hMDH1 P40925 (BioLiP 7rm9 MLI) by pairwise alignment; Q76NM3 has no BioLiP
+    rows
+- accession: P40925
+  state: ancestral
+  label: hMDH1
+  sequence: MSEPIRVLVTGAAGQIAYSLLYSIGNGSVFGKDQPIILVLLDITPMMGVLDGVLMELQDCALPLLKDVIATDKEDVAFKDLDVAILVGSMPRREGMERKDLLKANVKIFKSQGAALDKYAKKSVKVIVVGNPANTNCLTASKSAPSIPKENFSCLTRLDHNRAKAQIALKLGVTANDVKNVIIWGNHSSTQYPDVNHAKVKLQGKEVGVYEALKDDSWLKGEFVTTVQQRGAAVIKARKLSSAMSAAKAICDHVRDIWFGTPEGEFVSMGVISDGNSYGVPDDLLYSFPVVIKNKTWKFVEGLPINDFSREKMDLTAKELTEEKESAFEFLSSA
+  site: &id001
+  - 92
+  - 98
+  - 162
+  - 187
+  - 231
+  - 235
+  site_source: BioLiP 7rm9 MLI
+ligands:
+- CCD:PYR
+- CCD:NAI
+decoys:
+- - CCD:OAA
+  - CCD:NAI
+seeds:
+- 1
+- 2
+- 3
+positive_control:
+  acc: P40925
+  pdb: 7rm9
+  chain: A
+  ligand: MLI
+  seqnum: null
+  ligands:
+  - CCD:MLI
+  site: *id001
+note: Cognate = pyruvate (LDH substrate), "decoy" = oxaloacetate (MDH substrate). Both are real substrates;
+  the contrast is which enzyme prefers which, so the decoy-gap term is a ligand contrast, not a non-binder
+  baseline. NAD(H) cofactor present in both.

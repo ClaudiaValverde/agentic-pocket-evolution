@@ -1,0 +1,24 @@
+{
+ "output": "funnel_real_vs_null.csv",
+ "snapshot_id": "20261030T085136Z",
+ "prereg_sha256": "52f9461890984c210b730af86c40de221307a668e7d4b38098b3316059690d83",
+ "git_commit": "ab2eb1d97fac7608cb41eab817ae54fca008c748+dirty",
+ "seed": [
+  0,
+  1,
+  2
+ ],
+ "created_utc": "2026-10-30T15:49:34Z",
+ "sha256": "418558fe0dc90de751414a932d4ac832a9923283ef2e55bf147f46c7e1e1ac94",
+ "script": "scripts/partB/run_specificity.py",
+ "argv": [
+  "--release",
+  "O1_r3",
+  "--tau",
+  "0.2",
+  "--workers",
+  "16",
+  "--n-null-seeds",
+  "3"
+ ]
+}

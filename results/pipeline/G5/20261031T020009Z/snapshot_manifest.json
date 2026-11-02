@@ -1,0 +1,57 @@
+{
+ "snapshot_id": "20261031T020009Z",
+ "created_utc": "2026-10-31T02:00:09.161451+00:00",
+ "finished_utc": "2026-10-31T02:02:35.880134+00:00",
+ "atlas_root": "/cluster/scratch/gmagnusson/pocketcompare_afdb",
+ "manifest": "manifest.parquet",
+ "manifest_sha256": "57765fc57bd4a033387394799da9a1e19a4d99a0baf63c2e20da295b66d65999",
+ "worklist_sha256": "f9ea53d3e4ec89bd19cb970fc5bbf03fe71df182d06f796f3c16168b9f85e9e6",
+ "n_units": 80576,
+ "n_excluded": 0,
+ "excluded_reasons": {},
+ "method_config_sha256": [
+  "b3ea8fe963ccc180d912ddde40a01547626d082fde8ea481232d5eda66a36a0c"
+ ],
+ "per_tier": {
+  "1": {
+   "units": 162,
+   "structures": 555846,
+   "pockets": 1788750,
+   "pockets_bytes": 1454840337,
+   "structures_bytes": 32962600,
+   "rows_mismatch": 0,
+   "missing_source_col": 162,
+   "worklist_units": 162
+  },
+  "2": {
+   "units": 110,
+   "structures": 436886,
+   "pockets": 1442678,
+   "pockets_bytes": 1171606147,
+   "structures_bytes": 24146676,
+   "rows_mismatch": 0,
+   "missing_source_col": 0,
+   "worklist_units": 110
+  },
+  "3": {
+   "units": 80304,
+   "structures": 213731905,
+   "pockets": 689760778,
+   "pockets_bytes": 562031855293,
+   "structures_bytes": 12906547848,
+   "rows_mismatch": 0,
+   "missing_source_col": 108,
+   "worklist_units": 80304
+  }
+ },
+ "script": "<repo>/scripts/atlas_snapshot.py",
+ "argv": [
+  "scripts/atlas_snapshot.py",
+  "--atlas-root",
+  "/cluster/scratch/gmagnusson/pocketcompare_afdb",
+  "--out",
+  "/tmp/pe_big/snapshot",
+  "--threads",
+  "32"
+ ]
+}

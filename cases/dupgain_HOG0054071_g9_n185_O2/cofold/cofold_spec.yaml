@@ -1,0 +1,3738 @@
+schema: case-v1
+case_id: dupgain_HOG0054071_g9_n185_O2
+title: 'Duplication-associated gain (exploratory, not preregistered): HOG0054071:g9 (Rhabditida)'
+category: duplication_gain_exploratory
+track: discovery
+label: rejected
+toy: false
+summary: 'SOG HOG0054071:g9: pocket gained on one copy after a duplication (Rhabditida). Not preregistered;
+  the null is selection-conditioned. Not counted in headline numbers.'
+og_id: HOG0054071
+sog_id: HOG0054071:g9
+score: 0.0
+proteins:
+- accession: A0A061FIW5
+  taxid: 3641
+  species: '3641'
+  role: outgroup
+  side: absent
+  state: U
+  footprint_plddt: 81.25
+  reason: aligned<0.8
+  gene: ''
+  protein_name: ''
+  rescue_settings_hit: null
+  residues: A:33 A:38 A:39 A:42
+  n_site_evidence: 0
+- accession: A0A061FRB0
+  taxid: 3641
+  species: '3641'
+  role: outgroup
+  side: absent
+  state: U
+  footprint_plddt: 92.29166412353516
+  reason: partial_site_overlap
+  gene: ''
+  protein_name: ''
+  rescue_settings_hit: null
+  residues: A:31 A:35 A:36 A:39 A:287 A:289 A:290 A:293 A:297 A:325 A:328 A:329
+  n_site_evidence: 0
+- accession: A0A061GV59
+  taxid: 3641
+  species: '3641'
+  role: outgroup
+  side: absent
+  state: A
+  footprint_plddt: 96.66666412353516
+  reason: rescue:negative
+  gene: ''
+  protein_name: ''
+  rescue_settings_hit: 0
+  residues: A:66 A:70 A:71 A:74 A:319 A:321 A:322 A:325 A:329 A:357 A:360 A:361
+  n_site_evidence: 0
+- accession: A0A077Z6S1
+  taxid: 36087
+  species: '36087'
+  role: outgroup
+  side: absent
+  state: A
+  footprint_plddt: 94.20833587646484
+  reason: ''
+  gene: null
+  protein_name: Choline:ethanolamine kinase
+  rescue_settings_hit: null
+  residues: A:51 A:55 A:56 A:59 A:324 A:326 A:327 A:330 A:334 A:362 A:365 A:366
+  n_site_evidence: 0
+- accession: A0A0D2GSF7
+  taxid: 1442368
+  species: '1442368'
+  role: outgroup
+  side: absent
+  state: U
+  footprint_plddt: 93.79166412353516
+  reason: partial_site_overlap
+  gene: null
+  protein_name: Choline kinase N-terminal domain-containing protein
+  rescue_settings_hit: null
+  residues: A:213 A:218 A:219 A:222 A:602 A:604 A:605 A:608 A:612 A:830 A:833 A:834
+  n_site_evidence: 0
+- accession: A0A0D2HN09
+  taxid: 1442368
+  species: '1442368'
+  role: outgroup
+  side: absent
+  state: U
+  footprint_plddt: 96.29166412353516
+  reason: partial_site_overlap
+  gene: null
+  protein_name: ethanolamine kinase
+  rescue_settings_hit: null
+  residues: A:45 A:49 A:50 A:53 A:337 A:339 A:340 A:343 A:347 A:375 A:378 A:379
+  n_site_evidence: 0
+- accession: A0A0G4IUZ4
+  taxid: 37360
+  species: '37360'
+  role: outgroup
+  side: absent
+  state: U
+  footprint_plddt: 81.33333587646484
+  reason: partial_site_overlap
+  gene: ''
+  protein_name: ''
+  rescue_settings_hit: null
+  residues: A:26 A:30 A:31 A:34 A:302 A:323 A:324 A:327 A:331 A:359 A:362 A:363
+  n_site_evidence: 0
+- accession: A0A0G4IVV2
+  taxid: 37360
+  species: '37360'
+  role: outgroup
+  side: absent
+  state: U
+  footprint_plddt: 94.25
+  reason: partial_site_overlap
+  gene: ''
+  protein_name: ''
+  rescue_settings_hit: null
+  residues: A:50 A:53 A:54 A:57 A:315 A:317 A:318 A:321 A:325 A:354 A:357 A:358
+  n_site_evidence: 0
+- accession: A0A0G4IWM5
+  taxid: 37360
+  species: '37360'
+  role: outgroup
+  side: absent
+  state: U
+  footprint_plddt: 96.5625
+  reason: partial_site_overlap
+  gene: ''
+  protein_name: ''
+  rescue_settings_hit: null
+  residues: A:232 A:234 A:235 A:238 A:242 A:270 A:273 A:275
+  n_site_evidence: 0
+- accession: A0A0I9N741
+  taxid: 6279
+  species: '6279'
+  role: derived
+  side: present
+  state: P
+  footprint_plddt: 91.875
+  reason: ''
+  gene: null
+  protein_name: Bm3811
+  rescue_settings_hit: null
+  residues: A:2 A:6 A:7 A:10 A:249 A:252 A:253 A:256 A:260 A:289 A:292 A:293
+  n_site_evidence: 0
+- accession: A0A0K0DYR8
+  taxid: 6248
+  species: '6248'
+  role: derived
+  side: other
+  state: U
+  footprint_plddt: 98.625
+  reason: aligned<0.8
+  gene: null
+  protein_name: Uncharacterized protein
+  rescue_settings_hit: null
+  residues: null
+  n_site_evidence: 0
+- accession: A0A0K0ES68
+  taxid: 6248
+  species: '6248'
+  role: outgroup
+  side: absent
+  state: U
+  footprint_plddt: 96.70833587646484
+  reason: partial_site_overlap
+  gene: null
+  protein_name: Choline/ethanolamine kinase
+  rescue_settings_hit: null
+  residues: A:50 A:54 A:55 A:58 A:356 A:358 A:359 A:362 A:366 A:394 A:397 A:398
+  n_site_evidence: 0
+- accession: A0A0K0ESG5
+  taxid: 6248
+  species: '6248'
+  role: outgroup
+  side: absent
+  state: U
+  footprint_plddt: null
+  reason: aligned<0.8
+  gene: null
+  protein_name: SH3 domain-containing protein
+  rescue_settings_hit: null
+  residues: null
+  n_site_evidence: 0
+- accession: A0A0K0ESG6
+  taxid: 6248
+  species: '6248'
+  role: outgroup
+  side: absent
+  state: A
+  footprint_plddt: 96.375
+  reason: ''
+  gene: null
+  protein_name: SH3 domain-containing protein
+  rescue_settings_hit: null
+  residues: A:70 A:74 A:75 A:78 A:374 A:376 A:377 A:380 A:384 A:412 A:415 A:416
+  n_site_evidence: 0
+- accession: A0A0N4U4Z0
+  taxid: 318479
+  species: '318479'
+  role: outgroup
+  side: absent
+  state: U
+  footprint_plddt: 90.8125
+  reason: partial_site_overlap
+  gene: null
+  protein_name: CHK domain-containing protein
+  rescue_settings_hit: null
+  residues: A:291 A:293 A:294 A:297 A:301 A:329 A:332 A:333
+  n_site_evidence: 0
+- accession: A0A0N4U4Z1
+  taxid: 318479
+  species: '318479'
+  role: outgroup
+  side: absent
+  state: U
+  footprint_plddt: 48.25
+  reason: aligned<0.8
+  gene: null
+  protein_name: Uncharacterized protein
+  rescue_settings_hit: null
+  residues: A:21 A:24 A:27
+  n_site_evidence: 0
+- accession: A0A0N4U599
+  taxid: 318479
+  species: '318479'
+  role: outgroup
+  side: absent
+  state: A
+  footprint_plddt: 91.5
+  reason: ''
+  gene: null
+  protein_name: CHK domain-containing protein
+  rescue_settings_hit: null
+  residues: A:41 A:45 A:46 A:49 A:329 A:331 A:332 A:335 A:339 A:368 A:371 A:372
+  n_site_evidence: 0
+- accession: A0A0N4U9D5
+  taxid: 318479
+  species: '318479'
+  role: outgroup
+  side: absent
+  state: U
+  footprint_plddt: 88.86111450195312
+  reason: aligned<0.8
+  gene: null
+  protein_name: ethanolamine kinase
+  rescue_settings_hit: null
+  residues: A:41 A:44 A:45 A:48 A:291 A:293 A:294 A:297 A:301
+  n_site_evidence: 0
+- accession: A0A0N4UFV7
+  taxid: 318479
+  species: '318479'
+  role: derived
+  side: present
+  state: P
+  footprint_plddt: 91.58333587646484
+  reason: ''
+  gene: null
+  protein_name: 7TM_GPCR_Srx domain-containing protein
+  rescue_settings_hit: null
+  residues: A:1 A:5 A:6 A:9 A:246 A:249 A:250 A:253 A:257 A:286 A:289 A:290
+  n_site_evidence: 0
+- accession: A0A0P0XM67
+  taxid: 39947
+  species: '39947'
+  role: outgroup
+  side: absent
+  state: U
+  footprint_plddt: 94.83333587646484
+  reason: partial_site_overlap
+  gene: null
+  protein_name: ethanolamine kinase
+  rescue_settings_hit: null
+  residues: A:100 A:104 A:105 A:108 A:353 A:355 A:356 A:359 A:363 A:391 A:394 A:395
+  n_site_evidence: 0
+- accession: A0A0R0JRE3
+  taxid: 3847
+  species: '3847'
+  role: outgroup
+  side: absent
+  state: U
+  footprint_plddt: 96.91666412353516
+  reason: partial_site_overlap
+  gene: LOC100793261
+  protein_name: ethanolamine kinase
+  rescue_settings_hit: null
+  residues: A:60 A:64 A:65 A:68 A:313 A:315 A:316 A:319 A:323 A:351 A:354 A:355
+  n_site_evidence: 0
+- accession: A0A0R0L9B1
+  taxid: 3847
+  species: '3847'
+  role: outgroup
+  side: absent
+  state: U
+  footprint_plddt: 82.0625
+  reason: aligned<0.8
+  gene: null
+  protein_name: Choline kinase N-terminal domain-containing protein
+  rescue_settings_hit: null
+  residues: A:39 A:41 A:42 A:45 A:49 A:77 A:80 A:81
+  n_site_evidence: 0
+- accession: A0A0V1DIR0
+  taxid: 45882
+  species: '45882'
+  role: outgroup
+  side: absent
+  state: U
+  footprint_plddt: 91.3125
+  reason: partial_site_overlap
+  gene: ''
+  protein_name: ''
+  rescue_settings_hit: null
+  residues: A:123 A:126 A:127 A:130 A:134 A:164 A:167 A:168
+  n_site_evidence: 0
+- accession: A0A158Q4N0
+  taxid: 318479
+  species: '318479'
+  role: outgroup
+  side: absent
+  state: A
+  footprint_plddt: 96.45833587646484
+  reason: rescue:negative
+  gene: null
+  protein_name: Uncharacterized protein
+  rescue_settings_hit: 0
+  residues: A:40 A:44 A:45 A:48 A:342 A:344 A:345 A:348 A:352 A:380 A:383 A:384
+  n_site_evidence: 0
+- accession: A0A162N4D5
+  taxid: 763407
+  species: '763407'
+  role: outgroup
+  side: absent
+  state: U
+  footprint_plddt: 96.875
+  reason: partial_site_overlap
+  gene: ''
+  protein_name: ''
+  rescue_settings_hit: null
+  residues: A:58 A:59 A:60 A:63 A:311 A:313 A:314 A:317 A:321 A:349 A:352 A:353
+  n_site_evidence: 0
+- accession: A0A162V7A0
+  taxid: 763407
+  species: '763407'
+  role: outgroup
+  side: absent
+  state: U
+  footprint_plddt: 91.33333587646484
+  reason: partial_site_overlap
+  gene: ''
+  protein_name: ''
+  rescue_settings_hit: null
+  residues: A:10 A:15 A:16 A:19 A:272 A:274 A:275 A:278 A:282 A:310 A:313 A:314
+  n_site_evidence: 0
+- accession: A0A167N4J7
+  taxid: 763407
+  species: '763407'
+  role: outgroup
+  side: absent
+  state: U
+  footprint_plddt: 97.3125
+  reason: aligned<0.8
+  gene: ''
+  protein_name: ''
+  rescue_settings_hit: null
+  residues: A:236 A:238 A:239 A:242 A:246 A:274 A:277 A:278
+  n_site_evidence: 0
+- accession: A0A175W5R7
+  taxid: 100816
+  species: '100816'
+  role: outgroup
+  side: absent
+  state: U
+  footprint_plddt: 96.70833587646484
+  reason: partial_site_overlap
+  gene: null
+  protein_name: ethanolamine kinase
+  rescue_settings_hit: null
+  residues: A:52 A:56 A:57 A:60 A:369 A:371 A:372 A:375 A:379 A:407 A:410 A:411
+  n_site_evidence: 0
+- accession: A0A175W6W0
+  taxid: 100816
+  species: '100816'
+  role: outgroup
+  side: absent
+  state: U
+  footprint_plddt: 94.41666412353516
+  reason: partial_site_overlap
+  gene: null
+  protein_name: Choline kinase
+  rescue_settings_hit: null
+  residues: A:299 A:304 A:305 A:308 A:664 A:666 A:667 A:670 A:674 A:733 A:736 A:737
+  n_site_evidence: 0
+- accession: A0A180GFZ7
+  taxid: 630390
+  species: '630390'
+  role: outgroup
+  side: absent
+  state: U
+  footprint_plddt: 92.625
+  reason: length_ratio
+  gene: ''
+  protein_name: ''
+  rescue_settings_hit: null
+  residues: A:105 A:112 A:113 A:116 A:566 A:568 A:569 A:572 A:576 A:626 A:629 A:630
+  n_site_evidence: 0
+- accession: A0A183ICI7
+  taxid: 241478
+  species: '241478'
+  role: outgroup
+  side: absent
+  state: U
+  footprint_plddt: 88.75
+  reason: aligned<0.8
+  gene: ''
+  protein_name: ''
+  rescue_settings_hit: null
+  residues: A:38 A:40 A:41 A:44
+  n_site_evidence: 0
+- accession: A0A183IE87
+  taxid: 241478
+  species: '241478'
+  role: outgroup
+  side: absent
+  state: U
+  footprint_plddt: 87.33333587646484
+  reason: partial_site_overlap
+  gene: ''
+  protein_name: ''
+  rescue_settings_hit: null
+  residues: A:64 A:68 A:69 A:72 A:337 A:339 A:340 A:343 A:347 A:376 A:379 A:380
+  n_site_evidence: 0
+- accession: A0A183XPK2
+  taxid: 6293
+  species: '6293'
+  role: derived
+  side: other
+  state: U
+  footprint_plddt: 94.0625
+  reason: aligned<0.8
+  gene: null
+  protein_name: Uncharacterized protein
+  rescue_settings_hit: null
+  residues: null
+  n_site_evidence: 0
+- accession: A0A1C1CNU7
+  taxid: 86049
+  species: '86049'
+  role: outgroup
+  side: absent
+  state: U
+  footprint_plddt: 93.29166412353516
+  reason: length_ratio
+  gene: null
+  protein_name: Putative choline kinase
+  rescue_settings_hit: null
+  residues: A:297 A:302 A:303 A:306 A:685 A:687 A:688 A:691 A:695 A:885 A:888 A:889
+  n_site_evidence: 0
+- accession: A0A1C1CSS0
+  taxid: 86049
+  species: '86049'
+  role: outgroup
+  side: absent
+  state: U
+  footprint_plddt: 96.25
+  reason: partial_site_overlap
+  gene: null
+  protein_name: ethanolamine kinase
+  rescue_settings_hit: null
+  residues: A:45 A:49 A:50 A:53 A:342 A:344 A:345 A:348 A:352 A:380 A:383 A:384
+  n_site_evidence: 0
+- accession: A0A1D6I564
+  taxid: 4577
+  species: '4577'
+  role: outgroup
+  side: absent
+  state: U
+  footprint_plddt: 96.33333587646484
+  reason: partial_site_overlap
+  gene: LOC100193605
+  protein_name: ethanolamine kinase
+  rescue_settings_hit: null
+  residues: A:70 A:74 A:75 A:78 A:323 A:325 A:326 A:329 A:333 A:361 A:364 A:365
+  n_site_evidence: 0
+- accession: A0A1D6MB26
+  taxid: 4577
+  species: '4577'
+  role: outgroup
+  side: absent
+  state: U
+  footprint_plddt: 92.125
+  reason: partial_site_overlap
+  gene: LOC100279839
+  protein_name: Uncharacterized protein
+  rescue_settings_hit: null
+  residues: A:43 A:49 A:50 A:53 A:313 A:315 A:316 A:319 A:323 A:351 A:354 A:355
+  n_site_evidence: 0
+- accession: A0A1D8PK80
+  taxid: 237561
+  species: '237561'
+  role: outgroup
+  side: absent
+  state: U
+  footprint_plddt: 95.4772720336914
+  reason: length_ratio
+  gene: null
+  protein_name: Bifunctional choline kinase/ethanolamine kinase
+  rescue_settings_hit: null
+  residues: A:156 A:161 A:164 A:491 A:493 A:494 A:497 A:501 A:583 A:586 A:587
+  n_site_evidence: 0
+- accession: A0A1D8PQT6
+  taxid: 237561
+  species: '237561'
+  role: outgroup
+  side: absent
+  state: U
+  footprint_plddt: 93.58333587646484
+  reason: partial_site_overlap
+  gene: null
+  protein_name: ethanolamine kinase
+  rescue_settings_hit: null
+  residues: A:206 A:211 A:212 A:215 A:551 A:553 A:554 A:557 A:561 A:589 A:592 A:593
+  n_site_evidence: 0
+- accession: A0A1J4KK55
+  taxid: 1144522
+  species: '1144522'
+  role: outgroup
+  side: absent
+  state: U
+  footprint_plddt: 94.06818389892578
+  reason: partial_site_overlap
+  gene: ''
+  protein_name: ''
+  rescue_settings_hit: null
+  residues: A:31 A:35 A:36 A:39 A:320 A:322 A:323 A:326 A:330 A:358 A:361
+  n_site_evidence: 0
+- accession: A0A2G5DG39
+  taxid: 218851
+  species: '218851'
+  role: outgroup
+  side: absent
+  state: U
+  footprint_plddt: 94.66666412353516
+  reason: partial_site_overlap
+  gene: ''
+  protein_name: ''
+  rescue_settings_hit: null
+  residues: A:106 A:110 A:111 A:114 A:359 A:361 A:362 A:365 A:369 A:397 A:400 A:401
+  n_site_evidence: 0
+- accession: A0A2G5DWK8
+  taxid: 218851
+  species: '218851'
+  role: outgroup
+  side: absent
+  state: U
+  footprint_plddt: 93.29166412353516
+  reason: partial_site_overlap
+  gene: ''
+  protein_name: ''
+  rescue_settings_hit: null
+  residues: A:71 A:75 A:76 A:79 A:326 A:328 A:329 A:332 A:336 A:364 A:367 A:368
+  n_site_evidence: 0
+- accession: A0A2I4EG90
+  taxid: 51240
+  species: '51240'
+  role: outgroup
+  side: absent
+  state: U
+  footprint_plddt: 93.58333587646484
+  reason: partial_site_overlap
+  gene: ''
+  protein_name: ''
+  rescue_settings_hit: null
+  residues: A:35 A:39 A:40 A:43 A:290 A:292 A:293 A:296 A:300 A:328 A:331 A:332
+  n_site_evidence: 0
+- accession: A0A2I4GAT5
+  taxid: 51240
+  species: '51240'
+  role: outgroup
+  side: absent
+  state: U
+  footprint_plddt: 96.41666412353516
+  reason: partial_site_overlap
+  gene: ''
+  protein_name: ''
+  rescue_settings_hit: null
+  residues: A:61 A:65 A:66 A:69 A:314 A:316 A:317 A:320 A:324 A:352 A:355 A:356
+  n_site_evidence: 0
+- accession: A0A2I4GW33
+  taxid: 51240
+  species: '51240'
+  role: outgroup
+  side: absent
+  state: U
+  footprint_plddt: 91.41666412353516
+  reason: partial_site_overlap
+  gene: ''
+  protein_name: ''
+  rescue_settings_hit: null
+  residues: A:33 A:38 A:39 A:42 A:289 A:291 A:292 A:295 A:299 A:327 A:330 A:331
+  n_site_evidence: 0
+- accession: A0A2K1IEA5
+  taxid: 3218
+  species: '3218'
+  role: outgroup
+  side: absent
+  state: U
+  footprint_plddt: 92.70833587646484
+  reason: partial_site_overlap
+  gene: ''
+  protein_name: ''
+  rescue_settings_hit: null
+  residues: A:68 A:72 A:73 A:76 A:322 A:324 A:325 A:328 A:332 A:360 A:363 A:364
+  n_site_evidence: 0
+- accession: A0A2K3DQF6
+  taxid: 3055
+  species: '3055'
+  role: outgroup
+  side: absent
+  state: U
+  footprint_plddt: 95.43181610107422
+  reason: partial_site_overlap
+  gene: ''
+  protein_name: ''
+  rescue_settings_hit: null
+  residues: A:43 A:46 A:47 A:50 A:388 A:390 A:391 A:394 A:398 A:426 A:429
+  n_site_evidence: 0
+- accession: A0A2K7F7Q2
+  taxid: 3847
+  species: '3847'
+  role: outgroup
+  side: absent
+  state: U
+  footprint_plddt: 93.83333587646484
+  reason: partial_site_overlap
+  gene: ''
+  protein_name: ''
+  rescue_settings_hit: null
+  residues: A:34 A:39 A:40 A:43 A:290 A:292 A:293 A:296 A:300 A:328 A:331 A:332
+  n_site_evidence: 0
+- accession: A0A2K7LLL4
+  taxid: 3847
+  species: '3847'
+  role: outgroup
+  side: absent
+  state: U
+  footprint_plddt: 94.58333587646484
+  reason: partial_site_overlap
+  gene: ''
+  protein_name: ''
+  rescue_settings_hit: null
+  residues: A:34 A:39 A:40 A:43 A:290 A:292 A:293 A:296 A:300 A:328 A:331 A:332
+  n_site_evidence: 0
+- accession: A0A368UH93
+  taxid: 3847
+  species: '3847'
+  role: outgroup
+  side: absent
+  state: U
+  footprint_plddt: 72.82142639160156
+  reason: partial_site_overlap
+  gene: null
+  protein_name: Choline kinase N-terminal domain-containing protein
+  rescue_settings_hit: null
+  residues: A:74 A:78 A:79 A:82 A:309 A:312 A:313
+  n_site_evidence: 0
+- accession: A0A384KD62
+  taxid: 5851
+  species: '5851'
+  role: outgroup
+  side: absent
+  state: U
+  footprint_plddt: 96.625
+  reason: partial_site_overlap
+  gene: ''
+  protein_name: ''
+  rescue_settings_hit: null
+  residues: A:104 A:111 A:112 A:115 A:401 A:403 A:404 A:407 A:411 A:439 A:442 A:443
+  n_site_evidence: 0
+- accession: A0A384LKA5
+  taxid: 5851
+  species: '5851'
+  role: outgroup
+  side: absent
+  state: U
+  footprint_plddt: 95.83333587646484
+  reason: partial_site_overlap
+  gene: ''
+  protein_name: ''
+  rescue_settings_hit: null
+  residues: A:104 A:108 A:109 A:112 A:378 A:380 A:381 A:384 A:388 A:418 A:421 A:422
+  n_site_evidence: 0
+- accession: A0A3P7DC50
+  taxid: 6293
+  species: '6293'
+  role: derived
+  side: other
+  state: U
+  footprint_plddt: null
+  reason: aligned<0.8
+  gene: null
+  protein_name: Uncharacterized protein
+  rescue_settings_hit: null
+  residues: null
+  n_site_evidence: 0
+- accession: A0A3P7DME9
+  taxid: 6293
+  species: '6293'
+  role: outgroup
+  side: absent
+  state: U
+  footprint_plddt: 95.4375
+  reason: partial_site_overlap
+  gene: null
+  protein_name: ethanolamine kinase
+  rescue_settings_hit: null
+  residues: A:103 A:105 A:106 A:109 A:113 A:141 A:144 A:145
+  n_site_evidence: 0
+- accession: A0A3P7DRG5
+  taxid: 6293
+  species: '6293'
+  role: outgroup
+  side: absent
+  state: U
+  footprint_plddt: 92.16666412353516
+  reason: partial_site_overlap
+  gene: null
+  protein_name: Choline/ethanolamine kinase
+  rescue_settings_hit: null
+  residues: A:91 A:95 A:96 A:99 A:354 A:356 A:357 A:360 A:364 A:393 A:396 A:397
+  n_site_evidence: 0
+- accession: A0A3P7DWW5
+  taxid: 6293
+  species: '6293'
+  role: outgroup
+  side: absent
+  state: U
+  footprint_plddt: 94.125
+  reason: aligned<0.8
+  gene: null
+  protein_name: Uncharacterized protein
+  rescue_settings_hit: null
+  residues: A:41 A:45 A:46 A:49
+  n_site_evidence: 0
+- accession: A0A3P7E9V9
+  taxid: 6293
+  species: '6293'
+  role: outgroup
+  side: absent
+  state: U
+  footprint_plddt: null
+  reason: aligned<0.8
+  gene: null
+  protein_name: Aminoglycoside phosphotransferase domain-containing protein
+  rescue_settings_hit: null
+  residues: null
+  n_site_evidence: 0
+- accession: A0A3P7EKC7
+  taxid: 6293
+  species: '6293'
+  role: outgroup
+  side: absent
+  state: U
+  footprint_plddt: 96.1875
+  reason: aligned<0.8
+  gene: null
+  protein_name: Choline/ethanolamine kinase
+  rescue_settings_hit: null
+  residues: A:203 A:205 A:206 A:209 A:213 A:241 A:244 A:245
+  n_site_evidence: 0
+- accession: A0A3P7FYG8
+  taxid: 6293
+  species: '6293'
+  role: outgroup
+  side: absent
+  state: U
+  footprint_plddt: 94.5
+  reason: aligned<0.8
+  gene: null
+  protein_name: ethanolamine kinase
+  rescue_settings_hit: null
+  residues: A:38 A:42 A:43 A:46
+  n_site_evidence: 0
+- accession: A0A3P7G4Z0
+  taxid: 6293
+  species: '6293'
+  role: outgroup
+  side: absent
+  state: U
+  footprint_plddt: 95.625
+  reason: partial_site_overlap
+  gene: null
+  protein_name: Uncharacterized protein
+  rescue_settings_hit: null
+  residues: A:51 A:55 A:56 A:59
+  n_site_evidence: 0
+- accession: A0A3Q0KCM7
+  taxid: 6183
+  species: '6183'
+  role: outgroup
+  side: absent
+  state: A
+  footprint_plddt: 94.875
+  reason: ''
+  gene: null
+  protein_name: ethanolamine kinase
+  rescue_settings_hit: null
+  residues: A:39 A:43 A:44 A:47 A:352 A:354 A:355 A:358 A:362 A:390 A:393 A:394
+  n_site_evidence: 0
+- accession: A0A449BE46
+  taxid: 29552
+  species: '29552'
+  role: outgroup
+  side: absent
+  state: U
+  footprint_plddt: 95.94999694824219
+  reason: partial_site_overlap
+  gene: ''
+  protein_name: ''
+  rescue_settings_hit: null
+  residues: A:21 A:23 A:25 A:232 A:233 A:236 A:240 A:274 A:277 A:279
+  n_site_evidence: 0
+- accession: A0A4E9ERP8
+  taxid: 6279
+  species: '6279'
+  role: outgroup
+  side: absent
+  state: A
+  footprint_plddt: 96.45833587646484
+  reason: rescue:negative
+  gene: Bma-cka-2
+  protein_name: BMA-CKA-2
+  rescue_settings_hit: 0
+  residues: A:89 A:93 A:94 A:97 A:385 A:387 A:388 A:391 A:395 A:423 A:426 A:427
+  n_site_evidence: 0
+- accession: A0A4E9ESY6
+  taxid: 6279
+  species: '6279'
+  role: outgroup
+  side: absent
+  state: U
+  footprint_plddt: 95.54166412353516
+  reason: partial_site_overlap
+  gene: null
+  protein_name: ethanolamine kinase
+  rescue_settings_hit: null
+  residues: A:38 A:42 A:43 A:46 A:298 A:300 A:301 A:304 A:308 A:336 A:339 A:340
+  n_site_evidence: 0
+- accession: A0A4E9EU75
+  taxid: 6279
+  species: '6279'
+  role: outgroup
+  side: absent
+  state: U
+  footprint_plddt: 95.08333587646484
+  reason: partial_site_overlap
+  gene: null
+  protein_name: Choline/ethanolamine kinase family protein
+  rescue_settings_hit: null
+  residues: A:50 A:54 A:55 A:58 A:346 A:348 A:349 A:352 A:356 A:385 A:388 A:389
+  n_site_evidence: 0
+- accession: A0A4E9FX85
+  taxid: 6279
+  species: '6279'
+  role: outgroup
+  side: absent
+  state: U
+  footprint_plddt: 93.25
+  reason: partial_site_overlap
+  gene: Bm17305
+  protein_name: Uncharacterized protein
+  rescue_settings_hit: null
+  residues: A:28 A:30 A:31 A:34 A:38 A:66 A:69 A:70
+  n_site_evidence: 0
+- accession: A0A4E9G1F1
+  taxid: 6279
+  species: '6279'
+  role: outgroup
+  side: absent
+  state: U
+  footprint_plddt: 69.875
+  reason: aligned<0.8
+  gene: null
+  protein_name: Choline/ethanolamine kinase
+  rescue_settings_hit: null
+  residues: A:41 A:45 A:46 A:49
+  n_site_evidence: 0
+- accession: A0A4S2LEF2
+  taxid: 147828
+  species: '147828'
+  role: outgroup
+  side: absent
+  state: U
+  footprint_plddt: 88.0
+  reason: plddt<90
+  gene: ''
+  protein_name: ''
+  rescue_settings_hit: null
+  residues: A:39 A:43 A:44 A:47 A:346 A:348 A:349 A:352 A:356 A:384 A:387 A:388
+  n_site_evidence: 0
+- accession: A0A4S2LYZ2
+  taxid: 147828
+  species: '147828'
+  role: outgroup
+  side: absent
+  state: U
+  footprint_plddt: 83.04166412353516
+  reason: partial_site_overlap
+  gene: ''
+  protein_name: ''
+  rescue_settings_hit: null
+  residues: A:53 A:57 A:58 A:61 A:392 A:394 A:395 A:398 A:402 A:430 A:433 A:436
+  n_site_evidence: 0
+- accession: A0A4U5PJJ2
+  taxid: 34508
+  species: '34508'
+  role: derived
+  side: present
+  state: P
+  footprint_plddt: 85.70833587646484
+  reason: ''
+  gene: ''
+  protein_name: ''
+  rescue_settings_hit: null
+  residues: A:7 A:11 A:12 A:15 A:259 A:262 A:263 A:266 A:270 A:299 A:302 A:303
+  n_site_evidence: 0
+- accession: A0A4U8UT22
+  taxid: 34508
+  species: '34508'
+  role: outgroup
+  side: absent
+  state: A
+  footprint_plddt: 96.20833587646484
+  reason: ''
+  gene: ''
+  protein_name: ''
+  rescue_settings_hit: null
+  residues: A:63 A:67 A:68 A:71 A:361 A:363 A:364 A:367 A:371 A:399 A:402 A:403
+  n_site_evidence: 0
+- accession: A0A4U8UWN4
+  taxid: 34508
+  species: '34508'
+  role: outgroup
+  side: absent
+  state: A
+  footprint_plddt: 94.66666412353516
+  reason: rescue:negative
+  gene: ''
+  protein_name: ''
+  rescue_settings_hit: 0
+  residues: A:89 A:93 A:94 A:97 A:397 A:399 A:400 A:403 A:407 A:436 A:439 A:440
+  n_site_evidence: 0
+- accession: A0A4U8UYG7
+  taxid: 34508
+  species: '34508'
+  role: outgroup
+  side: absent
+  state: A
+  footprint_plddt: 96.25
+  reason: rescue:negative
+  gene: ''
+  protein_name: ''
+  rescue_settings_hit: 0
+  residues: A:44 A:48 A:49 A:52 A:305 A:307 A:308 A:311 A:315 A:343 A:346 A:347
+  n_site_evidence: 0
+- accession: A0A4W3IWK5
+  taxid: 7868
+  species: '7868'
+  role: outgroup
+  side: absent
+  state: U
+  footprint_plddt: 85.79166412353516
+  reason: partial_site_overlap
+  gene: ''
+  protein_name: ''
+  rescue_settings_hit: null
+  residues: A:23 A:27 A:28 A:30 A:286 A:288 A:289 A:292 A:296 A:324 A:327 A:328
+  n_site_evidence: 0
+- accession: A0A4W3IZI9
+  taxid: 7868
+  species: '7868'
+  role: outgroup
+  side: absent
+  state: U
+  footprint_plddt: 74.45833587646484
+  reason: partial_site_overlap
+  gene: ''
+  protein_name: ''
+  rescue_settings_hit: null
+  residues: A:36 A:40 A:41 A:44 A:301 A:303 A:304 A:307 A:311 A:339 A:342 A:343
+  n_site_evidence: 0
+- accession: A0A4W3J5F3
+  taxid: 7868
+  species: '7868'
+  role: outgroup
+  side: absent
+  state: U
+  footprint_plddt: 76.875
+  reason: plddt<90
+  gene: ''
+  protein_name: ''
+  rescue_settings_hit: null
+  residues: A:43 A:47 A:48 A:51 A:337 A:339 A:340 A:343 A:347 A:375 A:378 A:379
+  n_site_evidence: 0
+- accession: A0A4W3JJZ1
+  taxid: 7868
+  species: '7868'
+  role: outgroup
+  side: absent
+  state: U
+  footprint_plddt: 95.875
+  reason: partial_site_overlap
+  gene: ''
+  protein_name: ''
+  rescue_settings_hit: null
+  residues: A:73 A:77 A:78 A:81 A:333 A:335 A:336 A:339 A:343 A:371 A:374 A:375
+  n_site_evidence: 0
+- accession: A0A4W3K1F6
+  taxid: 7868
+  species: '7868'
+  role: outgroup
+  side: absent
+  state: U
+  footprint_plddt: 76.29166412353516
+  reason: partial_site_overlap
+  gene: ''
+  protein_name: ''
+  rescue_settings_hit: null
+  residues: A:73 A:77 A:78 A:81 A:318 A:320 A:321 A:324 A:328 A:356 A:359 A:360
+  n_site_evidence: 0
+- accession: A0A4Z1SQN6
+  taxid: 5742
+  species: '5742'
+  role: outgroup
+  side: absent
+  state: A
+  footprint_plddt: 92.66666412353516
+  reason: rescue:negative
+  gene: ''
+  protein_name: ''
+  rescue_settings_hit: 0
+  residues: A:20 A:24 A:25 A:28 A:253 A:255 A:256 A:259 A:263 A:285 A:288 A:294
+  n_site_evidence: 0
+- accession: A0A5A8CB65
+  taxid: 33653
+  species: '33653'
+  role: outgroup
+  side: absent
+  state: U
+  footprint_plddt: 87.93181610107422
+  reason: plddt<90
+  gene: ''
+  protein_name: ''
+  rescue_settings_hit: null
+  residues: A:62 A:78 A:79 A:82 A:433 A:435 A:436 A:439 A:443 A:471 A:474
+  n_site_evidence: 0
+- accession: A0A5K4F018
+  taxid: 6183
+  species: '6183'
+  role: outgroup
+  side: absent
+  state: U
+  footprint_plddt: 89.75
+  reason: partial_site_overlap
+  gene: null
+  protein_name: Choline/ethanolamine kinase
+  rescue_settings_hit: null
+  residues: A:51 A:55 A:56 A:59 A:386 A:410 A:411 A:414 A:418 A:446 A:449
+  n_site_evidence: 0
+- accession: A0A5K4FCL7
+  taxid: 6183
+  species: '6183'
+  role: outgroup
+  side: absent
+  state: A
+  footprint_plddt: 92.83333587646484
+  reason: ''
+  gene: null
+  protein_name: ethanolamine kinase
+  rescue_settings_hit: null
+  residues: A:34 A:38 A:39 A:42 A:311 A:313 A:314 A:317 A:321 A:349 A:352 A:353
+  n_site_evidence: 0
+- accession: A0A5M9JJE1
+  taxid: 38448
+  species: '38448'
+  role: outgroup
+  side: absent
+  state: U
+  footprint_plddt: 94.20833587646484
+  reason: partial_site_overlap
+  gene: ''
+  protein_name: ''
+  rescue_settings_hit: null
+  residues: A:44 A:48 A:49 A:52 A:352 A:354 A:355 A:358 A:362 A:390 A:393 A:394
+  n_site_evidence: 0
+- accession: A0A5M9JPX0
+  taxid: 38448
+  species: '38448'
+  role: outgroup
+  side: absent
+  state: U
+  footprint_plddt: 90.625
+  reason: length_ratio
+  gene: ''
+  protein_name: ''
+  rescue_settings_hit: null
+  residues: A:289 A:294 A:295 A:298 A:663 A:665 A:666 A:669 A:673 A:751 A:754 A:755
+  n_site_evidence: 0
+- accession: A0A653CMX9
+  taxid: 64391
+  species: '64391'
+  role: outgroup
+  side: absent
+  state: U
+  footprint_plddt: 93.75
+  reason: partial_site_overlap
+  gene: ''
+  protein_name: ''
+  rescue_settings_hit: null
+  residues: A:37 A:41 A:42 A:45
+  n_site_evidence: 0
+- accession: A0A669CGZ4
+  taxid: 8128
+  species: '8128'
+  role: outgroup
+  side: absent
+  state: U
+  footprint_plddt: 96.20833587646484
+  reason: partial_site_overlap
+  gene: ''
+  protein_name: ''
+  rescue_settings_hit: null
+  residues: A:156 A:160 A:161 A:164 A:432 A:434 A:435 A:438 A:442 A:470 A:473 A:474
+  n_site_evidence: 0
+- accession: A0A669EZ18
+  taxid: 8128
+  species: '8128'
+  role: outgroup
+  side: absent
+  state: U
+  footprint_plddt: 84.91666412353516
+  reason: partial_site_overlap
+  gene: ''
+  protein_name: ''
+  rescue_settings_hit: null
+  residues: A:69 A:73 A:74 A:77 A:365 A:367 A:368 A:371 A:375 A:402 A:405 A:406
+  n_site_evidence: 0
+- accession: A0A670HMX8
+  taxid: 64176
+  species: '64176'
+  role: outgroup
+  side: absent
+  state: U
+  footprint_plddt: 96.52777862548828
+  reason: aligned<0.8
+  gene: ''
+  protein_name: ''
+  rescue_settings_hit: null
+  residues: A:97 A:101 A:102 A:105 A:394 A:396 A:397 A:400 A:404
+  n_site_evidence: 0
+- accession: A0A670JBV6
+  taxid: 64176
+  species: '64176'
+  role: outgroup
+  side: absent
+  state: U
+  footprint_plddt: 95.83333587646484
+  reason: partial_site_overlap
+  gene: ''
+  protein_name: ''
+  rescue_settings_hit: null
+  residues: A:111 A:115 A:116 A:119 A:383 A:385 A:386 A:389 A:393 A:421 A:424 A:425
+  n_site_evidence: 0
+- accession: A0A670JGZ1
+  taxid: 64176
+  species: '64176'
+  role: outgroup
+  side: absent
+  state: A
+  footprint_plddt: 96.08333587646484
+  reason: rescue:negative
+  gene: ''
+  protein_name: ''
+  rescue_settings_hit: 0
+  residues: A:50 A:54 A:55 A:58 A:328 A:330 A:331 A:334 A:338 A:366 A:369 A:370
+  n_site_evidence: 0
+- accession: A0A670KK73
+  taxid: 64176
+  species: '64176'
+  role: outgroup
+  side: absent
+  state: U
+  footprint_plddt: 95.625
+  reason: partial_site_overlap
+  gene: ''
+  protein_name: ''
+  rescue_settings_hit: null
+  residues: A:63 A:67 A:68 A:71 A:323 A:325 A:326 A:329 A:333 A:361 A:364 A:365
+  n_site_evidence: 0
+- accession: A0A674GWX0
+  taxid: 59729
+  species: '59729'
+  role: outgroup
+  side: absent
+  state: U
+  footprint_plddt: 97.25
+  reason: partial_site_overlap
+  gene: ''
+  protein_name: ''
+  rescue_settings_hit: null
+  residues: A:57 A:59 A:60 A:63 A:67 A:95 A:98 A:99
+  n_site_evidence: 0
+- accession: A0A674H6W8
+  taxid: 59729
+  species: '59729'
+  role: outgroup
+  side: absent
+  state: U
+  footprint_plddt: 47.25
+  reason: length_ratio
+  gene: ''
+  protein_name: ''
+  rescue_settings_hit: null
+  residues: A:41 A:45 A:46 A:49 A:374 A:376 A:377 A:380 A:384 A:423 A:426 A:428
+  n_site_evidence: 0
+- accession: A0A674HBV8
+  taxid: 59729
+  species: '59729'
+  role: outgroup
+  side: absent
+  state: U
+  footprint_plddt: 95.0
+  reason: partial_site_overlap
+  gene: ''
+  protein_name: ''
+  rescue_settings_hit: null
+  residues: A:45 A:49 A:50 A:53 A:305 A:307 A:308 A:311 A:315 A:343 A:346 A:347
+  n_site_evidence: 0
+- accession: A0A6I8UGG0
+  taxid: 46245
+  species: '46245'
+  role: outgroup
+  side: absent
+  state: U
+  footprint_plddt: 95.70833587646484
+  reason: length_ratio
+  gene: ''
+  protein_name: ''
+  rescue_settings_hit: null
+  residues: A:122 A:126 A:127 A:130 A:456 A:458 A:459 A:462 A:466 A:494 A:497 A:498
+  n_site_evidence: 0
+- accession: A0A6I8ULG6
+  taxid: 46245
+  species: '46245'
+  role: outgroup
+  side: absent
+  state: U
+  footprint_plddt: 93.70833587646484
+  reason: partial_site_overlap
+  gene: ''
+  protein_name: ''
+  rescue_settings_hit: null
+  residues: A:70 A:74 A:75 A:78 A:507 A:509 A:510 A:513 A:517 A:544 A:547 A:548
+  n_site_evidence: 0
+- accession: A0A6J3GWB3
+  taxid: 9515
+  species: '9515'
+  role: outgroup
+  side: absent
+  state: U
+  footprint_plddt: 94.70833587646484
+  reason: partial_site_overlap
+  gene: ''
+  protein_name: ''
+  rescue_settings_hit: null
+  residues: A:65 A:69 A:70 A:73 A:337 A:339 A:340 A:343 A:347 A:375 A:378 A:379
+  n_site_evidence: 0
+- accession: A0A6J3HCV9
+  taxid: 9515
+  species: '9515'
+  role: outgroup
+  side: absent
+  state: U
+  footprint_plddt: 94.0
+  reason: aligned<0.8
+  gene: ''
+  protein_name: ''
+  rescue_settings_hit: null
+  residues: A:79 A:83 A:84 A:87
+  n_site_evidence: 0
+- accession: A0A6J3I851
+  taxid: 9515
+  species: '9515'
+  role: outgroup
+  side: absent
+  state: A
+  footprint_plddt: 97.08333587646484
+  reason: rescue:negative
+  gene: ''
+  protein_name: ''
+  rescue_settings_hit: 0
+  residues: A:104 A:108 A:109 A:112 A:401 A:403 A:404 A:407 A:411 A:439 A:442 A:443
+  n_site_evidence: 0
+- accession: A0A6J3IMM3
+  taxid: 9515
+  species: '9515'
+  role: outgroup
+  side: absent
+  state: U
+  footprint_plddt: 95.58333587646484
+  reason: partial_site_overlap
+  gene: ''
+  protein_name: ''
+  rescue_settings_hit: null
+  residues: A:134 A:138 A:139 A:142 A:394 A:396 A:397 A:400 A:404 A:432 A:435 A:436
+  n_site_evidence: 0
+- accession: A0A6P5IS39
+  taxid: 38626
+  species: '38626'
+  role: outgroup
+  side: absent
+  state: A
+  footprint_plddt: 96.70833587646484
+  reason: rescue:negative
+  gene: ''
+  protein_name: ''
+  rescue_settings_hit: 0
+  residues: A:112 A:116 A:117 A:120 A:409 A:411 A:412 A:415 A:419 A:447 A:450 A:451
+  n_site_evidence: 0
+- accession: A0A6P5K083
+  taxid: 38626
+  species: '38626'
+  role: outgroup
+  side: absent
+  state: A
+  footprint_plddt: 94.04166412353516
+  reason: rescue:negative
+  gene: ''
+  protein_name: ''
+  rescue_settings_hit: 0
+  residues: A:49 A:53 A:54 A:57 A:319 A:321 A:322 A:325 A:329 A:357 A:360 A:361
+  n_site_evidence: 0
+- accession: A0A6P5KX06
+  taxid: 38626
+  species: '38626'
+  role: outgroup
+  side: absent
+  state: U
+  footprint_plddt: 95.45833587646484
+  reason: partial_site_overlap
+  gene: ''
+  protein_name: ''
+  rescue_settings_hit: null
+  residues: A:45 A:49 A:50 A:53 A:305 A:307 A:308 A:311 A:315 A:343 A:346 A:347
+  n_site_evidence: 0
+- accession: A0A6P5LMN5
+  taxid: 38626
+  species: '38626'
+  role: outgroup
+  side: absent
+  state: U
+  footprint_plddt: 96.16666412353516
+  reason: partial_site_overlap
+  gene: ''
+  protein_name: ''
+  rescue_settings_hit: null
+  residues: A:83 A:87 A:88 A:91 A:340 A:342 A:343 A:346 A:350 A:378 A:381 A:382
+  n_site_evidence: 0
+- accession: A0A6P8NFV5
+  taxid: 260995
+  species: '260995'
+  role: outgroup
+  side: absent
+  state: U
+  footprint_plddt: 95.04166412353516
+  reason: partial_site_overlap
+  gene: ''
+  protein_name: ''
+  rescue_settings_hit: null
+  residues: A:48 A:52 A:53 A:56 A:309 A:311 A:312 A:315 A:319 A:347 A:350 A:351
+  n_site_evidence: 0
+- accession: A0A6P8RPR9
+  taxid: 260995
+  species: '260995'
+  role: outgroup
+  side: absent
+  state: A
+  footprint_plddt: 95.25
+  reason: rescue:negative
+  gene: ''
+  protein_name: ''
+  rescue_settings_hit: 0
+  residues: A:42 A:46 A:47 A:50 A:366 A:368 A:369 A:372 A:376 A:404 A:407 A:408
+  n_site_evidence: 0
+- accession: A0A6P8S8J8
+  taxid: 260995
+  species: '260995'
+  role: outgroup
+  side: absent
+  state: U
+  footprint_plddt: 95.66666412353516
+  reason: partial_site_overlap
+  gene: ''
+  protein_name: ''
+  rescue_settings_hit: null
+  residues: A:89 A:93 A:94 A:97 A:367 A:369 A:370 A:373 A:377 A:405 A:408 A:409
+  n_site_evidence: 0
+- accession: A0A6P8YC43
+  taxid: 161013
+  species: '161013'
+  role: outgroup
+  side: absent
+  state: U
+  footprint_plddt: 94.625
+  reason: partial_site_overlap
+  gene: ''
+  protein_name: ''
+  rescue_settings_hit: null
+  residues: A:48 A:52 A:53 A:56 A:341 A:343 A:344 A:347 A:351 A:379 A:382 A:383
+  n_site_evidence: 0
+- accession: A0A6P8Z2L3
+  taxid: 161013
+  species: '161013'
+  role: outgroup
+  side: absent
+  state: A
+  footprint_plddt: 96.33333587646484
+  reason: rescue:negative
+  gene: ''
+  protein_name: ''
+  rescue_settings_hit: 0
+  residues: A:57 A:61 A:62 A:65 A:323 A:325 A:326 A:329 A:333 A:361 A:364 A:365
+  n_site_evidence: 0
+- accession: A0A6P9EG45
+  taxid: 51240
+  species: '51240'
+  role: outgroup
+  side: absent
+  state: U
+  footprint_plddt: 82.625
+  reason: aligned<0.8
+  gene: ''
+  protein_name: ''
+  rescue_settings_hit: null
+  residues: A:33 A:38 A:39 A:42
+  n_site_evidence: 0
+- accession: A0A7I4BA87
+  taxid: 3218
+  species: '3218'
+  role: outgroup
+  side: absent
+  state: U
+  footprint_plddt: 92.66666412353516
+  reason: length_ratio
+  gene: ''
+  protein_name: ''
+  rescue_settings_hit: null
+  residues: A:285 A:289 A:290 A:293 A:539 A:541 A:542 A:545 A:549 A:577 A:580 A:581
+  n_site_evidence: 0
+- accession: A0A7J6NMY9
+  taxid: 32597
+  species: '32597'
+  role: outgroup
+  side: absent
+  state: U
+  footprint_plddt: 92.5
+  reason: partial_site_overlap
+  gene: ''
+  protein_name: ''
+  rescue_settings_hit: null
+  residues: A:53 A:58 A:59 A:63
+  n_site_evidence: 0
+- accession: A0A7J6P2J4
+  taxid: 32597
+  species: '32597'
+  role: outgroup
+  side: absent
+  state: U
+  footprint_plddt: 80.375
+  reason: plddt<90
+  gene: ''
+  protein_name: ''
+  rescue_settings_hit: null
+  residues: A:76 A:83 A:84 A:87 A:358 A:360 A:361 A:364 A:368 A:407 A:410 A:411
+  n_site_evidence: 0
+- accession: A0A7J6Q7Q3
+  taxid: 32597
+  species: '32597'
+  role: outgroup
+  side: absent
+  state: U
+  footprint_plddt: 64.15908813476562
+  reason: length_ratio
+  gene: ''
+  protein_name: ''
+  rescue_settings_hit: null
+  residues: A:234 A:243 A:246 A:579 A:582 A:583 A:586 A:590 A:624 A:627 A:630
+  n_site_evidence: 0
+- accession: A0A7J6QQQ8
+  taxid: 32597
+  species: '32597'
+  role: outgroup
+  side: absent
+  state: U
+  footprint_plddt: 79.91666412353516
+  reason: plddt<90
+  gene: ''
+  protein_name: ''
+  rescue_settings_hit: null
+  residues: A:76 A:83 A:84 A:87 A:358 A:360 A:361 A:364 A:368 A:407 A:410 A:411
+  n_site_evidence: 0
+- accession: A0A7J6SZM2
+  taxid: 32597
+  species: '32597'
+  role: outgroup
+  side: absent
+  state: U
+  footprint_plddt: 35.75
+  reason: aligned<0.8
+  gene: ''
+  protein_name: ''
+  rescue_settings_hit: null
+  residues: A:2 A:3 A:6
+  n_site_evidence: 0
+- accession: A0A7J6T6Y1
+  taxid: 32597
+  species: '32597'
+  role: outgroup
+  side: absent
+  state: U
+  footprint_plddt: 66.61363983154297
+  reason: length_ratio
+  gene: ''
+  protein_name: ''
+  rescue_settings_hit: null
+  residues: A:70 A:79 A:82 A:355 A:358 A:359 A:362 A:366 A:400 A:403 A:406
+  n_site_evidence: 0
+- accession: A0A7J6TID2
+  taxid: 32597
+  species: '32597'
+  role: outgroup
+  side: absent
+  state: U
+  footprint_plddt: 97.0
+  reason: aligned<0.8
+  gene: ''
+  protein_name: ''
+  rescue_settings_hit: null
+  residues: A:221 A:223 A:224 A:227 A:231 A:270 A:273 A:274
+  n_site_evidence: 0
+- accession: A0A7J6TVY4
+  taxid: 32597
+  species: '32597'
+  role: outgroup
+  side: absent
+  state: U
+  footprint_plddt: 93.29166412353516
+  reason: partial_site_overlap
+  gene: ''
+  protein_name: ''
+  rescue_settings_hit: null
+  residues: A:131 A:135 A:136 A:139 A:423 A:425 A:426 A:429 A:433 A:463 A:466 A:467
+  n_site_evidence: 0
+- accession: A0A7J6TXS0
+  taxid: 32597
+  species: '32597'
+  role: outgroup
+  side: absent
+  state: U
+  footprint_plddt: 68.75
+  reason: aligned<0.8
+  gene: ''
+  protein_name: ''
+  rescue_settings_hit: null
+  residues: A:75 A:105 A:108 A:109
+  n_site_evidence: 0
+- accession: A0A7J6U1H4
+  taxid: 32597
+  species: '32597'
+  role: outgroup
+  side: absent
+  state: U
+  footprint_plddt: 66.25
+  reason: partial_site_overlap
+  gene: ''
+  protein_name: ''
+  rescue_settings_hit: null
+  residues: A:32 A:37 A:38 A:42 A:323 A:324 A:327 A:331 A:357 A:360 A:362
+  n_site_evidence: 0
+- accession: A0A7J6UD69
+  taxid: 32597
+  species: '32597'
+  role: outgroup
+  side: absent
+  state: U
+  footprint_plddt: 90.25
+  reason: partial_site_overlap
+  gene: ''
+  protein_name: ''
+  rescue_settings_hit: null
+  residues: A:97 A:101 A:102 A:105
+  n_site_evidence: 0
+- accession: A0A7J8BCS0
+  taxid: 9407
+  species: '9407'
+  role: outgroup
+  side: absent
+  state: U
+  footprint_plddt: 96.20833587646484
+  reason: partial_site_overlap
+  gene: ''
+  protein_name: ''
+  rescue_settings_hit: null
+  residues: A:79 A:83 A:84 A:87 A:328 A:330 A:331 A:334 A:338 A:366 A:369 A:370
+  n_site_evidence: 0
+- accession: A0A7J8GWY9
+  taxid: 9407
+  species: '9407'
+  role: outgroup
+  side: absent
+  state: U
+  footprint_plddt: 96.91666412353516
+  reason: partial_site_overlap
+  gene: ''
+  protein_name: ''
+  rescue_settings_hit: null
+  residues: A:104 A:108 A:109 A:112 A:401 A:403 A:404 A:407 A:411 A:439 A:442 A:443
+  n_site_evidence: 0
+- accession: A0A7J8JBG5
+  taxid: 9407
+  species: '9407'
+  role: outgroup
+  side: absent
+  state: U
+  footprint_plddt: 92.41666412353516
+  reason: partial_site_overlap
+  gene: ''
+  protein_name: ''
+  rescue_settings_hit: null
+  residues: A:65 A:69 A:70 A:73 A:337 A:339 A:340 A:343 A:347 A:375 A:378 A:379
+  n_site_evidence: 0
+- accession: A0A7J8JFB7
+  taxid: 9407
+  species: '9407'
+  role: outgroup
+  side: absent
+  state: U
+  footprint_plddt: 95.79166412353516
+  reason: partial_site_overlap
+  gene: ''
+  protein_name: ''
+  rescue_settings_hit: null
+  residues: A:45 A:49 A:50 A:53 A:305 A:307 A:308 A:311 A:315 A:343 A:346 A:347
+  n_site_evidence: 0
+- accession: A0A7M7HAZ4
+  taxid: 7425
+  species: '7425'
+  role: outgroup
+  side: absent
+  state: U
+  footprint_plddt: 95.625
+  reason: partial_site_overlap
+  gene: ''
+  protein_name: ''
+  rescue_settings_hit: null
+  residues: A:53 A:57 A:58 A:61 A:325 A:327 A:328 A:331 A:335 A:363 A:366 A:367
+  n_site_evidence: 0
+- accession: A0A7M7K829
+  taxid: 109461
+  species: '109461'
+  role: outgroup
+  side: absent
+  state: U
+  footprint_plddt: 94.75
+  reason: length_ratio
+  gene: ''
+  protein_name: ''
+  rescue_settings_hit: null
+  residues: A:255 A:259 A:260 A:263 A:537 A:539 A:540 A:543 A:547 A:575 A:578 A:579
+  n_site_evidence: 0
+- accession: A0A7M7KWL1
+  taxid: 109461
+  species: '109461'
+  role: outgroup
+  side: absent
+  state: U
+  footprint_plddt: 94.91666412353516
+  reason: partial_site_overlap
+  gene: ''
+  protein_name: ''
+  rescue_settings_hit: null
+  residues: A:63 A:67 A:68 A:71 A:317 A:319 A:320 A:323 A:327 A:355 A:358 A:359
+  n_site_evidence: 0
+- accession: A0A7M7P1U5
+  taxid: 7668
+  species: '7668'
+  role: outgroup
+  side: absent
+  state: U
+  footprint_plddt: 95.20833587646484
+  reason: partial_site_overlap
+  gene: ''
+  protein_name: ''
+  rescue_settings_hit: null
+  residues: A:37 A:41 A:42 A:45 A:297 A:299 A:300 A:303 A:307 A:335 A:338 A:339
+  n_site_evidence: 0
+- accession: A0A7M7P538
+  taxid: 7668
+  species: '7668'
+  role: outgroup
+  side: absent
+  state: U
+  footprint_plddt: 93.04166412353516
+  reason: partial_site_overlap
+  gene: ''
+  protein_name: ''
+  rescue_settings_hit: null
+  residues: A:31 A:35 A:36 A:39 A:335 A:337 A:338 A:341 A:345 A:373 A:376 A:377
+  n_site_evidence: 0
+- accession: A0A7M7QM82
+  taxid: 7425
+  species: '7425'
+  role: outgroup
+  side: absent
+  state: A
+  footprint_plddt: 96.04166412353516
+  reason: ''
+  gene: ''
+  protein_name: ''
+  rescue_settings_hit: null
+  residues: A:37 A:41 A:42 A:45 A:295 A:297 A:298 A:301 A:305 A:333 A:336 A:337
+  n_site_evidence: 0
+- accession: A0A804LPY7
+  taxid: 4577
+  species: '4577'
+  role: outgroup
+  side: absent
+  state: U
+  footprint_plddt: 52.58333206176758
+  reason: aligned<0.8
+  gene: null
+  protein_name: Uncharacterized protein
+  rescue_settings_hit: null
+  residues: A:1 A:2 A:6
+  n_site_evidence: 0
+- accession: A0A804MNJ3
+  taxid: 4577
+  species: '4577'
+  role: outgroup
+  side: absent
+  state: A
+  footprint_plddt: 96.75
+  reason: rescue:negative
+  gene: ''
+  protein_name: ''
+  rescue_settings_hit: 0
+  residues: A:75 A:79 A:80 A:83 A:328 A:330 A:331 A:334 A:338 A:366 A:369 A:370
+  n_site_evidence: 0
+- accession: A0A804NE96
+  taxid: 4577
+  species: '4577'
+  role: outgroup
+  side: absent
+  state: U
+  footprint_plddt: 94.66666412353516
+  reason: partial_site_overlap
+  gene: ''
+  protein_name: ''
+  rescue_settings_hit: null
+  residues: A:44 A:48 A:49 A:52 A:309 A:311 A:312 A:315 A:319 A:347 A:350 A:351
+  n_site_evidence: 0
+- accession: A0A804P4C4
+  taxid: 4577
+  species: '4577'
+  role: outgroup
+  side: absent
+  state: U
+  footprint_plddt: 69.875
+  reason: aligned<0.8
+  gene: ''
+  protein_name: ''
+  rescue_settings_hit: null
+  residues: A:46 A:50 A:51 A:54
+  n_site_evidence: 0
+- accession: A0A804QLB1
+  taxid: 4577
+  species: '4577'
+  role: outgroup
+  side: absent
+  state: U
+  footprint_plddt: 94.66666412353516
+  reason: partial_site_overlap
+  gene: LOC100192922
+  protein_name: Choline kinase 2
+  rescue_settings_hit: null
+  residues: A:46 A:50 A:51 A:54 A:303 A:305 A:306 A:309 A:313 A:342 A:345 A:346
+  n_site_evidence: 0
+- accession: A0A8M1N809
+  taxid: 7955
+  species: '7955'
+  role: outgroup
+  side: absent
+  state: U
+  footprint_plddt: 96.83333587646484
+  reason: partial_site_overlap
+  gene: ''
+  protein_name: ''
+  rescue_settings_hit: null
+  residues: A:42 A:46 A:47 A:50 A:302 A:304 A:305 A:308 A:312 A:340 A:343 A:344
+  n_site_evidence: 0
+- accession: A0A8M1NE06
+  taxid: 7955
+  species: '7955'
+  role: outgroup
+  side: absent
+  state: U
+  footprint_plddt: 96.91666412353516
+  reason: partial_site_overlap
+  gene: ''
+  protein_name: ''
+  rescue_settings_hit: null
+  residues: A:126 A:130 A:131 A:134 A:399 A:401 A:402 A:405 A:409 A:437 A:440 A:441
+  n_site_evidence: 0
+- accession: A0A8R1TV92
+  taxid: 6282
+  species: '6282'
+  role: outgroup
+  side: absent
+  state: U
+  footprint_plddt: 95.08333587646484
+  reason: partial_site_overlap
+  gene: null
+  protein_name: Choline/ethanolamine kinase
+  rescue_settings_hit: null
+  residues: A:51 A:55 A:56 A:59 A:347 A:349 A:350 A:353 A:357 A:392 A:395 A:396
+  n_site_evidence: 0
+- accession: A0A8R1TYL3
+  taxid: 6282
+  species: '6282'
+  role: outgroup
+  side: absent
+  state: U
+  footprint_plddt: 92.5625
+  reason: partial_site_overlap
+  gene: null
+  protein_name: Uncharacterized protein
+  rescue_settings_hit: null
+  residues: A:185 A:187 A:188 A:191 A:195 A:223 A:226 A:227
+  n_site_evidence: 0
+- accession: A0A8R1U0N1
+  taxid: 6282
+  species: '6282'
+  role: derived
+  side: other
+  state: U
+  footprint_plddt: 90.0625
+  reason: partial_site_overlap
+  gene: null
+  protein_name: Uncharacterized protein
+  rescue_settings_hit: null
+  residues: null
+  n_site_evidence: 0
+- accession: A0A8R1XTQ0
+  taxid: 6282
+  species: '6282'
+  role: outgroup
+  side: absent
+  state: U
+  footprint_plddt: 92.5
+  reason: partial_site_overlap
+  gene: null
+  protein_name: Choline/ethanolamine kinase
+  rescue_settings_hit: null
+  residues: A:74 A:78 A:79 A:82 A:337 A:339 A:340 A:343 A:347 A:376 A:379 A:380
+  n_site_evidence: 0
+- accession: A0A8R1XXZ3
+  taxid: 6282
+  species: '6282'
+  role: outgroup
+  side: absent
+  state: A
+  footprint_plddt: 95.54166412353516
+  reason: rescue:negative
+  gene: null
+  protein_name: ethanolamine kinase
+  rescue_settings_hit: 0
+  residues: A:38 A:42 A:43 A:46 A:298 A:300 A:301 A:304 A:308 A:336 A:339 A:340
+  n_site_evidence: 0
+- accession: A0A8R1Y255
+  taxid: 6282
+  species: '6282'
+  role: derived
+  side: other
+  state: U
+  footprint_plddt: 71.625
+  reason: partial_site_overlap
+  gene: null
+  protein_name: Uncharacterized protein
+  rescue_settings_hit: null
+  residues: null
+  n_site_evidence: 0
+- accession: A0AAF5CRP9
+  taxid: 6248
+  species: '6248'
+  role: outgroup
+  side: absent
+  state: A
+  footprint_plddt: 96.66666412353516
+  reason: rescue:negative
+  gene: null
+  protein_name: ethanolamine kinase
+  rescue_settings_hit: 0
+  residues: A:40 A:44 A:45 A:48 A:296 A:298 A:299 A:302 A:306 A:334 A:337 A:338
+  n_site_evidence: 0
+- accession: A0AAF5CY52
+  taxid: 6248
+  species: '6248'
+  role: outgroup
+  side: absent
+  state: U
+  footprint_plddt: 97.6875
+  reason: aligned<0.8
+  gene: null
+  protein_name: ethanolamine kinase
+  rescue_settings_hit: null
+  residues: A:162 A:164 A:165 A:168 A:172 A:200 A:203 A:204
+  n_site_evidence: 0
+- accession: A0AAF5D9X8
+  taxid: 6248
+  species: '6248'
+  role: derived
+  side: other
+  state: U
+  footprint_plddt: 90.04166412353516
+  reason: length_ratio
+  gene: null
+  protein_name: Choline/ethanolamine kinase
+  rescue_settings_hit: null
+  residues: null
+  n_site_evidence: 0
+- accession: A0AAF5DBX5
+  taxid: 6248
+  species: '6248'
+  role: outgroup
+  side: absent
+  state: U
+  footprint_plddt: 94.5
+  reason: partial_site_overlap
+  gene: null
+  protein_name: Choline kinase N-terminal domain-containing protein
+  rescue_settings_hit: null
+  residues: A:29 A:33 A:34 A:37 A:316 A:318 A:319 A:322 A:326 A:355 A:358 A:359
+  n_site_evidence: 0
+- accession: A0AAF5DGQ3
+  taxid: 6248
+  species: '6248'
+  role: derived
+  side: present
+  state: P
+  footprint_plddt: 92.9772720336914
+  reason: ''
+  gene: null
+  protein_name: Uncharacterized protein
+  rescue_settings_hit: null
+  residues: A:3 A:4 A:7 A:267 A:270 A:271 A:274 A:278 A:307 A:310 A:311
+  n_site_evidence: 0
+- accession: A0AAF5DQS9
+  taxid: 6248
+  species: '6248'
+  role: outgroup
+  side: absent
+  state: U
+  footprint_plddt: 77.0
+  reason: partial_site_overlap
+  gene: null
+  protein_name: SH3 domain-containing protein
+  rescue_settings_hit: null
+  residues: A:1113 A:1117 A:1118 A:1121 A:1417 A:1419 A:1420 A:1423 A:1427 A:1458 A:1461 A:1462
+  n_site_evidence: 0
+- accession: A0ABK0LLY9
+  taxid: 10116
+  species: '10116'
+  role: outgroup
+  side: absent
+  state: A
+  footprint_plddt: 96.91666412353516
+  reason: rescue:negative
+  gene: ''
+  protein_name: ''
+  rescue_settings_hit: 0
+  residues: A:45 A:49 A:50 A:53 A:305 A:307 A:308 A:311 A:315 A:343 A:346 A:347
+  n_site_evidence: 0
+- accession: A4I2U4
+  taxid: 5671
+  species: '5671'
+  role: outgroup
+  side: absent
+  state: U
+  footprint_plddt: 91.75
+  reason: partial_site_overlap
+  gene: null
+  protein_name: ethanolamine kinase
+  rescue_settings_hit: null
+  residues: A:254 A:258 A:259 A:262 A:584 A:586 A:587 A:590 A:594 A:622 A:625 A:626
+  n_site_evidence: 0
+- accession: A4IB50
+  taxid: 5671
+  species: '5671'
+  role: outgroup
+  side: absent
+  state: U
+  footprint_plddt: 85.875
+  reason: partial_site_overlap
+  gene: null
+  protein_name: Putative choline/ethanolamine kinase
+  rescue_settings_hit: null
+  residues: A:172 A:179 A:180 A:183 A:595 A:598 A:599 A:602 A:606 A:649 A:652 A:653
+  n_site_evidence: 0
+- accession: A7ARL6
+  taxid: 5865
+  species: '5865'
+  role: outgroup
+  side: absent
+  state: U
+  footprint_plddt: 94.29166412353516
+  reason: partial_site_overlap
+  gene: ''
+  protein_name: ''
+  rescue_settings_hit: null
+  residues: A:80 A:87 A:88 A:91 A:342 A:344 A:345 A:348 A:352 A:380 A:383 A:384
+  n_site_evidence: 0
+- accession: A7ARL7
+  taxid: 5865
+  species: '5865'
+  role: outgroup
+  side: absent
+  state: A
+  footprint_plddt: 96.25
+  reason: rescue:negative
+  gene: ''
+  protein_name: ''
+  rescue_settings_hit: 0
+  residues: A:63 A:70 A:71 A:74 A:326 A:328 A:329 A:332 A:336 A:364 A:367 A:368
+  n_site_evidence: 0
+- accession: A7MCT6
+  taxid: 10090
+  species: '10090'
+  role: outgroup
+  side: absent
+  state: U
+  footprint_plddt: 97.29166412353516
+  reason: partial_site_overlap
+  gene: Etnk2
+  protein_name: Ethanolamine kinase 2
+  rescue_settings_hit: null
+  residues: A:78 A:82 A:83 A:86 A:327 A:329 A:330 A:333 A:337 A:365 A:368 A:369
+  n_site_evidence: 0
+- accession: A7RZ78
+  taxid: 45351
+  species: '45351'
+  role: outgroup
+  side: absent
+  state: U
+  footprint_plddt: 92.04166412353516
+  reason: partial_site_overlap
+  gene: ''
+  protein_name: ''
+  rescue_settings_hit: null
+  residues: A:18 A:22 A:23 A:26 A:297 A:299 A:300 A:303 A:307 A:335 A:338 A:339
+  n_site_evidence: 0
+- accession: A7SK27
+  taxid: 45351
+  species: '45351'
+  role: outgroup
+  side: absent
+  state: U
+  footprint_plddt: 96.875
+  reason: partial_site_overlap
+  gene: etnk
+  protein_name: Probable ethanolamine kinase
+  rescue_settings_hit: null
+  residues: A:31 A:35 A:36 A:39 A:292 A:294 A:295 A:298 A:302 A:330 A:333 A:334
+  n_site_evidence: 0
+- accession: A7T4Z3
+  taxid: 45351
+  species: '45351'
+  role: outgroup
+  side: absent
+  state: U
+  footprint_plddt: 87.63888549804688
+  reason: aligned<0.8
+  gene: ''
+  protein_name: ''
+  rescue_settings_hit: null
+  residues: A:38 A:42 A:43 A:46 A:322 A:324 A:325 A:328 A:332
+  n_site_evidence: 0
+- accession: A7TEL9
+  taxid: 436907
+  species: '436907'
+  role: outgroup
+  side: absent
+  state: U
+  footprint_plddt: 93.33333587646484
+  reason: partial_site_overlap
+  gene: ''
+  protein_name: ''
+  rescue_settings_hit: null
+  residues: A:147 A:152 A:155 A:158 A:465 A:467 A:468 A:471 A:475 A:557 A:560 A:561
+  n_site_evidence: 0
+- accession: A8DWK3
+  taxid: 45351
+  species: '45351'
+  role: outgroup
+  side: absent
+  state: U
+  footprint_plddt: null
+  reason: aligned<0.8
+  gene: ''
+  protein_name: ''
+  rescue_settings_hit: null
+  residues: null
+  n_site_evidence: 0
+- accession: A9RND2
+  taxid: 3218
+  species: '3218'
+  role: outgroup
+  side: absent
+  state: A
+  footprint_plddt: 95.20833587646484
+  reason: rescue:negative
+  gene: ''
+  protein_name: ''
+  rescue_settings_hit: 0
+  residues: A:100 A:104 A:105 A:108 A:354 A:356 A:357 A:360 A:364 A:392 A:395 A:396
+  n_site_evidence: 0
+- accession: A9TZ07
+  taxid: 3218
+  species: '3218'
+  role: outgroup
+  side: absent
+  state: U
+  footprint_plddt: 95.16666412353516
+  reason: partial_site_overlap
+  gene: ''
+  protein_name: ''
+  rescue_settings_hit: null
+  residues: A:52 A:56 A:57 A:60 A:306 A:308 A:309 A:312 A:316 A:344 A:347 A:348
+  n_site_evidence: 0
+- accession: C0NEK6
+  taxid: 447093
+  species: '447093'
+  role: outgroup
+  side: absent
+  state: U
+  footprint_plddt: 92.91666412353516
+  reason: partial_site_overlap
+  gene: null
+  protein_name: Choline kinase
+  rescue_settings_hit: null
+  residues: A:304 A:309 A:310 A:313 A:639 A:641 A:642 A:645 A:649 A:725 A:728 A:729
+  n_site_evidence: 0
+- accession: C0NKG6
+  taxid: 447093
+  species: '447093'
+  role: outgroup
+  side: absent
+  state: U
+  footprint_plddt: 96.0
+  reason: partial_site_overlap
+  gene: null
+  protein_name: ethanolamine kinase
+  rescue_settings_hit: null
+  residues: A:41 A:45 A:46 A:49 A:351 A:353 A:354 A:357 A:361 A:389 A:392 A:393
+  n_site_evidence: 0
+- accession: C1GY18
+  taxid: 502779
+  species: '502779'
+  role: outgroup
+  side: absent
+  state: U
+  footprint_plddt: 96.375
+  reason: partial_site_overlap
+  gene: null
+  protein_name: ethanolamine kinase
+  rescue_settings_hit: null
+  residues: A:44 A:48 A:49 A:52 A:354 A:356 A:357 A:360 A:364 A:392 A:395 A:396
+  n_site_evidence: 0
+- accession: C1H3F3
+  taxid: 502779
+  species: '502779'
+  role: outgroup
+  side: absent
+  state: U
+  footprint_plddt: 94.25
+  reason: partial_site_overlap
+  gene: null
+  protein_name: Choline kinase N-terminal domain-containing protein
+  rescue_settings_hit: null
+  residues: A:277 A:282 A:283 A:286 A:652 A:654 A:655 A:658 A:662 A:742 A:745 A:746
+  n_site_evidence: 0
+- accession: C4LSS1
+  taxid: 294381
+  species: '294381'
+  role: outgroup
+  side: absent
+  state: A
+  footprint_plddt: 94.54166412353516
+  reason: rescue:negative
+  gene: ''
+  protein_name: ''
+  rescue_settings_hit: 0
+  residues: A:81 A:87 A:88 A:91 A:323 A:325 A:326 A:329 A:333 A:361 A:364 A:365
+  n_site_evidence: 0
+- accession: C4LT28
+  taxid: 294381
+  species: '294381'
+  role: outgroup
+  side: absent
+  state: U
+  footprint_plddt: 96.20833587646484
+  reason: partial_site_overlap
+  gene: ''
+  protein_name: ''
+  rescue_settings_hit: null
+  residues: A:59 A:65 A:66 A:69 A:307 A:309 A:310 A:313 A:317 A:345 A:348 A:349
+  n_site_evidence: 0
+- accession: C7J2C2
+  taxid: 39947
+  species: '39947'
+  role: outgroup
+  side: absent
+  state: U
+  footprint_plddt: 94.66666412353516
+  reason: partial_site_overlap
+  gene: null
+  protein_name: Os05g0535400 protein
+  rescue_settings_hit: null
+  residues: A:37 A:41 A:42 A:45 A:294 A:296 A:297 A:300 A:304 A:332 A:335 A:336
+  n_site_evidence: 0
+- accession: D2UXX5
+  taxid: 5762
+  species: '5762'
+  role: outgroup
+  side: absent
+  state: U
+  footprint_plddt: 91.625
+  reason: partial_site_overlap
+  gene: ''
+  protein_name: ''
+  rescue_settings_hit: null
+  residues: A:1 A:5 A:6 A:9 A:267 A:269 A:270 A:273 A:277 A:305 A:308 A:309
+  n_site_evidence: 0
+- accession: D2VLH0
+  taxid: 5762
+  species: '5762'
+  role: outgroup
+  side: absent
+  state: U
+  footprint_plddt: 94.75
+  reason: partial_site_overlap
+  gene: ''
+  protein_name: ''
+  rescue_settings_hit: null
+  residues: A:261 A:264 A:265 A:268 A:530 A:532 A:533 A:536 A:540 A:568 A:571 A:572
+  n_site_evidence: 0
+- accession: D3ZRW8
+  taxid: 10116
+  species: '10116'
+  role: outgroup
+  side: absent
+  state: U
+  footprint_plddt: 96.58333587646484
+  reason: partial_site_overlap
+  gene: Etnk2
+  protein_name: Ethanolamine kinase 2
+  rescue_settings_hit: null
+  residues: A:78 A:82 A:83 A:86 A:327 A:329 A:330 A:333 A:337 A:365 A:368 A:369
+  n_site_evidence: 0
+- accession: E9ADC3
+  taxid: 5664
+  species: '5664'
+  role: outgroup
+  side: absent
+  state: U
+  footprint_plddt: 89.95833587646484
+  reason: length_ratio
+  gene: ''
+  protein_name: ''
+  rescue_settings_hit: null
+  residues: A:254 A:258 A:259 A:262 A:587 A:589 A:590 A:593 A:597 A:625 A:628 A:629
+  n_site_evidence: 0
+- accession: E9AEX0
+  taxid: 5664
+  species: '5664'
+  role: outgroup
+  side: absent
+  state: U
+  footprint_plddt: 90.625
+  reason: length_ratio
+  gene: ''
+  protein_name: ''
+  rescue_settings_hit: null
+  residues: A:172 A:179 A:180 A:183 A:595 A:598 A:599 A:602 A:606 A:649 A:652 A:653
+  n_site_evidence: 0
+- accession: F2SZK3
+  taxid: 559305
+  species: '559305'
+  role: outgroup
+  side: absent
+  state: U
+  footprint_plddt: 95.125
+  reason: partial_site_overlap
+  gene: ''
+  protein_name: ''
+  rescue_settings_hit: null
+  residues: A:44 A:48 A:49 A:52 A:357 A:359 A:360 A:363 A:367 A:395 A:398 A:399
+  n_site_evidence: 0
+- accession: F2SZS5
+  taxid: 559305
+  species: '559305'
+  role: outgroup
+  side: absent
+  state: U
+  footprint_plddt: 87.29166412353516
+  reason: partial_site_overlap
+  gene: ''
+  protein_name: ''
+  rescue_settings_hit: null
+  residues: A:361 A:366 A:367 A:370 A:739 A:741 A:742 A:745 A:749 A:848 A:851 A:852
+  n_site_evidence: 0
+- accession: F2U6H5
+  taxid: 946362
+  species: '946362'
+  role: outgroup
+  side: absent
+  state: U
+  footprint_plddt: 95.04166412353516
+  reason: partial_site_overlap
+  gene: ''
+  protein_name: ''
+  rescue_settings_hit: null
+  residues: A:40 A:44 A:45 A:48 A:301 A:303 A:304 A:307 A:311 A:339 A:342 A:343
+  n_site_evidence: 0
+- accession: G3BAR0
+  taxid: 590646
+  species: '590646'
+  role: outgroup
+  side: absent
+  state: U
+  footprint_plddt: 94.93181610107422
+  reason: length_ratio
+  gene: ''
+  protein_name: ''
+  rescue_settings_hit: null
+  residues: A:102 A:107 A:110 A:421 A:423 A:424 A:427 A:431 A:504 A:507 A:508
+  n_site_evidence: 0
+- accession: G3BBI9
+  taxid: 590646
+  species: '590646'
+  role: outgroup
+  side: absent
+  state: U
+  footprint_plddt: 95.0
+  reason: partial_site_overlap
+  gene: ''
+  protein_name: ''
+  rescue_settings_hit: null
+  residues: A:141 A:145 A:146 A:149 A:453 A:455 A:456 A:459 A:463 A:491 A:494 A:495
+  n_site_evidence: 0
+- accession: H0ZI20
+  taxid: 59729
+  species: '59729'
+  role: outgroup
+  side: absent
+  state: A
+  footprint_plddt: 96.75
+  reason: ''
+  gene: ''
+  protein_name: ''
+  rescue_settings_hit: null
+  residues: A:90 A:94 A:95 A:98 A:387 A:389 A:390 A:393 A:397 A:425 A:428 A:429
+  n_site_evidence: 0
+- accession: H1A4D4
+  taxid: 59729
+  species: '59729'
+  role: outgroup
+  side: absent
+  state: U
+  footprint_plddt: 29.75
+  reason: plddt<90
+  gene: ''
+  protein_name: ''
+  rescue_settings_hit: null
+  residues: A:48 A:52 A:53 A:56 A:290 A:292 A:293 A:296 A:300 A:328 A:331 A:332
+  n_site_evidence: 0
+- accession: I1JW58
+  taxid: 3847
+  species: '3847'
+  role: outgroup
+  side: absent
+  state: U
+  footprint_plddt: 97.125
+  reason: partial_site_overlap
+  gene: LOC100787742
+  protein_name: ethanolamine kinase
+  rescue_settings_hit: null
+  residues: A:60 A:64 A:65 A:68 A:313 A:315 A:316 A:319 A:323 A:351 A:354 A:355
+  n_site_evidence: 0
+- accession: I3JU65
+  taxid: 8128
+  species: '8128'
+  role: outgroup
+  side: absent
+  state: U
+  footprint_plddt: 96.375
+  reason: partial_site_overlap
+  gene: ''
+  protein_name: ''
+  rescue_settings_hit: null
+  residues: A:42 A:46 A:47 A:50 A:302 A:304 A:305 A:308 A:312 A:340 A:343 A:344
+  n_site_evidence: 0
+- accession: I3KEK6
+  taxid: 8128
+  species: '8128'
+  role: outgroup
+  side: absent
+  state: U
+  footprint_plddt: 81.29166412353516
+  reason: partial_site_overlap
+  gene: ''
+  protein_name: ''
+  rescue_settings_hit: null
+  residues: A:40 A:44 A:45 A:48 A:307 A:309 A:310 A:313 A:317 A:344 A:347 A:348
+  n_site_evidence: 0
+- accession: I3KWJ5
+  taxid: 8128
+  species: '8128'
+  role: outgroup
+  side: absent
+  state: U
+  footprint_plddt: 95.25
+  reason: partial_site_overlap
+  gene: ''
+  protein_name: ''
+  rescue_settings_hit: null
+  residues: A:42 A:46 A:47 A:50 A:302 A:304 A:305 A:308 A:312 A:340 A:343 A:344
+  n_site_evidence: 0
+- accession: J9VWY8
+  taxid: 235443
+  species: '235443'
+  role: outgroup
+  side: absent
+  state: U
+  footprint_plddt: 95.54166412353516
+  reason: length_ratio
+  gene: ''
+  protein_name: ''
+  rescue_settings_hit: null
+  residues: A:127 A:132 A:133 A:136 A:453 A:455 A:456 A:459 A:463 A:502 A:505 A:506
+  n_site_evidence: 0
+- accession: K7KJX2
+  taxid: 3847
+  species: '3847'
+  role: outgroup
+  side: absent
+  state: U
+  footprint_plddt: 93.91666412353516
+  reason: partial_site_overlap
+  gene: LOC547867
+  protein_name: Choline kinase N-terminal domain-containing protein
+  rescue_settings_hit: null
+  residues: A:314 A:318 A:319 A:322 A:569 A:571 A:572 A:575 A:579 A:607 A:610 A:611
+  n_site_evidence: 0
+- accession: K7KYD6
+  taxid: 3847
+  species: '3847'
+  role: outgroup
+  side: absent
+  state: U
+  footprint_plddt: 94.04166412353516
+  reason: length_ratio
+  gene: LOC100804928
+  protein_name: Choline kinase N-terminal domain-containing protein
+  rescue_settings_hit: null
+  residues: A:281 A:285 A:286 A:289 A:536 A:538 A:539 A:542 A:546 A:574 A:577 A:578
+  n_site_evidence: 0
+- accession: K7LKU3
+  taxid: 3847
+  species: '3847'
+  role: outgroup
+  side: absent
+  state: U
+  footprint_plddt: 93.66666412353516
+  reason: partial_site_overlap
+  gene: LOC100799515
+  protein_name: Choline kinase N-terminal domain-containing protein
+  rescue_settings_hit: null
+  residues: A:34 A:39 A:40 A:43 A:290 A:292 A:293 A:296 A:300 A:328 A:331 A:332
+  n_site_evidence: 0
+- accession: K7M5E5
+  taxid: 3847
+  species: '3847'
+  role: outgroup
+  side: absent
+  state: U
+  footprint_plddt: 86.4375
+  reason: aligned<0.8
+  gene: null
+  protein_name: ethanolamine kinase
+  rescue_settings_hit: null
+  residues: A:82 A:84 A:85 A:88 A:92 A:120 A:123 A:124
+  n_site_evidence: 0
+- accession: L8GF68
+  taxid: 1257118
+  species: '1257118'
+  role: outgroup
+  side: absent
+  state: U
+  footprint_plddt: 92.41666412353516
+  reason: partial_site_overlap
+  gene: ''
+  protein_name: ''
+  rescue_settings_hit: null
+  residues: A:116 A:120 A:121 A:124 A:368 A:370 A:371 A:374 A:378 A:406 A:409 A:410
+  n_site_evidence: 0
+- accession: L8GY01
+  taxid: 1257118
+  species: '1257118'
+  role: outgroup
+  side: absent
+  state: U
+  footprint_plddt: 94.66666412353516
+  reason: partial_site_overlap
+  gene: ''
+  protein_name: ''
+  rescue_settings_hit: null
+  residues: A:47 A:51 A:52 A:55 A:330 A:332 A:333 A:336 A:340 A:369 A:372 A:373
+  n_site_evidence: 0
+- accession: M5VQS9
+  taxid: 3760
+  species: '3760'
+  role: outgroup
+  side: absent
+  state: U
+  footprint_plddt: 96.125
+  reason: partial_site_overlap
+  gene: ''
+  protein_name: ''
+  rescue_settings_hit: null
+  residues: A:60 A:64 A:65 A:68 A:313 A:315 A:316 A:319 A:323 A:351 A:354 A:355
+  n_site_evidence: 0
+- accession: M5VXX2
+  taxid: 3760
+  species: '3760'
+  role: outgroup
+  side: absent
+  state: U
+  footprint_plddt: 92.33333587646484
+  reason: partial_site_overlap
+  gene: ''
+  protein_name: ''
+  rescue_settings_hit: null
+  residues: A:33 A:38 A:39 A:42 A:289 A:291 A:292 A:295 A:299 A:327 A:330 A:331
+  n_site_evidence: 0
+- accession: M5XK26
+  taxid: 3760
+  species: '3760'
+  role: outgroup
+  side: absent
+  state: U
+  footprint_plddt: 92.66666412353516
+  reason: partial_site_overlap
+  gene: ''
+  protein_name: ''
+  rescue_settings_hit: null
+  residues: A:35 A:39 A:40 A:43 A:290 A:292 A:293 A:296 A:300 A:328 A:331 A:332
+  n_site_evidence: 0
+- accession: O17610
+  taxid: 6239
+  species: '6239'
+  role: outgroup
+  side: absent
+  state: U
+  footprint_plddt: 96.5
+  reason: partial_site_overlap
+  gene: cka-1
+  protein_name: Choline/ethanolamine kinase
+  rescue_settings_hit: null
+  residues: A:108 A:112 A:113 A:116 A:416 A:418 A:419 A:422 A:426 A:454 A:457 A:458
+  n_site_evidence: 0
+- accession: O54783
+  taxid: 10116
+  species: '10116'
+  role: outgroup
+  side: absent
+  state: U
+  footprint_plddt: 94.41666412353516
+  reason: partial_site_overlap
+  gene: Chkb
+  protein_name: Choline/ethanolamine kinase
+  rescue_settings_hit: null
+  residues: A:65 A:69 A:70 A:73 A:337 A:339 A:340 A:343 A:347 A:375 A:378 A:379
+  n_site_evidence: 0
+- accession: O54804
+  taxid: 10090
+  species: '10090'
+  role: outgroup
+  side: absent
+  state: U
+  footprint_plddt: 97.16666412353516
+  reason: partial_site_overlap
+  gene: Chka
+  protein_name: Choline kinase alpha
+  rescue_settings_hit: null
+  residues: A:103 A:107 A:108 A:111 A:400 A:402 A:403 A:406 A:410 A:438 A:441 A:442
+  n_site_evidence: 0
+- accession: O55229
+  taxid: 10090
+  species: '10090'
+  role: outgroup
+  side: absent
+  state: U
+  footprint_plddt: 94.04166412353516
+  reason: partial_site_overlap
+  gene: Chkb
+  protein_name: Choline/ethanolamine kinase
+  rescue_settings_hit: null
+  residues: A:65 A:69 A:70 A:73 A:337 A:339 A:340 A:343 A:347 A:375 A:378 A:379
+  n_site_evidence: 0
+- accession: O62221
+  taxid: 6239
+  species: '6239'
+  role: derived
+  side: other
+  state: U
+  footprint_plddt: 73.0999984741211
+  reason: partial_site_overlap
+  gene: null
+  protein_name: TPT domain-containing protein
+  rescue_settings_hit: null
+  residues: null
+  n_site_evidence: 0
+- accession: O81024
+  taxid: 3702
+  species: '3702'
+  role: outgroup
+  side: absent
+  state: U
+  footprint_plddt: 96.79166412353516
+  reason: partial_site_overlap
+  gene: EMB1187
+  protein_name: Probable ethanolamine kinase
+  rescue_settings_hit: null
+  residues: A:58 A:62 A:63 A:66 A:311 A:313 A:314 A:317 A:321 A:349 A:352 A:353
+  n_site_evidence: 0
+- accession: P20485
+  taxid: 559292
+  species: '559292'
+  role: outgroup
+  side: absent
+  state: U
+  footprint_plddt: 94.70833587646484
+  reason: length_ratio
+  gene: CKI1
+  protein_name: Choline kinase
+  rescue_settings_hit: null
+  residues: A:142 A:147 A:149 A:152 A:463 A:465 A:466 A:469 A:473 A:547 A:550 A:551
+  n_site_evidence: 0
+- accession: P35790
+  taxid: 9606
+  species: '9606'
+  role: outgroup
+  side: absent
+  state: A
+  footprint_plddt: 97.5
+  reason: rescue:negative
+  gene: CHKA
+  protein_name: Choline kinase alpha
+  rescue_settings_hit: 0
+  residues: A:107 A:111 A:112 A:115 A:404 A:406 A:407 A:410 A:414 A:442 A:445 A:446
+  n_site_evidence: 0
+- accession: P46558
+  taxid: 6239
+  species: '6239'
+  role: outgroup
+  side: absent
+  state: U
+  footprint_plddt: 97.58333587646484
+  reason: partial_site_overlap
+  gene: ckb-1
+  protein_name: Choline kinase B1
+  rescue_settings_hit: null
+  residues: A:38 A:42 A:43 A:46 A:307 A:309 A:310 A:313 A:317 A:346 A:349 A:350
+  n_site_evidence: 0
+- accession: P46559
+  taxid: 6239
+  species: '6239'
+  role: outgroup
+  side: absent
+  state: U
+  footprint_plddt: 97.70833587646484
+  reason: partial_site_overlap
+  gene: ckb-2
+  protein_name: Choline kinase B2
+  rescue_settings_hit: null
+  residues: A:38 A:42 A:43 A:46 A:307 A:309 A:310 A:313 A:317 A:346 A:349 A:350
+  n_site_evidence: 0
+- accession: P46560
+  taxid: 6239
+  species: '6239'
+  role: outgroup
+  side: absent
+  state: A
+  footprint_plddt: 97.16666412353516
+  reason: ''
+  gene: ckb-3
+  protein_name: Putative choline kinase B3
+  rescue_settings_hit: null
+  residues: A:38 A:42 A:43 A:46 A:306 A:308 A:309 A:312 A:316 A:345 A:348 A:349
+  n_site_evidence: 0
+- accession: P54352
+  taxid: 7227
+  species: '7227'
+  role: outgroup
+  side: absent
+  state: U
+  footprint_plddt: 91.70833587646484
+  reason: model_sequence_mismatch
+  gene: eas
+  protein_name: Ethanolamine kinase
+  rescue_settings_hit: null
+  residues: A:122 A:126 A:127 A:153 A:457 A:459 A:460 A:463 A:467 A:495 A:498 A:499
+  n_site_evidence: 0
+- accession: P71392
+  taxid: 71421
+  species: '71421'
+  role: outgroup
+  side: absent
+  state: U
+  footprint_plddt: 96.25
+  reason: aligned<0.8
+  gene: licA
+  protein_name: Protein LicA
+  rescue_settings_hit: null
+  residues: A:220 A:221 A:224 A:228 A:253 A:256 A:257
+  n_site_evidence: 0
+- accession: Q01134
+  taxid: 10116
+  species: '10116'
+  role: outgroup
+  side: absent
+  state: U
+  footprint_plddt: 96.95833587646484
+  reason: partial_site_overlap
+  gene: Chka
+  protein_name: Choline kinase alpha
+  rescue_settings_hit: null
+  residues: A:103 A:107 A:108 A:111 A:400 A:402 A:403 A:406 A:410 A:438 A:441 A:442
+  n_site_evidence: 0
+- accession: Q03764
+  taxid: 559292
+  species: '559292'
+  role: outgroup
+  side: absent
+  state: U
+  footprint_plddt: 94.95833587646484
+  reason: length_ratio
+  gene: EKI1
+  protein_name: Ethanolamine kinase
+  rescue_settings_hit: null
+  residues: A:127 A:134 A:136 A:139 A:422 A:424 A:425 A:428 A:432 A:499 A:502 A:503
+  n_site_evidence: 0
+- accession: Q0JQ41
+  taxid: 39947
+  species: '39947'
+  role: outgroup
+  side: absent
+  state: U
+  footprint_plddt: 94.66666412353516
+  reason: partial_site_overlap
+  gene: null
+  protein_name: Os01g0183000 protein
+  rescue_settings_hit: null
+  residues: A:48 A:52 A:53 A:56 A:309 A:311 A:312 A:315 A:319 A:348 A:351 A:352
+  n_site_evidence: 0
+- accession: Q10276
+  taxid: 284812
+  species: '284812'
+  role: outgroup
+  side: absent
+  state: U
+  footprint_plddt: 96.79166412353516
+  reason: partial_site_overlap
+  gene: null
+  protein_name: Choline kinase
+  rescue_settings_hit: null
+  residues: A:58 A:63 A:64 A:67 A:361 A:363 A:364 A:367 A:371 A:430 A:433 A:434
+  n_site_evidence: 0
+- accession: Q1LWF1
+  taxid: 7955
+  species: '7955'
+  role: outgroup
+  side: absent
+  state: U
+  footprint_plddt: 96.625
+  reason: partial_site_overlap
+  gene: chka
+  protein_name: Ethanolamine kinase
+  rescue_settings_hit: null
+  residues: A:69 A:73 A:74 A:77 A:365 A:367 A:368 A:371 A:375 A:403 A:406 A:407
+  n_site_evidence: 0
+- accession: Q22820
+  taxid: 6239
+  species: '6239'
+  role: outgroup
+  side: absent
+  state: A
+  footprint_plddt: 95.79166412353516
+  reason: ''
+  gene: ckc-1
+  protein_name: ethanolamine kinase
+  rescue_settings_hit: null
+  residues: A:37 A:41 A:42 A:45 A:285 A:287 A:288 A:291 A:295 A:323 A:326 A:327
+  n_site_evidence: 0
+- accession: Q22942
+  taxid: 6239
+  species: '6239'
+  role: outgroup
+  side: absent
+  state: U
+  footprint_plddt: 96.45833587646484
+  reason: partial_site_overlap
+  gene: cka-2
+  protein_name: Choline kinase A2
+  rescue_settings_hit: null
+  residues: A:72 A:76 A:77 A:80 A:371 A:373 A:374 A:377 A:381 A:409 A:412 A:413
+  n_site_evidence: 0
+- accession: Q386V0
+  taxid: 185431
+  species: '185431'
+  role: outgroup
+  side: absent
+  state: U
+  footprint_plddt: 94.16666412353516
+  reason: partial_site_overlap
+  gene: null
+  protein_name: ethanolamine kinase
+  rescue_settings_hit: null
+  residues: A:66 A:70 A:71 A:74 A:376 A:378 A:379 A:382 A:386 A:414 A:417 A:418
+  n_site_evidence: 0
+- accession: Q4CP20
+  taxid: 353153
+  species: '353153'
+  role: outgroup
+  side: absent
+  state: U
+  footprint_plddt: 93.0
+  reason: aligned<0.8
+  gene: null
+  protein_name: Uncharacterized protein
+  rescue_settings_hit: null
+  residues: A:109 A:112 A:113 A:116 A:120 A:164 A:167 A:168
+  n_site_evidence: 0
+- accession: Q4D3C5
+  taxid: 353153
+  species: '353153'
+  role: outgroup
+  side: absent
+  state: U
+  footprint_plddt: 97.6875
+  reason: aligned<0.8
+  gene: null
+  protein_name: Choline ethanolamine kinase, putative
+  rescue_settings_hit: null
+  residues: A:115 A:118 A:119 A:122 A:126 A:170 A:173 A:174
+  n_site_evidence: 0
+- accession: Q4E3A9
+  taxid: 353153
+  species: '353153'
+  role: outgroup
+  side: absent
+  state: U
+  footprint_plddt: 91.75
+  reason: partial_site_overlap
+  gene: null
+  protein_name: ethanolamine kinase
+  rescue_settings_hit: null
+  residues: A:85 A:89 A:90 A:93 A:407 A:409 A:410 A:413 A:417 A:445 A:448 A:449
+  n_site_evidence: 0
+- accession: Q554D8
+  taxid: 44689
+  species: '44689'
+  role: outgroup
+  side: absent
+  state: U
+  footprint_plddt: 94.54166412353516
+  reason: partial_site_overlap
+  gene: etnkB
+  protein_name: Probable ethanolamine kinase B
+  rescue_settings_hit: null
+  residues: A:48 A:51 A:52 A:55 A:392 A:394 A:395 A:398 A:402 A:430 A:433 A:434
+  n_site_evidence: 0
+- accession: Q57W59
+  taxid: 185431
+  species: '185431'
+  role: outgroup
+  side: absent
+  state: U
+  footprint_plddt: 89.04166412353516
+  reason: partial_site_overlap
+  gene: null
+  protein_name: Choline/ethanolamine kinase, putative
+  rescue_settings_hit: null
+  residues: A:169 A:176 A:177 A:180 A:552 A:555 A:556 A:559 A:563 A:608 A:611 A:612
+  n_site_evidence: 0
+- accession: Q5JMB6
+  taxid: 39947
+  species: '39947'
+  role: outgroup
+  side: absent
+  state: A
+  footprint_plddt: 94.54166412353516
+  reason: rescue:negative
+  gene: null
+  protein_name: Os01g0717000 protein
+  rescue_settings_hit: 0
+  residues: A:42 A:46 A:47 A:50 A:314 A:316 A:317 A:320 A:324 A:352 A:355 A:356
+  n_site_evidence: 0
+- accession: Q5RGY0
+  taxid: 7955
+  species: '7955'
+  role: outgroup
+  side: absent
+  state: A
+  footprint_plddt: 97.0
+  reason: rescue:negative
+  gene: etnk1
+  protein_name: ethanolamine kinase
+  rescue_settings_hit: 0
+  residues: A:42 A:46 A:47 A:50 A:302 A:304 A:305 A:308 A:312 A:340 A:343 A:344
+  n_site_evidence: 0
+- accession: Q869T9
+  taxid: 44689
+  species: '44689'
+  role: outgroup
+  side: absent
+  state: U
+  footprint_plddt: 97.375
+  reason: partial_site_overlap
+  gene: etnkA
+  protein_name: Probable ethanolamine kinase A
+  rescue_settings_hit: null
+  residues: A:40 A:44 A:45 A:48 A:294 A:296 A:297 A:300 A:304 A:332 A:335 A:336
+  n_site_evidence: 0
+- accession: Q8DPI4
+  taxid: 171101
+  species: '171101'
+  role: outgroup
+  side: absent
+  state: A
+  footprint_plddt: 95.20454406738281
+  reason: rescue:negative
+  gene: pck
+  protein_name: Choline kinase
+  rescue_settings_hit: 0
+  residues: A:14 A:19 A:21 A:24 A:237 A:238 A:241 A:245 A:270 A:273 A:274
+  n_site_evidence: 0
+- accession: Q8IIB7
+  taxid: 36329
+  species: '36329'
+  role: outgroup
+  side: absent
+  state: U
+  footprint_plddt: 95.83333587646484
+  reason: partial_site_overlap
+  gene: null
+  protein_name: ethanolamine kinase
+  rescue_settings_hit: null
+  residues: A:103 A:110 A:111 A:114 A:367 A:369 A:370 A:373 A:377 A:405 A:408 A:409
+  n_site_evidence: 0
+- accession: Q8IM71
+  taxid: 36329
+  species: '36329'
+  role: outgroup
+  side: absent
+  state: A
+  footprint_plddt: 96.20833587646484
+  reason: rescue:negative
+  gene: null
+  protein_name: Choline kinase
+  rescue_settings_hit: 0
+  residues: A:102 A:106 A:107 A:110 A:376 A:378 A:379 A:382 A:386 A:416 A:419 A:420
+  n_site_evidence: 0
+- accession: Q8IMF4
+  taxid: 7227
+  species: '7227'
+  role: outgroup
+  side: absent
+  state: U
+  footprint_plddt: 94.0
+  reason: length_ratio
+  gene: Dmel\CG2201
+  protein_name: Uncharacterized protein
+  rescue_settings_hit: null
+  residues: A:69 A:73 A:74 A:77 A:501 A:503 A:504 A:507 A:511 A:538 A:541 A:542
+  n_site_evidence: 0
+- accession: Q8L518
+  taxid: 3702
+  species: '3702'
+  role: outgroup
+  side: absent
+  state: U
+  footprint_plddt: 94.45833587646484
+  reason: partial_site_overlap
+  gene: null
+  protein_name: Probable choline kinase 2
+  rescue_settings_hit: null
+  residues: A:37 A:41 A:42 A:45 A:292 A:294 A:295 A:298 A:302 A:330 A:333 A:334
+  n_site_evidence: 0
+- accession: Q9D4V0
+  taxid: 10090
+  species: '10090'
+  role: outgroup
+  side: absent
+  state: U
+  footprint_plddt: 96.66666412353516
+  reason: partial_site_overlap
+  gene: Etnk1
+  protein_name: Ethanolamine kinase 1
+  rescue_settings_hit: null
+  residues: A:45 A:49 A:50 A:53 A:305 A:307 A:308 A:311 A:315 A:343 A:346 A:347
+  n_site_evidence: 0
+- accession: Q9GZF3
+  taxid: 6239
+  species: '6239'
+  role: outgroup
+  side: absent
+  state: U
+  footprint_plddt: 97.04166412353516
+  reason: partial_site_overlap
+  gene: ckb-4
+  protein_name: Choline/ethanolamine kinase
+  rescue_settings_hit: null
+  residues: A:39 A:43 A:44 A:47 A:320 A:322 A:323 A:326 A:330 A:359 A:362 A:363
+  n_site_evidence: 0
+- accession: Q9HBU6
+  taxid: 9606
+  species: '9606'
+  role: outgroup
+  side: absent
+  state: U
+  footprint_plddt: 96.54166412353516
+  reason: partial_site_overlap
+  gene: ETNK1
+  protein_name: Ethanolamine kinase 1
+  rescue_settings_hit: null
+  residues: A:134 A:138 A:139 A:142 A:394 A:396 A:397 A:400 A:404 A:432 A:435 A:436
+  n_site_evidence: 0
+- accession: Q9M9H6
+  taxid: 3702
+  species: '3702'
+  role: outgroup
+  side: absent
+  state: U
+  footprint_plddt: 91.58333587646484
+  reason: partial_site_overlap
+  gene: CK1
+  protein_name: Probable choline kinase 1
+  rescue_settings_hit: null
+  residues: A:35 A:40 A:41 A:44 A:292 A:294 A:295 A:298 A:302 A:330 A:333 A:334
+  n_site_evidence: 0
+- accession: Q9NVF9
+  taxid: 9606
+  species: '9606'
+  role: outgroup
+  side: absent
+  state: U
+  footprint_plddt: 97.16666412353516
+  reason: partial_site_overlap
+  gene: ETNK2
+  protein_name: Ethanolamine kinase 2
+  rescue_settings_hit: null
+  residues: A:79 A:83 A:84 A:87 A:328 A:330 A:331 A:334 A:338 A:366 A:369 A:370
+  n_site_evidence: 0
+- accession: Q9SZ92
+  taxid: 3702
+  species: '3702'
+  role: outgroup
+  side: absent
+  state: U
+  footprint_plddt: 92.91666412353516
+  reason: partial_site_overlap
+  gene: null
+  protein_name: Probable choline kinase 3
+  rescue_settings_hit: null
+  residues: A:33 A:38 A:39 A:42 A:289 A:291 A:292 A:295 A:299 A:327 A:330 A:331
+  n_site_evidence: 0
+- accession: Q9Y259
+  taxid: 9606
+  species: '9606'
+  role: outgroup
+  side: absent
+  state: U
+  footprint_plddt: 94.08333587646484
+  reason: partial_site_overlap
+  gene: CHKB
+  protein_name: Choline/ethanolamine kinase
+  rescue_settings_hit: null
+  residues: A:65 A:69 A:70 A:73 A:337 A:339 A:340 A:343 A:347 A:375 A:378 A:379
+  n_site_evidence: 0
+- accession: T0Q0D1
+  taxid: 1156394
+  species: '1156394'
+  role: outgroup
+  side: absent
+  state: U
+  footprint_plddt: 93.91666412353516
+  reason: partial_site_overlap
+  gene: ''
+  protein_name: ''
+  rescue_settings_hit: null
+  residues: A:50 A:53 A:54 A:57 A:300 A:302 A:303 A:306 A:310 A:338 A:341 A:342
+  n_site_evidence: 0
+- accession: T0QCM9
+  taxid: 1156394
+  species: '1156394'
+  role: outgroup
+  side: absent
+  state: A
+  footprint_plddt: 93.70833587646484
+  reason: rescue:negative
+  gene: ''
+  protein_name: ''
+  rescue_settings_hit: 0
+  residues: A:73 A:76 A:77 A:80 A:323 A:325 A:326 A:329 A:333 A:361 A:364 A:365
+  n_site_evidence: 0
+- accession: T0QFX1
+  taxid: 1156394
+  species: '1156394'
+  role: outgroup
+  side: absent
+  state: U
+  footprint_plddt: 96.56818389892578
+  reason: partial_site_overlap
+  gene: ''
+  protein_name: ''
+  rescue_settings_hit: null
+  residues: A:107 A:111 A:112 A:115 A:387 A:393 A:394 A:397 A:401 A:429 A:432
+  n_site_evidence: 0
+- accession: T0RMV8
+  taxid: 1156394
+  species: '1156394'
+  role: outgroup
+  side: absent
+  state: U
+  footprint_plddt: 92.375
+  reason: aligned<0.8
+  gene: ''
+  protein_name: ''
+  rescue_settings_hit: null
+  residues: A:69 A:72 A:73 A:76
+  n_site_evidence: 0
+- accession: T0RMW3
+  taxid: 1156394
+  species: '1156394'
+  role: outgroup
+  side: absent
+  state: A
+  footprint_plddt: 95.83333587646484
+  reason: rescue:negative
+  gene: ''
+  protein_name: ''
+  rescue_settings_hit: 0
+  residues: A:40 A:41 A:42 A:45 A:279 A:281 A:282 A:285 A:289 A:317 A:320 A:321
+  n_site_evidence: 0
+- accession: U7PQW4
+  taxid: 1391915
+  species: '1391915'
+  role: outgroup
+  side: absent
+  state: U
+  footprint_plddt: 91.96428680419922
+  reason: partial_site_overlap
+  gene: null
+  protein_name: ethanolamine kinase
+  rescue_settings_hit: null
+  residues: A:2 A:3 A:6 A:10 A:38 A:41 A:42
+  n_site_evidence: 0
+- accession: U7PYK5
+  taxid: 1391915
+  species: '1391915'
+  role: outgroup
+  side: absent
+  state: U
+  footprint_plddt: 94.125
+  reason: partial_site_overlap
+  gene: null
+  protein_name: Choline kinase N-terminal domain-containing protein
+  rescue_settings_hit: null
+  residues: A:397 A:402 A:403 A:406 A:864 A:866 A:867 A:870 A:874 A:942 A:945 A:946
+  n_site_evidence: 0
+- accession: V4AP75
+  taxid: 225164
+  species: '225164'
+  role: outgroup
+  side: absent
+  state: U
+  footprint_plddt: 95.70833587646484
+  reason: partial_site_overlap
+  gene: ''
+  protein_name: ''
+  rescue_settings_hit: null
+  residues: A:31 A:35 A:36 A:39 A:304 A:306 A:307 A:310 A:314 A:342 A:345 A:346
+  n_site_evidence: 0
+- accession: V4ARP9
+  taxid: 225164
+  species: '225164'
+  role: outgroup
+  side: absent
+  state: U
+  footprint_plddt: 97.0
+  reason: partial_site_overlap
+  gene: ''
+  protein_name: ''
+  rescue_settings_hit: null
+  residues: A:37 A:41 A:42 A:45 A:297 A:299 A:300 A:303 A:307 A:335 A:338 A:339
+  n_site_evidence: 0
+- accession: W7LF75
+  taxid: 334819
+  species: '334819'
+  role: outgroup
+  side: absent
+  state: U
+  footprint_plddt: 96.29166412353516
+  reason: partial_site_overlap
+  gene: ''
+  protein_name: ''
+  rescue_settings_hit: null
+  residues: A:43 A:47 A:48 A:51 A:363 A:365 A:366 A:369 A:373 A:401 A:404 A:405
+  n_site_evidence: 0
+- accession: W7LUB6
+  taxid: 334819
+  species: '334819'
+  role: outgroup
+  side: absent
+  state: U
+  footprint_plddt: 94.0
+  reason: partial_site_overlap
+  gene: ''
+  protein_name: ''
+  rescue_settings_hit: null
+  residues: A:109 A:114 A:115 A:118 A:483 A:485 A:486 A:489 A:493 A:534 A:537 A:538
+  n_site_evidence: 0
+- accession: W7MBE6
+  taxid: 334819
+  species: '334819'
+  role: outgroup
+  side: absent
+  state: U
+  footprint_plddt: null
+  reason: aligned<0.8
+  gene: ''
+  protein_name: ''
+  rescue_settings_hit: null
+  residues: null
+  n_site_evidence: 0
+- accession: W7N4E9
+  taxid: 334819
+  species: '334819'
+  role: outgroup
+  side: absent
+  state: A
+  footprint_plddt: 90.33333587646484
+  reason: ''
+  gene: ''
+  protein_name: ''
+  rescue_settings_hit: null
+  residues: A:33 A:37 A:38 A:41 A:323 A:325 A:326 A:329 A:333 A:363 A:366 A:367
+  n_site_evidence: 0
+- accession: X6MZA6
+  taxid: 46433
+  species: '46433'
+  role: outgroup
+  side: absent
+  state: U
+  footprint_plddt: null
+  reason: aligned<0.8
+  gene: ''
+  protein_name: ''
+  rescue_settings_hit: null
+  residues: null
+  n_site_evidence: 0
+- accession: X6N6N8
+  taxid: 46433
+  species: '46433'
+  role: outgroup
+  side: absent
+  state: U
+  footprint_plddt: 87.56818389892578
+  reason: partial_site_overlap
+  gene: ''
+  protein_name: ''
+  rescue_settings_hit: null
+  residues: A:50 A:55 A:56 A:59 A:389 A:395 A:396 A:399 A:403 A:431 A:434
+  n_site_evidence: 0
+- accession: X6P346
+  taxid: 46433
+  species: '46433'
+  role: outgroup
+  side: absent
+  state: U
+  footprint_plddt: 96.60713958740234
+  reason: aligned<0.8
+  gene: ''
+  protein_name: ''
+  rescue_settings_hit: null
+  residues: A:212 A:218 A:219 A:222 A:226 A:254 A:257
+  n_site_evidence: 0
+- accession: X6P4M9
+  taxid: 46433
+  species: '46433'
+  role: outgroup
+  side: absent
+  state: U
+  footprint_plddt: 72.5
+  reason: partial_site_overlap
+  gene: ''
+  protein_name: ''
+  rescue_settings_hit: null
+  residues: A:51 A:57 A:58 A:61
+  n_site_evidence: 0
+- accession: A0A6P5L4E6
+  taxid: 38626
+  species: '38626'
+  role: outgroup
+  side: absent
+  state: U
+  footprint_plddt: null
+  reason: no_model
+  gene: ''
+  protein_name: ''
+  rescue_settings_hit: null
+  residues: null
+  n_site_evidence: 0
+- accession: A0A7J6R8F2
+  taxid: 32597
+  species: '32597'
+  role: outgroup
+  side: absent
+  state: U
+  footprint_plddt: null
+  reason: no_model
+  gene: ''
+  protein_name: ''
+  rescue_settings_hit: null
+  residues: null
+  n_site_evidence: 0
+- accession: A0AC58IHR6
+  taxid: 7955
+  species: '7955'
+  role: outgroup
+  side: absent
+  state: U
+  footprint_plddt: null
+  reason: no_model
+  gene: ''
+  protein_name: ''
+  rescue_settings_hit: null
+  residues: null
+  n_site_evidence: 0
+filters:
+- name: persistence
+  status: pass
+  detail: 'P in 4 derived species (purity 1.00 of informative derived members; 0.27 over all members under
+    the species-tree LCA: scattered); single tree-consistent event: True; outgroup support: A in 29 outgroup
+    species'
+- name: experimental
+  status: fail
+  detail: no experimental evidence at the footprint
+- name: computational
+  status: fail
+  detail: 'conservation: fail (0/12 footprint columns clade-specific (rate 0.00 vs background 0.22); derived
+    conservation 0.53, outgroup identity to derived majority 0.13); rescue_consistency: na (no rescue
+    run for present-side members); source_consistency: na (no present-side member in the v6/v4 re-detection
+    sample); cofolding: pending (placeholder; filled by the co-folding agent)'
+- name: f3:conservation
+  status: fail
+  detail: 0/12 footprint columns clade-specific (rate 0.00 vs background 0.22); derived conservation 0.53,
+    outgroup identity to derived majority 0.13
+- name: f3:rescue_consistency
+  status: na
+  detail: no rescue run for present-side members
+- name: f3:source_consistency
+  status: na
+  detail: no present-side member in the v6/v4 re-detection sample
+- name: f3:cofolding
+  status: pending
+  detail: placeholder; filled by the co-folding agent
+artifact_checks:
+- name: art_orthology_split_ignored
+  status: na
+  detail: orthology_split ignored for this category (PI)
+- name: orthology_side_family_reported_only
+  status: pending
+  detail: no PANTHER/Pfam family on one side [reported only; does not gate selection (PI D30)]
+evidence:
+- type: chembl
+  id: CHEMBL3117
+  about_change: false
+  detail: 'P35790: 87 compounds pChEMBL>=6 (max 8.0), protein-level only'
+  filter: experimental
+  verified: null
+cofold:
+- model_id: dupgain_HOG0054071_g9_n185_O2
+  status: uninformative_ligand_not_at_footprint
+  role: case
+  family: choline/ethanolamine kinase (EC 2.7.1.32)
+  ligands:
+  - CCD:ADP
+  - CCD:MG
+  decoys:
+  - - CCD:TTP
+    - CCD:MG
+  msa: ColabFold MMseqs2 for all members (prereg cofold.msa)
+  templates: none (prereg cofold.templates.primary)
+  seeds: 3
+  samples_per_seed: 5
+  threshold_file: results/cofold/calibration/threshold.json
+  threshold_sha256: 04b6e644bdf42cb4a8b4f11d5b3a764e72e60c72ad9e5f1792625246ead5eb7e
+  positive_control_gate:
+    status: run
+    pass: true
+    lig_rmsd: 0.37
+    centroid_dist: 0.27
+    site_recall: 1.0
+    lig_plddt: 93.0
+    threshold_A: 2.0
+    ref: 3g15:ADP
+  verdict_basis: frozen D23 composite (d23_composite) gating the per-seed rule
+  legacy_prereg_rule:
+    status: 'SUPERSEDED: computed for the record only. It ranks on ligand pLDDT and min PAE with no geometry
+      term, so it can call a direction from placements far from the footprint. The verdict uses d23_composite.'
+    rule: all seeds must meet D > X for BOTH ligand pLDDT and min P-L PAE
+    seeds_gain:
+    - false
+    - false
+    - false
+    seeds_loss:
+    - true
+    - true
+    - true
+  readouts_table: results/cofold/cases/dupgain_HOG0054071_g9_n185_O2/case_table.tsv
+  interpretation:
+  - 'A composite ''binds'' call is informative: specificity 0.96 on the frozen panel.'
+  - 'A composite ''does not bind'' call is WEAK: sensitivity 0.42, so co-folding misses most true complexes.
+    A gain or loss is ''co-fold-consistent'' only when the present side binds AND the absent side does
+    not, and the absent-side half stays weak.'
+  - Metal-ion ligands are uninterpretable by co-folding (panel AUC 0.58 for ligand pLDDT, 0.56 for min
+    PAE, i.e. at chance).
+  blinding:
+    status: UNBLINDED
+    prereg_requirement: 'cofold.blinding: derived/ancestral labels hashed in file names; the agent scoring
+      models sees no state label'
+    what_actually_happened: 'The folds themselves were run blind: inputs carried HMAC-hashed names and
+      the state labels existed only in blind_key.json. But build() minted a fresh salt on every call,
+      which destroyed the original key, and recovering it required matching each AF3 output back to its
+      member by sequence identity. That reconstruction, and the debugging around it, happened BEFORE the
+      final scoring pass, so the state labels were visible to me while the readouts were being produced.'
+    honest_claim: These four cases are reported as UNBLINDED. The readout code is deterministic and never
+      receives a state label, so the measurements themselves are label-independent, but the preregistered
+      blinding claim cannot be made for them.
+    remedy: The salt is now persisted, so cases folded from here on can be scored without ever reconstructing
+      the mapping, and will be labelled blinded.
+  d23_composite:
+    thresholds:
+      t_plddt: 92.0
+      t_centroid: 2.0
+      t_recall: 0.9
+    per_job:
+      079c4646039a:
+        state: derived
+        kind: decoy1
+        acc: A0A0I9N741
+        binds: false
+        n_seeds_binding: 0
+        median_centroid_A: 18.09
+        median_site_recall: 0.0
+      302f3871ba5c:
+        state: ancestral
+        kind: cognate
+        acc: P46560
+        binds: false
+        n_seeds_binding: 0
+        median_centroid_A: 12.62
+        median_site_recall: 0.0
+      387a64464ac0:
+        state: derived
+        kind: decoy1
+        acc: A0A0N4UFV7
+        binds: false
+        n_seeds_binding: 0
+        median_centroid_A: 17.35
+        median_site_recall: 0.0
+      3ca66ff5cdc2:
+        state: ancestral
+        kind: cognate
+        acc: A0A6J3I851
+        binds: false
+        n_seeds_binding: 0
+        median_centroid_A: 12.17
+        median_site_recall: 0.0
+      43e59bfa8423:
+        state: derived
+        kind: cognate
+        acc: A0A0N4UFV7
+        binds: false
+        n_seeds_binding: 0
+        median_centroid_A: 18.69
+        median_site_recall: 0.0
+      527adc11dcce:
+        state: ancestral
+        kind: decoy1
+        acc: P35790
+        binds: false
+        n_seeds_binding: 0
+        median_centroid_A: 11.84
+        median_site_recall: 0.0
+      753a3ee24278:
+        state: derived
+        kind: cognate
+        acc: A0A0I9N741
+        binds: false
+        n_seeds_binding: 0
+        median_centroid_A: 16.78
+        median_site_recall: 0.0
+      998cd47ba38f:
+        state: ancestral
+        kind: cognate
+        acc: P35790
+        binds: false
+        n_seeds_binding: 0
+        median_centroid_A: 12.22
+        median_site_recall: 0.0
+      d383080491f2:
+        state: derived
+        kind: decoy1
+        acc: A0AAF5DGQ3
+        binds: false
+        n_seeds_binding: 0
+        median_centroid_A: 17.64
+        median_site_recall: 0.0
+      e6dc04787f2e:
+        state: ancestral
+        kind: decoy1
+        acc: A0A6J3I851
+        binds: false
+        n_seeds_binding: 0
+        median_centroid_A: 11.7
+        median_site_recall: 0.0
+      f2a050bd4844:
+        state: derived
+        kind: cognate
+        acc: A0AAF5DGQ3
+        binds: false
+        n_seeds_binding: 0
+        median_centroid_A: 18.21
+        median_site_recall: 0.0
+      f98e4c070bf9:
+        state: ancestral
+        kind: decoy1
+        acc: P46560
+        binds: false
+        n_seeds_binding: 0
+        median_centroid_A: 12.29
+        median_site_recall: 0.0
+    derived_members_binding: []
+    ancestral_members_binding: []
+    any_cognate_binds: false
+    ligand_off_footprint: true
+  note: scored against the frozen threshold, which was fixed before any case was folded; see `blinding`
+    for why these four cases are labelled UNBLINDED
+  cognate_site_vs_atlas_pockets:
+    summary: 'The cognate ligand (ADP) binds the rank-1/2 BURROW pocket (rank 5 in one absent member):
+      the cognate site is conserved across both sides. The case footprint is detected as a separate pocket
+      in 2 of 3 present-side models (ranks 3, 8) and in none of the absent-side ones, reproducing the
+      gain at the footprint. It is never the ADP pocket: the gained pocket is a secondary site.'
+    per_member:
+    - acc: A0A6J3I851
+      state: ancestral
+      ligand_pocket_id: A0A6J3I851_protein_only:m4
+      ligand_pocket_rank: 5
+      ligand_pocket_recall: 0.579
+      footprint_detected: false
+      footprint_pocket_rank: 14
+      footprint_pocket_recall: 0.083
+      same_pocket: false
+    - acc: P35790
+      state: ancestral
+      ligand_pocket_id: P35790_protein_only:m1
+      ligand_pocket_rank: 2
+      ligand_pocket_recall: 0.8
+      footprint_detected: false
+      footprint_pocket_rank: 2
+      footprint_pocket_recall: 0.083
+      same_pocket: false
+    - acc: P46560
+      state: ancestral
+      ligand_pocket_id: P46560_protein_only:m0
+      ligand_pocket_rank: 1
+      ligand_pocket_recall: 1.0
+      footprint_detected: false
+      footprint_pocket_rank: 1
+      footprint_pocket_recall: 0.0
+      same_pocket: false
+    - acc: A0A0I9N741
+      state: derived
+      ligand_pocket_id: A0A0I9N741_protein_only:m0
+      ligand_pocket_rank: 1
+      ligand_pocket_recall: 1.0
+      footprint_detected: false
+      footprint_pocket_rank: 1
+      footprint_pocket_recall: 0.083
+      same_pocket: false
+    - acc: A0A0N4UFV7
+      state: derived
+      ligand_pocket_id: A0A0N4UFV7_protein_only:m0
+      ligand_pocket_rank: 1
+      ligand_pocket_recall: 1.0
+      footprint_detected: true
+      footprint_pocket_rank: 3
+      footprint_pocket_recall: 0.75
+      same_pocket: false
+    - acc: A0AAF5DGQ3
+      state: derived
+      ligand_pocket_id: A0AAF5DGQ3_protein_only:m0
+      ligand_pocket_rank: 1
+      ligand_pocket_recall: 1.0
+      footprint_detected: true
+      footprint_pocket_rank: 8
+      footprint_pocket_recall: 1.0
+      same_pocket: false
+    method: ligand site = residues within 4.5 A of the cognate ligand in each member top co-fold model;
+      ligand stripped; pocketcompare describe --af-mode; best-covering pocket by recall; detected/same
+      require recall >= 0.3
+    table: results/cofold/cases/dupgain_HOG0054071_g9_n185_O2/ligand_vs_burrow_pockets.tsv
+  footprint_vs_cognate_site:
+    positive_control_acc: P35790
+    pdb: 3g15
+    ligand: ADP
+    n_shared_residues: 0
+    min_ca_distance_A: 9.28
+    centroid_separation_A: 19.11
+    conclusion: 'The case footprint and the cognate ligand site are DISJOINT: 0 shared residues, closest
+      C-alpha pair 9.28 A apart, centroids 19.11 A apart. Co-folding with this ligand cannot test the
+      case pocket, so the D23 result is uninformative about the gain/loss rather than evidence against
+      it.'
+- model_id: ancestral_A0A6J3I851
+  accession: A0A6J3I851
+  ligand: ADP+MG
+  seed: 2
+  role: ancestral
+  file: cases/dupgain_HOG0054071_g9_n185_O2/cofold/models/ancestral_A0A6J3I851_ADP-MG_top.cif.gz
+  ranking_score: 1.014
+  metrics:
+    ligand_plddt: 93.7
+    min_pae: 0.84
+    centroid_dist_A: 12.2
+    site_recall: 0.0
+    posebusters_pass: false
+  note: top-ranked sample of the best-ranked cognate job on this side; centroid/recall are measured against
+    the case footprint
+- model_id: derived_A0A0I9N741
+  accession: A0A0I9N741
+  ligand: ADP+MG
+  seed: 3
+  role: derived
+  file: cases/dupgain_HOG0054071_g9_n185_O2/cofold/models/derived_A0A0I9N741_ADP-MG_top.cif.gz
+  ranking_score: 0.919
+  metrics:
+    ligand_plddt: 81.6
+    min_pae: 1.76
+    centroid_dist_A: 15.3
+    site_recall: 0.0
+    posebusters_pass: false
+  note: top-ranked sample of the best-ranked cognate job on this side; centroid/recall are measured against
+    the case footprint
+- model_id: control_poscontrol
+  accession: 3g15
+  ligand: ADP+MG
+  seed: 1
+  role: control
+  file: cases/dupgain_HOG0054071_g9_n185_O2/cofold/models/control_poscontrol_ADP-MG_top.cif.gz
+  ranking_score: 1.012
+  metrics:
+    ligand_plddt: 93.0
+    min_pae: 0.86
+    centroid_dist_A: null
+    site_recall: 0.0
+    posebusters_pass: false
+  note: family holo positive control (gate); centroid/recall fields refer to the case footprint and are
+    not meaningful for this protein
+figures: []
+literature: []
+headline: convincing_only
+filter_label_with_literature_post_hoc: rejected
+notes: 'filter_label=rejected (prereg: convincing = all three filters; supported = f1 + one of f2/f3);
+  final label also needs the artifact cascade (pass). candidate label: duplication-associated gain (exploratory,
+  not preregistered; null is selection-conditioned); fdr_supported=False. selection: exploratory_duplication.
+  G (gene-absent) rows not listed: 75; every other member is listed with side (present/absent/other),
+  state and reason. Evidence counts are derived from BioLiP2/UniProt 2026_03/M-CSA/ChEMBL 37 (DATA.md);
+  BioLiP rows are not redistributed, only PDB IDs and counts. Final co-fold pool selection (D28, case_list_v2.parquet):
+  exploratory_duplication.'
+provenance:
+  builder: scripts/cases/build_cases.py
+  orthology: O2
+  snapshot: 20261030T085136Z
+  case_list: results/cases/20261030T085136Z/case_list_v2.parquet
+  prereg_sha256: 52f9461890984c210b730af86c40de221307a668e7d4b38098b3316059690d83
+  git_commit: cdb00a44da5049d0e4a054f4e2ba4ee534e35363+dirty
+  seed: 0
+  built_utc: '2026-10-30T16:18:47Z'
+  n_excluded_tune_annotations:
+    rule: per SOG (prereg literal); OG-wide reported as sensitivity
+    n_tuning_list_rows: 505
+    n_used_in_tune_pairs: 155
+    pairs_file: results/sogs/20261030T085136Z/O1/tau_benchmark_pairs.parquet
+    n_keys_per_sog: 114
+    n_keys_og_wide: 130
+cofold_ligands:
+- CCD:ADP
+- CCD:MG
+cofold_decoys:
+- - CCD:TTP
+  - CCD:MG
+positive_control:
+  acc: P35790
+  pdb: 3g15
+  chain: A
+  ligand: ADP
+  seqnum: null
+cofold_family: choline/ethanolamine kinase (EC 2.7.1.32)

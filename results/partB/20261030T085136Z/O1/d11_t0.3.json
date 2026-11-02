@@ -1,0 +1,13 @@
+{
+ "decision": "D11",
+ "rule": "A requires member footprint > 10 residues, else U",
+ "tau": 0.3,
+ "n_A_rows_checked": 2378036,
+ "n_without_msa_or_footprint": 0,
+ "A_to_U": {
+  "state": 1132315,
+  "state_s70": 1653454
+ },
+ "out": "/tmp/pe_big/partB/20261030T085136Z/O1/states_d11_t0.3",
+ "runtime_s": 29.25615644454956
+}
